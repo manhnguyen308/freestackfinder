@@ -8,7 +8,6 @@ tags: ["canva alternatives", "free design tool", "canva free tier"]
 slug: "best-free-alternatives-to-canva-2026"
 keywords: ["canva alternatives", "free design tool", "canva free tier"]
 image: "/img/best-free-canva-alternatives-2026-featured-image.png"
-alt: "Best free Canva alternatives in 2026 comparison of online design tools"
 author: ""
 draft: true
 noindex: false
