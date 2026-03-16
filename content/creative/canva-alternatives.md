@@ -7,6 +7,7 @@ draft: false
 slug: "canva-alternatives"
 categories: ["Creative"]
 tags: ["canva alternatives", "free design tool", "free graphic design software"]
+image: "/img/best-free-canva-alternatives-2026-featured-image.png"
 keywords:
   - "free canva alternative"
   - "canva alternative free"
