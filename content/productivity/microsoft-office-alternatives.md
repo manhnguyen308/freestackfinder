@@ -7,7 +7,7 @@ categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
 keywords: ["free microsoft office alternative", "free office suite", "libreoffice vs microsoft office"]
 image: "/img/office-alternatives.jpg"
-author: "SwitchForFree Team"
+author: "FreeStackFinder Team"
 featured: true
 faqs:
   - question: "What is the best free alternative to Microsoft Office?"

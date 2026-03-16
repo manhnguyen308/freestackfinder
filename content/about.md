@@ -1,13 +1,13 @@
 ---
-title: "About SwitchForFree"
-description: "Why we built SwitchForFree, how we test software, and who we are."
+title: "About FreeStackFinder"
+description: "Why we built FreeStackFinder, how we test software, and who we are."
 noindex: false
 type: page
 ---
 
 <div class="static-page">
 
-# About SwitchForFree
+# About FreeStackFinder
 
 <p class="page-meta">Last updated: January 2025</p>
 
@@ -17,7 +17,7 @@ Software subscriptions have gotten out of hand. Adobe Creative Cloud costs over 
 
 But here's the thing: for a large percentage of users, there are genuinely good free alternatives to almost every piece of paid software. The problem is finding them, and knowing which ones are actually worth using.
 
-That's why SwitchForFree exists.
+That's why FreeStackFinder exists.
 
 ## What we actually do
 
@@ -47,7 +47,7 @@ You can read our full [affiliate disclaimer here](/disclaimer/).
 
 ## Who runs this site
 
-SwitchForFree is run by a small team of people who use computers every day and have a strong preference for not paying for things that don't need to cost money.
+FreeStackFinder is run by a small team of people who use computers every day and have a strong preference for not paying for things that don't need to cost money.
 
 We're not software engineers or tech journalists. We're everyday users who test tools from the perspective of real people: a freelancer who needs a good photo editor, a small business owner looking for an affordable project management tool, a student who needs something that runs on a Chromebook.
 

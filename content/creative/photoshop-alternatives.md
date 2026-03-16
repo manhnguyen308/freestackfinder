@@ -7,7 +7,7 @@ categories: ["Creative"]
 tags: ["photoshop alternatives", "free photo editor", "GIMP", "Photopea"]
 keywords: ["free photoshop alternative", "free photo editing software", "best free image editor"]
 image: "/img/photoshop-alternatives.jpg"
-author: "SwitchForFree Team"
+author: "FreeStackFinder Team"
 featured: true
 faqs:
   - question: "What is the best free alternative to Photoshop?"

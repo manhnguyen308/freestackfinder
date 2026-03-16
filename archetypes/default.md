@@ -7,7 +7,7 @@ categories: []
 tags: []
 keywords: []
 image: ""
-author: "SwitchForFree Team"
+author: "FreeStackFinder Team"
 draft: true
 noindex: false
 ---

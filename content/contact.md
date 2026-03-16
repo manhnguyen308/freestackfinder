@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-description: "Get in touch with the SwitchForFree team. Report outdated info, suggest a tool, or just say hello."
+description: "Get in touch with the FreeStackFinder team. Report outdated info, suggest a tool, or just say hello."
 noindex: false
 type: page
 ---

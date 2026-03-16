@@ -1,4 +1,4 @@
-# SwitchForFree — Setup & Deployment Guide
+# FreeStackFinder — Setup & Deployment Guide
 
 ## Stack Summary
 - **Generator:** Hugo (static site)
@@ -38,12 +38,12 @@ hugo version
 
 ```bash
 # If starting fresh:
-mkdir switchforfree && cd switchforfree
+mkdir freestackfinder && cd freestackfinder
 git init
 
 # If cloning:
-git clone https://github.com/YOURUSERNAME/switchforfree.git
-cd switchforfree
+git clone https://github.com/YOURUSERNAME/freestackfinder.git.git
+cd freestackfinder
 ```
 
 ### Step 2 — Run local server
@@ -73,14 +73,14 @@ hugo --minify
    ```bash
    git add .
    git commit -m "Initial site setup"
-   git remote add origin https://github.com/YOURUSERNAME/switchforfree.git
+   git remote add origin https://github.com/YOURUSERNAME/freestackfinder.git
    git push -u origin main
    ```
 
 2. **Connect to Cloudflare Pages:**
    - Log in to https://dash.cloudflare.com
    - Go to Workers & Pages → Create application → Pages
-   - Connect GitHub → Select your `switchforfree` repository
+   - Connect GitHub → Select your `freestackfinder` repository
    - Build settings:
      - **Framework preset:** Hugo
      - **Build command:** `hugo --minify`
@@ -90,7 +90,7 @@ hugo --minify
 
 3. **Add custom domain:**
    - In Cloudflare Pages → Custom domains → Add custom domain
-   - Enter `switchforfree.com` (or your domain)
+   - Enter `freestackfinder.com` (or your domain)
    - Update nameservers at Namecheap to Cloudflare's nameservers
    - SSL/HTTPS is automatic via Cloudflare
 
@@ -120,7 +120,7 @@ categories: ["Creative"]               # One of: Creative, Productivity, Video, 
 tags: ["photoshop", "free tools"]     # 3-5 relevant tags
 keywords: ["free photoshop alt"]      # Primary keyword + 2-3 variants
 image: "/img/your-image.jpg"          # Featured image (1200x630px recommended)
-author: "SwitchForFree Team"          # Author name
+author: "FreeStackFinder Team"          # Author name
 featured: true                         # true = appears in homepage "Popular" section
 draft: false                           # false = live, true = hidden
 faqs:                                  # Optional: adds FAQ schema for Google rich results
@@ -196,7 +196,7 @@ Before adding any image:
 ## Google Search Console Setup
 
 1. Go to https://search.google.com/search-console
-2. Add property → URL prefix → Enter `https://switchforfree.com`
+2. Add property → URL prefix → Enter `https://freestackfinder.com`
 3. Verify via HTML tag (add to head.html) OR DNS record (add via Cloudflare)
 4. Once verified, go to Sitemaps → Add `/sitemap.xml`
 5. Check Coverage tab weekly in Month 1–3 to confirm pages are indexed
@@ -220,7 +220,7 @@ Run this checklist once per month:
 ## Folder Structure Reference
 
 ```
-switchforfree/
+freestackfinder/
 ├── archetypes/
 │   └── default.md              # Template for new articles
 ├── content/

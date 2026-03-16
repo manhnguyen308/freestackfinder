@@ -1,4 +1,4 @@
-/* SwitchForFree — main.js */
+/* FreeStackFinder — main.js */
 
 (function () {
   'use strict';

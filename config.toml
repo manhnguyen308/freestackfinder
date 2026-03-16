@@ -1,6 +1,6 @@
-baseURL = "https://switchforfree.com/"
+baseURL = "https://freestackfinder.com/"
 languageCode = "en-us"
-title = "SwitchForFree"
+title = "FreeStackFinder"
 paginate = 12
 enableRobotsTXT = true
 enableGitInfo = false
@@ -8,9 +8,9 @@ summarylength = 40
 
 [params]
   description = "Find the best free alternatives to paid software. We test every tool so you know what actually works — and when the paid version is actually worth it."
-  author = "SwitchForFree Team"
+  author = "FreeStackFinder Team"
   tagline = "Stop paying for software you don't have to."
-  email = "hello@switchforfree.com"
+  email = "hello@freestackfinder.com"
   adsensePublisherId = "ca-pub-XXXXXXXXXX"
   showAds = false
 
