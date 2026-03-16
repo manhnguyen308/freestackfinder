@@ -6,7 +6,7 @@ description: "Microsoft 365 costs $100/year. We compared five free alternatives 
 categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
 keywords: ["free microsoft office alternative", "free office suite", "libreoffice vs microsoft office"]
-image: "/img/office-alternatives.jpg"
+image: "/img/microsoft-office-alternatives.jpg"
 author: "FreeStackFinder Team"
 featured: true
 faqs:
