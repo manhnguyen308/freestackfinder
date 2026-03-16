@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Free Cloud Storage &amp; File Sharing Alternatives on FreeStackFinder</title>
-    <link>http://localhost:1313/cloud/</link>
-    <description>Recent content in Free Cloud Storage &amp; File Sharing Alternatives on FreeStackFinder</description>
+    <title>Free Cloud Storage on FreeStackFinder</title>
+    <link>http://localhost:1313/tags/free-cloud-storage/</link>
+    <description>Recent content in Free Cloud Storage on FreeStackFinder</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/cloud/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/free-cloud-storage/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Best Free Cloud Storage in 2026 — Ranked by Actual Free Space</title>
       <link>http://localhost:1313/cloud/free-cloud-storage-comparison/</link>
