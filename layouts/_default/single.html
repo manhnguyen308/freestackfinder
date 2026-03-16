@@ -1,0 +1,159 @@
+{{ define "main" }}
+
+<div class="article-layout container">
+
+  <!-- ===== MAIN ARTICLE ===== -->
+  <article class="article-main" itemscope itemtype="https://schema.org/Article">
+
+    <!-- Breadcrumb -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        {{ with .Params.categories }}
+          {{ range first 1 . }}
+          <li><a href="/{{ . | urlize }}/">{{ . }}</a></li>
+          {{ end }}
+        {{ end }}
+        <li aria-current="page">{{ .Title | truncate 50 }}</li>
+      </ol>
+    </nav>
+
+    <!-- Article Header -->
+    <header class="article-header">
+      {{ with .Params.categories }}
+      <div class="article-category">
+        {{ range first 1 . }}
+        <a href="/{{ . | urlize }}/">{{ . }}</a>
+        {{ end }}
+      </div>
+      {{ end }}
+
+      <h1 itemprop="headline">{{ .Title }}</h1>
+
+      {{ with .Description }}
+      <p class="article-description">{{ . }}</p>
+      {{ end }}
+
+      <div class="article-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">
+          Published {{ .Date.Format "January 2, 2006" }}
+        </time>
+        {{ if ne .Date .Lastmod }}
+        <span>·</span>
+        <time datetime="{{ .Lastmod.Format "2006-01-02" }}" itemprop="dateModified">
+          Updated {{ .Lastmod.Format "January 2, 2006" }}
+        </time>
+        {{ end }}
+        <span>·</span>
+        <span>{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
+        <span itemprop="author" itemscope itemtype="https://schema.org/Person" style="display:none">
+          <span itemprop="name">{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}</span>
+        </span>
+      </div>
+    </header>
+
+    <!-- Ad slot: top of article — activate after AdSense approval -->
+    {{ if .Site.Params.showAds }}
+    <div class="ad-container ad-top" aria-label="Advertisement">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="{{ .Site.Params.adsensePublisherId }}"
+        data-ad-slot="TOP_ARTICLE_SLOT_ID"
+        data-ad-format="auto"
+        data-full-width-responsive="true"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    {{ end }}
+
+    <!-- Featured image -->
+    {{ with .Params.image }}
+    <div class="article-featured-image">
+      <img src="{{ . }}" alt="{{ $.Title }}" loading="eager" itemprop="image" />
+    </div>
+    {{ end }}
+
+    <!-- Article content -->
+    <div class="article-content" itemprop="articleBody">
+      {{ .Content }}
+    </div>
+
+    <!-- Tags -->
+    {{ with .Params.tags }}
+    <div class="article-tags" aria-label="Article tags">
+      {{ range . }}
+      <a href="/tags/{{ . | urlize }}/" class="tag">{{ . }}</a>
+      {{ end }}
+    </div>
+    {{ end }}
+
+    <!-- Author box -->
+    <div class="author-box" itemscope itemtype="https://schema.org/Person">
+      <div class="author-avatar" aria-hidden="true">SFF</div>
+      <div class="author-info">
+        <strong itemprop="name">{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}</strong>
+        <p>We test free software tools before writing about them. Our process: download and install each tool, use it for real tasks for at least a few hours, and document what works and what doesn't. We're not software engineers — we're users who got tired of paying for things that have free alternatives.</p>
+      </div>
+    </div>
+
+  </article>
+
+  <!-- ===== SIDEBAR ===== -->
+  <aside class="article-sidebar" aria-label="Article sidebar">
+
+    <!-- Table of Contents -->
+    {{ if .TableOfContents }}
+    <div class="sidebar-widget toc-widget">
+      <h4>In this article</h4>
+      {{ .TableOfContents }}
+    </div>
+    {{ end }}
+
+    <!-- Ad sidebar — activate after AdSense approval -->
+    {{ if .Site.Params.showAds }}
+    <div class="sidebar-widget ad-widget" aria-label="Advertisement">
+      <ins class="adsbygoogle"
+        style="display:block"
+        data-ad-client="{{ .Site.Params.adsensePublisherId }}"
+        data-ad-slot="SIDEBAR_SLOT_ID"
+        data-ad-format="rectangle"
+        data-full-width-responsive="false"></ins>
+      <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+    </div>
+    {{ end }}
+
+    <!-- Related articles -->
+    <div class="sidebar-widget">
+      <h4>Related guides</h4>
+      <ul class="related-list" role="list">
+        {{ $related := .Site.RegularPages.Related . }}
+        {{ range first 5 $related }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    </div>
+
+    <!-- CTA: Free Stack Guide -->
+    <div class="sidebar-widget cta-widget">
+      <h4>Free stack for freelancers</h4>
+      <p>Get our curated list of the best free tools for freelancers and small teams — no email required.</p>
+      <a href="/free-stack-guide/" class="btn btn-primary">Download free →</a>
+    </div>
+
+  </aside>
+
+</div>
+
+<!-- ===== MORE FROM THIS CATEGORY ===== -->
+<section class="related-section">
+  <div class="container">
+    <h2>More free software guides</h2>
+    <div class="articles-grid">
+      {{ $related := .Site.RegularPages.Related . }}
+      {{ range first 3 $related }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

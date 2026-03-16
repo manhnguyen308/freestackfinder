@@ -1,0 +1,87 @@
+baseURL = "https://switchforfree.com/"
+languageCode = "en-us"
+title = "SwitchForFree"
+paginate = 12
+enableRobotsTXT = true
+enableGitInfo = false
+summarylength = 40
+
+[params]
+  description = "Find the best free alternatives to paid software. We test every tool so you know what actually works — and when the paid version is actually worth it."
+  author = "SwitchForFree Team"
+  tagline = "Stop paying for software you don't have to."
+  email = "hello@switchforfree.com"
+  adsensePublisherId = "ca-pub-XXXXXXXXXX"
+  showAds = false
+
+[params.social]
+  twitter = ""
+  pinterest = ""
+
+[related]
+  includeNewer = true
+  threshold = 80
+  toLower = false
+  [[related.indices]]
+    name = "categories"
+    weight = 100
+  [[related.indices]]
+    name = "tags"
+    weight = 80
+  [[related.indices]]
+    name = "keywords"
+    weight = 50
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    name = "Creative"
+    url = "/creative/"
+    weight = 1
+  [[menu.main]]
+    name = "Productivity"
+    url = "/productivity/"
+    weight = 2
+  [[menu.main]]
+    name = "Video"
+    url = "/video/"
+    weight = 3
+  [[menu.main]]
+    name = "Business"
+    url = "/business/"
+    weight = 4
+  [[menu.main]]
+    name = "Security"
+    url = "/security/"
+    weight = 5
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false

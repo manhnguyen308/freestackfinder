@@ -1,0 +1,48 @@
+{{ define "main" }}
+
+<div class="page-layout container">
+
+  <!-- Category Header -->
+  <header class="category-header">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <ol>
+        <li><a href="/">Home</a></li>
+        <li aria-current="page">{{ .Title }}</li>
+      </ol>
+    </nav>
+
+    <h1>{{ .Title }}</h1>
+
+    {{ with .Description }}
+    <p class="category-description">{{ . }}</p>
+    {{ end }}
+
+    {{ with .Content }}
+    <div class="category-intro">{{ . }}</div>
+    {{ end }}
+
+    {{ if .Paginator.TotalPages }}
+    <p class="article-count">{{ .Paginator.TotalNumberOfElements }} guides in this category</p>
+    {{ end }}
+  </header>
+
+  <!-- Articles Grid -->
+  {{ if .Paginator.Pages }}
+  <div class="articles-grid category-articles">
+    {{ range .Paginator.Pages }}
+      {{ if ne .Type "page" }}
+        {{ partial "article-card.html" . }}
+      {{ end }}
+    {{ end }}
+  </div>
+
+  <!-- Pagination -->
+  {{ template "_internal/pagination.html" . }}
+
+  {{ else }}
+  <p class="empty-state">No articles in this category yet. Check back soon — we publish new comparisons weekly.</p>
+  {{ end }}
+
+</div>
+
+{{ end }}
