@@ -1,7 +1,7 @@
 ---
-title: "Best Free Alternatives to Adobe Photoshop (2025) — Tested and Ranked"
-date: 2025-01-15
-lastmod: 2025-01-15
+title: "Best Free Alternatives to Adobe Photoshop (2026) — Tested and Ranked"
+date: 2026-01-15
+lastmod: 2026-01-15
 description: "We tested seven free Photoshop alternatives on real tasks. Here's which ones are genuinely good, which are limited, and when Photoshop is actually worth paying for."
 categories: ["Creative"]
 tags: ["photoshop alternatives", "free photo editor", "GIMP", "Photopea"]
@@ -28,7 +28,7 @@ We tested seven free Photoshop alternatives using four real-world tasks: retouch
 
 For most users, **Photopea** is the best free Photoshop alternative — it's browser-based, requires no download, and even opens PSD files. For users who need a powerful desktop app, **GIMP** is the right choice. Both are completely free.
 
-## The best free Photoshop alternatives in 2025
+## The best free Photoshop alternatives in 2026
 
 ### 1. Photopea — best for Photoshop users switching over
 

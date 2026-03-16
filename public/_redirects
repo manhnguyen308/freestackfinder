@@ -1,0 +1,35 @@
+# SwitchForFree — Affiliate Link Redirects
+# Format: /go/name    https://destination-url    302
+#
+# HOW TO USE:
+# - In articles, link to /go/toolname instead of direct affiliate URL
+# - Update the destination URL here if it ever changes
+# - This means you only update ONE file, not every article
+
+# Creative Tools
+/go/canva-pro       https://www.canva.com/en_gb/pro/         302
+/go/affinity-photo  https://affinity.serif.com/photo/        302
+/go/adobe-cc        https://www.adobe.com/creativecloud.html 302
+
+# Productivity
+/go/grammarly       https://www.grammarly.com/upgrade        302
+/go/notion-plus     https://www.notion.so/pricing            302
+/go/microsoft-365   https://www.microsoft.com/microsoft-365  302
+
+# Video Tools
+/go/davinci-studio  https://www.blackmagicdesign.com/store   302
+/go/loom-paid       https://www.loom.com/pricing             302
+
+# Security
+/go/nordvpn         https://nordvpn.com/pricing/             302
+/go/1password       https://1password.com/sign-up/           302
+/go/lastpass        https://www.lastpass.com/pricing         302
+
+# Business
+/go/quickbooks      https://quickbooks.intuit.com/pricing/   302
+/go/freshbooks      https://www.freshbooks.com/pricing       302
+/go/hubspot         https://www.hubspot.com/pricing          302
+
+# Cloud Storage
+/go/dropbox-plus    https://www.dropbox.com/plans            302
+/go/box-paid        https://www.box.com/pricing              302

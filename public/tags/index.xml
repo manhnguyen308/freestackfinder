@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on FreeStackFinder</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on FreeStackFinder</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 16 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Free Office Suite</title>
+      <link>http://localhost:1313/tags/free-office-suite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/free-office-suite/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Docs</title>
+      <link>http://localhost:1313/tags/google-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/google-docs/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LibreOffice</title>
+      <link>http://localhost:1313/tags/libreoffice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/libreoffice/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Microsoft Office Alternative</title>
+      <link>http://localhost:1313/tags/microsoft-office-alternative/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/microsoft-office-alternative/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Free Photo Editor</title>
+      <link>http://localhost:1313/tags/free-photo-editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/free-photo-editor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GIMP</title>
+      <link>http://localhost:1313/tags/gimp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/gimp/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photopea</title>
+      <link>http://localhost:1313/tags/photopea/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/photopea/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Photoshop Alternatives</title>
+      <link>http://localhost:1313/tags/photoshop-alternatives/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/photoshop-alternatives/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
