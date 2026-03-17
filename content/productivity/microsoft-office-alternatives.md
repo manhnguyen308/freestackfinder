@@ -6,7 +6,7 @@ description: "Microsoft 365 costs $100/year. We compared five free alternatives 
 categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
 keywords: ["free microsoft office alternative", "free office suite", "libreoffice vs microsoft office"]
-image: "/img/office-alternatives.jpg"
+image: "/img/microsoft-office-alternatives.jpg"
 author: "FreeStackFinder Team"
 featured: true
 faqs:
@@ -145,3 +145,5 @@ You should keep Microsoft 365 if you:
 - **Freelancers:** Google Docs for everyday work, LibreOffice when a client needs a perfectly formatted Word file.
 - **Small businesses:** Google Workspace free tier covers most needs; upgrade to the paid Workspace plan ($6/user/month) only when you need a custom domain email.
 - **Power Excel users:** Keep Microsoft 365, or invest time learning Sheets — it handles most advanced functions now.
+
+For writing specifically, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for grammar and style tools that pair well with any free office suite.

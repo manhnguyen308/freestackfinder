@@ -80,7 +80,7 @@ For storing and sharing files outside the Google and Microsoft ecosystems, also 
 
 **Who it's best for:** Users already in the Google ecosystem, anyone who collaborates on documents regularly, and users who want free office tools bundled with their storage.
 
-**Why it stands out:** Google Drive's real strength is not the storage — it is the free productivity suite that comes with it. If you use Google Docs, Sheets, or Slides, your documents do not count toward your 15GB limit, which effectively makes the storage go further for document-heavy workflows. The collaboration features are the best of any free tier in this list. The caveat is that 15GB fills up fast when Gmail and Photos are drawing from the same pool. If you use Google Photos on Auto Backup, you may find your Drive storage disappearing faster than expected.
+**Why it stands out:** Google Drive's real strength is not the storage — it is the free productivity suite that comes with it. If you use Google Docs, Sheets, or Slides, your documents do not count toward your 15GB limit, which effectively makes the storage go further for document-heavy workflows. Google Drive also bundles Docs, Sheets, and Slides for free — covered in our [Office alternatives comparison](/productivity/microsoft-office-alternatives/) if you are considering switching from Microsoft Office. The collaboration features are the best of any free tier in this list. The caveat is that 15GB fills up fast when Gmail and Photos are drawing from the same pool. If you use Google Photos on Auto Backup, you may find your Drive storage disappearing faster than expected.
 
 [Use Google Drive free →](https://drive.google.com)
 
