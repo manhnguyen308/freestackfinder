@@ -1,7 +1,7 @@
 ---
-title: "Best Free Alternatives to Microsoft Office (2026) — Honest Comparison"
-date: 2026-01-16
-lastmod: 2026-01-16
+title: "Best Free Alternatives to Microsoft Office (2025) — Honest Comparison"
+date: 2025-01-16
+lastmod: 2025-01-16
 description: "Microsoft 365 costs $100/year. We compared five free alternatives on real-world tasks and tell you which ones are genuinely good enough — and for whom."
 categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
@@ -55,6 +55,8 @@ Google's free productivity suite has quietly become one of the most capable offi
 <div class="verdict-box good"><div class="verdict-label">Our verdict</div><p>For most everyday users, Google Docs/Sheets/Slides replaces Microsoft Office completely. The collaboration features are actually better than Office for real-time teamwork. Strong recommendation.</p></div>
 
 [Use Google Workspace free →](https://workspace.google.com)
+
+For team messaging alongside Google Workspace, see our [free Slack alternatives guide](/productivity/slack-alternatives/) for the best free options to replace Slack.
 
 ---
 

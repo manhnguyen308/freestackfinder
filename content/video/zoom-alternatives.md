@@ -128,7 +128,7 @@ For many users, the switch away from Zoom is not even about cost. It is about re
 
 **Who it's best for:** Remote teams with an informal culture, creator communities, study groups, and anyone who wants always-on voice or video without scheduling a meeting.
 
-**Why it stands out:** Discord fills a gap that Zoom and Google Meet do not address: persistent, always-available communication channels. Instead of scheduling meetings, teams drop into voice or video channels when they need to talk — the equivalent of walking over to someone's desk. For startups, remote-first teams, and creative collaborators, this async-friendly model can be more productive than a calendar full of scheduled calls. The unlimited free tier and no time limits make it one of the most cost-effective communication tools available.
+**Why it stands out:** Discord fills a gap that Zoom and Google Meet do not address: persistent, always-available communication channels. Instead of scheduling meetings, teams drop into voice or video channels when they need to talk — the equivalent of walking over to someone's desk. For startups, remote-first teams, and creative collaborators, this async-friendly model can be more productive than a calendar full of scheduled calls. The unlimited free tier and no time limits make it one of the most cost-effective communication tools available. Discord is also a strong free alternative to Slack for team messaging — see our [free Slack alternatives guide](/productivity/slack-alternatives/).
 
 [Use Discord free →](https://discord.com)
 
