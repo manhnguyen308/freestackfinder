@@ -136,6 +136,8 @@ For teams also looking for dedicated meeting tools for more formal client calls,
 
 [Try Mattermost free →](https://mattermost.com)
 
+For storing team wikis and documentation alongside your messaging tool, see our [free Notion alternatives guide](/productivity/notion-alternatives/) for the best free knowledge management tools.
+
 ---
 
 ### 5. Rocket.Chat free — best self-hosted option with the most features

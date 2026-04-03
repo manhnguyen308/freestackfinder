@@ -148,4 +148,4 @@ You should keep Microsoft 365 if you:
 - **Small businesses:** Google Workspace free tier covers most needs; upgrade to the paid Workspace plan ($6/user/month) only when you need a custom domain email.
 - **Power Excel users:** Keep Microsoft 365, or invest time learning Sheets — it handles most advanced functions now.
 
-For writing specifically, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for grammar and style tools that pair well with any free office suite.
+For writing specifically, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for grammar and style tools that pair well with any free office suite. For organising your notes and research alongside Google Docs, see our [free Notion alternatives guide](/productivity/notion-alternatives/) for the best free knowledge management tools.

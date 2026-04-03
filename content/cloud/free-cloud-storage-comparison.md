@@ -183,6 +183,8 @@ For storing and sharing files outside the Google and Microsoft ecosystems, also 
 
 [Try Proton Drive free →](https://proton.me/drive)
 
+For the full privacy-first toolkit alongside free encrypted storage, see our [free password managers guide](/security/free-password-managers/) — securing your cloud account with a strong unique password is as important as choosing the right storage service.
+
 ---
 
 ### 7. Dropbox — most well-known but least generous on the free tier
