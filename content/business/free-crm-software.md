@@ -64,6 +64,8 @@ For a business that is tracking leads, managing a sales pipeline, logging custom
 
 [Try HubSpot CRM Free →](https://hubspot.com/crm)
 
+For securing your CRM login and all the client credentials stored inside it, see our [free password managers guide](/security/free-password-managers/) — a dedicated password manager is the most important security tool for anyone running client data in a CRM.
+
 ---
 
 ### 2. Zoho CRM Free — best for small teams up to three users
@@ -194,6 +196,12 @@ For a business that is tracking leads, managing a sales pipeline, logging custom
 **Consultant managing a network, not a pipeline:** Folk Free — designed for this use case.
 
 ---
+
+## When to upgrade from the free CRM tier
+
+HubSpot's paid Marketing Hub starts at $15/month per seat and unlocks email automation sequences, A/B testing, and advanced reporting — the features most small businesses eventually need as their pipeline scales. The paid tier is worth evaluating once you find yourself manually following up on sequences that could be automated, or when you need campaign-level reporting that the free dashboard cannot provide.
+
+[See HubSpot's paid plans →](https://hubspot.com/pricing)
 
 ## Our verdict
 

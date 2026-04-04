@@ -180,11 +180,17 @@ macOS has a different threat landscape to Windows. Apple's built-in security lay
 
 ## Do you need paid antivirus software?
 
-For personal use on a modern Windows 11 machine with updates enabled, the honest answer is no — not for antivirus protection specifically. Paid antivirus suites differentiate themselves with bundled VPNs, identity monitoring, family controls, and multi-device management, not with meaningfully better malware detection. If you are paying solely for better virus protection than Windows Defender, the independent lab data does not support that value proposition.
+For personal use on a modern Windows 11 machine with updates enabled, the honest answer is no — not for antivirus protection specifically. Paid antivirus suites differentiate themselves with bundled VPNs, identity monitoring, family controls, and multi-device management, not with meaningfully better malware detection. If you are paying solely for better virus protection than Windows Defender, the independent lab data does not support that value proposition. For securing the files you store online, see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/) — choosing an encrypted storage provider is a more impactful security decision than paying for antivirus.
 
 A more impactful security upgrade is using a dedicated [free password manager](/security/free-password-managers/) — weak and reused passwords are responsible for far more account compromises than malware in 2026.
 
 ---
+
+## When a paid security suite makes sense
+
+A paid security suite makes sense if you want a VPN alongside your antivirus — bundled plans from NordVPN include Threat Protection, which blocks malicious sites and ad trackers at the network level, adding a layer that Windows Defender does not provide. For users who use public Wi-Fi regularly, travel frequently, or want a single subscription that covers device protection and private browsing, a bundled plan is worth evaluating.
+
+[See NordVPN's security bundle →](https://nordvpn.com)
 
 ## Our verdict
 
