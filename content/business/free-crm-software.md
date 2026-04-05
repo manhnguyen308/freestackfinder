@@ -199,9 +199,11 @@ For securing your CRM login and all the client credentials stored inside it, see
 
 ## When to upgrade from the free CRM tier
 
-HubSpot's paid Marketing Hub starts at $15/month per seat and unlocks email automation sequences, A/B testing, and advanced reporting — the features most small businesses eventually need as their pipeline scales. The paid tier is worth evaluating once you find yourself manually following up on sequences that could be automated, or when you need campaign-level reporting that the free dashboard cannot provide.
+HubSpot's paid Marketing Hub starts at $15/month per seat and unlocks email automation sequences, A/B testing, and advanced reporting — the features most small businesses eventually need as their pipeline scales.
 
-[See HubSpot's paid plans →](https://hubspot.com/pricing)
+Zoho CRM's paid tiers start at $14/user/month (Standard) and add workflow automation, scoring rules, and advanced analytics. If you have grown past the three-user free limit and are already using other Zoho products, upgrading within the Zoho ecosystem makes more sense than switching platforms.
+
+[Try Zoho CRM →](https://zoho.com/crm) — affiliate program available via CJ Affiliate once traffic grows.
 
 ## Our verdict
 

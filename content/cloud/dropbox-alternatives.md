@@ -1,8 +1,8 @@
 ---
 title: "Best Free Dropbox Alternatives in 2026 — More Storage, Same Simplicity"
 description: "Dropbox's free tier gives you 2GB. MEGA gives you 20GB. Google Drive gives 15GB. Here's how every free cloud storage option compares to Dropbox — and which one you should switch to."
-date: "2026-04-03"
-lastmod: "2026-04-03"
+date: "2026-04-02"
+lastmod: "2026-04-02"
 draft: false
 slug: "dropbox-alternatives"
 categories: ["Cloud"]
@@ -187,6 +187,7 @@ Free tiers are sufficient until you either run out of space consistently, need t
 
 For users who want encrypted cloud storage bundled with a VPN — useful if you regularly access cloud files on public Wi-Fi — NordLocker (from NordVPN) offers encrypted storage alongside VPN protection in a single subscription.
 
+<!-- NORDVPN_AFFILIATE: replace href with your affiliate link once NordVPN activates your account -->
 [See NordLocker's encrypted storage →](https://nordvpn.com/nordlocker/)
 
 ## Our verdict

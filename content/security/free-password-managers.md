@@ -190,6 +190,13 @@ Advanced two-factor authentication using hardware security keys (YubiKey, FIDO2)
 
 ---
 
+## A note on NordPass — NordVPN's password manager
+
+NordPass is the password manager from the same company as NordVPN. It offers a competitive free tier with unlimited passwords on one active device. If you are already using or planning to use NordVPN, NordPass integrates within the same account — one subscription can cover VPN, password manager, and encrypted storage (NordLocker) together.
+
+<!-- NORDVPN_AFFILIATE: replace href with your affiliate link once NordVPN activates your account -->
+[See NordPass free →](https://nordpass.com)
+
 ## Our verdict
 
 For almost every individual user, **Bitwarden free** is the best password manager available at any price — open-source, independently audited, unlimited passwords, unlimited devices, and completely free. There is no practical reason to pay for a password manager as an individual until you need family sharing or hardware key 2FA. If you want zero cloud involvement for maximum privacy, **KeePassXC** is the right choice despite the more technical setup. **Proton Pass** is the natural pick for existing Proton users. Switch to one of these today — your account security will be meaningfully better within the hour it takes to set up.
