@@ -4,6 +4,7 @@ description: "HubSpot's free CRM gives you unlimited contacts, unlimited users, 
 date: "2026-04-02"
 lastmod: "2026-04-02"
 draft: false
+weight: 37
 slug: "free-crm-software"
 categories: ["Business"]
 tags: ["free crm", "hubspot free crm", "zoho crm free", "best free crm 2026", "small business tools"]

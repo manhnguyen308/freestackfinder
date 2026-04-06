@@ -4,6 +4,7 @@ description: "Dropbox's free tier gives you 2GB. MEGA gives you 20GB. Google Dri
 date: "2026-04-02"
 lastmod: "2026-04-02"
 draft: false
+weight: 35
 slug: "dropbox-alternatives"
 categories: ["Cloud"]
 tags: ["dropbox alternative", "free cloud storage", "mega cloud", "google drive free", "best dropbox replacement"]

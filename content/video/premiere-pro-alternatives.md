@@ -4,6 +4,7 @@ description: "Adobe Premiere Pro costs over $300/year. We tested the best free a
 date: "2026-03-25"
 lastmod: "2026-03-25"
 draft: false
+weight: 52
 slug: "premiere-pro-alternatives"
 categories: ["Video"]
 tags: ["premiere pro alternatives", "free video editor", "davinci resolve free"]

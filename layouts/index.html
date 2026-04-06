@@ -54,7 +54,7 @@
   </div>
 </section>
 
-<!-- ===== FEATURED ARTICLES ===== -->
+<!-- ===== MOST POPULAR ===== -->
 <section class="articles-section">
   <div class="container">
     <div class="section-header">
@@ -62,14 +62,10 @@
       <a href="/all/" class="see-all">See all guides →</a>
     </div>
     <div class="articles-grid">
-      {{ range first 6 (where .Site.RegularPages "Params.featured" true) }}
+      {{ $pages := where .Site.RegularPages "Type" "not in" (slice "page") }}
+      {{ $weighted := where $pages "Params.weight" "gt" 0 }}
+      {{ range first 6 ($weighted.ByParam "weight").Reverse }}
         {{ partial "article-card.html" . }}
-      {{ else }}
-      {{ range first 6 .Site.RegularPages }}
-        {{ if ne .Type "page" }}
-          {{ partial "article-card.html" . }}
-        {{ end }}
-      {{ end }}
       {{ end }}
     </div>
   </div>

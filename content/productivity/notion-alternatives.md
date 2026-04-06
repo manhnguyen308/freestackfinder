@@ -4,6 +4,7 @@ description: "Notion's free plan is more limited than it looks. We tested 5 free
 date: "2026-03-26"
 lastmod: "2026-03-26"
 draft: false
+weight: 70
 slug: "notion-alternatives"
 categories: ["Productivity"]
 tags: ["notion alternatives", "free note taking app", "obsidian vs notion"]

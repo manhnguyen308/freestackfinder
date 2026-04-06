@@ -4,6 +4,7 @@ description: "QuickBooks charges monthly fees most freelancers don't need to pay
 date: "2026-03-18"
 lastmod: "2026-03-18"
 draft: false
+weight: 50
 slug: "quickbooks-alternatives"
 categories: ["Business"]
 tags: ["free quickbooks alternative", "free accounting software", "wave accounting"]

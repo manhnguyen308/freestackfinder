@@ -1,9 +1,10 @@
 ---
 title: "Best Free Alternatives to Adobe Illustrator in 2026 — Tested and Compared"
 description: "Adobe Illustrator costs $22/month. Inkscape is free, open-source, and handles most professional vector work. Here's how every free Illustrator alternative compares — and which one you actually need."
-date: "2026-04-05"
-lastmod: "2026-04-05"
+date: "2026-04-03"
+lastmod: "2026-04-03"
 draft: false
+weight: 40
 slug: "illustrator-alternatives"
 categories: ["Creative"]
 tags: ["free illustrator alternative", "inkscape review", "free vector software", "adobe illustrator alternative free"]

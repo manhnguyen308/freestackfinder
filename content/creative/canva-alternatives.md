@@ -4,6 +4,7 @@ description: "Looking for a free Canva alternative? We tested the best options f
 date: "2026-03-16"
 lastmod: "2026-03-16"
 draft: false
+weight: 85
 slug: "canva-alternatives"
 categories: ["Creative"]
 tags: ["canva alternatives", "free design tool", "free graphic design software"]

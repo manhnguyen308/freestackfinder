@@ -1,9 +1,10 @@
 ---
 title: "Best Free VPN in 2026 — Honest Comparison (Most Free VPNs Are Dangerous)"
 description: "Most free VPNs sell your browsing data to pay their bills. ProtonVPN is the only truly unlimited free VPN with a verified no-logs policy. Here's what the data actually shows."
-date: "2026-04-06"
-lastmod: "2026-04-06"
+date: "2026-04-04"
+lastmod: "2026-04-04"
 draft: false
+weight: 36
 slug: "free-vpn"
 categories: ["Security"]
 tags: ["free vpn", "protonvpn free", "best free vpn 2026", "free vpn no logs"]

@@ -4,6 +4,7 @@ description: "We tested the best free video editors available in 2026. One of th
 date: "2026-03-17"
 lastmod: "2026-03-17"
 draft: false
+weight: 65
 slug: "free-video-editing-software"
 categories: ["Video"]
 tags: ["free video editor", "davinci resolve free", "best free video editing software"]

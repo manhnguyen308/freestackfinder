@@ -4,6 +4,7 @@ description: "Windows Defender, built into Windows 11, scores comparably to paid
 date: "2026-04-02"
 lastmod: "2026-04-02"
 draft: false
+weight: 38
 slug: "free-antivirus-software"
 categories: ["Security"]
 tags: ["free antivirus", "windows defender review", "malwarebytes free", "best free antivirus 2026"]

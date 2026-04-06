@@ -4,6 +4,7 @@ description: "Zoom's free plan limits group calls to 40 minutes. We tested 5 fre
 date: "2026-03-18"
 lastmod: "2026-03-18"
 draft: false
+weight: 58
 slug: "zoom-alternatives"
 categories: ["Video"]
 tags: ["zoom alternatives", "free video calling", "google meet free"]

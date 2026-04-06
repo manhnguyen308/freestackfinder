@@ -4,6 +4,7 @@ description: "LastPass gutted its free tier and had major security breaches. We 
 date: "2026-03-27"
 lastmod: "2026-03-27"
 draft: false
+weight: 80
 slug: "free-password-managers"
 categories: ["Security"]
 tags: ["free password manager", "bitwarden review", "lastpass alternative"]
