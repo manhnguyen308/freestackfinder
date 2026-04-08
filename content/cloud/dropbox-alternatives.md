@@ -188,10 +188,12 @@ Free tiers are sufficient until you either run out of space consistently, need t
 
 For users who want encrypted cloud storage bundled with a VPN — useful if you regularly access cloud files on public Wi-Fi — NordLocker (from NordVPN) offers encrypted storage alongside VPN protection in a single subscription.
 
-<div class="affiliate-banner">
-<a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902" rel="sponsored noopener" target="_blank">
-  <img src="/img/nordvpn-banner.png" alt="Protect your digital life from cyberthreats — Get NordVPN" width="320" height="50" loading="lazy">
-</a>
+<div class="affiliate-cta">
+<div class="affiliate-cta-content">
+<p class="affiliate-cta-title">Want full VPN protection?</p>
+<p class="affiliate-cta-desc">NordVPN has an independently audited no-logs policy, covers 6 devices, and includes Threat Protection to block malware and trackers. Starts at $3.39/month.</p>
+<a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Get NordVPN →</a>
+</div>
 </div>
 
 ## Our verdict

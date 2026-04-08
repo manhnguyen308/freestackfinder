@@ -881,6 +881,65 @@ button { font-family: inherit; cursor: pointer; }
 .affiliate-notice a { color: #94A3B8; text-decoration: underline; }
 .affiliate-notice a:hover { color: white; }
 
+
+/* ── Affiliate CTA block ─────────────────────────────────────────────────── */
+.affiliate-cta {
+  margin: 32px 0;
+  padding: 20px 24px;
+  background: var(--bg-2);
+  border: 1px solid var(--border-dark);
+  border-left: 4px solid var(--primary);
+  border-radius: var(--radius-lg);
+}
+
+.affiliate-cta-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.affiliate-cta-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  margin: 0;
+}
+
+.affiliate-cta-desc {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.affiliate-cta-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 9px 20px;
+  background: var(--primary);
+  color: #ffffff !important;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none !important;
+  border-radius: var(--radius);
+  transition: background 0.15s ease;
+  align-self: flex-start;
+}
+
+.affiliate-cta-btn:hover {
+  background: var(--primary-dark);
+}
+
+@media (max-width: 640px) {
+  .affiliate-cta {
+    padding: 16px;
+  }
+  .affiliate-cta-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /* 25. Responsive — Mobile
    =========================================== */
 @media (max-width: 768px) {

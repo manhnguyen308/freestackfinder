@@ -191,10 +191,12 @@ A more impactful security upgrade is using a dedicated [free password manager](/
 
 A paid security suite makes sense if you want a VPN alongside your antivirus — bundled plans from NordVPN include Threat Protection, which blocks malicious sites and ad trackers at the network level, adding a layer that Windows Defender does not provide. For users who use public Wi-Fi regularly, travel frequently, or want a single subscription that covers device protection and private browsing, a bundled plan is worth evaluating.
 
-<div class="affiliate-banner">
-<a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902" rel="sponsored noopener" target="_blank">
-  <img src="/img/nordvpn-banner.png" alt="Protect your digital life from cyberthreats — Get NordVPN" width="320" height="50" loading="lazy">
-</a>
+<div class="affiliate-cta">
+<div class="affiliate-cta-content">
+<p class="affiliate-cta-title">Want full VPN protection?</p>
+<p class="affiliate-cta-desc">NordVPN has an independently audited no-logs policy, covers 6 devices, and includes Threat Protection to block malware and trackers. Starts at $3.39/month.</p>
+<a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Get NordVPN →</a>
+</div>
 </div>
 
 ## Our verdict

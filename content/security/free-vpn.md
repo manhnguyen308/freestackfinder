@@ -166,10 +166,12 @@ Several widely-downloaded free VPNs have documented histories of selling user da
 
 A paid VPN is worth the cost when you use a VPN daily, need fast speeds for streaming or downloads, require servers in specific countries, or need to protect more than one device. The gap between ProtonVPN Free (3 countries, slow speeds, 1 device) and a paid VPN is significant in practical use.
 
-<div class="affiliate-banner">
-<a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902" rel="sponsored noopener" target="_blank">
-  <img src="/img/nordvpn-banner.png" alt="Protect your digital life from cyberthreats — Get NordVPN" width="320" height="50" loading="lazy">
-</a>
+<div class="affiliate-cta">
+<div class="affiliate-cta-content">
+<p class="affiliate-cta-title">Want full VPN protection?</p>
+<p class="affiliate-cta-desc">NordVPN has an independently audited no-logs policy, covers 6 devices, and includes Threat Protection to block malware and trackers. Starts at $3.39/month.</p>
+<a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Get NordVPN →</a>
+</div>
 </div>
 
 For users who have already set up ProtonVPN Free and want to explore whether a paid plan makes sense, ProtonVPN's paid tier starts at $3.99/month (billed annually) and unlocks all server countries, 10 devices, and streaming unblocking — an upgrade path that stays within the same audited, no-logs ecosystem.

@@ -195,10 +195,12 @@ Advanced two-factor authentication using hardware security keys (YubiKey, FIDO2)
 
 NordPass is the password manager from the same company as NordVPN. It offers a competitive free tier with unlimited passwords on one active device. If you are already using or planning to use NordVPN, NordPass integrates within the same account — one subscription can cover VPN, password manager, and encrypted storage (NordLocker) together.
 
-<div class="affiliate-banner">
-<a href="https://go.nordpass.io/aff_c?offer_id=488&aff_id=144937&url_id=9356" rel="sponsored noopener" target="_blank">
-  <img src="/img/nordpass-banner.png" alt="NordPass makes it safe to be yourself — Get NordPass" width="728" height="90" loading="lazy">
-</a>
+<div class="affiliate-cta">
+<div class="affiliate-cta-content">
+<p class="affiliate-cta-title">Already use NordVPN? Add NordPass.</p>
+<p class="affiliate-cta-desc">NordPass is NordVPN's password manager — unlimited passwords, cross-device sync, data breach scanner, and a zero-knowledge architecture. One subscription covers VPN, password manager, and encrypted storage.</p>
+<a href="https://go.nordpass.io/aff_c?offer_id=488&aff_id=144937&url_id=9356" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Get NordPass →</a>
+</div>
 </div>
 
 ## Our verdict
