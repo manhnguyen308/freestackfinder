@@ -4,7 +4,6 @@ description: "Zoom's free plan limits group calls to 40 minutes. We tested 5 fre
 date: "2026-03-18"
 lastmod: "2026-03-18"
 draft: false
-weight: 58
 slug: "zoom-alternatives"
 categories: ["Video"]
 tags: ["zoom alternatives", "free video calling", "google meet free"]
@@ -183,4 +182,4 @@ For individual professionals, the consideration is simpler: if your clients expe
 
 ## Our verdict
 
-For most users, **Google Meet** solves the Zoom free tier problem completely — browser-based, no time limit on 1:1 calls, and participants join without installing anything. For fully frictionless calls where even a Google account is too much to ask, **Jitsi Meet** is the cleanest choice. **Whereby** is the strongest option for freelancers who want a permanent professional meeting link to share with clients. Zoom paid remains worth it only for enterprise webinar features and large-scale meeting management — for everyday video calling in 2026, you do not need to pay for it.
+For most users, **Google Meet** solves the Zoom free tier problem completely — browser-based, no time limit on 1:1 calls, and participants join without installing anything. For fully frictionless calls where even a Google account is too much to ask, **Jitsi Meet** is the cleanest choice. **Whereby** is the strongest option for freelancers who want a permanent professional meeting link to share with clients. Zoom paid remains worth it only for enterprise webinar features and large-scale meeting management — for everyday video calling in 2026, you do not need to pay for it. For recording those calls or creating async walkthroughs, see our [free screen recording software guide](/video/free-screen-recording-software/).
