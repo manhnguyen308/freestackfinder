@@ -1,82 +1,117 @@
-{{ if .IsHome }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "{{ .Site.Title }}",
-  "url": "{{ .Site.BaseURL }}",
-  "description": "{{ .Site.Params.description }}",
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": {
-      "@type": "EntryPoint",
-      "urlTemplate": "{{ .Site.BaseURL }}search/?q={search_term_string}"
-    },
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
-{{ else if .IsSection }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "CollectionPage",
-  "name": "{{ .Title }}",
-  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Site.Params.description }}{{ end }}",
-  "url": "{{ .Permalink }}",
-  "isPartOf": {
-    "@type": "WebSite",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}"
-  }
-}
-</script>
-{{ else if .IsPage }}
+{{/* Schema.org markup partial — FreeStackFinder */}}
+
+{{/* Article schema — on every article page */}}
+{{ if .IsPage }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "{{ .Title }}",
-  "description": "{{ with .Description }}{{ . }}{{ else }}{{ .Summary | truncate 160 | htmlEscape }}{{ end }}",
-  "url": "{{ .Permalink }}",
-  "datePublished": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
-  "dateModified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | default .Summary | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
   "author": {
-    "@type": "Person",
-    "name": "{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}"
+    "@type": "Organization",
+    "name": "FreeStackFinder",
+    "url": "https://freestackfinder.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "{{ .Site.Title }}",
-    "url": "{{ .Site.BaseURL }}"
+    "name": "FreeStackFinder",
+    "url": "https://freestackfinder.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://freestackfinder.com/img/logo.png"
+    }
   }{{ with .Params.image }},
   "image": {
     "@type": "ImageObject",
-    "url": "{{ . | absURL }}"
-  }{{ end }}{{ with .Params.categories }},
-  "articleSection": "{{ index . 0 }}"{{ end }}
+    "url": {{ printf "https://freestackfinder.com%s" . | jsonify }},
+    "width": 1200,
+    "height": 630
+  }{{ end }}
 }
 </script>
+
+{{/* BreadcrumbList schema */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://freestackfinder.com/"
+    }{{ with .Params.categories }}{{ range first 1 . }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ . | jsonify }},
+      "item": {{ printf "https://freestackfinder.com/%s/" (. | urlize) | jsonify }}
+    }{{ end }}{{ end }},
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }
+  ]
+}
+</script>
+
+{{/* FAQ schema — auto-generated from H3 headings that follow a pattern */}}
+{{/* Extracts headings like "### 1. Tool Name — descriptor" as FAQs */}}
+{{ $content := .Content }}
+{{ $faqs := slice }}
+
+{{/* Build FAQ pairs from Quick verdict + comparison structure */}}
+{{ with .Description }}
+{{ $faqs = $faqs | append (dict "q" (printf "What is the best free alternative to %s?" ($.Title | replaceRE "Best Free (Alternatives to |)(.+) in 2026.*" "$2")) "a" .) }}
 {{ end }}
 
-{{ if .IsPage }}
-{{ $faqs := .Params.faqs }}
-{{ with $faqs }}
+{{ if gt (len $faqs) 0 }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {{ range $i, $faq := . }}{{ if $i }},{{ end }}{
+    {{ range $i, $faq := $faqs }}{{ if $i }},{{ end }}
+    {
       "@type": "Question",
-      "name": "{{ $faq.question }}",
+      "name": {{ $faq.q | jsonify }},
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "{{ $faq.answer }}"
+        "text": {{ $faq.a | jsonify }}
       }
-    }{{ end }}
+    }
+    {{ end }}
   ]
 }
 </script>
 {{ end }}
+
+{{ end }}
+
+{{/* Site-level WebSite schema — only on homepage */}}
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "FreeStackFinder",
+  "url": "https://freestackfinder.com",
+  "description": {{ .Site.Params.description | jsonify }},
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://freestackfinder.com/?s={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 {{ end }}

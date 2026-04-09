@@ -1,11 +1,16 @@
 ---
-title: "Best Free Alternatives to Microsoft Office (2025) — Honest Comparison"
-date: 2025-01-16
-lastmod: 2025-01-16
-description: "Microsoft 365 costs $100/year. We compared five free alternatives on real-world tasks and tell you which ones are genuinely good enough — and for whom."
+title: "Best Free Microsoft Office Alternative in 2026 — Tested and Compared"
+date: "2026-04-07"
+lastmod: "2026-04-07"
+description: "Microsoft 365 costs $100/year. Google Docs and LibreOffice are both free and handle most of what Office does. Here's the best free Microsoft Office alternative for your needs."
 categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
-keywords: ["free microsoft office alternative", "free office suite", "libreoffice vs microsoft office"]
+keywords:
+  - "free microsoft office alternative"
+  - "ms office alternative free"
+  - "alternative for microsoft office"
+  - "best free office suite 2026"
+  - "libreoffice vs microsoft office"
 image: "/img/microsoft-office-alternatives.jpg"
 author: "FreeStackFinder Team"
 weight: 90
