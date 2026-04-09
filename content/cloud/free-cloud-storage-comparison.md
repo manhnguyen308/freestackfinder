@@ -4,7 +4,6 @@ description: "We compared every major free cloud storage service by what actuall
 date: "2026-03-16"
 lastmod: "2026-03-16"
 draft: false
-weight: 75
 slug: "free-cloud-storage-comparison"
 categories: ["Cloud"]
 tags: ["free cloud storage", "google drive alternative", "mega cloud"]
