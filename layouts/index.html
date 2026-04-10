@@ -54,7 +54,7 @@
   </div>
 </section>
 
-<!-- ===== MOST POPULAR ===== -->
+<!-- ===== MOST POPULAR — sorted by weight descending ===== -->
 <section class="articles-section">
   <div class="container">
     <div class="section-header">
@@ -62,8 +62,8 @@
       <a href="/all/" class="see-all">See all guides →</a>
     </div>
     <div class="articles-grid">
-      {{ $pages := where .Site.RegularPages "Type" "not in" (slice "page") }}
-      {{ $weighted := where $pages "Params.weight" "gt" 0 }}
+      {{ $allArticles := where .Site.RegularPages "Type" "not in" (slice "page") }}
+      {{ $weighted := where $allArticles "Params.weight" "gt" 0 }}
       {{ range first 6 ($weighted.ByParam "weight").Reverse }}
         {{ partial "article-card.html" . }}
       {{ end }}
@@ -100,7 +100,7 @@
   </div>
 </section>
 
-<!-- ===== LATEST ARTICLES ===== -->
+<!-- ===== LATEST ARTICLES — sorted by date descending ===== -->
 <section class="articles-section articles-latest">
   <div class="container">
     <div class="section-header">
@@ -108,19 +108,18 @@
       <a href="/all/" class="see-all">See all →</a>
     </div>
     <div class="articles-list">
-      {{ range first 6 .Site.RegularPages }}
-        {{ if ne .Type "page" }}
-        <article class="article-list-item">
-          <div class="list-item-content">
-            {{ with .Params.categories }}
-            <span class="list-category">{{ range first 1 . }}{{ . }}{{ end }}</span>
-            {{ end }}
-            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-            <p>{{ .Description | default (.Summary | truncate 100) }}</p>
-          </div>
-          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
-        </article>
-        {{ end }}
+      {{ $latestArticles := where .Site.RegularPages "Type" "not in" (slice "page") }}
+      {{ range first 6 $latestArticles.ByDate.Reverse }}
+      <article class="article-list-item">
+        <div class="list-item-content">
+          {{ with .Params.categories }}
+          <span class="list-category">{{ range first 1 . }}{{ . }}{{ end }}</span>
+          {{ end }}
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Description | default (.Summary | truncate 100) }}</p>
+        </div>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+      </article>
       {{ end }}
     </div>
   </div>

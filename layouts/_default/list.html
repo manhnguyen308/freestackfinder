@@ -26,10 +26,12 @@
     {{ end }}
   </header>
 
-  <!-- Articles Grid -->
-  {{ if .Paginator.Pages }}
+  <!-- Articles Grid — sorted by date descending -->
+  {{ $pagesByDate := .Pages.ByDate.Reverse }}
+  {{ $paginator := .Paginate $pagesByDate }}
+  {{ if $paginator.Pages }}
   <div class="articles-grid category-articles">
-    {{ range .Paginator.Pages }}
+    {{ range $paginator.Pages }}
       {{ if ne .Type "page" }}
         {{ partial "article-card.html" . }}
       {{ end }}
