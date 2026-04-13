@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python generate_free_note_taking_apps.py)",
+      "Bash(python3 \"c:\\\\Website projects\\\\freestackfinder\\\\generate_free_note_taking_apps.py\")",
+      "Bash(py \"c:\\\\Website projects\\\\freestackfinder\\\\generate_free_note_taking_apps.py\")"
+    ]
+  }
+}

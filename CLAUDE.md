@@ -6,21 +6,60 @@ Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by 
 ## Daily workflow
 1. Read `freestackfinder-progress-log.md`
 2. Use it as the primary source of current project state
-3. Choose exactly one highest-value next task
-4. Inspect only the files needed for that task
+3. Choose the best next day activity
+4. Inspect only the files needed for that day activity
 5. Implement the change directly in the repo
 6. Update `freestackfinder-progress-log.md`
 
+## Definition of "next day activity"
+A next day activity is a focused bundle of related work for that day, not necessarily a single task.
+
+A valid day activity may include:
+- creating and publishing one new article
+- generating its feature image or image script
+- adding related internal links between the new article and existing relevant articles
+- improving affiliate placement on directly related pages
+- making small, relevant UX/SEO/content enhancements tied to that work
+- updating the progress tracker
+- committing and deploying after verification
+
+Keep the day activity cohesive. Do not mix unrelated work from different parts of the site unless it is part of the same publishing or improvement batch.
+
 ## Execution rules
-- Complete exactly one meaningful task per run
+- A daily run may contain multiple related tasks, but they must belong to one focused day activity
+- Prefer meaningful progress over artificial one-task limits
 - Do not perform a broad repo audit unless the tracker is clearly outdated or inconsistent
 - Do not scan unrelated directories
 - Do not reread the same file unless necessary
-- Do not ask what to do next unless blocked by a real conflict or missing file
 - Trust actual repo files over the tracker if they conflict, then correct the tracker
 - Keep changes production-ready and cohesive
 - Preserve existing working behavior
 - Keep output concise and focused on actual edits
+
+## Weekly publishing schedule
+Use this schedule as the default operating rhythm unless the tracker indicates a higher-priority issue.
+
+- Monday: Research and outline 2 articles
+- Tuesday–Wednesday: Write and publish article 1
+- Thursday–Friday: Write and publish article 2
+- Friday: Add internal links from new articles to older related articles
+- Sunday: Check Search Console and note new impressions, CTR movement, and keyword ideas
+
+## Monthly maintenance
+Spend around 30 minutes on:
+- reviewing the top 5 articles for outdated pricing, limits, or features
+- updating the `lastmod` date on any changed article
+- checking affiliate redirects or affiliate links still work
+- reviewing Search Console for pages ranking in positions 8–20 as quick-win candidates
+
+## Growth targets
+- Month 1 target: 24 articles live across 6 silos
+- Month 4 target: apply for Google AdSense once 25+ articles and visible organic traffic are present
+- Month 6 target: re-apply to Impact.com and other direct affiliate programs using real traffic data
+
+## Long-term operating principle
+Consistency matters more than occasional bursts.
+Prefer steady publishing and incremental improvements every week over large but inconsistent pushes.
 
 ## Task priority
 Choose the next task in this order:
@@ -176,7 +215,49 @@ static/
 For new content:
 - copy article into the correct `content/` silo
 - copy image into `static/img/`
-- `git add . && git commit -m "Message" && git push`
+
+For completed valid changes:
+- stage the relevant changed files
+- create a clean production-style commit message
+- push to the configured remote branch
+- use the repo’s normal deployment flow after push
+
+Never:
+- ask for permission before normal git commit/push/deploy steps
+- mention Claude, AI, assistant, prompts, or automation in commit messages
+- mention Claude, AI, assistant, prompts, or automation in site content, comments, metadata, or tracker entries unless explicitly requested
+
+## Commit and deploy rule
+After completing and verifying a valid change, commit and deploy it by default without asking for confirmation.
+
+Requirements:
+- Do not ask for permission to run `git add`, `git commit`, `git push`, or the normal repo deployment flow
+- Proceed automatically with staging, commit, push, and deploy once the task is complete and verified
+- Only stop before commit or deploy if blocked by an actual error, missing credentials, missing permissions, failing checks, or an unavailable remote
+- If blocked, clearly report what failed and at which step
+
+Commit message rules:
+- Write clean, professional commit messages only about the actual code or content change
+- Do not mention Claude, Claude Code, AI, assistant, model, prompt, automation, or tool usage in commit messages
+- Do not mention that the change was generated automatically
+- Do not include conversational phrasing such as "as requested", "per prompt", or "from Claude"
+- Keep commit messages concise, task-based, and production-appropriate
+
+Content rules:
+- Do not insert Claude, AI, assistant, model, or prompt references anywhere in site content, source files, comments, tracker entries, metadata, or generated assets unless I explicitly ask for it
+- Do not include authorship notes such as "generated by Claude" or "created by AI"
+- All outputs must read as normal production website content and normal repo maintenance work
+
+Default git flow:
+1. Stage relevant changed files
+2. Create a clean commit message
+3. Push to the configured remote branch
+4. Let normal deployment run from git push, or run the standard deploy command if this repo requires it
+
+If commit or deploy is blocked:
+- Report the exact command that failed
+- Report the exact reason
+- Stop only at the blocking step
 
 ## Output format for daily runs
 Return only:
