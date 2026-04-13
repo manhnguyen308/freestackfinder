@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-13  
-**Current day:** 21  
+**Last updated:** 2026-04-14  
+**Current day:** 22  
 
 ---
 
@@ -73,6 +73,11 @@ Rules for daily runs:
 ---
 
 ## Recent completed work
+
+### Day 22
+- Replaced NordVPN placeholder comment in `content/security/free-vpn.md` with live affiliate CTA block
+- CTA placed in "When to pay for a VPN" section — highest-intent placement for upgrade conversion
+- Affiliate link: go.nordvpn.net (same as antivirus, email, and 2FA pages)
 
 ### Day 21
 - Added Google AdSense script (ca-pub-5934721249825043) to `layouts/partials/head.html`
