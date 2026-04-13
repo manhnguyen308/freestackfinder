@@ -74,6 +74,10 @@ Rules for daily runs:
 
 ## Recent completed work
 
+### Day 24b — hotfix
+- Fixed missing feature image for `free-invoicing-software` — copied `free-crm-software.jpg` as same-silo (Business, #10b981) placeholder; `generate_free_invoicing_software.py` exists and is ready to run when Python+Pillow available
+- Fixed missing feature image for `free-stock-photos` (same Day 19 root cause) — copied `canva-alternatives.jpg` as same-silo (Creative) placeholder; run `generate_free_stock_photos.py` when Python available
+
 ### Day 24
 - Created `content/productivity/free-note-taking-apps.md` — covers Google Keep, Apple Notes, Standard Notes, Simplenote, Notion free (5 tools)
 - Added Grammarly affiliate CTA (using grammarly.com — no tracking URL confirmed yet)
