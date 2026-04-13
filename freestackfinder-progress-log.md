@@ -1,242 +1,232 @@
-# FreeStackFinder — Build Progress Log
+# FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Stack:** Hugo 0.128.0 + GitHub + Cloudflare Pages  
-**Started:** Week 1 (Day 1)  
-**Log updated:** Day 18
+**Last updated:** 2026-04-13  
+**Current day:** 21  
 
 ---
 
-## Site overview
+## Read this first
+This is the primary daily state file.
 
-| Item | Detail |
-|------|--------|
-| Stack | Hugo 0.128.0, GitHub, Cloudflare Pages |
-| Monetisation | Amazon Associates (US: freestackfi20-20 · SG: freestackfi20-22), NordVPN direct, NordPass direct, Canva direct, Grammarly direct |
-| Affiliate status | NordVPN ✅ · NordPass ✅ · HubSpot ❌ deferred · Impact.com ❌ denied · Zoho via CJ Affiliate ⏳ apply now |
-| GSC data (Day 11) | 1,420 impressions · 4 clicks · Avg position 51.8 · CTR 0.3% |
-| Top GSC queries | slack alternatives (71 imp) · ms office variants (127 imp combined) · canva pro free (2 clicks) |
-| Total articles | 22 (after Day 18) |
-| Reddit posts | 2 published · 1 drafted (r/entrepreneur) |
+Rules for daily runs:
+- Use this file as the main source of current project truth
+- Do not perform a broad repo audit unless this file is clearly outdated or inconsistent with the task
+- Choose exactly one meaningful task per run
+- Inspect only the files needed for that task
+- If repo files conflict with this tracker, trust the files and then correct this tracker
 
 ---
 
-## Content silo status
-
-| Silo | Articles | Status |
-|------|----------|--------|
-| Productivity | 4 | ✅ |
-| Creative | 3 | ✅ |
-| Video | 4 | ✅ |
-| Business | 4 | ✅ |
-| Security | 4 | ✅ +1 2FA (Day 18) |
-| Cloud | 4 | ✅ |
+## Current snapshot
+- Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
+- Total published articles: 24
+- Silo balance: 4 articles in each of 6 silos
+- Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
+- Pending affiliate priority: Zoho via CJ Affiliate
+- GSC baseline to recheck: 1,420 impressions, 4 clicks, average position 51.8, CTR 0.3%
+- Current site goal: grow useful content clusters, improve internal linking, strengthen monetization, and prepare for AdSense
 
 ---
 
-## All published articles (22 total)
+## Current priorities
+1. Post Reddit #3
+2. Apply Zoho affiliate via CJ Affiliate
+3. Recheck GSC after Day 15 title updates on Slack and Microsoft Office articles
+4. Apply for AdSense
+5. Expand the next best article cluster
 
-### Productivity (4)
-| # | File | Title | Date | Weight |
-|---|------|-------|------|--------|
-| 1 | grammarly-alternatives.md | Best Free Alternatives to Grammarly in 2026 | 2026-03-16 | 55 |
-| 2 | microsoft-office-alternatives.md | Best Free Microsoft Office Alternative in 2026 | 2026-04-07 | 90 |
-| 3 | slack-alternatives.md | Best Free Slack Alternatives in 2026 | 2026-04-07 | 95 |
-| 4 | notion-alternatives.md | Best Free Alternatives to Notion in 2026 | 2026-03-26 | 70 |
-
-### Creative (3)
-| # | File | Title | Date | Weight |
-|---|------|-------|------|--------|
-| 5 | canva-alternatives.md | Best Free Alternatives to Canva in 2026 | 2026-03-16 | 85 |
-| 6 | photoshop-alternatives.md | Best Free Alternatives to Photoshop in 2026 | 2026-04-04 | 60 |
-| 7 | illustrator-alternatives.md | Best Free Alternatives to Illustrator in 2026 | 2026-04-03 | 40 |
-
-### Cloud (4)
-| # | File | Title | Date | Weight |
-|---|------|-------|------|--------|
-| 8 | free-cloud-storage-comparison.md | Best Free Cloud Storage in 2026 | 2026-03-16 | 75 |
-| 9 | dropbox-alternatives.md | Best Free Dropbox Alternatives in 2026 | 2026-04-02 | 35 |
-| 10 | free-email-service.md | Best Free Email Service in 2026 | 2026-04-06 | 68 |
-| 11 | free-backup-software.md | Best Free Backup Software in 2026 | 2026-04-08 | 58 |
-
-### Business (4)
-| # | File | Title | Date | Weight |
-|---|------|-------|------|--------|
-| 12 | quickbooks-alternatives.md | Best Free QuickBooks Alternatives in 2026 | 2026-03-18 | 50 |
-| 13 | free-crm-software.md | Best Free CRM Software in 2026 | 2026-04-02 | 37 |
-| 14 | free-project-management-software.md | Best Free Project Management Software in 2026 | 2026-04-05 | 72 |
-| 15 | free-invoicing-software.md | Best Free Invoicing Software in 2026 | 2026-04-09 | 74 |
-
-### Security (4)
-| # | File | Title | Date | Weight |
-|---|------|-------|------|--------|
-| 16 | free-password-managers.md | Best Free Password Managers in 2026 | 2026-03-27 | 80 |
-| 17 | free-antivirus-software.md | Best Free Antivirus Software in 2026 | 2026-04-02 | 38 |
-| 18 | free-vpn.md | Best Free VPN in 2026 | 2026-04-04 | 36 |
-| 19 | best-free-2fa-apps.md | Best Free 2FA Authenticator Apps in 2026 | 2026-04-10 | 76 |
-
-### Video (4)
-| # | File | Title | Date | Weight |
-|---|------|-------|------|--------|
-| 20 | free-video-editing-software.md | Best Free Video Editing Software in 2026 | 2026-03-17 | 65 |
-| 21 | zoom-alternatives.md | Best Free Alternatives to Zoom in 2026 | 2026-03-18 | 58 |
-| 22 | premiere-pro-alternatives.md | Best Free Alternatives to Premiere Pro in 2026 | 2026-03-25 | 52 |
-| 23 | free-screen-recording-software.md | Best Free Screen Recording Software in 2026 | 2026-04-07 | 62 |
+### Next article candidates
+- Productivity: `free-note-taking-apps` or `free-calendar-app`
+- Business: `free-time-tracking-software`
+- Creative: `free-font-websites`
 
 ---
 
-## Homepage "Most popular" (top 6 by weight)
+## Current content state
 
-| Rank | Article | Weight | Basis |
-|------|---------|--------|-------|
-| 1 | slack-alternatives | 95 | GSC: highest single-keyword impressions |
-| 2 | microsoft-office-alternatives | 90 | GSC: 127 combined impressions |
-| 3 | canva-alternatives | 85 | Only article generating actual clicks |
-| 4 | best-free-2fa-apps | 76 | New — high search intent |
-| 5 | free-invoicing-software | 74 | High intent, affiliate potential |
-| 6 | free-project-management-software | 72 | High volume keyword |
+### Silo counts
+- Productivity: 4
+- Creative: 4
+- Cloud: 4
+- Business: 4
+- Security: 4
+- Video: 4
 
----
-
-## Technical changes log
-
-| Day | Change | Detail |
-|-----|--------|--------|
-| 10 | Internal links | Added cross-links to 4 articles (notion + password-managers) |
-| 11 | GSC data | 1,420 impressions, 4 clicks. Article 13: illustrator-alternatives |
-| 12 | Bug: featured field | `index.html` used `featured:true` — only 2 articles shown. Fixed with `(.ByParam "weight").Reverse` |
-| 12 | Bug: YAML faqs block | Dangling `faqs:` children caused Cloudflare build fail on photoshop + ms-office articles |
-| 12 | Affiliate | NordVPN + NordPass links added |
-| 13 | Bug: affiliate banners | Image banners blocked by adblockers. Replaced with `.affiliate-cta` text CTAs |
-| 13 | CSS | Added `.affiliate-cta` styles to `static/css/style.css` |
-| 14 | Schema | Added `layouts/partials/schema.html` — Article + Breadcrumb + FAQ + WebSite |
-| 15 | GSC titles | slack-alternatives + ms-office titles updated to match GSC query variants |
-| 17 | Bug: category sort | `list.html` used `.Paginator` (default sort = weight). Fixed with `.RegularPages.ByDate.Reverse` |
-| 17 | Bug: latest sort | `index.html` latest section sorted by weight. Fixed with `$latestArticles.ByDate.Reverse` |
-| 18 | NordVPN CTA | Added to free-email-service.md (before Our verdict) |
+### Homepage most popular
+- `slack-alternatives` — 95
+- `microsoft-office-alternatives` — 90
+- `canva-alternatives` — 85
+- `best-free-2fa-apps` — 76
+- `free-invoicing-software` — 74
+- `free-project-management-software` — 72
 
 ---
 
-## Internal link map (Day 18)
-
-| From | To |
-|------|----|
-| microsoft-office-alternatives | slack-alternatives, grammarly-alternatives, notion-alternatives |
-| grammarly-alternatives | microsoft-office-alternatives, notion-alternatives |
-| slack-alternatives | notion-alternatives |
-| notion-alternatives | free-password-managers, free-cloud-storage-comparison, free-crm-software |
-| free-cloud-storage-comparison | free-password-managers, free-email-service, free-backup-software |
-| free-password-managers | free-cloud-storage-comparison, notion-alternatives, best-free-2fa-apps |
-| free-antivirus-software | free-password-managers, free-cloud-storage-comparison |
-| free-vpn | free-password-managers, free-antivirus-software, best-free-2fa-apps |
-| best-free-2fa-apps | free-password-managers, free-vpn |
-| free-crm-software | quickbooks-alternatives, free-password-managers, free-email-service, free-invoicing-software |
-| dropbox-alternatives | free-cloud-storage-comparison, free-password-managers, free-backup-software |
-| illustrator-alternatives | canva-alternatives |
-| photoshop-alternatives | illustrator-alternatives, canva-alternatives |
-| free-project-management-software | quickbooks-alternatives, notion-alternatives, free-invoicing-software |
-| free-email-service | free-cloud-storage-comparison, free-password-managers, free-crm-software |
-| free-video-editing-software | free-screen-recording-software |
-| zoom-alternatives | free-screen-recording-software |
-| free-screen-recording-software | free-video-editing-software |
-| free-backup-software | free-cloud-storage-comparison |
-| quickbooks-alternatives | free-invoicing-software |
-| free-invoicing-software | quickbooks-alternatives, free-crm-software |
+## Open issues / things to verify
+- Recheck GSC to see whether Day 15 title changes improved CTR on Slack and Office pages
+- Confirm Zoho references can be monetized after CJ approval
+- AdSense can be applied for based on article volume, but trust and UX should still be reviewed before submission
+- Internal linking should keep growing cluster-by-cluster, not randomly
+- Keep checking for mismatches between tracker and actual repo state
 
 ---
 
-## Affiliate link inventory
+## Recent completed work
 
-| Program | Status | Articles | Link |
-|---------|--------|----------|------|
-| NordVPN | ✅ Active | free-vpn, free-antivirus-software, dropbox-alternatives, free-email-service | https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902 |
-| NordPass | ✅ Active | free-password-managers | https://go.nordpass.io/aff_c?offer_id=488&aff_id=144937&url_id=9356 |
-| Canva | ✅ Active | canva-alternatives | Direct |
-| Grammarly | ✅ Active | grammarly-alternatives | Direct |
-| Amazon Associates | ✅ Active | Multiple | US: freestackfi20-20 · SG: freestackfi20-22 |
-| HubSpot | ❌ Deferred | — | Requires established company |
-| Zoho | ⏳ Apply now | free-crm-software, free-email-service, free-invoicing-software | CJ Affiliate — open program |
-| Impact.com | ❌ Denied | — | Reapply at 1,000+ monthly visitors |
+### Day 21
+- Added Google AdSense script (ca-pub-5934721249825043) to `layouts/partials/head.html`
+- Replaced the commented-out placeholder block with the live script — loads site-wide on every page
+
+### Day 20
+- Added NordVPN affiliate CTA to `best-free-2fa-apps.md` (before Our verdict — VPN + 2FA security pairing)
+
+### Day 19
+- Created `content/business/free-invoicing-software.md` because it was referenced in the log but missing from disk
+- Created `content/creative/free-stock-photos.md`
+- Added internal links in 6 existing articles:
+  - `quickbooks-alternatives` → `free-invoicing-software`
+  - `free-crm-software` → `free-invoicing-software`
+  - `free-project-management-software` → `free-invoicing-software`
+  - `canva-alternatives` → `free-stock-photos`
+  - `photoshop-alternatives` → `free-stock-photos`
+  - `illustrator-alternatives` → `free-stock-photos`
+- Added image generator scripts for both new articles
+- Site now has 24 articles total
+- All 6 silos now have 4 articles each
+
+### Day 18
+- Added NordVPN CTA to `free-email-service.md`
+
+### Day 17
+- Fixed category page sorting in `layouts/_default/list.html`
+- Fixed latest section sorting in `layouts/index.html`
+
+### Day 15
+- Updated titles on Slack and Microsoft Office pages based on GSC queries
+
+---
+
+## Next-task decision rules
+When choosing the next task:
+1. Fix broken, missing, or inconsistent work first
+2. Then strengthen monetization on strong intent pages
+3. Then improve internal linking inside one silo
+4. Then add one new article only if no higher-value task exists
+5. Avoid broad audits unless something appears inconsistent
+
+---
+
+## Default daily scope
+A normal daily run should touch only:
+- this tracker
+- one target file or one feature
+- up to 3 related files if needed
+- one image script if creating an article
+
+Do not scan unrelated silos, layouts, or directories unless necessary.
+
+---
+
+## Inventory reference
+
+### Productivity
+- `grammarly-alternatives.md`
+- `microsoft-office-alternatives.md`
+- `notion-alternatives.md`
+- `slack-alternatives.md`
+
+### Creative
+- `canva-alternatives.md`
+- `photoshop-alternatives.md`
+- `illustrator-alternatives.md`
+- `free-stock-photos.md`
+
+### Cloud
+- `free-cloud-storage-comparison.md`
+- `dropbox-alternatives.md`
+- `free-email-service.md`
+- `free-backup-software.md`
+
+### Business
+- `quickbooks-alternatives.md`
+- `free-crm-software.md`
+- `free-project-management-software.md`
+- `free-invoicing-software.md`
+
+### Security
+- `free-password-managers.md`
+- `free-antivirus-software.md`
+- `free-vpn.md`
+- `best-free-2fa-apps.md`
+
+### Video
+- `free-video-editing-software.md`
+- `zoom-alternatives.md`
+- `premiere-pro-alternatives.md`
+- `free-screen-recording-software.md`
+
+---
+
+## Internal link highlights
+Keep these clusters growing naturally:
+
+- Productivity cluster:
+  - `microsoft-office-alternatives`
+  - `grammarly-alternatives`
+  - `notion-alternatives`
+  - `slack-alternatives`
+
+- Creative cluster:
+  - `canva-alternatives`
+  - `photoshop-alternatives`
+  - `illustrator-alternatives`
+  - `free-stock-photos`
+
+- Business cluster:
+  - `quickbooks-alternatives`
+  - `free-crm-software`
+  - `free-project-management-software`
+  - `free-invoicing-software`
+
+- Security cluster:
+  - `free-password-managers`
+  - `free-antivirus-software`
+  - `free-vpn`
+  - `best-free-2fa-apps`
+
+- Cloud cluster:
+  - `free-cloud-storage-comparison`
+  - `dropbox-alternatives`
+  - `free-email-service`
+  - `free-backup-software`
+
+- Video cluster:
+  - `free-video-editing-software`
+  - `zoom-alternatives`
+  - `premiere-pro-alternatives`
+  - `free-screen-recording-software`
+
+---
+
+## Affiliate focus
+Current high-value affiliate opportunities:
+- Zoho: `free-crm-software`, `free-email-service`, `free-invoicing-software`
+- NordVPN: `free-vpn`, `free-antivirus-software`, `dropbox-alternatives`, `free-email-service`, `best-free-2fa-apps`
+- NordPass: `free-password-managers`
 
 ---
 
 ## Pending actions
-
-| Priority | Action | Notes |
-|----------|--------|-------|
-| 🔴 High | Post Reddit #3 | Draft ready — r/entrepreneur, Tue–Thu 8–10am EST |
-| 🔴 High | Apply Zoho affiliate | CJ Affiliate — open program, 3 articles reference Zoho |
-| 🔴 High | GSC check | Did Day 15 title changes improve CTR on slack + office? |
-| 🟡 Medium | AdSense application | 22 articles live — apply now |
-| 🟡 Medium | Reapply Impact.com | At 1,000+ monthly visitors |
-| 🟢 Low | Productivity Article 5 | free-note-taking-apps or free-calendar-app |
-| 🟢 Low | Business Article 5 | free-time-tracking-software — pairs with invoicing |
-| 🟢 Low | Creative Article 4 | free-font-websites or free-stock-photos |
+- Reddit post #3 is drafted for `r/entrepreneur`
+- Zoho affiliate application still pending
+- AdSense script is live (ca-pub-5934721249825043) — formal application/review still pending Google approval
+- Impact.com reapply only after traffic grows further
 
 ---
 
-## Front matter template (Hugo 0.128 — confirmed working)
-
-```yaml
----
-title: "Best Free [Tool] in 2026 — [Hook]"
-description: "150–160 chars. Lead with the surprising answer."
-date: "2026-MM-DD"
-lastmod: "2026-MM-DD"
-draft: false
-weight: [number]
-slug: "url-slug"
-categories: ["Silo Name"]
-tags:
-  - "tag one"
-  - "tag two"
-keywords:
-  - "keyword phrase one"
-  - "keyword phrase two"
-image: "/img/filename.jpg"
-author: "FreeStackFinder Team"
----
-```
-
-**Never use:** `featured:` · `faqs:` · `verdict-box` HTML · bare (unquoted) date values
-
----
-
-## Deploy commands
-
-```bash
-# New article
-cp article.md content/silo/  &&  cp image.jpg static/img/
-
-# Template changes
-cp index.html layouts/index.html
-cp list.html layouts/_default/list.html
-cp schema.html layouts/partials/schema.html
-cp style.css static/css/style.css
-
-git add . && git commit -m "Description" && git push
-```
-
----
-
-## File structure
-
-```
-content/
-  business/   free-crm, free-invoicing, free-project-mgmt, quickbooks
-  cloud/      dropbox, free-backup, free-cloud-storage, free-email
-  creative/   canva, illustrator, photoshop
-  productivity/ grammarly, ms-office, notion, slack
-  security/   free-antivirus, free-password-managers, free-vpn, best-free-2fa-apps
-  video/      free-screen-recording, free-video-editing, premiere-pro, zoom
-
-layouts/
-  index.html              Most Popular (weight↓) + Latest (date↓)
-  _default/list.html      category pages — date↓
-  _default/single.html    article pages
-  partials/schema.html    Article + Breadcrumb + FAQ + WebSite schema
-
-static/
-  css/style.css           includes .affiliate-cta
-  img/                    all feature images 1200×630px JPEG
-```
+## Notes for future runs
+- Prefer strengthening an existing cluster before opening too many new topic branches
+- Prefer high-intent pages with monetization potential
+- Avoid random site-wide edits unless there is a clear inconsistency or bug
+- Keep tracker concise and correct after every run

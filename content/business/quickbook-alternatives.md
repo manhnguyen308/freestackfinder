@@ -184,3 +184,5 @@ Tax season complexity is another factor. For freelancers working across multiple
 ## Our verdict
 
 For the vast majority of freelancers and solo operators, **Wave** is the only free QuickBooks alternative worth using as a long-term solution — genuinely free forever, covers the full accounting workflow, and produces reports accountants can work with at tax time. If you are already in the Zoho ecosystem, **Zoho Books' free tier** is a strong second choice with a more polished invoicing experience. For freelancers who bill by the hour, **Invoice Ninja** handles project-based billing more cleanly than either alternative. QuickBooks remains the right tool when your business has grown beyond solo operation and payroll, inventory, or multi-user access becomes a genuine requirement — not before.
+
+If invoicing is your primary need rather than a full accounting layer, see our dedicated [free invoicing software comparison](/business/free-invoicing-software/) for tools built specifically around the billing workflow.

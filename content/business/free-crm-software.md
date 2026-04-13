@@ -210,3 +210,5 @@ Zoho CRM's paid tiers start at $14/user/month (Standard) and add workflow automa
 ## Our verdict
 
 **HubSpot CRM Free** is the default recommendation for most small businesses — unlimited users, unlimited contacts, a full pipeline, and email tracking that would cost money with any other provider. The upsell is persistent but the product works completely without paying. For teams who want a cleaner visual experience, **Freshsales Free** is the standout alternative. The main thing to know about free CRM software in 2026 is that the free tiers are genuinely usable — you are not getting a crippled trial, you are getting the product that HubSpot, Freshworks, and Zoho use to build their customer bases.
+
+For the billing side of your client workflow, see our guide to [free invoicing software in 2026](/business/free-invoicing-software/) — several options integrate directly with CRM tools, including Zoho Invoice with Zoho CRM.

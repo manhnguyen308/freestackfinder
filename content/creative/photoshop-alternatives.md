@@ -150,3 +150,5 @@ For everyone else — hobbyist photographers, content creators, small business o
 Start with **Photopea** if you want zero friction: no download, no setup, works everywhere. Switch to **GIMP** if you find yourself needing more power or prefer a dedicated desktop application.
 
 Neither will replace Photoshop entirely for professionals, but for most everyday users, neither needs to.
+
+For sourcing quality images to edit, see our roundup of the [best free stock photo sites in 2026](/creative/free-stock-photos/) — royalty-free photography that works with Photopea, GIMP, and any editor in this list.
