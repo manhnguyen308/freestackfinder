@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-15  
-**Current day:** 23  
+**Last updated:** 2026-04-16  
+**Current day:** 24  
 
 ---
 
@@ -20,8 +20,8 @@ Rules for daily runs:
 
 ## Current snapshot
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
-- Total published articles: 24
-- Silo balance: 4 articles in each of 6 silos
+- Total published articles: 25
+- Silo balance: Productivity 5, all others 4
 - Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC baseline to recheck: 1,420 impressions, 4 clicks, average position 51.8, CTR 0.3%
@@ -73,6 +73,15 @@ Rules for daily runs:
 ---
 
 ## Recent completed work
+
+### Day 24
+- Created `content/productivity/free-note-taking-apps.md` — covers Google Keep, Apple Notes, Standard Notes, Simplenote, Notion free (5 tools)
+- Added Grammarly affiliate CTA (using grammarly.com — no tracking URL confirmed yet)
+- Added internal link from `notion-alternatives.md` → `free-note-taking-apps` (in Our verdict section)
+- Added internal link from `grammarly-alternatives.md` → `free-note-taking-apps` (in Our verdict section)
+- Article cross-links back to `notion-alternatives` and `grammarly-alternatives`
+- Feature image: placeholder from notion-alternatives.jpg — run `generate_free_note_taking_apps.py` when Python is available
+- Site now has 25 articles total; Productivity silo has 5
 
 ### Day 23
 - Replaced `<!-- NORDVPN_AFFILIATE -->` placeholder comment in `content/security/free-password-managers.md` with live affiliate CTA block
@@ -145,6 +154,7 @@ Do not scan unrelated silos, layouts, or directories unless necessary.
 - `microsoft-office-alternatives.md`
 - `notion-alternatives.md`
 - `slack-alternatives.md`
+- `free-note-taking-apps.md`
 
 ### Creative
 - `canva-alternatives.md`
@@ -186,6 +196,7 @@ Keep these clusters growing naturally:
   - `grammarly-alternatives`
   - `notion-alternatives`
   - `slack-alternatives`
+  - `free-note-taking-apps`
 
 - Creative cluster:
   - `canva-alternatives`

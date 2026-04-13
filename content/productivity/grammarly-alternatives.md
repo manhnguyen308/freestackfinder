@@ -158,3 +158,5 @@ The plagiarism checker bundled with Premium is a niche but genuine use case for 
 ## Our verdict
 
 For most users, **LanguageTool** is the best free Grammarly alternative in 2026 — it is reliable, works across every platform where you type, supports multiple languages, and the free tier does not feel crippled. If you write long-form content and want to go beyond grammar into the structure and rhythm of your writing, add **ProWritingAid** for a deeper edit. Use **Hemingway Editor** as a final readability pass before publishing. Together, these three tools cover the vast majority of what Grammarly Premium offers at no cost. Grammarly Premium remains worth paying for if you need AI-assisted rewrites, tone feedback, or plagiarism checking built into a single polished interface — but for grammar and clarity alone, you can stop paying for it today.
+
+The writing process usually starts before editing — in notes and drafts. If you are still looking for the right note-taking tool to capture ideas before you polish them, see our [best free note-taking apps guide](/productivity/free-note-taking-apps/).
