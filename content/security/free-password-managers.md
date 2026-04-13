@@ -4,7 +4,6 @@ description: "LastPass gutted its free tier and had major security breaches. We 
 date: "2026-03-27"
 lastmod: "2026-03-27"
 draft: false
-weight: 80
 slug: "free-password-managers"
 categories: ["Security"]
 tags: ["free password manager", "bitwarden review", "lastpass alternative"]
@@ -195,13 +194,10 @@ Advanced two-factor authentication using hardware security keys (YubiKey, FIDO2)
 
 NordPass is the password manager from the same company as NordVPN. It offers a competitive free tier with unlimited passwords on one active device. If you are already using or planning to use NordVPN, NordPass integrates within the same account — one subscription can cover VPN, password manager, and encrypted storage (NordLocker) together.
 
-<div class="affiliate-cta">
-<div class="affiliate-cta-content">
-<p class="affiliate-cta-title">Already use NordVPN? Add NordPass.</p>
-<p class="affiliate-cta-desc">NordPass is NordVPN's password manager — unlimited passwords, cross-device sync, data breach scanner, and a zero-knowledge architecture. One subscription covers VPN, password manager, and encrypted storage.</p>
-<a href="https://go.nordpass.io/aff_c?offer_id=488&aff_id=144937&url_id=9356" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Get NordPass →</a>
-</div>
-</div>
+<!-- NORDVPN_AFFILIATE: replace href with your affiliate link once NordVPN activates your account -->
+[See NordPass free →](https://nordpass.com)
+
+For protecting those accounts with a second factor beyond your password, see our [free 2FA authenticator apps guide](/security/best-free-2fa-apps/) — enabling 2FA on your email and password manager itself is the most important next step after choosing a password manager.
 
 ## Our verdict
 
