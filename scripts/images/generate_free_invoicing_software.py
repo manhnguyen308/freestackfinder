@@ -15,7 +15,7 @@ TEXT_W   = "#ffffff"
 TEXT_DIM = "#8a8fa8"
 WIN_BG   = "#13161f"
 
-out_dir = os.path.join(os.path.dirname(__file__), "static", "img")
+out_dir = os.path.join(os.path.dirname(__file__), "..", "..", "static", "img")
 os.makedirs(out_dir, exist_ok=True)
 out_path = os.path.join(out_dir, "free-invoicing-software.jpg")
 

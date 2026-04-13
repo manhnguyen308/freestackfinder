@@ -46,6 +46,6 @@ card(655, 245, 160, 80, "Notion Free", "No", "#10b981")
 # Silo label
 draw.text((480, 345), "Productivity", font=font_small, fill="#6366f1")
 
-out = os.path.join(os.path.dirname(__file__), "static", "img", "free-note-taking-apps.jpg")
+out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "img", "free-note-taking-apps.jpg")
 img.save(out, "JPEG", quality=92)
 print(f"Saved → {out}")

@@ -1,15 +1,17 @@
 # FreeStackFinder — Claude Code Rules
 
 ## Mission
-Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by making one production-ready improvement per run.
+Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by making steady, production-ready progress every day.
 
 ## Daily workflow
-1. Read `freestackfinder-progress-log.md`
-2. Use it as the primary source of current project state
-3. Choose the best next day activity
-4. Inspect only the files needed for that day activity
-5. Implement the change directly in the repo
-6. Update `freestackfinder-progress-log.md`
+1. Read `CLAUDE.md`
+2. Read `freestackfinder-progress-log.md`
+3. Use the tracker as the primary source of current project state
+4. Choose the best next day activity
+5. Inspect only the files needed for that day activity
+6. Implement the changes directly in the repo
+7. Update `freestackfinder-progress-log.md`
+8. Commit and deploy after verifying the changes
 
 ## Definition of "next day activity"
 A next day activity is a focused bundle of related work for that day, not necessarily a single task.
@@ -19,11 +21,11 @@ A valid day activity may include:
 - generating its feature image or image script
 - adding related internal links between the new article and existing relevant articles
 - improving affiliate placement on directly related pages
-- making small, relevant UX/SEO/content enhancements tied to that work
+- making small, relevant UX, SEO, or content enhancements tied to that work
 - updating the progress tracker
 - committing and deploying after verification
 
-Keep the day activity cohesive. Do not mix unrelated work from different parts of the site unless it is part of the same publishing or improvement batch.
+Keep the day activity cohesive. Do not mix unrelated work from different parts of the site unless they are clearly part of the same publishing or improvement batch.
 
 ## Execution rules
 - A daily run may contain multiple related tasks, but they must belong to one focused day activity
@@ -31,10 +33,19 @@ Keep the day activity cohesive. Do not mix unrelated work from different parts o
 - Do not perform a broad repo audit unless the tracker is clearly outdated or inconsistent
 - Do not scan unrelated directories
 - Do not reread the same file unless necessary
+- Do not ask what to do next unless blocked by a real conflict or missing file
 - Trust actual repo files over the tracker if they conflict, then correct the tracker
 - Keep changes production-ready and cohesive
 - Preserve existing working behavior
 - Keep output concise and focused on actual edits
+
+## Task priority
+Choose the next day activity in this order:
+1. Fix broken, missing, inconsistent, or incomplete work
+2. Strengthen monetization on existing high-intent pages
+3. Improve internal linking inside an existing cluster
+4. Publish the next strongest article and complete its related linking/image work
+5. Improve UX, SEO, trust, or layout only when directly relevant to the current batch
 
 ## Weekly publishing schedule
 Use this schedule as the default operating rhythm unless the tracker indicates a higher-priority issue.
@@ -49,7 +60,7 @@ Use this schedule as the default operating rhythm unless the tracker indicates a
 Spend around 30 minutes on:
 - reviewing the top 5 articles for outdated pricing, limits, or features
 - updating the `lastmod` date on any changed article
-- checking affiliate redirects or affiliate links still work
+- checking affiliate links and redirects still work
 - reviewing Search Console for pages ranking in positions 8–20 as quick-win candidates
 
 ## Growth targets
@@ -60,14 +71,6 @@ Spend around 30 minutes on:
 ## Long-term operating principle
 Consistency matters more than occasional bursts.
 Prefer steady publishing and incremental improvements every week over large but inconsistent pushes.
-
-## Task priority
-Choose the next task in this order:
-1. Fix broken, missing, inconsistent, or incomplete work
-2. Strengthen monetization on existing high-intent pages
-3. Improve internal linking inside an existing cluster
-4. Add one new article only if no higher-priority fix exists
-5. Improve UX, SEO, trust, or layout only when directly relevant to the current task
 
 ## Hugo front matter rules
 Always use this structure:
@@ -105,7 +108,7 @@ Use the site’s comparison-article structure:
 
 1. Quick verdict
 2. Why this matters / why people are switching
-3. Best free tools in 2026
+3. The best free tools in 2026
 4. Quick comparison table
 5. Decision guide / when to pay
 6. Our verdict
@@ -119,10 +122,11 @@ For each main tool section, include:
 - Tool link
 
 ## Internal linking rules
-- Add 2–3 relevant internal links where useful
+- Add 2–5 relevant internal links where useful
 - Use descriptive anchors
 - Never use “click here”
 - Prefer contextual cluster links over random cross-site links
+- When publishing a new article, update older related articles when it meaningfully strengthens the cluster
 
 ## Monetization rules
 Use adblocker-safe text CTA blocks only:
@@ -165,11 +169,58 @@ Use adblocker-safe text CTA blocks only:
 5. `list.html` must not rely on default paginator sorting
 6. `index.html` latest section must not use unsorted `.Site.RegularPages`
 
+## Environment and dependency rule
+Before skipping any generator, build, or asset task due to a missing local dependency, first check whether the dependency can be installed in the current repo environment.
+
+For required tools such as Python or Pillow:
+- detect whether the tool is already available
+- if not available, try to install it using the safest normal method for the current environment
+- if Python is missing, install Python first if the environment allows it
+- if Pillow is missing, install Pillow after Python is available
+- after installation, continue the intended task instead of falling back to placeholders
+
+Only use placeholders, temporary stand-ins, or deferred asset generation if:
+- installation is blocked by permissions
+- installation is blocked by network or package manager restrictions
+- installation fails with a real error
+- the environment does not allow the install
+
+If blocked:
+- clearly report the exact failed install step
+- report the exact reason
+- then use the best temporary fallback only if necessary
+
+## Missing-tool behavior
+When a needed tool is missing:
+1. Check whether it is already installed
+2. Attempt installation if the environment allows it
+3. Continue the task after installation
+4. Only stop if installation fails or is blocked
+5. Never default to placeholders without first attempting installation when installation is feasible
+
 ## Feature image rules
 - Generate with Python + Pillow
+- If Python or Pillow is missing, attempt installation first before falling back
 - Size: 1200x630
 - Format: JPEG
-- Save to `static/img/`
+- Save generated images to `static/img/`
+- Create and store image generator scripts inside a dedicated folder: `scripts/images/`
+- Do not create image generator scripts in the repo root
+- When fixing existing scripts, move them into `scripts/images/` and update any related references if needed
+- Ensure the article front matter `image` path matches the actual generated file
+- Verify the feature image renders on the article card and the live article page after the fix
+
+## Feature image execution rule
+For article feature images:
+- do not leave placeholder images just because Python is missing without first attempting installation
+- if Python is not installed, attempt to install Python
+- if Pillow is not installed, attempt to install Pillow
+- then run the generator script and produce the real image
+- verify the generated image exists in `static/img/`
+- verify the article front matter image path matches the generated file
+
+## Blocking-error rule
+Do not report "Python not installed" as a final blocker unless you have already attempted installation and the installation failed or was blocked by the environment.
 
 ### Style
 - Background: `#101116`
@@ -209,6 +260,9 @@ layouts/
 static/
 - css/style.css
 - img/
+
+scripts/
+- images/
 ```
 
 ## Deploy conventions
@@ -223,47 +277,45 @@ For completed valid changes:
 - use the repo’s normal deployment flow after push
 
 Never:
-- ask for permission before normal git commit/push/deploy steps
+- ask for permission in chat before normal git commit, push, or deploy steps
 - mention Claude, AI, assistant, prompts, or automation in commit messages
 - mention Claude, AI, assistant, prompts, or automation in site content, comments, metadata, or tracker entries unless explicitly requested
 
-## Commit and deploy rule
-After completing and verifying a valid change, commit and deploy it by default without asking for confirmation.
+## Git execution behavior
+When git access is available, run the normal git flow automatically after verifying a valid change:
+- `git add`
+- `git commit`
+- `git push`
 
-Requirements:
-- Do not ask for permission to run `git add`, `git commit`, `git push`, or the normal repo deployment flow
-- Proceed automatically with staging, commit, push, and deploy once the task is complete and verified
-- Only stop before commit or deploy if blocked by an actual error, missing credentials, missing permissions, failing checks, or an unavailable remote
-- If blocked, clearly report what failed and at which step
+Do not ask for confirmation in chat before these steps.
 
-Commit message rules:
-- Write clean, professional commit messages only about the actual code or content change
-- Do not mention Claude, Claude Code, AI, assistant, model, prompt, automation, or tool usage in commit messages
-- Do not mention that the change was generated automatically
-- Do not include conversational phrasing such as "as requested", "per prompt", or "from Claude"
-- Keep commit messages concise, task-based, and production-appropriate
+If the environment shows a command approval prompt, assume that prompt is external and proceed with the prepared command. Do not ask again in chat.
 
-Content rules:
-- Do not insert Claude, AI, assistant, model, or prompt references anywhere in site content, source files, comments, tracker entries, metadata, or generated assets unless I explicitly ask for it
-- Do not include authorship notes such as "generated by Claude" or "created by AI"
-- All outputs must read as normal production website content and normal repo maintenance work
+## Commit message rules
+Commit messages must:
+- describe only the actual repo change
+- be short and production-style
+- avoid filler words like "placeholder", "temp", "misc", or "update stuff"
+- avoid mentioning Claude, AI, assistant, prompt, automation, or generation
+- avoid conversational phrases like "as requested" or "for user"
 
-Default git flow:
-1. Stage relevant changed files
-2. Create a clean commit message
-3. Push to the configured remote branch
-4. Let normal deployment run from git push, or run the standard deploy command if this repo requires it
+Preferred commit style examples:
+- `Replace NordPass CTA on free-password-managers page`
+- `Add AdSense script to shared head partial`
+- `Create free-time-tracking-software article and update links`
 
-If commit or deploy is blocked:
-- Report the exact command that failed
-- Report the exact reason
-- Stop only at the blocking step
+## Shell command behavior
+Minimize shell approval prompts by batching related git steps into a single final command when possible.
+Do not run git commands incrementally during the task.
+Run git only once at the end after all changes are complete and verified.
 
 ## Output format for daily runs
 Return only:
-- Current task
+- Current day activity
 - Files inspected
 - Files changed
 - What changed
 - Tracker update summary
-- Deploy commands
+- Commit message
+- Deploy status
+- Any blocking error

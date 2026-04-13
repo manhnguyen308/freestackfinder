@@ -74,9 +74,19 @@ Rules for daily runs:
 
 ## Recent completed work
 
+### Day 25
+- Moved all 3 feature-image generator scripts from repo root into `scripts/images/`
+  - `generate_free_invoicing_software.py`
+  - `generate_free_stock_photos.py`
+  - `generate_free_note_taking_apps.py`
+- Updated `os.path.dirname(__file__)` output paths in all three to use `../..` so `static/img/` still resolves correctly from the new location
+- Deleted old root-level copies
+- Updated script path references in this tracker (Day 24b and Day 24 entries)
+- `CLAUDE.md` repo structure already listed `scripts/images/` — no change needed there
+
 ### Day 24b — hotfix
-- Fixed missing feature image for `free-invoicing-software` — copied `free-crm-software.jpg` as same-silo (Business, #10b981) placeholder; `generate_free_invoicing_software.py` exists and is ready to run when Python+Pillow available
-- Fixed missing feature image for `free-stock-photos` (same Day 19 root cause) — copied `canva-alternatives.jpg` as same-silo (Creative) placeholder; run `generate_free_stock_photos.py` when Python available
+- Fixed missing feature image for `free-invoicing-software` — copied `free-crm-software.jpg` as same-silo (Business, #10b981) placeholder; `scripts/images/generate_free_invoicing_software.py` exists and is ready to run when Python+Pillow available
+- Fixed missing feature image for `free-stock-photos` (same Day 19 root cause) — copied `canva-alternatives.jpg` as same-silo (Creative) placeholder; run `scripts/images/generate_free_stock_photos.py` when Python available
 
 ### Day 24
 - Created `content/productivity/free-note-taking-apps.md` — covers Google Keep, Apple Notes, Standard Notes, Simplenote, Notion free (5 tools)
@@ -84,7 +94,7 @@ Rules for daily runs:
 - Added internal link from `notion-alternatives.md` → `free-note-taking-apps` (in Our verdict section)
 - Added internal link from `grammarly-alternatives.md` → `free-note-taking-apps` (in Our verdict section)
 - Article cross-links back to `notion-alternatives` and `grammarly-alternatives`
-- Feature image: placeholder from notion-alternatives.jpg — run `generate_free_note_taking_apps.py` when Python is available
+- Feature image: placeholder from notion-alternatives.jpg — run `scripts/images/generate_free_note_taking_apps.py` when Python is available
 - Site now has 25 articles total; Productivity silo has 5
 
 ### Day 23
