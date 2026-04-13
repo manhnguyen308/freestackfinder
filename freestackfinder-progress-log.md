@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-14  
-**Current day:** 22  
+**Last updated:** 2026-04-15  
+**Current day:** 23  
 
 ---
 
@@ -73,6 +73,11 @@ Rules for daily runs:
 ---
 
 ## Recent completed work
+
+### Day 23
+- Replaced `<!-- NORDVPN_AFFILIATE -->` placeholder comment in `content/security/free-password-managers.md` with live affiliate CTA block
+- CTA placed in the "A note on NordPass" section — targets NordVPN users already on the page
+- Note: NordPass affiliate URL not yet confirmed as tracking link — using `https://nordpass.com` until specific affiliate URL is available
 
 ### Day 22
 - Replaced NordVPN placeholder comment in `content/security/free-vpn.md` with live affiliate CTA block
