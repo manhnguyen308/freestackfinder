@@ -15,11 +15,12 @@ Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by 
 
 ## Article date rule
 For new article publishing:
-- Use the current publishing date for the new article `date` and `lastmod`
-- If another published article already uses the same `date`, increase the new article date by 1 day
-- Continue increasing by 1 day until the new article has a unique date
+- Use today's actual date for `date` and `lastmod`
+- Live published articles must not use future dates
+- Duplicate dates are allowed when multiple articles publish on the same day
+- Do not inflate article dates into the future just to keep dates unique
 - Keep `date` and `lastmod` as quoted strings in `YYYY-MM-DD` format
-- Do not change existing article dates unless the task is specifically to fix duplicate dates
+- Do not change existing article dates unless correcting a real error (wrong format, accidental future date, etc.)
 
 ## Definition of "next day activity"
 A next day activity is a focused bundle of related work for that day, not necessarily a single task.
@@ -46,6 +47,36 @@ Keep the day activity cohesive. Do not mix unrelated work from different parts o
 - Keep changes production-ready and cohesive
 - Preserve existing working behavior
 - Keep output concise and focused on actual edits
+
+## Coding and change discipline
+Apply these defaults to every edit, whether content, layout, or scripts.
+
+### Think before acting
+- State assumptions explicitly when they affect the outcome
+- If a task has more than one reasonable interpretation, pick the one that best fits the site's publishing/monetization goals and note the choice briefly
+- If an instruction conflicts with an existing rule in this file, stop and flag the conflict instead of silently overriding
+- Prefer the simplest change that satisfies the request
+
+### Surgical changes
+- Touch only what the task requires
+- Do not reformat, refactor, or "improve" adjacent code, front matter, or prose that is unrelated to the task
+- Match existing style, structure, and naming even if a different style would be preferable
+- If your change makes an import, variable, or asset unused, remove it; do not delete pre-existing unused code or files unless the task asks for it
+- Every changed line should trace back to the current day activity
+
+### Simplicity first
+- Write the minimum code, markup, or content needed to meet the goal
+- No speculative flexibility, abstractions, or configuration for a single use case
+- No error handling for cases that cannot occur in this static Hugo + Cloudflare setup
+- If the result feels overengineered, rewrite it shorter before committing
+
+### Verify before claiming done
+For each day activity, define a short success check and confirm it before committing:
+- New article: file exists in the correct silo, front matter valid, feature image resolves, internal links resolve, Hugo build (if run) passes
+- Layout or CSS change: affected page type renders correctly and no known bug list item is reintroduced
+- Script change: script runs to completion and produces the expected asset
+
+Do not mark work complete based on intent — confirm the actual file, image, or page state.
 
 ## Task priority
 Choose the next day activity in this order:

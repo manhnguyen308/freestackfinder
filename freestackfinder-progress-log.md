@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-14  
-**Current day:** 32  
+**Current day:** 33  
 
 ---
 
@@ -83,6 +83,13 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 33
+- Cleaned up `CLAUDE.md` operating rules
+- Fixed article date rule: live articles must not use future dates, duplicate dates are allowed on the same publish day, no more inflating dates forward for uniqueness
+- Added a concise `Coding and change discipline` section adapted from external best-practice rules — covers think-before-acting, surgical changes, simplicity, and verify-before-claiming-done
+- Preserved all existing FreeStackFinder-specific rules (feature image WebP, Python/Pillow, `scripts/images/`, commit/deploy, no AI mentions)
+- Verified no duplicate or conflicting sections remain in `CLAUDE.md`
 
 ### Day 32
 - Updated tracker "Read this first" and "Default daily scope" to align with CLAUDE.md focused day activity model
