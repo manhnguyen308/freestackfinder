@@ -198,6 +198,19 @@ If blocked:
 - report the exact reason
 - then use the best temporary fallback only if necessary
 
+
+## Python executable paths
+When Python is needed for image generation or automation, use the full path below — the `python` and `python3` shell commands resolve to Microsoft Store stubs on this machine and do not work:
+
+```text
+/c/Users/vboxuser/AppData/Local/Programs/Python/Python312/python.exe
+```
+
+For feature image generation:
+- first try `python scripts/images/...`
+- if that fails with exit 49 (Microsoft Store stub), use the full path above
+- only report Python as unavailable after the full path also fails
+
 ## Missing-tool behavior
 When a needed tool is missing:
 1. Check whether it is already installed

@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-14  
-**Current day:** 31  
+**Current day:** 32  
 
 ---
 
@@ -12,16 +12,16 @@ This is the primary daily state file.
 Rules for daily runs:
 - Use this file as the main source of current project truth
 - Do not perform a broad repo audit unless this file is clearly outdated or inconsistent with the task
-- Choose exactly one meaningful task per run
-- Inspect only the files needed for that task
+- Choose one focused day activity per run — may include multiple related tasks that belong together
+- Inspect only the files needed for that activity
 - If repo files conflict with this tracker, trust the files and then correct this tracker
 
 ---
 
 ## Current snapshot
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
-- Total published articles: 25
-- Silo balance: Productivity 5, all others 4
+- Total published articles: 26
+- Silo balance: Productivity 5, Business 5, all others 4
 - Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC baseline to recheck: 1,420 impressions, 4 clicks, average position 51.8, CTR 0.3%
@@ -39,7 +39,6 @@ Rules for daily runs:
 ### Content pipeline — next articles to publish (Priority: Early)
 Publish in this order unless a higher-priority fix exists:
 
-- `free-time-tracking-software` — Business silo
 - `figma-alternatives` — Creative silo
 - `free-font-websites` — Creative silo
 - `free-ai-writing-tools` — Productivity silo
@@ -60,7 +59,7 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 - Productivity: 5
 - Creative: 4
 - Cloud: 4
-- Business: 4
+- Business: 5
 - Security: 4
 - Video: 4
 
@@ -84,6 +83,16 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 32
+- Updated tracker "Read this first" and "Default daily scope" to align with CLAUDE.md focused day activity model
+- Created `content/business/free-time-tracking-software.md` — 5 tools: Clockify, Toggl Track, RescueTime Lite, TimeCamp, Harvest; date `"2026-04-16"`
+- Created `scripts/images/generate_free_time_tracking_software.py` — Business silo, emerald accent
+- Generated `static/img/free-time-tracking-software.webp` (29 KB, 1200×630)
+- Added internal link from `free-invoicing-software` → `free-time-tracking-software` (Our verdict)
+- Added internal link from `free-project-management-software` → `free-time-tracking-software` (Our verdict)
+- Article links back to `free-invoicing-software` and `free-project-management-software`
+- Site now has 26 articles total; Business silo has 5
 
 ### Day 31
 - Fixed duplicate publish dates across all 25 articles — each article now has a unique `date`
@@ -220,8 +229,8 @@ When choosing the next task:
 ## Default daily scope
 A normal daily run should touch only:
 - this tracker
-- one target file or one feature
-- up to 3 related files if needed
+- the files needed for the day activity (article, image script, internal links)
+- up to 5 related files if the activity spans an article + linking batch
 - one image script if creating an article
 
 Do not scan unrelated silos, layouts, or directories unless necessary.
@@ -254,6 +263,7 @@ Do not scan unrelated silos, layouts, or directories unless necessary.
 - `free-crm-software.md`
 - `free-project-management-software.md`
 - `free-invoicing-software.md`
+- `free-time-tracking-software.md`
 
 ### Security
 - `free-password-managers.md`
@@ -290,6 +300,7 @@ Keep these clusters growing naturally:
   - `free-crm-software`
   - `free-project-management-software`
   - `free-invoicing-software`
+  - `free-time-tracking-software`
 
 - Security cluster:
   - `free-password-managers`
