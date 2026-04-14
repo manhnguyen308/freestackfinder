@@ -29,7 +29,18 @@
       "Bash(sort -k5 -n -r)",
       "Bash(/c/Users/vboxuser/AppData/Local/Programs/Python/Python312/python.exe -)",
       "Bash(ls \"c:/Website projects/freestackfinder/static/img/\"*.webp)",
-      "Bash(sort -t'\"' -k2)"
+      "Bash(sort -t'\"' -k2)",
+      "Bash(python scripts/images/generate_free_time_tracking_software.py)",
+      "Bash(py3 --version)",
+      "Bash(python3 -c \"import PIL; print\\('Pillow ok'\\)\")",
+      "Bash(python3 -m pip install Pillow --quiet)",
+      "Bash(py -3 --version)",
+      "Bash(py -3 -c \"import PIL; print\\('ok'\\)\")",
+      "Bash(ls /c/Python*)",
+      "Bash(ls /c/Users/vboxuser/AppData/Local/Microsoft/WindowsApps/python*.exe)",
+      "Bash(/c/Users/vboxuser/AppData/Local/Programs/Python/Python312/python.exe -c \"import PIL; print\\('Pillow ok'\\)\")",
+      "Bash(/c/Users/vboxuser/AppData/Local/Programs/Python/Python312/python.exe scripts/images/generate_free_time_tracking_software.py)",
+      "Bash(hugo --gc --minify)"
     ]
   }
 }
