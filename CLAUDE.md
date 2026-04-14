@@ -13,6 +13,14 @@ Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by 
 7. Update `freestackfinder-progress-log.md`
 8. Commit and deploy after verifying the changes
 
+## Article date rule
+For new article publishing:
+- Use the current publishing date for the new article `date` and `lastmod`
+- If another published article already uses the same `date`, increase the new article date by 1 day
+- Continue increasing by 1 day until the new article has a unique date
+- Keep `date` and `lastmod` as quoted strings in `YYYY-MM-DD` format
+- Do not change existing article dates unless the task is specifically to fix duplicate dates
+
 ## Definition of "next day activity"
 A next day activity is a focused bundle of related work for that day, not necessarily a single task.
 
