@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-16  
-**Current day:** 24  
+**Last updated:** 2026-04-14  
+**Current day:** 26  
 
 ---
 
@@ -30,16 +30,27 @@ Rules for daily runs:
 ---
 
 ## Current priorities
-1. Post Reddit #3
-2. Apply Zoho affiliate via CJ Affiliate
-3. Recheck GSC after Day 15 title updates on Slack and Microsoft Office articles
-4. Apply for AdSense
-5. Expand the next best article cluster
+1. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
+2. Recheck GSC after Day 15 title updates on Slack and Microsoft Office articles
+3. Post Reddit #3 for `r/entrepreneur`
+4. Publish next article from the Early queue (see content pipeline below)
+5. Continue growing clusters to 50 articles — see `CONTENT-STRATEGY.md`
 
-### Next article candidates
-- Productivity: `free-note-taking-apps` or `free-calendar-app`
-- Business: `free-time-tracking-software`
-- Creative: `free-font-websites`
+### Content pipeline — next articles to publish (Priority: Early)
+Publish in this order unless a higher-priority fix exists:
+
+- `free-time-tracking-software` — Business silo
+- `figma-alternatives` — Creative silo
+- `free-font-websites` — Creative silo
+- `free-ai-writing-tools` — Productivity silo
+- `free-chatgpt-alternatives` — Productivity silo
+- `free-calendar-app` — Productivity silo
+- `free-spreadsheet-alternatives` — Business silo
+- `free-accounting-software` — Business silo
+- `free-pdf-editor-alternatives` — Productivity silo
+- `free-resume-builders` — Business silo
+
+Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-STRATEGY.md`.
 
 ---
 
@@ -73,6 +84,11 @@ Rules for daily runs:
 ---
 
 ## Recent completed work
+
+### Day 26
+- Created `CONTENT-STRATEGY.md` in repo root — captures 50-article content plan, 30-day SEO action plan, realism check and income timeline, permanent weekly workflow, monthly maintenance checklist, and growth milestones
+- Updated tracker priorities to align with the 50-article content strategy and content pipeline order
+- No article published; no site content changed
 
 ### Day 25
 - Moved all 3 feature-image generator scripts from repo root into `scripts/images/`
