@@ -8,7 +8,7 @@ weight: 85
 slug: "canva-alternatives"
 categories: ["Creative"]
 tags: ["canva alternatives", "free design tool", "free graphic design software"]
-image: "/img/best-free-canva-alternatives-2026-featured-image.png"
+image: "/img/canva-alternatives.jpg"
 keywords:
   - "free canva alternative"
   - "canva alternative free"

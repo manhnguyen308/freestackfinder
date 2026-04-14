@@ -68,7 +68,7 @@
     <!-- Featured image -->
     {{ with .Params.image }}
     <div class="article-featured-image">
-      <img src="{{ . }}" alt="{{ $.Title }}" loading="eager" itemprop="image" />
+      <img src="{{ . }}" alt="{{ $.Title }}" loading="eager" decoding="async" width="1200" height="630" itemprop="image" />
     </div>
     {{ end }}
 

@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-14  
-**Current day:** 27  
+**Current day:** 28  
 
 ---
 
@@ -84,6 +84,14 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 28
+- Fixed `canva-alternatives.md` image path: was referencing 1.7 MB PNG; now uses 244 KB `canva-alternatives.jpg`
+- Added `defer` to `/js/main.js` reference in `layouts/_default/baseof.html` — removes render-blocking JS flag in Lighthouse
+- Added `<link rel="preconnect">` and `<link rel="dns-prefetch">` for `pagead2.googlesyndication.com` in `layouts/partials/head.html` — reduces AdSense connection latency
+- Added `width="1200" height="630" decoding="async"` to featured image `<img>` in `layouts/_default/single.html` — browser can reserve correct layout space before image loads
+- Added `aspect-ratio: 1200 / 630` and `object-fit: cover` to `.article-featured-image` in `static/css/style.css` — prevents CLS on all article pages from image load
+- Homepage CLS 0.78 on `body.is-home` is from AdSense auto-ads injecting content — third-party issue, not fixable from code without removing ads; documented as expected
 
 ### Day 27
 - Created `scripts/images/image_helpers.py` — shared module with font loader, text truncation, word-wrap, rounded-rect, circle, draw_chrome, draw_featured_card, draw_grid, draw_bar, and output-path helper
