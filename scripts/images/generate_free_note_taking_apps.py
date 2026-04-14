@@ -1,51 +1,140 @@
-from PIL import Image, ImageDraw, ImageFont
-import os
+#!/usr/bin/env python3
+"""
+Feature image generator: Best Free Note-Taking Apps in 2026
+Output : static/img/free-note-taking-apps.jpg  (1200×630 px)
+Silo   : Productivity   Accent: #6366f1
+"""
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-W, H = 1200, 630
-BG = "#101116"
-ACCENT = "#6366f1"  # Productivity silo
+from PIL import Image, ImageDraw
+from image_helpers import (
+    W, H, BG, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM,
+    LEFT_W, CONTENT_H, INNER_PAD,
+    font, rrect, draw_circle, truncate, measure_w,
+    draw_chrome, draw_featured_card, draw_grid, draw_bar, img_out,
+)
 
-img = Image.new("RGB", (W, H), BG)
+ACCENT = "#6366f1"   # Productivity silo — indigo
+
+img  = Image.new("RGB", (W, H), BG)
 draw = ImageDraw.Draw(img)
 
-# Bottom bar
-draw.rectangle([(0, H - 80), (W, H)], fill=ACCENT)
-try:
-    font_title = ImageFont.truetype("arialbd.ttf", 28)
-    font_body  = ImageFont.truetype("arial.ttf",   22)
-    font_small = ImageFont.truetype("arial.ttf",   18)
-    font_init  = ImageFont.truetype("arialbd.ttf", 22)
-except:
-    font_title = font_body = font_small = font_init = ImageFont.load_default()
+# ── LEFT PANEL — mock note-taking app UI ──────────────────────────────────────
+draw.rectangle([0, 0, LEFT_W, CONTENT_H], fill=WIN_BG)
+draw_chrome(draw, "Notes — Google Keep")
 
-draw.text((30, H - 54), "Best Free Note-Taking Apps in 2026 — FreeStackFinder", font=font_title, fill="white")
+# Sidebar: list of notes
+SIDE_W  = 172
+side_bg = "#0f1118"
+draw.rectangle([0, 36, SIDE_W, CONTENT_H], fill=side_bg)
 
-# Left panel — mock UI lines
-panel_x = 30
-for i, line in enumerate(["## Quick capture", "- Google Keep", "- Apple Notes", "- Standard Notes", "- Simplenote", "- Notion free"]):
-    col = "#a5b4fc" if line.startswith("##") else "#6b7280"
-    draw.text((panel_x, 50 + i * 38), line, font=font_body, fill=col)
+notes = [
+    ("Quick Capture",     "Shopping list · personal",  True),
+    ("Meeting 14 Apr",    "Q2 planning · action items", False),
+    ("Project Ideas",     "Blog, side project, ...",    False),
+    ("Book List 2026",    "Reading queue",              False),
+    ("Recipes to Try",    "Pasta, Thai, BBQ",           False),
+]
+note_y = 44
+for title, preview, selected in notes:
+    bg = ACCENT + "33" if selected else side_bg
+    draw.rectangle([2, note_y, SIDE_W - 2, note_y + 46], fill=bg)
+    draw.text((10, note_y + 6),
+              truncate(draw, title, font(11, bold=True), SIDE_W - 18),
+              fill=TEXT_W if selected else TEXT_DIM,
+              font=font(11, bold=True))
+    draw.text((10, note_y + 24),
+              truncate(draw, preview, font(9), SIDE_W - 18),
+              fill=TEXT_DIM, font=font(9))
+    note_y += 52
 
-# Right panel — featured card + comparison cards
-def card(x, y, w, h, label, initials, color):
-    draw.rounded_rectangle([(x, y), (x + w, y + h)], radius=12, fill="#1e1f2e")
-    cx, cy = x + 38, y + h // 2
-    draw.ellipse([(cx - 22, cy - 22), (cx + 22, cy + 22)], fill=color)
-    draw.text((cx - 10, cy - 12), initials, font=font_init, fill="white")
-    draw.text((x + 70, y + h // 2 - 12), label, font=font_body, fill="#e5e7eb")
+# Main editor area (right of sidebar inside left panel)
+EDIT_X = SIDE_W + 10
+EDIT_W = LEFT_W - EDIT_X - 14
 
-# Featured card
-card(480, 40, 340, 90, "Google Keep — quick capture", "GK", "#34a853")
+# Editor card
+rrect(draw, EDIT_X, 42, LEFT_W - 10, CONTENT_H - 12, 8, CARD_BG)
 
-# 2x2 grid
-card(480, 150, 160, 80, "Apple Notes", "AN", "#6366f1")
-card(655, 150, 160, 80, "Standard Notes", "SN", "#8b5cf6")
-card(480, 245, 160, 80, "Simplenote", "Si", "#3b82f6")
-card(655, 245, 160, 80, "Notion Free", "No", "#10b981")
+# Note title in editor
+draw.text((EDIT_X + 14, 56),
+          truncate(draw, "Quick Capture", font(16, bold=True), EDIT_W - 20),
+          fill=TEXT_W, font=font(16, bold=True))
+draw.text((EDIT_X + 14, 82),
+          truncate(draw, "Apr 14, 2026  · personal", font(10), EDIT_W - 20),
+          fill=TEXT_DIM, font=font(10))
 
-# Silo label
-draw.text((480, 345), "Productivity", font=font_small, fill="#6366f1")
+# Divider
+draw.rectangle([EDIT_X + 14, 100, LEFT_W - 24, 101], fill=ACCENT + "44")
 
-out = os.path.join(os.path.dirname(__file__), "..", "..", "static", "img", "free-note-taking-apps.jpg")
+# Note body lines
+lines = [
+    ("Shopping list:", True),
+    ("• Milk, eggs, bread", False),
+    ("• Call dentist Thu", False),
+    ("• Review Q2 report", False),
+    ("", False),
+    ("Ideas:", True),
+    ("• Start newsletter draft", False),
+    ("• Check Notion template", False),
+]
+line_y = 110
+for text, bold in lines:
+    if not text:
+        line_y += 6
+        continue
+    draw.text((EDIT_X + 14, line_y),
+              truncate(draw, text, font(11, bold=bold), EDIT_W - 20),
+              fill=TEXT_W if bold else "#c0c4d6",
+              font=font(11, bold=bold))
+    line_y += 20
+
+# Cursor blink simulation
+draw.rectangle([EDIT_X + 14, line_y + 2, EDIT_X + 15, line_y + 16], fill=ACCENT)
+
+# Tags row
+tag_y = CONTENT_H - 48
+draw.text((EDIT_X + 14, tag_y),
+          "Tags:", fill=TEXT_DIM, font=font(10))
+for ti, tag in enumerate(["personal", "todo"]):
+    tx = EDIT_X + 46 + ti * 68
+    rrect(draw, tx, tag_y - 2, tx + 58, tag_y + 16, 4, ACCENT + "44")
+    draw.text((tx + 6, tag_y + 1),
+              truncate(draw, tag, font(9), 46),
+              fill=ACCENT, font=font(9))
+
+# Free badge
+rrect(draw, EDIT_X + 14, CONTENT_H - 26, EDIT_X + 108, CONTENT_H - 8, 4, ACCENT + "33")
+draw.text((EDIT_X + 20, CONTENT_H - 23),
+          "✓ Completely free", fill=ACCENT, font=font(10, bold=True))
+
+# ── RIGHT PANEL ───────────────────────────────────────────────────────────────
+draw_featured_card(
+    draw, ACCENT,
+    initials    = "GK",
+    name        = "Google Keep",
+    tagline     = "Best for quick capture",
+    line1       = "Unlimited notes · labels · reminders",
+    line2       = "Syncs across all devices via Google",
+    badge       = "✓ Completely free — no paid tier",
+    license_note= "Google account required · web + iOS + Android",
+)
+
+draw_grid(draw, ACCENT, [
+    ("#f97316", "AN", "Apple Notes",     "iOS/Mac only · iCloud sync"),
+    ("#3b82f6", "SN", "Standard Notes",  "Encrypted · cross-platform"),
+    ("#06b6d4", "Si", "Simplenote",      "Minimal · fast · free forever"),
+    ("#10b981", "No", "Notion Free",     "1,000 blocks · web clipper"),
+])
+
+# ── BOTTOM BAR ────────────────────────────────────────────────────────────────
+draw_bar(
+    draw, ACCENT,
+    title    = "Best Free Note-Taking Apps in 2026",
+    subtitle = "Google Keep  ·  Apple Notes  ·  Standard Notes  ·  Simplenote  ·  Notion",
+)
+
+# ── Save ──────────────────────────────────────────────────────────────────────
+out = img_out("free-note-taking-apps.jpg")
 img.save(out, "JPEG", quality=92)
-print(f"Saved → {out}")
+print(f"Saved: {out}")

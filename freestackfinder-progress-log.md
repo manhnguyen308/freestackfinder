@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-14  
-**Current day:** 26  
+**Current day:** 27  
 
 ---
 
@@ -84,6 +84,16 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 27
+- Created `scripts/images/image_helpers.py` — shared module with font loader, text truncation, word-wrap, rounded-rect, circle, draw_chrome, draw_featured_card, draw_grid, draw_bar, and output-path helper
+- Rewrote `scripts/images/generate_free_note_taking_apps.py` — completely rebuilt to match standard template: macOS chrome, sidebar note list, main editor area with wrapped content, proper font fallbacks via helpers
+- Updated `scripts/images/generate_free_invoicing_software.py` — migrated to helpers; added truncation on all variable-length strings; fixed item description overflow in line-item rows; improved button/badge positioning
+- Updated `scripts/images/generate_free_stock_photos.py` — migrated to helpers; fixed badge overflow; added truncation on photo labels and stats text
+- Created `scripts/images/generate_free_crm_software.py` — new script; Business silo; left panel shows contacts table with pipeline bar and stage pills; featured card: HubSpot; grid: Zoho CRM, Freshsales, Bitrix24, Notion CRM
+- Regenerated all 4 images into `static/img/`: free-note-taking-apps.jpg, free-invoicing-software.jpg, free-stock-photos.jpg, free-crm-software.jpg — all 1200×630 JPEG
+- All front matter image paths verified to match generated filenames
+- Remaining image scripts: none — 21 other article images in static/img/ have no generator scripts and appear as static files from prior work; future articles should use the helpers module
 
 ### Day 26
 - Created `CONTENT-STRATEGY.md` in repo root — captures 50-article content plan, 30-day SEO action plan, realism check and income timeline, permanent weekly workflow, monthly maintenance checklist, and growth milestones
