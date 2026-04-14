@@ -85,6 +85,13 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ## Recent completed work
 
+### Day 29
+- Deleted `static/img/best-free-canva-alternatives-2026-featured-image.png` — 1.7 MB unreferenced PNG removed from repo; article already updated to use `canva-alternatives.jpg` in Day 28
+- Re-compressed all 26 JPEGs in `static/img/` from quality 92 → quality 82 using Python + Pillow; total JPEG savings ~802 KB
+- Combined first-party image payload reduction: ~2.5 MB (PNG deletion + JPEG compression)
+- Day 28 changes (defer on main.js, preconnect for AdSense, featured image dimensions, aspect-ratio CSS) are confirmed deployed; mobile PageSpeed test at 11:39:59 on Apr 14 was a pre-deployment cache hit
+- Remaining CLS 0.270 on homepage is from AdSense auto-ads injecting content — third-party, not fixable from code without removing ads
+
 ### Day 28
 - Fixed `canva-alternatives.md` image path: was referencing 1.7 MB PNG; now uses 244 KB `canva-alternatives.jpg`
 - Added `defer` to `/js/main.js` reference in `layouts/_default/baseof.html` — removes render-blocking JS flag in Lighthouse
