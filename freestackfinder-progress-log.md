@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-14  
-**Current day:** 30  
+**Current day:** 31  
 
 ---
 
@@ -84,6 +84,23 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 31
+- Fixed duplicate publish dates across all 25 articles — each article now has a unique `date`
+- 7 articles had dates moved forward; 1 article (photoshop-alternatives) had unquoted dates corrected to quoted strings
+- `lastmod` updated to match the new `date` for all 7 changed articles
+- No titles, slugs, content, weights, or images changed
+- Final date range: 2025-01-15 (photoshop) through 2026-04-15 (free-stock-photos), all unique
+
+Date changes:
+- `canva-alternatives`: `"2026-03-16"` → `"2026-03-19"`
+- `grammarly-alternatives`: `"2026-03-16"` → `"2026-03-20"`
+- `zoom-alternatives`: `"2026-03-18"` → `"2026-03-21"`
+- `dropbox-alternatives`: `"2026-04-02"` → `"2026-04-08"`
+- `free-antivirus-software`: `"2026-04-02"` → `"2026-04-09"`
+- `free-screen-recording-software`: `"2026-04-10"` → `"2026-04-11"`
+- `free-stock-photos`: `"2026-04-13"` → `"2026-04-15"`
+- `photoshop-alternatives`: unquoted `2025-01-15` → quoted `"2025-01-15"` (value unchanged)
 
 ### Day 30
 - Converted all 25 article feature images from JPEG to WebP using Python + Pillow (quality 82, method 4)

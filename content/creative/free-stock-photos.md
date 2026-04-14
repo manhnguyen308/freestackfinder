@@ -1,8 +1,8 @@
 ---
 title: "Best Free Stock Photo Sites in 2026 — No Attribution, No License Fees"
 description: "Unsplash, Pexels, Pixabay, and Burst cover most needs royalty-free. Here's which free stock site has what you need — and which ones have hidden catches."
-date: "2026-04-13"
-lastmod: "2026-04-13"
+date: "2026-04-15"
+lastmod: "2026-04-15"
 draft: false
 weight: 63
 slug: "free-stock-photos"

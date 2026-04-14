@@ -1,7 +1,7 @@
 ---
 title: "Best Free Alternatives to Adobe Photoshop (2026) — Tested and Ranked"
-date: 2025-01-15
-lastmod: 2025-01-15
+date: "2025-01-15"
+lastmod: "2025-01-15"
 description: "We tested seven free Photoshop alternatives on real tasks. Here's which ones are genuinely good, which are limited, and when Photoshop is actually worth paying for."
 categories: ["Creative"]
 tags: ["photoshop alternatives", "free photo editor", "GIMP", "Photopea"]

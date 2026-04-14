@@ -1,8 +1,8 @@
 ---
 title: "Best Free Antivirus Software in 2026 — Tested and Compared"
 description: "Windows Defender, built into Windows 11, scores comparably to paid antivirus in independent lab tests. Here's how every free antivirus option compares — and why you probably don't need to pay."
-date: "2026-04-02"
-lastmod: "2026-04-02"
+date: "2026-04-09"
+lastmod: "2026-04-09"
 draft: false
 weight: 38
 slug: "free-antivirus-software"

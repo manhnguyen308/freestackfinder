@@ -1,8 +1,8 @@
 ---
 title: "Best Free Alternatives to Grammarly in 2026 — Tested Honestly"
 description: "Grammarly's free tier is limited. We tested 4 free alternatives that cover grammar, style, and clarity — including one most people have never heard of."
-date: "2026-03-16"
-lastmod: "2026-03-16"
+date: "2026-03-20"
+lastmod: "2026-03-20"
 draft: false
 weight: 55
 slug: "grammarly-alternatives"

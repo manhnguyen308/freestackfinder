@@ -1,8 +1,8 @@
 ---
 title: "Best Free Dropbox Alternatives in 2026 — More Storage, Same Simplicity"
 description: "Dropbox's free tier gives you 2GB. MEGA gives you 20GB. Google Drive gives 15GB. Here's how every free cloud storage option compares to Dropbox — and which one you should switch to."
-date: "2026-04-02"
-lastmod: "2026-04-02"
+date: "2026-04-08"
+lastmod: "2026-04-08"
 draft: false
 weight: 35
 slug: "dropbox-alternatives"
