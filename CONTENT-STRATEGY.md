@@ -44,7 +44,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 2 | Best Free CRM Software in 2026 | free-crm-software | ✓ Published |
 | 3 | Best Free Project Management Software in 2026 | free-project-management-software | ✓ Published |
 | 4 | Best Free Invoicing Software in 2026 | free-invoicing-software | ✓ Published |
-| 5 | Best Free Time Tracking Software in 2026 | free-time-tracking-software | Early |
+| 5 | Best Free Time Tracking Software in 2026 | free-time-tracking-software | ✓ Published |
 | 6 | Best Free Spreadsheet Alternatives in 2026 | free-spreadsheet-alternatives | Early |
 | 7 | Best Free Accounting Software in 2026 | free-accounting-software | Early |
 | 8 | Best Free Resume Builders in 2026 | free-resume-builders | Early |
