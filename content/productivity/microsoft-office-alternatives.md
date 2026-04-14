@@ -11,7 +11,7 @@ keywords:
   - "alternative for microsoft office"
   - "best free office suite 2026"
   - "libreoffice vs microsoft office"
-image: "/img/microsoft-office-alternatives.jpg"
+image: "/img/microsoft-office-alternatives.webp"
 author: "FreeStackFinder Team"
 weight: 90
 ---

@@ -11,7 +11,7 @@ keywords:
   - "free slack alternative"
   - "best free team communication tool 2026"
   - "discord vs slack for teams"
-image: "/img/slack-alternatives.jpg"
+image: "/img/slack-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 

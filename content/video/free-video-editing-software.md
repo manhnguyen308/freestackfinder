@@ -11,7 +11,7 @@ keywords:
   - "free video editing software"
   - "best free video editor 2026"
   - "davinci resolve free vs paid"
-image: "/img/free-video-editing-software.jpg"
+image: "/img/free-video-editing-software.webp"
 author: "FreeStackFinder Team"
 ---
 

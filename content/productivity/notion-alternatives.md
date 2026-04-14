@@ -12,7 +12,7 @@ keywords:
   - "free notion alternative"
   - "best free note taking app 2026"
   - "obsidian vs notion free"
-image: "/img/notion-alternatives.jpg"
+image: "/img/notion-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 

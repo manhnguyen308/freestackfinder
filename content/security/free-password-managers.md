@@ -11,7 +11,7 @@ keywords:
   - "free password manager 2026"
   - "best free password manager"
   - "bitwarden vs lastpass free"
-image: "/img/free-password-managers.jpg"
+image: "/img/free-password-managers.webp"
 author: "FreeStackFinder Team"
 ---
 

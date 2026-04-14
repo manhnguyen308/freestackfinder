@@ -1,8 +1,8 @@
 ---
 title: "Best Free Note-Taking Apps in 2026 — Simple Beats Complex for Most People"
 description: "Notion and Obsidian are overkill if you just want to capture ideas. Google Keep, Standard Notes, and Simplenote do the job faster with zero setup. Here's what actually works."
-date: "2026-04-16"
-lastmod: "2026-04-16"
+date: "2026-04-14"
+lastmod: "2026-04-14"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"
@@ -18,7 +18,7 @@ keywords:
   - "google keep vs apple notes"
   - "standard notes free review"
   - "simplenote review"
-image: "/img/free-note-taking-apps.jpg"
+image: "/img/free-note-taking-apps.webp"
 author: "FreeStackFinder Team"
 ---
 

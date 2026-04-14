@@ -202,13 +202,31 @@ When a needed tool is missing:
 - Generate with Python + Pillow
 - If Python or Pillow is missing, attempt installation first before falling back
 - Size: 1200x630
-- Format: JPEG
+- Format: WebP
+- Use optimized WebP output for all newly generated feature images
 - Save generated images to `static/img/`
+- Use `.webp` filenames for generated feature images
+- Do not generate PNG feature images unless transparency is truly required
+- Avoid large JPEG/PNG feature images for article cards and homepage cards
+- Target feature image file size below 200 KB where practical without visible quality loss
 - Create and store image generator scripts inside a dedicated folder: `scripts/images/`
 - Do not create image generator scripts in the repo root
 - When fixing existing scripts, move them into `scripts/images/` and update any related references if needed
-- Ensure the article front matter `image` path matches the actual generated file
+- Ensure the article front matter `image` path matches the actual generated `.webp` file
 - Verify the feature image renders on the article card and the live article page after the fix
+
+## Feature image SEO rules
+- All generated feature images must be SEO-optimized
+- Use descriptive, lowercase, hyphenated filenames
+- Filename should match the article slug where practical
+- Prefer filenames like `free-time-tracking-software.webp`, not generic names like `image1.webp`
+- Article front matter `image` must point to the optimized WebP file
+- Image alt text should be derived from the article title or a clear descriptive phrase
+- Do not keyword-stuff filenames or alt text
+- Keep filenames short, readable, and relevant
+- Use 1200x630 dimensions for social sharing
+- Use optimized WebP format for performance
+- Target file size below 200 KB where practical without visible quality loss
 
 ## Feature image execution rule
 For article feature images:

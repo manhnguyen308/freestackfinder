@@ -14,7 +14,7 @@ keywords:
   - "proton mail vs gmail free"
   - "private email free"
   - "free email with custom domain"
-image: "/img/free-email-service.jpg"
+image: "/img/free-email-service.webp"
 author: "FreeStackFinder Team"
 ---
 

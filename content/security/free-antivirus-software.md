@@ -14,7 +14,7 @@ keywords:
   - "windows defender vs paid antivirus"
   - "malwarebytes free"
   - "is windows defender good enough"
-image: "/img/free-antivirus-software.jpg"
+image: "/img/free-antivirus-software.webp"
 author: "FreeStackFinder Team"
 ---
 

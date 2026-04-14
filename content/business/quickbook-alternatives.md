@@ -12,7 +12,7 @@ keywords:
   - "free quickbooks alternative"
   - "free accounting software for freelancers"
   - "wave accounting review"
-image: "/img/quickbooks-alternatives.jpg"
+image: "/img/quickbooks-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 

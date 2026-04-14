@@ -14,7 +14,7 @@ keywords:
   - "dropbox replacement free storage"
   - "mega cloud free"
   - "more free cloud storage than dropbox"
-image: "/img/dropbox-alternatives.jpg"
+image: "/img/dropbox-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 

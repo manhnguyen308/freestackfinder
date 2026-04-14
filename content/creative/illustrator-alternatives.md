@@ -13,7 +13,7 @@ keywords:
   - "best free vector graphics software"
   - "inkscape vs illustrator"
   - "free illustrator alternative 2026"
-image: "/img/illustrator-alternatives.jpg"
+image: "/img/illustrator-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 

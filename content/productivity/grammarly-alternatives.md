@@ -12,7 +12,7 @@ keywords:
   - "free grammarly alternative"
   - "best free grammar checker"
   - "languagetool vs grammarly"
-image: "/img/grammarly-alternatives.jpg"
+image: "/img/grammarly-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 

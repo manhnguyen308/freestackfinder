@@ -6,7 +6,7 @@ description: "We tested seven free Photoshop alternatives on real tasks. Here's 
 categories: ["Creative"]
 tags: ["photoshop alternatives", "free photo editor", "GIMP", "Photopea"]
 keywords: ["free photoshop alternative", "free photo editing software", "best free image editor"]
-image: "/img/photoshop-alternatives.jpg"
+image: "/img/photoshop-alternatives.webp"
 author: "FreeStackFinder Team"
 weight: 60
 ---

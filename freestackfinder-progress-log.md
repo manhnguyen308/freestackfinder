@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-14  
-**Current day:** 28  
+**Current day:** 30  
 
 ---
 
@@ -57,7 +57,7 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ## Current content state
 
 ### Silo counts
-- Productivity: 4
+- Productivity: 5
 - Creative: 4
 - Cloud: 4
 - Business: 4
@@ -84,6 +84,15 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 30
+- Converted all 25 article feature images from JPEG to WebP using Python + Pillow (quality 82, method 4)
+- Total WebP savings: ~807 KB vs Day 29 compressed JPEGs (1882 KB → 1074 KB total, ~43% reduction)
+- Deleted all 25 article `.jpg` files from `static/img/` — only `.webp` feature images remain
+- Updated all 25 article front matter `image` paths from `.jpg` → `.webp`
+- Updated all 4 generator scripts in `scripts/images/` to output `.webp` instead of JPEG; regenerated their 4 images
+- CLAUDE.md `Feature image rules` and `Feature image SEO rules` sections were already present with correct WebP/SEO rules — no changes needed
+- `default-article.jpg` (fallback) and `nordpass-banner.png`/`nordvpn-banner.png` (unreferenced) left untouched
 
 ### Day 29
 - Deleted `static/img/best-free-canva-alternatives-2026-featured-image.png` — 1.7 MB unreferenced PNG removed from repo; article already updated to use `canva-alternatives.jpg` in Day 28

@@ -14,7 +14,7 @@ keywords:
   - "obs studio free screen recording"
   - "loom free alternative"
   - "free screen capture software"
-image: "/img/free-screen-recording-software.jpg"
+image: "/img/free-screen-recording-software.webp"
 author: "FreeStackFinder Team"
 ---
 

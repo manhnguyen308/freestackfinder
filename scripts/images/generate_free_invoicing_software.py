@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Feature image generator: Best Free Invoicing Software in 2026
-Output : static/img/free-invoicing-software.jpg  (1200×630 px)
+Output : static/img/free-invoicing-software.webp  (1200×630 px)
 Silo   : Business   Accent: #10b981
 """
 import sys, os
@@ -117,6 +117,6 @@ draw_bar(
 )
 
 # ── Save ──────────────────────────────────────────────────────────────────────
-out = img_out("free-invoicing-software.jpg")
-img.save(out, "JPEG", quality=92)
+out = img_out("free-invoicing-software.webp")
+img.save(out, "WEBP", quality=82, method=4)
 print(f"Saved: {out}")

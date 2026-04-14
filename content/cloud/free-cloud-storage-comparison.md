@@ -11,7 +11,7 @@ keywords:
   - "free cloud storage"
   - "best free cloud storage 2026"
   - "most free cloud storage space"
-image: "/img/free-cloud-storage-comparison.jpg"
+image: "/img/free-cloud-storage-comparison.webp"
 author: "FreeStackFinder Team"
 ---
 

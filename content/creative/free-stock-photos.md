@@ -17,7 +17,7 @@ keywords:
   - "royalty free photos no attribution"
   - "free images for commercial use"
   - "unsplash vs pexels"
-image: "/img/free-stock-photos.jpg"
+image: "/img/free-stock-photos.webp"
 author: "FreeStackFinder Team"
 ---
 

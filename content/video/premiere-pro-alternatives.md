@@ -12,7 +12,7 @@ keywords:
   - "free premiere pro alternative"
   - "best free adobe premiere alternative 2026"
   - "davinci resolve vs premiere pro"
-image: "/img/premiere-pro-alternatives.jpg"
+image: "/img/premiere-pro-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 

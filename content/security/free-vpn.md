@@ -13,7 +13,7 @@ keywords:
   - "protonvpn free review"
   - "free vpn that doesn't sell data"
   - "windscribe free vpn"
-image: "/img/free-vpn.jpg"
+image: "/img/free-vpn.webp"
 author: "FreeStackFinder Team"
 ---
 

@@ -14,7 +14,7 @@ keywords:
   - "free computer backup"
   - "duplicati free backup"
   - "google drive backup free"
-image: "/img/free-backup-software.jpg"
+image: "/img/free-backup-software.webp"
 author: "FreeStackFinder Team"
 ---
 

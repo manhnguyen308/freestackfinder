@@ -17,7 +17,7 @@ keywords:
   - "wave invoicing free"
   - "zoho invoice free plan"
   - "free invoice maker for freelancers"
-image: "/img/free-invoicing-software.jpg"
+image: "/img/free-invoicing-software.webp"
 author: "FreeStackFinder Team"
 ---
 

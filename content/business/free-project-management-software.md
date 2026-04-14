@@ -14,7 +14,7 @@ keywords:
   - "trello free vs asana free"
   - "free task management software"
   - "clickup free tier"
-image: "/img/free-project-management-software.jpg"
+image: "/img/free-project-management-software.webp"
 author: "FreeStackFinder Team"
 ---
 

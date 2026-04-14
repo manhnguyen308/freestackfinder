@@ -13,7 +13,7 @@ keywords:
   - "hubspot crm free"
   - "zoho free crm"
   - "free sales crm small business"
-image: "/img/free-crm-software.jpg"
+image: "/img/free-crm-software.webp"
 author: "FreeStackFinder Team"
 ---
 

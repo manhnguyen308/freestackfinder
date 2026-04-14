@@ -14,7 +14,7 @@ keywords:
   - "aegis authenticator review"
   - "google authenticator alternative"
   - "best 2fa app android"
-image: "/img/best-free-2fa-apps.jpg"
+image: "/img/best-free-2fa-apps.webp"
 author: "FreeStackFinder Team"
 ---
 

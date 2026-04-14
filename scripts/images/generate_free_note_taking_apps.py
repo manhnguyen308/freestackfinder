@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Feature image generator: Best Free Note-Taking Apps in 2026
-Output : static/img/free-note-taking-apps.jpg  (1200×630 px)
+Output : static/img/free-note-taking-apps.webp  (1200×630 px)
 Silo   : Productivity   Accent: #6366f1
 """
 import sys, os
@@ -135,6 +135,6 @@ draw_bar(
 )
 
 # ── Save ──────────────────────────────────────────────────────────────────────
-out = img_out("free-note-taking-apps.jpg")
-img.save(out, "JPEG", quality=92)
+out = img_out("free-note-taking-apps.webp")
+img.save(out, "WEBP", quality=82, method=4)
 print(f"Saved: {out}")

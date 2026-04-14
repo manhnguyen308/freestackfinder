@@ -11,7 +11,7 @@ keywords:
   - "free zoom alternative"
   - "best free video calling app 2026"
   - "google meet vs zoom free"
-image: "/img/zoom-alternatives.jpg"
+image: "/img/zoom-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 
