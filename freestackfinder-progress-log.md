@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-14  
-**Current day:** 33  
+**Last updated:** 2026-04-15  
+**Current day:** 34  
 
 ---
 
@@ -24,17 +24,20 @@ Rules for daily runs:
 - Silo balance: Productivity 5, Business 5, all others 4
 - Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
 - Pending affiliate priority: Zoho via CJ Affiliate
-- GSC baseline to recheck: 1,420 impressions, 4 clicks, average position 51.8, CTR 0.3%
+- GSC latest (2026-04-15): 2,220 impressions, 5 clicks, average position 54.4, CTR 0.2%
+- GSC prior baseline: 1,420 impressions, 4 clicks, average position 51.8, CTR 0.3%
+- GSC read: impressions improving (+56%), clicks still low (+1), CTR weak (0.2%), avg position slipped slightly — visibility growing but ranking depth and click appeal still need work
 - Current site goal: grow useful content clusters, improve internal linking, strengthen monetization, and prepare for AdSense
 
 ---
 
 ## Current priorities
-1. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
-2. Recheck GSC after Day 15 title updates on Slack and Microsoft Office articles
-3. Post Reddit #3 for `r/entrepreneur`
-4. Publish next article from the Early queue (see content pipeline below)
-5. Continue growing clusters to 50 articles — see `CONTENT-STRATEGY.md`
+1. Continue publishing from the Early queue — next up: `figma-alternatives` (Creative silo)
+2. Targeted CTR improvement on pages already earning impressions — pull GSC query/page report and rework titles + meta descriptions on pages with impressions but near-zero CTR
+3. Strengthen internal linking inside the two strongest clusters (Productivity, Business)
+4. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
+5. Post Reddit #3 for `r/entrepreneur`
+6. Continue growing clusters to 50 articles — see `CONTENT-STRATEGY.md`
 
 ### Content pipeline — next articles to publish (Priority: Early)
 Publish in this order unless a higher-priority fix exists:
@@ -83,6 +86,12 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 34
+- Logged new GSC snapshot: 2,220 impressions, 5 clicks, avg position 54.4, CTR 0.2% (vs prior baseline 1,420 / 4 / 51.8 / 0.3%)
+- Read: impressions growing steadily (+56%), clicks still very low, CTR weak, avg position drifted slightly deeper — visibility is compounding but ranking depth and title/meta click appeal still need work
+- Reordered priorities around continued publishing, targeted CTR work on impression-earning pages, and tightening internal linking in Productivity + Business clusters
+- Next content action: publish `figma-alternatives` (Creative silo, next in Early queue)
 
 ### Day 33
 - Cleaned up `CLAUDE.md` operating rules
