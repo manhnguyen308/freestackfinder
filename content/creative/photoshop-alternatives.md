@@ -151,4 +151,4 @@ Start with **Photopea** if you want zero friction: no download, no setup, works 
 
 Neither will replace Photoshop entirely for professionals, but for most everyday users, neither needs to.
 
-For sourcing quality images to edit, see our roundup of the [best free stock photo sites in 2026](/creative/free-stock-photos/) — royalty-free photography that works with Photopea, GIMP, and any editor in this list.
+For sourcing quality images to edit, see our roundup of the [best free stock photo sites in 2026](/creative/free-stock-photos/) — royalty-free photography that works with Photopea, GIMP, and any editor in this list. For UI and interface design work, see our guide to [free Figma alternatives in 2026](/creative/figma-alternatives/).

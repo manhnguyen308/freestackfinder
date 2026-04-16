@@ -226,4 +226,4 @@ For standard blogging, social media, website design, and presentation work, the 
 
 Start with **Unsplash** for general photography and use **Pexels** when you also need video. Add **Pixabay** to your workflow for vectors, illustrations, or niche subjects. For e-commerce and product contexts, **Burst** produces more marketing-ready imagery than any general platform. These four sites together cover 95% of free stock media needs.
 
-For the design tools that turn these images into finished graphics, see our guides to [free Photoshop alternatives](/creative/photoshop-alternatives/), [free Illustrator alternatives](/creative/illustrator-alternatives/), and [free Canva alternatives](/creative/canva-alternatives/).
+For the design tools that turn these images into finished graphics, see our guides to [free Photoshop alternatives](/creative/photoshop-alternatives/), [free Illustrator alternatives](/creative/illustrator-alternatives/), and [free Canva alternatives](/creative/canva-alternatives/). For UI design and prototyping, see our guide to [free Figma alternatives](/creative/figma-alternatives/).

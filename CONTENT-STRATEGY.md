@@ -31,7 +31,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 2 | Best Free Photoshop Alternatives in 2026 | photoshop-alternatives | ✓ Published |
 | 3 | Best Free Illustrator Alternatives in 2026 | illustrator-alternatives | ✓ Published |
 | 4 | Best Free Stock Photo Sites in 2026 | free-stock-photos | ✓ Published |
-| 5 | Best Free Figma Alternatives in 2026 | figma-alternatives | Early |
+| 5 | Best Free Figma Alternatives in 2026 | figma-alternatives | ✓ Published |
 | 6 | Best Free Font Websites in 2026 | free-font-websites | Early |
 | 7 | Canva Free vs Paid — Is the Free Plan Enough? | canva-free-vs-paid | Later |
 | 8 | Best Free FreeCAD Alternatives in 2026 | freecad-alternatives | Later |

@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-15  
-**Current day:** 34  
+**Last updated:** 2026-04-17  
+**Current day:** 35  
 
 ---
 
@@ -20,8 +20,8 @@ Rules for daily runs:
 
 ## Current snapshot
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
-- Total published articles: 26
-- Silo balance: Productivity 5, Business 5, all others 4
+- Total published articles: 27
+- Silo balance: Productivity 5, Creative 5, Business 5, Cloud 4, Security 4, Video 4
 - Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC latest (2026-04-15): 2,220 impressions, 5 clicks, average position 54.4, CTR 0.2%
@@ -32,7 +32,7 @@ Rules for daily runs:
 ---
 
 ## Current priorities
-1. Continue publishing from the Early queue — next up: `figma-alternatives` (Creative silo)
+1. Continue publishing from the Early queue — next up: `free-font-websites` (Creative silo)
 2. Targeted CTR improvement on pages already earning impressions — pull GSC query/page report and rework titles + meta descriptions on pages with impressions but near-zero CTR
 3. Strengthen internal linking inside the two strongest clusters (Productivity, Business)
 4. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
@@ -42,7 +42,6 @@ Rules for daily runs:
 ### Content pipeline — next articles to publish (Priority: Early)
 Publish in this order unless a higher-priority fix exists:
 
-- `figma-alternatives` — Creative silo
 - `free-font-websites` — Creative silo
 - `free-ai-writing-tools` — Productivity silo
 - `free-chatgpt-alternatives` — Productivity silo
@@ -60,7 +59,7 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ### Silo counts
 - Productivity: 5
-- Creative: 4
+- Creative: 5
 - Cloud: 4
 - Business: 5
 - Security: 4
@@ -86,6 +85,18 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 35
+- Created `content/creative/figma-alternatives.md` — 5 tools: Penpot, Lunacy, Plasmic, Quant UX, Figma Starter; date `"2026-04-17"`
+- Created `scripts/images/generate_figma_alternatives.py` — Creative silo, orange accent
+- Generated `static/img/figma-alternatives.webp` (27 KB, 1200×630)
+- Added internal link from `canva-alternatives` → `figma-alternatives` (Our verdict)
+- Added internal link from `illustrator-alternatives` → `figma-alternatives` (Our verdict)
+- Added internal link from `free-stock-photos` → `figma-alternatives` (Our verdict)
+- Added internal link from `photoshop-alternatives` → `figma-alternatives` (final recommendation)
+- Article links back to `free-stock-photos`, `canva-alternatives`, and `illustrator-alternatives`
+- Updated `CONTENT-STRATEGY.md`: `figma-alternatives` marked as ✓ Published
+- Site now has 27 articles total; Creative silo has 5
 
 ### Day 34
 - Logged new GSC snapshot: 2,220 impressions, 5 clicks, avg position 54.4, CTR 0.2% (vs prior baseline 1,420 / 4 / 51.8 / 0.3%)
@@ -267,6 +278,7 @@ Do not scan unrelated silos, layouts, or directories unless necessary.
 - `photoshop-alternatives.md`
 - `illustrator-alternatives.md`
 - `free-stock-photos.md`
+- `figma-alternatives.md`
 
 ### Cloud
 - `free-cloud-storage-comparison.md`
@@ -310,6 +322,7 @@ Keep these clusters growing naturally:
   - `photoshop-alternatives`
   - `illustrator-alternatives`
   - `free-stock-photos`
+  - `figma-alternatives`
 
 - Business cluster:
   - `quickbooks-alternatives`
