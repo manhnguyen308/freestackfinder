@@ -23,7 +23,7 @@ author: "FreeStackFinder Team"
 
 ## Quick verdict
 
-For most designers, **Penpot** is the strongest free Figma alternative in 2026 — fully open-source, browser-based, unlimited users, and no feature gating behind paid plans. **Lunacy** is the better pick for solo designers on Windows who want a fast desktop app with built-in assets. **Plasmic** is the best choice if your goal is visual prototyping that outputs production React code. Figma's free plan still works well for individuals and small teams (up to 3 files in a team project), but its recent pricing changes and the Adobe acquisition concern have pushed many teams to evaluate alternatives seriously. The tools below cover real design workflows — not toy demos.
+For most designers, **Penpot** is the strongest free Figma alternative in 2026 — fully open-source, browser-based, unlimited users, and no feature gating behind paid plans. **Lunacy** is the better pick for solo designers on Windows who want a fast desktop app with built-in assets. **Plasmic** is the best choice if your goal is visual prototyping that outputs production React code. Figma's free plan still works well for individuals and small teams (up to 3 files in a team project), but its recent pricing changes have pushed many teams to evaluate alternatives seriously. The tools below cover real design workflows — not toy demos.
 
 ---
 
@@ -31,7 +31,7 @@ For most designers, **Penpot** is the strongest free Figma alternative in 2026 �
 
 Figma changed the design industry by making collaborative, browser-based UI design the default. But its free tier has tightened over time. The current Starter plan limits team projects to 3 files, caps version history at 30 days, and restricts some prototyping and Dev Mode features to paid plans starting at $15/editor/month. For a small agency with 5 designers, that is $900/year — a significant cost for a tool whose core promise was accessibility.
 
-The Adobe acquisition (completed in 2024 after regulatory review) added another concern. While Figma operates independently for now, many teams began evaluating alternatives purely as a hedge against future pricing or feature changes under Adobe's ownership.
+The proposed Adobe acquisition was abandoned on December 18, 2023 after regulators signaled they would block the deal. Even though Figma remained independent, the episode still pushed many teams to evaluate alternatives as a hedge against future pricing changes or ecosystem risk.
 
 The open-source community responded. Penpot reached production stability and now offers a genuinely competitive design environment with no seat limits and no feature gates. For teams whose Figma usage centers on UI layout, component libraries, and basic prototyping, the migration path is straightforward.
 
