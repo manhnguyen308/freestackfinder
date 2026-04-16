@@ -133,11 +133,13 @@
     </div>
 
     <!-- CTA: Free Stack Guide -->
+    {{ with .Site.GetPage "/free-stack-guide" }}
     <div class="sidebar-widget cta-widget">
       <h4>Free stack for freelancers</h4>
       <p>Get our curated list of the best free tools for freelancers and small teams — no email required.</p>
-      <a href="/free-stack-guide/" class="btn btn-primary">Download free →</a>
+      <a href="{{ .RelPermalink }}" class="btn btn-primary">Download free →</a>
     </div>
+    {{ end }}
 
   </aside>
 
