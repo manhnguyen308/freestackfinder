@@ -86,6 +86,19 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ## Recent completed work
 
+### Day 35b — review hotfixes
+- Reviewed repo instructions and tracker before changing implementation
+- Guarded homepage `See all` links in `layouts/index.html` so `/all/` is not rendered unless that page exists
+- Guarded the sidebar `free-stack-guide` CTA in `layouts/_default/single.html` so the link is not rendered unless that page exists
+- Removed invalid homepage `SearchAction` schema from `layouts/partials/schema.html` because the site has no search feature
+- Removed the missing publisher logo reference from `layouts/partials/schema.html`
+- Corrected factual drift in published content:
+  - `content/creative/figma-alternatives.md` — Adobe/Figma merger language corrected
+  - `content/cloud/free-backup-software.md` — Google Photos storage claim corrected
+  - `content/cloud/free-cloud-storage-comparison.md` — Google Docs/Sheets/Slides storage claim corrected
+- Fixed internal link in `content/business/free-invoicing-software.md` to `/business/quickbooks-alternatives/`
+- Updated `lastmod` on the edited article files to `"2026-04-17"`
+
 ### Day 35
 - Created `content/creative/figma-alternatives.md` — 5 tools: Penpot, Lunacy, Plasmic, Quant UX, Figma Starter; date `"2026-04-17"`
 - Created `scripts/images/generate_figma_alternatives.py` — Creative silo, orange accent
