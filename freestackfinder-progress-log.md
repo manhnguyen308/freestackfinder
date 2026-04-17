@@ -14,6 +14,8 @@ Rules for daily runs:
 - Do not perform a broad repo audit unless this file is clearly outdated or inconsistent with the task
 - Choose one focused day activity per run — may include multiple related tasks that belong together
 - Inspect only the files needed for that activity
+- Keep daily runs focused on content creation or improvement, build verification, light QA, and tracker updates
+- Weekly review cleanup and monthly audits belong to Codex unless explicitly requested
 - If repo files conflict with this tracker, trust the files and then correct this tracker
 
 ---
@@ -86,6 +88,9 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 35e - workflow cadence update
+- Clarified the repo workflow so daily runs stay focused on content work, build checks, light QA, and tracker updates, while weekly and monthly review passes belong to Codex
 
 ### Day 35d - git ignore cleanup
 - Added the local settings folder to git ignore rules and removed it from version tracking without deleting the local copy

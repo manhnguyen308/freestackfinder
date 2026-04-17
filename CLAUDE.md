@@ -5,13 +5,15 @@ Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by 
 
 ## Daily workflow
 1. Read `CLAUDE.md`
-2. Read `freestackfinder-progress-log.md`
+2. Read `freestackfinder-progress-log.md` or `TRACKER.md` if present
 3. Use the tracker as the primary source of current project state
-4. Choose the best next day activity
+4. Choose one focused content creation or content improvement day activity
 5. Inspect only the files needed for that day activity
 6. Implement the changes directly in the repo
-7. Update `freestackfinder-progress-log.md`
-8. Commit and deploy after verifying the changes
+7. Run a build to verify the current batch
+8. Do light QA on the touched work only
+9. Update `freestackfinder-progress-log.md` or `TRACKER.md` if present
+10. Commit and deploy after verifying the changes
 
 ## Article date rule
 For new article publishing:
@@ -38,6 +40,8 @@ Keep the day activity cohesive. Do not mix unrelated work from different parts o
 
 ## Execution rules
 - A daily run may contain multiple related tasks, but they must belong to one focused day activity
+- Daily Claude Code runs focus on content creation or improvement, build verification, light QA, and tracker updates
+- Do not take on Codex-style weekly reviews or monthly audits unless explicitly requested
 - Prefer meaningful progress over artificial one-task limits
 - Do not perform a broad repo audit unless the tracker is clearly outdated or inconsistent
 - Do not scan unrelated directories
@@ -87,7 +91,7 @@ Choose the next day activity in this order:
 5. Improve UX, SEO, trust, or layout only when directly relevant to the current batch
 
 ## Weekly publishing schedule
-Use this schedule as the default operating rhythm unless the tracker indicates a higher-priority issue.
+Use this as the default publishing cadence for daily content work. Weekly review passes belong to Codex unless explicitly requested.
 
 - Monday: Research and outline 2 articles
 - Tuesday–Wednesday: Write and publish article 1
@@ -96,7 +100,9 @@ Use this schedule as the default operating rhythm unless the tracker indicates a
 - Sunday: Check Search Console and note new impressions, CTR movement, and keyword ideas
 
 ## Monthly maintenance
-Spend around 30 minutes on:
+This is not part of a normal daily Claude run. Monthly audit work belongs to Codex unless explicitly requested.
+
+If you are explicitly assigned monthly maintenance, spend around 30 minutes on:
 - reviewing the top 5 articles for outdated pricing, limits, or features
 - updating the `lastmod` date on any changed article
 - checking affiliate links and redirects still work

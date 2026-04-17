@@ -158,38 +158,21 @@ These numbers assume consistent 2-articles-per-week publishing and no major site
 
 ---
 
-## Permanent Weekly Workflow
+## Operating Cadence
 
-### Daily writing command sequence
-```bash
-# Terminal tab 1 — start local server
-cd ~/projects/freestackfinder && hugo server -D
+### Daily - Claude Code
+- Create new content or improve existing content
+- Run a build after the current batch
+- Do light QA only on the touched work
+- Update `freestackfinder-progress-log.md` or `TRACKER.md` if present
+- Keep daily runs focused; do not turn them into broad weekly or monthly audits unless explicitly requested
 
-# Terminal tab 2 — create new article
-hugo new CATEGORY/SLUG.md
+### Weekly - Codex review
+- Review Claude's recent work
+- Fix duplicated UI, broken layout, weak SEO, thin content, internal-link gaps, affiliate issues, and AdSense risks
 
-# Edit in VS Code
-code ~/projects/freestackfinder/content/CATEGORY/SLUG.md
-
-# Publish when done
-git add . && git commit -m "Add: article title" && git push
-```
-
-### Weekly schedule
-- **Monday:** Research and outline 2 articles
-- **Tuesday–Wednesday:** Write and publish article 1
-- **Thursday–Friday:** Write and publish article 2
-- **Friday:** Add internal links from new articles to older related articles
-- **Sunday:** Check Search Console — note new impressions, CTR movement, and keyword ideas
-
----
-
-## Monthly Maintenance (30 minutes)
-- Review top 5 articles for outdated pricing, limits, or features
-- Update `lastmod` date on any changed article
-- Check all `/go/` affiliate redirects and affiliate links still resolve
-- Review Search Console for articles in positions 8–20 — these are quick-win optimisation targets
-- Confirm new articles are indexed in GSC
+### Monthly - Codex audit
+- Run a deeper audit of category pages, the homepage, older posts, monetization, affiliate disclosures, site speed, indexing, and low-value content risk
 
 ---
 
