@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-17  
-**Current day:** 35  
+**Current day:** 36  
 
 ---
 
@@ -22,8 +22,8 @@ Rules for daily runs:
 
 ## Current snapshot
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
-- Total published articles: 27
-- Silo balance: Productivity 5, Creative 5, Business 5, Cloud 4, Security 4, Video 4
+- Total published articles: 28
+- Silo balance: Productivity 5, Creative 6, Business 5, Cloud 4, Security 4, Video 4
 - Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC latest (2026-04-15): 2,220 impressions, 5 clicks, average position 54.4, CTR 0.2%
@@ -34,7 +34,7 @@ Rules for daily runs:
 ---
 
 ## Current priorities
-1. Continue publishing from the Early queue — next up: `free-font-websites` (Creative silo)
+1. Continue publishing from the Early queue — next up: `free-ai-writing-tools` (Productivity silo)
 2. Targeted CTR improvement on pages already earning impressions — pull GSC query/page report and rework titles + meta descriptions on pages with impressions but near-zero CTR
 3. Strengthen internal linking inside the two strongest clusters (Productivity, Business)
 4. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
@@ -44,7 +44,6 @@ Rules for daily runs:
 ### Content pipeline — next articles to publish (Priority: Early)
 Publish in this order unless a higher-priority fix exists:
 
-- `free-font-websites` — Creative silo
 - `free-ai-writing-tools` — Productivity silo
 - `free-chatgpt-alternatives` — Productivity silo
 - `free-calendar-app` — Productivity silo
@@ -61,7 +60,7 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ### Silo counts
 - Productivity: 5
-- Creative: 5
+- Creative: 6
 - Cloud: 4
 - Business: 5
 - Security: 4
@@ -88,6 +87,17 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 36
+- Created `content/creative/free-font-websites.md` — 5 tools: Google Fonts, Font Squirrel, DaFont, Fontsource, 1001 Fonts; date `"2026-04-17"`
+- Created `scripts/images/generate_free_font_websites.py` — Creative silo, orange accent
+- Generated `static/img/free-font-websites.webp` (30 KB, 1200×630)
+- Added internal link from `canva-alternatives` → `free-font-websites` (Our verdict)
+- Added internal link from `figma-alternatives` → `free-font-websites` (Our verdict)
+- Added internal link from `illustrator-alternatives` → `free-font-websites` (Our verdict)
+- Article links back to `free-stock-photos`, `canva-alternatives`, `illustrator-alternatives`, and `figma-alternatives`
+- Updated `CONTENT-STRATEGY.md`: `free-font-websites` marked as ✓ Published
+- Site now has 28 articles total; Creative silo has 6
 
 ### Day 35e - workflow cadence update
 - Clarified the repo workflow so daily runs stay focused on content work, build checks, light QA, and tracker updates, while weekly and monthly review passes belong to Codex
@@ -318,6 +328,7 @@ Do not scan unrelated silos, layouts, or directories unless necessary.
 - `illustrator-alternatives.md`
 - `free-stock-photos.md`
 - `figma-alternatives.md`
+- `free-font-websites.md`
 
 ### Cloud
 - `free-cloud-storage-comparison.md`
@@ -362,6 +373,7 @@ Keep these clusters growing naturally:
   - `illustrator-alternatives`
   - `free-stock-photos`
   - `figma-alternatives`
+  - `free-font-websites`
 
 - Business cluster:
   - `quickbooks-alternatives`

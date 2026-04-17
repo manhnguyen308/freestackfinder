@@ -202,3 +202,5 @@ For vector illustration work that goes beyond UI components — logos, icons, an
 ## Our verdict
 
 **Penpot** is the default free Figma alternative for teams — unlimited users, full features, open-source, and no pricing surprises. **Lunacy** is the strongest choice for solo Windows designers who want speed and built-in assets without a browser. **Plasmic** earns its spot for anyone who wants visual design that ships as real code. Figma's own free tier remains excellent for individuals, but the 3-file team limit and tightening paid gates mean the alternatives above are no longer compromises — they are genuine options for production design work in 2026.
+
+For typography in your UI work, see our guide to the [best free font websites in 2026](/creative/free-font-websites/) for open-source typefaces you can embed or self-host.
