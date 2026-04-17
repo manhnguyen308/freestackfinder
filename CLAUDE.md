@@ -130,7 +130,7 @@ tags:
 keywords:
   - "keyword phrase one"
   - "keyword phrase two"
-image: "/img/filename.jpg"
+image: "/img/filename.webp"
 author: "FreeStackFinder Team"
 ---
 ```
@@ -138,7 +138,7 @@ author: "FreeStackFinder Team"
 ## Never use
 - `featured:`
 - `faqs:`
-- `verdict-box` HTML
+- `verdict-box` HTML in new content (legacy pages may still contain it)
 - bare unquoted date values
 - inline keyword arrays
 
@@ -203,7 +203,7 @@ Use adblocker-safe text CTA blocks only:
 ## Known bugs not to reintroduce
 1. `faqs:` with child items can break Cloudflare builds
 2. `featured: true` breaks homepage behavior
-3. `verdict-box` class is not defined
+3. `verdict-box` is legacy markup with existing styles; do not add new `verdict-box` HTML to fresh content
 4. Affiliate image banners are blocked by adblockers
 5. `list.html` must not rely on default paginator sorting
 6. `index.html` latest section must not use unsorted `.Site.RegularPages`

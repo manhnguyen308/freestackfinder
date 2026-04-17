@@ -11,7 +11,7 @@ summarylength = 40
   author = "FreeStackFinder Team"
   tagline = "Stop paying for software you don't have to."
   email = "hello@freestackfinder.com"
-  adsensePublisherId = "ca-pub-XXXXXXXXXX"
+  adsensePublisherId = "ca-pub-5934721249825043"
   showAds = false
 
 [params.social]

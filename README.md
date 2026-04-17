@@ -7,6 +7,8 @@
 - **Domain:** Namecheap (~$12/year)
 - **Total monthly cost: $0**
 
+`CLAUDE.md` is the authoritative file for daily operating rules, front matter constraints, and publishing workflow. Keep `README.md` for setup and deployment only.
+
 ---
 
 ## Prerequisites
@@ -27,7 +29,7 @@ sudo apt install hugo
 Verify installation:
 ```bash
 hugo version
-# Should show: hugo v0.120.0+ ...
+# Should show: hugo v0.128.0+ ...
 ```
 
 ---
@@ -42,7 +44,7 @@ mkdir freestackfinder && cd freestackfinder
 git init
 
 # If cloning:
-git clone https://github.com/YOURUSERNAME/freestackfinder.git.git
+git clone https://github.com/YOURUSERNAME/freestackfinder.git
 cd freestackfinder
 ```
 
@@ -85,7 +87,7 @@ hugo --minify
      - **Framework preset:** Hugo
      - **Build command:** `hugo --minify`
      - **Build output directory:** `public`
-     - **Environment variable:** `HUGO_VERSION` = `0.120.0`
+     - **Environment variable:** `HUGO_VERSION` = `0.128.0`
    - Click Save and Deploy
 
 3. **Add custom domain:**
@@ -113,21 +115,25 @@ This creates a file from the archetype template in `/archetypes/default.md`.
 ```yaml
 ---
 title: "Article Title Here"           # H1 and page title
-date: 2025-01-15                       # Publication date
-lastmod: 2025-01-15                    # Last update date (update this when editing)
 description: "Meta description..."     # 150-160 chars. Appears in Google search results.
-categories: ["Creative"]               # One of: Creative, Productivity, Video, Business, Security, Cloud
-tags: ["photoshop", "free tools"]     # 3-5 relevant tags
-keywords: ["free photoshop alt"]      # Primary keyword + 2-3 variants
-image: "/img/your-image.jpg"          # Featured image (1200x630px recommended)
-author: "FreeStackFinder Team"          # Author name
-featured: true                         # true = appears in homepage "Popular" section
+date: "2026-04-17"                     # Publication date, quoted YYYY-MM-DD
+lastmod: "2026-04-17"                  # Last update date, quoted YYYY-MM-DD
 draft: false                           # false = live, true = hidden
-faqs:                                  # Optional: adds FAQ schema for Google rich results
-  - question: "..."
-    answer: "..."
+weight: 50                             # Homepage "Most popular" uses weight, not featured
+slug: "your-article-slug"
+categories: ["Creative"]               # One of: Creative, Productivity, Video, Business, Security, Cloud
+tags:
+  - "photoshop"
+  - "free tools"
+keywords:
+  - "free photoshop alt"
+  - "best free creative software"
+image: "/img/your-image.webp"          # Featured image (1200x630px recommended)
+author: "FreeStackFinder Team"
 ---
 ```
+
+Do not add `featured:`, `faqs:`, or new `verdict-box` HTML. Follow `CLAUDE.md` for the current authoring rules.
 
 ### Publishing an article:
 1. Write it in Markdown with `draft: true`
@@ -145,11 +151,11 @@ faqs:                                  # Optional: adds FAQ schema for Google ri
 3. Open `config.toml` and update:
    ```toml
    adsensePublisherId = "ca-pub-XXXXXXXXXX"
-   showAds = true
    ```
-4. In `layouts/partials/head.html`, uncomment the AdSense script block
-5. In `layouts/_default/single.html`, update the `data-ad-slot` values with your actual slot IDs from AdSense
-6. Push and deploy
+4. The shared AdSense script in `layouts/partials/head.html` reads `adsensePublisherId` automatically
+5. Keep `showAds = false` until you have replaced the placeholder slot IDs in `layouts/_default/single.html`
+6. Once the slot IDs are real, set `showAds = true`
+7. Push and deploy
 
 Ad slots in the template:
 - `TOP_ARTICLE_SLOT_ID` — top of article, before content

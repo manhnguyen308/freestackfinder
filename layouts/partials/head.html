@@ -43,15 +43,22 @@
 {{ with .Params.image }}<meta name="twitter:image" content="{{ . | absURL }}" />{{ end }}
 {{ with .Site.Params.social.twitter }}<meta name="twitter:site" content="@{{ . }}" />{{ end }}
 
+{{ $adsensePublisherId := .Site.Params.adsensePublisherId }}
+{{ $hasAdsensePublisherId := and $adsensePublisherId (not (in $adsensePublisherId "XXXXXXXXXX")) }}
+
 <link rel="stylesheet" href="/css/style.css" />
+{{ if $hasAdsensePublisherId }}
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
 <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+{{ end }}
 <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }} RSS Feed" href="{{ .Site.BaseURL }}index.xml" />
 
 {{ partial "schema.html" . }}
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5934721249825043"
+{{ if $hasAdsensePublisherId }}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsensePublisherId }}"
      crossorigin="anonymous"></script>
+{{ end }}
 
 {{/* Google Analytics 4 — replace G-XXXXXXXXXX */}}
 {{/*

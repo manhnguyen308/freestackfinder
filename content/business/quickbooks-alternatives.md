@@ -2,7 +2,7 @@
 title: "Best Free Alternatives to QuickBooks for Freelancers in 2026"
 description: "QuickBooks charges monthly fees most freelancers don't need to pay. We tested the best free accounting tools — including one that is completely free forever."
 date: "2026-03-18"
-lastmod: "2026-03-18"
+lastmod: "2026-04-17"
 draft: false
 weight: 50
 slug: "quickbooks-alternatives"

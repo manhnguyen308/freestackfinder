@@ -81,10 +81,28 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 - AdSense can be applied for based on article volume, but trust and UX should still be reviewed before submission
 - Internal linking should keep growing cluster-by-cluster, not randomly
 - Keep checking for mismatches between tracker and actual repo state
+- Contact page now uses direct email fallback until a real form backend is configured
 
 ---
 
 ## Recent completed work
+
+### Day 35c - unresolved cleanup pass
+- Replaced the broken Formspree placeholder in `content/contact.md` with direct email links to `hello@freestackfinder.com`
+- Updated `CLAUDE.md` wording around `verdict-box` so the rules match the actual repo state: legacy styles still exist, but new content should not add more
+- Aligned `README.md` with `CLAUDE.md`:
+  - removed outdated `featured:` and `faqs:` guidance
+  - fixed the clone command typo
+  - updated Hugo version guidance to 0.128.0
+  - clarified that homepage popularity uses `weight`
+  - clarified that the shared AdSense script is config-driven and `showAds` only controls in-article slots
+- Renamed `content/business/quickbook-alternatives.md` to `content/business/quickbooks-alternatives.md` to match the public slug and tracker naming without changing the live URL
+- Updated `lastmod` on the QuickBooks article to `"2026-04-17"`
+- Moved the AdSense publisher ID into `config.toml` as the source of truth and updated `layouts/partials/head.html` to read the shared script from config
+- Validation:
+  - `hugo version` passed
+  - `hugo --minify --cleanDestinationDir --destination .validation/public` passed
+  - targeted `rg` sanity checks found no remaining `YOUR_FORM_ID`, `git.git`, `/business/quickbook-alternatives/`, `SearchAction`, `/all/`, or `/free-stack-guide/` strings in the generated validation output
 
 ### Day 35b — review hotfixes
 - Reviewed repo instructions and tracker before changing implementation
