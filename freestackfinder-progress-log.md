@@ -87,6 +87,9 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ## Recent completed work
 
+### Day 35d - git ignore cleanup
+- Added the local settings folder to git ignore rules and removed it from version tracking without deleting the local copy
+
 ### Day 35c - unresolved cleanup pass
 - Replaced the broken Formspree placeholder in `content/contact.md` with direct email links to `hello@freestackfinder.com`
 - Updated `CLAUDE.md` wording around `verdict-box` so the rules match the actual repo state: legacy styles still exist, but new content should not add more
