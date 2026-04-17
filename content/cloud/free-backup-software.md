@@ -2,7 +2,7 @@
 title: "Best Free Backup Software in 2026 — Protect Your Files Without Paying"
 description: "Most people have no backup at all. Google Drive gives 15GB free, Duplicati backs up to any cloud for free, and Backblaze is $99/year for unlimited. Here's the honest guide to free and low-cost backup."
 date: "2026-04-12"
-lastmod: "2026-04-12"
+lastmod: "2026-04-17"
 draft: false
 weight: 58
 slug: "free-backup-software"
@@ -42,7 +42,7 @@ For the cloud storage services that work best as backup destinations, see our [f
 
 **Free plan includes:**
 - 15GB free storage across Google Drive, Gmail, and Google Photos
-- Google Photos backup for photos and videos (compressed quality is free and unlimited; original quality counts against the 15GB)
+- Google Photos backup for photos and videos (new Storage Saver and Original quality backups both count toward the same 15GB pool; only older pre-June 1, 2021 high-quality uploads are excluded)
 - Google Drive for Desktop — a background sync client that automatically backs up selected folders
 - Access from any device via browser or mobile app
 - Version history for Google Docs, Sheets, and Slides (30 days on free)
@@ -177,7 +177,7 @@ For users with more than 15–20GB of data to protect — which is most people w
 
 For a practical free backup setup that costs nothing and takes 10 minutes to configure:
 
-Install **Google Drive for Desktop** and select your Documents, Desktop, and any project folders to sync continuously. Install **Google Photos** on your phone for automatic photo backup (set to Storage Saver quality for unlimited free storage). This covers your most important files and your entire photo library at zero cost.
+Install **Google Drive for Desktop** and select your Documents, Desktop, and any project folders to sync continuously. Install **Google Photos** on your phone for automatic photo backup, keeping in mind that new backups now count against the same 15GB Google storage pool. This still covers the most important files and a modest photo library at zero cost.
 
 For files that exceed 15GB or that you want encrypted before cloud upload, install **Duplicati**, connect it to a free cloud storage account (Dropbox, OneDrive, or a paid Backblaze B2 account), and configure a weekly automated backup. The combination of Google Drive for continuous sync and Duplicati for scheduled encrypted backup of larger files covers the 3-2-1 backup principle at minimal cost.
 

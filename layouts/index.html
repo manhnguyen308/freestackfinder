@@ -59,7 +59,9 @@
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">Most popular comparisons</h2>
-      <a href="/all/" class="see-all">See all guides →</a>
+      {{ with .Site.GetPage "/all" }}
+      <a href="{{ .RelPermalink }}" class="see-all">See all guides →</a>
+      {{ end }}
     </div>
     <div class="articles-grid">
       {{ $allArticles := where .Site.RegularPages "Type" "not in" (slice "page") }}
@@ -105,7 +107,9 @@
   <div class="container">
     <div class="section-header">
       <h2 class="section-title">Latest comparisons</h2>
-      <a href="/all/" class="see-all">See all →</a>
+      {{ with .Site.GetPage "/all" }}
+      <a href="{{ .RelPermalink }}" class="see-all">See all →</a>
+      {{ end }}
     </div>
     <div class="articles-list">
       {{ $latestArticles := where .Site.RegularPages "Type" "not in" (slice "page") }}
