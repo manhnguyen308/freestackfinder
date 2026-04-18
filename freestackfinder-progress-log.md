@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-17  
-**Current day:** 37  
+**Last updated:** 2026-04-18  
+**Current day:** 38  
 
 ---
 
@@ -87,6 +87,10 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 38a — CLAUDE.md day-labeling rule
+- Added day-labeling rule to `CLAUDE.md`: multiple runs on the same SGT calendar day use letter suffixes (Day 37a, 37b, etc.); new day number starts at 12:00 AM Asia/Singapore time
+- Rule applies to tracker logging only — does not affect article publish dates
 
 ### Day 37 — branding cleanup
 - Updated public-facing brand name from `FreeStackFinder` to `Free Stack Finder` across config, layouts, schema, and all static content pages

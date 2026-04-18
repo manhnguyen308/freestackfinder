@@ -38,6 +38,14 @@ A valid day activity may include:
 
 Keep the day activity cohesive. Do not mix unrelated work from different parts of the site unless they are clearly part of the same publishing or improvement batch.
 
+## Day-labeling rule
+When logging work to `freestackfinder-progress-log.md` or `TRACKER.md`, use sublabels within the same Singapore calendar day:
+- A new day number starts at 12:00 AM Asia/Singapore (SGT)
+- Multiple runs on the same SGT calendar day use letter suffixes: Day 37a, Day 37b, Day 37c, etc.
+- The first run on a new SGT day starts a new day number: Day 38a
+- Example: first task that SGT day = Day 34a · second task same SGT day = Day 34b · first task after 12:00 AM SGT next day = Day 35a
+- This rule applies to logging and labeling only — it does not affect article publish dates
+
 ## Execution rules
 - A daily run may contain multiple related tasks, but they must belong to one focused day activity
 - Daily Claude Code runs focus on content creation or improvement, build verification, light QA, and tracker updates
