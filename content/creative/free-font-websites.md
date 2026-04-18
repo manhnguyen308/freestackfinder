@@ -1,8 +1,8 @@
 ---
 title: "Best Free Font Websites in 2026 — Download Without the Watermark"
 description: "Google Fonts has 1,400+ open-source fonts at zero cost. Here's how every major free font website compares for quality, licensing, and ease of use."
-date: "2026-04-17"
-lastmod: "2026-04-17"
+date: "2026-04-18"
+lastmod: "2026-04-18"
 draft: false
 weight: 60
 slug: "free-font-websites"
