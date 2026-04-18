@@ -1,6 +1,6 @@
 ---
 title: "Affiliate Disclaimer"
-description: "FreeStackFinder affiliate disclosure. We believe in full transparency about how this site earns revenue."
+description: "Free Stack Finder affiliate disclosure. We believe in full transparency about how this site earns revenue."
 noindex: false
 type: page
 ---
@@ -13,7 +13,7 @@ type: page
 
 ## Our commitment to transparency
 
-FreeStackFinder is reader-supported. Some of the links on this site are **affiliate links**, which means we may earn a small commission if you click through and make a purchase — at absolutely no extra cost to you.
+Free Stack Finder is reader-supported. Some of the links on this site are **affiliate links**, which means we may earn a small commission if you click through and make a purchase — at absolutely no extra cost to you.
 
 We are required by the FTC (Federal Trade Commission) and similar regulations in other countries to disclose this clearly, and we're happy to do so.
 
@@ -46,7 +46,7 @@ This list may not be exhaustive. Where we earn from a specific recommendation, w
 
 ## How to identify affiliate links
 
-Affiliate links on FreeStackFinder typically:
+Affiliate links on Free Stack Finder typically:
 
 - Point to external websites (indicated by the ↗ symbol next to links in our articles)
 - Lead directly to a product page or signup page
@@ -56,7 +56,7 @@ Not every external link is an affiliate link. Many links go to tool homepages, d
 
 ## Our editorial independence
 
-The editorial team at FreeStackFinder makes all content and recommendation decisions independently. No advertiser or affiliate partner has editorial control over our reviews or comparisons.
+The editorial team at Free Stack Finder makes all content and recommendation decisions independently. No advertiser or affiliate partner has editorial control over our reviews or comparisons.
 
 If you have concerns about a specific recommendation or believe we may have a conflict of interest, please [contact us](/contact/) and we will address it directly.
 

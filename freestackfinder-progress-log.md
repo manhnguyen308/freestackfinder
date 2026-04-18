@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-17  
-**Current day:** 36  
+**Current day:** 37  
 
 ---
 
@@ -87,6 +87,17 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 37 — branding cleanup
+- Updated public-facing brand name from `FreeStackFinder` to `Free Stack Finder` across config, layouts, schema, and all static content pages
+- `config.toml` title changed to `Free Stack Finder` — propagates to all `{{ .Site.Title }}` uses (page titles, OG tags, Twitter tags, RSS feed, aria-labels)
+- Footer copyright line updated to `Free Stack Finder`
+- `layouts/partials/schema.html`: all three JSON-LD `"name"` values updated to `Free Stack Finder`
+- `layouts/index.html`: trust section aria-label updated
+- `content/_index.md`, `about.md`, `disclaimer.md`, `terms.md`, `privacy-policy.md`, `contact.md`: all prose references updated
+- Logo visual in nav and footer kept as compact `FreeStack<span>Finder</span>` form
+- `author: "FreeStackFinder Team"` kept as compact byline across article front matter
+- Domain, paths, repo, and technical identifiers unchanged
 
 ### Day 36
 - Created `content/creative/free-font-websites.md` — 5 tools: Google Fonts, Font Squirrel, DaFont, Fontsource, 1001 Fonts; date `"2026-04-17"`

@@ -1,6 +1,6 @@
 ---
 title: "Contact Us"
-description: "Get in touch with the FreeStackFinder team. Report outdated info, suggest a tool, or just say hello."
+description: "Get in touch with the Free Stack Finder team. Report outdated info, suggest a tool, or just say hello."
 noindex: false
 type: page
 ---
@@ -24,10 +24,10 @@ type: page
 <p class="contact-note">The web form is currently offline. Email us directly so your message does not disappear into a broken form.</p>
 
 <div class="contact-options" aria-label="Contact options">
-  <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=FreeStackFinder%20correction">
+  <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=Free%20Stack%20Finder%20correction">
     Report outdated information
   </a>
-  <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=FreeStackFinder%20tool%20suggestion">
+  <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=Free%20Stack%20Finder%20tool%20suggestion">
     Suggest a tool or comparison
   </a>
   <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=Partnership%20inquiry">

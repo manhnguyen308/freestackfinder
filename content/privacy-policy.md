@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "FreeStackFinder privacy policy — what data we collect, how we use it, and your rights."
+description: "Free Stack Finder privacy policy — what data we collect, how we use it, and your rights."
 noindex: false
 type: page
 ---
@@ -11,7 +11,7 @@ type: page
 
 <p class="page-meta">Last updated: January 2025 · Effective date: January 2025</p>
 
-This Privacy Policy explains how FreeStackFinder ("we," "us," or "our"), operated at freestackfinder.com, collects, uses, and protects information when you visit our website.
+This Privacy Policy explains how Free Stack Finder ("we," "us," or "our"), operated at freestackfinder.com, collects, uses, and protects information when you visit our website.
 
 Please read this policy carefully. By using our site, you agree to the practices described here.
 
@@ -28,7 +28,7 @@ We do not require registration or account creation to use this site.
 
 ### Information collected automatically
 
-When you visit FreeStackFinder, certain data is automatically collected by analytics tools and our hosting infrastructure:
+When you visit Free Stack Finder, certain data is automatically collected by analytics tools and our hosting infrastructure:
 
 - **Pages visited** and navigation paths through the site
 - **Approximate geographic location** (country or region level — we do not collect precise location)

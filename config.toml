@@ -1,6 +1,6 @@
 baseURL = "https://freestackfinder.com/"
 languageCode = "en-us"
-title = "FreeStackFinder"
+title = "Free Stack Finder"
 paginate = 12
 enableRobotsTXT = true
 enableGitInfo = false

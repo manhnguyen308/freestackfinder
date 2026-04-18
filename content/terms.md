@@ -1,6 +1,6 @@
 ---
 title: "Terms of Use"
-description: "FreeStackFinder terms of use. Please read before using this website."
+description: "Free Stack Finder terms of use. Please read before using this website."
 noindex: false
 type: page
 ---
@@ -11,11 +11,11 @@ type: page
 
 <p class="page-meta">Last updated: January 2025</p>
 
-By accessing or using FreeStackFinder ("the site"), you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use the site.
+By accessing or using Free Stack Finder ("the site"), you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use the site.
 
 ## 1. Informational purposes only
 
-The content on FreeStackFinder is provided for **informational purposes only**. Nothing on this site constitutes professional advice of any kind — including but not limited to legal, financial, technical, or business advice.
+The content on Free Stack Finder is provided for **informational purposes only**. Nothing on this site constitutes professional advice of any kind — including but not limited to legal, financial, technical, or business advice.
 
 Software recommendations reflect our independent testing and opinions at the time of writing. We make no guarantees that any tool will be suitable for your specific needs or circumstances.
 
@@ -31,7 +31,7 @@ Some links on this site are affiliate links. See our full [Affiliate Disclaimer]
 
 ## 4. Intellectual property
 
-All original content on FreeStackFinder — including text, graphics, and layout — is owned by or licensed to FreeStackFinder and protected by applicable intellectual property laws.
+All original content on Free Stack Finder — including text, graphics, and layout — is owned by or licensed to Free Stack Finder and protected by applicable intellectual property laws.
 
 You may:
 - Link to any page on this site
@@ -61,7 +61,7 @@ THE SITE IS PROVIDED "AS IS" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED.
 
 ## 8. Limitation of liability
 
-TO THE FULLEST EXTENT PERMITTED BY LAW, FREESTACKFINDER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF THE SITE OR RELIANCE ON ITS CONTENT.
+TO THE FULLEST EXTENT PERMITTED BY LAW, FREE STACK FINDER SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, OR CONSEQUENTIAL DAMAGES ARISING FROM YOUR USE OF THE SITE OR RELIANCE ON ITS CONTENT.
 
 ## 9. Changes to these terms
 

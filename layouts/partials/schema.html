@@ -13,12 +13,12 @@
   "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
   "author": {
     "@type": "Organization",
-    "name": "FreeStackFinder",
+    "name": "Free Stack Finder",
     "url": "https://freestackfinder.com"
   },
   "publisher": {
     "@type": "Organization",
-    "name": "FreeStackFinder",
+    "name": "Free Stack Finder",
     "url": "https://freestackfinder.com"
   }{{ with .Params.image }},
   "image": {
@@ -97,7 +97,7 @@
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "FreeStackFinder",
+  "name": "Free Stack Finder",
   "url": "https://freestackfinder.com",
   "description": {{ .Site.Params.description | jsonify }}
 }
