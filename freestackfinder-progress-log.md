@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-18  
-**Current day:** 38  
+**Last updated:** 2026-04-20  
+**Current day:** 39  
 
 ---
 
@@ -22,8 +22,8 @@ Rules for daily runs:
 
 ## Current snapshot
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
-- Total published articles: 28
-- Silo balance: Productivity 5, Creative 6, Business 5, Cloud 4, Security 4, Video 4
+- Total published articles: 29
+- Silo balance: Productivity 6, Creative 6, Business 5, Cloud 4, Security 4, Video 4
 - Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC latest (2026-04-15): 2,220 impressions, 5 clicks, average position 54.4, CTR 0.2%
@@ -34,7 +34,7 @@ Rules for daily runs:
 ---
 
 ## Current priorities
-1. Continue publishing from the Early queue — next up: `free-ai-writing-tools` (Productivity silo)
+1. Continue publishing from the Early queue — next up: `free-chatgpt-alternatives` (Productivity silo)
 2. Targeted CTR improvement on pages already earning impressions — pull GSC query/page report and rework titles + meta descriptions on pages with impressions but near-zero CTR
 3. Strengthen internal linking inside the two strongest clusters (Productivity, Business)
 4. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
@@ -44,7 +44,6 @@ Rules for daily runs:
 ### Content pipeline — next articles to publish (Priority: Early)
 Publish in this order unless a higher-priority fix exists:
 
-- `free-ai-writing-tools` — Productivity silo
 - `free-chatgpt-alternatives` — Productivity silo
 - `free-calendar-app` — Productivity silo
 - `free-spreadsheet-alternatives` — Business silo
@@ -87,6 +86,20 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 39a — free-ai-writing-tools article
+- Created `content/productivity/free-ai-writing-tools.md` — 5 tools: Claude, ChatGPT free, Microsoft Copilot, Rytr, Copy.ai; date `"2026-04-20"`; weight 78
+- Created `scripts/images/generate_free_ai_writing_tools.py` — Productivity silo, indigo accent `#6366f1`
+- Generated `static/img/free-ai-writing-tools.webp` (30 KB, 1200×630)
+- Added internal link from `grammarly-alternatives` → `free-ai-writing-tools` (Our verdict)
+- Added internal link from `free-note-taking-apps` → `free-ai-writing-tools` (Our verdict)
+- Added internal link from `notion-alternatives` → `free-ai-writing-tools` (Our verdict)
+- Article links back to `grammarly-alternatives` (twice) and `free-note-taking-apps`
+- Updated `lastmod` on `grammarly-alternatives`, `free-note-taking-apps`, `notion-alternatives` to `"2026-04-20"`
+- Updated `CONTENT-STRATEGY.md`: `free-ai-writing-tools` marked as ✓ Published
+- Hugo build passed — 278 pages, article visible on homepage latest and Productivity category
+- No future dates found — all existing articles have dates ≤ 2026-04-18
+- Site now has 29 articles total; Productivity silo has 6
 
 ### Day 38a — CLAUDE.md day-labeling rule
 - Added day-labeling rule to `CLAUDE.md`: multiple runs on the same SGT calendar day use letter suffixes (Day 37a, 37b, etc.); new day number starts at 12:00 AM Asia/Singapore time
@@ -336,6 +349,7 @@ Do not scan unrelated silos, layouts, or directories unless necessary.
 - `notion-alternatives.md`
 - `slack-alternatives.md`
 - `free-note-taking-apps.md`
+- `free-ai-writing-tools.md`
 
 ### Creative
 - `canva-alternatives.md`
@@ -381,6 +395,7 @@ Keep these clusters growing naturally:
   - `notion-alternatives`
   - `slack-alternatives`
   - `free-note-taking-apps`
+  - `free-ai-writing-tools`
 
 - Creative cluster:
   - `canva-alternatives`
