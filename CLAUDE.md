@@ -209,6 +209,22 @@ Use adblocker-safe text CTA blocks only:
 - HubSpot: deferred
 - Impact.com: reapply later
 
+## Amazon Associates placement rules
+Amazon affiliate links are a secondary monetization layer for hardware and accessory pages. Apply these rules for every Amazon placement:
+
+- Use Amazon links only when a specific product or product category genuinely helps the reader and fits the article intent
+- Prefer software affiliate links first on software-focused pages — do not add Amazon links to purely software comparison articles
+- Use Amazon links mainly on hardware-supporting pages:
+  - video gear (webcams, microphones, lighting, capture cards)
+  - security hardware (hardware security keys such as YubiKey)
+  - backup hardware (external SSDs, portable hard drives)
+  - other clearly relevant accessories where the article context makes hardware the next useful step
+- Keep placements minimal and editorial — 1–3 Amazon links per article maximum
+- Each placement must have a clear editorial reason: explain why the hardware helps before linking
+- If a specific product is not needed, a category-level Amazon search URL (`amazon.com/s?k=…&tag=…`) is acceptable instead of a product ASIN
+- Do not guess or invent product ASINs — use search URLs when product-level specificity is not required
+- Do not turn articles into shopping pages — the article's primary value must remain the software comparison
+
 ## Homepage and list sorting rules
 - Homepage “Most popular”: sort by `weight` descending
 - Homepage “Latest comparisons”: sort by `date` descending
