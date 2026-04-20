@@ -4,6 +4,7 @@
 **Last updated:** 2026-04-20  
 **Current day:** 39  
 
+
 ---
 
 ## Read this first
@@ -24,7 +25,7 @@ Rules for daily runs:
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
 - Total published articles: 29
 - Silo balance: Productivity 6, Creative 6, Business 5, Cloud 4, Security 4, Video 4
-- Main monetization active: Amazon Associates, NordVPN, NordPass, Canva, Grammarly
+- Main monetization active: NordVPN, NordPass, Canva, Grammarly, Amazon Associates (US tag: freestackfi20-20 — now in use on 3 pages)
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC latest (2026-04-15): 2,220 impressions, 5 clicks, average position 54.4, CTR 0.2%
 - GSC prior baseline: 1,420 impressions, 4 clicks, average position 51.8, CTR 0.3%
@@ -86,6 +87,16 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 39b — Amazon Associates activation
+- Audited repo: Amazon Associates was listed as "active" but had zero affiliate links in any article
+- Added Amazon hardware security key CTA to `content/security/best-free-2fa-apps.md` (Our verdict section) — links to Amazon search for YubiKey with tag `freestackfi20-20`
+- Added Amazon portable SSD CTA to `content/cloud/free-backup-software.md` (Our verdict section) — links to Amazon search for portable SSDs, tied to 3-2-1 backup strategy explanation
+- Added Amazon USB microphone CTA to `content/video/free-screen-recording-software.md` (Our verdict section) — links to Amazon search for USB microphones, tied to audio quality explanation
+- Updated `lastmod` on all three articles to `"2026-04-20"`
+- Hugo build passed — 278 pages, no errors
+- Amazon US tag `freestackfi20-20` now active on 3 pages; SG tag `freestackfi20-22` reserved for future SG-specific content
+- Placements chosen for hardware fit: security keys (Security), external drives (Cloud/backup), USB mics (Video)
 
 ### Day 39a — free-ai-writing-tools article
 - Created `content/productivity/free-ai-writing-tools.md` — 5 tools: Claude, ChatGPT free, Microsoft Copilot, Rytr, Copy.ai; date `"2026-04-20"`; weight 78
@@ -437,6 +448,8 @@ Current high-value affiliate opportunities:
 - Zoho: `free-crm-software`, `free-email-service`, `free-invoicing-software`
 - NordVPN: `free-vpn`, `free-antivirus-software`, `dropbox-alternatives`, `free-email-service`, `best-free-2fa-apps`
 - NordPass: `free-password-managers`
+- Amazon Associates US (`freestackfi20-20`): `best-free-2fa-apps` (hardware security keys), `free-backup-software` (portable SSDs), `free-screen-recording-software` (USB microphones)
+- Amazon Associates SG (`freestackfi20-22`): reserved for future SG-specific hardware content
 
 ---
 

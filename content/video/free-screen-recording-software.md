@@ -2,7 +2,7 @@
 title: "Best Free Screen Recording Software in 2026 — No Watermark, No Time Limit"
 description: "Loom's free plan now limits recordings to 5 minutes. OBS Studio records unlimited, watermark-free, at no cost. Here's how every free screen recorder compares — and which one is right for your use case."
 date: "2026-04-11"
-lastmod: "2026-04-11"
+lastmod: "2026-04-20"
 draft: false
 weight: 62
 slug: "free-screen-recording-software"
@@ -205,3 +205,13 @@ For most users — developers recording bug reproductions, product managers shar
 ## Our verdict
 
 **OBS Studio** is the correct free screen recorder for any recording that needs to be longer than 5 minutes, of professional quality, or output in a specific format. It has no meaningful limitations on the free tier and is the same tool used by professional video producers. The setup investment is 5–10 minutes. For quick async messages under 5 minutes where the recipient experience matters more than recording length, **Loom Free** is still useful despite its limits. **ShareX** is the Windows-only pick for users who need annotation and workflow automation alongside recording. For zero-install simplicity on Windows 11, **Clipchamp** covers basic needs without any configuration.
+
+The most common quality issue in screen recordings is audio, not video. Built-in laptop microphones pick up room noise, fan sound, and keyboard clicks — all of which are distracting in a walkthrough or tutorial. A USB microphone connects without drivers, appears immediately as an audio device in OBS, and significantly improves perceived recording quality. A decent USB mic for recording costs $40–$80 and is the highest return-on-cost upgrade for anyone recording regularly.
+
+<div class="affiliate-cta">
+<div class="affiliate-cta-content">
+<p class="affiliate-cta-title">Upgrade your recording audio with a USB microphone</p>
+<p class="affiliate-cta-desc">Built-in laptop mics pick up fan noise and keyboard clicks. A USB microphone plugs in without drivers and shows up instantly in OBS — the single biggest quality upgrade for screen recordings.</p>
+<a href="https://www.amazon.com/s?k=usb+microphone+for+recording&tag=freestackfi20-20" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Shop USB microphones on Amazon →</a>
+</div>
+</div>

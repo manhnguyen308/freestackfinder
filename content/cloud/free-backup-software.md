@@ -2,7 +2,7 @@
 title: "Best Free Backup Software in 2026 — Protect Your Files Without Paying"
 description: "Most people have no backup at all. Google Drive gives 15GB free, Duplicati backs up to any cloud for free, and Backblaze is $99/year for unlimited. Here's the honest guide to free and low-cost backup."
 date: "2026-04-12"
-lastmod: "2026-04-17"
+lastmod: "2026-04-20"
 draft: false
 weight: 58
 slug: "free-backup-software"
@@ -186,3 +186,13 @@ For files that exceed 15GB or that you want encrypted before cloud upload, insta
 ## Our verdict
 
 For most users with under 15GB of important files and photos, **Google Drive** provides free backup with zero configuration — it is the honest starting point. For users who want automated, encrypted, scheduled backup to any cloud destination without paying for backup software, **Duplicati** is the best free tool available. Once your data grows beyond what free tiers cover, **Backblaze at $99/year** is the most cost-effective unlimited backup service — the annual fee is worth an honest mention because recommending only free options that are insufficient does not serve readers well.
+
+A complete backup strategy follows the 3-2-1 rule: three copies of your data, on two different media types, with one copy offsite. Cloud backup covers the offsite copy. A portable external drive or SSD covers the fast local copy — restoring from a local drive takes minutes; restoring 100GB from the cloud can take hours or days. A portable SSD in the 1–2TB range costs $60–$100 and pairs with Duplicati for automated local backups alongside your cloud copy.
+
+<div class="affiliate-cta">
+<div class="affiliate-cta-content">
+<p class="affiliate-cta-title">Add a local backup drive to complete your 3-2-1 strategy</p>
+<p class="affiliate-cta-desc">Cloud backup covers the offsite copy. A portable SSD or external hard drive gives you a fast local restore option — critical when you need files back in minutes, not hours.</p>
+<a href="https://www.amazon.com/s?k=portable+external+ssd&tag=freestackfi20-20" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Shop portable SSDs on Amazon →</a>
+</div>
+</div>
