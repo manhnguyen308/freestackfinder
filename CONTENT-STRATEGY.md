@@ -20,7 +20,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 5 | Best Free Note-Taking Apps in 2026 | free-note-taking-apps | ✓ Published |
 | 6 | Best Free PDF Editor Alternatives in 2026 | free-pdf-editor-alternatives | Early |
 | 7 | Best Free AI Writing Tools in 2026 | free-ai-writing-tools | ✓ Published |
-| 8 | Best Free ChatGPT Alternatives in 2026 | free-chatgpt-alternatives | Early |
+| 8 | Best Free ChatGPT Alternatives in 2026 | free-chatgpt-alternatives | ✓ Published |
 | 9 | Best Free Calendar Apps in 2026 | free-calendar-app | Early |
 
 ### Creative (target: 8 articles)
