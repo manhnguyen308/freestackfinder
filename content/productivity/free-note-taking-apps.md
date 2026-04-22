@@ -2,7 +2,7 @@
 title: "Best Free Note-Taking Apps in 2026 — Simple Beats Complex for Most People"
 description: "Notion and Obsidian are overkill if you just want to capture ideas. Google Keep, Standard Notes, and Simplenote do the job faster with zero setup. Here's what actually works."
 date: "2026-04-14"
-lastmod: "2026-04-20"
+lastmod: "2026-04-22"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"
@@ -224,4 +224,4 @@ Note-taking is usually the first draft — capturing raw ideas before refining t
 
 For most people, **Google Keep** or **Apple Notes** (depending on your device ecosystem) is the right answer — fast, free, and built into the platforms you already use. There is no reason to install a third-party app if these work for your use case. For anyone who values privacy and encryption above everything else, **Standard Notes** is the correct choice — zero-knowledge encryption, every platform, genuinely free. For minimalists who write in markdown, **Simplenote** has no competition at the price. Notion's free tier is powerful for structured knowledge management but is the wrong tool if you just want to capture notes without building a system first.
 
-Once you have captured your ideas, turning them into polished content is faster with an AI writing assistant. See our [best free AI writing tools guide](/productivity/free-ai-writing-tools/) — Claude and ChatGPT free are both strong options for drafting from rough notes.
+Once you have captured your ideas, turning them into polished content is faster with an AI writing assistant. See our [best free AI writing tools guide](/productivity/free-ai-writing-tools/) — Claude and ChatGPT free are both strong options for drafting from rough notes. For scheduling and time planning that complements your note-taking workflow, see our [best free calendar apps guide](/productivity/free-calendar-app/).

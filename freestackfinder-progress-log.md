@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-21  
-**Current day:** 40  
+**Last updated:** 2026-04-22  
+**Current day:** 41  
 
 
 ---
@@ -23,8 +23,8 @@ Rules for daily runs:
 
 ## Current snapshot
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
-- Total published articles: 30
-- Silo balance: Productivity 7, Creative 6, Business 5, Cloud 4, Security 4, Video 4
+- Total published articles: 31
+- Silo balance: Productivity 8, Creative 6, Business 5, Cloud 4, Security 4, Video 4
 - Main monetization active: NordVPN, NordPass, Canva, Grammarly, Amazon Associates (US tag: freestackfi20-20 — now in use on 3 pages)
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC latest (2026-04-15): 2,220 impressions, 5 clicks, average position 54.4, CTR 0.2%
@@ -35,7 +35,7 @@ Rules for daily runs:
 ---
 
 ## Current priorities
-1. Continue publishing from the Early queue — next up: `free-calendar-app` (Productivity silo)
+1. Continue publishing from the Early queue — next up: `free-spreadsheet-alternatives` (Business silo)
 2. Targeted CTR improvement on pages already earning impressions — pull GSC query/page report and rework titles + meta descriptions on pages with impressions but near-zero CTR
 3. Strengthen internal linking inside the two strongest clusters (Productivity, Business)
 4. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
@@ -45,7 +45,6 @@ Rules for daily runs:
 ### Content pipeline — next articles to publish (Priority: Early)
 Publish in this order unless a higher-priority fix exists:
 
-- `free-calendar-app` — Productivity silo
 - `free-spreadsheet-alternatives` — Business silo
 - `free-accounting-software` — Business silo
 - `free-pdf-editor-alternatives` — Productivity silo
@@ -58,7 +57,7 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ## Current content state
 
 ### Silo counts
-- Productivity: 7
+- Productivity: 8
 - Creative: 6
 - Cloud: 4
 - Business: 5
@@ -86,6 +85,19 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 41a — free-calendar-app article
+- Created `content/productivity/free-calendar-app.md` — 5 tools: Google Calendar, Notion Calendar, Apple Calendar, Proton Calendar, Zoho Calendar; date `"2026-04-22"`; weight 74
+- Created `scripts/images/generate_free_calendar_app.py` — Productivity silo, indigo accent `#6366f1`
+- Generated `static/img/free-calendar-app.webp` (27 KB, 1200×630)
+- Added internal link from `free-note-taking-apps` → `free-calendar-app` (Our verdict)
+- Added internal link from `notion-alternatives` → `free-calendar-app` (Our verdict)
+- Added internal link from `slack-alternatives` → `free-calendar-app` (Our verdict)
+- Article links back to `free-note-taking-apps` (twice), `notion-alternatives`, `free-chatgpt-alternatives`, and `slack-alternatives`
+- Updated `lastmod` on `free-note-taking-apps`, `notion-alternatives`, and `slack-alternatives` to `"2026-04-22"`
+- Updated `CONTENT-STRATEGY.md`: `free-calendar-app` marked as ✓ Published
+- Hugo build passed — 296 pages, no errors
+- Site now has 31 articles total; Productivity silo has 8
 
 ### Day 40a — free-chatgpt-alternatives article
 - Created `content/productivity/free-chatgpt-alternatives.md` — 5 tools: Claude, Microsoft Copilot, Google Gemini, Perplexity AI, Meta AI; date `"2026-04-21"`; weight 76
@@ -373,6 +385,7 @@ Do not scan unrelated silos, layouts, or directories unless necessary.
 - `free-note-taking-apps.md`
 - `free-ai-writing-tools.md`
 - `free-chatgpt-alternatives.md`
+- `free-calendar-app.md`
 
 ### Creative
 - `canva-alternatives.md`
@@ -420,6 +433,7 @@ Keep these clusters growing naturally:
   - `free-note-taking-apps`
   - `free-ai-writing-tools`
   - `free-chatgpt-alternatives`
+  - `free-calendar-app`
 
 - Creative cluster:
   - `canva-alternatives`
