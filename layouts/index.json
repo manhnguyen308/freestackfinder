@@ -1,0 +1,9 @@
+{{- $pages := where .Site.RegularPages ".Params.noindex" "!=" true -}}
+{{- $result := slice -}}
+{{- range $pages -}}
+  {{- $cat := "" -}}
+  {{- with .Params.categories -}}{{- $cat = index . 0 -}}{{- end -}}
+  {{- $item := dict "url" .RelPermalink "title" .Title "description" (.Description | default "") "category" $cat "section" .Section -}}
+  {{- $result = $result | append $item -}}
+{{- end -}}
+{{- $result | jsonify -}}

@@ -2,10 +2,22 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-23  
-**Current day:** 44  
+**Current day:** 45  
 
+---
 
-
+### Day 45a — site search and category filtering
+- Architecture: Hugo JSON output format → `/index.json` static search index (32 entries) + vanilla JS search, no external libraries
+- Added `JSON` to `[outputs] home` in `config.toml` → Hugo generates `/index.json` at build time
+- Created `layouts/index.json` — builds search index from all published pages, excludes pages with `noindex: true` (legal/utility pages)
+- Created `content/search.md` — dedicated search page, `noindex: true`, `sitemap: disable: true`
+- Created `layouts/_default/search.html` — search page layout: search input, 7 filter buttons (All + 6 silos), results container
+- Created `static/js/search.js` — vanilla JS: fetches `/index.json` on page load, filters by query (title + description substring match) and category, highlights matches, debounced input (150ms), reads `?q=` URL param on load
+- Added search icon link (`/search/`) to `layouts/partials/nav.html` — visible on all pages, desktop and mobile
+- Added `{{ block "scripts" . }}{{ end }}` to `layouts/_default/baseof.html` — allows page-specific scripts before `</body>`; `search.js` loads only on the search page
+- Added CSS section 28 to `static/css/style.css`: `.nav-search-btn`, `.search-page`, `.search-bar`, `.search-filters`, `.filter-btn`, `.search-results-list`, `.search-result-item`, `.sr-only`, `mark` highlight, mobile overrides
+- QA: 32 entries in index, all 6 categories, no utility/legal pages included; `noindex` on search page confirmed; search icon on all pages; `search.js` only on `/search/`; regular article pages unaffected
+- Hugo build passed — 305 pages, no errors
 
 ---
 

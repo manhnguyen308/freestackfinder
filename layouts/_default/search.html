@@ -1,0 +1,38 @@
+{{ define "main" }}
+<section class="search-page">
+  <div class="container">
+
+    <div class="search-page-header">
+      <h1>Search</h1>
+      <p class="search-page-sub">Find the right free software guide for you.</p>
+    </div>
+
+    <div class="search-bar-wrap">
+      <label for="search-input" class="sr-only">Search articles</label>
+      <div class="search-bar">
+        <svg class="search-icon-inline" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input type="search" id="search-input" placeholder="Search free tools, alternatives, and comparisons…" autocomplete="off" spellcheck="false" />
+      </div>
+    </div>
+
+    <div class="search-filters" role="group" aria-label="Filter by category">
+      <button class="filter-btn active" data-filter="">All</button>
+      <button class="filter-btn" data-filter="Creative">Creative</button>
+      <button class="filter-btn" data-filter="Productivity">Productivity</button>
+      <button class="filter-btn" data-filter="Video">Video</button>
+      <button class="filter-btn" data-filter="Business">Business</button>
+      <button class="filter-btn" data-filter="Security">Security</button>
+      <button class="filter-btn" data-filter="Cloud">Cloud</button>
+    </div>
+
+    <div id="search-results" aria-live="polite" aria-atomic="true"></div>
+
+  </div>
+</section>
+{{ end }}
+
+{{ define "scripts" }}
+<script src="/js/search.js" defer></script>
+{{ end }}
