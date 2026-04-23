@@ -1,7 +1,8 @@
 {{/* Schema.org markup partial — FreeStackFinder */}}
+{{ $isArticlePage := and .IsPage (ne .Type "page") (not .Params.noindex) }}
 
 {{/* Article schema — on every article page */}}
-{{ if .IsPage }}
+{{ if $isArticlePage }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

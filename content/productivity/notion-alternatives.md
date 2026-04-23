@@ -1,8 +1,8 @@
 ---
 title: "Best Free Alternatives to Notion in 2026 — Tested and Compared"
-description: "Notion's free plan is more limited than it looks. We tested 5 free alternatives for notes, wikis, and project management — including one that's fully offline and completely free forever."
+description: "Notion's free plan is more limited than it looks. We tested 5 free alternatives for notes, wikis, and project management — including one that's fully offline with no recurring subscription."
 date: "2026-03-26"
-lastmod: "2026-04-22"
+lastmod: "2026-04-23"
 draft: false
 weight: 70
 slug: "notion-alternatives"

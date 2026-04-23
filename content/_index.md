@@ -1,4 +1,4 @@
 ---
 title: "Free Stack Finder — Find the Best Free Software Alternatives"
-description: "Find the best free alternatives to paid software. We test every tool so you know what actually works — and when the paid version is worth it."
+description: "Find practical free software alternatives with clear tradeoffs, tested workflows, and honest notes on when the paid version still makes sense."
 ---

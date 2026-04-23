@@ -11,7 +11,7 @@ type: page
 
 # Terms of Use
 
-<p class="page-meta">Last updated: January 2025</p>
+<p class="page-meta">Last updated: April 2026</p>
 
 By accessing or using Free Stack Finder ("the site"), you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use the site.
 
@@ -26,6 +26,8 @@ Software recommendations reflect our independent testing and opinions at the tim
 We make every reasonable effort to keep the information on this site accurate and up to date. However, software pricing, features, and availability change frequently. We cannot guarantee that every piece of information on this site is current or error-free at all times.
 
 **You should always verify pricing and features directly with the software provider before making a purchasing decision.**
+
+When we materially revise a page, we update its published "Updated" date so readers can tell when the guidance was last reviewed.
 
 ## 3. Affiliate links and commercial relationships
 
@@ -54,7 +56,7 @@ By using this site you agree not to:
 
 - Attempt to hack, disrupt, or interfere with the site's functionality
 - Use automated tools to scrape or mass-download content
-- Submit false or misleading information through our contact form
+- Submit false or misleading information when contacting us
 - Use the site in any way that violates applicable law
 
 ## 7. Disclaimer of warranties

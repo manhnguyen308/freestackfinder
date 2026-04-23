@@ -6,3 +6,5 @@ description: "Free alternatives to Microsoft Office, Notion, Grammarly, Slack, a
 Stop paying monthly fees for productivity tools you might not need. This section compares free alternatives to the most popular office suites, note-taking apps, writing assistants, and team communication tools.
 
 We test every tool for the tasks you actually use them for: writing documents, organizing notes, collaborating with a team, and managing projects.
+
+Expect clear notes on the upgrade triggers that usually matter most — storage caps, message history limits, AI quotas, version history, and admin controls — so you know when free is enough and when it stops being worth the friction.

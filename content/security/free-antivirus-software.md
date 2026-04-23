@@ -2,7 +2,7 @@
 title: "Best Free Antivirus Software in 2026 — Tested and Compared"
 description: "Windows Defender, built into Windows 11, scores comparably to paid antivirus in independent lab tests. Here's how every free antivirus option compares — and why you probably don't need to pay."
 date: "2026-04-09"
-lastmod: "2026-04-09"
+lastmod: "2026-04-23"
 draft: false
 weight: 38
 slug: "free-antivirus-software"
@@ -194,7 +194,7 @@ A paid security suite makes sense if you want a VPN alongside your antivirus —
 <div class="affiliate-cta">
 <div class="affiliate-cta-content">
 <p class="affiliate-cta-title">Want full VPN protection?</p>
-<p class="affiliate-cta-desc">NordVPN has an independently audited no-logs policy, covers 6 devices, and includes Threat Protection to block malware and trackers. Starts at $3.39/month.</p>
+<p class="affiliate-cta-desc">NordVPN has an independently audited no-logs policy, covers up to 10 devices on one account, and includes Threat Protection to block malware and trackers.</p>
 <a href="https://go.nordvpn.net/aff_c?offer_id=15&aff_id=144937&url_id=902" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Get NordVPN →</a>
 </div>
 </div>

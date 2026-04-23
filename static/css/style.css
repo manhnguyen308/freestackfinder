@@ -173,6 +173,13 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: 20px;
   border: 1px solid rgba(15,118,110,0.2);
 }
+.hero-note {
+  margin-top: 16px;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.hero-note a { font-weight: 600; }
 
 /* 6. Section Typography
    =========================================== */
@@ -432,6 +439,19 @@ button { font-family: inherit; cursor: pointer; }
   gap: 6px;
   align-items: center;
 }
+.editorial-note {
+  margin-top: 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--primary);
+  border-radius: var(--radius);
+  background: var(--bg-2);
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+.editorial-note a { font-weight: 600; }
+.article-editorial-note { margin-bottom: 18px; }
 .article-featured-image {
   margin: 0 0 32px;
   border-radius: var(--radius-lg);
@@ -728,7 +748,7 @@ button { font-family: inherit; cursor: pointer; }
 .btn-full { display: block; width: 100%; text-align: center; }
 
 /* External link indicator */
-.article-content a[href^="http"]:not([href*="switchforfree.com"])::after {
+.article-content a[href^="http"]:not([href*="freestackfinder.com"])::after {
   content: " ↗";
   font-size: 0.8em;
   opacity: 0.6;
@@ -801,6 +821,7 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--text-muted);
   margin-top: 12px;
 }
+.category-editorial-note { max-width: 720px; }
 .article-count { font-size: 14px; color: var(--text-light); margin-top: 12px; }
 .empty-state { text-align: center; padding: 60px 20px; color: var(--text-muted); font-size: 16px; }
 
@@ -864,6 +885,15 @@ button { font-family: inherit; cursor: pointer; }
 }
 .footer-brand .logo-text { color: white; }
 .footer-brand p { font-size: 14px; margin-top: 12px; line-height: 1.7; max-width: 320px; }
+.footer-trust-links {
+  font-size: 13px;
+  line-height: 1.6;
+}
+.footer-trust-links a {
+  color: #cbd5e1;
+  text-decoration: underline;
+}
+.footer-trust-links a:hover { color: white; }
 .footer-links h4 {
   font-size: 12px;
   font-weight: 700;

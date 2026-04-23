@@ -39,6 +39,12 @@ For every comparison, we:
 
 Our reviews are updated when pricing or features change significantly. If you find an outdated review, please let us know.
 
+## How we handle corrections and updates
+
+Software changes quickly. Free plans get tighter, pricing pages move, and features that were generous last quarter can become limited without much warning.
+
+When we spot a material change, we update the article and its "Updated" date. If you find something stale, email us with the page URL or the tool name — correction reports are one of the fastest ways this site gets better.
+
 ## Our honest policy on affiliate links
 
 Some articles on this site contain affiliate links — links to paid tools that we may earn a small commission on if you click and purchase. We only include these when they're genuinely relevant: for example, recommending the paid version of a tool when the free version isn't enough for your use case.
@@ -49,9 +55,9 @@ You can read our full [affiliate disclaimer here](/disclaimer/).
 
 ## Who runs this site
 
-Free Stack Finder is run by a small team of people who use computers every day and have a strong preference for not paying for things that don't need to cost money.
+Free Stack Finder is run by a small editorial team of independent software users with a strong preference for not paying for tools that do not earn their keep.
 
-We're not software engineers or tech journalists. We're everyday users who test tools from the perspective of real people: a freelancer who needs a good photo editor, a small business owner looking for an affordable project management tool, a student who needs something that runs on a Chromebook.
+We're not writing for enterprise procurement teams. We approach these comparisons from the perspective of real buyers: a freelancer who needs a dependable photo editor, a small business owner trying to avoid another monthly subscription, or a student who needs something that runs on a basic laptop or Chromebook.
 
 If you have a question, a tool suggestion, or found something we got wrong, use the [contact page](/contact/) to reach us.
 

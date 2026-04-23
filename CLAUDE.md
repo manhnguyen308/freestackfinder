@@ -226,7 +226,7 @@ Amazon affiliate links are a secondary monetization layer for hardware and acces
 - Do not turn articles into shopping pages — the article's primary value must remain the software comparison
 
 ## Homepage and list sorting rules
-- Homepage “Most popular”: sort by `weight` descending
+- Homepage “Featured comparisons”: sort by `weight` descending
 - Homepage “Latest comparisons”: sort by `date` descending
 - Category pages: sort by `date` descending
 

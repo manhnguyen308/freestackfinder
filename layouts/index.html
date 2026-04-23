@@ -5,12 +5,13 @@
   <div class="container">
     <div class="hero-content">
       <h1>Stop Paying for Software You Don't Have To</h1>
-      <p class="hero-sub">We test hundreds of free tools and tell you honestly which ones can replace your paid subscriptions — and which ones actually can't.</p>
+      <p class="hero-sub">We test the free tools we cover and explain which ones can realistically replace a paid subscription — and when paying still makes sense.</p>
       <div class="hero-badges">
         <span class="hero-badge">✓ Actually tested</span>
         <span class="hero-badge">✓ Honest limitations</span>
         <span class="hero-badge">✓ Clear tradeoffs</span>
       </div>
+      <p class="hero-note">Read our <a href="/about/">testing process</a>, <a href="/disclaimer/">affiliate disclosure</a>, or <a href="/contact/">send a correction</a>.</p>
     </div>
   </div>
 </section>
@@ -58,7 +59,7 @@
 <section class="articles-section">
   <div class="container">
     <div class="section-header">
-      <h2 class="section-title">Most popular comparisons</h2>
+      <h2 class="section-title">Featured comparisons</h2>
       {{ with .Site.GetPage "/all" }}
       <a href="{{ .RelPermalink }}" class="see-all">See all guides →</a>
       {{ end }}
@@ -80,7 +81,7 @@
       <div class="trust-item">
         <div class="trust-icon" aria-hidden="true">✓</div>
         <div>
-          <strong>Tested by real people</strong>
+          <strong>Tested against real tasks</strong>
           <p>We download, install, and use every tool before writing about it.</p>
         </div>
       </div>
@@ -94,8 +95,15 @@
       <div class="trust-item">
         <div class="trust-icon" aria-hidden="true">✓</div>
         <div>
-          <strong>Updated regularly</strong>
-          <p>Software pricing changes. We keep our comparisons current.</p>
+          <strong>Transparent monetization</strong>
+          <p>Some pages include affiliate links, and we keep them separate from our rankings.</p>
+        </div>
+      </div>
+      <div class="trust-item">
+        <div class="trust-icon" aria-hidden="true">✓</div>
+        <div>
+          <strong>Updated when tiers change</strong>
+          <p>When pricing, caps, or free-plan limits move, we revise the page and its updated date.</p>
         </div>
       </div>
     </div>
@@ -122,7 +130,7 @@
           <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
           <p>{{ .Description | default (.Summary | truncate 100) }}</p>
         </div>
-        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
+        <time datetime="{{ if ne .Date .Lastmod }}{{ .Lastmod.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}">{{ if ne .Date .Lastmod }}Updated {{ .Lastmod.Format "Jan 2" }}{{ else }}{{ .Date.Format "Jan 2" }}{{ end }}</time>
       </article>
       {{ end }}
     </div>

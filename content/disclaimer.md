@@ -43,19 +43,16 @@ We currently participate in the following affiliate programs:
 - **NordVPN and NordPass affiliate programs** — Nord Security's affiliate programs for VPN and password manager recommendations
 - **Canva affiliate program** — for Canva Pro recommendations in design articles
 - **Grammarly affiliate program** — for Grammarly Premium recommendations in writing tool articles
-- **Individual software company affiliate programs** — some tools run their own programs; we disclose these where active
 
 This list reflects programs currently in use and is updated when our affiliate relationships change. Where we earn from a specific recommendation, we aim to note it clearly in the article.
 
 ## How to identify affiliate links
 
-Affiliate links on Free Stack Finder typically:
+Affiliate links on Free Stack Finder usually appear in direct product recommendations or CTA blocks near a buying decision. In many cases, the URL itself also contains a tracking parameter.
 
-- Point to external websites (indicated by the ↗ symbol next to links in our articles)
-- Lead directly to a product page or signup page
-- May include a tracking parameter in the URL (e.g., `?ref=switchforfree`)
+Not every external link is an affiliate link. Many outbound links on the site point to official homepages, documentation, support articles, or other reference material with no commission attached.
 
-Not every external link is an affiliate link. Many links go to tool homepages, documentation, or third-party sources purely for reference purposes.
+If a page includes monetized recommendations, our goal is to make that obvious in context and to back it up with the same editorial standards as the rest of the page.
 
 ## Our editorial independence
 

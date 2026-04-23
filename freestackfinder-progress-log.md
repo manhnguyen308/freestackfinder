@@ -6,6 +6,32 @@
 
 ---
 
+### Day 45c â€” Wave 1 trust and content remediation pass
+- Audited and strengthened the homepage, section/category pages, footer trust links, legal pages, and a focused set of high-visibility business and security articles
+- Homepage trust fixes in `layouts/index.html`: removed the overstated "hundreds of free tools" claim, renamed the weight-driven homepage module from `Most popular comparisons` to `Featured comparisons`, added direct trust links in the hero, and expanded the trust strip to include transparent monetization and update policy language
+- Structural trust fixes in templates:
+  - `layouts/_default/list.html` now creates the date-sorted paginator before using it, preserving category sort behavior while adding a shared editorial note linking to About, Disclaimer, and Contact
+  - `layouts/_default/single.html` now adds a concise editorial/disclosure note under article meta and softens the author box language to match the actual review process more closely
+  - `layouts/partials/article-card.html` and homepage latest list now surface `Updated ...` dates when `lastmod` is newer than `date`
+  - `layouts/partials/footer.html` now includes trust links (`How we test`, `Affiliate disclosure`, `Report outdated info`) and clearer utility-page labels
+- Legal/trust page cleanup:
+  - `content/about.md` adds a corrections/updates policy section and sharper editorial positioning
+  - `content/disclaimer.md` removes vague affiliate-program wording and fixes the misleading "external-link icon means affiliate" implication
+  - `content/privacy-policy.md` was rewritten to match the actual site setup: direct email contact, no current newsletter, AdSense/infrastructure cookies, and no public Google Analytics script
+  - `content/terms.md` and `content/contact.md` were updated with April 2026 freshness and clearer, more intentional wording
+- Utility-page SEO cleanup:
+  - `layouts/partials/head.html` and `layouts/partials/schema.html` no longer emit article-style metadata or schema on `type: page` / `noindex` utility pages, removing bogus `article:published_time` and FAQ markup from legal pages
+- Section page quality improvements:
+  - `content/_index.md` and all 6 section `_index.md` files now describe methodology, common free-plan traps, and decision-critical limits more clearly
+- Focused article remediation:
+  - Business: `quickbooks-alternatives`, `free-invoicing-software`, and `free-project-management-software` now use more restrained free-plan wording, better decision guidance, and stronger internal links
+  - Security: `free-password-managers` and `free-vpn` now use tighter, more durable verdict language; password manager links now connect into the rest of the security cluster
+  - Stale NordVPN CTA pattern fixed across `free-vpn`, `free-antivirus-software`, `dropbox-alternatives`, and `free-email-service`: removed volatile monthly pricing copy and standardized to the verified current 10-device allowance
+  - `notion-alternatives` description softened from an overly absolute "completely free forever" claim
+- Hugo validation build passed after the pass and after the utility-page metadata cleanup â€” 305 pages, no errors
+
+---
+
 ### Day 45b — header layout rework and search UI polish
 - Restructured `layouts/partials/nav.html`: logo → primary nav → actions group (search icon + mobile toggle) on the far right; nav items now sit inline next to the logo
 - Updated `.header-inner` in `static/css/style.css`: removed `justify-content: space-between`, added `.header-actions` with `margin-left: auto` to anchor search to the far right; increased header gap to 28px for breathing room
@@ -86,7 +112,7 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 - Security: 4
 - Video: 4
 
-### Homepage most popular
+### Homepage featured comparisons
 - `slack-alternatives` — 95
 - `microsoft-office-alternatives` — 90
 - `canva-alternatives` — 85

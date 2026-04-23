@@ -11,7 +11,7 @@ type: page
 
 # Contact
 
-<p class="page-meta">We read every message. Response time is usually 2–5 business days.</p>
+<p class="page-meta">Last updated: April 2026 · We read every message. Response time is usually 2–5 business days.</p>
 
 ## Ways to reach us
 
@@ -21,9 +21,9 @@ type: page
 
 **Press or partnership inquiries?** Email us directly and put "Partnership" in the subject line.
 
-## Send us a message
+## Email us directly
 
-<p class="contact-note">The web form is currently offline. Email us directly so your message does not disappear into a broken form.</p>
+<p class="contact-note">Email is currently the fastest and most reliable way to reach us. Correction requests are especially helpful because they let us fix published guides quickly.</p>
 
 <div class="contact-options" aria-label="Contact options">
   <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=Free%20Stack%20Finder%20correction">
