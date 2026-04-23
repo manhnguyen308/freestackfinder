@@ -205,8 +205,6 @@ HubSpot's paid Marketing Hub starts at $15/month per seat and unlocks email auto
 
 Zoho CRM's paid tiers start at $14/user/month (Standard) and add workflow automation, scoring rules, and advanced analytics. If you have grown past the three-user free limit and are already using other Zoho products, upgrading within the Zoho ecosystem makes more sense than switching platforms.
 
-[Try Zoho CRM →](https://zoho.com/crm) — affiliate program available via CJ Affiliate once traffic grows.
-
 ## Our verdict
 
 **HubSpot CRM Free** is the default recommendation for most small businesses — unlimited users, unlimited contacts, a full pipeline, and email tracking that would cost money with any other provider. The upsell is persistent but the product works completely without paying. For teams who want a cleaner visual experience, **Freshsales Free** is the standout alternative. The main thing to know about free CRM software in 2026 is that the free tiers are genuinely usable — you are not getting a crippled trial, you are getting the product that HubSpot, Freshworks, and Zoho use to build their customer bases.

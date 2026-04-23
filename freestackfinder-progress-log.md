@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-23  
-**Current day:** 43  
+**Current day:** 44  
 
 
 
@@ -86,6 +86,16 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 44a — full-site quality and trust audit pass
+- Audited all 32 published articles across 6 silos, all 6 section index pages, and trust/legal pages
+- **Fixed:** Removed internal dev note from `content/business/free-crm-software.md` ("— affiliate program available via CJ Affiliate once traffic grows") — this was visible in published content, a trust and editorial quality issue
+- **Fixed:** Updated stale "Last updated: January 2025" date in `content/about.md` → April 2026
+- **Fixed:** Updated stale "Last updated: January 2025" date in `content/disclaimer.md` → April 2026
+- **Fixed:** Corrected affiliate programs list in `content/disclaimer.md` — removed Impact.com and ShareASale (not active), replaced with accurate list: Amazon Associates, NordVPN, NordPass, Canva, Grammarly affiliate programs
+- **Improved:** Strengthened `content/video/_index.md` from 1 sentence to 2 sentences with testing methodology note
+- Audit confirmed: all main articles are solid, specific, honest, and appropriately structured — no thin, generic, or misleading content found beyond the issues above
+- Hugo build passed — 303 pages, no errors
 
 ### Day 43e — homepage trust badge copy fix
 - In `layouts/index.html`: replaced `✓ No affiliate bias` with `✓ Clear tradeoffs` in the hero badge row

@@ -11,7 +11,7 @@ type: page
 
 # Affiliate Disclaimer
 
-<p class="page-meta">Last updated: January 2025</p>
+<p class="page-meta">Last updated: April 2026</p>
 
 ## Our commitment to transparency
 
@@ -37,14 +37,15 @@ If we recommend a paid tool or the paid version of a free tool, it's because we 
 
 ## Programs we participate in
 
-We may participate in the following affiliate programs, among others:
+We currently participate in the following affiliate programs:
 
-- **Amazon Associates** — for hardware and physical product links
-- **Impact.com partner network** — for software tools including Canva Pro, NordVPN, Grammarly Premium, and similar
-- **ShareASale** — for various software tools
-- **Individual software company affiliate programs** — some tools run their own affiliate programs independently
+- **Amazon Associates** — for hardware and physical product links (webcams, security keys, storage drives, and similar)
+- **NordVPN and NordPass affiliate programs** — Nord Security's affiliate programs for VPN and password manager recommendations
+- **Canva affiliate program** — for Canva Pro recommendations in design articles
+- **Grammarly affiliate program** — for Grammarly Premium recommendations in writing tool articles
+- **Individual software company affiliate programs** — some tools run their own programs; we disclose these where active
 
-This list may not be exhaustive. Where we earn from a specific recommendation, we will note it in the article where practical.
+This list reflects programs currently in use and is updated when our affiliate relationships change. Where we earn from a specific recommendation, we aim to note it clearly in the article.
 
 ## How to identify affiliate links
 
