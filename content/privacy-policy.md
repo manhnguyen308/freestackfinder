@@ -1,7 +1,9 @@
 ---
 title: "Privacy Policy"
 description: "Free Stack Finder privacy policy — what data we collect, how we use it, and your rights."
-noindex: false
+noindex: true
+sitemap:
+  disable: true
 type: page
 ---
 

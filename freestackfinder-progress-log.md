@@ -5,6 +5,8 @@
 **Current day:** 43  
 
 
+
+
 ---
 
 ## Read this first
@@ -84,6 +86,14 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 ---
 
 ## Recent completed work
+
+### Day 43b — noindex utility/legal pages
+- Set `noindex: true` and `sitemap: { disable: true }` in front matter of all 5 utility pages: `about.md`, `contact.md`, `disclaimer.md`, `terms.md`, `privacy-policy.md`
+- Head partial already wired `{{ if .Params.noindex }}` → `noindex, follow` — no layout changes needed
+- QA confirmed: all 5 pages render `<meta name="robots" content="noindex, follow" />`
+- QA confirmed: sitemap.xml contains zero references to these 5 pages
+- QA confirmed: content pages (e.g. `free-spreadsheet-alternatives`) still render `index, follow`
+- Hugo build passed — 303 pages, no errors
 
 ### Day 43a — free-spreadsheet-alternatives article
 - Created `content/business/free-spreadsheet-alternatives.md` — 5 tools: Google Sheets, LibreOffice Calc, Zoho Sheet, ONLYOFFICE, Airtable; date `"2026-04-23"`; weight 78

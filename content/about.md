@@ -1,7 +1,9 @@
 ---
 title: "About Free Stack Finder"
 description: "Why we built Free Stack Finder, how we test software, and who we are."
-noindex: false
+noindex: true
+sitemap:
+  disable: true
 type: page
 ---
 

@@ -1,7 +1,9 @@
 ---
 title: "Contact Us"
 description: "Get in touch with the Free Stack Finder team. Report outdated info, suggest a tool, or just say hello."
-noindex: false
+noindex: true
+sitemap:
+  disable: true
 type: page
 ---
 
