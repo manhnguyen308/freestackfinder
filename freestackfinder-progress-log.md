@@ -87,6 +87,12 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ## Recent completed work
 
+### Day 43d — fix header nav: replace About with Cloud
+- In `config.toml` `[menu]` block: replaced `About /about/ weight=6` with `Cloud /cloud/ weight=6`
+- Nav now shows: Creative · Productivity · Video · Business · Security · Cloud
+- About remains in footer nav (hardcoded in `footer.html`) — unaffected
+- Hugo build passed — 303 pages, no errors
+
 ### Day 43c — back-to-top button
 - Added `<button id="back-to-top">` with inline chevron SVG to `layouts/_default/baseof.html` — renders site-wide
 - Added CSS (section 27) to `static/css/style.css`: fixed bottom-right 44×44 circle using `--primary` color, hidden by default (`opacity: 0; visibility: hidden; transform: translateY(8px)`), `.visible` class fades/slides it in

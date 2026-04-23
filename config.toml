@@ -72,8 +72,8 @@ summarylength = 40
     url = "/security/"
     weight = 5
   [[menu.main]]
-    name = "About"
-    url = "/about/"
+    name = "Cloud"
+    url = "/cloud/"
     weight = 6
 
 [sitemap]
