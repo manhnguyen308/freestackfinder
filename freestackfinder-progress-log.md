@@ -87,6 +87,12 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ## Recent completed work
 
+### Day 43e — homepage trust badge copy fix
+- In `layouts/index.html`: replaced `✓ No affiliate bias` with `✓ Clear tradeoffs` in the hero badge row
+- Reason: the original phrasing was inaccurate — the site does use affiliate links; "No affiliate bias" is an unverifiable absolute claim
+- Final row: `Actually tested · Honest limitations · Clear tradeoffs`
+- Hugo build passed — 303 pages, no errors
+
 ### Day 43d — fix header nav: replace About with Cloud
 - In `config.toml` `[menu]` block: replaced `About /about/ weight=6` with `Cloud /cloud/ weight=6`
 - Nav now shows: Creative · Productivity · Video · Business · Security · Cloud
