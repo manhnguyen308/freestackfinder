@@ -6,6 +6,15 @@
 
 ---
 
+### Day 45d - Wave 2 archive quality and freshness refresh
+- Audited the remaining untouched evergreen archive and prioritized seven older, high-visibility comparison pages across Business, Creative, Cloud, and Video
+- Rewrote free-crm-software, photoshop-alternatives, canva-alternatives, free-cloud-storage-comparison, free-backup-software, free-video-editing-software, and premiere-pro-alternatives to improve intros, verdict quality, tradeoff clarity, and free-plan caveats
+- Tightened risky wording around CRM seat limits, cloud storage quotas, backup expectations, and free video editor limits so the guides rely on more durable plan language instead of brittle free-plan promises
+- Improved internal linking between related clusters including Canva/Photoshop, Premiere/video editing/screen recording, CRM/invoicing/project management, and cloud storage/backup/Dropbox alternatives
+- Verified volatile product details against official vendor pages before refreshing current-plan wording for HubSpot, Zoho CRM, Freshsales, Bitrix24, Adobe Express, Canva, Microsoft Designer, Pixlr, MEGA, Google Drive, Box, OneDrive, iCloud, Proton Drive, Dropbox, Backblaze, Blackmagic Design, and CapCut
+- Hugo validation build passed after the refresh - 305 pages, 11 paginator pages, no errors
+
+---
 ### Day 45c â€” Wave 1 trust and content remediation pass
 - Audited and strengthened the homepage, section/category pages, footer trust links, legal pages, and a focused set of high-visibility business and security articles
 - Homepage trust fixes in `layouts/index.html`: removed the overstated "hundreds of free tools" claim, renamed the weight-driven homepage module from `Most popular comparisons` to `Featured comparisons`, added direct trust links in the hero, and expanded the trust strip to include transparent monetization and update policy language
