@@ -6,6 +6,15 @@
 
 ---
 
+### Day 45b — header layout rework and search UI polish
+- Restructured `layouts/partials/nav.html`: logo → primary nav → actions group (search icon + mobile toggle) on the far right; nav items now sit inline next to the logo
+- Updated `.header-inner` in `static/css/style.css`: removed `justify-content: space-between`, added `.header-actions` with `margin-left: auto` to anchor search to the far right; increased header gap to 28px for breathing room
+- Polished search page styling in CSS section 28: larger H1, narrower container (760px), bigger input (15px padding, subtle shadow, hover state, `appearance: none` to kill UA chrome and webkit search decorations), chip-style filter buttons with focus-visible ring, active-state shadow, and refined mobile sizing
+- Nav unchanged in content: Cloud present, About not in primary nav (as expected)
+- Hugo build passed — 305 pages, no errors
+
+---
+
 ### Day 45a — site search and category filtering
 - Architecture: Hugo JSON output format → `/index.json` static search index (32 entries) + vanilla JS search, no external libraries
 - Added `JSON` to `[outputs] home` in `config.toml` → Hugo generates `/index.json` at build time
