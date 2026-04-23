@@ -90,4 +90,20 @@
     }, { passive: true });
   }
 
+  // Back to top button
+  var btt = document.getElementById('back-to-top');
+  if (btt) {
+    window.addEventListener('scroll', function () {
+      if (window.scrollY > 400) {
+        btt.classList.add('visible');
+      } else {
+        btt.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    btt.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
 })();

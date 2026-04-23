@@ -986,3 +986,50 @@ button { font-family: inherit; cursor: pointer; }
   .article-main { max-width: 100%; }
   body { font-size: 12pt; }
 }
+
+/* 27. Back to top
+   =========================================== */
+#back-to-top {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 100;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(8px);
+  transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s ease;
+  box-shadow: var(--shadow);
+  padding: 0;
+}
+#back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+#back-to-top:hover {
+  background: var(--primary-dark);
+}
+#back-to-top:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+  background: var(--primary-dark);
+}
+@media (max-width: 639px) {
+  #back-to-top {
+    bottom: 16px;
+    right: 16px;
+  }
+}
+@media print {
+  #back-to-top { display: none !important; }
+}

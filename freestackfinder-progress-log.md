@@ -87,6 +87,14 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 
 ## Recent completed work
 
+### Day 43c — back-to-top button
+- Added `<button id="back-to-top">` with inline chevron SVG to `layouts/_default/baseof.html` — renders site-wide
+- Added CSS (section 27) to `static/css/style.css`: fixed bottom-right 44×44 circle using `--primary` color, hidden by default (`opacity: 0; visibility: hidden; transform: translateY(8px)`), `.visible` class fades/slides it in
+- Added JS to `static/js/main.js`: scroll listener shows button after 400px scroll; click scrolls to top with `behavior: smooth`; scroll listener uses `{ passive: true }`
+- Accessibility: `aria-label="Back to top"`, keyboard focusable, `:focus-visible` outline using `--primary`, icon uses `aria-hidden`
+- Mobile: bottom/right reduced to 16px on screens < 640px; hidden in print styles
+- Hugo build passed — 303 pages, no errors
+
 ### Day 43b — noindex utility/legal pages
 - Set `noindex: true` and `sitemap: { disable: true }` in front matter of all 5 utility pages: `about.md`, `contact.md`, `disclaimer.md`, `terms.md`, `privacy-policy.md`
 - Head partial already wired `{{ if .Params.noindex }}` → `noindex, follow` — no layout changes needed
