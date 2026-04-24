@@ -6,6 +6,20 @@
 
 ---
 
+### Day 46b — reusable review/methodology trust block on article pages
+- Added `layouts/partials/review-block.html` — compact 3-column editorial block showing Last reviewed date, How we evaluate, and What "free" means here; uses existing `.Lastmod` (the same freshness source already surfaced elsewhere) so the date source remains consistent with article meta and cards
+- Gating: renders only when `not .Params.noindex`, `ne .Type "page"`, and `.Params.categories` is set — excludes `about`, `contact`, `disclaimer`, `privacy-policy`, `terms`, and `search`
+- Wired into `layouts/_default/single.html` between the featured image and the article body, so it sits near the top of the content without competing with the article header meta and existing editorial-note
+- Added CSS section 29 to `static/css/style.css`: 3-column grid on desktop, stacks to 1 column under 740px; uses existing `--bg-2`, `--border`, `--radius`, `--text`, `--text-muted`, `--text-light` tokens so the block matches the site's editorial design language
+- Final wording:
+  - Last reviewed: `{{ .Lastmod }}` formatted "January 2, 2006"
+  - How we evaluate: "Practical usefulness, real free-plan value, the limits that matter, and fit by use case."
+  - What "free" means here: "Some tools are fully free or open source. Others have limited free plans that are still genuinely useful."
+- QA: confirmed block present on `business/free-accounting-software/` and `security/free-vpn/`, absent from `about/`, `privacy-policy/`, `contact/`; existing `article-editorial-note`, featured image, and author box untouched
+- Hugo build passed — 308 pages, no errors
+
+---
+
 ### Day 46a — free-accounting-software article
 - Created `content/business/free-accounting-software.md` — 5 tools: Wave, Zoho Books, Akaunting, Manager, GnuCash; date `"2026-04-24"`; weight 76
 - Article distinguishes accounting software from invoicing tools and spreadsheets, adds a decision guide, and keeps free-plan wording deliberately durable around Zoho Books' revenue cap, Wave's plan structure, Akaunting's cloud tier, and Manager's free desktop edition — each entry points readers to the vendor's current pricing page rather than quoting volatile thresholds

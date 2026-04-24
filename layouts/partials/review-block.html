@@ -1,0 +1,17 @@
+{{/* Review / methodology trust block — shown on article pages only. */}}
+{{ if and (not .Params.noindex) (ne .Type "page") .Params.categories }}
+<aside class="review-block" aria-label="Review and methodology">
+  <div class="review-block-item">
+    <span class="review-block-label">Last reviewed</span>
+    <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "January 2, 2006" }}</time>
+  </div>
+  <div class="review-block-item">
+    <span class="review-block-label">How we evaluate</span>
+    <p>Practical usefulness, real free-plan value, the limits that matter, and fit by use case.</p>
+  </div>
+  <div class="review-block-item">
+    <span class="review-block-label">What "free" means here</span>
+    <p>Some tools are fully free or open source. Others have limited free plans that are still genuinely useful.</p>
+  </div>
+</aside>
+{{ end }}
