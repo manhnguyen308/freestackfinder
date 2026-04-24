@@ -55,6 +55,8 @@ rows:
 
 ### 1. Google Docs / Sheets / Slides — best for most people
 
+{{< verdict "Best overall" >}}
+
 Google's free productivity suite has quietly become one of the most capable office tools available, and it costs nothing. A Google account (also free) gets you:
 
 **What's included for free:**
@@ -85,6 +87,8 @@ For team messaging alongside Google Workspace, see our [free Slack alternatives 
 
 ### 2. LibreOffice — best free desktop Office replacement
 
+{{< verdict "Best for offline use" >}}
+
 LibreOffice is a full-featured, open-source desktop office suite with Writer (Word), Calc (Excel), Impress (PowerPoint), Draw, Base (database), and Math. It runs on Windows, macOS, and Linux, and it's completely free — no subscription, no premium tier.
 
 **What's included:**
@@ -110,6 +114,8 @@ LibreOffice is a full-featured, open-source desktop office suite with Writer (Wo
 ---
 
 ### 3. OnlyOffice (free desktop edition) — best .docx compatibility
+
+{{< verdict "Best .docx compatibility" >}}
 
 OnlyOffice is worth knowing about specifically if .docx compatibility is your top priority. It uses the same document format as Microsoft Office natively, which means files open with near-perfect fidelity — fonts, tables, formatting, tracked changes.
 

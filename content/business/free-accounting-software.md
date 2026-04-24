@@ -84,6 +84,8 @@ If what you actually need is invoicing only, our [free invoicing software guide]
 
 ### 1. Wave — best overall free accounting software for freelancers and sole proprietors
 
+{{< verdict "Best overall" >}}
+
 **What it is:** A cloud-based accounting and invoicing platform built specifically for freelancers, sole proprietors, and very small businesses. Wave has kept the core bookkeeping workflow outside a recurring subscription for years and monetises through payment processing, payroll, and its optional Pro tier.
 
 **Free plan includes:**
@@ -113,6 +115,8 @@ For invoicing-specific comparisons, including Wave against Zoho Invoice and Invo
 ---
 
 ### 2. Zoho Books — best free accounting software inside a business suite
+
+{{< verdict "Best for Zoho users" >}}
 
 **What it is:** Zoho's full cloud accounting product, with a free tier aimed at very small businesses below a defined revenue threshold. It is part of the broader Zoho ecosystem that includes CRM, Invoice, Expense, and Books.
 
@@ -145,6 +149,8 @@ For connected Zoho tools already published here, see our [free CRM software guid
 
 ### 3. Akaunting — best free open-source cloud or self-hosted accounting
 
+{{< verdict "Best open source" >}}
+
 **What it is:** An open-source accounting application that can be self-hosted on your own server or used through Akaunting's own cloud environment. Its source code is available and actively maintained, with a plug-in style app marketplace for optional extensions.
 
 **Free plan includes:**
@@ -170,6 +176,8 @@ For connected Zoho tools already published here, see our [free CRM software guid
 ---
 
 ### 4. Manager — best free offline desktop accounting software
+
+{{< verdict "Best offline option" >}}
 
 **What it is:** A full desktop accounting application available as a free edition that runs locally on Windows, macOS, and Linux. Paid editions exist for server and cloud use, but the desktop edition has historically been free and feature-complete.
 
@@ -199,6 +207,8 @@ For connected Zoho tools already published here, see our [free CRM software guid
 ---
 
 ### 5. GnuCash — best free accounting software for disciplined sole proprietors
+
+{{< verdict "Best for sole proprietors" >}}
 
 **What it is:** A mature, fully open-source double-entry accounting application available for Windows, macOS, and Linux. GnuCash has been in active development since 1998 and is one of the longest-running free accounting projects.
 

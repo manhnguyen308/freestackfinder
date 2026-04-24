@@ -2,7 +2,21 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-24  
-**Current day:** 46h  
+**Current day:** 46i  
+
+---
+
+### Day 46i — reusable tool verdict badges on selected comparison articles
+- Shortcode `layouts/shortcodes/verdict.html` and CSS section 33 (`.verdict-badge`) were already in place from a prior partial run; this pass completed the rollout
+- Badge style: small all-caps pill using `--primary-dark` text on `--primary-bg` tint with a subtle border — editorial, not promotional
+- Applied badges to 4 evergreen comparison pages:
+  - `content/business/free-accounting-software.md` — 5 badges: Best overall · Best for Zoho users · Best open source · Best offline option · Best for sole proprietors
+  - `content/security/free-vpn.md` — 3 badges: Best overall · Best for variety · Most transparent (Hotspot Shield excluded — not a recommended tool)
+  - `content/productivity/microsoft-office-alternatives.md` — 3 badges: Best overall · Best for offline use · Best .docx compatibility (WPS excluded — not a primary recommendation)
+  - `content/creative/canva-alternatives.md` — 5 badges: Best overall · Best for image editing · Best for AI drafts · Best browser fallback · Best for mobile
+- Badges placed immediately after the tool heading `###` line, before the first paragraph, matching accounting article convention
+- All labels match actual article verdicts — no overclaiming, no unsupported superlatives
+- Hugo build passed — 308 pages, no errors; badge text verified in rendered HTML for all 4 pages
 
 ---
 

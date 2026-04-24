@@ -66,6 +66,8 @@ For securing other aspects of your digital life alongside a VPN, see our [free p
 
 ### 1. ProtonVPN Free — the only unlimited free VPN worth recommending
 
+{{< verdict "Best overall" >}}
+
 **What it is:** The free tier of ProtonVPN, from the same Swiss-based company behind ProtonMail and Proton Drive. The only major free VPN with unlimited data and an independently audited no-logs policy.
 
 **Free plan includes:**
@@ -94,6 +96,8 @@ For securing other aspects of your digital life alongside a VPN, see our [free p
 
 ### 2. Windscribe Free — best free VPN for server variety
 
+{{< verdict "Best for variety" >}}
+
 **What it is:** A Canadian-based VPN with a generous free tier offering 10GB of monthly data and access to servers in over 11 countries.
 
 **Free plan includes:**
@@ -120,6 +124,8 @@ For securing other aspects of your digital life alongside a VPN, see our [free p
 ---
 
 ### 3. Tunnelbear Free — most transparent free VPN
+
+{{< verdict "Most transparent" >}}
 
 **What it is:** A Canadian VPN with a 2GB monthly free tier and one of the most transparent privacy track records in the free VPN market — including annual independent audits published publicly.
 
