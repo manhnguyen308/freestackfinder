@@ -74,6 +74,65 @@
   </div>
 </section>
 
+<!-- ===== CURATED COLLECTIONS ===== -->
+{{ $collections := slice
+  (dict
+    "title"  "The freelance business stack"
+    "intro"  "Run the money side of a solo business without monthly subscriptions — invoicing, books, clients, and billable time."
+    "pages"  (slice
+      "/business/free-accounting-software"
+      "/business/free-invoicing-software"
+      "/business/free-crm-software"
+      "/business/free-project-management-software"
+      "/business/free-time-tracking-software"))
+  (dict
+    "title"  "Replace Microsoft Office"
+    "intro"  "A full free office workflow for docs, spreadsheets, notes, email, and calendar — without a Microsoft 365 bill."
+    "pages"  (slice
+      "/productivity/microsoft-office-alternatives"
+      "/business/free-spreadsheet-alternatives"
+      "/productivity/free-note-taking-apps"
+      "/productivity/free-calendar-app"
+      "/productivity/grammarly-alternatives"))
+  (dict
+    "title"  "Privacy and safety basics"
+    "intro"  "The free tools we actually recommend for passwords, connection privacy, device safety, and account protection."
+    "pages"  (slice
+      "/security/free-password-managers"
+      "/security/free-vpn"
+      "/security/free-antivirus-software"
+      "/security/best-free-2fa-apps"
+      "/cloud/free-email-service"))
+}}
+<section class="collections-section" aria-label="Curated collections">
+  <div class="container">
+    <div class="section-header">
+      <h2 class="section-title">Start with a use case</h2>
+      <p class="section-subtitle">Curated collections for the paths most readers actually follow.</p>
+    </div>
+    <div class="collections-grid">
+      {{ range $collections }}
+      <article class="collection-card">
+        <h3 class="collection-title">{{ .title }}</h3>
+        <p class="collection-intro">{{ .intro }}</p>
+        <ul class="collection-list" role="list">
+          {{ range .pages }}
+            {{ with $.Site.GetPage . }}
+            <li>
+              <a href="{{ .RelPermalink }}">
+                <span class="collection-link-title">{{ .Title }}</span>
+                {{ with .Params.categories }}<span class="collection-link-cat">{{ range first 1 . }}{{ . }}{{ end }}</span>{{ end }}
+              </a>
+            </li>
+            {{ end }}
+          {{ end }}
+        </ul>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
 <!-- ===== TRUST BANNER ===== -->
 <section class="trust-section" aria-label="Why trust Free Stack Finder">
   <div class="container">

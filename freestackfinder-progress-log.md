@@ -6,6 +6,20 @@
 
 ---
 
+### Day 46e — curated homepage featured collections
+- Added a curated collections block to `layouts/index.html` between Featured comparisons and the Trust banner — three use-case cards that complement (not duplicate) the silo-driven Featured and chronological Latest sections
+- Implementation uses an inline `slice`/`dict` structure with explicit page paths resolved via `.Site.GetPage`, so the curation is manual and editable in one place without new data files
+- Collections added (each card: short heading + intro line + 5 linked guides, with a small silo tag per link):
+  - "The freelance business stack" — `free-accounting-software`, `free-invoicing-software`, `free-crm-software`, `free-project-management-software`, `free-time-tracking-software`
+  - "Replace Microsoft Office" — `microsoft-office-alternatives`, `free-spreadsheet-alternatives`, `free-note-taking-apps`, `free-calendar-app`, `grammarly-alternatives`
+  - "Privacy and safety basics" — `free-password-managers`, `free-vpn`, `free-antivirus-software`, `best-free-2fa-apps`, `free-email-service`
+- Added CSS section 30 to `static/css/style.css`: 3-column collection-card grid on desktop, collapses to 2-up under 960px and 1-up under 640px; uses existing `--bg-2`, `--border`, `--radius-lg`, `--primary`, `--text`, `--text-muted`, `--text-light` tokens so the block matches the site's editorial design language without a new visual style
+- Creative was intentionally left out — Canva, Photoshop, and Illustrator already carry the creative entry points via the Featured comparisons block, and a forced Creative collection would feel like filler against the current inventory
+- QA: 3 cards render on the homepage, 15 linked titles resolve via `Site.GetPage`, silo tags show next to each link; Featured, Trust, and Latest sections unchanged
+- Hugo build passed — 308 pages, no errors
+
+---
+
 ### Day 46b — reusable review/methodology trust block on article pages
 - Added `layouts/partials/review-block.html` — compact 3-column editorial block showing Last reviewed date, How we evaluate, and What "free" means here; uses existing `.Lastmod` (the same freshness source already surfaced elsewhere) so the date source remains consistent with article meta and cards
 - Gating: renders only when `not .Params.noindex`, `ne .Type "page"`, and `.Params.categories` is set — excludes `about`, `contact`, `disclaimer`, `privacy-policy`, `terms`, and `search`
