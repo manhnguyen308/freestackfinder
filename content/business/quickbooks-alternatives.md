@@ -55,7 +55,7 @@ The trade-off is real but acceptable for most freelancers: free accounting tools
 
 **Who it's best for:** Freelancers, consultants, and sole traders who invoice clients regularly and need clean financial records for tax purposes without paying monthly for software.
 
-**Why it stands out:** Wave's Starter plan covers the core accounting jobs most freelancers actually need: reconciling accounts, sending invoices, tracking expenses, and producing year-end reports. The business model is built around optional payment processing and paid upgrades rather than forcing every user into a monthly subscription on day one. For a freelancer who invoices clients and tracks expenses, that makes Wave the most practical long-term replacement for QuickBooks' entry tier. For the broader tools freelancers need alongside accounting, see our [free Slack alternatives for small teams](/productivity/slack-alternatives/).
+**Why it stands out:** Wave's Starter plan covers the core accounting jobs most freelancers actually need: reconciling accounts, sending invoices, tracking expenses, and producing year-end reports. The business model is built around optional payment processing and paid upgrades rather than forcing every user into a monthly subscription on day one. For a freelancer who invoices clients and tracks expenses, that makes Wave the most practical long-term replacement for QuickBooks' entry tier. For managing the client pipeline before those invoices exist, see our [free CRM software guide](/business/free-crm-software/).
 
 [Use Wave free →](https://www.waveapps.com)
 

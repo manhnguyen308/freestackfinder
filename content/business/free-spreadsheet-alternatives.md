@@ -2,7 +2,7 @@
 title: "Best Free Spreadsheet Alternatives in 2026 — Excel Without the Subscription"
 description: "Microsoft Excel costs $100/year. Google Sheets, LibreOffice Calc, and Zoho Sheet handle most of what Excel does — for free. Here's the best free spreadsheet for your workflow."
 date: "2026-04-23"
-lastmod: "2026-04-23"
+lastmod: "2026-04-24"
 draft: false
 weight: 78
 slug: "free-spreadsheet-alternatives"
@@ -202,4 +202,4 @@ For most users in most roles — tracking budgets, managing client lists, buildi
 
 For most users, **Google Sheets** is the answer — it covers the full range of everyday spreadsheet work, syncs across every device, and makes collaboration seamless without any setup cost. For users who need a proper desktop application with no cloud dependency, **LibreOffice Calc** is the most capable free choice and imposes no limits whatsoever. If your business runs on Zoho tools, **Zoho Sheet** adds spreadsheet capability to that ecosystem without introducing a separate platform. Microsoft Excel is worth the subscription only when your work genuinely requires its advanced features — for everything else, the free alternatives handle the job.
 
-If you use spreadsheets for financial tracking, see our [free accounting software guide](/business/free-accounting-software/) for tools that go further than a spreadsheet alone. For broader office suite coverage beyond spreadsheets, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
+If you use spreadsheets for financial tracking, see our [free accounting software guide](/business/free-accounting-software/) for tools that go further than a spreadsheet alone. If spreadsheets are where you track billable hours or project effort, our [free time tracking software guide](/business/free-time-tracking-software/) is a cleaner next step. For broader office suite coverage beyond spreadsheets, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).

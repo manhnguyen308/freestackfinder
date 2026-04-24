@@ -2,7 +2,7 @@
 title: "Best Free Note-Taking Apps in 2026 — Simple Beats Complex for Most People"
 description: "Notion and Obsidian are overkill if you just want to capture ideas. Google Keep, Standard Notes, and Simplenote do the job faster with zero setup. Here's what actually works."
 date: "2026-04-14"
-lastmod: "2026-04-22"
+lastmod: "2026-04-24"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"
@@ -208,7 +208,7 @@ For a full comparison of Notion alternatives including Obsidian, Logseq, and sel
 
 ## From notes to polished writing
 
-Note-taking is usually the first draft — capturing raw ideas before refining them into emails, documents, or blog posts. Once your thoughts are captured, tools like LanguageTool and ProWritingAid can help improve the grammar and clarity of that writing at no cost. If you work with writing professionally, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for the tools that handle the editing step.
+Note-taking is usually the first draft — capturing raw ideas before refining them into emails, documents, or blog posts. Once your thoughts are captured, tools like LanguageTool and ProWritingAid can help improve the grammar and clarity of that writing at no cost. If you work with writing professionally, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for the tools that handle the editing step. If those notes turn into longer reports, spreadsheets, or presentations, pair them with our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
 <div class="affiliate-cta">
   <div class="affiliate-cta-content">

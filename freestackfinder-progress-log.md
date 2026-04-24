@@ -95,6 +95,16 @@
 
 ---
 
+### Day 46d — targeted Productivity and Business cluster link pass
+- Reviewed only the listed Productivity and Business cluster pages for adjacent-guide gaps, with no new article and no title or description churn
+- Added Productivity links from `slack-alternatives` to `microsoft-office-alternatives` and from `free-note-taking-apps` to `microsoft-office-alternatives`
+- Added Business links from `quickbooks-alternatives` to `free-crm-software`, from `free-invoicing-software` to `free-spreadsheet-alternatives`, from `free-time-tracking-software` to `free-crm-software`, and from `free-spreadsheet-alternatives` to `free-time-tracking-software`
+- Replaced one loose off-cluster recommendation on `quickbooks-alternatives` with a more relevant Business-cluster path into client pipeline software
+- Updated `lastmod` on changed pages where the date was not already current
+- Hugo build passed — 308 pages, no errors
+
+---
+
 ### Day 46c — targeted CTR and internal-link review pass
 - Reviewed the priority Productivity and Business pages for search-facing title/description strength and cluster-link gaps, using the tracker priorities and published cluster structure as the selection basis
 - Updated title/meta positioning where the old version was less direct or less search-intent aligned:
