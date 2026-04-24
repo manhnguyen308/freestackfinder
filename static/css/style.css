@@ -1469,3 +1469,11 @@ mark {
     margin-right: 4px;
   }
 }
+
+/* 32. Freshness indicator — updated dates on cards and list items
+   =========================================== */
+.card-meta time.updated,
+.article-list-item time.updated {
+  color: var(--primary);
+  font-weight: 600;
+}

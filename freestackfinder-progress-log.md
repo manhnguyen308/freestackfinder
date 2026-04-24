@@ -2,7 +2,19 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-24  
-**Current day:** 46g  
+**Current day:** 46h  
+
+---
+
+### Day 46h — surface freshness consistently on homepage and category/article cards
+- Audited all Hugo-rendered discovery surfaces: homepage Featured comparisons, homepage Latest comparisons, category/list pages, and "More from this category" on article pages — all use `article-card.html` or inline list-item markup that already emitted "Updated {date}" text when `lastmod != date`
+- Gap identified: the "Updated" text was visually indistinguishable from a plain publish date — both rendered in `--text-light` (#94A3B8 muted gray)
+- Added `class="updated"` to `<time>` elements in `layouts/partials/article-card.html` and the Latest section in `layouts/index.html` when `lastmod != date`; plain-date `<time>` elements get no class, keeping markup clean
+- Added CSS section 32 to `static/css/style.css`: `.card-meta time.updated, .article-list-item time.updated { color: var(--primary); font-weight: 600; }` — the site's teal primary (#0F766E) makes updated dates clearly scannable vs muted plain dates without looking like links
+- Coverage: all 4 card/list surfaces now render fresh "Updated Apr 24, 2026" text in teal with heavier weight; cards for newly published articles with no lastmod change show plain muted date — no duplicate or conflicting date display
+- Search results (JS-rendered) intentionally left unchanged — no dates shown there
+- Collections block intentionally left without dates — title-only links, too compact for date metadata
+- Hugo build passed — 308 pages, no errors; verified `class=updated` in `public/business/index.html` and homepage, verified plain `<time>` has no class on non-updated articles
 
 ---
 

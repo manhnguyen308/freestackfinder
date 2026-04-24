@@ -23,7 +23,7 @@
     <p class="card-excerpt">{{ .Description | default (.Summary | truncate 110) }}</p>
 
     <div class="card-meta">
-      <time datetime="{{ if ne .Date .Lastmod }}{{ .Lastmod.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}">{{ if ne .Date .Lastmod }}Updated {{ .Lastmod.Format "Jan 2, 2006" }}{{ else }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</time>
+      <time{{ if ne .Date .Lastmod }} class="updated"{{ end }} datetime="{{ if ne .Date .Lastmod }}{{ .Lastmod.Format "2006-01-02" }}{{ else }}{{ .Date.Format "2006-01-02" }}{{ end }}">{{ if ne .Date .Lastmod }}Updated {{ .Lastmod.Format "Jan 2, 2006" }}{{ else }}{{ .Date.Format "Jan 2, 2006" }}{{ end }}</time>
       <span class="read-time">{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
     </div>
 
