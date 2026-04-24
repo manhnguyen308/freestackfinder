@@ -2,7 +2,18 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-24  
-**Current day:** 46i  
+**Current day:** 46j  
+
+---
+
+### Day 46j — footer trust CTA cleanup
+- Converted footer trust links from plain underlined `<p>` with "·" separators to a `<div role="list">` flex row of pill-style links
+- Removed `text-decoration: underline` and raw default styling
+- New style: `display: flex; flex-wrap: wrap; gap: 8px` row; each link uses `border-radius: 20px`, 1px `rgba(255,255,255,0.15)` border, `4px 12px` padding, `12px` font, `#94A3B8` base color → white on hover with border brightening
+- Added `:focus-visible` outline using `var(--primary)` for keyboard accessibility
+- Links wrap cleanly on mobile via `flex-wrap`; no horizontal overflow
+- All three destination links preserved: `/about/`, `/disclaimer/`, `/contact/`
+- Hugo build passed — 308 pages, no errors
 
 ---
 
