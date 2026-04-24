@@ -1,6 +1,6 @@
 ---
 title: "Best Free Invoicing Software in 2026 — Get Paid Without the Monthly Fee"
-description: "Wave, Zoho Invoice, Invoice Ninja, and Square all have genuinely free invoicing plans. Which tool fits your billing volume — and what each one catches you on."
+description: "Compare the best free invoicing software for freelancers and small businesses, including Wave, Zoho Invoice, Invoice Ninja, Square, PayPal, and Stripe."
 date: "2026-04-13"
 lastmod: "2026-04-24"
 draft: false

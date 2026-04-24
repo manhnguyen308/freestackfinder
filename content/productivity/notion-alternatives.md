@@ -1,8 +1,8 @@
 ---
-title: "Best Free Alternatives to Notion in 2026 — Tested and Compared"
-description: "Notion's free plan is more limited than it looks. We tested 5 free alternatives for notes, wikis, and project management — including one that's fully offline with no recurring subscription."
+title: "Best Free Notion Alternatives in 2026 — Notes, Wikis, and Offline Options"
+description: "Compare the best free Notion alternatives for notes, wikis, and personal knowledge management, including Obsidian, Logseq, Anytype, Coda, and Joplin."
 date: "2026-03-26"
-lastmod: "2026-04-23"
+lastmod: "2026-04-24"
 draft: false
 weight: 70
 slug: "notion-alternatives"

@@ -95,6 +95,24 @@
 
 ---
 
+### Day 46c — targeted CTR and internal-link review pass
+- Reviewed the priority Productivity and Business pages for search-facing title/description strength and cluster-link gaps, using the tracker priorities and published cluster structure as the selection basis
+- Updated title/meta positioning where the old version was less direct or less search-intent aligned:
+  - `microsoft-office-alternatives`: broadened from singular "Alternative" to "Alternatives" and surfaced docs, sheets, and slides intent
+  - `notion-alternatives`: moved the exact "Notion alternatives" phrase forward and clarified notes, wikis, and offline options
+  - `grammarly-alternatives`: moved the exact "Grammarly alternatives" phrase forward and clarified grammar, style, and clarity intent
+  - `free-project-management-software`: surfaced Trello, Asana, ClickUp, and broader small-team intent
+  - `free-crm-software`: kept the no-credit-card hook while making the description more concrete around HubSpot, Zoho CRM, Freshsales, and Bitrix24
+  - `free-invoicing-software`: tightened the description around freelancer/small-business search intent and named the key tools
+- Strengthened internal links inside the Productivity cluster from `microsoft-office-alternatives` to `free-note-taking-apps` and `free-calendar-app`
+- Strengthened internal links inside the Business cluster:
+  - `free-project-management-software` now points naturally to `free-crm-software`
+  - `free-crm-software` now points to `free-accounting-software`, `free-project-management-software`, and `free-time-tracking-software` in addition to existing QuickBooks and invoicing links
+- Light QA confirmed the touched metadata and added links are present and no broad rewrite was introduced
+- Hugo build passed — 308 pages, no errors
+
+---
+
 ## Read this first
 This is the primary daily state file.
 
