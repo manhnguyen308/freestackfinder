@@ -1,8 +1,24 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-23  
-**Current day:** 45  
+**Last updated:** 2026-04-24  
+**Current day:** 46  
+
+---
+
+### Day 46a — free-accounting-software article
+- Created `content/business/free-accounting-software.md` — 5 tools: Wave, Zoho Books, Akaunting, Manager, GnuCash; date `"2026-04-24"`; weight 76
+- Article distinguishes accounting software from invoicing tools and spreadsheets, adds a decision guide, and keeps free-plan wording deliberately durable around Zoho Books' revenue cap, Wave's plan structure, Akaunting's cloud tier, and Manager's free desktop edition — each entry points readers to the vendor's current pricing page rather than quoting volatile thresholds
+- Created `scripts/images/generate_free_accounting_software.py` — Business silo, emerald accent `#10b981`; left panel mocks a Wave dashboard (KPI cards + P&L ledger rows + net-profit band), right panel features Wave plus a 4-card grid (Zoho Books, Akaunting, Manager, GnuCash)
+- Generated `static/img/free-accounting-software.webp` (31 KB, 1200×630)
+- Added internal link from `quickbooks-alternatives` → `free-accounting-software` (Our verdict section, broader accounting comparison)
+- Added internal link from `free-invoicing-software` → `free-accounting-software` (Our verdict section, full-accounting pairing)
+- Existing internal link from `free-spreadsheet-alternatives` → `free-accounting-software` (previously added on Day 43a) now resolves
+- Article cross-links back to `free-invoicing-software`, `free-spreadsheet-alternatives`, `quickbooks-alternatives`, `free-crm-software`, and `free-time-tracking-software`
+- Updated `lastmod` on `quickbooks-alternatives` and `free-invoicing-software` to `"2026-04-24"`
+- Updated `CONTENT-STRATEGY.md`: `free-accounting-software` marked as ✓ Published
+- Hugo build passed — 308 pages, no errors
+- Site now has 33 articles total; Business silo has 7
 
 ---
 
@@ -81,8 +97,8 @@ Rules for daily runs:
 
 ## Current snapshot
 - Stack: Hugo 0.128.0 + GitHub + Cloudflare Pages
-- Total published articles: 32
-- Silo balance: Productivity 8, Creative 6, Business 6, Cloud 4, Security 4, Video 4
+- Total published articles: 33
+- Silo balance: Productivity 8, Creative 6, Business 7, Cloud 4, Security 4, Video 4
 - Main monetization active: NordVPN, NordPass, Canva, Grammarly, Amazon Associates (US tag: freestackfi20-20 — now in use on 3 pages)
 - Pending affiliate priority: Zoho via CJ Affiliate
 - GSC latest (2026-04-15): 2,220 impressions, 5 clicks, average position 54.4, CTR 0.2%
@@ -93,7 +109,7 @@ Rules for daily runs:
 ---
 
 ## Current priorities
-1. Continue publishing from the Early queue — next up: `free-accounting-software` (Business silo)
+1. Continue publishing from the Early queue — next up: `free-pdf-editor-alternatives` (Productivity silo)
 2. Targeted CTR improvement on pages already earning impressions — pull GSC query/page report and rework titles + meta descriptions on pages with impressions but near-zero CTR
 3. Strengthen internal linking inside the two strongest clusters (Productivity, Business)
 4. Apply Zoho affiliate via CJ Affiliate — Zoho referenced on crm, email, and invoicing pages
@@ -103,7 +119,6 @@ Rules for daily runs:
 ### Content pipeline — next articles to publish (Priority: Early)
 Publish in this order unless a higher-priority fix exists:
 
-- `free-accounting-software` — Business silo
 - `free-pdf-editor-alternatives` — Productivity silo
 - `free-resume-builders` — Business silo
 
@@ -117,7 +132,7 @@ Full 50-article plan with silo targets and Later-queue articles is in `CONTENT-S
 - Productivity: 8
 - Creative: 6
 - Cloud: 4
-- Business: 6
+- Business: 7
 - Security: 4
 - Video: 4
 
@@ -514,6 +529,8 @@ Do not scan unrelated silos, layouts, or directories unless necessary.
 - `free-project-management-software.md`
 - `free-invoicing-software.md`
 - `free-time-tracking-software.md`
+- `free-spreadsheet-alternatives.md`
+- `free-accounting-software.md`
 
 ### Security
 - `free-password-managers.md`
@@ -556,6 +573,8 @@ Keep these clusters growing naturally:
   - `free-project-management-software`
   - `free-invoicing-software`
   - `free-time-tracking-software`
+  - `free-spreadsheet-alternatives`
+  - `free-accounting-software`
 
 - Security cluster:
   - `free-password-managers`
