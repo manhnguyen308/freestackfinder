@@ -126,15 +126,17 @@
     {{ end }}
 
     <!-- Related articles -->
+    {{ $readNext := partial "related-guides.html" (dict "page" . "limit" 5) }}
+    {{ if $readNext }}
     <div class="sidebar-widget">
-      <h4>Related guides</h4>
+      <h4>Read next</h4>
       <ul class="related-list" role="list">
-        {{ $related := .Site.RegularPages.Related . }}
-        {{ range first 5 $related }}
+        {{ range $readNext }}
         <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
         {{ end }}
       </ul>
     </div>
+    {{ end }}
 
     <!-- CTA: Free Stack Guide -->
     {{ with .Site.GetPage "/free-stack-guide" }}
@@ -150,16 +152,29 @@
 </div>
 
 <!-- ===== MORE FROM THIS CATEGORY ===== -->
+{{ $currentPath := .RelPermalink }}
+{{ $excludeSlugs := slice }}
+{{ range $readNext }}{{ $excludeSlugs = $excludeSlugs | append (path.Base .RelPermalink) }}{{ end }}
+{{ $section := .Section }}
+{{ $more := slice }}
+{{ range where (where .Site.RegularPages "Section" $section) "RelPermalink" "ne" $currentPath }}
+  {{ $s := path.Base .RelPermalink }}
+  {{ $skip := false }}
+  {{ range $excludeSlugs }}{{ if eq . $s }}{{ $skip = true }}{{ end }}{{ end }}
+  {{ if not $skip }}{{ $more = $more | append . }}{{ end }}
+{{ end }}
+{{ $more = first 3 (sort $more "Date" "desc") }}
+{{ if $more }}
 <section class="related-section">
   <div class="container">
-    <h2>More free software guides</h2>
+    <h2>More from {{ with .Params.categories }}{{ index . 0 }}{{ else }}this silo{{ end }}</h2>
     <div class="articles-grid">
-      {{ $related := .Site.RegularPages.Related . }}
-      {{ range first 3 $related }}
+      {{ range $more }}
         {{ partial "article-card.html" . }}
       {{ end }}
     </div>
   </div>
 </section>
+{{ end }}
 
 {{ end }}

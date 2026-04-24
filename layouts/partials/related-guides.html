@@ -1,0 +1,84 @@
+{{/*
+  Curated related guides. Returns a slice of Page objects for the given article.
+  Call with: {{ partial "related-guides.html" (dict "page" . "limit" 5) }}
+
+  Strategy: a slug -> [slugs] map captures the strongest editorial next-reads
+  per article (cluster-first, adjacent-cluster when genuinely helpful). Falls
+  back to Hugo's built-in .Related when a slug is not in the map, so newly
+  added articles still get reasonable recommendations until curated.
+*/}}
+
+{{ $page := .page }}
+{{ $limit := .limit | default 5 }}
+{{ $exclude := .exclude | default (slice) }}
+
+{{ $map := dict
+  "free-accounting-software"           (slice "free-invoicing-software" "quickbooks-alternatives" "free-spreadsheet-alternatives" "free-crm-software" "free-time-tracking-software")
+  "free-invoicing-software"            (slice "free-accounting-software" "free-time-tracking-software" "free-spreadsheet-alternatives" "free-crm-software" "quickbooks-alternatives")
+  "quickbooks-alternatives"            (slice "free-accounting-software" "free-invoicing-software" "free-spreadsheet-alternatives" "free-crm-software" "free-time-tracking-software")
+  "free-crm-software"                  (slice "free-invoicing-software" "free-accounting-software" "free-project-management-software" "free-time-tracking-software" "free-email-service")
+  "free-project-management-software"   (slice "free-time-tracking-software" "free-crm-software" "notion-alternatives" "slack-alternatives" "free-note-taking-apps")
+  "free-time-tracking-software"        (slice "free-project-management-software" "free-invoicing-software" "free-accounting-software" "free-crm-software" "free-calendar-app")
+  "free-spreadsheet-alternatives"      (slice "microsoft-office-alternatives" "free-accounting-software" "free-invoicing-software" "free-note-taking-apps" "free-calendar-app")
+
+  "microsoft-office-alternatives"      (slice "free-spreadsheet-alternatives" "free-note-taking-apps" "free-calendar-app" "grammarly-alternatives" "notion-alternatives")
+  "notion-alternatives"                (slice "free-note-taking-apps" "free-project-management-software" "microsoft-office-alternatives" "slack-alternatives" "free-calendar-app")
+  "free-note-taking-apps"              (slice "notion-alternatives" "microsoft-office-alternatives" "free-calendar-app" "grammarly-alternatives" "free-project-management-software")
+  "free-calendar-app"                  (slice "free-note-taking-apps" "notion-alternatives" "free-email-service" "microsoft-office-alternatives" "free-project-management-software")
+  "grammarly-alternatives"             (slice "free-ai-writing-tools" "free-chatgpt-alternatives" "microsoft-office-alternatives" "free-note-taking-apps" "notion-alternatives")
+  "free-ai-writing-tools"              (slice "free-chatgpt-alternatives" "grammarly-alternatives" "free-note-taking-apps" "notion-alternatives" "microsoft-office-alternatives")
+  "free-chatgpt-alternatives"          (slice "free-ai-writing-tools" "grammarly-alternatives" "free-note-taking-apps" "notion-alternatives" "microsoft-office-alternatives")
+  "slack-alternatives"                 (slice "zoom-alternatives" "free-project-management-software" "free-email-service" "notion-alternatives" "free-calendar-app")
+
+  "canva-alternatives"                 (slice "photoshop-alternatives" "illustrator-alternatives" "free-stock-photos" "free-font-websites" "figma-alternatives")
+  "photoshop-alternatives"             (slice "canva-alternatives" "illustrator-alternatives" "free-stock-photos" "figma-alternatives" "free-font-websites")
+  "illustrator-alternatives"           (slice "photoshop-alternatives" "canva-alternatives" "figma-alternatives" "free-font-websites" "free-stock-photos")
+  "figma-alternatives"                 (slice "canva-alternatives" "illustrator-alternatives" "photoshop-alternatives" "free-font-websites" "free-stock-photos")
+  "free-stock-photos"                  (slice "free-font-websites" "canva-alternatives" "photoshop-alternatives" "illustrator-alternatives" "figma-alternatives")
+  "free-font-websites"                 (slice "free-stock-photos" "canva-alternatives" "illustrator-alternatives" "figma-alternatives" "photoshop-alternatives")
+
+  "free-vpn"                           (slice "free-password-managers" "best-free-2fa-apps" "free-email-service" "free-antivirus-software" "free-backup-software")
+  "free-password-managers"             (slice "best-free-2fa-apps" "free-vpn" "free-antivirus-software" "free-email-service" "free-backup-software")
+  "best-free-2fa-apps"                 (slice "free-password-managers" "free-vpn" "free-antivirus-software" "free-email-service" "free-backup-software")
+  "free-antivirus-software"            (slice "free-vpn" "free-password-managers" "best-free-2fa-apps" "free-backup-software" "free-email-service")
+
+  "dropbox-alternatives"               (slice "free-cloud-storage-comparison" "free-backup-software" "free-email-service" "free-password-managers" "free-vpn")
+  "free-cloud-storage-comparison"      (slice "dropbox-alternatives" "free-backup-software" "free-email-service" "free-vpn" "free-password-managers")
+  "free-backup-software"               (slice "free-cloud-storage-comparison" "dropbox-alternatives" "free-antivirus-software" "free-password-managers" "free-email-service")
+  "free-email-service"                 (slice "free-password-managers" "free-vpn" "best-free-2fa-apps" "free-calendar-app" "free-cloud-storage-comparison")
+
+  "free-video-editing-software"        (slice "premiere-pro-alternatives" "free-screen-recording-software" "canva-alternatives" "photoshop-alternatives" "free-stock-photos")
+  "premiere-pro-alternatives"          (slice "free-video-editing-software" "free-screen-recording-software" "canva-alternatives" "photoshop-alternatives" "free-stock-photos")
+  "free-screen-recording-software"     (slice "free-video-editing-software" "premiere-pro-alternatives" "zoom-alternatives" "slack-alternatives" "canva-alternatives")
+  "zoom-alternatives"                  (slice "slack-alternatives" "free-screen-recording-software" "free-calendar-app" "free-email-service" "free-project-management-software")
+}}
+
+{{ $slug := path.Base $page.RelPermalink }}
+{{ $curated := index $map $slug }}
+
+{{ $result := slice }}
+{{ if $curated }}
+  {{ range $curated }}
+    {{ $target := . }}
+    {{ range $page.Site.RegularPages }}
+      {{ if and (eq (path.Base .RelPermalink) $target) (ne .RelPermalink $page.RelPermalink) }}
+        {{ $skip := false }}
+        {{ range $exclude }}{{ if eq . $target }}{{ $skip = true }}{{ end }}{{ end }}
+        {{ if not $skip }}
+          {{ $result = $result | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ range $page.Site.RegularPages.Related $page }}
+    {{ $skip := false }}
+    {{ $s := path.Base .RelPermalink }}
+    {{ range $exclude }}{{ if eq . $s }}{{ $skip = true }}{{ end }}{{ end }}
+    {{ if not $skip }}
+      {{ $result = $result | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ return first $limit $result }}

@@ -2,7 +2,24 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-24  
-**Current day:** 46f  
+**Current day:** 46g  
+
+---
+
+### Day 46g — curated related-guides logic on article pages
+- Added `layouts/partials/related-guides.html` — a slug-keyed curated map that returns the strongest editorial next-reads per article; cluster-first with deliberate adjacent-cluster jumps where they genuinely help (e.g. `free-vpn` → password managers + 2FA + secure email + antivirus + backup; `microsoft-office-alternatives` → spreadsheets + notes + calendar + writing + notion)
+- Falls back to Hugo's built-in `.Site.RegularPages.Related` when a slug is not yet mapped, so newly published articles still get reasonable recommendations
+- Replaced the sidebar block in `layouts/_default/single.html`: heading is now "Read next" (more intentional than the generic "Related guides"), list comes from the curated partial with limit=5
+- Replaced the bottom "More free software guides" section: now titled "More from {category}" and pulls same-section articles by date, excluding the current page *and* the five items already shown in the sidebar, so readers never see a duplicate link between the two modules
+- Curated mappings cover all 33 current articles across the 6 silos; examples verified in build output:
+  - `free-accounting-software` → invoicing, quickbooks-alternatives, spreadsheets, crm, time-tracking
+  - `microsoft-office-alternatives` → spreadsheets, note-taking, calendar, grammarly, notion
+  - `free-vpn` → password-managers, 2fa, email, antivirus, backup
+  - `canva-alternatives` → photoshop, illustrator, stock-photos, fonts, figma
+  - `dropbox-alternatives` → cloud-storage, backup, email, password-managers, vpn
+  - `premiere-pro-alternatives` → video-editing, screen-recording, canva, photoshop, stock-photos
+- QA across Business, Productivity, Security, Creative, Cloud, and Video articles: no self-links, no duplicates between sidebar and bottom grid, cross-silo jumps land on real published pages
+- Hugo build passed — 308 pages, no errors
 
 ---
 
