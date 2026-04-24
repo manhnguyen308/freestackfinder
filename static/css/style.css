@@ -1393,3 +1393,79 @@ mark {
   .collections-grid { grid-template-columns: 1fr; gap: 16px; }
   .collection-card { padding: 18px 18px 12px; }
 }
+
+/* 31. Comparison table (shortcode)
+   =========================================== */
+.compare-table-wrap {
+  margin: 0 0 32px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--bg-2);
+  overflow: hidden;
+}
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14.5px;
+  line-height: 1.5;
+}
+.compare-table thead th {
+  text-align: left;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-light);
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-3, var(--bg-2));
+}
+.compare-table tbody th,
+.compare-table tbody td {
+  padding: 12px 16px;
+  border-top: 1px solid var(--border);
+  vertical-align: top;
+  color: var(--text);
+}
+.compare-table tbody th {
+  font-weight: 700;
+  color: var(--text);
+  white-space: nowrap;
+}
+.compare-table tbody td { color: var(--text-muted); }
+.compare-table tbody tr:first-child th,
+.compare-table tbody tr:first-child td { border-top: none; }
+
+@media (max-width: 720px) {
+  .compare-table-wrap { border-radius: var(--radius); }
+  .compare-table thead { display: none; }
+  .compare-table,
+  .compare-table tbody,
+  .compare-table tr,
+  .compare-table th,
+  .compare-table td { display: block; width: 100%; }
+  .compare-table tr {
+    padding: 14px 16px;
+    border-top: 1px solid var(--border);
+  }
+  .compare-table tbody tr:first-child { border-top: none; }
+  .compare-table tbody th,
+  .compare-table tbody td {
+    padding: 2px 0;
+    border-top: none;
+    white-space: normal;
+  }
+  .compare-table tbody th {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  .compare-table tbody td::before {
+    content: attr(data-label) " · ";
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-light);
+    margin-right: 4px;
+  }
+}

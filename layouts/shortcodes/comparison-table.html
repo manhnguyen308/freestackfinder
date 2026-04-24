@@ -1,0 +1,29 @@
+{{/* Reusable comparison-table shortcode. Inner content is YAML with `columns` (key + label) and `rows`. */}}
+{{ $data := .Inner | transform.Unmarshal }}
+{{ with $data }}
+<div class="compare-table-wrap" role="region" aria-label="Comparison summary">
+  <table class="compare-table">
+    <thead>
+      <tr>
+        {{ range .columns }}<th scope="col">{{ .label }}</th>{{ end }}
+      </tr>
+    </thead>
+    <tbody>
+      {{ $cols := .columns }}
+      {{ range .rows }}
+      {{ $row := . }}
+      <tr>
+        {{ range $i, $c := $cols }}
+          {{ $val := index $row $c.key }}
+          {{ if eq $i 0 }}
+          <th scope="row" data-label="{{ $c.label }}">{{ $val }}</th>
+          {{ else }}
+          <td data-label="{{ $c.label }}">{{ $val }}</td>
+          {{ end }}
+        {{ end }}
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+{{ end }}

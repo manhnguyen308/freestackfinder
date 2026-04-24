@@ -26,6 +26,31 @@ We tested five free office suite alternatives against Microsoft 365 on five real
 
 **Google Workspace (Docs, Sheets, Slides)** is the best free Office alternative for most users — especially anyone who collaborates or works across devices. **LibreOffice** is the right choice for users who need full desktop power, work mostly offline, or handle complex document formatting regularly.
 
+{{< comparison-table >}}
+columns:
+  - {key: tool, label: Tool}
+  - {key: best_for, label: Best for}
+  - {key: free, label: Free plan}
+  - {key: limit, label: Main limitation}
+rows:
+  - tool: Google Workspace
+    best_for: Most people, collaborators
+    free: Docs, Sheets, Slides free in a browser
+    limit: 15 GB storage shared across Google services
+  - tool: LibreOffice
+    best_for: Offline desktop users
+    free: Full desktop suite, no limits
+    limit: No built-in real-time collaboration
+  - tool: OnlyOffice Desktop
+    best_for: Heavy .docx compatibility needs
+    free: Strong Microsoft format fidelity
+    limit: Smaller ecosystem and add-on library
+  - tool: WPS Office
+    best_for: Users who want an Office-like UI
+    free: Feature-rich free tier
+    limit: Ad-supported; data-handling concerns
+{{< /comparison-table >}}
+
 ## The best free Microsoft Office alternatives
 
 ### 1. Google Docs / Sheets / Slides — best for most people

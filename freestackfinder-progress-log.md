@@ -2,7 +2,23 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-24  
-**Current day:** 46  
+**Current day:** 46f  
+
+---
+
+### Day 46f — reusable comparison-table component for key comparison articles
+- Added `layouts/shortcodes/comparison-table.html` — YAML-driven Hugo shortcode that accepts a `columns` list (key + label) and `rows` list, so authors can reuse the same component across silos with different field sets without template edits
+- Architecture chosen: shortcode + inline YAML via `transform.Unmarshal`, so the structured summary lives inside the article markdown where authors already edit content, rather than in front matter or a separate data file
+- First-column cells render as `<th scope="row">`, remaining cells as `<td>` with `data-label` attributes for mobile card-style stacking; wrapper uses `role="region"` with an accessible label
+- Added CSS section 31 to `static/css/style.css`: compact editorial table on desktop (uppercase micro-label header, muted body text, bordered `--bg-2` wrapper matching review-block/collection-card style); under 720px the thead hides and each row becomes a card with `data-label` prefixes, keeping the summary scannable on mobile without horizontal scroll
+- Applied to 4 strong evergreen pages where a top-of-article summary clearly helps comparison scanning:
+  - `content/business/free-accounting-software.md` — columns: Tool, Best for, Free plan, Main limitation
+  - `content/creative/canva-alternatives.md` — columns: Tool, Best for, Free plan, Main limitation
+  - `content/productivity/microsoft-office-alternatives.md` — columns: Tool, Best for, Free plan, Main limitation
+  - `content/security/free-vpn.md` — columns: Tool, Best for, Free plan, Main limitation
+- Kept tables to one row per tool covered in the article and deliberately durable free-plan wording (no brittle GB/seat numbers in the summary) so the row text ages well alongside the article body
+- Not applied site-wide — rolled out only to these four high-intent evergreen guides for this run
+- Hugo build passed — 308 pages, no errors; verified rendered `.compare-table-wrap` markup in `public/business/free-accounting-software/index.html`
 
 ---
 

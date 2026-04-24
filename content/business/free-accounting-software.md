@@ -27,6 +27,35 @@ For most freelancers and very small businesses, **Wave** is the best free accoun
 
 QuickBooks, Xero, and FreshBooks are worth paying for when payroll, inventory, or multi-user accountant access genuinely drives the business. For everyone else — freelancers, sole proprietors, and most microbusinesses — the tools below are enough to run the books honestly and hand something clean to an accountant at year-end.
 
+{{< comparison-table >}}
+columns:
+  - {key: tool, label: Tool}
+  - {key: best_for, label: Best for}
+  - {key: free, label: Free plan}
+  - {key: limit, label: Main limitation}
+rows:
+  - tool: Wave
+    best_for: Freelancers, sole proprietors
+    free: Unlimited invoices + full double-entry books
+    limit: Live bank feeds and payroll are paid add-ons
+  - tool: Zoho Books
+    best_for: Zoho-ecosystem microbusinesses
+    free: Full cloud accounting + client portal
+    limit: Revenue cap applies to the free tier
+  - tool: Akaunting
+    best_for: Technical users wanting data control
+    free: Open-source, self-hosted for free
+    limit: Self-hosting needs a PHP/MySQL server
+  - tool: Manager
+    best_for: Offline multi-business bookkeeping
+    free: Unlimited transactions, desktop edition
+    limit: Single-user, no cloud sync
+  - tool: GnuCash
+    best_for: Disciplined sole proprietors
+    free: Fully free, open-source double-entry
+    limit: Traditional UI, no online collaboration
+{{< /comparison-table >}}
+
 ---
 
 ## Why small businesses are looking past QuickBooks, Xero, and FreshBooks

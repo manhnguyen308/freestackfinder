@@ -28,6 +28,35 @@ For most solo creators, **Adobe Express** is the closest free Canva alternative 
 
 Canva Pro is still worth paying for if you repeatedly rely on background removal, shared brand assets, and smoother team workflows. Canva itself even signals that divide now: background removal can be tried once for free, but repeated use is clearly positioned as a Pro workflow.
 
+{{< comparison-table >}}
+columns:
+  - {key: tool, label: Tool}
+  - {key: best_for, label: Best for}
+  - {key: free, label: Free plan}
+  - {key: limit, label: Main limitation}
+rows:
+  - tool: Adobe Express
+    best_for: Most solo creators
+    free: Strong free templates and quick exports
+    limit: Fewer brand controls than Canva Pro
+  - tool: Photopea
+    best_for: People who need real image editing
+    free: Browser-based layered editor, Photoshop-like
+    limit: No true team features or brand kits
+  - tool: Microsoft Designer
+    best_for: AI-assisted drafts inside Microsoft
+    free: Free AI-generated design starters
+    limit: Limited fine control over polished output
+  - tool: Pixlr
+    best_for: Browser-based quick fixes
+    free: Fast photo edits and basic design
+    limit: Ad-supported free tier with feature gates
+  - tool: Picsart
+    best_for: Mobile-first creators
+    free: Strong mobile editing feature set
+    limit: Many effects gated behind Picsart Gold
+{{< /comparison-table >}}
+
 ---
 
 ## Why people move away from Canva
