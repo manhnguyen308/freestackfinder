@@ -48,7 +48,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 6 | Best Free Spreadsheet Alternatives in 2026 | free-spreadsheet-alternatives | ✓ Published |
 | 7 | Best Free Accounting Software in 2026 | free-accounting-software | ✓ Published |
 | 8 | Best Free Resume Builders in 2026 | free-resume-builders | ✓ Published |
-| 9 | Best Free Social Media Scheduling Tools in 2026 | free-social-media-scheduling | Later |
+| 9 | Best Free Social Media Scheduling Tools in 2026 | free-social-media-scheduling | ✓ Published |
 | 10 | Best Free Microsoft Visio Alternatives in 2026 | free-visio-alternatives | Later |
 | 11 | Best Free Web Analytics Tools in 2026 | free-web-analytics | Later |
 | 12 | Best Free HR Software in 2026 | free-hr-software | Later |

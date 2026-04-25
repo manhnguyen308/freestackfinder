@@ -2,7 +2,24 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-25  
-**Current day:** 48b
+**Current day:** 48c
+
+---
+
+### Day 48c — publish free-social-media-scheduling
+- No more Early-queue articles remained; published the first Later Business article: Best Free Social Media Scheduling Tools in 2026
+- Article covers Buffer, Metricool, Later, and Meta Business Suite — queue-based schedulers, analytics-led tools, visual calendar tools, and platform-native free options
+- Honest section on Hootsuite free plan deprecation and Zoho Social free-tier limits
+- Comparison table shortcode at top; verdict badge shortcode on two tools
+- Feature image generated: `static/img/free-social-media-scheduling.webp` (35 KB)
+- Image script created: `scripts/images/generate_free_social_media_scheduling.py`
+- Related-guides map updated with `free-social-media-scheduling` entry linking to CRM, project management, Canva alternatives, Grammarly alternatives, AI writing tools
+- Internal link added to one older article:
+  - `content/business/free-crm-software.md` — closing paragraph links to scheduling guide (natural: CRM + social scheduling common in small-business marketing workflows)
+- `CONTENT-STRATEGY.md` updated: `free-social-media-scheduling` marked Published
+- Total published articles: 36 (Business now at 9/13)
+- Hugo not available locally; build will verify on Cloudflare Pages deployment
+- Manual checks passed: front matter valid, image path resolves, shortcode syntax correct, related-guides map has no self-link, internal links resolve
 
 ---
 
