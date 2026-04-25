@@ -2,7 +2,24 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-25  
-**Current day:** 48c
+**Current day:** 48d
+
+---
+
+### Day 48d — publish free-visio-alternatives
+- Published new Business article: Best Free Microsoft Visio Alternatives in 2026
+- Article covers draw.io, Lucidchart Free, Miro Free, and Whimsical Free — with honest notes on LibreOffice Draw, Cacoo, and Microsoft Visio Viewer
+- Comparison table shortcode at top; verdict badge shortcode on draw.io
+- Clear guidance on use cases: solo user, small team, UX/product, Miro teams
+- Feature image generated: `static/img/free-visio-alternatives.webp` (30 KB)
+- Image script created: `scripts/images/generate_free_visio_alternatives.py`
+- Related-guides map updated with `free-visio-alternatives` entry linking to project management, CRM, Office alternatives, spreadsheets, and Notion alternatives; also added `free-visio-alternatives` into the `free-project-management-software` slot
+- Internal link added to one older article:
+  - `content/business/free-project-management-software.md` — closing paragraph links to Visio guide (natural: process documentation pairs with project management)
+- `CONTENT-STRATEGY.md` updated: `free-visio-alternatives` marked Published
+- Total published articles: 37 (Business now at 10/13)
+- Hugo not available locally; build will verify on Cloudflare Pages deployment
+- Manual checks passed: front matter valid, image path resolves, shortcode syntax correct, related-guides map has no self-link, internal links resolve to correct slugs
 
 ---
 
