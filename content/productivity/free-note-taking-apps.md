@@ -208,7 +208,7 @@ For a full comparison of Notion alternatives including Obsidian, Logseq, and sel
 
 ## From notes to polished writing
 
-Note-taking is usually the first draft — capturing raw ideas before refining them into emails, documents, or blog posts. Once your thoughts are captured, tools like LanguageTool and ProWritingAid can help improve the grammar and clarity of that writing at no cost. If you work with writing professionally, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for the tools that handle the editing step. If those notes turn into longer reports, spreadsheets, or presentations, pair them with our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
+Note-taking is usually the first draft — capturing raw ideas before refining them into emails, documents, or blog posts. Once your thoughts are captured, tools like LanguageTool and ProWritingAid can help improve the grammar and clarity of that writing at no cost. If you work with writing professionally, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for the tools that handle the editing step. If those notes turn into longer reports, spreadsheets, or presentations, pair them with our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/). If your notes often become PDFs for sharing or distribution, see our [free PDF editor alternatives guide](/productivity/free-pdf-editor-alternatives/) for editing, annotating, and signing without a subscription.
 
 <div class="affiliate-cta">
   <div class="affiliate-cta-content">

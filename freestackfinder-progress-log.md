@@ -2,7 +2,24 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-25  
-**Current day:** 47d
+**Current day:** 48a
+
+---
+
+### Day 48a — publish free-pdf-editor-alternatives
+- Published new Productivity article: Best Free PDF Editor Alternatives in 2026
+- Article covers PDFgear, PDF24 Tools, Sejda, LibreOffice Draw, and Xodo — full editors, browser tools, annotation tools, and office-suite PDF handling
+- Comparison table shortcode at top; verdict badge shortcode on four tools
+- Feature image generated: `static/img/free-pdf-editor-alternatives.webp` (29 KB)
+- Image script created: `scripts/images/generate_free_pdf_editor_alternatives.py`
+- Related-guides map updated with `free-pdf-editor-alternatives` entry; also promoted it into the `microsoft-office-alternatives` and `free-note-taking-apps` related-guide slots
+- Internal links added to two older articles:
+  - `content/productivity/microsoft-office-alternatives.md` — closing paragraph links to new PDF guide
+  - `content/productivity/free-note-taking-apps.md` — "From notes to polished writing" section links to new PDF guide
+- `CONTENT-STRATEGY.md` updated: `free-pdf-editor-alternatives` marked Published
+- Total published articles: 34 (Productivity now at 9 — silo target reached)
+- Hugo not available locally; build will verify on Cloudflare Pages deployment
+- Manual checks passed: front matter valid, image path matches generated file, shortcode syntax correct, related-guides map has no self-link, internal links resolve to correct slugs
 
 ---
 

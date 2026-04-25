@@ -18,7 +18,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 3 | Best Free Grammarly Alternatives in 2026 | grammarly-alternatives | ✓ Published |
 | 4 | Best Free Notion Alternatives in 2026 | notion-alternatives | ✓ Published |
 | 5 | Best Free Note-Taking Apps in 2026 | free-note-taking-apps | ✓ Published |
-| 6 | Best Free PDF Editor Alternatives in 2026 | free-pdf-editor-alternatives | Early |
+| 6 | Best Free PDF Editor Alternatives in 2026 | free-pdf-editor-alternatives | ✓ Published |
 | 7 | Best Free AI Writing Tools in 2026 | free-ai-writing-tools | ✓ Published |
 | 8 | Best Free ChatGPT Alternatives in 2026 | free-chatgpt-alternatives | ✓ Published |
 | 9 | Best Free Calendar Apps in 2026 | free-calendar-app | ✓ Published |
