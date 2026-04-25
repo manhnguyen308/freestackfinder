@@ -1,8 +1,8 @@
 ---
 title: "Best Free Social Media Scheduling Tools in 2026 — Plan, Post, and Track Without Paying"
 description: "Buffer, Later, Metricool, and Meta Business Suite all offer useful free plans for scheduling social posts. Here's which one fits your workflow — and where each quietly falls short."
-date: "2026-04-25"
-lastmod: "2026-04-25"
+date: "2026-04-24"
+lastmod: "2026-04-24"
 draft: false
 weight: 55
 slug: "free-social-media-scheduling"

@@ -1,8 +1,8 @@
 ---
 title: "Best Free PDF Editor Alternatives in 2026 — Edit, Annotate, and Sign Without Paying"
 description: "Most people pay for PDF software they barely use. PDFgear, Sejda, and PDF24 cover editing, signing, and merging for free. Here's what each one actually does."
-date: "2026-04-25"
-lastmod: "2026-04-25"
+date: "2026-04-22"
+lastmod: "2026-04-22"
 draft: false
 weight: 62
 slug: "free-pdf-editor-alternatives"

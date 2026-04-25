@@ -1,8 +1,8 @@
 ---
 title: "Best Free Resume Builders in 2026 — Templates, Downloads, and No Hidden Paywalls"
 description: "Most resume builders are free to build but charge to download. Here's what's actually free: Canva, Google Docs, Indeed, and Resume.com compared for job seekers in 2026."
-date: "2026-04-25"
-lastmod: "2026-04-25"
+date: "2026-04-23"
+lastmod: "2026-04-23"
 draft: false
 weight: 58
 slug: "free-resume-builders"
