@@ -7,11 +7,11 @@
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ .Description | default .Summary | jsonify }},
-  "url": {{ .Permalink | jsonify }},
-  "datePublished": {{ .Date.Format "2006-01-02" | jsonify }},
-  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify }},
+  "headline": {{ .Title | jsonify | safeJS }},
+  "description": {{ .Description | default .Summary | jsonify | safeJS }},
+  "url": {{ .Permalink | jsonify | safeJS }},
+  "datePublished": {{ .Date.Format "2006-01-02" | jsonify | safeJS }},
+  "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify | safeJS }},
   "author": {
     "@type": "Organization",
     "name": "Free Stack Finder",
@@ -24,7 +24,7 @@
   }{{ with .Params.image }},
   "image": {
     "@type": "ImageObject",
-    "url": {{ printf "https://freestackfinder.com%s" . | jsonify }},
+    "url": {{ printf "https://freestackfinder.com%s" . | jsonify | safeJS }},
     "width": 1200,
     "height": 630
   }{{ end }}
@@ -46,49 +46,18 @@
     {
       "@type": "ListItem",
       "position": 2,
-      "name": {{ . | jsonify }},
-      "item": {{ printf "https://freestackfinder.com/%s/" (. | urlize) | jsonify }}
+      "name": {{ . | jsonify | safeJS }},
+      "item": {{ printf "https://freestackfinder.com/%s/" (. | urlize) | jsonify | safeJS }}
     }{{ end }}{{ end }},
     {
       "@type": "ListItem",
       "position": 3,
-      "name": {{ .Title | jsonify }},
-      "item": {{ .Permalink | jsonify }}
+      "name": {{ .Title | jsonify | safeJS }},
+      "item": {{ .Permalink | jsonify | safeJS }}
     }
   ]
 }
 </script>
-
-{{/* FAQ schema — auto-generated from H3 headings that follow a pattern */}}
-{{/* Extracts headings like "### 1. Tool Name — descriptor" as FAQs */}}
-{{ $content := .Content }}
-{{ $faqs := slice }}
-
-{{/* Build FAQ pairs from Quick verdict + comparison structure */}}
-{{ with .Description }}
-{{ $faqs = $faqs | append (dict "q" (printf "What is the best free alternative to %s?" ($.Title | replaceRE "Best Free (Alternatives to |)(.+) in 2026.*" "$2")) "a" .) }}
-{{ end }}
-
-{{ if gt (len $faqs) 0 }}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {{ range $i, $faq := $faqs }}{{ if $i }},{{ end }}
-    {
-      "@type": "Question",
-      "name": {{ $faq.q | jsonify }},
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": {{ $faq.a | jsonify }}
-      }
-    }
-    {{ end }}
-  ]
-}
-</script>
-{{ end }}
 
 {{ end }}
 
@@ -100,7 +69,7 @@
   "@type": "WebSite",
   "name": "Free Stack Finder",
   "url": "https://freestackfinder.com",
-  "description": {{ .Site.Params.description | jsonify }}
+  "description": {{ .Site.Params.description | jsonify | safeJS }}
 }
 </script>
 {{ end }}

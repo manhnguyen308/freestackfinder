@@ -2,7 +2,33 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-25  
-**Current day:** 47c
+**Current day:** 47d
+
+---
+
+### Day 47d — continued weekly code and AdSense-readiness review
+- Reviewed recent code, layout, search, shortcode, CSS, schema, discovery, utility-page, and monetized article surfaces after the Day 47c duplicate-table fix
+- Main issues found:
+  - Article JSON-LD string values rendered with embedded quote characters, weakening structured data quality
+  - Synthetic FAQPage schema rendered on all 33 articles even though the pages do not include matching visible FAQ sections
+  - `free-vpn` used overly broad risk wording in the meta description, quick verdict, and final verdict
+- Files changed:
+  - `layouts/partials/schema.html`
+  - `content/security/free-vpn.md`
+  - `freestackfinder-progress-log.md`
+- What was fixed:
+  - Added safe JSON-LD output handling for article, breadcrumb, image, and WebSite schema values
+  - Removed synthetic FAQPage schema from article pages
+  - Softened the `free-vpn` framing from blanket claims to more precise language about ads, data collection, trial-like limits, and provider business models
+- Validation checks performed:
+  - Hugo build passed with Hugo 0.128.0 extended — 308 pages, 9 paginator pages, no errors
+  - JSON-LD parses successfully across generated pages; 33 article schema blocks remain and FAQPage schema count is now 0
+  - Search index contains 33 articles and excludes utility/noindex pages
+  - Sitemap excludes utility/noindex pages
+  - Comparison shortcode YAML row keys match column keys across all shortcode tables
+  - Internal links and related-guide modules pass self-link and duplicate-link checks
+  - Affiliate CTA buttons retain `rel="sponsored noopener"` and `target="_blank"`; no affiliate image banners found
+- Follow-up issues left open: none from this pass
 
 ---
 
