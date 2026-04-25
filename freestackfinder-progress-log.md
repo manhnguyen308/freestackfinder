@@ -2,7 +2,28 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-25  
-**Current day:** 47b  
+**Current day:** 47c
+
+---
+
+### Day 47c — weekly audit and review pass
+- Reviewed recent feature systems: comparison table shortcode, verdict badge shortcode, related-guides partial, review/methodology block, homepage collections, freshness display, search index, footer trust CTAs, article/schema metadata, and recent CSS sections
+- Main issue found: 4 pages that already had the reusable comparison table shortcode still retained an older markdown "Quick comparison table" later in the article, creating duplicate comparison summaries for readers and extra table markup on mobile
+- Fixed duplicate table sections in:
+  - `content/productivity/microsoft-office-alternatives.md`
+  - `content/creative/canva-alternatives.md`
+  - `content/business/free-accounting-software.md`
+  - `content/security/free-vpn.md`
+- Updated `lastmod` to `"2026-04-25"` on the 4 corrected articles because rendered article content changed
+- Validation checks performed:
+  - Hugo build passed with Hugo 0.128.0 extended — 308 pages, 9 paginator pages, no errors
+  - Comparison shortcode YAML row keys match column keys across all 11 shortcode tables
+  - Internal links and feature images resolve against generated output
+  - Related-guide sidebar and bottom modules have no self-links or duplicate overlap
+  - Search index contains 33 articles and excludes utility/noindex pages
+  - Utility/noindex pages render `noindex, follow` and no article schema
+  - Affiliate CTA buttons retain `rel="sponsored noopener"` and `target="_blank"`
+- Follow-up issues left open: none from this pass
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Best Free Microsoft Office Alternatives in 2026 — Docs, Sheets, and Slides Compared"
 date: "2026-04-07"
-lastmod: "2026-04-24"
+lastmod: "2026-04-25"
 description: "Compare the best free Microsoft Office alternatives for documents, spreadsheets, and presentations, including Google Docs, LibreOffice, OnlyOffice, and WPS."
 categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
@@ -147,18 +147,6 @@ WPS Office is a popular Microsoft Office-compatible suite with a very polished i
 - Mobile apps included
 
 **Caveats:** Ads in the interface, privacy considerations, and occasional prompts to upgrade. Not our first recommendation for most users, but worth knowing about.
-
----
-
-## Quick comparison table
-
-| Suite | Platform | Best for | .docx compat | Collaboration | Price |
-|-------|----------|----------|--------------|---------------|-------|
-| Google Workspace | Web + mobile | Collaboration, everyday use | Good | Excellent | Free |
-| LibreOffice | Desktop (Win/Mac/Linux) | Power users, offline | Good | Limited | Free |
-| OnlyOffice Desktop | Desktop (Win/Mac/Linux) | .docx accuracy | Excellent | Moderate | Free |
-| WPS Office | Desktop + mobile | Office-like interface | Good | Moderate | Free (with ads) |
-| Microsoft 365 | Desktop + web | Professional, power users | Native | Good | $99.99/year |
 
 ## When Microsoft 365 is actually worth paying for
 
