@@ -2,7 +2,7 @@
 title: "Best Free Cloud Storage in 2026 - Ranked by Actual Free Space"
 description: "We refreshed this guide against current provider pages. Free storage still matters, but shared quotas, upload limits, transfer caps, and privacy tradeoffs matter just as much."
 date: "2026-03-16"
-lastmod: "2026-04-23"
+lastmod: "2026-04-25"
 draft: false
 slug: "free-cloud-storage-comparison"
 categories: ["Cloud"]
@@ -26,6 +26,43 @@ If you want the most free space, one answer wins. If you want the best daily wor
 If your goal is simple capacity, **MEGA** still offers the biggest mainstream free allowance at **20GB**. If your goal is practical day-to-day use, **Google Drive** is still the most useful free option because the storage comes with Docs, Sheets, Slides, and strong sharing. If privacy matters more than size, **Proton Drive** is now much more competitive than older reviews suggest because its free tier sits at **5GB**, not the old 1GB figure many articles still repeat.
 
 The weakest free value here is **Dropbox**. It is still polished, but at **2GB** and a **30-day** free version-history window, it is hard to recommend as your main free storage account unless you already depend on the Dropbox ecosystem.
+
+{{< comparison-table >}}
+columns:
+  - {key: tool, label: Service}
+  - {key: free_storage, label: Free storage}
+  - {key: best_for, label: Best for}
+  - {key: limit, label: Main limitation}
+rows:
+  - tool: MEGA
+    free_storage: 20GB
+    best_for: Maximum free storage capacity
+    limit: Transfer limits restrict heavy use
+  - tool: Google Drive
+    free_storage: 15GB shared
+    best_for: Everyday work and collaboration
+    limit: Shared across Drive, Gmail, and Photos
+  - tool: Box
+    free_storage: 10GB
+    best_for: Controlled file sharing with link permissions
+    limit: 250MB upload limit per file
+  - tool: OneDrive
+    free_storage: 5GB
+    best_for: Windows users and Office web apps
+    limit: Small allowance; convenience over capacity
+  - tool: Proton Drive
+    free_storage: 5GB
+    best_for: Privacy-first personal storage
+    limit: Not the strongest collaboration hub
+  - tool: iCloud
+    free_storage: 5GB
+    best_for: Apple device backup and sync
+    limit: Fills quickly; Apple-ecosystem only
+  - tool: Dropbox
+    free_storage: 2GB
+    best_for: Existing Dropbox users only
+    limit: Weakest free allowance in this guide
+{{< /comparison-table >}}
 
 ---
 
@@ -206,20 +243,6 @@ That is why this ranking starts with free space but breaks ties using practical 
 If you like Dropbox's workflow but not its free limits, see our full guide to [Dropbox alternatives](/cloud/dropbox-alternatives/).
 
 [Try Dropbox free ->](https://www.dropbox.com/en_GB/basic)
-
----
-
-## Quick comparison table
-
-| Service | Free storage | Best for | Biggest catch |
-|---------|--------------|----------|---------------|
-| MEGA | 20GB | Maximum free storage | Transfer limits and weaker collaboration |
-| Google Drive | 15GB shared | Everyday work and collaboration | Shared across Drive, Gmail, and Photos |
-| Box | 10GB | Controlled file sharing | 250MB upload limit |
-| OneDrive | 5GB | Windows and Office web users | Small free allowance |
-| Proton Drive | 5GB | Private personal storage | Not the best collaboration hub |
-| iCloud | 5GB | Apple backup and sync | Fills quickly and stays Apple-centric |
-| Dropbox | 2GB | Existing Dropbox users | Weakest free value of the group |
 
 ---
 

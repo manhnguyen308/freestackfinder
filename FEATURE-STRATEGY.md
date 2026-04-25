@@ -66,9 +66,9 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 
 These items extend components already built. They require no new architecture, only rollout to additional articles.
 
-**1.1 Expand comparison tables to more high-intent articles**
+**1.1 Expand comparison tables to more high-intent articles** ✓ Done Day 47b
 
-The `comparison-table` shortcode exists. Many high-intent articles are missing a top-of-page summary table. This is the single highest-value near-term feature. See [Suggested Next Feature](#suggested-next-feature) for target pages.
+The `comparison-table` shortcode is now deployed on 11 articles. All 7 recommended target pages received tables on Day 47b: `free-crm-software`, `free-invoicing-software`, `free-project-management-software`, `free-cloud-storage-comparison`, `free-video-editing-software`, `photoshop-alternatives`, `free-password-managers`. Tables sit immediately after the Quick verdict section on each page.
 
 **1.2 Expand verdict badges to more comparison pages**
 
@@ -177,29 +177,29 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Expand comparison tables to more high-intent pages**
+**Expand verdict badges to more comparison pages**
 
-The `comparison-table` shortcode is already built, tested, and deployed on 4 articles. The content strategy calls for comparison tables on all high-intent articles. Missing tables on key pages reduce scannability and trust.
+The `verdict.html` shortcode is already deployed on 4 articles (`free-accounting-software`, `free-vpn`, `microsoft-office-alternatives`, `canva-alternatives`). Rolling badges out to the remaining high-traffic pages requires only content review to determine defensible, non-overclaiming badge labels.
 
 Why to do this next:
 - The component exists — no new architecture required.
-- Adding a table to an article takes 15–30 minutes of editorial work per page.
-- A comparison table near the top of an article is a direct trust and scannability signal for readers and search engines.
-- Low risk: extends an existing component rather than introducing a new system.
+- Badges are per-tool editorial labels (Best overall, Best for X) that strengthen scannability and signal editorial confidence.
+- Low risk: the component is proven and CSS is already in place.
+- Consistent with Phase 1 principle: extend existing systems before building new ones.
 
 Target pages (in priority order):
 
-| Slug | Silo | Table columns recommended |
-|------|------|--------------------------|
-| `free-crm-software` | Business | Tool · Best for · Free plan · Main limitation |
-| `free-invoicing-software` | Business | Tool · Best for · Free plan · Main limitation |
-| `free-project-management-software` | Business | Tool · Best for · Free plan · Main limitation |
-| `free-cloud-storage-comparison` | Cloud | Tool · Free storage · Best for · Main limitation |
-| `free-video-editing-software` | Video | Tool · Best for · Free plan · Main limitation |
-| `photoshop-alternatives` | Creative | Tool · Best for · Free plan · Main limitation |
-| `free-password-managers` | Security | Tool · Best for · Free plan · Main limitation |
+| Slug | Silo | Sample badges |
+|------|------|---------------|
+| `free-password-managers` | Security | Best overall · Best for zero-cloud privacy · Best for Proton users |
+| `free-project-management-software` | Business | Best overall · Best for structured teams · Best all-in-one free tier |
+| `free-crm-software` | Business | Best overall · Best for visual pipeline · Best for broad ops |
+| `free-invoicing-software` | Business | Best overall · Best for project billing · Best for client portal |
+| `free-cloud-storage-comparison` | Cloud | Best for max storage · Best for daily use · Best for privacy |
+| `free-video-editing-software` | Video | Best for depth · Best for social content · Best for beginners |
+| `photoshop-alternatives` | Creative | Best overall · Best desktop option · Best for illustration |
 
-Work through these one article at a time during a focused daily run. Verify Hugo build after each batch. Update the tracker entry for each article changed.
+Review each article's actual recommendations before committing to badge text. Labels must be defensible and match the article verdict — no overclaiming.
 
 ---
 

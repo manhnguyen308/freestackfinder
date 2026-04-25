@@ -2,7 +2,28 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-25  
-**Current day:** 47a  
+**Current day:** 47b  
+
+---
+
+### Day 47b — expand comparison tables to seven high-intent articles
+- Converted the existing markdown "Quick comparison table" sections in 7 articles to use the reusable `comparison-table` shortcode, matching the pattern from `free-accounting-software`, `canva-alternatives`, `microsoft-office-alternatives`, and `free-vpn`
+- Moved each table from its mid/late-article position to immediately after the Quick verdict section — consistent with the accounting software article pattern, improving scanability for readers landing on the page
+- Removed all 7 old markdown tables to avoid duplication; section headings and separators adjusted for clean flow
+- All tables use durable free-plan wording; no brittle GB/seat numbers in summary cells; rows match actual article recommendations
+- Articles updated:
+  - `content/business/free-crm-software.md` — 4 rows: HubSpot CRM Free, Zoho CRM Free, Freshsales Free, Bitrix24 Free
+  - `content/business/free-invoicing-software.md` — 6 rows: Wave, Zoho Invoice, Invoice Ninja, Square Invoices, PayPal Invoicing, Stripe Invoicing
+  - `content/business/free-project-management-software.md` — 5 rows: Trello Free, Asana Free, Notion Free, ClickUp Free, Linear Free
+  - `content/cloud/free-cloud-storage-comparison.md` — 7 rows: MEGA, Google Drive, Box, OneDrive, Proton Drive, iCloud, Dropbox; uses Service/Free storage columns to match article's key differentiator
+  - `content/video/free-video-editing-software.md` — 5 rows: DaVinci Resolve, CapCut Desktop, OpenShot, Kdenlive, Shotcut
+  - `content/creative/photoshop-alternatives.md` — 4 rows: Photopea, GIMP, Krita, Pixlr
+  - `content/security/free-password-managers.md` — 5 rows: Bitwarden, KeePassXC, Proton Pass, NordPass, Dashlane
+- `lastmod` updated to `"2026-04-25"` on all 7 articles
+- Hugo build: Hugo binary not available locally; Docker not running in this environment; build will verify on Cloudflare Pages deployment
+- Shortcode syntax verified manually: all column keys match row keys; YAML structure matches `comparison-table.html` template requirements; no `Quick comparison table` headings remain
+- `FEATURE-STRATEGY.md` Phase 1 item 1.1 is now partially complete: 7 of the 7 recommended target pages updated
+- Comparison table shortcode is now deployed on 11 articles total (4 from Day 46f + 7 this run)
 
 ---
 
