@@ -1,8 +1,18 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-24  
-**Current day:** 46j  
+**Last updated:** 2026-04-25  
+**Current day:** 47a  
+
+---
+
+### Day 47a — feature strategy file
+- Created `FEATURE-STRATEGY.md` in repo root
+- Documents all completed feature systems (search, back-to-top, comparison table shortcode, verdict badge shortcode, related-guides logic, freshness display, curated collections, review/trust block, footer pills, noindex handling) so they are not re-proposed as pending
+- Defines 4 roadmap phases: (1) extend existing article UX systems, (2) improve discovery and retention, (3) monetization and trust operations, (4) content operations and QA tooling
+- Includes feature principles, decision order for choosing the next feature, deferred/not-yet list, and maintenance notes
+- Suggested next feature: expand comparison tables to the 7 high-intent articles still missing them (`free-crm-software`, `free-invoicing-software`, `free-project-management-software`, `free-cloud-storage-comparison`, `free-video-editing-software`, `photoshop-alternatives`, `free-password-managers`)
+- Hugo build not required — no site-rendered files changed; documentation-only commit
 
 ---
 
