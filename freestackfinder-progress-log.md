@@ -2,7 +2,24 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-25  
-**Current day:** 48a
+**Current day:** 48b
+
+---
+
+### Day 48b — publish free-resume-builders
+- Published new Business article: Best Free Resume Builders in 2026
+- Article covers Canva, Google Docs, Indeed Resume Builder, Resume.com — with honest notes on Zety, Novoresume, and Kickresume free-tier limits
+- Comparison table shortcode at top; verdict badge shortcode on two tools
+- ATS vs design trade-off clearly explained throughout
+- Feature image generated: `static/img/free-resume-builders.webp` (29 KB)
+- Image script created: `scripts/images/generate_free_resume_builders.py`
+- Related-guides map updated with `free-resume-builders` entry linking to invoicing, CRM, grammarly-alternatives, spreadsheet, and office alternatives
+- Internal link added to one older article:
+  - `content/productivity/grammarly-alternatives.md` — closing paragraph links to resume builders guide (natural fit: article already mentions job applicants polishing cover letters)
+- `CONTENT-STRATEGY.md` updated: `free-resume-builders` marked Published
+- Total published articles: 35 (Business now at 8/13)
+- Hugo not available locally; build will verify on Cloudflare Pages deployment
+- Manual checks passed: front matter valid, image path resolves, shortcode syntax correct, related-guides map has no self-link, internal links resolve to correct slugs
 
 ---
 
