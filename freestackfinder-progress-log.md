@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-04-26
-**Current day:** 48i
+**Current day:** 48j
 
 ## Current state
 
@@ -10,8 +10,20 @@
 - Silos: Productivity 9/9 ✓ · Creative 6/8 · Business 10/13 · Security 4/6 · Cloud 4/7 · Video 4/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
-- Next content: Business silo — `free-web-analytics`, `free-hr-software`, or `free-website-builders` (Later priority)
-- Next feature: Phase 2.3 — category hub top-picks upgrade (see `FEATURE-STRATEGY.md`)
+- Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
+- Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 48j — category hub top-picks upgrade
+- Added "Where to start" box to all 6 silo hub pages: Productivity, Business, Creative, Security, Cloud, Video
+- Each box shows 4 curated links with a one-line decision guide explaining who each article is for
+- Links use existing published articles only; no invented or broken links
+- Template unchanged — content renders via existing `category-intro` div in `layouts/_default/list.html`
+- CSS: added `.hub-top-picks` and related rules to `static/css/style.css` (no new layout system)
+- No new article published; article count unchanged at 37
+- Hugo build passed — 347 pages, no errors
+- `FEATURE-STRATEGY.md` updated: Phase 2.3 marked complete (Day 48j); next suggestion updated to content publishing
 
 ---
 

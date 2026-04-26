@@ -49,6 +49,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Verdict badge rollout — extended | Day 48f | Badges deployed on 7 additional high-intent pages: free-password-managers, free-project-management-software, free-crm-software, free-invoicing-software, free-cloud-storage-comparison, free-video-editing-software, photoshop-alternatives; 3 defensible labels per page |
 | Search result card upgrade | Day 48g | Search index now includes `date` and `lastmod`; result cards show category pill, description, and freshness line ("Updated" in primary color when lastmod ≠ date, "Published" in muted when equal); vanilla JS only, no new dependencies |
 | Start Here guided entry page | Day 48i | `/start-here/` routes readers into 6 silo clusters via collection cards; "Start Here" nav link added; indexable Hugo content page using existing collection CSS |
+| Category hub top-picks upgrade | Day 48j | All 6 silo `_index.md` pages now show a "Where to start" box with 4 curated links each; `.hub-top-picks` CSS added; no template changes |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -95,9 +96,9 @@ Search index updated to include `date` and `lastmod` fields. Result cards now sh
 
 `/start-here/` page live. Routes readers by use case across all 6 silos: freelancer/solo → Business cluster; replacing Office → Productivity cluster; safer accounts → Security cluster; creative/design → Creative cluster; storage/backup → Cloud cluster; video/media → Video cluster. Six collection cards with 4 curated links each. "Start Here" nav link added at weight 0. Implemented as a standard indexable Hugo content page using existing `.collection-card` CSS — no new layout or shortcode required.
 
-**2.3 Improve category hub pages with top picks and starter paths**
+**2.3 Improve category hub pages with top picks and starter paths** ✓ Done Day 48j
 
-Each silo `_index.md` currently has a short description. Upgrading these pages to show top 3 recommended articles and a decision-entry line ("If you just need X, start with Y") would improve category-level engagement. Requires edits to `layouts/_default/list.html` and the `_index.md` files — no new shortcodes.
+All six silo `_index.md` files updated. Each hub now shows a "Where to start" box with 4 curated links and a one-line decision guide per link. No list template changes — content renders via existing `category-intro` div. Two CSS rules added for `.hub-top-picks` styling. Article lists and pagination unchanged.
 
 ---
 
@@ -169,15 +170,17 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Improve category hub pages with top picks and starter paths (Phase 2.3)**
+**Publish the next Business silo article (content, not feature work)**
 
-Each silo `_index.md` currently shows a short description and a paginated list of articles. Upgrading these pages to surface the top 3 recommended articles and a decision-entry line ("If you just need X, start with Y") would improve category-level engagement for readers landing on silo URLs from search.
+Phase 2 discovery and retention features are now complete. The site has 37 articles; the Business silo is at 10/13 and has three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
 
 Why to do this next:
-- Phase 2.1 (search cards) and Phase 2.2 (Start Here page) are complete.
-- Category hub pages are already indexed and receiving impressions; improving them compounds existing traffic.
-- Implementation: edits to `layouts/_default/list.html` and the 6 silo `_index.md` files — no new shortcodes or dependencies required.
-- Scope: add a curated "Start with these" block above the paginated list on each silo page; keep the existing list unchanged.
+- All Phase 1 and Phase 2 features are complete.
+- Content compounds faster than features at current traffic levels.
+- Business silo has the clearest path to affiliate monetization (CRM, invoicing, accounting already covered).
+- The next strongest article is likely `free-website-builders` — high search volume, clear free-vs-paid comparison, fits the site's existing comparison format.
+
+If feature work is preferred over content, consider Phase 3.1 (affiliate opportunity tracker) or Phase 4.1 (front matter validator script) as low-risk next steps.
 
 ---
 
