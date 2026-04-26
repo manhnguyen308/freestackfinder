@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-04-26
-**Current day:** 48h
+**Current day:** 48i
 
 ## Current state
 
@@ -11,7 +11,20 @@
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-web-analytics`, `free-hr-software`, or `free-website-builders` (Later priority)
-- Next feature: Phase 2.2 — Start Here / guided entry page (see `FEATURE-STRATEGY.md`)
+- Next feature: Phase 2.3 — category hub top-picks upgrade (see `FEATURE-STRATEGY.md`)
+
+---
+
+### Day 48i — add Start Here guided entry page
+- Created `content/start-here.md`: indexable static page at `/start-here/`
+- Six reader-path cards covering all silos: freelancer/solo → Business; replacing Office → Productivity; safer accounts → Security; creative tools → Creative; storage/backup → Cloud; video/media → Video
+- Each card contains 4 curated links to existing high-value articles (24 internal links total)
+- Footer note links to `/search/` and all 6 silo category pages
+- "Start Here" nav link added to `config.toml` (weight 0, appears first)
+- Two CSS rules added to `static/css/style.css` (`.start-here-paths`, `.start-here-footer`) for grid spacing; no new layout or shortcode required
+- No new article published; article count unchanged at 37
+- Hugo build passed — 347 pages, no errors
+- `FEATURE-STRATEGY.md` updated: Phase 2.2 marked complete (Day 48i); Phase 2.3 category hub upgrade set as next suggested feature
 
 ---
 

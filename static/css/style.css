@@ -1418,7 +1418,12 @@ mark {
   .collection-card { padding: 18px 18px 12px; }
 }
 
-/* 31. Comparison table (shortcode)
+/* 31. Start Here page
+   =========================================== */
+.start-here-paths { padding: 8px 0 52px; }
+.start-here-footer { padding-top: 0; }
+
+/* 32. Comparison table (shortcode)
    =========================================== */
 .compare-table-wrap {
   margin: 0 0 32px;

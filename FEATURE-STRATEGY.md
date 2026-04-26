@@ -48,6 +48,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Verdict badge shortcode | Day 46i | Small all-caps pill via `verdict.html` shortcode; deployed on 4 comparison pages |
 | Verdict badge rollout — extended | Day 48f | Badges deployed on 7 additional high-intent pages: free-password-managers, free-project-management-software, free-crm-software, free-invoicing-software, free-cloud-storage-comparison, free-video-editing-software, photoshop-alternatives; 3 defensible labels per page |
 | Search result card upgrade | Day 48g | Search index now includes `date` and `lastmod`; result cards show category pill, description, and freshness line ("Updated" in primary color when lastmod ≠ date, "Published" in muted when equal); vanilla JS only, no new dependencies |
+| Start Here guided entry page | Day 48i | `/start-here/` routes readers into 6 silo clusters via collection cards; "Start Here" nav link added; indexable Hugo content page using existing collection CSS |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -90,11 +91,9 @@ Defer until at least one article clearly needs it — likely worth building when
 
 Search index updated to include `date` and `lastmod` fields. Result cards now show: category pill (existing), title link (existing), description excerpt (existing), and a freshness line — "Updated [date]" in primary color when `lastmod ≠ date`, "Published [date]" in muted text otherwise. Changes to `layouts/index.json`, `static/js/search.js`, and `static/css/style.css` only.
 
-**2.2 Add a Start Here / guided entry page**
+**2.2 Add a Start Here / guided entry page** ✓ Done Day 48i
 
-A `/start-here/` page that routes readers by use case: "I'm a freelancer" → Business cluster; "I'm replacing Microsoft Office" → Productivity cluster; "I want better security" → Security cluster. Static Hugo content page with curated links. Low-effort, high-value for first-time visitors from SEO.
-
-Build after site reaches 40+ articles so there is enough content to surface meaningful paths.
+`/start-here/` page live. Routes readers by use case across all 6 silos: freelancer/solo → Business cluster; replacing Office → Productivity cluster; safer accounts → Security cluster; creative/design → Creative cluster; storage/backup → Cloud cluster; video/media → Video cluster. Six collection cards with 4 curated links each. "Start Here" nav link added at weight 0. Implemented as a standard indexable Hugo content page using existing `.collection-card` CSS — no new layout or shortcode required.
 
 **2.3 Improve category hub pages with top picks and starter paths**
 
@@ -170,17 +169,15 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Add a Start Here / guided entry page (Phase 2.2)**
+**Improve category hub pages with top picks and starter paths (Phase 2.3)**
 
-A `/start-here/` page that routes readers by use case: "I'm a freelancer" → Business cluster; "I'm replacing Microsoft Office" → Productivity cluster; "I want better security" → Security cluster. Static Hugo content page with curated links.
+Each silo `_index.md` currently shows a short description and a paginated list of articles. Upgrading these pages to surface the top 3 recommended articles and a decision-entry line ("If you just need X, start with Y") would improve category-level engagement for readers landing on silo URLs from search.
 
 Why to do this next:
-- Phase 1 rollouts (comparison tables, verdict badges) are complete.
-- Phase 2.1 search card upgrade is complete.
-- The site now has 37 articles across 6 silos — enough content to surface meaningful guided paths.
-- A `/start-here/` page captures first-time visitors from SEO and social and routes them into the right cluster.
-- Implementation: a standard Hugo content page with curated internal links — no new layout or shortcode required.
-- Build after the site reaches 40+ articles if more content depth per cluster is preferred first.
+- Phase 2.1 (search cards) and Phase 2.2 (Start Here page) are complete.
+- Category hub pages are already indexed and receiving impressions; improving them compounds existing traffic.
+- Implementation: edits to `layouts/_default/list.html` and the 6 silo `_index.md` files — no new shortcodes or dependencies required.
+- Scope: add a curated "Start with these" block above the paginated list on each silo page; keep the existing list unchanged.
 
 ---
 
