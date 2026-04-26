@@ -46,6 +46,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Curated related-guides logic | Day 46g | Slug-keyed curated map in `related-guides.html`; falls back to Hugo `.Related`; covers all 33 articles |
 | Freshness display on cards | Day 46h | `class="updated"` on `<time>` elements when `lastmod != date`; teal highlight distinguishes updated from published dates |
 | Verdict badge shortcode | Day 46i | Small all-caps pill via `verdict.html` shortcode; deployed on 4 comparison pages |
+| Verdict badge rollout — extended | Day 48f | Badges deployed on 7 additional high-intent pages: free-password-managers, free-project-management-software, free-crm-software, free-invoicing-software, free-cloud-storage-comparison, free-video-editing-software, photoshop-alternatives; 3 defensible labels per page |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -70,18 +71,9 @@ These items extend components already built. They require no new architecture, o
 
 The `comparison-table` shortcode is now deployed on 11 articles. All 7 recommended target pages received tables on Day 47b: `free-crm-software`, `free-invoicing-software`, `free-project-management-software`, `free-cloud-storage-comparison`, `free-video-editing-software`, `photoshop-alternatives`, `free-password-managers`. Tables sit immediately after the Quick verdict section on each page.
 
-**1.2 Expand verdict badges to more comparison pages**
+**1.2 Expand verdict badges to more comparison pages** ✓ Done Day 48f
 
-The `verdict.html` shortcode exists and is in use on 4 articles. Rolling it out to additional high-traffic pages requires only content review to determine defensible badge labels — no layout or CSS changes.
-
-Priority articles for verdict badge rollout:
-- `free-password-managers`
-- `free-project-management-software`
-- `free-crm-software`
-- `free-invoicing-software`
-- `free-cloud-storage-comparison`
-- `free-video-editing-software`
-- `photoshop-alternatives`
+The `verdict.html` shortcode is now deployed on 11 articles. All 7 recommended target pages received badges on Day 48f: `free-password-managers`, `free-project-management-software`, `free-crm-software`, `free-invoicing-software`, `free-cloud-storage-comparison`, `free-video-editing-software`, `photoshop-alternatives`. Each page has 3 defensible per-tool labels matching the article's existing verdicts.
 
 **1.3 Add sticky article table of contents for long guides**
 
@@ -177,29 +169,16 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Expand verdict badges to more comparison pages**
+**Upgrade search result cards with category, summary, and freshness**
 
-The `verdict.html` shortcode is already deployed on 4 articles (`free-accounting-software`, `free-vpn`, `microsoft-office-alternatives`, `canva-alternatives`). Rolling badges out to the remaining high-traffic pages requires only content review to determine defensible, non-overclaiming badge labels.
+Current search results show title and a plain text excerpt. Improved cards would show: article title, silo/category tag, description excerpt, and lastmod date. This requires updating `static/js/search.js` and search result CSS only — no Hugo output changes needed.
 
 Why to do this next:
-- The component exists — no new architecture required.
-- Badges are per-tool editorial labels (Best overall, Best for X) that strengthen scannability and signal editorial confidence.
-- Low risk: the component is proven and CSS is already in place.
-- Consistent with Phase 1 principle: extend existing systems before building new ones.
-
-Target pages (in priority order):
-
-| Slug | Silo | Sample badges |
-|------|------|---------------|
-| `free-password-managers` | Security | Best overall · Best for zero-cloud privacy · Best for Proton users |
-| `free-project-management-software` | Business | Best overall · Best for structured teams · Best all-in-one free tier |
-| `free-crm-software` | Business | Best overall · Best for visual pipeline · Best for broad ops |
-| `free-invoicing-software` | Business | Best overall · Best for project billing · Best for client portal |
-| `free-cloud-storage-comparison` | Cloud | Best for max storage · Best for daily use · Best for privacy |
-| `free-video-editing-software` | Video | Best for depth · Best for social content · Best for beginners |
-| `photoshop-alternatives` | Creative | Best overall · Best desktop option · Best for illustration |
-
-Review each article's actual recommendations before committing to badge text. Labels must be defensible and match the article verdict — no overclaiming.
+- Phase 1 rollout items (comparison tables, verdict badges) are now complete.
+- Search is already live and functional — this is an incremental improvement to an existing system.
+- Adding category tags and freshness dates to search results helps readers evaluate results faster, reducing bounce from search.
+- Low complexity: JavaScript and CSS changes only, no new Hugo partials or shortcodes required.
+- Consistent with Phase 2 goal: improve discovery and retention on pages that already have traffic.
 
 ---
 

@@ -75,6 +75,8 @@ The tools below map cleanly to those paths.
 
 ### 1. Photopea - best for Photoshop-style editing in a browser
 
+{{< verdict "Best overall" >}}
+
 **What it is:** A browser-based image editor built around a Photoshop-like workflow, with strong PSD compatibility and real layer-based editing.
 
 **What the free version includes:**
@@ -101,6 +103,8 @@ The tools below map cleanly to those paths.
 
 ### 2. GIMP - best free desktop alternative
 
+{{< verdict "Best desktop option" >}}
+
 **What it is:** A long-running open-source desktop editor for Windows, macOS, and Linux.
 
 **What the free version includes:**
@@ -126,6 +130,8 @@ The tools below map cleanly to those paths.
 ---
 
 ### 3. Krita - best for digital painting and illustration
+
+{{< verdict "Best for illustration" >}}
 
 **What it is:** A free desktop app built primarily for artists, illustrators, and painters rather than photo retouchers.
 

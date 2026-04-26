@@ -1,8 +1,20 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com  
-**Last updated:** 2026-04-25  
-**Current day:** 48e
+**Last updated:** 2026-04-26  
+**Current day:** 48f
+
+---
+
+### Day 48f — expand verdict badges to comparison pages
+- Rolled out `verdict.html` shortcode to all 7 remaining high-intent comparison pages
+- Pages updated: free-password-managers, free-project-management-software, free-crm-software, free-invoicing-software, free-cloud-storage-comparison, free-video-editing-software, photoshop-alternatives
+- 3 defensible per-tool labels per page; all labels match the existing article verdict and tool ordering
+- No article body content rewritten; badge insertions only
+- No new article published; article count unchanged at 37
+- `FEATURE-STRATEGY.md` updated: verdict badge rollout marked complete (Day 48f); next suggested feature updated to search card upgrade (Phase 2.1)
+- Hugo not available locally; build will verify on Cloudflare Pages deployment
+- Manual checks passed: shortcode syntax matches existing usage, no unsupported labels, no public text references internal workflow
 
 ---
 

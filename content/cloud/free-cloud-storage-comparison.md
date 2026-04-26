@@ -85,6 +85,8 @@ That is why this ranking starts with free space but breaks ties using practical 
 
 ### 1. MEGA - best for maximum free storage
 
+{{< verdict "Best for max storage" >}}
+
 **What it is:** A privacy-focused cloud storage service whose current marketing pages still advertise **20GB free** storage with encryption built into the product.
 
 **Free plan includes:**
@@ -107,6 +109,8 @@ That is why this ranking starts with free space but breaks ties using practical 
 ---
 
 ### 2. Google Drive - best for practical everyday use
+
+{{< verdict "Best for daily use" >}}
 
 **What it is:** Google's cloud storage tied to Gmail, Google Photos, and the free Docs/Sheets/Slides suite.
 
@@ -176,6 +180,8 @@ That is why this ranking starts with free space but breaks ties using practical 
 ---
 
 ### 5. Proton Drive - best for privacy-first personal storage
+
+{{< verdict "Best for privacy" >}}
 
 **What it is:** Proton's encrypted cloud storage service, now with a more credible free tier than many older reviews acknowledge.
 

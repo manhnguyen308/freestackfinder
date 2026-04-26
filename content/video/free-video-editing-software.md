@@ -71,6 +71,8 @@ Those are not the same requirement. A good guide should help you pick the right 
 
 ### 1. DaVinci Resolve - best for depth and professional growth
 
+{{< verdict "Best for depth" >}}
+
 **What it is:** Blackmagic Design's all-in-one editor for editing, color, audio, effects, and finishing.
 
 **What the free version includes:**
@@ -97,6 +99,8 @@ If you are specifically trying to replace Adobe's editor, see our full [Premiere
 
 ### 2. CapCut Desktop - best for short-form social content
 
+{{< verdict "Best for social content" >}}
+
 **What it is:** ByteDance's editor for short social video, templates, captions, and quick turnaround publishing.
 
 **What the free version includes:**
@@ -120,6 +124,8 @@ If you are specifically trying to replace Adobe's editor, see our full [Premiere
 ---
 
 ### 3. OpenShot - best for true beginners
+
+{{< verdict "Best for beginners" >}}
 
 **What it is:** A simple open-source editor for basic cuts, titles, music, and exports.
 

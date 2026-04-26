@@ -72,6 +72,8 @@ The deeper issue is that invoicing software companies design their pricing to ca
 
 ### 1. Wave — best overall free invoicing for freelancers
 
+{{< verdict "Best overall" >}}
+
 **What it is:** A free cloud-based accounting, invoicing, and payment platform built specifically for freelancers and solo business owners. Wave makes money from payment processing fees, not subscriptions.
 
 **Free plan includes:**
@@ -100,6 +102,8 @@ The deeper issue is that invoicing software companies design their pricing to ca
 
 ### 2. Zoho Invoice — best free invoicing with a client portal
 
+{{< verdict "Best for client portal" >}}
+
 **What it is:** Part of the Zoho ecosystem, Zoho Invoice is a dedicated invoicing tool (separate from the full Zoho Books accounting product) with a permanently free tier.
 
 **Free plan includes:**
@@ -127,6 +131,8 @@ The deeper issue is that invoicing software companies design their pricing to ca
 ---
 
 ### 3. Invoice Ninja — best free invoicing for project and time-based billing
+
+{{< verdict "Best for project billing" >}}
 
 **What it is:** An open-source invoicing platform with a free hosted tier (up to 20 clients) and a self-hosting option for unlimited use. Strong on project-based and time-tracked billing.
 

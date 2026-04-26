@@ -64,6 +64,8 @@ The good news is that the best free password managers in 2026 are genuinely exce
 
 ### 1. Bitwarden — best free password manager for most users
 
+{{< verdict "Best overall" >}}
+
 **What it is:** An open-source, end-to-end encrypted password manager with unlimited storage across unlimited devices on the free tier — and an independently audited security model.
 
 **Free plan includes:**
@@ -92,6 +94,8 @@ The good news is that the best free password managers in 2026 are genuinely exce
 
 ### 2. KeePassXC — best for users who want zero cloud dependency
 
+{{< verdict "Best for zero-cloud privacy" >}}
+
 **What it is:** A free, open-source, offline password manager that stores your vault as an encrypted database file on your own computer — with no cloud account required.
 
 **Free plan includes:**
@@ -118,6 +122,8 @@ The good news is that the best free password managers in 2026 are genuinely exce
 ---
 
 ### 3. Proton Pass free tier — best for users already in the Proton ecosystem
+
+{{< verdict "Best for Proton users" >}}
 
 **What it is:** Proton's password manager, built on the same privacy-first principles as ProtonMail and Proton Drive, with a generous free tier.
 

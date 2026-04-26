@@ -76,6 +76,8 @@ The tools below can handle that baseline. The real differences are how many peop
 
 ### 1. HubSpot CRM Free - best for solopreneurs and very small teams
 
+{{< verdict "Best overall" >}}
+
 **What it is:** A polished starter CRM with contact management, deal tracking, meeting scheduling, and basic sales tools inside the broader HubSpot ecosystem.
 
 **Current free plan includes:**
@@ -130,6 +132,8 @@ If invoicing is part of your client workflow, see our guide to [free invoicing s
 
 ### 3. Freshsales Free - best for a cleaner pipeline view
 
+{{< verdict "Best for visual pipeline" >}}
+
 **What it is:** Freshworks' CRM with a free plan aimed at small teams that want a more visual sales workflow.
 
 **Free plan includes:**
@@ -154,6 +158,8 @@ If invoicing is part of your client workflow, see our guide to [free invoicing s
 ---
 
 ### 4. Bitrix24 Free - best for larger free teams with broad needs
+
+{{< verdict "Best for broad ops" >}}
 
 **What it is:** An all-in-one business platform that includes CRM, task management, chat, and collaboration tools on a free plan with unlimited users.
 

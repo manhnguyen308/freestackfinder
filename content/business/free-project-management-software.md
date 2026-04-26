@@ -67,6 +67,8 @@ For free tools that complement project management — particularly for tracking 
 
 ### 1. Trello Free — best free project management tool for most teams
 
+{{< verdict "Best overall" >}}
+
 **What it is:** A Kanban-based project management tool owned by Atlassian, with a free tier that gives unlimited cards, 10 boards, and up to 10 collaborators per workspace.
 
 **Free plan includes:**
@@ -95,6 +97,8 @@ For free tools that complement project management — particularly for tracking 
 ---
 
 ### 2. Asana Free — best for teams with deadlines and dependencies
+
+{{< verdict "Best for structured teams" >}}
 
 **What it is:** A structured project management platform with a free tier supporting up to 15 team members, including list view, board view, and basic timeline access.
 
@@ -152,6 +156,8 @@ For free tools that complement project management — particularly for tracking 
 ---
 
 ### 4. ClickUp Free — most feature-complete free tier in this list
+
+{{< verdict "Best all-in-one free tier" >}}
 
 **What it is:** An all-in-one project management platform with the most generous free tier in terms of raw feature count — unlimited tasks, multiple views, basic time tracking, and whiteboards all on the free plan.
 
