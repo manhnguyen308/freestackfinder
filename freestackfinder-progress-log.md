@@ -2,7 +2,20 @@
 
 **Site:** freestackfinder.com  
 **Last updated:** 2026-04-26  
-**Current day:** 48f
+**Current day:** 48g
+
+---
+
+### Day 48g — upgrade search result cards
+- Search result cards now display: category pill (existing), title link (existing), description excerpt (existing), and a freshness date line
+- Freshness line shows "Updated [date]" in primary green when `lastmod ≠ date`; "Published [date]" in muted text when equal
+- `layouts/index.json` updated to include `date` and `lastmod` fields (ISO format) in the search index JSON
+- `static/js/search.js` updated: added `formatDate()` helper and date label generation in the render function
+- `static/css/style.css` updated: added `.search-result-date` and `.search-result-date--updated` rules
+- Category filtering and query highlighting remain unchanged
+- No new article published; article count unchanged at 37
+- Hugo not available locally; build will verify on Cloudflare Pages deployment
+- Manual checks: JS logic is correct, CSS classes match, index template syntax is valid, no new dependencies introduced
 
 ---
 

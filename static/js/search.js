@@ -12,12 +12,20 @@
   var allPages = [];
   var activeFilter = '';
 
+  var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
   function norm(s) {
     return (s || '').toLowerCase();
   }
 
   function escapeHtml(s) {
     return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function formatDate(iso) {
+    var parts = (iso || '').split('-');
+    if (parts.length !== 3) return '';
+    return MONTHS[parseInt(parts[1], 10) - 1] + ' ' + parseInt(parts[2], 10) + ', ' + parts[0];
   }
 
   function highlight(text, query) {
@@ -43,10 +51,15 @@
     }
     var count = '<p class="search-count">' + results.length + ' result' + (results.length !== 1 ? 's' : '') + '</p>';
     var items = results.map(function (p) {
+      var isUpdated = p.lastmod && p.date && p.lastmod !== p.date;
+      var dateLabel = isUpdated
+        ? '<span class="search-result-date search-result-date--updated">Updated ' + escapeHtml(formatDate(p.lastmod)) + '</span>'
+        : (p.date ? '<span class="search-result-date">Published ' + escapeHtml(formatDate(p.date)) + '</span>' : '');
       return '<li class="search-result-item">' +
         '<span class="search-result-cat">' + escapeHtml(p.category || p.section || '') + '</span>' +
         '<h3><a href="' + escapeHtml(p.url) + '">' + highlight(p.title, q) + '</a></h3>' +
-        '<p>' + highlight(p.description, q) + '</p>' +
+        '<p class="search-result-desc">' + highlight(p.description, q) + '</p>' +
+        dateLabel +
         '</li>';
     }).join('');
     resultsEl.innerHTML = count + '<ul class="search-results-list">' + items + '</ul>';

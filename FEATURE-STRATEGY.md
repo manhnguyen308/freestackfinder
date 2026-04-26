@@ -47,6 +47,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Freshness display on cards | Day 46h | `class="updated"` on `<time>` elements when `lastmod != date`; teal highlight distinguishes updated from published dates |
 | Verdict badge shortcode | Day 46i | Small all-caps pill via `verdict.html` shortcode; deployed on 4 comparison pages |
 | Verdict badge rollout — extended | Day 48f | Badges deployed on 7 additional high-intent pages: free-password-managers, free-project-management-software, free-crm-software, free-invoicing-software, free-cloud-storage-comparison, free-video-editing-software, photoshop-alternatives; 3 defensible labels per page |
+| Search result card upgrade | Day 48g | Search index now includes `date` and `lastmod`; result cards show category pill, description, and freshness line ("Updated" in primary color when lastmod ≠ date, "Published" in muted when equal); vanilla JS only, no new dependencies |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -85,9 +86,9 @@ Defer until at least one article clearly needs it — likely worth building when
 
 ## Phase 2 — Improve Discovery and Retention
 
-**2.1 Upgrade search result cards with category, summary, and freshness**
+**2.1 Upgrade search result cards with category, summary, and freshness** ✓ Done Day 48g
 
-Current search results show title and a plain text excerpt. Improved cards would show: article title, silo/category tag, description excerpt, and lastmod date. This requires updating `static/js/search.js` and search result CSS only — no Hugo output changes.
+Search index updated to include `date` and `lastmod` fields. Result cards now show: category pill (existing), title link (existing), description excerpt (existing), and a freshness line — "Updated [date]" in primary color when `lastmod ≠ date`, "Published [date]" in muted text otherwise. Changes to `layouts/index.json`, `static/js/search.js`, and `static/css/style.css` only.
 
 **2.2 Add a Start Here / guided entry page**
 
@@ -169,16 +170,17 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Upgrade search result cards with category, summary, and freshness**
+**Add a Start Here / guided entry page (Phase 2.2)**
 
-Current search results show title and a plain text excerpt. Improved cards would show: article title, silo/category tag, description excerpt, and lastmod date. This requires updating `static/js/search.js` and search result CSS only — no Hugo output changes needed.
+A `/start-here/` page that routes readers by use case: "I'm a freelancer" → Business cluster; "I'm replacing Microsoft Office" → Productivity cluster; "I want better security" → Security cluster. Static Hugo content page with curated links.
 
 Why to do this next:
-- Phase 1 rollout items (comparison tables, verdict badges) are now complete.
-- Search is already live and functional — this is an incremental improvement to an existing system.
-- Adding category tags and freshness dates to search results helps readers evaluate results faster, reducing bounce from search.
-- Low complexity: JavaScript and CSS changes only, no new Hugo partials or shortcodes required.
-- Consistent with Phase 2 goal: improve discovery and retention on pages that already have traffic.
+- Phase 1 rollouts (comparison tables, verdict badges) are complete.
+- Phase 2.1 search card upgrade is complete.
+- The site now has 37 articles across 6 silos — enough content to surface meaningful guided paths.
+- A `/start-here/` page captures first-time visitors from SEO and social and routes them into the right cluster.
+- Implementation: a standard Hugo content page with curated internal links — no new layout or shortcode required.
+- Build after the site reaches 40+ articles if more content depth per cluster is preferred first.
 
 ---
 
