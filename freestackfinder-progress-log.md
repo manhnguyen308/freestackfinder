@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-04-26
-**Current day:** 48k
+**Current day:** 48l
 
 ## Current state
 
@@ -12,6 +12,18 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 48l — front matter validator script
+
+- Created `scripts/validate_front_matter.py`: scans all 37 silo articles for 9 categories of front matter issues — missing required fields, banned keys (`featured`, `faqs`), future dates, bare unquoted dates, image path format, image file existence in `static/img/`, empty/overlong descriptions, duplicate slugs, accidental `noindex` on silo articles
+- Run: `python3 scripts/validate_front_matter.py` — exits 1 on errors, 0 on warnings-only or clean
+- First run result: 2 errors (missing `slug` on `photoshop-alternatives` and `microsoft-office-alternatives`) — both fixed; 18 description-length warnings remain as informational backlog (not blocking)
+- Final run: 0 errors · 18 warnings · PASSED with warnings
+- No new article published; article count unchanged at 37
+- No public page, template, CSS, JS, or image changed
+- `FEATURE-STRATEGY.md` updated: Phase 4.1 marked complete (Day 48l); row added to Completed Feature Systems; Suggested Next Feature updated
 
 ---
 

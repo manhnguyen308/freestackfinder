@@ -51,6 +51,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Start Here guided entry page | Day 48i | `/start-here/` routes readers into 6 silo clusters via collection cards; "Start Here" nav link added; indexable Hugo content page using existing collection CSS |
 | Category hub top-picks upgrade | Day 48j | All 6 silo `_index.md` pages now show a "Where to start" box with 4 curated links each; `.hub-top-picks` CSS added; no template changes |
 | Internal affiliate opportunity tracker | Day 48k | `docs/AFFILIATE-TRACKER.md` lists all 37 articles with program candidate, CTA placed status, verification status, priority, and notes; no public pages or CTAs added |
+| Front matter validator script | Day 48l | `scripts/validate_front_matter.py` scans all silo articles for 9 categories of front matter issues; exits non-zero on errors; first run found and fixed 2 missing slug fields |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -121,9 +122,9 @@ The footer currently links to `/contact/` which uses a direct email fallback. Wh
 
 ## Phase 4 — Content Operations and QA Tooling
 
-**4.1 Article front matter validator script**
+**4.1 Article front matter validator script** ✓ Done Day 48l
 
-A Python script that reads all article markdown files, parses front matter, and flags: missing required fields (title, description, date, slug, image, categories), future dates, bare unquoted dates, `featured:` or `faqs:` keys, `image` paths not matching a file in `static/img/`. Run manually before major publishing batches.
+`scripts/validate_front_matter.py` created. Checks all articles under `content/<silo>/`: missing required fields, banned keys (`featured`, `faqs`), future dates, bare unquoted dates, image path format, image file existence, empty/overlong descriptions, duplicate slugs, and accidental `noindex` on silo articles. Run with `python3 scripts/validate_front_matter.py`. On first run: fixed 2 articles missing `slug` field; 18 description-length warnings remain as informational backlog.
 
 **4.2 Internal link checker script**
 
@@ -173,18 +174,17 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 **Publish the next Business silo article (content, not feature work)**
 
-Phase 2 and Phase 3.1 are now complete. The site has 37 articles; the Business silo is at 10/13 and has three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
+Phase 2, Phase 3.1, and Phase 4.1 are now complete. The site has 37 articles; the Business silo is at 10/13 with three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
 
 Why to do this next:
 - All Phase 1 and Phase 2 features are complete.
-- Phase 3.1 affiliate tracker is now in place to guide monetization as content grows.
+- Phase 3.1 affiliate tracker is in place; Phase 4.1 validator can gate future publishing batches.
 - Content compounds faster than features at current traffic levels.
-- The next strongest article is likely `free-website-builders` — high search volume, clear free-vs-paid comparison, fits the site's existing comparison format.
+- The next strongest article is likely `free-website-builders` — high search volume, clear free-vs-paid comparison, fits the site's existing format.
 
-If feature work is preferred over content, the next candidates are:
-- **Phase 3: Verification pass** — use `docs/AFFILIATE-TRACKER.md` to verify which High-priority articles already have CTAs placed, then add any missing ones.
-- **Phase 4.1 Article front matter validator script** — Python script to flag missing fields, future dates, and banned keys across all articles.
-- **Phase 4.2 Internal link checker script** — Python script to verify all internal `[text](/path/)` links resolve to published articles.
+If feature work is preferred over content, the next candidates in priority order:
+- **Phase 3: Affiliate verification pass** — use `docs/AFFILIATE-TRACKER.md` to confirm which High-priority articles already have CTAs, then add any missing ones.
+- **Phase 4.2 Internal link checker script** — Python script to verify all internal `[text](/path/)` links resolve to published articles; run after publishing batches.
 
 ---
 

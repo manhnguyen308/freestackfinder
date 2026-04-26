@@ -3,6 +3,7 @@ title: "Best Free Microsoft Office Alternatives in 2026 — Docs, Sheets, and Sl
 date: "2026-04-07"
 lastmod: "2026-04-25"
 description: "Compare the best free Microsoft Office alternatives for documents, spreadsheets, and presentations, including Google Docs, LibreOffice, OnlyOffice, and WPS."
+slug: "microsoft-office-alternatives"
 categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
 keywords:

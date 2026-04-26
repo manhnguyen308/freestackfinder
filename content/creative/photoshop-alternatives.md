@@ -3,6 +3,7 @@ title: "Best Free Alternatives to Adobe Photoshop (2026) - Tested and Ranked"
 date: "2025-01-15"
 lastmod: "2026-04-25"
 description: "We retested the strongest free Photoshop alternatives and cut the vague filler. These are the tools that actually make sense for PSD work, desktop editing, illustration, and quick browser-based photo fixes."
+slug: "photoshop-alternatives"
 categories: ["Creative"]
 tags: ["photoshop alternatives", "free photo editor", "GIMP", "Photopea"]
 keywords: ["free photoshop alternative", "free photo editing software", "best free image editor"]
