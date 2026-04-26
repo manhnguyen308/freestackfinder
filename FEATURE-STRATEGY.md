@@ -50,6 +50,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Search result card upgrade | Day 48g | Search index now includes `date` and `lastmod`; result cards show category pill, description, and freshness line ("Updated" in primary color when lastmod ≠ date, "Published" in muted when equal); vanilla JS only, no new dependencies |
 | Start Here guided entry page | Day 48i | `/start-here/` routes readers into 6 silo clusters via collection cards; "Start Here" nav link added; indexable Hugo content page using existing collection CSS |
 | Category hub top-picks upgrade | Day 48j | All 6 silo `_index.md` pages now show a "Where to start" box with 4 curated links each; `.hub-top-picks` CSS added; no template changes |
+| Internal affiliate opportunity tracker | Day 48k | `docs/AFFILIATE-TRACKER.md` lists all 37 articles with program candidate, CTA placed status, verification status, priority, and notes; no public pages or CTAs added |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -104,9 +105,9 @@ All six silo `_index.md` files updated. Each hub now shows a "Where to start" bo
 
 ## Phase 3 — Monetization and Trust Operations
 
-**3.1 Create an internal affiliate opportunity tracker**
+**3.1 Create an internal affiliate opportunity tracker** ✓ Done Day 48k
 
-A simple table inside `freestackfinder-progress-log.md` or a dedicated `AFFILIATE-TRACKER.md` listing: each article, which affiliate program applies, whether a CTA is placed, and whether the link is verified. Currently this state lives in scattered tracker notes. Consolidating it helps identify monetization gaps without a full audit.
+`docs/AFFILIATE-TRACKER.md` created. Lists all 37 articles with: program candidate, CTA placed status, verification status, priority, and notes. Deferred rows clearly marked "Not suitable" or "Deferred". Safety rules and pending program actions included. No public pages or CTAs added.
 
 **3.2 Create a reusable affiliate CTA shortcode**
 
@@ -172,15 +173,18 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 **Publish the next Business silo article (content, not feature work)**
 
-Phase 2 discovery and retention features are now complete. The site has 37 articles; the Business silo is at 10/13 and has three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
+Phase 2 and Phase 3.1 are now complete. The site has 37 articles; the Business silo is at 10/13 and has three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
 
 Why to do this next:
 - All Phase 1 and Phase 2 features are complete.
+- Phase 3.1 affiliate tracker is now in place to guide monetization as content grows.
 - Content compounds faster than features at current traffic levels.
-- Business silo has the clearest path to affiliate monetization (CRM, invoicing, accounting already covered).
 - The next strongest article is likely `free-website-builders` — high search volume, clear free-vs-paid comparison, fits the site's existing comparison format.
 
-If feature work is preferred over content, consider Phase 3.1 (affiliate opportunity tracker) or Phase 4.1 (front matter validator script) as low-risk next steps.
+If feature work is preferred over content, the next candidates are:
+- **Phase 3: Verification pass** — use `docs/AFFILIATE-TRACKER.md` to verify which High-priority articles already have CTAs placed, then add any missing ones.
+- **Phase 4.1 Article front matter validator script** — Python script to flag missing fields, future dates, and banned keys across all articles.
+- **Phase 4.2 Internal link checker script** — Python script to verify all internal `[text](/path/)` links resolve to published articles.
 
 ---
 
