@@ -3,6 +3,19 @@
 ## Mission
 Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by making steady, production-ready progress every day.
 
+## When to read what
+
+| Task | Read |
+|------|------|
+| Every run | This file (`CLAUDE.md`) + `freestackfinder-progress-log.md` |
+| Article publishing | `CONTENT-STRATEGY.md` |
+| Feature work | `FEATURE-STRATEGY.md` |
+| Image generation | `docs/IMAGE-GUIDELINES.md` |
+| Affiliate / monetization | `docs/AFFILIATE-GUIDELINES.md` |
+| Build / deployment setup | `README.md` |
+
+Do not load every doc for every task. Load only what the current task requires.
+
 ## Daily workflow
 1. Read `CLAUDE.md`
 2. Read `freestackfinder-progress-log.md` or `TRACKER.md` if present
@@ -198,32 +211,7 @@ Use adblocker-safe text CTA blocks only:
 - Prefer monetization on high-intent pages first
 - Keep affiliate placement useful and natural, not spammy
 
-## Active affiliate programs
-- NordVPN: active
-- NordPass: active
-- Canva: active
-- Grammarly: active
-- Amazon Associates US: `freestackfi20-20`
-- Amazon Associates SG: `freestackfi20-22`
-- Zoho via CJ: pending / apply
-- HubSpot: deferred
-- Impact.com: reapply later
-
-## Amazon Associates placement rules
-Amazon affiliate links are a secondary monetization layer for hardware and accessory pages. Apply these rules for every Amazon placement:
-
-- Use Amazon links only when a specific product or product category genuinely helps the reader and fits the article intent
-- Prefer software affiliate links first on software-focused pages — do not add Amazon links to purely software comparison articles
-- Use Amazon links mainly on hardware-supporting pages:
-  - video gear (webcams, microphones, lighting, capture cards)
-  - security hardware (hardware security keys such as YubiKey)
-  - backup hardware (external SSDs, portable hard drives)
-  - other clearly relevant accessories where the article context makes hardware the next useful step
-- Keep placements minimal and editorial — 1–3 Amazon links per article maximum
-- Each placement must have a clear editorial reason: explain why the hardware helps before linking
-- If a specific product is not needed, a category-level Amazon search URL (`amazon.com/s?k=…&tag=…`) is acceptable instead of a product ASIN
-- Do not guess or invent product ASINs — use search URLs when product-level specificity is not required
-- Do not turn articles into shopping pages — the article's primary value must remain the software comparison
+For the active program list, Amazon placement rules, and per-cluster affiliate opportunities, see `docs/AFFILIATE-GUIDELINES.md`.
 
 ## Homepage and list sorting rules
 - Homepage “Featured comparisons”: sort by `weight` descending
@@ -238,104 +226,13 @@ Amazon affiliate links are a secondary monetization layer for hardware and acces
 5. `list.html` must not rely on default paginator sorting
 6. `index.html` latest section must not use unsorted `.Site.RegularPages`
 
-## Environment and dependency rule
-Before skipping any generator, build, or asset task due to a missing local dependency, first check whether the dependency can be installed in the current repo environment.
-
-For required tools such as Python or Pillow:
-- detect whether the tool is already available
-- if not available, try to install it using the safest normal method for the current environment
-- if Python is missing, install Python first if the environment allows it
-- if Pillow is missing, install Pillow after Python is available
-- after installation, continue the intended task instead of falling back to placeholders
-
-Only use placeholders, temporary stand-ins, or deferred asset generation if:
-- installation is blocked by permissions
-- installation is blocked by network or package manager restrictions
-- installation fails with a real error
-- the environment does not allow the install
-
-If blocked:
-- clearly report the exact failed install step
-- report the exact reason
-- then use the best temporary fallback only if necessary
-
-
-## Python executable paths
-When Python is needed for image generation or automation, use the full path below — the `python` and `python3` shell commands resolve to Microsoft Store stubs on this machine and do not work:
-
-```text
-/c/Users/vboxuser/AppData/Local/Programs/Python/Python312/python.exe
-```
-
-For feature image generation:
-- first try `python scripts/images/...`
-- if that fails with exit 49 (Microsoft Store stub), use the full path above
-- only report Python as unavailable after the full path also fails
-
-## Missing-tool behavior
-When a needed tool is missing:
-1. Check whether it is already installed
-2. Attempt installation if the environment allows it
-3. Continue the task after installation
-4. Only stop if installation fails or is blocked
-5. Never default to placeholders without first attempting installation when installation is feasible
-
 ## Feature image rules
-- Generate with Python + Pillow
-- If Python or Pillow is missing, attempt installation first before falling back
-- Size: 1200x630
-- Format: WebP
-- Use optimized WebP output for all newly generated feature images
-- Save generated images to `static/img/`
-- Use `.webp` filenames for generated feature images
-- Do not generate PNG feature images unless transparency is truly required
-- Avoid large JPEG/PNG feature images for article cards and homepage cards
-- Target feature image file size below 200 KB where practical without visible quality loss
-- Create and store image generator scripts inside a dedicated folder: `scripts/images/`
-- Do not create image generator scripts in the repo root
-- When fixing existing scripts, move them into `scripts/images/` and update any related references if needed
-- Ensure the article front matter `image` path matches the actual generated `.webp` file
-- Verify the feature image renders on the article card and the live article page after the fix
+For image generation rules, Python setup, visual style guide, SEO rules, and script conventions, see `docs/IMAGE-GUIDELINES.md`.
 
-## Feature image SEO rules
-- All generated feature images must be SEO-optimized
-- Use descriptive, lowercase, hyphenated filenames
-- Filename should match the article slug where practical
-- Prefer filenames like `free-time-tracking-software.webp`, not generic names like `image1.webp`
-- Article front matter `image` must point to the optimized WebP file
-- Image alt text should be derived from the article title or a clear descriptive phrase
-- Do not keyword-stuff filenames or alt text
-- Keep filenames short, readable, and relevant
-- Use 1200x630 dimensions for social sharing
-- Use optimized WebP format for performance
-- Target file size below 200 KB where practical without visible quality loss
-
-## Feature image execution rule
-For article feature images:
-- do not leave placeholder images just because Python is missing without first attempting installation
-- if Python is not installed, attempt to install Python
-- if Pillow is not installed, attempt to install Pillow
-- then run the generator script and produce the real image
-- verify the generated image exists in `static/img/`
-- verify the article front matter image path matches the generated file
-
-## Blocking-error rule
-Do not report "Python not installed" as a final blocker unless you have already attempted installation and the installation failed or was blocked by the environment.
-
-### Style
-- Background: `#101116`
-- Left panel: dark mock UI
-- Right panel: featured card + 2x2 comparison cards
-- Bottom bar: solid accent color, title in bold white
-- Cards use circle helper with tool initials
-
-### Accent colors by silo
-- Security: `#8b5cf6`
-- Business: `#10b981`
-- Cloud: `#3b82f6` or `#06b6d4`
-- Creative: `#f97316`
-- Video: `#ef4444`
-- Productivity: `#6366f1`
+Quick reference:
+- Tool: Python + Pillow; full path `/c/Users/vboxuser/AppData/Local/Programs/Python/Python312/python.exe`
+- Size: 1200×630 WebP, below 200 KB, saved to `static/img/`
+- Scripts in `scripts/images/`; never install placeholders without attempting install first
 
 ## Repo structure reference
 ```text
