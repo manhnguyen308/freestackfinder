@@ -52,6 +52,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Category hub top-picks upgrade | Day 48j | All 6 silo `_index.md` pages now show a "Where to start" box with 4 curated links each; `.hub-top-picks` CSS added; no template changes |
 | Internal affiliate opportunity tracker | Day 48k | `docs/AFFILIATE-TRACKER.md` lists all 37 articles with program candidate, CTA placed status, verification status, priority, and notes; no public pages or CTAs added |
 | Affiliate tracker verification pass | Day 49a | All 15 "Needs verification" rows resolved; 8 articles confirmed with live CTAs; 7 confirmed not placed; duplicate tracker row removed; next-action queue updated |
+| GSC search performance notes template | Day 49c | `docs/GSC-NOTES.md` created; snapshot history table, page opportunity table, action rules, monthly review checklist |
 | Front matter validator script | Day 48l | `scripts/validate_front_matter.py` scans all silo articles for 9 categories of front matter issues; exits non-zero on errors; first run found and fixed 2 missing slug fields |
 | Internal link checker script | Day 48m | `scripts/check_internal_links.py` builds a route map from all content files and validates all internal Markdown links; first run: 0 broken links across 44 files |
 | Feature image inventory checker | Day 48o | `scripts/check_feature_images.py` cross-checks article image: fields against static/img/; reports missing images as errors and unreferenced files as warnings; first run: 38/38 verified, 3 known orphans |
@@ -137,9 +138,9 @@ The footer currently links to `/contact/` which uses a direct email fallback. Wh
 
 `scripts/check_feature_images.py` created. Scans all silo articles for `image:` field; checks each referenced file exists in `static/img/`; flags non-WebP extensions as warnings; reports files in `static/img/` not referenced by any article as possible orphans (warnings, not errors). Run with `python3 scripts/check_feature_images.py`. First run: 38 articles checked · 38 images verified · 0 errors · 3 possible orphans (`default-article.jpg`, `nordpass-banner.png`, `nordvpn-banner.png`) — PASSED with warnings. Orphans left in place pending confirmation.
 
-**4.4 GSC notes template**
+**4.4 GSC notes template** ✓ Done Day 49c
 
-A lightweight Markdown table or section inside `freestackfinder-progress-log.md` for tracking GSC snapshots (date, impressions, clicks, avg position, CTR, notable query/page movements). Currently snapshots are logged inline in daily entries, which makes trend comparison difficult. Build when GSC data starts influencing content decisions regularly (likely month 4–6).
+`docs/GSC-NOTES.md` created. Contains: snapshot history table (date, clicks, impressions, CTR, avg position, notes); page opportunity table (page, query, impressions, clicks, CTR, avg position, issue, next action, priority); action rules for CTR issues, position 8–20 pages, newly published pages, and already-improving pages; monthly review checklist. Update cadence: weekly light check, monthly deeper review, after major content batches.
 
 ---
 
@@ -177,15 +178,15 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 **Publish the next Business silo article (content, not feature work)**
 
-Phase 2, Phase 3 verification, Phase 4.1, Phase 4.2, and Phase 4.3 are now complete. The full QA tooling suite is in place. The site has 38 articles; the Business silo is at 11/13 with two Later-priority articles remaining: `free-web-analytics` and `free-hr-software`.
+All planned Phase 1–4 features are now complete. The full QA and ops tooling suite is in place. The site has 38 articles; the Business silo is at 11/13 with two remaining articles: `free-web-analytics` and `free-hr-software`.
 
 Why to do this next:
-- All Phase 1, 2, planned Phase 4 QA tools, and the affiliate tracker verification pass are complete.
+- All Phase 1, 2, Phase 3 verification, Phase 4.1–4.4, and all planned ops passes are complete.
 - Content compounds faster than features at current traffic levels.
 - The next strongest article is `free-web-analytics` — relevant to all site operators, high search volume, fits the site's comparison format.
 
-If feature work is preferred over content, the next candidate:
-- **NordPass tracked URL follow-up** — `free-password-managers` currently uses a direct `nordpass.com` link; update to a tracked affiliate URL if one is available from the NordPass program dashboard. No other monetization work is queued.
+If feature work is preferred over content, the only remaining open item:
+- **NordPass tracked URL follow-up** — `free-password-managers` currently uses a direct `nordpass.com` link; update to a tracked affiliate URL if one becomes available from the NordPass program dashboard. No other monetization or feature work is queued.
 
 ---
 

@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-27 (Day 49b)
-**Current day:** 49b
+**Last updated:** 2026-04-27 (Day 49c)
+**Current day:** 49c
 
 ## Current state
 
@@ -12,6 +12,22 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 49c — GSC search performance notes template
+
+- Created `docs/GSC-NOTES.md`: lightweight internal file for tracking Google Search Console observations
+- Contains: snapshot history table (date, clicks, impressions, CTR, avg position, notes); page opportunity table (page, query/theme, impressions, clicks, CTR, avg position, issue, next action, priority); action rules for CTR issues, position 8–20 pages, newly published pages, and already-improving pages; monthly review checklist
+- Baseline snapshot from 2026-04-15 added: 5 clicks · 2,220 impressions · 0.2% CTR · avg position 54.4
+- Update cadence: weekly light check · monthly deeper review · after major content batches
+- No new article published; article count unchanged at 38
+- No public page, template, CSS, JS, image, or article body changed
+- No affiliate CTAs added; Canva and Grammarly remain deferred (not available for placement)
+- `FEATURE-STRATEGY.md` updated: Phase 4.4 marked complete (Day 49c); row added to Completed Feature Systems; Suggested Next Feature updated
+- Front matter: 0 errors · 18 warnings · PASSED
+- Internal links: 0 broken · PASSED
+- Feature images: 0 errors · 3 orphans · PASSED
 
 ---
 
