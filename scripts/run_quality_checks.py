@@ -5,12 +5,15 @@ Usage:
     python scripts/run_quality_checks.py
     python scripts/run_quality_checks.py --with-build
     python scripts/run_quality_checks.py --quiet
+    python scripts/run_quality_checks.py --with-counts
 
 Flags:
-    --with-build  Run Hugo build after QA checks (requires Hugo on PATH)
-    --quiet       Suppress child script stdout; only show headers and summary
+    --with-build   Run Hugo build after QA checks (requires Hugo on PATH)
+    --quiet        Suppress verbose child output; only show headers and summary
+    --with-counts  Print article count by silo report (informational only)
 
 Exit code is non-zero if any check or build fails.
+Article count mismatches do not affect exit code.
 Hugo build: run `hugo` from repo root. If Hugo is not on PATH, install it
 or run the build separately using the repo's documented build command.
 """
@@ -71,6 +74,7 @@ def main():
     parser = argparse.ArgumentParser(description="Run FreeStackFinder QA checks")
     parser.add_argument("--with-build", action="store_true", help="Run Hugo build after QA checks")
     parser.add_argument("--quiet", action="store_true", help="Suppress verbose child output")
+    parser.add_argument("--with-counts", action="store_true", help="Print article count by silo report")
     args = parser.parse_args()
 
     results = {}
@@ -82,6 +86,13 @@ def main():
     if args.with_build:
         code = run_hugo_build(args.quiet)
         results["Hugo build"] = code
+
+    if args.with_counts:
+        print(f"\n{'=' * 56}", flush=True)
+        print("  Article count by silo", flush=True)
+        print(f"{'=' * 56}", flush=True)
+        counts_path = os.path.join(REPO_ROOT, "scripts", "report_article_counts.py")
+        subprocess.run([sys.executable, counts_path], cwd=REPO_ROOT)
 
     passed = [k for k, v in results.items() if v == 0]
     failed = [k for k, v in results.items() if v != 0]

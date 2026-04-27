@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-27 (Day 49e)
-**Current day:** 49e
+**Last updated:** 2026-04-27 (Day 49f)
+**Current day:** 49f
 
 ## Current state
 
@@ -12,6 +12,18 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 49f — article count by silo report script
+
+- Created `scripts/report_article_counts.py`: scans content silo folders, excludes `_index.md` and utility/root pages, respects `draft: true`, prints count/target/remaining table; Python standard library only
+- Script output confirmed: Business 11/13 · Cloud 4/7 · Creative 6/8 · Productivity 9/9 ✓ · Security 4/6 · Video 4/7 · Total 38 — matches tracker
+- Updated `scripts/run_quality_checks.py`: added `--with-counts` flag that runs the report after QA checks (informational only; count mismatches do not affect exit code)
+- `FEATURE-STRATEGY.md` updated: Phase 9 article count item marked done (Day 49f); archive row added; Suggested Next Feature updated to `free-web-analytics`
+- No article published; article count unchanged at 38
+- No public page, template, CSS, JS, image, or article body changed
+- Canva and Grammarly remain under review / needs approval
 
 ---
 

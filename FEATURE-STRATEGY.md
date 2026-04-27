@@ -72,6 +72,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 | Affiliate tracker verification pass | Day 49a | Monetization | All 15 rows resolved; 8 confirmed placed; 7 confirmed not placed |
 | GSC search performance notes template | Day 49c | Documentation | `docs/GSC-NOTES.md` — snapshot table, opportunity table, action rules |
 | Validation runner script | Day 49e | QA | `scripts/run_quality_checks.py` — runs all 3 QA scripts in sequence; `--with-build` and `--quiet` flags |
+| Article count by silo report | Day 49f | QA | `scripts/report_article_counts.py` — count by silo, target comparison, draft exclusion; `--with-counts` flag added to runner |
 
 ---
 
@@ -152,7 +153,7 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 
 **Possible work:**
 - ~~Add a single validation runner script (`scripts/run_quality_checks.py`)~~ **Done — Day 49e** (`scripts/run_quality_checks.py`; `--with-build`, `--quiet` flags)
-- Add a small article-count-by-silo report output to the runner
+- ~~Add a small article-count-by-silo report output to the runner~~ **Done — Day 49f** (`scripts/report_article_counts.py`; `--with-counts` flag in runner)
 - Add a lightweight stale-content checker based on `lastmod` — flag articles not updated in 6+ months
 - Add orphan-image cleanup workflow: list candidates but do not delete automatically
 - Add optional pre-publish checklist command that prints the 5-step publish checklist from CLAUDE.md
@@ -196,7 +197,9 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Next publishing day: publish one Business silo article**
+**Next publishing day: publish `free-web-analytics` (Business silo — 2 remaining to 13/13)**
+
+Same-day option if no article: add lightweight stale-content checker (Phase 9) flagging articles with `lastmod` older than 6 months.
 
 All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 38 articles; the Business silo is at 11/13. Priority article is `free-web-analytics` — relevant to all site operators, high search volume, strong comparison format fit.
 
