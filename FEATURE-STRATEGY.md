@@ -52,6 +52,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Category hub top-picks upgrade | Day 48j | All 6 silo `_index.md` pages now show a "Where to start" box with 4 curated links each; `.hub-top-picks` CSS added; no template changes |
 | Internal affiliate opportunity tracker | Day 48k | `docs/AFFILIATE-TRACKER.md` lists all 37 articles with program candidate, CTA placed status, verification status, priority, and notes; no public pages or CTAs added |
 | Front matter validator script | Day 48l | `scripts/validate_front_matter.py` scans all silo articles for 9 categories of front matter issues; exits non-zero on errors; first run found and fixed 2 missing slug fields |
+| Internal link checker script | Day 48m | `scripts/check_internal_links.py` builds a route map from all content files and validates all internal Markdown links; first run: 0 broken links across 44 files |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -126,9 +127,9 @@ The footer currently links to `/contact/` which uses a direct email fallback. Wh
 
 `scripts/validate_front_matter.py` created. Checks all articles under `content/<silo>/`: missing required fields, banned keys (`featured`, `faqs`), future dates, bare unquoted dates, image path format, image file existence, empty/overlong descriptions, duplicate slugs, and accidental `noindex` on silo articles. Run with `python3 scripts/validate_front_matter.py`. On first run: fixed 2 articles missing `slug` field; 18 description-length warnings remain as informational backlog.
 
-**4.2 Internal link checker script**
+**4.2 Internal link checker script** ✓ Done Day 48m
 
-A Python script that scans all article markdown for `[text](/path/)` style links and confirms each internal target resolves to a published article. Flags broken or missing internal links. Run after publishing a batch of new articles or before a major link audit.
+`scripts/check_internal_links.py` created. Builds a route map from all content files (slug overrides respected, section indexes included). Scans all `.md` files under `content/` for `[text](/path/)` links; skips external, mailto, tel, and anchor-only links. Strips fragments before matching; normalizes trailing slash. Run with `python3 scripts/check_internal_links.py`. First run: 44 files · 53 known routes · 0 broken links — PASSED.
 
 **4.3 Feature image inventory checker script**
 
@@ -174,17 +175,17 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 **Publish the next Business silo article (content, not feature work)**
 
-Phase 2, Phase 3.1, and Phase 4.1 are now complete. The site has 37 articles; the Business silo is at 10/13 with three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
+Phase 2, Phase 3.1, Phase 4.1, and Phase 4.2 are now complete. The site has 37 articles; the Business silo is at 10/13 with three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
 
 Why to do this next:
 - All Phase 1 and Phase 2 features are complete.
-- Phase 3.1 affiliate tracker is in place; Phase 4.1 validator can gate future publishing batches.
+- QA tooling (validator + link checker) is now in place to gate future publishing batches.
 - Content compounds faster than features at current traffic levels.
 - The next strongest article is likely `free-website-builders` — high search volume, clear free-vs-paid comparison, fits the site's existing format.
 
 If feature work is preferred over content, the next candidates in priority order:
-- **Phase 3: Affiliate verification pass** — use `docs/AFFILIATE-TRACKER.md` to confirm which High-priority articles already have CTAs, then add any missing ones.
-- **Phase 4.2 Internal link checker script** — Python script to verify all internal `[text](/path/)` links resolve to published articles; run after publishing batches.
+- **Phase 3: Affiliate verification pass** — use `docs/AFFILIATE-TRACKER.md` to confirm which High-priority articles already have CTAs placed, then add any missing ones.
+- **Phase 4.3 Feature image inventory checker script** — Python script to cross-check `image:` fields against files in `static/img/`; flags missing images and orphaned files.
 
 ---
 

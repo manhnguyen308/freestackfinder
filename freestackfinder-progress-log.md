@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-26
-**Current day:** 48l
+**Last updated:** 2026-04-27
+**Current day:** 48m
 
 ## Current state
 
@@ -12,6 +12,18 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 48m — internal link checker script
+
+- Created `scripts/check_internal_links.py`: scans all `.md` files under `content/` for internal Markdown links (`[text](/path/)`); builds a route map from front matter slugs and file paths; skips external, mailto, tel, and anchor-only links; strips fragments before matching; normalizes trailing slashes
+- Run: `python3 scripts/check_internal_links.py` — exits 1 on broken links, 0 if clean
+- First run: 44 files · 53 known routes · 0 broken links — PASSED
+- No broken links to fix; no article edits required
+- No new article published; article count unchanged at 37
+- No public page, template, CSS, JS, or image changed
+- `FEATURE-STRATEGY.md` updated: Phase 4.2 marked complete (Day 48m); row added to Completed Feature Systems; Suggested Next Feature updated
 
 ---
 
