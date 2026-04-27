@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-27 (Day 49c)
-**Current day:** 49c
+**Last updated:** 2026-04-27 (Day 49d)
+**Current day:** 49d
 
 ## Current state
 
@@ -12,6 +12,22 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 49d — feature roadmap reorganization
+
+- `FEATURE-STRATEGY.md` fully reorganized after completion of all Phase 1–4 features
+- All 26 completed features moved from mixed inline entries into a clean "Completed Feature Archive" table with day, category, and one-line note
+- Old Phase 1–4 active sections (all done) replaced with 5 new future phases: Phase 5 (content expansion), Phase 6 (GSC-led refresh), Phase 7 (monetization readiness), Phase 8 (E-E-A-T strengthening), Phase 9 (maintenance automation)
+- Current Feature Baseline updated: 38 articles, Business 11/13, Canva/Grammarly under review noted, validators listed
+- Suggested Next Feature updated: primary recommendation is `free-web-analytics`; no Canva/Grammarly CTA suggestion
+- "What Not To Build Yet" updated to include sticky ToC and affiliate CTA shortcode
+- "How To Choose The Next Feature" updated to reference new phase numbers
+- No article published; article count unchanged at 38
+- No public page, template, CSS, JS, image, or article body changed
+- No affiliate CTAs added; Canva and Grammarly remain under review
+- Validation: git diff --check clean · front matter 0 errors PASSED · internal links 0 broken PASSED · feature images 0 errors PASSED
 
 ---
 

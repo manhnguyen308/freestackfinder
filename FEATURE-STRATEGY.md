@@ -12,9 +12,16 @@ Read this before starting any feature work. Update it when a feature ships or wh
 
 The site is a Hugo static site hosted on Cloudflare Pages. All features must be compatible with a static build — no server-side logic, no database, no user accounts. JavaScript is used sparingly for interactivity.
 
-Current content: 33 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video).
+**Current state (Day 49d):**
+- 38 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
+- Business silo: 11/13 — two articles remaining (`free-web-analytics`, `free-hr-software`)
+- All Phase 1–4 features complete; full QA tooling suite in place
+- Validators available: `scripts/validate_front_matter.py`, `scripts/check_internal_links.py`, `scripts/check_feature_images.py`
+- Canva and Grammarly affiliate programs: Under review — do not mark Active or add CTAs
+- NordPass: direct link in place; tracked URL follow-up pending if approved URL becomes available
+- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 
-Current goal: grow useful content clusters, improve internal linking, strengthen monetization, and prepare for AdSense approval and eventual affiliate expansion.
+**Current goal:** grow useful content clusters to 50 articles, improve GSC-led page quality, and strengthen monetization only where programs are approved.
 
 ---
 
@@ -30,39 +37,40 @@ Current goal: grow useful content clusters, improve internal linking, strengthen
 
 ---
 
-## Completed Feature Systems
+## Completed Feature Archive
 
-The following systems are implemented and should not be re-proposed as pending work.
+All items listed here are implemented. Do not re-propose as pending work.
 
-| Feature | Implemented | Notes |
-|---------|-------------|-------|
-| Site search with category filtering | Day 45a | Vanilla JS, `/index.json` Hugo output, 7 filter buttons (All + 6 silos) |
-| Header/search UI polish | Day 45b | Logo · nav · search icon right-aligned; polished search page styling |
-| Back-to-top button | Day 43c | Fixed bottom-right, fade-in after 400px scroll, accessible |
-| Utility/legal noindex handling | Day 43b | `noindex: true` + sitemap disable on all 5 utility pages |
-| Review/methodology trust block | Day 46b | 3-column block: last reviewed date · how we evaluate · what "free" means; renders on all article pages only |
-| Homepage curated collections | Day 46e | 3 use-case clusters manually curated: freelance stack, replace Office, privacy basics |
-| Comparison table shortcode | Day 46f | YAML-driven Hugo shortcode; mobile card stacking; deployed on 4 articles |
-| Curated related-guides logic | Day 46g | Slug-keyed curated map in `related-guides.html`; falls back to Hugo `.Related`; covers all 33 articles |
-| Freshness display on cards | Day 46h | `class="updated"` on `<time>` elements when `lastmod != date`; teal highlight distinguishes updated from published dates |
-| Verdict badge shortcode | Day 46i | Small all-caps pill via `verdict.html` shortcode; deployed on 4 comparison pages |
-| Verdict badge rollout — extended | Day 48f | Badges deployed on 7 additional high-intent pages: free-password-managers, free-project-management-software, free-crm-software, free-invoicing-software, free-cloud-storage-comparison, free-video-editing-software, photoshop-alternatives; 3 defensible labels per page |
-| Search result card upgrade | Day 48g | Search index now includes `date` and `lastmod`; result cards show category pill, description, and freshness line ("Updated" in primary color when lastmod ≠ date, "Published" in muted when equal); vanilla JS only, no new dependencies |
-| Start Here guided entry page | Day 48i | `/start-here/` routes readers into 6 silo clusters via collection cards; "Start Here" nav link added; indexable Hugo content page using existing collection CSS |
-| Category hub top-picks upgrade | Day 48j | All 6 silo `_index.md` pages now show a "Where to start" box with 4 curated links each; `.hub-top-picks` CSS added; no template changes |
-| Internal affiliate opportunity tracker | Day 48k | `docs/AFFILIATE-TRACKER.md` lists all 37 articles with program candidate, CTA placed status, verification status, priority, and notes; no public pages or CTAs added |
-| Affiliate tracker verification pass | Day 49a | All 15 "Needs verification" rows resolved; 8 articles confirmed with live CTAs; 7 confirmed not placed; duplicate tracker row removed; next-action queue updated |
-| GSC search performance notes template | Day 49c | `docs/GSC-NOTES.md` created; snapshot history table, page opportunity table, action rules, monthly review checklist |
-| Front matter validator script | Day 48l | `scripts/validate_front_matter.py` scans all silo articles for 9 categories of front matter issues; exits non-zero on errors; first run found and fixed 2 missing slug fields |
-| Internal link checker script | Day 48m | `scripts/check_internal_links.py` builds a route map from all content files and validates all internal Markdown links; first run: 0 broken links across 44 files |
-| Feature image inventory checker | Day 48o | `scripts/check_feature_images.py` cross-checks article image: fields against static/img/; reports missing images as errors and unreferenced files as warnings; first run: 38/38 verified, 3 known orphans |
-| Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
-| AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
-| Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
-| Article schema and noindex metadata | Day 45c | Article-style schema suppressed on utility/noindex pages |
-| JSON-LD structured data | Early work | Present on all article pages via `layouts/partials/schema.html` |
-| Feature image system | Day 30 onward | Python + Pillow, 1200×630 WebP, `scripts/images/` folder |
-| Homepage featured/latest sorting | Days 17, 46e | Weight-sorted featured, date-sorted latest, curated collections |
+| Feature | Day | Category | Notes |
+|---------|-----|----------|-------|
+| JSON-LD structured data | Early | SEO | Present on all article pages via `layouts/partials/schema.html` |
+| Feature image system | Day 30+ | UX | Python + Pillow, 1200×630 WebP, `scripts/images/` folder |
+| Homepage featured/latest sorting | Days 17, 46e | UX | Weight-sorted featured, date-sorted latest, curated collections |
+| AdSense integration | Day 21 | Monetization | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
+| Amazon Associates placement | Day 39b | Monetization | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
+| Back-to-top button | Day 43b | UX | Fixed bottom-right, fade-in after 400px scroll, accessible |
+| Utility/legal noindex handling | Day 43c | SEO | `noindex: true` + sitemap disable on all 5 utility pages |
+| Site search with category filtering | Day 45a | Discovery | Vanilla JS, `/index.json` Hugo output, 7 filter buttons (All + 6 silos) |
+| Header/search UI polish | Day 45b | UX | Logo · nav · search icon right-aligned; polished search page styling |
+| Article schema and noindex metadata | Day 45c | SEO | Article-style schema suppressed on utility/noindex pages |
+| Review/methodology trust block | Day 46b | Trust | 3-column block: last reviewed date · how we evaluate · what "free" means |
+| Homepage curated collections | Day 46e | Discovery | 3 use-case clusters: freelance stack, replace Office, privacy basics |
+| Comparison table shortcode | Day 46f | UX | YAML-driven Hugo shortcode; mobile card stacking; deployed on 11 articles |
+| Curated related-guides logic | Day 46g | Discovery | Slug-keyed curated map in `related-guides.html`; falls back to Hugo `.Related` |
+| Freshness display on cards | Day 46h | Trust | `class="updated"` teal highlight when `lastmod ≠ date` |
+| Verdict badge shortcode | Day 46i | UX | Small all-caps pill via `verdict.html`; deployed on 11 articles |
+| Footer trust CTA cleanup | Day 46j | UX | Pill-row flex layout for About · Disclaimer · Contact |
+| Comparison table rollout | Day 47b | UX | Tables deployed on 7 additional high-intent pages |
+| Verdict badge rollout — extended | Day 48f | UX | Badges deployed on 7 additional high-intent pages |
+| Search result card upgrade | Day 48g | Discovery | Search index includes `date`/`lastmod`; cards show freshness line |
+| Start Here guided entry page | Day 48i | Discovery | `/start-here/` routes readers into 6 silo clusters via use-case cards |
+| Category hub top-picks upgrade | Day 48j | Discovery | All 6 silo `_index.md` pages show "Where to start" box with 4 curated links |
+| Internal affiliate opportunity tracker | Day 48k | Monetization | `docs/AFFILIATE-TRACKER.md` — all articles tracked; no public CTAs added |
+| Front matter validator script | Day 48l | QA | `scripts/validate_front_matter.py` — 9 issue categories; exits non-zero on errors |
+| Internal link checker script | Day 48m | QA | `scripts/check_internal_links.py` — route map + broken link detection |
+| Feature image inventory checker | Day 48o | QA | `scripts/check_feature_images.py` — cross-checks `image:` fields vs `static/img/` |
+| Affiliate tracker verification pass | Day 49a | Monetization | All 15 rows resolved; 8 confirmed placed; 7 confirmed not placed |
+| GSC search performance notes template | Day 49c | Documentation | `docs/GSC-NOTES.md` — snapshot table, opportunity table, action rules |
 
 ---
 
@@ -72,75 +80,84 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 
 ---
 
-## Phase 1 — Extend Existing Article UX Systems
+## Phase 5 — Content Expansion and Cluster Completion
 
-These items extend components already built. They require no new architecture, only rollout to additional articles.
+**Purpose:** Finish the remaining core content clusters and grow toward 50 useful articles without sacrificing quality.
 
-**1.1 Expand comparison tables to more high-intent articles** ✓ Done Day 47b
+**Possible work:**
+- Complete Business silo from 11/13 to 13/13: publish `free-web-analytics` then `free-hr-software`
+- Continue Later queue — one article per publishing day only
+- Strengthen internal links from new articles to existing hubs on publish day
+- Run validators (`validate_front_matter.py`, `check_internal_links.py`, `check_feature_images.py`) before every publish
+- Avoid same-day article batches
+- Add `free-website-builders` to related-guides map if not already linked
 
-The `comparison-table` shortcode is now deployed on 11 articles. All 7 recommended target pages received tables on Day 47b: `free-crm-software`, `free-invoicing-software`, `free-project-management-software`, `free-cloud-storage-comparison`, `free-video-editing-software`, `photoshop-alternatives`, `free-password-managers`. Tables sit immediately after the Quick verdict section on each page.
-
-**1.2 Expand verdict badges to more comparison pages** ✓ Done Day 48f
-
-The `verdict.html` shortcode is now deployed on 11 articles. All 7 recommended target pages received badges on Day 48f: `free-password-managers`, `free-project-management-software`, `free-crm-software`, `free-invoicing-software`, `free-cloud-storage-comparison`, `free-video-editing-software`, `photoshop-alternatives`. Each page has 3 defensible per-tool labels matching the article's existing verdicts.
-
-**1.3 Add sticky article table of contents for long guides**
-
-Long articles (6+ tool sections) would benefit from a sticky ToC in the sidebar. Implementation: parse `##` or `###` headings in Hugo using `findRE` on `.Content`; render as a fixed-position sidebar list on desktop; hide on mobile. No external dependencies needed.
-
-Defer until at least one article clearly needs it — likely worth building when article length regularly exceeds 2,500 words.
+**Do not do in this phase:** start new Phase 6–9 work before Business silo is at 13/13.
 
 ---
 
-## Phase 2 — Improve Discovery and Retention
+## Phase 6 — GSC-Led Refresh and CTR Improvements
 
-**2.1 Upgrade search result cards with category, summary, and freshness** ✓ Done Day 48g
+**Purpose:** Use Search Console observations to improve pages that already have impressions, not pages that are guessed to need help.
 
-Search index updated to include `date` and `lastmod` fields. Result cards now show: category pill (existing), title link (existing), description excerpt (existing), and a freshness line — "Updated [date]" in primary color when `lastmod ≠ date`, "Published [date]" in muted text otherwise. Changes to `layouts/index.json`, `static/js/search.js`, and `static/css/style.css` only.
+**Possible work:**
+- Record GSC snapshots in `docs/GSC-NOTES.md` after each check
+- Update titles and meta descriptions for pages with 100+ impressions but CTR below 1%
+- Add internal links to pages ranking in positions 8–20
+- Avoid rewriting newly published pages within 4 weeks of publish
+- Do not chase every query — focus on pages already gaining traction
+- Make one small trackable change per session
 
-**2.2 Add a Start Here / guided entry page** ✓ Done Day 48i
-
-`/start-here/` page live. Routes readers by use case across all 6 silos: freelancer/solo → Business cluster; replacing Office → Productivity cluster; safer accounts → Security cluster; creative/design → Creative cluster; storage/backup → Cloud cluster; video/media → Video cluster. Six collection cards with 4 curated links each. "Start Here" nav link added at weight 0. Implemented as a standard indexable Hugo content page using existing `.collection-card` CSS — no new layout or shortcode required.
-
-**2.3 Improve category hub pages with top picks and starter paths** ✓ Done Day 48j
-
-All six silo `_index.md` files updated. Each hub now shows a "Where to start" box with 4 curated links and a one-line decision guide per link. No list template changes — content renders via existing `category-intro` div. Two CSS rules added for `.hub-top-picks` styling. Article lists and pagination unchanged.
-
----
-
-## Phase 3 — Monetization and Trust Operations
-
-**3.1 Create an internal affiliate opportunity tracker** ✓ Done Day 48k
-
-`docs/AFFILIATE-TRACKER.md` created. Lists all 37 articles with: program candidate, CTA placed status, verification status, priority, and notes. Deferred rows clearly marked "Not suitable" or "Deferred". Safety rules and pending program actions included. No public pages or CTAs added.
-
-**3.2 Create a reusable affiliate CTA shortcode**
-
-If CTA blocks become hard to maintain across many articles (copy changes, URL updates), a Hugo shortcode like `{{< affiliate-cta program="nordvpn" >}}` could manage CTA content from a central data file. Build only when duplication is genuinely painful — currently 3–4 CTA variants across 33 articles is manageable inline.
-
-**3.3 Improve the "Report outdated info" flow**
-
-The footer currently links to `/contact/` which uses a direct email fallback. When a real form backend is available (e.g. Netlify Forms, Formspree with a live account), replace the email fallback with a prefilled form that passes the current page URL via query string. Defer until backend is available.
+**Trigger:** begin when any page has 100+ monthly impressions. Do not run GSC refresh sessions on zero-data pages.
 
 ---
 
-## Phase 4 — Content Operations and QA Tooling
+## Phase 7 — Monetization Readiness and Safe Affiliate Rollout
 
-**4.1 Article front matter validator script** ✓ Done Day 48l
+**Purpose:** Improve monetization only where programs are approved and placements are contextually relevant.
 
-`scripts/validate_front_matter.py` created. Checks all articles under `content/<silo>/`: missing required fields, banned keys (`featured`, `faqs`), future dates, bare unquoted dates, image path format, image file existence, empty/overlong descriptions, duplicate slugs, and accidental `noindex` on silo articles. Run with `python3 scripts/validate_front_matter.py`. On first run: fixed 2 articles missing `slug` field; 18 description-length warnings remain as informational backlog.
+**Possible work:**
+- Update NordPass link in `free-password-managers` only if an approved tracked URL is confirmed available
+- Resume Canva and Grammarly placement only after program approval is confirmed — both are currently Under review
+- Apply for Zoho via CJ once Zoho content cluster is established
+- Reapply to Impact.com when traffic data is sufficient (month 4–6 target)
+- Add approved CTAs only where contextually useful — one per article maximum unless clearly editorial
+- Verify all affiliate links before placement; update `docs/AFFILIATE-TRACKER.md` after every change
+- Avoid aggressive monetization before AdSense formal approval
 
-**4.2 Internal link checker script** ✓ Done Day 48m
+**Do not do in this phase:** add Canva or Grammarly CTAs until approval is confirmed in writing.
 
-`scripts/check_internal_links.py` created. Builds a route map from all content files (slug overrides respected, section indexes included). Scans all `.md` files under `content/` for `[text](/path/)` links; skips external, mailto, tel, and anchor-only links. Strips fragments before matching; normalizes trailing slash. Run with `python3 scripts/check_internal_links.py`. First run: 44 files · 53 known routes · 0 broken links — PASSED.
+---
 
-**4.3 Feature image inventory checker script** ✓ Done Day 48o
+## Phase 8 — Content Quality and E-E-A-T Strengthening
 
-`scripts/check_feature_images.py` created. Scans all silo articles for `image:` field; checks each referenced file exists in `static/img/`; flags non-WebP extensions as warnings; reports files in `static/img/` not referenced by any article as possible orphans (warnings, not errors). Run with `python3 scripts/check_feature_images.py`. First run: 38 articles checked · 38 images verified · 0 errors · 3 possible orphans (`default-article.jpg`, `nordpass-banner.png`, `nordvpn-banner.png`) — PASSED with warnings. Orphans left in place pending confirmation.
+**Purpose:** Reduce low-value-content risk by making important pages more useful, original, and trustworthy — without inflating word count or adding filler.
 
-**4.4 GSC notes template** ✓ Done Day 49c
+**Possible work:**
+- Improve thin sections on high-intent pages (Security, Business clusters)
+- Add better decision guidance where articles are too list-like
+- Strengthen "what free really includes" explanations for each tool
+- Improve experience-based notes without making false testing claims
+- Add concise FAQs only if the repo's shortcode/markup supports them safely and the content is genuinely useful
+- Refresh outdated tool-plan language on articles older than 6 months
 
-`docs/GSC-NOTES.md` created. Contains: snapshot history table (date, clicks, impressions, CTR, avg position, notes); page opportunity table (page, query, impressions, clicks, CTR, avg position, issue, next action, priority); action rules for CTR issues, position 8–20 pages, newly published pages, and already-improving pages; monthly review checklist. Update cadence: weekly light check, monthly deeper review, after major content batches.
+**Trigger:** begin after month 2–3 traffic data shows which pages need strengthening. Do not refresh pages with no impressions yet.
+
+---
+
+## Phase 9 — Lightweight Maintenance Automation
+
+**Purpose:** Keep the static site healthy with small scripts and checklists, not heavy systems.
+
+**Possible work:**
+- Add a single validation runner script (`scripts/run_all_checks.py`) that calls all three existing QA scripts in sequence and summarizes pass/fail
+- Add a small article-count-by-silo report output to the runner
+- Add a lightweight stale-content checker based on `lastmod` — flag articles not updated in 6+ months
+- Add orphan-image cleanup workflow: list candidates but do not delete automatically
+- Add optional pre-publish checklist command that prints the 5-step publish checklist from CLAUDE.md
+- Keep all scripts dependency-light (Python standard library where possible); no CI unless clearly justified
+
+**Do not do in this phase:** add external services, webhooks, APIs, or scheduled cloud jobs.
 
 ---
 
@@ -148,15 +165,17 @@ The footer currently links to `/contact/` which uses a direct email fallback. Wh
 
 Do not build these until traffic, income, or operational complexity clearly demands them.
 
-- **User accounts or saved lists** — requires backend and authentication; not justified for current traffic
+- **User accounts or saved lists** — requires backend and authentication; not justified at current traffic
 - **User ratings or reviews** — community features require moderation and a user base; not yet relevant
-- **Dynamic database-backed tool directory** — a filterable live database of tools is a different product class from an editorial comparison site; premature for current scale
-- **Heavy JavaScript search framework** (Algolia, Fuse.js, Lunr) — current vanilla JS search handles 33 articles comfortably; only revisit if article count exceeds 150+ and search quality degrades
-- **Newsletter backend** — an email list is valuable but requires a publishing plan and consistent send cadence; don't build the infrastructure without the content plan
-- **Complex affiliate dashboards** — tracker notes and a flat markdown table are sufficient at current affiliate scale
-- **Comparison app with dynamic filters** — users filtering by price tier, storage limit, seat count, etc. is a SaaS product feature; editorial comparison tables serve the same intent without the complexity
-- **Pagination redesign** — current paginator behavior is correct; do not rebuild unless a specific bug or usability issue emerges
+- **Dynamic database-backed tool directory** — a filterable live database is a different product class from an editorial comparison site; premature for current scale
+- **Heavy JavaScript search framework** (Algolia, Fuse.js, Lunr) — current vanilla JS search handles 38 articles comfortably; revisit only if article count exceeds 150+
+- **Newsletter backend** — valuable but requires a publishing plan and consistent send cadence; build infrastructure only after the content plan is confirmed
+- **Complex affiliate dashboards** — a flat Markdown tracker is sufficient at current affiliate scale
+- **Comparison app with dynamic filters** — editorial comparison tables serve the same reader intent without the complexity
+- **Pagination redesign** — current paginator behavior is correct; do not rebuild unless a specific bug emerges
 - **Dark/light mode toggle** — the site already uses a dark-by-default design; a toggle adds complexity without clear reader benefit at current traffic
+- **Sticky article table of contents** — defer until articles regularly exceed 2,500 words and reader need is clear
+- **Affiliate CTA shortcode** — 3–4 inline CTA variants across 38 articles is manageable; build only if duplication becomes genuinely painful
 
 ---
 
@@ -164,11 +183,11 @@ Do not build these until traffic, income, or operational complexity clearly dema
 
 Use this decision order:
 
-1. Is there a completed-system rollout that a high-intent article is missing? (Phase 1 items — do these first.)
-2. Is there a discovery or retention gap hurting bounce rate or repeat visits on pages that already have traffic? (Phase 2.)
-3. Is there a monetization gap on a page with real impressions where a CTA, badge, or affiliate link is missing? (Phase 3.)
-4. Is there a recurring QA or operations pain that a script would eliminate? (Phase 4.)
-5. If none of the above, continue publishing new articles — content compounds faster than features at current stage.
+1. Is the next content cluster article ready to publish? Do that first — content compounds faster than features.
+2. Is there a GSC observation that clearly points to a page improvement? (Phase 6.)
+3. Is there an approved affiliate program with an unplaced contextually relevant CTA? (Phase 7.)
+4. Is there a page with meaningful traffic that is thin or outdated? (Phase 8.)
+5. Is there a recurring QA or operations pain that a small script would eliminate? (Phase 9.)
 
 Do not build a feature just because it seems like a good idea in isolation. Every feature that is not a content article is a debt against the publishing schedule.
 
@@ -176,24 +195,22 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Publish the next Business silo article (content, not feature work)**
+**Next publishing day: publish one Business silo article**
 
-All planned Phase 1–4 features are now complete. The full QA and ops tooling suite is in place. The site has 38 articles; the Business silo is at 11/13 with two remaining articles: `free-web-analytics` and `free-hr-software`.
+All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 38 articles; the Business silo is at 11/13. Priority article is `free-web-analytics` — relevant to all site operators, high search volume, strong comparison format fit.
 
-Why to do this next:
-- All Phase 1, 2, Phase 3 verification, Phase 4.1–4.4, and all planned ops passes are complete.
-- Content compounds faster than features at current traffic levels.
-- The next strongest article is `free-web-analytics` — relevant to all site operators, high search volume, fits the site's comparison format.
-
-If feature work is preferred over content, the only remaining open item:
-- **NordPass tracked URL follow-up** — `free-password-managers` currently uses a direct `nordpass.com` link; update to a tracked affiliate URL if one becomes available from the NordPass program dashboard. No other monetization or feature work is queued.
+**Same day / non-content work:**
+- Use `docs/GSC-NOTES.md` only if there is new GSC data worth recording
+- Use `docs/AFFILIATE-TRACKER.md` only if an approved affiliate link has changed
+- Do not add Canva or Grammarly CTAs until program approval is confirmed
+- Do not build sticky article ToC unless article length and reader need clearly justify it
 
 ---
 
 ## Maintenance Notes
 
-- Update the **Completed Feature Systems** table when any new feature ships.
+- Update the **Completed Feature Archive** table when any new feature ships.
 - Update the **Suggested Next Feature** section after completing the current recommendation.
-- If a feature from the roadmap is deferred or dropped, move it to **What Not To Build Yet** with a reason.
+- If a Phase 5–9 item is deferred or dropped, move it to **What Not To Build Yet** with a reason.
 - This file is for feature planning only — article publishing decisions live in `CONTENT-STRATEGY.md` and `freestackfinder-progress-log.md`.
-- Major UX or infrastructure review work belongs to Codex, not daily Claude runs. Daily runs should focus on rollouts of existing components and small scoped features only.
+- Major UX or infrastructure review work belongs to Codex, not daily Claude runs.
