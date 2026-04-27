@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-27 (Day 49d)
-**Current day:** 49d
+**Last updated:** 2026-04-27 (Day 49e)
+**Current day:** 49e
 
 ## Current state
 
@@ -12,6 +12,19 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 49e — validation runner script
+
+- Created `scripts/run_quality_checks.py`: runs all three QA scripts in sequence (front matter, internal links, feature images)
+- Supports `--with-build` flag (runs `hugo --minify` after QA) and `--quiet` flag (suppresses verbose child output, shows last 4 lines)
+- Uses Python standard library only; locates repo root from script path; returns non-zero exit if any checker fails
+- Runner executed: 3 passed · 0 failed · 18 description-length warnings (known, no action required) · 3 image orphans (known, no action required)
+- `FEATURE-STRATEGY.md` updated: Phase 9 runner item marked done (Day 49e); archive row added; Suggested Next Feature updated
+- No article published; article count unchanged at 38
+- No public page, template, CSS, JS, image, or article body changed
+- No affiliate CTAs added; Canva and Grammarly remain under review / needs approval
 
 ---
 

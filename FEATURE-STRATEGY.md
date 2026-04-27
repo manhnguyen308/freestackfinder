@@ -71,6 +71,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 | Feature image inventory checker | Day 48o | QA | `scripts/check_feature_images.py` — cross-checks `image:` fields vs `static/img/` |
 | Affiliate tracker verification pass | Day 49a | Monetization | All 15 rows resolved; 8 confirmed placed; 7 confirmed not placed |
 | GSC search performance notes template | Day 49c | Documentation | `docs/GSC-NOTES.md` — snapshot table, opportunity table, action rules |
+| Validation runner script | Day 49e | QA | `scripts/run_quality_checks.py` — runs all 3 QA scripts in sequence; `--with-build` and `--quiet` flags |
 
 ---
 
@@ -150,7 +151,7 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 **Purpose:** Keep the static site healthy with small scripts and checklists, not heavy systems.
 
 **Possible work:**
-- Add a single validation runner script (`scripts/run_all_checks.py`) that calls all three existing QA scripts in sequence and summarizes pass/fail
+- ~~Add a single validation runner script (`scripts/run_quality_checks.py`)~~ **Done — Day 49e** (`scripts/run_quality_checks.py`; `--with-build`, `--quiet` flags)
 - Add a small article-count-by-silo report output to the runner
 - Add a lightweight stale-content checker based on `lastmod` — flag articles not updated in 6+ months
 - Add orphan-image cleanup workflow: list candidates but do not delete automatically
@@ -204,6 +205,7 @@ All Phase 1–4 features are complete. The full QA and ops tooling suite is in p
 - Use `docs/AFFILIATE-TRACKER.md` only if an approved affiliate link has changed
 - Do not add Canva or Grammarly CTAs until program approval is confirmed
 - Do not build sticky article ToC unless article length and reader need clearly justify it
+- Phase 9 validation runner is complete (`scripts/run_quality_checks.py`); next Phase 9 candidate is article-count-by-silo report or stale-content checker
 
 ---
 
