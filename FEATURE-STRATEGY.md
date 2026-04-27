@@ -185,7 +185,7 @@ Why to do this next:
 - The next strongest article is `free-web-analytics` — relevant to all site operators, high search volume, fits the site's comparison format.
 
 If feature work is preferred over content, the next candidate:
-- **Phase 3.2: Add Canva CTA to `canva-alternatives` and Grammarly CTA to `grammarly-alternatives`** — these are the two remaining High-priority unplaced CTAs confirmed by the Day 49a verification pass.
+- **NordPass tracked URL follow-up** — `free-password-managers` currently uses a direct `nordpass.com` link; update to a tracked affiliate URL if one is available from the NordPass program dashboard. No other monetization work is queued.
 
 ---
 

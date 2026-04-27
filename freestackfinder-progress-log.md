@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-27 (Day 49a)
-**Current day:** 49a
+**Last updated:** 2026-04-27 (Day 49b)
+**Current day:** 49b
 
 ## Current state
 
@@ -12,6 +12,18 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 49b — affiliate tracker Canva/Grammarly cleanup
+
+- Canva and Grammarly CTA placement confirmed not currently available; all related tracker rows downgraded from High/Medium priority to Deferred
+- Updated `docs/AFFILIATE-TRACKER.md`: header active-programs list corrected; 7 Canva/Grammarly rows set to Deferred; next-action queue cleaned (items 1 and 2 removed)
+- Updated `docs/AFFILIATE-GUIDELINES.md`: Canva and Grammarly changed from Active to Deferred with placement note
+- Updated `FEATURE-STRATEGY.md`: removed Canva/Grammarly CTA suggestion from Suggested Next Feature; replaced with NordPass tracked URL follow-up
+- No public article published; article count unchanged at 38
+- No public page, template, CSS, JS, or image changed
+- No affiliate CTAs added
 
 ---
 

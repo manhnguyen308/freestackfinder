@@ -4,4 +4,4 @@ public/
 resources/_gen/
 .hugo_build.lock
 scripts/images/__pycache__/
-scripts/images/__pycache__/image_helpers.cpython-312.pyc
+scripts/images/__pycache__/*

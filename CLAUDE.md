@@ -16,6 +16,26 @@ Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by 
 
 Do not load every doc for every task. Load only what the current task requires.
 
+## Token-saving search rules
+
+- Do not use broad grep/search to understand the whole site
+- Prefer targeted file reads, tracker notes, directory listings, and known file paths
+- Use grep only for exact terms inside a specific folder
+- Always cap grep output with `head -20`
+- Do not print large command outputs
+- Do not scan all content files unless the task truly requires it
+- Do not use repeated grep searches with similar keywords
+- Do not use `cat` on large Markdown files
+- Do not read unrelated folders
+
+Allowed examples:
+
+```bash
+find content -maxdepth 3 -name "*.md"
+find content -name "*.md" -size +25k
+grep -RIn "exact-term" content/business --include="*.md" | head -20
+```
+
 ## Daily workflow
 1. Read `CLAUDE.md`
 2. Read `freestackfinder-progress-log.md` or `TRACKER.md` if present

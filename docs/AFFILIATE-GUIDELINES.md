@@ -26,8 +26,8 @@ Use adblocker-safe text CTA blocks only. Do not use affiliate image banners.
 |---------|--------|-------|
 | NordVPN | Active | go.nordvpn.net |
 | NordPass | Active | nordpass.com |
-| Canva | Active | canva.com partner |
-| Grammarly | Active | grammarly.com affiliate |
+| Canva | Deferred | CTA placement not currently available; do not add |
+| Grammarly | Deferred | CTA placement not currently available; do not add |
 | Amazon Associates US | Active | tag: `freestackfi20-20` |
 | Amazon Associates SG | Reserved | tag: `freestackfi20-22` — future SG-specific hardware content |
 | Zoho via CJ | Pending | Apply after Zoho content is established |
