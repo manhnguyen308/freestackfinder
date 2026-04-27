@@ -2,16 +2,32 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-04-27
-**Current day:** 48m
+**Current day:** 48n
 
 ## Current state
 
-- Total articles: 37
-- Silos: Productivity 9/9 ✓ · Creative 6/8 · Business 10/13 · Security 4/6 · Cloud 4/7 · Video 4/7
+- Total articles: 38
+- Silos: Productivity 9/9 ✓ · Creative 6/8 · Business 11/13 · Security 4/6 · Cloud 4/7 · Video 4/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 48n — publish free-website-builders article
+
+- Published `content/business/free-website-builders.md`: Business silo, article 11/13
+- Covers 5 tools: Wix (featured — most features on free plan), Google Sites (best zero-cost), WordPress.com (best for blogging), Carrd (best one-pager), Canva Websites (best for Canva users)
+- Includes comparison table shortcode and 5 verdict badges
+- 4 internal links: `/business/free-crm-software/`, `/business/free-invoicing-software/`, `/business/free-social-media-scheduling/`, `/productivity/microsoft-office-alternatives/`, `/cloud/free-cloud-storage-comparison/`
+- Feature image generated: `static/img/free-website-builders.webp` (32 KB, 1200×630 WebP)
+- Image script: `scripts/images/generate_free_website_builders.py`
+- Related-guides mapping updated for `free-website-builders` and `free-social-media-scheduling`
+- `CONTENT-STRATEGY.md` updated: `free-website-builders` marked ✓ Published
+- Front matter validator: 0 errors · 19 warnings (1 new description-length warning) · PASSED
+- Internal link checker: 0 broken links · PASSED
+- Hugo build: 360 pages, no errors
 
 ---
 

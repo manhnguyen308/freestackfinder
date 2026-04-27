@@ -52,7 +52,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 10 | Best Free Microsoft Visio Alternatives in 2026 | free-visio-alternatives | ✓ Published |
 | 11 | Best Free Web Analytics Tools in 2026 | free-web-analytics | Later |
 | 12 | Best Free HR Software in 2026 | free-hr-software | Later |
-| 13 | Best Free Website Builders in 2026 | free-website-builders | Later |
+| 13 | Best Free Website Builders in 2026 | free-website-builders | ✓ Published |
 
 ### Security (target: 6 articles)
 
