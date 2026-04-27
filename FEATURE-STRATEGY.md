@@ -53,6 +53,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Internal affiliate opportunity tracker | Day 48k | `docs/AFFILIATE-TRACKER.md` lists all 37 articles with program candidate, CTA placed status, verification status, priority, and notes; no public pages or CTAs added |
 | Front matter validator script | Day 48l | `scripts/validate_front_matter.py` scans all silo articles for 9 categories of front matter issues; exits non-zero on errors; first run found and fixed 2 missing slug fields |
 | Internal link checker script | Day 48m | `scripts/check_internal_links.py` builds a route map from all content files and validates all internal Markdown links; first run: 0 broken links across 44 files |
+| Feature image inventory checker | Day 48o | `scripts/check_feature_images.py` cross-checks article image: fields against static/img/; reports missing images as errors and unreferenced files as warnings; first run: 38/38 verified, 3 known orphans |
 | Footer trust CTA cleanup | Day 46j | Pill-row flex layout for About · Disclaimer · Contact; accessible focus states |
 | AdSense integration | Day 21 | Live `ca-pub-5934721249825043` in `head.html`; formal approval pending |
 | Amazon Associates placement | Day 39b | US tag `freestackfi20-20` on 3 hardware-adjacent pages |
@@ -131,9 +132,9 @@ The footer currently links to `/contact/` which uses a direct email fallback. Wh
 
 `scripts/check_internal_links.py` created. Builds a route map from all content files (slug overrides respected, section indexes included). Scans all `.md` files under `content/` for `[text](/path/)` links; skips external, mailto, tel, and anchor-only links. Strips fragments before matching; normalizes trailing slash. Run with `python3 scripts/check_internal_links.py`. First run: 44 files · 53 known routes · 0 broken links — PASSED.
 
-**4.3 Feature image inventory checker script**
+**4.3 Feature image inventory checker script** ✓ Done Day 48o
 
-A Python script that compares the `image:` field in every article's front matter against actual files in `static/img/`. Reports: articles missing a feature image on disk, images in `static/img/` not referenced by any article (orphaned files). Run after publishing batches or before a storage cleanup.
+`scripts/check_feature_images.py` created. Scans all silo articles for `image:` field; checks each referenced file exists in `static/img/`; flags non-WebP extensions as warnings; reports files in `static/img/` not referenced by any article as possible orphans (warnings, not errors). Run with `python3 scripts/check_feature_images.py`. First run: 38 articles checked · 38 images verified · 0 errors · 3 possible orphans (`default-article.jpg`, `nordpass-banner.png`, `nordvpn-banner.png`) — PASSED with warnings. Orphans left in place pending confirmation.
 
 **4.4 GSC notes template**
 
@@ -175,17 +176,15 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 **Publish the next Business silo article (content, not feature work)**
 
-Phase 2, Phase 3.1, Phase 4.1, and Phase 4.2 are now complete. The site has 37 articles; the Business silo is at 10/13 with three Later-priority articles queued: `free-web-analytics`, `free-hr-software`, `free-website-builders`.
+Phase 2, Phase 3.1, Phase 4.1, Phase 4.2, and Phase 4.3 are now complete. The full QA tooling suite is in place. The site has 38 articles; the Business silo is at 11/13 with two Later-priority articles remaining: `free-web-analytics` and `free-hr-software`.
 
 Why to do this next:
-- All Phase 1 and Phase 2 features are complete.
-- QA tooling (validator + link checker) is now in place to gate future publishing batches.
+- All Phase 1, 2, and planned Phase 4 QA tools are complete.
 - Content compounds faster than features at current traffic levels.
-- The next strongest article is likely `free-website-builders` — high search volume, clear free-vs-paid comparison, fits the site's existing format.
+- The next strongest article is `free-web-analytics` — relevant to all site operators, high search volume, fits the site's comparison format.
 
-If feature work is preferred over content, the next candidates in priority order:
-- **Phase 3: Affiliate verification pass** — use `docs/AFFILIATE-TRACKER.md` to confirm which High-priority articles already have CTAs placed, then add any missing ones.
-- **Phase 4.3 Feature image inventory checker script** — Python script to cross-check `image:` fields against files in `static/img/`; flags missing images and orphaned files.
+If feature work is preferred over content, the next candidate:
+- **Phase 3: Affiliate verification pass** — use `docs/AFFILIATE-TRACKER.md` to confirm which High-priority articles already have CTAs placed, then add any missing ones (NordVPN, NordPass, Canva, Grammarly priority pages).
 
 ---
 
