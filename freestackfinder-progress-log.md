@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-27
-**Current day:** 48o
+**Last updated:** 2026-04-27 (Day 49a)
+**Current day:** 49a
 
 ## Current state
 
@@ -12,6 +12,23 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 49a — affiliate tracker verification pass
+
+- Reviewed `docs/AFFILIATE-TRACKER.md` against `docs/AFFILIATE-GUIDELINES.md`
+- Resolved all 15 "Needs verification" rows by checking actual article files
+- Confirmed 8 articles have live CTAs: `free-password-managers` (NordPass), `free-vpn` (NordVPN), `free-antivirus-software` (NordVPN), `best-free-2fa-apps` (NordVPN + Amazon), `free-backup-software` (Amazon), `free-screen-recording-software` (Amazon), `dropbox-alternatives` (NordVPN), `free-email-service` (NordVPN)
+- Confirmed 7 articles have no CTA yet: `canva-alternatives`, `grammarly-alternatives`, `free-stock-photos`, `free-ai-writing-tools`, `photoshop-alternatives`, `illustrator-alternatives`, `microsoft-office-alternatives`
+- Flagged: NordPass link in `free-password-managers` uses direct nordpass.com URL rather than a tracked affiliate URL — noted for future update if tracked URL is available
+- Removed duplicate `best-free-2fa-apps` Amazon row (was double-listed); merged into single row
+- Added `free-website-builders` (Day 48n) to tracker as Deferred — no active program fit
+- Updated next-action queue; Zoho rows remain on hold pending CJ approval
+- No public article published; article count unchanged at 38
+- No public page, template, CSS, JS, or image changed
+- No affiliate CTAs added in this run
+- `FEATURE-STRATEGY.md` updated: affiliate verification pass marked complete (Day 49a); Suggested Next Feature updated
 
 ---
 

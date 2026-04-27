@@ -51,6 +51,7 @@ The following systems are implemented and should not be re-proposed as pending w
 | Start Here guided entry page | Day 48i | `/start-here/` routes readers into 6 silo clusters via collection cards; "Start Here" nav link added; indexable Hugo content page using existing collection CSS |
 | Category hub top-picks upgrade | Day 48j | All 6 silo `_index.md` pages now show a "Where to start" box with 4 curated links each; `.hub-top-picks` CSS added; no template changes |
 | Internal affiliate opportunity tracker | Day 48k | `docs/AFFILIATE-TRACKER.md` lists all 37 articles with program candidate, CTA placed status, verification status, priority, and notes; no public pages or CTAs added |
+| Affiliate tracker verification pass | Day 49a | All 15 "Needs verification" rows resolved; 8 articles confirmed with live CTAs; 7 confirmed not placed; duplicate tracker row removed; next-action queue updated |
 | Front matter validator script | Day 48l | `scripts/validate_front_matter.py` scans all silo articles for 9 categories of front matter issues; exits non-zero on errors; first run found and fixed 2 missing slug fields |
 | Internal link checker script | Day 48m | `scripts/check_internal_links.py` builds a route map from all content files and validates all internal Markdown links; first run: 0 broken links across 44 files |
 | Feature image inventory checker | Day 48o | `scripts/check_feature_images.py` cross-checks article image: fields against static/img/; reports missing images as errors and unreferenced files as warnings; first run: 38/38 verified, 3 known orphans |
@@ -176,15 +177,15 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 **Publish the next Business silo article (content, not feature work)**
 
-Phase 2, Phase 3.1, Phase 4.1, Phase 4.2, and Phase 4.3 are now complete. The full QA tooling suite is in place. The site has 38 articles; the Business silo is at 11/13 with two Later-priority articles remaining: `free-web-analytics` and `free-hr-software`.
+Phase 2, Phase 3 verification, Phase 4.1, Phase 4.2, and Phase 4.3 are now complete. The full QA tooling suite is in place. The site has 38 articles; the Business silo is at 11/13 with two Later-priority articles remaining: `free-web-analytics` and `free-hr-software`.
 
 Why to do this next:
-- All Phase 1, 2, and planned Phase 4 QA tools are complete.
+- All Phase 1, 2, planned Phase 4 QA tools, and the affiliate tracker verification pass are complete.
 - Content compounds faster than features at current traffic levels.
 - The next strongest article is `free-web-analytics` — relevant to all site operators, high search volume, fits the site's comparison format.
 
 If feature work is preferred over content, the next candidate:
-- **Phase 3: Affiliate verification pass** — use `docs/AFFILIATE-TRACKER.md` to confirm which High-priority articles already have CTAs placed, then add any missing ones (NordVPN, NordPass, Canva, Grammarly priority pages).
+- **Phase 3.2: Add Canva CTA to `canva-alternatives` and Grammarly CTA to `grammarly-alternatives`** — these are the two remaining High-priority unplaced CTAs confirmed by the Day 49a verification pass.
 
 ---
 
