@@ -1,17 +1,32 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-28 (Day 51a)
-**Current day:** 51a
+**Last updated:** 2026-04-29 (Day 52a)
+**Current day:** 52a
 
 ## Current state
 
 - Total articles: 40
 - Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 4/6 · Cloud 4/7 · Video 4/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
-- GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
+- GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative or Cloud silo — see CONTENT-STRATEGY.md for next unpublished article
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 52a — GSC-led CTR refresh for high-impression pages
+
+- Reviewed last-3-month GSC snapshot: 13 clicks, 4.64K impressions, 0.3% CTR, average position 51.7
+- Priority pages inspected: Microsoft Office alternatives, Dropbox alternatives, Grammarly alternatives, Slack alternatives, Illustrator alternatives, free backup software, QuickBooks alternatives, free project management software
+- Refreshed query-aligned SEO titles/descriptions on 8 target pages where useful; kept URLs, slugs, aliases, and routing unchanged
+- Light first-screen wording updates made on Microsoft Office, Dropbox, and Slack pages to better match Office replacement, Dropbox replacement, and Slack replacement search intent
+- Fixed weak public snippet wording on `free-backup-software`; removed unsupported "tested" wording from the Illustrator title and Microsoft Office intro
+- Existing hub, related-guide, and contextual links already cover target pages; no mass backlinking added
+- No new article published; article count remains 40; Business silo remains 13/13
+- No affiliate links added; no Canva or Grammarly CTAs added; Canva and Grammarly remain under review / needs approval
+- `docs/GSC-NOTES.md` updated with snapshot, priority pages, query themes, actions, and follow-up items
+- Validation: git diff check, quality runner, Hugo build, article count, internal links, and generated-output checks completed
 
 ---
 

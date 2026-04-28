@@ -10,6 +10,7 @@ Internal operations file. Not a public page. Do not reference this in site conte
 
 | Date | Clicks | Impressions | CTR | Avg position | Notes |
 |------|--------|-------------|-----|--------------|-------|
+| 2026-04-28 | 13 | 4,640 | 0.3% | 51.7 | Last 3 months — impressions concentrated on Office, Dropbox, Grammarly, Photoshop, Canva, Slack, Illustrator, backup, QuickBooks, and project management pages |
 | 2026-04-15 | 5 | 2,220 | 0.2% | 54.4 | Baseline — site indexed but early-stage; no query dominance yet |
 
 ---
@@ -20,7 +21,22 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 
 | Page | Query / theme | Impressions | Clicks | CTR | Avg pos | Issue | Next action | Priority |
 |------|--------------|-------------|--------|-----|---------|-------|-------------|---------|
-| — | — | — | — | — | — | First GSC data pull pending | Check after month 2 | — |
+| `/productivity/microsoft-office-alternatives/` | Microsoft Office alternative / MS Office alternative | 1,545 | 2 | 0.1% | — | Strong impressions, weak CTR | Refreshed title, description, and first-screen wording around Word/Excel/PowerPoint replacement intent | High |
+| `/cloud/dropbox-alternatives/` | Dropbox alternative / Dropbox alternatives | 763 | 1 | 0.1% | — | Strong impressions, weak CTR | Refreshed title, description, and quick verdict around more free cloud storage | High |
+| `/productivity/grammarly-alternatives/` | Grammarly alternatives | 402 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description only; no CTA while program remains under review | Medium |
+| `/productivity/slack-alternatives/` | Slack alternative / Slack alternatives | 339 | 1 | 0.3% | — | Meaningful impressions, weak CTR | Refreshed title, description, and quick verdict around the 90-day history limit | Medium |
+| `/creative/illustrator-alternatives/` | Illustrator alternatives | 249 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description; removed unsupported "tested" wording | Medium |
+| `/cloud/free-backup-software/` | Free backup software | 143 | 0 | 0% | — | Description was not search-snippet friendly | Rewrote description to explain backup use case and tools | Medium |
+| `/business/quickbooks-alternatives/` | QuickBooks alternatives | 141 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description around freelancer accounting intent | Medium |
+| `/business/free-project-management-software/` | Free project management software | 94 | 0 | 0% | — | Below 100 impressions but in priority set | Tightened description only; existing hub and related links are sufficient | Low |
+
+## 2026-04-28 review notes
+
+- Overall snapshot: 13 clicks, 4.64K impressions, 0.3% CTR, average position 51.7 over the last 3 months.
+- Query themes: Microsoft Office replacement, Dropbox replacement, Slack replacement, Grammarly alternatives, Illustrator alternatives, free backup software, QuickBooks alternatives, and free project management tools.
+- Actions taken: refreshed query-aligned titles/descriptions and a few first-screen verdict lines on priority pages; no new articles, URL changes, slug changes, affiliate links, or Canva/Grammarly CTAs.
+- Internal links: existing hub, related-guide, and contextual links already cover the priority pages; no mass backlinking added.
+- Follow-up: monitor the same pages after the next GSC data window; consider another small title/meta pass only if impressions rise and CTR remains below 1%.
 
 ---
 

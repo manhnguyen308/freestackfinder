@@ -1,8 +1,8 @@
 ---
-title: "Best Free Microsoft Office Alternatives in 2026 — Docs, Sheets, and Slides Compared"
+title: "Best Free Microsoft Office Alternatives in 2026 — Word, Excel, and PowerPoint Replacements"
 date: "2026-04-07"
-lastmod: "2026-04-25"
-description: "Compare the best free Microsoft Office alternatives for documents, spreadsheets, and presentations, including Google Docs, LibreOffice, OnlyOffice, and WPS."
+lastmod: "2026-04-28"
+description: "Compare free Microsoft Office alternatives for Word, Excel, and PowerPoint, including Google Docs, LibreOffice, OnlyOffice, and WPS Office."
 slug: "microsoft-office-alternatives"
 categories: ["Productivity"]
 tags: ["microsoft office alternative", "free office suite", "LibreOffice", "Google Docs"]
@@ -21,7 +21,7 @@ Microsoft 365 Personal costs $99.99 per year. Microsoft 365 Family (up to 6 peop
 
 For the majority of users — students, home users, freelancers, small businesses — the answer is: probably not.
 
-We tested five free office suite alternatives against Microsoft 365 on five real-world tasks: writing a formatted report, building a spreadsheet with formulas, creating a presentation, collaborating with another person in real-time, and opening a .docx file with complex formatting.
+This guide compares free office software alternatives against the jobs most people use Microsoft Office for: writing documents, building spreadsheets, creating presentations, collaborating in real time, and opening Microsoft file formats.
 
 ## Quick verdict
 

@@ -1,8 +1,8 @@
 ---
-title: "Best Free Grammarly Alternatives in 2026 — Grammar, Style, and Clarity Tools"
-description: "Compare the best free Grammarly alternatives for grammar, style, readability, and everyday writing, including LanguageTool, ProWritingAid, Hemingway, and Google Docs."
+title: "Best Free Grammarly Alternatives in 2026 — Grammar Checkers and Writing Tools"
+description: "Compare free Grammarly alternatives for grammar, style, readability, and everyday writing, including LanguageTool, ProWritingAid, Hemingway, and Google Docs."
 date: "2026-03-20"
-lastmod: "2026-04-24"
+lastmod: "2026-04-28"
 draft: false
 weight: 55
 slug: "grammarly-alternatives"

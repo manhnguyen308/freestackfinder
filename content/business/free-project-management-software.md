@@ -1,8 +1,8 @@
 ---
 title: "Best Free Project Management Software in 2026 — Trello, Asana, ClickUp, and More"
-description: "Compare the best free project management software for small teams, freelancers, and startups, including Trello, Asana, Notion, ClickUp, and Linear."
+description: "Compare free project management software for small teams, freelancers, and startups, including Trello, Asana, Notion, ClickUp, and Linear."
 date: "2026-04-05"
-lastmod: "2026-04-25"
+lastmod: "2026-04-28"
 draft: false
 weight: 72
 slug: "free-project-management-software"
