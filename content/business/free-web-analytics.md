@@ -1,8 +1,8 @@
 ---
 title: "Best Free Web Analytics Tools in 2026 — Real Traffic Insights Without Paying"
 description: "Compare the best free web analytics tools for small websites and blogs — GA4, Search Console, Clarity, Umami, and Matomo."
-date: "2026-04-28"
-lastmod: "2026-04-28"
+date: "2026-04-26"
+lastmod: "2026-04-26"
 draft: false
 weight: 40
 slug: "free-web-analytics"
