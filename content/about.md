@@ -1,6 +1,6 @@
 ---
 title: "About Free Stack Finder"
-description: "Why we built Free Stack Finder, how we test software, and who we are."
+description: "Why we built Free Stack Finder, how we evaluate free software plans, and who we are."
 noindex: true
 sitemap:
   disable: true
@@ -23,21 +23,21 @@ That's why Free Stack Finder exists.
 
 ## What we actually do
 
-We don't write about tools we haven't used. Every comparison on this site is based on real testing: downloading and installing the software, using it for actual tasks, and documenting what works and what doesn't.
+We focus on tools with usable free plans, then compare them by the limits readers usually discover too late: exports, watermarks, storage, seats, usage caps, platform support, and upgrade pressure.
 
-When we say a free tool is a good alternative, we mean it. And when it isn't — when the free version is too limited, too buggy, or missing something critical — we say that too.
+When a free tool is a good alternative, we explain why. When it is too limited, too narrow, or missing something critical, we say that too.
 
-## How we test software
+## How we evaluate software
 
-For every comparison, we:
+For every comparison, we review:
 
-- Download and install the free version of every tool we cover
-- Use it for the same tasks the paid tool is commonly used for (photo editing, video editing, writing, etc.)
-- Test on the platforms it claims to support
-- Note what's genuinely free versus what requires an upgrade
-- Re-test tools when we receive reports that something has changed
+- What is genuinely free versus what requires an upgrade
+- The practical limits that affect normal use
+- Platform support, export options, storage, usage caps, and account requirements
+- Where a free option can replace a paid tool, and where it cannot
+- Reader corrections and material pricing or feature changes
 
-Our reviews are updated when pricing or features change significantly. If you find an outdated review, please let us know.
+Our reviews are updated when pricing or features change significantly. If you find outdated information, please let us know.
 
 ## How we handle corrections and updates
 

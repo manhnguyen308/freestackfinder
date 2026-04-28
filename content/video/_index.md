@@ -1,6 +1,6 @@
 ---
 title: "Free Video & Recording Software Alternatives"
-description: "Free alternatives to Adobe Premiere Pro, Final Cut Pro, Loom, Zoom, and other video tools — tested by real users."
+description: "Free alternatives to Adobe Premiere Pro, Final Cut Pro, Loom, Zoom, and other video tools — compared by free-plan limits and workflow fit."
 ---
 
 This section covers free alternatives for every video workflow: editing, screen recording, video calling, and content creation. Each comparison documents the limits that usually surface too late — export caps, watermarks, time limits, and codec support.

@@ -2,7 +2,7 @@
 
 Internal operations file. Not a public page. Do not reference this in site content or commit messages.
 
-**Last updated:** 2026-04-27 (Day 49b)
+**Last updated:** 2026-04-28 (Day 50b)
 **Last verified:** 2026-04-27 (Day 49a) — all 15 "Needs verification" rows resolved
 **Active programs:** NordVPN, NordPass, Amazon Associates US
 **Unavailable programs (CTA placement deferred):** Canva, Grammarly — not currently available for placement; do not add CTAs
@@ -54,6 +54,7 @@ See `docs/AFFILIATE-GUIDELINES.md` for CTA format, placement rules, and program 
 | `free-social-media-scheduling` | Business | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `free-resume-builders` | Business | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `free-visio-alternatives` | Business | None identified | Not placed | N/A | Deferred | No active program fits naturally |
+| `free-web-analytics` | Business | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `free-spreadsheet-alternatives` | Business | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `premiere-pro-alternatives` | Video | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `zoom-alternatives` | Video | None identified | Not placed | N/A | Deferred | No active program fits naturally |

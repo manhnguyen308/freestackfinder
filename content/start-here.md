@@ -13,7 +13,7 @@ author: "FreeStackFinder Team"
 
 # Start Here
 
-<p class="page-meta">Every guide on this site covers tools we've actually tested. Pick the situation below that best describes you.</p>
+<p class="page-meta">Every guide on this site focuses on usable free plans, practical limits, and clear tradeoffs. Pick the situation below that best describes you.</p>
 
 </div>
 

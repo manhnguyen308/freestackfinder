@@ -12,9 +12,9 @@ Read this before starting any feature work. Update it when a feature ships or wh
 
 The site is a Hugo static site hosted on Cloudflare Pages. All features must be compatible with a static build — no server-side logic, no database, no user accounts. JavaScript is used sparingly for interactivity.
 
-**Current state (Day 49d):**
-- 38 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
-- Business silo: 11/13 — two articles remaining (`free-web-analytics`, `free-hr-software`)
+**Current state (Day 50b):**
+- 39 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
+- Business silo: 12/13 — one article remaining (`free-hr-software`)
 - All Phase 1–4 features complete; full QA tooling suite in place
 - Validators available: `scripts/validate_front_matter.py`, `scripts/check_internal_links.py`, `scripts/check_feature_images.py`
 - Canva and Grammarly affiliate programs: Under review — do not mark Active or add CTAs
@@ -87,7 +87,7 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 **Purpose:** Finish the remaining core content clusters and grow toward 50 useful articles without sacrificing quality.
 
 **Possible work:**
-- Complete Business silo from 11/13 to 13/13: publish `free-web-analytics` then `free-hr-software`
+- Complete Business silo from 12/13 to 13/13: publish `free-hr-software`
 - Continue Later queue — one article per publishing day only
 - Strengthen internal links from new articles to existing hubs on publish day
 - Run validators (`validate_front_matter.py`, `check_internal_links.py`, `check_feature_images.py`) before every publish
@@ -170,14 +170,14 @@ Do not build these until traffic, income, or operational complexity clearly dema
 - **User accounts or saved lists** — requires backend and authentication; not justified at current traffic
 - **User ratings or reviews** — community features require moderation and a user base; not yet relevant
 - **Dynamic database-backed tool directory** — a filterable live database is a different product class from an editorial comparison site; premature for current scale
-- **Heavy JavaScript search framework** (Algolia, Fuse.js, Lunr) — current vanilla JS search handles 38 articles comfortably; revisit only if article count exceeds 150+
+- **Heavy JavaScript search framework** (Algolia, Fuse.js, Lunr) — current vanilla JS search handles 39 articles comfortably; revisit only if article count exceeds 150+
 - **Newsletter backend** — valuable but requires a publishing plan and consistent send cadence; build infrastructure only after the content plan is confirmed
 - **Complex affiliate dashboards** — a flat Markdown tracker is sufficient at current affiliate scale
 - **Comparison app with dynamic filters** — editorial comparison tables serve the same reader intent without the complexity
 - **Pagination redesign** — current paginator behavior is correct; do not rebuild unless a specific bug emerges
 - **Dark/light mode toggle** — the site already uses a dark-by-default design; a toggle adds complexity without clear reader benefit at current traffic
 - **Sticky article table of contents** — defer until articles regularly exceed 2,500 words and reader need is clear
-- **Affiliate CTA shortcode** — 3–4 inline CTA variants across 38 articles is manageable; build only if duplication becomes genuinely painful
+- **Affiliate CTA shortcode** — 3–4 inline CTA variants across 39 articles is manageable; build only if duplication becomes genuinely painful
 
 ---
 
@@ -197,18 +197,18 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Next publishing day: publish `free-web-analytics` (Business silo — 2 remaining to 13/13)**
+**Next publishing day: publish `free-hr-software` (Business silo — 1 remaining to 13/13)**
 
 Same-day option if no article: add lightweight stale-content checker (Phase 9) flagging articles with `lastmod` older than 6 months.
 
-All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 38 articles; the Business silo is at 11/13. Priority article is `free-web-analytics` — relevant to all site operators, high search volume, strong comparison format fit.
+All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 39 articles; the Business silo is at 12/13. Priority article is `free-hr-software` to complete the Business cluster.
 
 **Same day / non-content work:**
 - Use `docs/GSC-NOTES.md` only if there is new GSC data worth recording
 - Use `docs/AFFILIATE-TRACKER.md` only if an approved affiliate link has changed
 - Do not add Canva or Grammarly CTAs until program approval is confirmed
 - Do not build sticky article ToC unless article length and reader need clearly justify it
-- Phase 9 validation runner is complete (`scripts/run_quality_checks.py`); next Phase 9 candidate is article-count-by-silo report or stale-content checker
+- Phase 9 validation runner and article count report are complete; next Phase 9 candidate is a stale-content checker
 
 ---
 

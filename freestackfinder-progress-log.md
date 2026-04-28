@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-28 (Day 50a)
-**Current day:** 50a
+**Last updated:** 2026-04-28 (Day 50b)
+**Current day:** 50b
 
 ## Current state
 
@@ -10,8 +10,18 @@
 - Silos: Productivity 9/9 ✓ · Creative 6/8 · Business 12/13 · Security 4/6 · Cloud 4/7 · Video 4/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
-- Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
-- Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+- Next content: Business silo — `free-hr-software`
+- Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 50b — review pass after recent site updates
+
+- Reviewed recent Business/Productivity content, Start Here, category hub top-picks, search/index changes, related guides, affiliate docs, roadmap docs, and QA scripts
+- Issues found: stale feature roadmap counts after `free-web-analytics`, affiliate tracker missing `free-web-analytics`, unsupported public "tested" wording, and missing curated related-guide coverage for the new analytics article
+- Fixes made: updated public trust wording to "compare/evaluate" language, added `free-web-analytics` to curated related guides and affiliate tracker, refreshed `FEATURE-STRATEGY.md` counts/next recommendation, and corrected current tracker next-content/feature notes
+- Validation: git diff --check clean; QA runner clean with known warnings only; Hugo build passed; article count confirmed at 39 total and Business 12/13
+- Follow-up: publish `free-hr-software` on the next content day; keep Canva/Grammarly deferred until approval is confirmed; update NordPass only if an approved tracked URL is available
 
 ---
 

@@ -1,9 +1,9 @@
 ---
 title: "Free Creative & Design Software Alternatives"
-description: "The best free alternatives to Photoshop, Illustrator, Canva, and other creative tools — tested and honestly reviewed."
+description: "The best free alternatives to Photoshop, Illustrator, Canva, and other creative tools — compared with honest free-plan limits."
 ---
 
-This section covers free alternatives to every major design and photo-editing tool — from Photoshop and Illustrator to Canva and InDesign. Every comparison is tested for real tasks and notes the export limits, watermark rules, and template caps that matter most.
+This section covers free alternatives to every major design and photo-editing tool — from Photoshop and Illustrator to Canva and InDesign. Every comparison focuses on the export limits, watermark rules, and template caps that matter most.
 
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>

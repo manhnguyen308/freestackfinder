@@ -1,6 +1,6 @@
 ---
 title: "Free Productivity Software Alternatives"
-description: "Free alternatives to Microsoft Office, Notion, Grammarly, Slack, and more — tested and compared honestly."
+description: "Free alternatives to Microsoft Office, Notion, Grammarly, Slack, and more — compared with honest free-plan limits."
 ---
 
 Stop paying monthly fees for productivity tools you might not need. This section compares free alternatives to the most popular office suites, note-taking apps, writing assistants, and PDF tools.
