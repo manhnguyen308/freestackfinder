@@ -1,17 +1,32 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-28 (Day 50c)
-**Current day:** 50c
+**Last updated:** 2026-04-28 (Day 51a)
+**Current day:** 51a
 
 ## Current state
 
-- Total articles: 39
-- Silos: Productivity 9/9 ✓ · Creative 6/8 · Business 12/13 · Security 4/6 · Cloud 4/7 · Video 4/7
+- Total articles: 40
+- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 4/6 · Cloud 4/7 · Video 4/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
-- Next content: Business silo — `free-hr-software`
+- Next content: Creative or Cloud silo — see CONTENT-STRATEGY.md for next unpublished article
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 51a — publish free-hr-software
+
+- Published `content/business/free-hr-software.md`: "Best Free HR Software in 2026 — Simple People Ops Without the Price Tag"
+- Covers: Zoho People (free up to 5 employees), OrangeHRM Community Edition (self-hosted, no user cap), Homebase (scheduling/time tracking, 1 location free), Bitrix24 (HR features in free workspace), Google Sheets (DIY fallback)
+- Clearly distinguishes HRIS tools, scheduling/time tracking, and spreadsheet-based options; payroll and compliance caveats throughout
+- Created `scripts/images/generate_free_hr_software.py` and generated `static/img/free-hr-software.webp` (27 KB, 1200×630, Business accent #10b981)
+- Internal links from new article: free-project-management-software, free-time-tracking-software, free-crm-software, free-spreadsheet-alternatives, free-invoicing-software, free-accounting-software
+- Backlinks added: free-time-tracking-software verdict section → free-hr-software; free-project-management-software verdict section → free-hr-software
+- `CONTENT-STRATEGY.md` updated: free-hr-software marked ✓ Published
+- Article count: 39 → 40 · Business silo: 12/13 → 13/13 ✓
+- Canva and Grammarly remain under review / needs approval
+- Build: PASSED · 388 pages · 0 errors · 0 warnings · front matter valid · image resolves · internal links resolve · QA runner 3 passed · 0 failed
 
 ---
 

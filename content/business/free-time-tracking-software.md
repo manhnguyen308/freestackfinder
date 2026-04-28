@@ -198,3 +198,5 @@ For teams running multiple concurrent projects, Clockify's unlimited free plan s
 ## Our verdict
 
 **Clockify** is the default free time tracking recommendation for most users — unlimited users, unlimited projects, and no expiry. **Toggl Track** is the better individual-use pick for anyone who values interface simplicity over team features. **TimeCamp** earns a spot for teams that want automatic time capture and basic invoicing in one tool without paying for both. The paid tiers add billing rates and advanced reporting — genuinely useful at scale, but not required for most freelancers and small teams tracking hours in 2026.
+
+If you are also managing employee schedules and leave alongside time tracking, see our [free HR software guide](/business/free-hr-software/) — tools like Homebase combine scheduling and time tracking in one free plan.
