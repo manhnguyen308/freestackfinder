@@ -29,7 +29,7 @@ sudo apt install hugo
 Verify installation:
 ```bash
 hugo version
-# Should show: hugo v0.128.0+ ...
+# Should show: hugo v0.160.1+ ...
 ```
 
 ---
@@ -87,7 +87,7 @@ hugo --minify
      - **Framework preset:** Hugo
      - **Build command:** `hugo --minify`
      - **Build output directory:** `public`
-     - **Environment variable:** `HUGO_VERSION` = `0.128.0`
+     - **Environment variable:** `HUGO_VERSION` = `0.160.1`
    - Click Save and Deploy
 
 3. **Add custom domain:**

@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-28 (Day 50b)
-**Current day:** 50b
+**Last updated:** 2026-04-28 (Day 50c)
+**Current day:** 50c
 
 ## Current state
 
@@ -12,6 +12,17 @@
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-hr-software`
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 50c — Hugo 0.160.1 migration
+
+- Hugo Extended 0.160.1 confirmed as system version; build already passes cleanly
+- No template, config, shortcode, or content changes required — zero deprecation warnings
+- `README.md` updated: `HUGO_VERSION` env var and version check comment changed from `0.128.0` → `0.160.1`
+- `docs/BUILD-VALIDATION.md` created: records required Hugo version, QA script usage, and deployment checklist
+- Validation: `hugo --minify` clean (373 pages, 0 errors, 0 warnings); QA runner 3 passed · 0 failed; article count confirmed at 39; Canva/Grammarly remain under review
+- Cloudflare Pages: update `HUGO_VERSION` env var in dashboard to `0.160.1`
 
 ---
 
