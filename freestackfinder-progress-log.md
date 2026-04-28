@@ -1,17 +1,32 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-27 (Day 49f)
-**Current day:** 49f
+**Last updated:** 2026-04-28 (Day 50a)
+**Current day:** 50a
 
 ## Current state
 
-- Total articles: 38
-- Silos: Productivity 9/9 ✓ · Creative 6/8 · Business 11/13 · Security 4/6 · Cloud 4/7 · Video 4/7
+- Total articles: 39
+- Silos: Productivity 9/9 ✓ · Creative 6/8 · Business 12/13 · Security 4/6 · Cloud 4/7 · Video 4/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-15): 2,220 impressions · 5 clicks · avg position 54.4 · CTR 0.2%
 - Next content: Business silo — `free-website-builders`, `free-web-analytics`, or `free-hr-software`
 - Next feature: Phase 2 complete; see `FEATURE-STRATEGY.md` for Phase 3/4 options
+
+---
+
+### Day 50a — publish free-web-analytics
+
+- Published `content/business/free-web-analytics.md`: "Best Free Web Analytics Tools in 2026"
+- Covers: Google Analytics 4, Google Search Console, Microsoft Clarity, Umami (self-hosted), Matomo On-Premise
+- Clearly distinguishes traffic analytics, search performance tools, privacy-friendly analytics, and self-hosted options
+- Includes comparison table, tool-by-tool breakdown, decision guide (when free is enough vs. when to pay), and product analytics vs. website analytics note
+- Created `scripts/images/generate_free_web_analytics.py` and generated `static/img/free-web-analytics.webp` (32 KB, 1200×630, Business accent #10b981)
+- Internal links added to free-website-builders, free-project-management-software, free-crm-software
+- `CONTENT-STRATEGY.md` updated: free-web-analytics marked ✓ Published
+- Article count: 38 → 39 · Business silo: 11/13 → 12/13
+- Canva and Grammarly remain under review / needs approval
+- Build: PASSED · front matter valid · image resolves · internal links resolve
 
 ---
 
