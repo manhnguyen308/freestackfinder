@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-29 (Day 52a)
-**Current day:** 52a
+**Last updated:** 2026-04-29 (Day 52b)
+**Current day:** 52b
 
 ## Current state
 
@@ -12,6 +12,14 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative or Cloud silo — see CONTENT-STRATEGY.md for next unpublished article
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 52b — repository hygiene cleanup
+
+- Removed tracked Python bytecode from version control and added general Python cache ignore rules
+- No article files or public output changed; article count remains 40
+- Validation: git status reviewed, diff check clean, QA runner passed with counts
 
 ---
 

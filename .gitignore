@@ -3,5 +3,6 @@
 public/
 resources/_gen/
 .hugo_build.lock
-scripts/images/__pycache__/
-scripts/images/__pycache__/*
+__pycache__/
+*.py[cod]
+*$py.class
