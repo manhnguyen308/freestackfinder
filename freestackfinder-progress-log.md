@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-29 (Day 52b)
-**Current day:** 52b
+**Last updated:** 2026-04-29 (Day 52c)
+**Current day:** 52c
 
 ## Current state
 
@@ -12,6 +12,16 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative or Cloud silo — see CONTENT-STRATEGY.md for next unpublished article
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 52c — GSC refresh verification pass
+
+- Verified all 8 GSC target pages from Day 52a (Microsoft Office, Dropbox, Slack, Grammarly, Illustrator, free backup software, QuickBooks, free project management) have improvements in place; all carry `lastmod: "2026-04-28"`
+- Same 2026-04-28 GSC snapshot confirmed recorded in `docs/GSC-NOTES.md`; no new data requiring action
+- Fixed stale article count in `docs/BUILD-VALIDATION.md`: 39 → 40
+- No new content published; article count remains 40; Canva and Grammarly remain under review / needs approval
+- Validation: git diff --check clean · QA runner 3 passed · 0 failed · Hugo build 388 pages · 0 errors
 
 ---
 
