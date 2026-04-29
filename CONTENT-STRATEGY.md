@@ -73,7 +73,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 2 | Best Free Dropbox Alternatives in 2026 | dropbox-alternatives | ✓ Published |
 | 3 | Best Free Email Services in 2026 | free-email-service | ✓ Published |
 | 4 | Best Free Backup Software in 2026 | free-backup-software | ✓ Published |
-| 5 | Best Free Email Signature Makers in 2026 | free-email-signature | Later |
+| 5 | Best Free Email Signature Makers in 2026 | free-email-signature | ✓ Published |
 | 6 | Best Free Team Email Tools in 2026 | free-team-email | Later |
 | 7 | Best Free AI Email Tools in 2026 | free-ai-email-tools | Later |
 

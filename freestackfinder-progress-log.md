@@ -1,17 +1,32 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-29 (Day 52c)
-**Current day:** 52c
+**Last updated:** 2026-04-30 (Day 53a)
+**Current day:** 53a
 
 ## Current state
 
-- Total articles: 40
-- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 4/6 · Cloud 4/7 · Video 4/7
+- Total articles: 41
+- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 4/6 · Cloud 5/7 · Video 4/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
-- Next content: Creative or Cloud silo — see CONTENT-STRATEGY.md for next unpublished article
+- Next content: Cloud or Creative silo — see CONTENT-STRATEGY.md for next unpublished article
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 53a — publish free-email-signature
+
+- Published `content/cloud/free-email-signature.md`: "Best Free Email Signature Makers in 2026 — Clean, Professional, No Design Skills Needed"
+- Covers: HubSpot Email Signature Generator (best free, no account, no branding), MySignature (1 saved signature, Gmail/Outlook install), WiseStamp (established, basic free plan), Newoldstamp (modern design, free plan), Signature Maker (minimal, branding-free)
+- Includes comparison table shortcode and decision guide on when to pay
+- Created `scripts/images/generate_free_email_signature.py` and generated `static/img/free-email-signature.webp` (32 KB, 1200×630, Cloud accent #3b82f6)
+- Internal links from new article: free-email-service, free-cloud-storage-comparison, free-crm-software
+- Backlink added: free-email-service verdict section → free-email-signature
+- `CONTENT-STRATEGY.md` updated: free-email-signature marked ✓ Published
+- Article count: 40 → 41 · Cloud silo: 4/7 → 5/7
+- Canva and Grammarly remain under review / needs approval
+- Build: see validation below
 
 ---
 
