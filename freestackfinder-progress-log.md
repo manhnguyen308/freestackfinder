@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-04-30 (Day 53a)
-**Current day:** 53a
+**Last updated:** 2026-04-30 (Day 53b)
+**Current day:** 53b
 
 ## Current state
 
@@ -12,6 +12,21 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Cloud or Creative silo — see CONTENT-STRATEGY.md for next unpublished article
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+
+---
+
+### Day 53b — deep review recent site updates
+
+- Reviewed recent Cloud/Business/Productivity content, GSC target pages, Start Here, category hubs, search index/card behavior, schema/head partials, related guides, affiliate/disclosure docs, validation docs, and QA/reporting scripts
+- Fixed future-date validation gap: front matter validation now blocks live articles dated after the UTC build date; article count reporting now lists future-dated files that normal Hugo builds would exclude; build docs and run rules now require confirming new article output in `public/<silo>/<slug>/index.html`
+- Corrected stale documentation/tracker state: `docs/BUILD-VALIDATION.md` now shows 41 articles, `FEATURE-STRATEGY.md` reflects Business 13/13 and Cloud 5/7, and affiliate tracker rows now include `free-hr-software` and `free-email-signature`
+- Removed an existing Grammarly CTA from `free-note-taking-apps`; Canva and Grammarly remain Under review / Needs approval, not Active; public disclosure now lists only currently used affiliate programs
+- Added curated related-guide coverage for `free-hr-software` and `free-email-signature`; related-guide map now covers all 41 article slugs with no self-links or missing targets
+- Softened unsupported public testing language and trimmed overlong meta descriptions; front matter validator now reports 0 description warnings
+- No new article published; no slugs, URLs, aliases, or generated output were changed
+- Validation: `python3 scripts/run_quality_checks.py --with-counts` passed 3/3; 41 articles counted; 41 images verified; 0 broken internal links; only the 3 known image orphans remain
+- Hugo build: Hugo Extended 0.160.1 exact binary passed with 399 pages, 17 paginator pages, 173 aliases, 0 errors; `free-email-signature` and `free-hr-software` both appear in built output and search index
+- Follow-up: keep Cloud or Creative as the next content silo; update NordPass only if an approved tracked URL becomes available; keep Canva/Grammarly placements on hold until approval is confirmed
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: "Best Free Two-Factor Authentication Apps in 2026 — Compared and Ranked"
-description: "Google Authenticator lost your codes when you got a new phone. Aegis and 2FAS are free, open-source alternatives with encrypted backups. Here's the best free 2FA app for Android, iPhone, and every use case."
+description: "Compare free two-factor authentication apps for Android, iPhone, backups, privacy, and account security, including Aegis, 2FAS, and Authy."
 date: "2026-04-10"
-lastmod: "2026-04-20"
+lastmod: "2026-04-30"
 draft: false
 weight: 76
 slug: "best-free-2fa-apps"

@@ -1,8 +1,8 @@
 ---
-title: "Best Free AI Writing Tools in 2026 — Tested and Ranked"
-description: "ChatGPT isn't the only free AI writing tool worth using. We tested 5 free options for drafting, editing, and copy — here's what actually works without a subscription."
+title: "Best Free Writing Tools in 2026 — Drafting and Editing Without Paying"
+description: "ChatGPT isn't the only free writing tool worth using. Compare free options for drafting, editing, and copy without a subscription."
 date: "2026-04-20"
-lastmod: "2026-04-21"
+lastmod: "2026-04-30"
 draft: false
 weight: 78
 slug: "free-ai-writing-tools"

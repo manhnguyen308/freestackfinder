@@ -11,10 +11,9 @@ Scans articles under content/<silo>/ only (not utility pages).
 Exits with code 1 if errors are found, 0 if clean or warnings only.
 """
 
-import os
 import re
 import sys
-from datetime import date
+from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -32,7 +31,7 @@ RE_QUOTED_DATE = re.compile(r'^"(\d{4}-\d{2}-\d{2})"$')
 RE_BARE_DATE = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 RE_IMAGE_PATH = re.compile(r'^"/img/[^"]+\.webp"$')
 
-TODAY = date.today()
+BUILD_DATE = datetime.now(timezone.utc).date()
 
 
 def parse_front_matter(text):
@@ -121,9 +120,14 @@ def check_file(path):
         if RE_QUOTED_DATE.match(raw):
             date_str = raw.strip('"')
             try:
-                parsed = date.fromisoformat(date_str)
-                if df == "date" and parsed > TODAY:
-                    errors.append(f"{df}: future date {date_str} (today is {TODAY})")
+                parsed = datetime.strptime(date_str, "%Y-%m-%d").date()
+                if parsed > BUILD_DATE:
+                    if df == "date":
+                        errors.append(
+                            f"{df}: future date {date_str} (UTC build date is {BUILD_DATE}; Hugo excludes future-dated content by default)"
+                        )
+                    else:
+                        errors.append(f"{df}: future date {date_str} (UTC build date is {BUILD_DATE})")
             except ValueError:
                 errors.append(f"{df}: unparseable date value '{date_str}'")
         elif RE_BARE_DATE.match(raw):

@@ -1,6 +1,6 @@
 ---
 title: "Best Free Email Signature Makers in 2026 — Clean, Professional, No Design Skills Needed"
-description: "The best free email signature makers let you build a polished, professional signature in minutes. Here's what each free plan actually gives you — and which one fits your workflow."
+description: "Compare free email signature makers for Gmail, Outlook, and Apple Mail, including HubSpot, MySignature, WiseStamp, and Signature Maker."
 date: "2026-04-30"
 lastmod: "2026-04-30"
 draft: false

@@ -1,8 +1,8 @@
 ---
-title: "Best Free Video Editing Software in 2026 - Tested and Ranked"
+title: "Best Free Video Editing Software in 2026 — Editors Without Watermarks or Trials"
 description: "We refreshed this guide around real free-tier tradeoffs: format limits, watermark behavior, beginner fit, and what each editor is actually good at."
 date: "2026-03-17"
-lastmod: "2026-04-25"
+lastmod: "2026-04-30"
 draft: false
 slug: "free-video-editing-software"
 categories: ["Video"]

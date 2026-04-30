@@ -1,8 +1,8 @@
 ---
 title: "Best Free Cloud Storage in 2026 - Ranked by Actual Free Space"
-description: "We refreshed this guide against current provider pages. Free storage still matters, but shared quotas, upload limits, transfer caps, and privacy tradeoffs matter just as much."
+description: "Compare free cloud storage providers by space, shared quotas, upload limits, transfer caps, privacy, and everyday fit."
 date: "2026-03-16"
-lastmod: "2026-04-25"
+lastmod: "2026-04-30"
 draft: false
 slug: "free-cloud-storage-comparison"
 categories: ["Cloud"]

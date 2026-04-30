@@ -1,8 +1,8 @@
 ---
-title: "Best Free Alternatives to Zoom in 2026 — Tested and Compared"
-description: "Zoom's free plan limits group calls to 40 minutes. We tested 5 free alternatives that remove that limit — here's which ones actually work for teams and solo users."
+title: "Best Free Alternatives to Zoom in 2026 — Video Calls Without the 40-Minute Limit"
+description: "Zoom's free plan limits group calls to 40 minutes. Compare free alternatives that avoid that limit for teams, classes, and solo users."
 date: "2026-03-21"
-lastmod: "2026-03-21"
+lastmod: "2026-04-30"
 draft: false
 slug: "zoom-alternatives"
 categories: ["Video"]

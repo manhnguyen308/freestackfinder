@@ -171,14 +171,13 @@ For clean affiliate URLs, use Hugo's redirect system:
 
 Create `/static/_redirects` (Cloudflare Pages format):
 ```
-/go/canva-pro      https://www.canva.com/your-affiliate-link    302
-/go/grammarly      https://www.grammarly.com/your-link          302
+/go/approved-tool  https://example.com/approved-affiliate-link  302
 /go/nordvpn        https://nordvpn.com/your-link                302
 ```
 
 Then in articles, link like this:
 ```markdown
-[Try Canva Pro →](/go/canva-pro)
+[Try the approved tool →](/go/approved-tool)
 ```
 
 Benefits:

@@ -1,8 +1,8 @@
 ---
 title: "Best Free Screen Recording Software in 2026 — No Watermark, No Time Limit"
-description: "Loom's free plan now limits recordings to 5 minutes. OBS Studio records unlimited, watermark-free, at no cost. Here's how every free screen recorder compares — and which one is right for your use case."
+description: "Compare free screen recording software with no watermark or time limit, including OBS Studio, ShareX, QuickTime, Xbox Game Bar, and Loom."
 date: "2026-04-11"
-lastmod: "2026-04-20"
+lastmod: "2026-04-30"
 draft: false
 weight: 62
 slug: "free-screen-recording-software"

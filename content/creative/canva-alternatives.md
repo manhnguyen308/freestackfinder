@@ -1,8 +1,8 @@
 ---
-title: "Best Free Alternatives to Canva in 2026 - Tested and Ranked"
+title: "Best Free Alternatives to Canva in 2026 — Design Tools Without the Pro Plan"
 description: "Looking for a free Canva alternative? We refreshed the list around current free-plan reality, stronger tradeoffs, and what each tool actually does well."
 date: "2026-03-19"
-lastmod: "2026-04-25"
+lastmod: "2026-04-30"
 draft: false
 weight: 85
 slug: "canva-alternatives"

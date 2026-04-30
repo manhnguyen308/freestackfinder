@@ -31,7 +31,7 @@ Here is our firm policy: **affiliate relationships never determine our recommend
 
 If a free tool genuinely works well, we will recommend it — even if we earn nothing from that recommendation. We turn away higher-paying affiliate programs when we don't believe the product is worth recommending.
 
-We have declined to feature tools specifically because their paid affiliates pay well but we found the tools themselves disappointing. Our testing process and recommendations are independent.
+We may decline to feature tools when the product does not fit the reader need, even if an affiliate program exists. Our comparison process and recommendations are independent.
 
 If we recommend a paid tool or the paid version of a free tool, it's because we believe it's the right choice for a specific use case — not because of commission rates.
 
@@ -41,8 +41,6 @@ We currently participate in the following affiliate programs:
 
 - **Amazon Associates** — for hardware and physical product links (webcams, security keys, storage drives, and similar)
 - **NordVPN and NordPass affiliate programs** — Nord Security's affiliate programs for VPN and password manager recommendations
-- **Canva affiliate program** — for Canva Pro recommendations in design articles
-- **Grammarly affiliate program** — for Grammarly Premium recommendations in writing tool articles
 
 This list reflects programs currently in use and is updated when our affiliate relationships change. Where we earn from a specific recommendation, we aim to note it clearly in the article.
 

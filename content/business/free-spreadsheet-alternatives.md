@@ -1,8 +1,8 @@
 ---
 title: "Best Free Spreadsheet Alternatives in 2026 — Excel Without the Subscription"
-description: "Microsoft Excel costs $100/year. Google Sheets, LibreOffice Calc, and Zoho Sheet handle most of what Excel does — for free. Here's the best free spreadsheet for your workflow."
+description: "Compare free spreadsheet alternatives to Excel, including Google Sheets, LibreOffice Calc, Zoho Sheet, and OnlyOffice."
 date: "2026-04-23"
-lastmod: "2026-04-24"
+lastmod: "2026-04-30"
 draft: false
 weight: 78
 slug: "free-spreadsheet-alternatives"

@@ -52,6 +52,8 @@ grep -RIn "exact-term" content/business --include="*.md" | head -20
 For new article publishing:
 - Use today's actual date for `date` and `lastmod`
 - Live published articles must not use future dates
+- Hugo excludes future-dated content from normal production builds by default
+- Before deploy, confirm any newly published article appears in `public/<silo>/<slug>/index.html` after `hugo --minify`
 - Duplicate dates are allowed when multiple articles publish on the same day
 - Do not inflate article dates into the future just to keep dates unique
 - Keep `date` and `lastmod` as quoted strings in `YYYY-MM-DD` format

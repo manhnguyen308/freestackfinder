@@ -1,8 +1,8 @@
 ---
-title: "Best Free Antivirus Software in 2026 — Tested and Compared"
-description: "Windows Defender, built into Windows 11, scores comparably to paid antivirus in independent lab tests. Here's how every free antivirus option compares — and why you probably don't need to pay."
+title: "Best Free Antivirus Software in 2026 — Independent Lab Results and Free Plan Limits"
+description: "Compare free antivirus software for Windows and Mac, including Windows Defender, Malwarebytes Free, Avast, AVG, and Bitdefender Free."
 date: "2026-04-09"
-lastmod: "2026-04-23"
+lastmod: "2026-04-30"
 draft: false
 weight: 38
 slug: "free-antivirus-software"

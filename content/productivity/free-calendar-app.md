@@ -1,8 +1,8 @@
 ---
-title: "Best Free Calendar Apps in 2026 — Tested for Real Scheduling"
-description: "The best free calendar app isn't always Google Calendar. We tested 5 free options for personal planning, work scheduling, and team coordination."
+title: "Best Free Calendar Apps in 2026 — Personal, Work, and Team Scheduling"
+description: "The best free calendar app isn't always Google Calendar. Compare free options for personal planning, work scheduling, and team coordination."
 date: "2026-04-22"
-lastmod: "2026-04-22"
+lastmod: "2026-04-30"
 draft: false
 weight: 74
 slug: "free-calendar-app"

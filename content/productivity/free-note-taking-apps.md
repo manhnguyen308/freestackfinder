@@ -1,8 +1,8 @@
 ---
 title: "Best Free Note-Taking Apps in 2026 — Simple Beats Complex for Most People"
-description: "Notion and Obsidian are overkill if you just want to capture ideas. Google Keep, Standard Notes, and Simplenote do the job faster with zero setup. Here's what actually works."
+description: "Compare free note-taking apps for quick capture, private notes, markdown writing, and structured workspaces, including Keep, Apple Notes, and Notion."
 date: "2026-04-14"
-lastmod: "2026-04-24"
+lastmod: "2026-04-30"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"
@@ -209,16 +209,6 @@ For a full comparison of Notion alternatives including Obsidian, Logseq, and sel
 ## From notes to polished writing
 
 Note-taking is usually the first draft — capturing raw ideas before refining them into emails, documents, or blog posts. Once your thoughts are captured, tools like LanguageTool and ProWritingAid can help improve the grammar and clarity of that writing at no cost. If you work with writing professionally, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for the tools that handle the editing step. If those notes turn into longer reports, spreadsheets, or presentations, pair them with our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/). If your notes often become PDFs for sharing or distribution, see our [free PDF editor alternatives guide](/productivity/free-pdf-editor-alternatives/) for editing, annotating, and signing without a subscription.
-
-<div class="affiliate-cta">
-  <div class="affiliate-cta-content">
-    <p class="affiliate-cta-title">Turn rough notes into polished writing</p>
-    <p class="affiliate-cta-desc">Grammarly checks grammar, clarity, and tone as you write — in Google Docs, Gmail, your browser, and anywhere else you type. The free tier catches errors in real time across every platform.</p>
-    <a href="https://grammarly.com" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Try Grammarly free →</a>
-  </div>
-</div>
-
----
 
 ## Our verdict
 

@@ -1,8 +1,8 @@
 ---
-title: "Best Free Alternatives to Adobe Premiere Pro in 2026 - Tested and Ranked"
-description: "We refreshed this Premiere Pro alternatives guide around current free-tier reality: Resolve's real free limits, CapCut's watermark caveats, and the switching tradeoffs older roundup posts skip."
+title: "Best Free Alternatives to Adobe Premiere Pro in 2026 — Free Editors That Fit Real Workflows"
+description: "Compare free Premiere Pro alternatives for editing, color, captions, and creator workflows, including DaVinci Resolve, CapCut, and Kdenlive."
 date: "2026-03-25"
-lastmod: "2026-04-23"
+lastmod: "2026-04-30"
 draft: false
 weight: 52
 slug: "premiere-pro-alternatives"

@@ -1,8 +1,8 @@
 ---
 title: "Best Free Figma Alternatives in 2026 — Design Without a Subscription"
-description: "Penpot is completely free and open-source — no seat limits, no feature gates. Here's how every free Figma alternative compares for UI design, prototyping, and collaboration."
+description: "Compare free Figma alternatives for UI design, prototyping, collaboration, and open-source workflows, including Penpot and Lunacy."
 date: "2026-04-17"
-lastmod: "2026-04-17"
+lastmod: "2026-04-30"
 draft: false
 weight: 55
 slug: "figma-alternatives"

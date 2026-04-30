@@ -10,10 +10,12 @@ Usage:
 Flags:
     --with-build   Run Hugo build after QA checks (requires Hugo on PATH)
     --quiet        Suppress verbose child output; only show headers and summary
-    --with-counts  Print article count by silo report (informational only)
+    --with-counts  Print article count by silo report, including future-dated warnings
 
 Exit code is non-zero if any check or build fails.
-Article count mismatches do not affect exit code.
+Article count mismatches do not affect exit code. Future-dated live articles
+are blocked by the front matter validator because Hugo excludes them from
+normal production builds.
 Hugo build: run `hugo` from repo root. If Hugo is not on PATH, install it
 or run the build separately using the repo's documented build command.
 """
