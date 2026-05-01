@@ -75,7 +75,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 4 | Best Free Backup Software in 2026 | free-backup-software | ✓ Published |
 | 5 | Best Free Email Signature Makers in 2026 | free-email-signature | ✓ Published |
 | 6 | Best Free Team Email Tools in 2026 | free-team-email | ✓ Published |
-| 7 | Best Free AI Email Tools in 2026 | free-ai-email-tools | Later |
+| 7 | Best Free AI Email Tools in 2026 | free-ai-email-tools | ✓ Published |
 
 ### Video (target: 7 articles)
 

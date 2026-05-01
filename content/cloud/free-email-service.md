@@ -218,3 +218,5 @@ Neither model is wrong. The right choice depends on what you are storing in your
 Once you have your email set up, a professional signature makes every email you send work harder for you. See our guide to the [best free email signature makers](/cloud/free-email-signature/) for tools that generate polished HTML signatures with no account or design skills needed.
 
 If you need email for a small team — with shared access or multiple user accounts on one domain — see our [free team email guide](/cloud/free-team-email/) for what the free options actually cover in 2026.
+
+To speed up your daily email workflow with AI drafting and smart replies, our [best free AI email tools guide](/cloud/free-ai-email-tools/) covers what works on a free plan without installing anything you don't need.
