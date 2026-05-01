@@ -202,11 +202,11 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 ## Suggested Next Feature
 
-**Next publishing day: continue Cloud or Creative silo from `CONTENT-STRATEGY.md`.**
+**Next publishing day: continue Creative or Security silo from `CONTENT-STRATEGY.md`.**
 
 Same-day option if no article: add optional pre-publish checklist command or orphan-image cleanup listing from Phase 9.
 
-All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 42 articles; the Business silo is complete at 13/13. Cloud is at 6/7, Creative is at 6/8.
+All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 43 articles; the Business silo is complete at 13/13, Cloud is complete at 7/7, Creative is at 6/8, and Security is at 4/6.
 
 **Same day / non-content work:**
 - Use `docs/GSC-NOTES.md` only if there is new GSC data worth recording

@@ -38,6 +38,14 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Internal links: existing hub, related-guide, and contextual links already cover the priority pages; no mass backlinking added.
 - Follow-up: monitor the same pages after the next GSC data window; consider another small title/meta pass only if impressions rise and CTR remains below 1%.
 
+## 2026-05-02 weekly review notes
+
+- No fresh GSC export was available in the repo, so the 2026-04-28 snapshot remains the current baseline.
+- Rechecked the eight priority pages from the snapshot for title, description, first-screen clarity, and query fit; the prior CTR-focused updates still look aligned and did not need another title or description change.
+- Discovery follow-up: the two newest Cloud email guides were added to the curated related-guides map so email-service and email-workflow readers can move between the relevant Cloud pages more easily.
+- Site-name follow-up: manifest colors were aligned with the homepage head theme color after the recent site-name signal pass.
+- Follow-up: monitor the same high-impression pages after the next GSC data window before making another snippet change.
+
 ---
 
 ## Action rules

@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-01 (Day 55c)
-**Current day:** 55c
+**Last updated:** 2026-05-02 (Day 56a)
+**Current day:** 56a
 
 ## Current state
 
@@ -12,6 +12,18 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 56a — weekly site quality review
+
+- Weekly review date: 2026-05-02
+- Files inspected: required project runbook, tracker, feature/content strategy, GSC notes, build validation, affiliate guidelines/tracker; priority GSC pages across Productivity, Cloud, Creative, and Business; newest Cloud email guides; recent QA scripts; `layouts/partials/schema.html`, `layouts/partials/head.html`, `layouts/partials/related-guides.html`, `layouts/index.html`, `static/site.webmanifest`; homepage/About/disclaimer/category-hub signals
+- Issues found: `static/site.webmanifest` colors had drifted from the Day 55c theme-color note; homepage trust copy still made a stronger hands-on claim than the documented evaluation process supports; the two newest Cloud email guides were missing curated related-guide entries; `docs/BUILD-VALIDATION.md` and the feature roadmap still referenced a 42-article / incomplete-Cloud baseline
+- Fixes made: aligned manifest colors with the homepage head theme color; softened homepage trust copy to practical-limit checking; added curated related-guide coverage for the newest Cloud email pages and adjacent email guides; refreshed build-validation count and roadmap baseline; added a GSC notes entry for this review
+- Validation result: `git diff --check` clean; QA runner passed 3/3 with 43 articles, 43 images, 0 broken internal links, 0 stale articles; publish checklist passed for `cloud/free-ai-email-tools`; Hugo Extended 0.160.1 build passed cleanly; generated homepage confirms `og:site_name`, `application-name`, WebSite JSON-LD name/alternateName, Organization JSON-LD name, and canonical homepage URL
+- Guardrails confirmed: article count remains 43; no new article created; no content file, URL, slug, or alias changes; Canva remains Under review / Needs approval; Grammarly remains Under review / Needs approval; no affiliate links or CTAs added
+- Follow-up: next GSC action should wait for a fresh data window; local PATH `hugo` currently resolves to 0.161.1 and emits deprecation warnings, while the documented 0.160.1 target still builds cleanly with the pinned binary
 
 ---
 
