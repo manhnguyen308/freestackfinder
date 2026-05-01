@@ -12,10 +12,10 @@ Read this before starting any feature work. Update it when a feature ships or wh
 
 The site is a Hugo static site hosted on Cloudflare Pages. All features must be compatible with a static build — no server-side logic, no database, no user accounts. JavaScript is used sparingly for interactivity.
 
-**Current state (Day 54b):**
-- 42 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
+**Current state (Day 55b):**
+- 43 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
 - Business silo: 13/13 complete
-- Cloud silo: 6/7 — one article remaining
+- Cloud silo: 7/7 complete
 - All Phase 1–4 features complete; full QA tooling suite in place
 - Validators available: `scripts/validate_front_matter.py`, `scripts/check_internal_links.py`, `scripts/check_feature_images.py`
 - Reports available: `scripts/report_article_counts.py`, `scripts/report_stale_content.py`
@@ -76,6 +76,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 | Validation runner script | Day 49e | QA | `scripts/run_quality_checks.py` — runs all 3 QA scripts in sequence; `--with-build` and `--quiet` flags |
 | Article count by silo report | Day 49f | QA | `scripts/report_article_counts.py` — count by silo, target comparison, draft exclusion; `--with-counts` flag added to runner |
 | Stale content report | Day 54b | QA | `scripts/report_stale_content.py` — flags published articles with `lastmod` 183+ days old; `--with-stale` flag added to runner |
+| Pre-publish checklist | Day 55b | QA | `scripts/publish_checklist.py` — no-arg: prints 10-step checklist; with silo+slug: auto-verifies file, front matter, dates, image; exits non-zero on failures |
 
 ---
 
@@ -159,7 +160,7 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 - ~~Add a small article-count-by-silo report output to the runner~~ **Done — Day 49f** (`scripts/report_article_counts.py`; `--with-counts` flag in runner)
 - ~~Add a lightweight stale-content checker based on `lastmod` — flag articles not updated in 6+ months~~ **Done — Day 54b** (`scripts/report_stale_content.py`; `--with-stale` flag in runner)
 - Add orphan-image cleanup workflow: list candidates but do not delete automatically
-- Add optional pre-publish checklist command that prints the 5-step publish checklist from CLAUDE.md
+- ~~Add optional pre-publish checklist command that prints the 5-step publish checklist from CLAUDE.md~~ **Done — Day 55b** (`scripts/publish_checklist.py`; no-arg mode prints full checklist; `<silo> <slug>` mode auto-verifies file, front matter, date, and image then prints remaining manual steps)
 - Keep all scripts dependency-light (Python standard library where possible); no CI unless clearly justified
 
 **Do not do in this phase:** add external services, webhooks, APIs, or scheduled cloud jobs.
@@ -211,7 +212,7 @@ All Phase 1–4 features are complete. The full QA and ops tooling suite is in p
 - Use `docs/AFFILIATE-TRACKER.md` only if an approved affiliate link has changed
 - Do not add Canva or Grammarly CTAs until program approval is confirmed
 - Do not build sticky article ToC unless article length and reader need clearly justify it
-- Phase 9 validation runner, article count report, and stale content report are complete; next Phase 9 candidate is a small pre-publish checklist command or orphan-image cleanup listing
+- Phase 9 validation runner, article count report, stale content report, and pre-publish checklist are all complete; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
 

@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-01 (Day 55a)
-**Current day:** 55a
+**Last updated:** 2026-05-01 (Day 55b)
+**Current day:** 55b
 
 ## Current state
 
@@ -11,7 +11,19 @@
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
-- Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a small Phase 9 maintenance helper
+- Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 55b — pre-publish checklist script
+
+- Added `scripts/publish_checklist.py`: Phase 9 pre-publish checklist command
+- No-arg mode: prints the full 10-step publish checklist (file, front matter, draft flag, date, image, internal links, backlinks, QA, Hugo build, git)
+- Silo + slug mode (`python3 scripts/publish_checklist.py <silo> <slug>`): auto-verifies 7 file-level checks (file exists, required fields, draft:false, date valid, lastmod valid, image field format, image file size) then prints remaining manual steps; exits non-zero on failures
+- Updated `FEATURE-STRATEGY.md`: pre-publish checklist marked complete in Phase 9 archive; baseline updated to Day 55b / 43 articles; next Phase 9 candidate updated to orphan-image cleanup listing
+- No articles published; article count remains 43; no URLs, slugs, or public templates changed
+- Canva and Grammarly remain under review / needs approval
+- Validation: git diff --check clean · QA 3/3 passed · 43 articles · 43 images · 0 broken links · 0 stale articles · no Hugo rebuild needed (no public-facing files changed)
 
 ---
 
