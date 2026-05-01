@@ -12,7 +12,7 @@ Read this before starting any feature work. Update it when a feature ships or wh
 
 The site is a Hugo static site hosted on Cloudflare Pages. All features must be compatible with a static build — no server-side logic, no database, no user accounts. JavaScript is used sparingly for interactivity.
 
-**Current state (Day 55b):**
+**Current state (Day 55c):**
 - 43 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
 - Business silo: 13/13 complete
 - Cloud silo: 7/7 complete
@@ -77,6 +77,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 | Article count by silo report | Day 49f | QA | `scripts/report_article_counts.py` — count by silo, target comparison, draft exclusion; `--with-counts` flag added to runner |
 | Stale content report | Day 54b | QA | `scripts/report_stale_content.py` — flags published articles with `lastmod` 183+ days old; `--with-stale` flag added to runner |
 | Pre-publish checklist | Day 55b | QA | `scripts/publish_checklist.py` — no-arg: prints 10-step checklist; with silo+slug: auto-verifies file, front matter, dates, image; exits non-zero on failures |
+| Site name signal pass | Day 55c | SEO | WebSite JSON-LD: added `alternateName`, fixed trailing slash on `url`; added Organization JSON-LD on homepage; added `application-name` meta, favicon links, and manifest link to `head.html`; `site.webmanifest` `name` corrected to "Free Stack Finder" |
 
 ---
 

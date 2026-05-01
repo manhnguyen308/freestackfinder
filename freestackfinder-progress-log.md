@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-01 (Day 55b)
-**Current day:** 55b
+**Last updated:** 2026-05-01 (Day 55c)
+**Current day:** 55c
 
 ## Current state
 
@@ -12,6 +12,20 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 55c — site name signal pass
+
+- Issue observed: Google SERP was showing "freestackfinder.com" as the site label instead of "Free Stack Finder"
+- **`layouts/partials/schema.html`**: WebSite JSON-LD — fixed `url` to include trailing slash (`https://freestackfinder.com/`), added `alternateName` array (`["FreeStackFinder", "freestackfinder.com"]`); added Organization JSON-LD block on homepage with `name: "Free Stack Finder"`, `url`, and `contactPoint`
+- **`layouts/partials/head.html`**: added `application-name` meta (`Free Stack Finder`), `theme-color` meta, favicon link tags (ico, 16×16 png, 32×32 png), apple-touch-icon link, and `<link rel=manifest>` — all were missing despite favicon files existing in `static/`
+- **`static/site.webmanifest`**: updated `name` from "FreeStackFinder" to "Free Stack Finder"; updated `theme_color` and `background_color` to match site dark theme `#101116`
+- No article published; article count remains 43; no URLs, slugs, aliases, or routing changed
+- Canva and Grammarly remain under review / needs approval
+- Generated homepage signals confirmed: og:site_name ✓ · application-name ✓ · manifest ✓ · favicon.ico ✓ · WebSite JSON-LD name ✓ · alternateName ✓ · Organization JSON-LD name ✓ · canonical URL ✓
+- Note: Google may take days to weeks to recrawl and update the SERP site name display after these signals are live
+- Validation: git diff --check clean · QA 3/3 passed · 43 articles · 0 broken links · 0 stale · Hugo build clean
 
 ---
 

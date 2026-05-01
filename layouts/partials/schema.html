@@ -61,15 +61,29 @@
 
 {{ end }}
 
-{{/* Site-level WebSite schema — only on homepage */}}
+{{/* Site-level WebSite and Organization schema — only on homepage */}}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "WebSite",
   "name": "Free Stack Finder",
-  "url": "https://freestackfinder.com",
+  "alternateName": ["FreeStackFinder", "freestackfinder.com"],
+  "url": "https://freestackfinder.com/",
   "description": {{ .Site.Params.description | jsonify | safeJS }}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Free Stack Finder",
+  "url": "https://freestackfinder.com/",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "hello@freestackfinder.com",
+    "contactType": "editorial"
+  }
 }
 </script>
 {{ end }}
