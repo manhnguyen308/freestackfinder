@@ -12,12 +12,13 @@ Read this before starting any feature work. Update it when a feature ships or wh
 
 The site is a Hugo static site hosted on Cloudflare Pages. All features must be compatible with a static build — no server-side logic, no database, no user accounts. JavaScript is used sparingly for interactivity.
 
-**Current state (Day 53b):**
-- 41 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
+**Current state (Day 54b):**
+- 42 published articles across 6 silos (Productivity, Creative, Business, Security, Cloud, Video)
 - Business silo: 13/13 complete
-- Cloud silo: 5/7 — two articles remaining
+- Cloud silo: 6/7 — one article remaining
 - All Phase 1–4 features complete; full QA tooling suite in place
 - Validators available: `scripts/validate_front_matter.py`, `scripts/check_internal_links.py`, `scripts/check_feature_images.py`
+- Reports available: `scripts/report_article_counts.py`, `scripts/report_stale_content.py`
 - Canva and Grammarly affiliate programs: Under review — do not mark Active or add CTAs
 - NordPass: direct link in place; tracked URL follow-up pending if approved URL becomes available
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
@@ -74,6 +75,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 | GSC search performance notes template | Day 49c | Documentation | `docs/GSC-NOTES.md` — snapshot table, opportunity table, action rules |
 | Validation runner script | Day 49e | QA | `scripts/run_quality_checks.py` — runs all 3 QA scripts in sequence; `--with-build` and `--quiet` flags |
 | Article count by silo report | Day 49f | QA | `scripts/report_article_counts.py` — count by silo, target comparison, draft exclusion; `--with-counts` flag added to runner |
+| Stale content report | Day 54b | QA | `scripts/report_stale_content.py` — flags published articles with `lastmod` 183+ days old; `--with-stale` flag added to runner |
 
 ---
 
@@ -155,7 +157,7 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 **Possible work:**
 - ~~Add a single validation runner script (`scripts/run_quality_checks.py`)~~ **Done — Day 49e** (`scripts/run_quality_checks.py`; `--with-build`, `--quiet` flags)
 - ~~Add a small article-count-by-silo report output to the runner~~ **Done — Day 49f** (`scripts/report_article_counts.py`; `--with-counts` flag in runner)
-- Add a lightweight stale-content checker based on `lastmod` — flag articles not updated in 6+ months
+- ~~Add a lightweight stale-content checker based on `lastmod` — flag articles not updated in 6+ months~~ **Done — Day 54b** (`scripts/report_stale_content.py`; `--with-stale` flag in runner)
 - Add orphan-image cleanup workflow: list candidates but do not delete automatically
 - Add optional pre-publish checklist command that prints the 5-step publish checklist from CLAUDE.md
 - Keep all scripts dependency-light (Python standard library where possible); no CI unless clearly justified
@@ -200,16 +202,16 @@ Do not build a feature just because it seems like a good idea in isolation. Ever
 
 **Next publishing day: continue Cloud or Creative silo from `CONTENT-STRATEGY.md`.**
 
-Same-day option if no article: add lightweight stale-content checker (Phase 9) flagging articles with `lastmod` older than 6 months.
+Same-day option if no article: add optional pre-publish checklist command or orphan-image cleanup listing from Phase 9.
 
-All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 41 articles; the Business silo is complete at 13/13. Cloud is at 5/7, Creative is at 6/8.
+All Phase 1–4 features are complete. The full QA and ops tooling suite is in place. The site has 42 articles; the Business silo is complete at 13/13. Cloud is at 6/7, Creative is at 6/8.
 
 **Same day / non-content work:**
 - Use `docs/GSC-NOTES.md` only if there is new GSC data worth recording
 - Use `docs/AFFILIATE-TRACKER.md` only if an approved affiliate link has changed
 - Do not add Canva or Grammarly CTAs until program approval is confirmed
 - Do not build sticky article ToC unless article length and reader need clearly justify it
-- Phase 9 validation runner and article count report are complete; next Phase 9 candidate is a stale-content checker
+- Phase 9 validation runner, article count report, and stale content report are complete; next Phase 9 candidate is a small pre-publish checklist command or orphan-image cleanup listing
 
 ---
 

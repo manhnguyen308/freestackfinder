@@ -30,6 +30,14 @@ All three checks must pass:
 Known non-blocking warnings (do not act on):
 - 3 image orphans (known: `default-article.jpg`, `nordpass-banner.png`, `nordvpn-banner.png`)
 
+Optional maintenance reports:
+
+```bash
+python3 scripts/run_quality_checks.py --with-stale
+```
+
+The stale content report is informational only. It flags published silo articles whose `lastmod` date is 183+ days old and does not affect the QA runner exit code.
+
 ## Future-dated articles
 
 Hugo excludes future-dated content from normal production builds. Before deploy, do not rely on a successful build alone when publishing a new article:
@@ -46,7 +54,7 @@ Before marking a deployment complete:
 1. `git diff --check` clean
 2. `python3 scripts/run_quality_checks.py --with-counts` — 3 passed · 0 failed
 3. `hugo --minify` — no errors, no deprecation warnings
-4. Article count matches tracker (currently 41)
+4. Article count matches tracker (currently 42)
 5. Search index JSON builds (`public/index.json` present)
 6. Start Here page builds (`public/start-here/`)
 7. Category hub pages build (one per silo)

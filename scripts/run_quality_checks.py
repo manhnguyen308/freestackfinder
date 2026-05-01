@@ -6,16 +6,19 @@ Usage:
     python scripts/run_quality_checks.py --with-build
     python scripts/run_quality_checks.py --quiet
     python scripts/run_quality_checks.py --with-counts
+    python scripts/run_quality_checks.py --with-stale
 
 Flags:
     --with-build   Run Hugo build after QA checks (requires Hugo on PATH)
     --quiet        Suppress verbose child output; only show headers and summary
     --with-counts  Print article count by silo report, including future-dated warnings
+    --with-stale   Print stale content report based on article lastmod dates
 
 Exit code is non-zero if any check or build fails.
 Article count mismatches do not affect exit code. Future-dated live articles
 are blocked by the front matter validator because Hugo excludes them from
 normal production builds.
+Stale content findings are informational and do not affect exit code.
 Hugo build: run `hugo` from repo root. If Hugo is not on PATH, install it
 or run the build separately using the repo's documented build command.
 """
@@ -77,6 +80,7 @@ def main():
     parser.add_argument("--with-build", action="store_true", help="Run Hugo build after QA checks")
     parser.add_argument("--quiet", action="store_true", help="Suppress verbose child output")
     parser.add_argument("--with-counts", action="store_true", help="Print article count by silo report")
+    parser.add_argument("--with-stale", action="store_true", help="Print stale content report")
     args = parser.parse_args()
 
     results = {}
@@ -95,6 +99,13 @@ def main():
         print(f"{'=' * 56}", flush=True)
         counts_path = os.path.join(REPO_ROOT, "scripts", "report_article_counts.py")
         subprocess.run([sys.executable, counts_path], cwd=REPO_ROOT)
+
+    if args.with_stale:
+        print(f"\n{'=' * 56}", flush=True)
+        print("  Stale content report", flush=True)
+        print(f"{'=' * 56}", flush=True)
+        stale_path = os.path.join(REPO_ROOT, "scripts", "report_stale_content.py")
+        subprocess.run([sys.executable, stale_path], cwd=REPO_ROOT)
 
     passed = [k for k, v in results.items() if v == 0]
     failed = [k for k, v in results.items() if v != 0]

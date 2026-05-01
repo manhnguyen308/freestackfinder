@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-01 (Day 54a)
-**Current day:** 54a
+**Last updated:** 2026-05-01 (Day 54b)
+**Current day:** 54b
 
 ## Current state
 
@@ -11,7 +11,21 @@
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Cloud (1 remaining: free-ai-email-tools) or Creative (2 remaining) — see CONTENT-STRATEGY.md
-- Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a stale-content checker
+- Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next non-content candidate is a small Phase 9 maintenance helper
+
+---
+
+### Day 54b — stale content report
+
+- Added `scripts/report_stale_content.py`: scans published silo articles, skips drafts and `_index.md`, and flags articles whose `lastmod` is 183+ days old
+- Added `--with-stale` to `scripts/run_quality_checks.py` so the stale content report can run alongside the existing QA checks when needed
+- Updated `docs/BUILD-VALIDATION.md` with the optional stale report command and refreshed the documented article count to 42
+- Updated `FEATURE-STRATEGY.md`: current baseline now reflects 42 articles and Cloud 6/7; Phase 9 stale content report marked complete; suggested next non-content options refreshed
+- Initial stale report result: 42 published articles checked · 0 stale articles found
+- No article published; article count remains 42
+- No URLs, slugs, aliases, public templates, article bodies, images, affiliate links, Canva CTAs, or Grammarly CTAs changed
+- Canva and Grammarly remain Under review / Needs approval
+- Validation: git diff --check clean · QA runner 3/3 passed with counts · stale report clean · Hugo Extended 0.160.1 build passed · 42 articles counted · 0 broken internal links
 
 ---
 
