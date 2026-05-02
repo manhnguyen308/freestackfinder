@@ -1,8 +1,8 @@
 ---
 title: "Best Free AI Email Tools in 2026 — Draft, Summarize, and Reply Faster"
 description: "Free AI email tools can draft replies, summarize threads, and clean up your writing without a subscription. Here's what actually works on a free plan in 2026."
-date: "2026-05-01"
-lastmod: "2026-05-01"
+date: "2026-04-29"
+lastmod: "2026-04-29"
 draft: false
 weight: 60
 slug: "free-ai-email-tools"
