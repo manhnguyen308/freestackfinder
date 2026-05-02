@@ -18,6 +18,7 @@ For all operational guidance — daily content workflow, feature workflow, weekl
 | Feature work | `FEATURE-STRATEGY.md` |
 | Image generation | `docs/IMAGE-GUIDELINES.md` |
 | Affiliate / monetization | `docs/AFFILIATE-GUIDELINES.md` |
+| Visual design / CSS / tokens | `docs/DESIGN-SYSTEM.md` |
 | Build / deployment setup | `README.md` |
 
 Do not load every doc for every task. Load only what the current task requires.

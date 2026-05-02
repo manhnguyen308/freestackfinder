@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-02 (Day 57c)
-**Current day:** 57c
+**Last updated:** 2026-05-02 (Day 57d)
+**Current day:** 57d
 
 ## Current state
 
@@ -12,6 +12,19 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 57d — Design handoff cleanup and permanent design reference
+
+- Why this pass: temporary `design_handoff_freestackfinder/` folder contained the React/CSS reference package used during the design-system implementation (Days 57a–57b). Now that implementation is complete, the folder was cleaned up and its durable rules distilled into a permanent reference.
+- Start Here status: confirmed fixed from Day 57c — `/start-here/` renders 6 `collection-card` HTML elements, 0 escaped entities.
+- Files inspected: `design_handoff_freestackfinder/DESIGN_SYSTEM.md`, `design_handoff_freestackfinder/README.md`, `CLAUDE.md`, `docs/SKILL.md`, `public/start-here/index.html`
+- Files changed: `docs/DESIGN-SYSTEM.md` (created), `CLAUDE.md` (added design reference row), `freestackfinder-progress-log.md`
+- Deleted: `design_handoff_freestackfinder/` (entire folder — was untracked, never committed)
+- Permanent design reference: `docs/DESIGN-SYSTEM.md` — covers color tokens, typography, category icon accent colors, layout/spacing, header/footer rules, trust/legal routes, component rules, article structure, image rules, raw-HTML-in-Markdown caution, AdSense compliance notes.
+- CLAUDE.md updated: added `Visual design / CSS / tokens → docs/DESIGN-SYSTEM.md` row to the "When to read what" table.
+- Validation result: `git diff --check` clean; QA runner 3/3 passed (43 articles, 43 images, 0 broken links); `hugo --minify` clean; article count 43 unchanged; no new article created; no URL changes.
 
 ---
 
