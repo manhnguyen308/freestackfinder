@@ -234,7 +234,24 @@ button { font-family: inherit; cursor: pointer; }
   text-decoration: none;
   background: #f0fdfb;
 }
-.cat-icon { font-size: 28px; margin-bottom: 10px; line-height: 1; }
+.cat-icon {
+  width: 44px;
+  height: 44px;
+  margin: 0 auto 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary-bg);
+  line-height: 1;
+}
+.cat-icon svg { display: block; }
+.category-card[data-cat="creative"]     .cat-icon { background: #FEF0EB; color: #D95B35; }
+.category-card[data-cat="productivity"] .cat-icon { background: #EDFAF3; color: #2A9461; }
+.category-card[data-cat="video"]        .cat-icon { background: #F3EEFF; color: #7C3AED; }
+.category-card[data-cat="business"]     .cat-icon { background: #FEF7E6; color: #C27B0A; }
+.category-card[data-cat="security"]     .cat-icon { background: #E6F7F5; color: #0E7E73; }
+.category-card[data-cat="cloud"]        .cat-icon { background: #EAF3FB; color: #1D6FBA; }
 .category-card h3 {
   font-size: 14px;
   font-weight: 700;

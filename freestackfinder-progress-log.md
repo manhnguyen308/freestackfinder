@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-02 (Day 56b)
-**Current day:** 56b
+**Last updated:** 2026-05-02 (Day 57a)
+**Current day:** 57a
 
 ## Current state
 
@@ -12,6 +12,19 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 57a — homepage category SVG icons and per-silo accent colors
+
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `freestackfinder-progress-log.md`, `design_handoff_freestackfinder/DESIGN_SYSTEM.md`, `design_handoff_freestackfinder/ui_kit/icons.jsx`, `design_handoff_freestackfinder/ui_kit/shell.jsx`, `design_handoff_freestackfinder/ui_kit/site.css`, `static/css/style.css`, `layouts/index.html`, `layouts/partials/nav.html`, `layouts/partials/footer.html`, `layouts/_default/baseof.html`, `layouts/_default/list.html`, `layouts/_default/single.html`, `content/about.md`, content directory listing
+- Files changed: `static/css/style.css`, `layouts/index.html`, `freestackfinder-progress-log.md`
+- What changed: replaced six emoji category icons (🎨 ⚡ 🎬 💼 🔒 ☁️) on the homepage with stroke-based inline SVGs from the design handoff (palette, clock, camera, briefcase, shield, cloud); added a 44px circle `.cat-icon` container with per-silo accent palette (creative coral · productivity green · video purple · business amber · security teal · cloud blue) keyed via `data-cat` on each category card; SVGs use `currentColor` so each card inherits its silo color; existing nav, footer, article and category templates left intact (already aligned with the design system); no URL, slug, alias, AdSense slot, or affiliate behavior changes
+- Design areas implemented: category icon system (six distinct accent colors, no emoji fallback, no icon font, no CDN); 44px icon circle motif; preserved teal-only UI chrome rule (accent colors confined to icon circles only)
+- Routes/pages validated: `/`, `/about/`, `/disclaimer/`, `/privacy-policy/`, `/search/`, `/creative/`, `/productivity/`, `/video/`, `/business/`, `/security/`, `/cloud/` all build successfully
+- Validation result: `git diff --check` clean; QA runner passed 3/3 with 43 articles, 43 images, 0 broken internal links; Hugo Extended build clean (421 pages, 183 aliases); homepage SVG cat-icon markup verified in `public/index.html`
+- Guardrails confirmed: article count remains 43; no new article created; no URL/slug/alias changes; no affiliate links added; Canva remains Under review; Grammarly remains Declined; site-name signals (og:site_name, application-name, WebSite/Organization JSON-LD, canonical homepage) untouched; no public workflow language introduced
+- Follow-up: optional — port the same SVG icons to category list-page headers and the footer category list when a future polish pass is needed
 
 ---
 
