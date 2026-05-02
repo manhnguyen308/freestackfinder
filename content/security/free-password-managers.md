@@ -206,7 +206,7 @@ LastPass is not in our recommended list. In 2021 it restricted its free tier to 
 
 Paid password manager plans make the most sense for families, where a shared family plan lets multiple people use premium features at a lower per-person cost than individual plans. Bitwarden's family plan costs $3.33/month for 6 users — genuinely excellent value for families who want to share certain passwords (streaming services, home utilities) while keeping others private.
 
-Businesses also benefit from paid team password managers — shared vault access with role-based permissions, user onboarding and offboarding controls, and audit logs are all features that matter at team scale and are not available on free tiers.
+Businesses also benefit from paid team password managers — shared vault access with role-based permissions, user onboarding and offboarding controls, and audit logs are all features that matter at team scale and are not available on free tiers. For the full breakdown of free and low-cost team options, see our [free password managers for teams guide](/security/free-password-managers-teams/).
 
 Advanced two-factor authentication using hardware security keys (YubiKey, FIDO2) requires a paid Bitwarden plan but adds a meaningful security layer for high-value accounts. For most individuals, the free Bitwarden plan's 2FA support is sufficient — but for users with elevated security requirements, the $10/year upgrade is excellent value.
 
