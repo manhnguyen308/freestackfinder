@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-02 (Day 57b)
-**Current day:** 57b
+**Last updated:** 2026-05-02 (Day 57c)
+**Current day:** 57c
 
 ## Current state
 
@@ -12,6 +12,16 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 57c — Start Here page rendering fix
+
+- Bug observed: `/start-here/` displayed raw escaped HTML (`&lt;div class="collection-card"&gt;` etc.) instead of rendered collection cards.
+- Root cause: CommonMark/Goldmark HTML block parsing rule — an HTML block ends at the first blank line. Blank lines between `<div class="collections-grid">` and the nested `<div class="collection-card">` elements caused the parser to exit HTML block mode; the 4-space-indented card divs were then treated as Markdown code blocks and escaped. Hugo `unsafe = true` was already set (correct); the issue was purely in the Markdown source structure.
+- Files changed: `content/start-here.md` — removed blank lines between outer wrapper divs and inner collection-card divs so the entire card grid stays within one continuous HTML block.
+- Validation: `git diff --check` clean; QA runner 3/3 passed (43 articles, 43 images, 0 broken links); `hugo --minify` clean; built `public/start-here/index.html` contains 6 `collection-card` HTML elements, 0 escaped `&lt;` entities; article count unchanged at 43; no new article created; no URL changes.
+- Follow-up: none required.
 
 ---
 
