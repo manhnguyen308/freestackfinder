@@ -993,26 +993,48 @@ button { font-family: inherit; cursor: pointer; }
 .pagination {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 6px;
   margin-top: 48px;
   flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
 }
-.pagination a, .pagination span {
+.pagination .page-item {
+  display: flex;
+}
+.pagination .page-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  padding: 8px 14px;
-  background: var(--bg-2);
+  min-width: 40px;
+  height: 40px;
+  padding: 0 12px;
+  background: white;
   border: 1px solid var(--border);
   border-radius: var(--radius);
   font-size: 14px;
   font-weight: 600;
-  min-width: 40px;
+  color: var(--text);
+  text-decoration: none;
   transition: all 0.15s;
+  line-height: 1;
 }
-.pagination a { color: var(--text); text-decoration: none; }
-.pagination a:hover { background: var(--primary); color: white; border-color: var(--primary); }
-.pagination .active { background: var(--primary); color: white; border-color: var(--primary); }
+.pagination .page-link:hover {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+.pagination .page-item.active .page-link {
+  background: var(--primary);
+  color: white;
+  border-color: var(--primary);
+}
+.pagination .page-item.disabled .page-link {
+  opacity: 0.4;
+  pointer-events: none;
+  cursor: default;
+}
 
 /* 24. Footer
    =========================================== */

@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-02 (Day 57d)
-**Current day:** 57d
+**Last updated:** 2026-05-02 (Day 57e)
+**Current day:** 57e
 
 ## Current state
 
@@ -12,6 +12,17 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 57e — Pagination button styling fix
+
+- Bug observed: current page number rendered with a teal vertical background block (full `li` height) rather than a clean teal rounded button; navigation arrows double-styled by `.pagination span` selector.
+- Root cause: two CSS selector mistakes. (1) `.pagination .active` targeted `li.page-item` — a block element with no fixed dimensions — causing the teal fill to stretch vertically as a strip. (2) `.pagination a, .pagination span` targeted the inner `span[aria-hidden]` elements inside navigation anchors, double-applying `inline-flex`, `padding`, and `border` inside the already-styled `a.page-link`. Hugo's internal pagination template generates `ul.pagination > li.page-item(.active|.disabled) > a.page-link` and inner `span[aria-hidden]` for arrow symbols.
+- Fix: rewrote pagination CSS block in `static/css/style.css`. Added `list-style: none; padding: 0` to `ul.pagination`; added `.page-item { display: flex }` to make list items flex containers; replaced `.pagination a, .pagination span` with `.pagination .page-link` (targets only the anchor buttons, not inner spans); moved active state to `.page-item.active .page-link`; added `.page-item.disabled .page-link { opacity: 0.4; pointer-events: none }`.
+- Files changed: `static/css/style.css`, `freestackfinder-progress-log.md`
+- Validation: `git diff --check` clean; QA runner 3/3 passed (43 articles, 43 images, 0 broken links); `hugo --minify` clean; pagination HTML in `public/business/index.html` confirmed `li.page-item.active > a.page-link` structure; article count 43 unchanged; no URL changes.
+- Follow-up: none required.
 
 ---
 
