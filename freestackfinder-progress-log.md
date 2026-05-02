@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-02 (Day 57a)
-**Current day:** 57a
+**Last updated:** 2026-05-02 (Day 57b)
+**Current day:** 57b
 
 ## Current state
 
@@ -12,6 +12,41 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 57b — homepage hero, tenets strip, guide counts, article H2 rule
+
+- Why this pass: Day 57a only ported category SVG icons. The handoff hero pattern, tenets strip, category-card guide counts, and the gated article H2 desktop top-border were not yet implemented. This pass closes those gaps without touching routing, content, or affiliate logic.
+- Files inspected: `design_handoff_freestackfinder/ui_kit/site.css`, `design_handoff_freestackfinder/ui_kit/shell.jsx`, `design_handoff_freestackfinder/ui_kit/pages-home-category.jsx`, `design_handoff_freestackfinder/ui_kit/pages-article-search.jsx`, `static/css/style.css`, `layouts/index.html`, `layouts/_default/list.html`, `layouts/_default/single.html`, `layouts/_default/search.html`, `layouts/partials/nav.html`, `layouts/partials/footer.html`
+- Files changed: `static/css/style.css`, `layouts/index.html`, `freestackfinder-progress-log.md`
+- Design system areas implemented now:
+  - Hero: replaced `.hero-badges` chips with the handoff `.hero-cta-row` (teal primary + ghost outline), added `.hero-eyebrow` (uppercase teal label), italicized teal `<em>` accent in H1, swapped `.hero-note` for the smaller `.hero-meta` line; flattened the gradient background to flat `--bg-2` per handoff.
+  - Tenets strip: removed the loud full-bleed teal `.trust-section` banner from the homepage and added the editorial `.tenets-section` (light surface, 28px circle SVG checkmarks, four trust statements) per `site.css`.
+  - Category cards: added per-card guide count (`.cat-count`) computed from `where .Site.RegularPages "Section" "<silo>"` — 6/9/4/13/4/7 = 43.
+  - Article H2 motif: gated `border-top: 2px solid var(--border)` and `padding-top: 14px` to `min-width: 601px` so the rule is desktop-only as specified; mobile keeps the lighter rhythm; `text-wrap: balance` added to H2.
+  - Hero responsive padding tightened to 56px/40px per handoff.
+- Areas compared and already matched (production CSS is the documented source of truth, per `DESIGN_SYSTEM.md`):
+  - Header (`.site-header`, sticky, 64px, `.logo` with teal `.logo-accent`, nav, search icon button) — class names differ from the React shell but token values, sizes, hover states, and mobile toggle all match the handoff.
+  - Footer (3-column dark slate `#0F172A`, brand + categories + site, trust pill links, affiliate notice with disclosure link) — current footer matches the handoff layout and palette; uses real existing routes, no `href="#"`.
+  - Article single (two-column 720/280, collapse below 960px, breadcrumb, header, editorial-note, content typography, tags, author box, related sidebar) — matches handoff article layout.
+  - Category list (breadcrumb, large H1, description, editorial-note, article-count, articles grid) — already follows the editorial header pattern.
+  - Search page (`#search-input` with inline icon, filter chips, results list) — already matches handoff input/chip/result styling.
+  - Verdict boxes, comparison tables, tool cards, FAQ details, affiliate CTA, sidebar widgets, TOC — production CSS already mirrors handoff component styling.
+  - Tokens (palette, typography, radii, shadows, container/article widths) — identical values to `colors_and_type.css`; only token *names* differ (`--primary` vs `--p`), which is intentional to avoid breaking active selectors.
+- Areas intentionally preserved (changing would break routing/content/SEO):
+  - Token names (`--primary`, `--text`, `--border`, etc.) kept rather than aliased to handoff short names — every layout, partial, shortcode, and content shortcode reference would need rewriting.
+  - Trust/legal routes kept as `/about/`, `/disclaimer/`, `/privacy-policy/`, `/terms/`, `/contact/` (not handoff's `/how-we-test/`, `/disclosure/`, `/privacy/`) per the no-URL-change constraint; existing pages already cover the same content.
+  - System font stack retained (no Inter loaded) per AdSense compliance and the `colors_and_type.css` production fallback note.
+  - AdSense slot HTML, order, and `data-ad-*` attributes untouched.
+  - `/go/*` affiliate redirect routes untouched.
+- Trust/legal pages: inspected; `/about/`, `/disclaimer/`, `/privacy-policy/`, `/terms/`, `/contact/` already render with `.static-page` styling that matches the handoff trust-page tone. No content overwrite.
+- Category icon update: SVG icons from Day 57a confirmed rendered in `public/index.html`; no emoji fallback remains visible anywhere.
+- Search/page behavior: search.html and `/js/search.js` index logic untouched; results still return.
+- Affiliate/AdSense safety: no /go/ redirect, no AdSense slot, no affiliate link added or moved; Canva remains Under review; Grammarly remains Declined.
+- Site-name signal check: `og:site_name = Free Stack Finder`, `application-name = Free Stack Finder`, WebSite/Organization JSON-LD names, and canonical homepage URL untouched.
+- Validation result: `git diff --check` clean; QA runner 3/3 passed (43 articles, 43 images, 0 broken links); `hugo --minify` 421 pages / 183 aliases clean; rendered homepage shows `.hero-eyebrow`, `.hero-cta-row`, `.hero-meta`, `.tenets-section`, six `.cat-count` spans (6+9+4+13+4+7 = 43); article count remains 43; no new article created.
+- Follow-up: optional — sweep older articles for dated `verdict-box` shortcode usage if a future polish pass is needed; no functional issue today.
 
 ---
 

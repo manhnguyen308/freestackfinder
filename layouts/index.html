@@ -4,14 +4,38 @@
 <section class="hero">
   <div class="container">
     <div class="hero-content">
-      <h1>Stop Paying for Software You Don't Have To</h1>
-      <p class="hero-sub">We compare the free tools we cover by real plan limits, practical workflow fit, and when paying still makes sense.</p>
-      <div class="hero-badges">
-        <span class="hero-badge">✓ Free-plan limits checked</span>
-        <span class="hero-badge">✓ Honest limitations</span>
-        <span class="hero-badge">✓ Clear tradeoffs</span>
+      <span class="hero-eyebrow">Free &amp; low-cost software, honestly reviewed</span>
+      <h1>Stop paying for software you <em>don't have to</em>.</h1>
+      <p class="hero-sub">A practical guide to free and low-cost tools for freelancers, solo creators, and small teams. We compare every free plan against the paid alternative and tell you when paying is actually worth it.</p>
+      <div class="hero-cta-row">
+        <a class="btn-p" href="/start-here/">Browse all guides</a>
+        <a class="btn-g" href="/creative/">Start with Creative tools</a>
       </div>
-      <p class="hero-note">Read our <a href="/about/">evaluation process</a>, <a href="/disclaimer/">affiliate disclosure</a>, or <a href="/contact/">send a correction</a>.</p>
+      <p class="hero-meta">Independent · updated for 2026 · <a href="/about/">how we evaluate</a> · <a href="/disclaimer/">disclosure</a></p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TENETS STRIP ===== -->
+<section class="tenets-section" aria-label="Editorial tenets">
+  <div class="container">
+    <div class="tenets-grid">
+      <div class="tenets-item">
+        <div class="tenets-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><strong>Checked for practical limits</strong><p>We compare free plans by caps, exports, storage, seats, and platform support.</p></div>
+      </div>
+      <div class="tenets-item">
+        <div class="tenets-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><strong>Honest about limitations</strong><p>We say when free isn't enough, and when paying is actually worth it.</p></div>
+      </div>
+      <div class="tenets-item">
+        <div class="tenets-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><strong>Affiliate links labeled</strong><p>Some links earn us a commission. They never change our rankings.</p></div>
+      </div>
+      <div class="tenets-item">
+        <div class="tenets-ic" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg></div>
+        <div><strong>Updated when tiers change</strong><p>When pricing, caps, or free-plan limits move, we revise the page and its date.</p></div>
+      </div>
     </div>
   </div>
 </section>
@@ -27,6 +51,7 @@
         </div>
         <h3>Creative &amp; Design</h3>
         <p>Photoshop, Illustrator, Canva</p>
+        {{ $n := len (where .Site.RegularPages "Section" "creative") }}<span class="cat-count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }}</span>
       </a>
       <a href="/productivity/" class="category-card" data-cat="productivity">
         <div class="cat-icon" aria-hidden="true">
@@ -34,6 +59,7 @@
         </div>
         <h3>Productivity</h3>
         <p>Office, notes, project management</p>
+        {{ $n := len (where .Site.RegularPages "Section" "productivity") }}<span class="cat-count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }}</span>
       </a>
       <a href="/video/" class="category-card" data-cat="video">
         <div class="cat-icon" aria-hidden="true">
@@ -41,6 +67,7 @@
         </div>
         <h3>Video &amp; Recording</h3>
         <p>Premiere Pro, Loom, Zoom</p>
+        {{ $n := len (where .Site.RegularPages "Section" "video") }}<span class="cat-count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }}</span>
       </a>
       <a href="/business/" class="category-card" data-cat="business">
         <div class="cat-icon" aria-hidden="true">
@@ -48,6 +75,7 @@
         </div>
         <h3>Business Tools</h3>
         <p>CRM, invoicing, accounting</p>
+        {{ $n := len (where .Site.RegularPages "Section" "business") }}<span class="cat-count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }}</span>
       </a>
       <a href="/security/" class="category-card" data-cat="security">
         <div class="cat-icon" aria-hidden="true">
@@ -55,6 +83,7 @@
         </div>
         <h3>Security &amp; Privacy</h3>
         <p>VPN, antivirus, passwords</p>
+        {{ $n := len (where .Site.RegularPages "Section" "security") }}<span class="cat-count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }}</span>
       </a>
       <a href="/cloud/" class="category-card" data-cat="cloud">
         <div class="cat-icon" aria-hidden="true">
@@ -62,6 +91,7 @@
         </div>
         <h3>Cloud &amp; Storage</h3>
         <p>Google Drive, Dropbox</p>
+        {{ $n := len (where .Site.RegularPages "Section" "cloud") }}<span class="cat-count">{{ $n }} guide{{ if ne $n 1 }}s{{ end }}</span>
       </a>
     </div>
   </div>
@@ -141,42 +171,6 @@
         </ul>
       </article>
       {{ end }}
-    </div>
-  </div>
-</section>
-
-<!-- ===== TRUST BANNER ===== -->
-<section class="trust-section" aria-label="Why trust Free Stack Finder">
-  <div class="container">
-    <div class="trust-grid">
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true">✓</div>
-        <div>
-          <strong>Checked for practical limits</strong>
-          <p>We compare free plans by caps, exports, storage, seats, platform support, and upgrade pressure.</p>
-        </div>
-      </div>
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true">✓</div>
-        <div>
-          <strong>Honest about limitations</strong>
-          <p>We tell you when a free tool genuinely isn't good enough.</p>
-        </div>
-      </div>
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true">✓</div>
-        <div>
-          <strong>Transparent monetization</strong>
-          <p>Some pages include affiliate links, and we keep them separate from our rankings.</p>
-        </div>
-      </div>
-      <div class="trust-item">
-        <div class="trust-icon" aria-hidden="true">✓</div>
-        <div>
-          <strong>Updated when tiers change</strong>
-          <p>When pricing, caps, or free-plan limits move, we revise the page and its updated date.</p>
-        </div>
-      </div>
     </div>
   </div>
 </section>
