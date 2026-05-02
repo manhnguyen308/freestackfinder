@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-02 (Day 56a)
-**Current day:** 56a
+**Last updated:** 2026-05-02 (Day 56b)
+**Current day:** 56b
 
 ## Current state
 
@@ -12,6 +12,17 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (2 remaining) — Cloud silo complete
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 56b — project skill file and CLAUDE.md refactor
+
+- Files inspected: `CLAUDE.md`, `freestackfinder-progress-log.md`, `FEATURE-STRATEGY.md`, `CONTENT-STRATEGY.md`, `docs/BUILD-VALIDATION.md`, `.claude/` directory
+- Files changed: `CLAUDE.md` (refactored), `docs/SKILL.md` (created)
+- What changed: created `docs/SKILL.md` with YAML front matter and 12 operational sections covering daily content workflow, feature workflow, weekly/monthly review, GSC-led refresh, affiliate safety, image workflow, token-saving rules, content quality rules, validation checklist, tracker update expectations, commit/deploy rules, and output format; refactored `CLAUDE.md` from ~340 lines to ~90 lines — kept mission, read-first routing table, task priority, validation commands, critical never-do rules, known bugs list, growth targets, and repo structure reference; moved all repeatable operational guidance into SKILL.md with a pointer from CLAUDE.md
+- Validation result: `git diff --check` clean; QA runner passed 3/3 with 43 articles, 43 images, 0 broken internal links, 0 stale articles; article count remains 43; no new article created; no public-facing content changed; Canva remains Under review; Grammarly remains Declined
+- Guardrails confirmed: no URL/slug/alias changes; no affiliate links added; no public workflow or internal language added to content
+- Follow-up: none — FEATURE-STRATEGY.md not updated as this is a documentation/maintenance item not yet listed in the Phase 9 roadmap; can be added if desired
 
 ---
 
