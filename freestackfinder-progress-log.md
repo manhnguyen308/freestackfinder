@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-03 (Day 59c)
-**Current day:** 59c
+**Last updated:** 2026-05-03 (Day 59d)
+**Current day:** 59d
 
 ## Current state
 
@@ -12,6 +12,40 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 59d — AdSense readiness verification
+
+- Verification pass on Day 59a–59c remediation. No content or code changes required; tracker entry only.
+- Article count: 44 (unchanged). No new article created.
+- Shortest-article audit (post-Day 59c expansions, top 10 by word count):
+  - 1,654w · creative/canva-alternatives
+  - 1,671w · cloud/free-backup-software
+  - 1,681w · productivity/microsoft-office-alternatives (expanded Day 59c)
+  - 1,780w · business/free-hr-software
+  - 1,800w · video/premiere-pro-alternatives (expanded Day 59c)
+  - 1,807w · creative/free-font-websites
+  - 1,848w · business/free-crm-software
+  - 1,887w · cloud/free-cloud-storage-comparison
+  - 1,896w · creative/figma-alternatives
+  - 1,898w · cloud/free-email-signature
+- Articles under 1,200 words: zero.
+- Fifth-thinnest article (creative/canva-alternatives, 1,654w): does not need expansion. It is 454 words above the 1,200 threshold and above the 1,500 mark that triggered the Day 59c expansions. Original "5 thinnest" framing in the previous task was over-broad — only four articles actually sat in the at-risk band. No further article expansion required.
+- Description/meta audit: all 44 articles carry a `description` field of 100+ characters. None missing, none short.
+- Disclosure check: per-article disclosure renders at the top of every article via `layouts/_default/single.html` line 54: "Some links on this page are affiliate links — we may earn a commission if you make a purchase, at no extra cost to you." Plus trust links to /about/, /disclaimer/, /contact/.
+- Author/reviewer bio check: `single.html` author-box reads "We test the tools we cover, compare the free tier with the paid upgrade when it matters, and document the limits that would make us tell you to skip it. Our reviews are written for everyday users, freelancers, and small teams rather than enterprise buyers." This is an honestly framed methodology claim — does not say "we download and use every tool we review." No softening required; copy left as-is.
+- Trust page check: about, contact, privacy-policy, terms, disclaimer all build with `name=robots content="index, follow"` and all five appear in `public/sitemap.xml`. Footer links all five from every page (footer.html columns "Site" and inline trust-links row).
+- Robots/noindex check (verified on built `public/`):
+  - `/about/`, `/contact/`, `/privacy-policy/`, `/terms/`, `/disclaimer/`: `index, follow` ✓
+  - `/categories/`, `/categories/business/`, `/tags/2fas-review/` (sample term): `noindex, follow` ✓
+  - `/`, `/start-here/`, `/business/`, sample article: `index, follow` ✓
+  - `/search/`: `noindex, follow` ✓ (preserved from existing `Params.noindex`)
+  - One remaining gap: `/business/page/2/` paginated archive renders `index, follow`. Hugo's pagination shares `.RelPermalink` with the section page, so a head-level rule isn't trivially safe; deferred — not a primary AdSense rejection signal.
+- Fixes made: none. Verification confirms the Day 59a/b/c work is intact and complete for this remediation cycle. Only the progress log was updated.
+- Files changed: `freestackfinder-progress-log.md`.
+- Validation: `git diff --check` clean · QA runner 3/3 passed (44 articles, 44 images, 0 broken links, 0 stale articles) · `hugo --minify` clean · trust pages indexable, taxonomy/tag pages noindex/follow, article pages index/follow · no URL/slug/alias changes · no new article created · no public-facing internal-workflow language introduced.
+- Recommendation on AdSense review request: proceed with re-review after the existing 7–14 day wait from Day 59a (i.e., not before approximately 2026-05-10, ideally 2026-05-17). Optional but worthwhile before clicking: publish the 6 outstanding articles (Creative 2, Security 1, Video 3) to push the count past 50 and demonstrate cadence; that is content-roadmap work, not part of this verification pass.
 
 ---
 
