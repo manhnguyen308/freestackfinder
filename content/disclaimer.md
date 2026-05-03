@@ -1,9 +1,6 @@
 ---
 title: "Affiliate Disclaimer"
 description: "Free Stack Finder affiliate disclosure. We believe in full transparency about how this site earns revenue."
-noindex: true
-sitemap:
-  disable: true
 type: page
 ---
 

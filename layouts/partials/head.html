@@ -24,7 +24,8 @@
 
 <meta name="google-site-verification" content="40GNbBMk19voffo5CNkDz2qZEvYHqqoVJnrC1T2vZVM" />
 <meta name='impact-site-verification' value='4b442d04-79be-4d3d-a1ca-fec50e329f1c'>
-{{ if .Params.noindex }}
+{{ $isTaxonomy := or (eq .Kind "taxonomy") (eq .Kind "term") }}
+{{ if or .Params.noindex $isTaxonomy }}
 <meta name="robots" content="noindex, follow" />
 {{ else }}
 <meta name="robots" content="index, follow" />

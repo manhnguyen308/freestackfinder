@@ -1,9 +1,6 @@
 ---
 title: "Terms of Use"
 description: "Free Stack Finder terms of use. Please read before using this website."
-noindex: true
-sitemap:
-  disable: true
 type: page
 ---
 

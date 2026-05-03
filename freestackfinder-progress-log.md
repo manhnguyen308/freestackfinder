@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-02 (Day 58a)
-**Current day:** 58a
+**Last updated:** 2026-05-03 (Day 59a)
+**Current day:** 59a
 
 ## Current state
 
@@ -12,6 +12,24 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 59a — AdSense low-value-content remediation pass
+
+- Trigger: AdSense rejected freestackfinder.com again with "Low value content / site does not yet meet the criteria of use in the Google publisher network" (site ownership verified). No request-review click yet.
+- Audit findings:
+  1. Trust/compliance pages (`about`, `contact`, `privacy-policy`, `terms`, `disclaimer`) all carried `noindex: true` and `sitemap: disable: true`. AdSense reviewers and Googlebot could not discover them via crawl or sitemap, weakening site trust signals.
+  2. Taxonomy surfaces (`/categories/<silo>/` term pages and all `/tags/<tag>/` term pages, plus `/categories/`, `/tags/` index pages) were indexable. Categories duplicated section hubs (`/business/`, `/cloud/`, etc.); tag terms each held only 1–2 articles, creating ~250+ thin/duplicative archive surfaces.
+  3. Homepage and Start Here verified — substantive editorial copy, 4-tenet strip, curated collections, latest section. No raw-HTML regression on Start Here.
+  4. High-impression GSC pages and recent Cloud articles spot-checked — no thin-content rewrites required this pass.
+  5. No unapproved Canva/Grammarly placements introduced. Affiliate posture unchanged.
+- Fixes made:
+  - Removed `noindex: true` and `sitemap: disable: true` from `content/about.md`, `content/contact.md`, `content/privacy-policy.md`, `content/terms.md`, `content/disclaimer.md`. Trust pages now indexable and present in `sitemap.xml`.
+  - Updated `layouts/partials/head.html` to emit `<meta name="robots" content="noindex, follow">` for all `taxonomy` and `term` pages. Existing `Params.noindex` and search-page noindex behavior preserved.
+- Files changed: `content/about.md`, `content/contact.md`, `content/privacy-policy.md`, `content/terms.md`, `content/disclaimer.md`, `layouts/partials/head.html`, `freestackfinder-progress-log.md`.
+- Validation: `git diff --check` clean · QA runner 3/3 passed (44 articles, 44 images, 0 broken links) · `hugo --minify` clean (430 pages, 19 paginator pages) · `/about/` now serves `robots: index, follow` · `/categories/business/` and `/tags/2fas-review/` serve `robots: noindex, follow` · `/about/` present in sitemap.xml · article-page robots behavior unchanged · Start Here renders 6 `collection-card` elements with 0 escaped entities · pagination still renders cleanly · search page still noindex via existing `Params.noindex` · article count unchanged at 44 · no URL/slug/alias changes · no new article created · no affiliate or CTA changes.
+- Recommendation on AdSense review request: do not click "Request review" yet. Wait at least 7–14 days so Googlebot can recrawl the now-indexable trust pages and process noindex on taxonomy archives, then reassess. Consider one further pass to publish the remaining Creative/Security/Video articles to push topical depth before the next review.
 
 ---
 
