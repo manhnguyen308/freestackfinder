@@ -175,6 +175,22 @@ For a broader ranking of free editors beyond the Premiere question, see our [fre
 
 ---
 
+## Who should NOT switch from Premiere Pro
+
+Most "free Premiere alternative" lists assume the switch is always a good idea. It is not. There are real workflows where leaving Adobe will cost more time than it saves, and the honest answer is that some readers should close this tab and renew Creative Cloud.
+
+**You depend on After Effects Dynamic Link.** If your projects routinely move between Premiere and After Effects with live linked compositions, no free editor reproduces that round-trip. DaVinci Resolve has Fusion built in, but it is not a drop-in replacement for an established AE pipeline — your motion-graphics templates, expressions, and shared project conventions don't migrate. Recreating a year of AE habits to save Adobe's monthly bill is rarely worthwhile if you are billing client work against it.
+
+**You shoot in 10-bit or higher than UHD at 60fps.** Blackmagic positions free Resolve around 8-bit formats up to UHD 60fps. If your camera records 10-bit Log, 4K above 60fps, or anything from a higher-end cinema body, parts of your footage will either fail to import or render with limits that the paid Studio version removes. Test your specific codec and bit depth in free Resolve before you commit — don't assume "Resolve handles it" from a feature list.
+
+**You work inside an agency or shared-team Premiere environment.** Project files, shared bins, locked-down asset paths, producer review tools, and team-wide keyboard customizations are real switching costs. If your collaborators are in Premiere, you handing over a Resolve project will add friction every single delivery cycle. The right time to leave is when you control the whole pipeline, not when you share it.
+
+**You rely on a specific paid plugin ecosystem.** Pluraleyes, Magic Bullet, Red Giant Universe, and several Premiere-only motion graphics packs are still part of many editors' daily workflow. Free Resolve and Kdenlive cover a lot, but they don't load Adobe-targeted plugins, and the closest equivalents may be paid Resolve Studio features rather than free ones.
+
+**You're a colorist who needs ACES, HDR delivery, or Dolby Vision finishing.** Free Resolve handles a great deal of color work, but ACES interchange and HDR-grade finishing typically point to Studio. If color is the actual job, the $295 one-time Studio license is the honest recommendation, not "free Resolve plus hope."
+
+**Your billing model already absorbs the cost.** If you bill clients $80/hour and Premiere costs $22.99/month, the subscription is a rounding error. The cost of a switch is measured in lost productivity for several weeks, not in dollars. For working professionals, the math often favors staying.
+
 ## Who should still pay for Premiere Pro?
 
 Premiere Pro is still worth paying for if your workflow depends heavily on:

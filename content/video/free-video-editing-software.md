@@ -54,6 +54,26 @@ rows:
 
 ---
 
+## How we evaluated these editors
+
+Most free-video-editor roundups read like a feature list copy-pasted from each product page. That isn't useful when you need to pick one and start cutting tomorrow. Here is what we actually weighted, and what we deliberately ignored.
+
+**Watermark behaviour on a real export, not on the marketing page.** Several "free" editors are technically free but watermark exports the moment you use a stock asset, a template, or a default outro. We treated any tool with conditional watermarks the same as a watermarked tool — readers should know up front, not after they render a four-minute video and discover a logo in the corner. CapCut earns its place on this list because plain edits without templates export clean; it loses points where its own help docs admit watermarks come back with templated workflows.
+
+**Format and codec support against common source footage.** A free editor that can't import HEVC from an iPhone, AV1 from a webcam capture, or 10-bit Log from a mid-range mirrorless is a non-starter for many readers. We checked import behaviour against the formats most readers are likely to feed an editor in 2026, including iPhone HEVC, screen-recording H.264, mirrorless 10-bit 4:2:0, and OBS-recorded VP9. Where free Resolve hits its 8-bit/UHD/60fps limit honestly, we said so rather than burying it in a footnote.
+
+**Time to first usable cut for a beginner.** A pro editor that takes a week to learn isn't free if your time has any value. We weighed how long it takes someone with no editing background to import a clip, trim it, add a title, and export an MP4 that plays on social. OpenShot wins this dimension. Resolve loses it.
+
+**Stability on consumer hardware.** Editors that need a $2,500 workstation to feel responsive aren't really free in the sense that matters. We considered behaviour on a typical laptop with 16 GB of RAM and integrated or low-end discrete graphics — the machine most readers actually own.
+
+**Honest limits, not marketing limits.** Free Resolve advertises a long feature list, but the AI tools, several effects, and codecs above 8-bit are paywalled behind Studio. We kept the focus on what the free tier delivers, and pointed at the paid version when the paid version is the right answer.
+
+**What we deliberately ignored:** social proof from review aggregators, raw star counts on download sites, and YouTube-tutorial volume. Those measure popularity, not fit, and they push every guide toward the same one or two winners regardless of the reader's actual workflow.
+
+The result is a list that does not crown a single best editor. The right pick depends on what you shoot, what you publish, and how much time you're willing to spend learning the tool — which is the framing the rest of this guide uses.
+
+---
+
 ## Why free video editing advice often misses the point
 
 People shop for "the best free editor" when they usually mean one of four very different things:

@@ -178,6 +178,24 @@ The tools below map cleanly to those paths.
 
 ---
 
+## What to watch out for when leaving Photoshop
+
+Most people who switch and regret it run into the same handful of friction points. The free tools are genuinely capable in 2026 — the friction comes from assuming a one-to-one swap with Adobe.
+
+**PSDs with smart objects, smart filters, or live effects.** GIMP and Photopea both open .psd files, but a smart object pointing at an external Illustrator file will rasterize, smart filters will flatten, and live layer effects (drop shadow, inner glow, stroke applied as effects rather than baked layers) often render slightly differently. If you receive design files from agencies or clients, open the file in your alternative once and compare it side-by-side against the original — don't assume parity, verify it. The first time this matters is on a deadline, which is the worst time to discover it.
+
+**CMYK and print-ready output.** Photoshop has decades of color-managed CMYK behaviour built in. GIMP supports CMYK only via plugins and exports, Photopea handles it but in a more limited way, and Krita is built around screen and illustration colour rather than four-color print. If you deliver to a printer who insists on a CMYK PDF or TIFF with embedded ICC profiles, do a real test print before you trust the workflow on a paid job.
+
+**Adobe-specific fonts.** Adobe Fonts (formerly Typekit) only license inside Creative Cloud applications. The moment you open a PSD outside Photoshop, those fonts won't be available unless you have separately licensed them, and free editors will substitute them silently. Check every font replacement on first open or your typography will drift in ways you won't notice until export.
+
+**The "I'll just use AI generative fill" assumption.** Free tools have AI features, but they are not Photoshop's Generative Fill. Photopea's AI features are limited and often credit-gated; GIMP's plugin-based generative tools require a separate setup; Krita is brush-driven, not generative. If your current Photoshop habit involves generative fill on every retouch, that workflow does not move cleanly. Plan to use the clone stamp, healing brush, and content-aware fill the older way.
+
+**Action recordings and batch automation.** Photoshop Actions, Image Processor scripts, and droplets don't carry over. GIMP has Script-Fu and Python-Fu for automation, but it's a different mental model and you'll rebuild your batch pipelines from scratch. If you process hundreds of images a week with Adobe Actions, factor a weekend of rewrite time into the migration plan.
+
+**Tablet pressure curves and brush behaviour.** Krita's brush engine is excellent but its pressure response and stabilization defaults are different from Photoshop's. If you're an illustrator with a fine-tuned Photoshop brush set, expect to spend a few hours rebuilding favourites rather than importing them whole. ABR brush import works in Krita and to a lesser extent in Photopea, but the behaviour is approximate, not identical.
+
+**Cloud sync and version history.** Creative Cloud quietly versions your files. Free tools generally don't. If you rely on Photoshop's auto-save to recover from a crash or a wrong-direction edit two hours ago, replicate that habit yourself with explicit save-as copies, a Git LFS workflow for source files, or at minimum a cloud-synced folder that keeps revisions.
+
 ## Who should still pay for Photoshop?
 
 Photoshop still makes sense if your work depends on one or more of these:

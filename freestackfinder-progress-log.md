@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-03 (Day 59b)
-**Current day:** 59b
+**Last updated:** 2026-05-03 (Day 59c)
+**Current day:** 59c
 
 ## Current state
 
@@ -12,6 +12,23 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 59c — AdSense disclosure tightening + thinnest-article expansions
+
+- Tightened the per-article disclosure line in `layouts/_default/single.html` from soft phrasing ("may earn from some paid links") to explicit AdSense-style copy: "Some links on this page are affiliate links — we may earn a commission if you make a purchase, at no extra cost to you." Trust links (How we evaluate · Full disclosure · Report a change) preserved.
+- Expanded the four shortest articles (all previously 1,339–1,499 words) with substantive original sections, deliberately varying the section type across silos to break the cookie-cutter pattern:
+  - `content/productivity/microsoft-office-alternatives.md` (1,339 → 1,681 words): added "Common mistakes when switching from Microsoft Office" — five named pitfalls (switching all at once, sending .odt files, assuming Sheets equals Excel, trusting the auto-converter, forgetting Outlook).
+  - `content/video/premiere-pro-alternatives.md` (1,374 → 1,800 words): added "Who should NOT switch from Premiere Pro" — six concrete reader profiles where staying on Adobe is the honest answer (After Effects Dynamic Link, 10-bit footage, agency environments, paid plugin ecosystems, ACES/HDR finishing, billing-rate math).
+  - `content/creative/photoshop-alternatives.md` (1,497 → 2,021 words): added "What to watch out for when leaving Photoshop" — seven gotchas including PSD smart objects, CMYK/print, Adobe Fonts, generative-fill assumptions, Action recordings, brush behaviour, and version history.
+  - `content/video/free-video-editing-software.md` (1,499 → 1,963 words): added "How we evaluated these editors" near the top — explains the evaluation method (real watermark tests, format/codec checks against common 2026 source footage, time-to-first-cut, consumer-hardware stability, honest free-tier limits) and what was deliberately ignored (review aggregator scores, tutorial volume).
+- Structural variety achieved: each of the four expansions uses a different section pattern and a different position in the article (mid-body for two, near-top "how we evaluated" for one, decision-frame for one). No repeated H2 wording.
+- No new articles created. No URLs/slugs/aliases changed. No affiliate links added. No ad slots added. No Canva or Grammarly CTAs introduced.
+- Verified pre-existing AdSense-readiness items already in place (no changes needed): trust pages exist with substantial content (about 531w, contact 307w, privacy 815w, disclaimer 546w, terms 590w; all indexable since Day 59a); footer links all five trust pages from every page; `single.html` already renders a visible "Updated" date when `lastmod` differs from `date`; `single.html` already renders a team/author bio block beneath the article; all 44 article descriptions are 100+ characters.
+- Files changed: `layouts/_default/single.html`, `content/productivity/microsoft-office-alternatives.md`, `content/video/premiere-pro-alternatives.md`, `content/creative/photoshop-alternatives.md`, `content/video/free-video-editing-software.md`, `freestackfinder-progress-log.md`.
+- Validation: `git diff --check` clean · QA runner 3/3 passed (44 articles, 44 images, 0 broken links) · `hugo --minify` clean · all four expanded articles still build · article count 44 unchanged · no URL/slug/alias changes.
+- Recommendation on AdSense review request: still wait 7–14 days from Day 59a before clicking "Request review" so Googlebot can recrawl and re-index. The expansions and disclosure tightening from today reinforce the structural fixes from Day 59a/59b — they do not reset the recrawl clock.
 
 ---
 

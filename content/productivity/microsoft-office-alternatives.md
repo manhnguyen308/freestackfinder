@@ -149,6 +149,20 @@ WPS Office is a popular Microsoft Office-compatible suite with a very polished i
 
 **Caveats:** Ads in the interface, privacy considerations, and occasional prompts to upgrade. Not our first recommendation for most users, but worth knowing about.
 
+## Common mistakes when switching from Microsoft Office
+
+Most people who try a free Office alternative and bounce back to Microsoft 365 do so for predictable reasons. Knowing them in advance saves a frustrating week.
+
+**Switching everything at once.** People uninstall Office on a Sunday and try to write a client deliverable on a Monday in LibreOffice. Then a font shifts, a tracked change behaves differently, and the deadline is suddenly an emergency. A safer pattern is to keep Office installed for a month while you write low-stakes documents in the alternative. By week three you'll know whether the small format quirks matter for your real work or whether they were imaginary.
+
+**Sending .odt files to Office users.** LibreOffice's native format is .odt; Outlook recipients on locked-down corporate machines often can't open it cleanly. If your readers use Microsoft Office, save as .docx every time and skim the document one last time inside Office or Google Docs before you send it — that catches the handful of formatting shifts that LibreOffice itself won't flag.
+
+**Assuming Google Sheets is "Excel without the price tag."** It is not. Sheets handles 90% of everyday spreadsheet work and several functions Excel doesn't, but Power Query, Power Pivot, and complex VBA macros either don't exist or behave differently. If your job depends on a specific Excel feature, test that exact workflow in Sheets before you cancel the subscription, not after.
+
+**Trusting the auto-converter on heavily formatted documents.** Multi-column layouts, embedded equations, mail-merge templates, and very long documents with a custom style stack are where free alternatives drift hardest from Office. Documents you author from scratch in LibreOffice will look fine; legacy Office documents that depend on specific Calibri rendering or Microsoft-only field codes are the ones that go sideways.
+
+**Forgetting about Outlook.** Office's calendar and inbox are tightly woven into a lot of small-business workflows. Replacing Word and Excel is the easy part — replacing Outlook usually means moving to Gmail or Proton Mail and adjusting how meeting invitations and shared calendars work. Plan that move separately.
+
 ## When Microsoft 365 is actually worth paying for
 
 You should keep Microsoft 365 if you:
