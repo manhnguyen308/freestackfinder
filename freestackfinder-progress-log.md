@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-03 (Day 59a)
-**Current day:** 59a
+**Last updated:** 2026-05-03 (Day 59b)
+**Current day:** 59b
 
 ## Current state
 
@@ -12,6 +12,35 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 59b — AdSense second-pass content/ad-readiness audit
+
+- Context: builds on the Day 59a structural pass (trust pages re-indexed, taxonomy archives noindexed). This pass audited content quality, ad-readiness, and commercial density against Google publisher policy and AdSense quality guidance.
+- Google low-value criteria applied: enough unique content for crawl understanding · substantial value vs similar sites · no duplicate/scraped/cookie-cutter content · expanded or consolidated rather than thin duplicate surfaces · accurate navigation and working links · ads not allowed on screens that are mostly navigation, thin, or under construction · no thin affiliate-style pages or doorway pages · no keyword stuffing.
+- Ad-readiness criteria applied: steady documented publishing cadence · page content as the main focus, not ads/CTAs · no deceptive ad behaviour or click-encouragement copy · on-topic affiliate placements only · weekly post-approval monitoring planned · ad A/B testing deferred until after approval and stable serving · soften anything that reads ad-first or affiliate-first.
+- Audit findings:
+  1. Footer already links all five trust pages from every page; with Day 59a making them indexable, trust signals are now fully discoverable.
+  2. Homepage (`layouts/index.html`): substantive — hero with tagline, four-tenet editorial strip, six-category browse grid with live counts, three curated use-case collections, and a latest-comparisons list. Not navigation-only.
+  3. Start Here (`content/start-here.md`): six use-case "paths," each with its own intro paragraph and four contextual links. Day 57c rendering fix still good — no escaped HTML in built output.
+  4. Sampled high-risk article (`cloud/free-backup-software.md`, 219 lines): substantive original analysis — distinguishes sync vs backup, applies a 3-2-1 frame, gives per-tool free-plan limits, and offers honest paid-tier guidance. Not a thin affiliate page.
+  5. Affiliate CTA pattern: `affiliate-cta` blocks appear at line 190+ in articles (deep, post-content), not on the first screen. NordVPN placements on `dropbox-alternatives` and `free-email-service` have contextual bridges (NordLocker/encrypted storage; VPN alongside private email) — borderline but defensible and on-topic for a security/privacy audience.
+  6. Ad slots: `showAds = false` in `config.toml`. No live AdSense units render anywhere. AdSense script is conditional on publisher ID and only loads when configured. No first-screen ad pressure exists today.
+  7. `review-block.html` partial renders only on article pages (not trust/page kinds) — methodology copy is generic but honest, no fake testing-lab claims.
+  8. Spot-checked metadata: titles like "Best Free [X] in 2026 — [hook]" follow a consistent template but each carries a unique hook clause and per-article description; no keyword-stuffed titles or doorway-style near-duplicates spotted.
+  9. No unapproved Canva or Grammarly affiliate placements introduced. Existing Canva mentions are editorial only; Grammarly mentions appear on `productivity/grammarly-alternatives` as the comparison subject, which is on-topic, not a CTA.
+- Fixes made: no further content or code changes required beyond Day 59a. The remaining gaps (deeper original commentary on the highest-impression GSC pages, more Creative/Security/Video articles to deepen topical coverage) are content-roadmap work and deliberately out of scope for this remediation pass per the no-new-articles rule.
+- Noindex/search-surface changes: none this pass. Day 59a noindex of `/categories/` and `/tags/` term pages remains in effect; trust pages remain indexable.
+- Trust/compliance changes: none beyond Day 59a.
+- Homepage/Start Here changes: none — both reviewed and confirmed substantive.
+- High-priority page changes: none — sampled pages are not thin.
+- Affiliate/commercial safety: confirmed clean. Canva still Under review (no CTAs added). Grammarly still Declined (no CTAs added). NordVPN/NordPass/Amazon placements unchanged. No banner images, no incentivized-click copy, no ad-clicking encouragement language anywhere.
+- Weekly post-approval monitoring plan (added here so it survives across runs): once AdSense approves, the weekly review should check (a) `pageviews` and `top landing pages` in GSC vs. prior week, (b) ad CTR and impressions per page from AdSense, (c) bounce rate and average engagement time per top page, (d) any "Limited ad serving" or policy notices in the AdSense console, (e) freshness — articles untouched for 90+ days that still receive impressions. Findings go into `docs/GSC-NOTES.md` and inform the next refresh cycle.
+- Ad A/B testing posture: no ad layout, ad density, or ad placement experiments will be run before AdSense approval and at least four weeks of stable serving. Premature A/B tests risk policy strikes and skew the baseline data needed to evaluate any future change.
+- Files changed: `freestackfinder-progress-log.md` (this entry only).
+- Validation: `git diff --check` clean · QA runner 3/3 passed (44 articles, 44 images, 0 broken links) · stale-content report informational only · `hugo --minify` clean · Day 59a noindex/index behaviour confirmed unchanged · no URL/slug/alias changes · no new article created · no public-facing copy changed · article count 44.
+- Recommendation on AdSense review request: still do not click "Request review" yet. Give Googlebot 7–14 days to recrawl trust pages and process taxonomy noindex from Day 59a. Best next move before re-submitting is to publish the remaining Creative (2), Security (1), and Video (3) articles to push article count past 50 and visibly demonstrate publishing cadence — both are signals AdSense weighs for "low value content" decisions.
 
 ---
 
