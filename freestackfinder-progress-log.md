@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-03 (Day 59d)
-**Current day:** 59d
+**Last updated:** 2026-05-03 (Day 59e)
+**Current day:** 59e
 
 ## Current state
 
@@ -12,6 +12,16 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 59e — Standardize contact email to contact@freestackfinder.com
+
+- Issue: public contact email was inconsistently set to `hello@freestackfinder.com` across four files.
+- Fix: replaced all instances of `hello@freestackfinder.com` with `contact@freestackfinder.com` in `content/contact.md`, `content/privacy-policy.md`, `layouts/partials/schema.html`, and `config.toml`.
+- Post-fix grep confirmed no `hello@`, `info@`, `admin@`, or other variant email addresses remain.
+- Article count: 44 unchanged. No URL/slug/alias changes. No new articles.
+- Validation: `git diff --check` clean · QA 3/3 passed · `hugo --minify` clean.
 
 ---
 

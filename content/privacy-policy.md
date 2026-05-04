@@ -105,6 +105,6 @@ We may update this Privacy Policy from time to time. When we do, we will update 
 
 ## 11. Contact
 
-For privacy-related questions or to exercise your data rights, contact us through our [contact page](/contact/) or email us at: hello@freestackfinder.com
+For privacy-related questions or to exercise your data rights, contact us through our [contact page](/contact/) or email us at: contact@freestackfinder.com
 
 </div>

@@ -23,18 +23,18 @@ type: page
 <p class="contact-note">Email is currently the fastest and most reliable way to reach us. Correction requests are especially helpful because they let us fix published guides quickly.</p>
 
 <div class="contact-options" aria-label="Contact options">
-  <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=Free%20Stack%20Finder%20correction">
+  <a class="contact-option" href="mailto:contact@freestackfinder.com?subject=Free%20Stack%20Finder%20correction">
     Report outdated information
   </a>
-  <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=Free%20Stack%20Finder%20tool%20suggestion">
+  <a class="contact-option" href="mailto:contact@freestackfinder.com?subject=Free%20Stack%20Finder%20tool%20suggestion">
     Suggest a tool or comparison
   </a>
-  <a class="contact-option" href="mailto:hello@freestackfinder.com?subject=Partnership%20inquiry">
+  <a class="contact-option" href="mailto:contact@freestackfinder.com?subject=Partnership%20inquiry">
     Partnership or press inquiry
   </a>
 </div>
 
-<p class="contact-direct">Direct email: <a href="mailto:hello@freestackfinder.com">hello@freestackfinder.com</a></p>
+<p class="contact-direct">Direct email: <a href="mailto:contact@freestackfinder.com">contact@freestackfinder.com</a></p>
 
 <style>
 .contact-note { margin: 20px 0 12px; color: var(--muted, #475569); }

@@ -10,7 +10,7 @@ summarylength = 40
   description = "Find the best free alternatives to paid software. We compare free-plan limits, practical tradeoffs, and when the paid version is worth it."
   author = "FreeStackFinder Team"
   tagline = "Stop paying for software you don't have to."
-  email = "hello@freestackfinder.com"
+  email = "contact@freestackfinder.com"
   adsensePublisherId = "ca-pub-5934721249825043"
   showAds = false
 
