@@ -1,8 +1,8 @@
 ---
 title: "Best Free Video Conferencing Tools in 2026 — Compare Before You Commit"
 description: "Compare the best free video conferencing tools for remote teams, client calls, and classrooms. Time limits, participant caps, and who each tool actually suits."
-date: "2026-05-04"
-lastmod: "2026-05-04"
+date: "2026-05-05"
+lastmod: "2026-05-05"
 draft: false
 weight: 32
 slug: "free-video-conferencing"
