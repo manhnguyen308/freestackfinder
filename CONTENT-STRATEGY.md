@@ -63,7 +63,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 3 | Best Free VPNs in 2026 | free-vpn | ✓ Published |
 | 4 | Best Free 2FA Apps in 2026 | best-free-2fa-apps | ✓ Published |
 | 5 | Best Free Password Managers for Teams in 2026 | free-password-managers-teams | ✓ Published |
-| 6 | Best Free Security Audit Tools in 2026 | free-security-audit-tools | Later |
+| 6 | Best Free Security Audit Tools in 2026 | free-security-audit-tools | ✓ Published |
 
 ### Cloud (target: 7 articles)
 

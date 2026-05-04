@@ -194,7 +194,7 @@ For users who have already set up ProtonVPN Free and want to explore whether a p
 
 ---
 
-For the full free security stack alongside your VPN, see our [free 2FA authenticator apps guide](/security/best-free-2fa-apps/) — a VPN protects your connection while 2FA protects your accounts.
+For the full free security stack alongside your VPN, see our [free 2FA authenticator apps guide](/security/best-free-2fa-apps/) — a VPN protects your connection while 2FA protects your accounts. If you manage a website or server, our [free security audit tools guide](/security/free-security-audit-tools/) covers how to find exposed ports and web vulnerabilities before attackers do.
 
 ## Our verdict
 

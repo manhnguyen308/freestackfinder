@@ -183,7 +183,7 @@ macOS has a different threat landscape to Windows. Apple's built-in security lay
 
 For personal use on a modern Windows 11 machine with updates enabled, the honest answer is no — not for antivirus protection specifically. Paid antivirus suites differentiate themselves with bundled VPNs, identity monitoring, family controls, and multi-device management, not with meaningfully better malware detection. If you are paying solely for better virus protection than Windows Defender, the independent lab data does not support that value proposition. For securing the files you store online, see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/) — choosing an encrypted storage provider is a more impactful security decision than paying for antivirus.
 
-A more impactful security upgrade is using a dedicated [free password manager](/security/free-password-managers/) — weak and reused passwords are responsible for far more account compromises than malware in 2026.
+A more impactful security upgrade is using a dedicated [free password manager](/security/free-password-managers/) — weak and reused passwords are responsible for far more account compromises than malware in 2026. If you run a website or server, a [free security audit tool](/security/free-security-audit-tools/) will find exposed ports and misconfigured headers that antivirus software cannot see.
 
 ---
 
