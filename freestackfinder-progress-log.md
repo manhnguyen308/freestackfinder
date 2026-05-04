@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-03 (Day 59e)
-**Current day:** 59e
+**Last updated:** 2026-05-04 (Day 59f)
+**Current day:** 59f
 
 ## Current state
 
@@ -12,6 +12,38 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 59f — Final AdSense readiness verification
+
+- Full checklist pass against Google AdSense and publisher policy criteria. No content or code changes required.
+- Article count: 44 unchanged. No new articles. No URL/slug/alias changes.
+
+**Checklist results:**
+
+1. **Trust pages (About, Contact, Privacy Policy, Terms, Disclaimer):** All five are indexable (`index, follow`) ✓ · All five appear in `public/sitemap.xml` ✓ · Footer links all five from every page ✓.
+2. **Contact email:** `contact@freestackfinder.com` is consistent across all 7 occurrences (contact.md ×4, privacy-policy.md ×1, schema.html ×1, config.toml ×1). No `hello@`, `info@`, or admin variant found ✓.
+3. **Homepage and Start Here:** Homepage has hero, editorial strip, six-category browse grid with article counts, use-case collections, and latest articles — not a link directory. Start Here has six structured use-case paths with contextual intros and curated links per path ✓.
+4. **Navigation:** Nav links homepage, Start Here, all 6 silo hubs, and search. Footer has trust links. Internal link check: 0 broken links across 51 files ✓.
+5. **Taxonomy/term noindex:** `/categories/`, `/categories/business/`, `/tags/free-crm/` (sample) all render `noindex, follow` ✓.
+6. **Search page noindex:** `/search/` renders `noindex, follow` ✓.
+7. **Article pages index:** `/business/free-crm-software/` and all sampled article pages render `index, follow` ✓.
+8. **Duplicate content across silos:** No duplicate article slugs found across silos. QA internal link check: 0 broken links ✓.
+9. **Content variety:** Day 59c expansions confirmed — four articles each received structurally different new sections (common-mistakes, who-should-not, what-to-watch-out-for, how-we-evaluated) at varied positions. Section headers do not repeat across articles ✓.
+10. **No placeholder/under-construction content:** grep for "placeholder", "lorem ipsum", "coming soon", "under construction" returned zero matches in content ✓.
+11. **No ad-click encouragement:** grep for "click.*ad", "encourage.*click", "help us by clicking" returned zero matches in site content and templates ✓. Disclaimer uses standard disclosure phrasing ✓.
+12. **Canva/Grammarly affiliate safety:** No `affiliate-cta` shortcode blocks found in any article for either program. Canva external links in three articles (free-resume-builders, free-website-builders, illustrator-alternatives) are plain editorial links without affiliate parameters ✓. Grammarly appears only as the comparison subject on `grammarly-alternatives` ✓.
+13. **Content roadmap gap documented:** Creative 2 remaining (targets 8/8) · Security 1 remaining (free-security-audit-tools) · Video 3 remaining (targets 7/7) — total 6 articles to reach 50.
+14. **Tracker recommendation:** Publish 6 outstanding articles to push count past 50, then click "Request review" in AdSense console no earlier than 2026-05-10, ideally 2026-05-17, to allow Googlebot to complete the recrawl cycle from Day 59a taxonomy noindex changes.
+
+**Known gap (not a blocking AdSense issue):** 181 taxonomy/term URLs appear in `public/sitemap.xml` despite being noindexed. Hugo includes all page kinds in sitemap by default; excluding them requires a custom sitemap template. This is a mild signal contradiction (noindex meta + sitemap presence) but not a primary AdSense rejection signal. Deferred — would require a custom `layouts/sitemap.xml` template change.
+
+**Known gap (deferred):** `/business/page/2/` and equivalent paginated section pages still render `index, follow`. Hugo pagination shares `.RelPermalink` with the parent section, making a head-level noindex rule unsafe without risking `.Paginator` contract conflicts. Not a primary AdSense rejection signal.
+
+- Files changed: `freestackfinder-progress-log.md` only.
+- Validation: `git diff --check` clean · QA 3/3 passed (44 articles, 44 images, 0 broken links) · `hugo --minify` clean.
+- Re-review recommendation: do not click "Request review" before 2026-05-10; ideally 2026-05-17. Optionally publish 6 outstanding articles first to demonstrate content cadence.
 
 ---
 
