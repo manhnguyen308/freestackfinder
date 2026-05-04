@@ -1,17 +1,33 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-04 (Day 60a)
-**Current day:** 60a
+**Last updated:** 2026-05-04 (Day 60b)
+**Current day:** 60b
 
 ## Current state
 
-- Total articles: 45
-- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 4/7
+- Total articles: 46
+- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 5/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 60b — Publish free-video-conferencing (Video silo 5/7)
+
+- Article: Best Free Video Conferencing Tools in 2026 (`content/video/free-video-conferencing.md`)
+- Silo: Video — now 5/7
+- Word count: ~2,200 words
+- Feature image: `static/img/free-video-conferencing.webp` — 36.1 KB, generated via `scripts/images/generate_free_video_conferencing.py`
+- Internal links from new article: `/video/zoom-alternatives/`, `/video/free-screen-recording-software/`, `/business/free-project-management-software/`
+- Backlinks added to existing articles:
+  - `content/video/zoom-alternatives.md` — added link to broader conferencing guide in the verdict paragraph
+  - `content/video/free-screen-recording-software.md` — added link to conferencing guide in the Our verdict section
+- Validation: `git diff --check` clean · QA 3/3 passed (46 articles, 46 images, 0 broken links, 0 stale) · `hugo --minify` clean · article at `public/video/free-video-conferencing/index.html` confirmed (34.7 KB)
+- Article count: 45 → 46 (4 remaining to reach 50)
+- AdSense note: Video silo now 5/7. Remaining gap: Creative 2, Video 2. Canva Under review — no CTAs. Grammarly Declined — no CTAs.
 
 ---
 
