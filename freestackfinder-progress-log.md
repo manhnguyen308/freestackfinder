@@ -15,6 +15,31 @@
 
 ---
 
+### Day 61a — High-impression article markup and metadata cleanup
+
+- Activity: production-polish fixes on existing high-impression articles ahead of AdSense re-review. No new article created.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/DESIGN-SYSTEM.md`, `freestackfinder-progress-log.md`, `docs/GSC-NOTES.md`, `docs/BUILD-VALIDATION.md`, seven affected article files, and the relevant `.verdict-box` CSS block in `static/css/style.css`.
+- Files changed:
+  - `content/productivity/microsoft-office-alternatives.md`
+  - `content/creative/photoshop-alternatives.md`
+  - `content/creative/canva-alternatives.md`
+  - `content/productivity/slack-alternatives.md`
+  - `content/cloud/dropbox-alternatives.md`
+  - `content/productivity/grammarly-alternatives.md`
+  - `content/creative/illustrator-alternatives.md`
+  - `docs/GSC-NOTES.md`
+  - `freestackfinder-progress-log.md`
+- Critical fixes: removed all four raw `verdict-box` HTML blocks from the Microsoft Office and Photoshop articles and replaced them with clean Markdown blockquotes/prose. Content grep confirms no `verdict-box` markup remains in Markdown article files.
+- Metadata fixes: corrected `photoshop-alternatives` date to `2026-04-30`; replaced the Canva meta description with a reader-facing 143-character description; added `weight: 92` to `slack-alternatives`.
+- Structural variety improvements: varied repetitive labels across Office, Photoshop, Dropbox, Grammarly, Slack, and Illustrator pages, focusing on obvious repeated "free plan / missing / best for / why it stands out" patterns rather than rewriting whole articles.
+- Human-value improvements: added or sharpened practical decision points around Office file compatibility, LibreOffice .docx collaboration, Photoshop PSD/export workflow checks, Slack small-team meeting limits, cloud-storage transfer/storage traps, grammar-check character limits, and Illustrator/Inkscape tradeoffs.
+- Guardrails confirmed: no affiliate links, CTA placements, ad slots, new articles, URL changes, slug changes, aliases, redirects, robots rules, sitemap behavior, or Cloudflare config changes.
+- Validation: `git diff --check` clean · QA runner 3/3 passed with counts and stale report (46 articles, 0 broken internal links, 0 stale articles) · `publish_checklist.py` with no args exited cleanly · Hugo Extended 0.160.1 build clean · built article pages confirmed `index, follow` · taxonomy/search robots unchanged at `noindex, follow` · no `verdict-box` markup in built HTML article pages.
+- Article count: unchanged at 46 in the current repo source count.
+- Recommendation: after build validation passes and the changes are deployed, request AdSense review after the updated pages have had time to recrawl; monitor GSC clicks and CTR after recrawl.
+
+---
+
 ### Day 61 — High-impression content quality pass (AdSense re-review prep)
 
 - Activity: editorial quality improvements to the top 5 high-impression articles.

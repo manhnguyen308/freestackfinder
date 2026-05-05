@@ -38,22 +38,22 @@ What most users actually need is simple: catch grammar mistakes, flag unclear se
 
 **What it is:** An open-source grammar and spell checker that supports over 30 languages, available as a browser extension, desktop app, and web editor.
 
-**Free plan includes:**
+**What you can use for free:**
 - Grammar, spelling, and punctuation checking in 30+ languages
 - Browser extension for Chrome, Firefox, Edge, and Safari
 - Integration with Google Docs, Gmail, and most web text editors
 - Up to 10,000 characters checked per request on the free plan
 - Basic style suggestions
 
-**What the free plan is missing:**
+**The practical limit:**
 - Advanced phrasing suggestions and synonym recommendations (Premium)
 - Longer text checks without splitting (Premium removes the character limit)
 - AI-powered paraphrasing tool
 - Personal dictionary on some platforms requires an account
 
-**Who it's best for:** Anyone who writes in multiple languages, students, bloggers, and professionals who want reliable grammar checking without a subscription.
+**Best fit:** Anyone who writes in multiple languages, students, bloggers, and professionals who want reliable grammar checking without a subscription.
 
-**Why it stands out:** LanguageTool is the most underrated tool in this list, and for many users it is the only one they will need. Its free tier is genuinely functional — not a teaser. The browser extension works across almost every site where you type, which means it covers Gmail, Google Docs, WordPress, Notion, and most web-based editors without any configuration. The multilingual support is particularly strong: if you write in German, Spanish, French, or Portuguese alongside English, LanguageTool covers all of them in the same extension. Grammarly, by comparison, only supports English. That difference alone makes LanguageTool the right choice for a significant portion of writers.
+**Where it makes the biggest difference:** LanguageTool is the most underrated tool in this list, and for many users it is the only one they will need. Its free tier is genuinely functional — not a teaser. The browser extension works across almost every site where you type, which means it covers Gmail, Google Docs, WordPress, Notion, and most web-based editors without any configuration. The multilingual support is particularly strong: if you write in German, Spanish, French, or Portuguese alongside English, LanguageTool covers all of them in the same extension. Grammarly, by comparison, only supports English. That difference alone makes LanguageTool the right choice for a significant portion of writers.
 
 **Who might find the free tier limiting:** The 10,000-character limit per check is not a problem for email and social media, but it means very long documents must be checked in sections. For a 5,000-word article, this requires splitting the text two or three times — a minor but real friction point. Writers who regularly edit long pieces in a single session may find that friction accumulates. The Premium plan removes this limit, but most casual and moderate users will not hit it in normal day-to-day writing.
 

@@ -60,7 +60,7 @@ rows:
 
 Google's free productivity suite has quietly become one of the most capable office tools available, and it costs nothing. A Google account (also free) gets you:
 
-**What's included for free:**
+**What you can do without paying:**
 - Google Docs (Word equivalent) — unlimited documents
 - Google Sheets (Excel equivalent) — full formula support including VLOOKUP, XLOOKUP, pivot tables
 - Google Slides (PowerPoint equivalent)
@@ -70,15 +70,15 @@ Google's free productivity suite has quietly become one of the most capable offi
 - Works with .docx, .xlsx, and .pptx — can import and export Microsoft formats
 - Offline mode available via Chrome extension
 
-**Where it falls short:**
+**The practical free-plan limit:**
 - Less powerful than Excel for advanced data analysis (though covers 90%+ of everyday use)
 - Formatting can shift slightly when exporting complex .docx files for Office users
 - No desktop app for Windows/Mac — browser-only (or mobile app)
 - 15GB storage is shared across Gmail, Drive, and Photos — can fill up
 
-**Who it's best for:** Students, remote workers, small teams, anyone who collaborates regularly, and people who work across multiple devices.
+**Best fit:** Students, remote workers, small teams, anyone who collaborates regularly, and people who work across multiple devices.
 
-<div class="verdict-box good"><div class="verdict-label">Our verdict</div><p>For most everyday users, Google Docs/Sheets/Slides replaces Microsoft Office completely. The collaboration features are actually better than Office for real-time teamwork. Strong recommendation.</p></div>
+> **Our verdict:** For most everyday users, Google Docs, Sheets, and Slides replace Microsoft Office completely. The collaboration features are often better than Office for real-time teamwork. The one habit to keep: before sending a formal .docx or .pptx to an Office-heavy client, export it once and skim the layout so fonts, tables, and slide spacing did not shift.
 
 [Use Google Workspace free →](https://workspace.google.com)
 
@@ -92,7 +92,7 @@ For team messaging alongside Google Workspace, see our [free Slack alternatives 
 
 LibreOffice is a full-featured, open-source desktop office suite with Writer (Word), Calc (Excel), Impress (PowerPoint), Draw, Base (database), and Math. It runs on Windows, macOS, and Linux, and it's completely free — no subscription, no premium tier.
 
-**What's included:**
+**What the desktop suite gives you:**
 - Comprehensive word processor with advanced formatting, styles, mail merge
 - Spreadsheet with extensive formula support and macro capability
 - Presentation software with slide transitions and animations
@@ -100,15 +100,15 @@ LibreOffice is a full-featured, open-source desktop office suite with Writer (Wo
 - No internet connection required
 - Works on older hardware
 
-**Where it falls short:**
+**Where to be careful:**
 - .docx compatibility is good but not perfect — complex tables, specific fonts, or advanced formatting may shift
 - Interface looks dated compared to modern alternatives
 - Not ideal for real-time collaboration (though online versions exist)
 - Less intuitive for new users coming from Microsoft Office's ribbon interface
 
-**Who it's best for:** Home office users who work offline, people who need the full power of desktop office tools without a subscription, and Linux users.
+**Best fit:** Home office users who work offline, people who need the full power of desktop office tools without a subscription, and Linux users.
 
-<div class="verdict-box good"><div class="verdict-label">Our verdict</div><p>LibreOffice is the most capable free desktop office suite. If you work mostly offline and need serious document power, it's the right choice. Plan for a short adjustment period if you're coming from Office.</p></div>
+> **Our verdict:** LibreOffice is the most capable free desktop office suite. If you work mostly offline and need serious document power, it is the right choice. It is strongest when you control the final export, such as sending PDFs; if collaborators will keep editing the same .docx file in Word, build in a quick compatibility check.
 
 [Download LibreOffice free →](https://www.libreoffice.org)
 
@@ -126,7 +126,7 @@ OnlyOffice is worth knowing about specifically if .docx compatibility is your to
 - Clean, modern Office-like interface — familiar for Office users
 - Available for Windows, macOS, Linux
 
-**Where it falls short:**
+**Where it can feel limited:**
 - Free desktop version has some limits on cloud collaboration
 - Less well-known so community resources are smaller than LibreOffice
 - The online/cloud version has a more limited free tier

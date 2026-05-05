@@ -63,6 +63,14 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Article count: 46 unchanged. No new articles. No URL/slug changes. No affiliate CTAs added.
 - Follow-up: monitor CTR and avg position on these 5 pages after next Googlebot recrawl cycle; if CTR remains below 1% at next GSC window, consider a title/description pass on the lowest performers.
 
+## 2026-05-05 production polish follow-up
+
+- Focus: fix high-impression quality issues found after the earlier content pass, especially raw `verdict-box` markup and metadata drift.
+- Pages updated: `/productivity/microsoft-office-alternatives/`, `/creative/photoshop-alternatives/`, `/creative/canva-alternatives/`, `/productivity/slack-alternatives/`, `/cloud/dropbox-alternatives/`, `/productivity/grammarly-alternatives/`, `/creative/illustrator-alternatives/`.
+- Issues fixed: removed legacy raw `verdict-box` HTML from Office and Photoshop articles; corrected Photoshop source date to match its 2026 title and `lastmod`; rewrote Canva's meta description as reader-facing copy; added Slack homepage weight for Most Popular eligibility.
+- Quality improvements: reduced repeated section-label patterns and added practical decision logic around compatibility, free-plan limits, small-team workflow fit, and export/collaboration friction.
+- Follow-up: monitor CTR, clicks, and impressions on these pages after the next recrawl. If the snippets update but CTR remains below 1%, consider one small title or description adjustment on the lowest-performing page rather than another broad rewrite.
+
 ---
 
 ## Action rules

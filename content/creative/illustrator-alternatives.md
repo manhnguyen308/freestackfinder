@@ -37,7 +37,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **What it is:** A free, open-source vector graphics editor that handles professional illustration, logo design, SVG editing, icon creation, and print-ready artwork.
 
-**Free plan includes:**
+**What you get without paying:**
 - Full SVG editing with Bezier curves, nodes, and paths
 - Boolean operations (union, difference, intersection, exclusion)
 - Text on path, flowing text, and advanced typography tools
@@ -48,16 +48,16 @@ The open-source community responded. Inkscape has been in active development sin
 - Available on Windows, macOS, and Linux
 - Completely free — no premium tier, no subscription, no ads
 
-**What it is missing:**
+**The main catch:**
 - The interface is less polished than Illustrator — steeper learning curve for Illustrator users
 - No native .ai file format support — Illustrator files must be exported as PDF or SVG first
 - Artboard workflow is less seamless than Illustrator's
 - Performance on very complex files with thousands of objects can be slower
 - No cloud sync or collaboration features built in
 
-**Who it's best for:** Designers who need full professional vector capabilities without paying for Illustrator. Particularly good for logo design, icon sets, technical illustration, and SVG web graphics.
+**Best fit:** Designers who need full professional vector capabilities without paying for Illustrator. Particularly good for logo design, icon sets, technical illustration, and SVG web graphics.
 
-**Why it stands out:** Inkscape is the only free tool in this list that matches Illustrator's core capability set for serious design work. The node editor, Bezier tool, and boolean operations work at a professional level. The learning curve is real — Inkscape's interface has its own logic that takes adjustment if you are coming from Illustrator — but once past that adjustment, the tool handles complex vector work without meaningful limitation. For anyone who used Illustrator primarily for logo design, icon creation, or technical illustration, Inkscape is a complete replacement.
+**Where it beats lighter tools:** Inkscape is the only free tool in this list that matches Illustrator's core capability set for serious design work. The node editor, Bezier tool, and boolean operations work at a professional level. The learning curve is real — Inkscape's interface has its own logic that takes adjustment if you are coming from Illustrator — but once past that adjustment, the tool handles complex vector work without meaningful limitation. For anyone who used Illustrator primarily for logo design, icon creation, or technical illustration, Inkscape is a complete replacement.
 
 [Download Inkscape free →](https://inkscape.org)
 

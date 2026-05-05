@@ -40,7 +40,7 @@ The core Dropbox product — seamless desktop sync, shareable links, version his
 
 **What it is:** A New Zealand-based cloud storage service offering 20GB free with end-to-end encryption on all files by default.
 
-**Free plan includes:**
+**What the free plan gives you:**
 - 20GB permanent free storage
 - End-to-end encryption — MEGA cannot read your files
 - Desktop sync client for Windows, macOS, and Linux
@@ -49,14 +49,14 @@ The core Dropbox product — seamless desktop sync, shareable links, version his
 - Secure file and folder sharing with optional password protection and expiry
 - 5GB transfer quota per month on free
 
-**What the free plan is missing:**
+**Main free-plan constraint:**
 - 5GB monthly transfer quota means high-traffic shared links may be temporarily throttled
 - Version history is limited on free
 - Bandwidth-heavy use cases hit limits faster than Google Drive
 
-**Who it's best for:** Users who want the most free storage possible and care about privacy. Also good for users who want to share large files securely without a Google or Microsoft account.
+**Best fit:** Users who want the most free storage possible and care about privacy. Also good for users who want to share large files securely without a Google or Microsoft account.
 
-**Why it stands out:** MEGA's 20GB free tier is 10 times what Dropbox offers. The end-to-end encryption is not a premium add-on — it is the default architecture. MEGA cannot read your files even if compelled to by a legal request, which puts it in a different security category to Google Drive, OneDrive, and Dropbox. The desktop sync client works cleanly on all major platforms and behaves similarly to Dropbox's sync folder. For users who want a direct Dropbox replacement with more storage and better privacy, MEGA is the most compelling option.
+**Where it beats Dropbox Free:** MEGA's 20GB free tier is 10 times what Dropbox offers. The end-to-end encryption is not a premium add-on — it is the default architecture. MEGA cannot read your files even if compelled to by a legal request, which puts it in a different security category to Google Drive, OneDrive, and Dropbox. The desktop sync client works cleanly on all major platforms and behaves similarly to Dropbox's sync folder. For users who want a direct Dropbox replacement with more storage and better privacy, MEGA is the most compelling option.
 
 **The limit to plan around:** MEGA's 5GB monthly transfer quota on the free plan is the main practical constraint. For personal file sync — documents, photos, small project folders — this is rarely an issue. The quota becomes relevant if you share a large file via a MEGA link that gets downloaded repeatedly, or if you sync a media library across multiple devices in a single month. For a primary sync folder with everyday files, most free-plan users will not hit the limit. For a shared folder used by several people downloading frequently, you will.
 
@@ -82,7 +82,7 @@ The core Dropbox product — seamless desktop sync, shareable links, version his
 - No end-to-end encryption — Google can access and indexes file content
 - 15GB fills faster than expected for active users with large email or photo libraries
 
-**Who it's best for:** Users who want cloud storage alongside productivity tools, and anyone already using Gmail since the 15GB is shared anyway.
+**Best fit:** Users who want cloud storage alongside productivity tools, and anyone already using Gmail since the 15GB is shared anyway.
 
 **Why it stands out:** Google Drive is not just storage — it is a complete productivity platform. Creating a document, sharing it with a collaborator, and editing in real time requires no software installation and no paid subscription. For most knowledge work use cases, Google Docs replaces Microsoft Word at no cost, with better collaboration features. If you need help choosing between Office alternatives that work alongside Drive, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
