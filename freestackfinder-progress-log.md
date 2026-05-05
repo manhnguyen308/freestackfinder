@@ -10,8 +10,54 @@
 - Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 5/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
-- Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
+- Next content: Creative (2 remaining) or Video (2 remaining)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 61b — AdSense source-code audit
+
+- Activity: systematic AdSense readiness source-code audit. Scanned config, all layout templates, all partials, trust pages, key article pages, generated public output, and sitemap. No new article created.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/DESIGN-SYSTEM.md`, `freestackfinder-progress-log.md`, `CONTENT-STRATEGY.md`, `docs/GSC-NOTES.md`, `docs/AFFILIATE-GUIDELINES.md`, `docs/AFFILIATE-TRACKER.md`, `docs/BUILD-VALIDATION.md`, `config.toml`, all layouts and partials, all content files (listing), key trust and article pages, `static/css/style.css`, `static/js/search.js`, `public/robots.txt`, `public/sitemap.xml`, `public/index.html`, `public/search/index.html`, `public/about/index.html`, `public/contact/index.html`, `public/privacy-policy/index.html`, `public/disclaimer/index.html`, `public/terms/index.html`, `public/productivity/microsoft-office-alternatives/index.html`, `public/business/index.html`, `public/categories/index.html`, `public/tags/index.html`, `public/start-here/index.html`, `public/business/page/2/index.html`.
+- Files changed: `layouts/robots.txt` (created — added Sitemap directive).
+
+**Critical findings: none.**
+
+**High findings: none.**
+
+**Medium findings:**
+1. **189 taxonomy/tag pages in sitemap despite being noindexed** — Hugo includes all page kinds in sitemap by default. Noindexed pages are present in `public/sitemap.xml` (`/categories/`, `/categories/business/`, `/tags/<term>/` etc.). Mixed crawl signal. Known deferred issue from Day 59f. Requires a custom `layouts/sitemap.xml` template to exclude them. Not a primary AdSense rejection signal.
+2. **Paginated section pages are indexable with duplicate titles** — `/business/page/2/` and equivalents serve `index, follow` with the same title as the parent hub. Known deferred issue from Day 59d. Hugo pagination shares `.RelPermalink`; a simple noindex rule is unsafe. Not a primary AdSense rejection signal.
+3. **Hugo deprecation warnings at build time** — `languageCode` in `config.toml` and `.Site.LanguageCode` in `layouts/_default/baseof.html` are deprecated since Hugo v0.158.0 (use `locale` / `.Site.Language.Locale`). Not breaking today on the Cloudflare-pinned 0.160.1 build; emits warnings on local 0.161.1. Should be fixed before Hugo removes the deprecated keys.
+
+**Low findings:**
+1. **`SKILL.md` and `BUILD-VALIDATION.md` article count stale** — Both say "currently 43" but actual count is 46. Internal docs only; no functional impact. Recommend updating on next maintenance pass.
+2. **Placeholder AdSense slot IDs in `single.html`** — `TOP_ARTICLE_SLOT_ID` and `SIDEBAR_SLOT_ID` appear in template gated behind `showAds = false`. They never render today. Will need real slot IDs replaced before enabling ads after approval.
+3. **`/free-stack-guide` sidebar widget silently absent** — `single.html` sidebar references `.Site.GetPage "/free-stack-guide"` which doesn't exist; the `with` block safely renders nothing. Sidebar is thinner on articles with few related guides. Consider creating the page or removing the widget block in a future polish pass.
+
+**Tiny fix made:**
+- Created `layouts/robots.txt` with `User-agent: *` + blank line + `Sitemap: {{ .Site.BaseURL }}sitemap.xml`. Previously `public/robots.txt` only contained `User-agent: *` with no Sitemap directive, preventing crawlers from auto-discovering the sitemap via robots.txt. Fix confirmed: `public/robots.txt` now includes `Sitemap: https://freestackfinder.com/sitemap.xml`.
+
+**Recommended follow-up tasks:**
+1. Create custom `layouts/sitemap.xml` to exclude noindexed taxonomy/tag pages from the sitemap — eliminates the noindex+sitemap mixed signal on ~189 URLs.
+2. Fix Hugo deprecation warnings: rename `languageCode` → `locale` in `config.toml`; replace `.Site.LanguageCode` → `.Site.Language.Locale` in `baseof.html`.
+3. Update `SKILL.md` and `BUILD-VALIDATION.md` article count from 43 → 46.
+4. Replace placeholder slot IDs (`TOP_ARTICLE_SLOT_ID`, `SIDEBAR_SLOT_ID`) with real AdSense slot IDs before enabling `showAds = true` after approval.
+5. Publish the 4 remaining articles (Creative 2, Video 2) to reach 50 before re-submitting AdSense review.
+
+**Robots/sitemap status:** Robots indexing fully correct. Homepage, articles, trust pages, category hubs: `index, follow`. Taxonomy, tag, search: `noindex, follow`. Paginated category pages: `index, follow` (deferred). Sitemap Sitemap directive added to robots.txt.
+
+**Trust/compliance status:** All 5 trust pages (about, contact, privacy-policy, terms, disclaimer) present, indexable, in sitemap, and linked from footer. Contact email `contact@freestackfinder.com` consistent across all 7 public locations. Privacy policy mentions AdSense, cookies, and affiliate links. Author/reviewer bio renders on all article pages. Per-article disclosure renders at top of each article.
+
+**Affiliate/ad safety status:** No Canva CTAs (editorial links only). No Grammarly CTAs. NordVPN/NordPass/Amazon CTAs use correct structure with `rel="sponsored noopener"`. Disclaimer program list accurate (NordVPN + NordPass, Amazon Associates). No ad-click encouragement found. `showAds = false` — no live ad slots rendering.
+
+**Content/rendering status:** No raw HTML visible in built output. No escaped HTML in Start Here (6 collection-cards, 24 collection-link-titles confirmed). No placeholder `href="#"` in any content or layout. No under-construction or TODO text in public content. No verdict-box HTML in any content file. No internal workflow language in public content.
+
+**Metadata/schema status:** Article schema on all article pages. BreadcrumbList schema on article pages. WebSite + Organization schema on homepage. Site name "Free Stack Finder" consistent in og:site_name, application-name, schema name, and canonical URL. QA front matter validator: 0 errors, 0 warnings (improved from 18 warnings in older runs).
+
+- Article count: 46 unchanged. No new articles. No URL/slug/alias changes.
+- Validation: `git diff --check` clean · QA runner 3/3 passed (46 articles, 0 broken links, 0 front matter errors) · `hugo --minify` clean (2 deprecation warnings, 0 errors) · `public/robots.txt` confirmed with Sitemap directive · all page-level robots/indexing confirmed correct on representative built pages.
+- Request review recommendation: AdSense review request timing still holds from Day 61 — no earlier than 2026-05-10, ideally 2026-05-17. Consider publishing 4 remaining articles first to demonstrate content cadence and push count to 50.
 
 ---
 
