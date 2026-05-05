@@ -48,6 +48,23 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 
 ---
 
+## 2026-05-05 high-impression quality pass
+
+- Focus: E-E-A-T and human-value improvement on the top 5 high-impression pages ahead of AdSense re-review.
+- Pages improved: `/productivity/microsoft-office-alternatives/`, `/cloud/dropbox-alternatives/`, `/productivity/grammarly-alternatives/`, `/productivity/slack-alternatives/`, `/creative/illustrator-alternatives/`.
+- Type of editorial additions: decision logic, practical tradeoffs, common mistakes, "who should skip" notes, and use-case guidance — all written in terms not copyable from a product page, without fake testing claims or affiliate CTAs.
+- Specific signals added:
+  - Office: OnlyOffice tracked-change compatibility note; WPS "who should skip" guidance.
+  - Dropbox: MEGA monthly transfer quota practical limit; Google Drive shared-storage trap; common cloud storage mistakes section.
+  - Grammarly: LanguageTool character-limit practical note; "which tool for which writing task" combination guide.
+  - Slack: Discord work-team setup guidance; common transition mistakes section.
+  - Illustrator: Client .ai file compatibility decision point; Inkscape vs Gravit practical comparison; expanded "Making the switch" section.
+- Validation: git diff --check clean · QA 3/3 passed (46 articles, 0 broken links, 0 front matter errors) · hugo --minify clean · all 5 pages confirmed index, follow · lastmod updated to 2026-05-05 on all 5 articles.
+- Article count: 46 unchanged. No new articles. No URL/slug changes. No affiliate CTAs added.
+- Follow-up: monitor CTR and avg position on these 5 pages after next Googlebot recrawl cycle; if CTR remains below 1% at next GSC window, consider a title/description pass on the lowest performers.
+
+---
+
 ## Action rules
 
 - **CTR issue** — consider title or meta description refresh only if the page has 100+ impressions and CTR is below 1%; do not rewrite titles on new pages

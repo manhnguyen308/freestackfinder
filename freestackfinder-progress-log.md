@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-04 (Day 60b)
-**Current day:** 60b
+**Last updated:** 2026-05-05 (Day 61)
+**Current day:** 61
 
 ## Current state
 
@@ -12,6 +12,22 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative (2 remaining) or Security (1 remaining: free-security-audit-tools)
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 61 — High-impression content quality pass (AdSense re-review prep)
+
+- Activity: editorial quality improvements to the top 5 high-impression articles.
+- Pages updated (lastmod 2026-05-05):
+  - `content/productivity/microsoft-office-alternatives.md` — OnlyOffice tracked-change compatibility note; WPS "who should skip" guidance.
+  - `content/cloud/dropbox-alternatives.md` — MEGA monthly transfer practical limit; Google Drive shared-storage trap; new "Common mistakes when choosing free cloud storage" section.
+  - `content/productivity/grammarly-alternatives.md` — LanguageTool character-limit practical caveat; new "Which tool for which writing task" section with combination guidance.
+  - `content/productivity/slack-alternatives.md` — Discord work-team setup guidance; new "Common mistakes when switching from Slack" section.
+  - `content/creative/illustrator-alternatives.md` — Client .ai file compatibility decision point; Inkscape vs Gravit practical comparison; expanded switch-from-Illustrator guidance.
+- Human-value signal added: decision logic, practical tradeoff notes, common mistake guidance, use-case specificity — written without fake testing claims, invented benchmarks, or affiliate CTAs.
+- Validation: git diff --check clean · QA 3/3 passed (46 articles, 0 broken links, 0 front matter errors) · hugo --minify clean · all 5 pages confirmed index, follow.
+- Article count: 46 unchanged. No new articles. No URL/slug/alias changes.
+- AdSense note: high-impression quality pass complete. These pages should now show more editorial depth and less templated feel. Recommend clicking "Request review" in AdSense console no earlier than 2026-05-10 (ideally 2026-05-17) to allow recrawl of both the taxonomy noindex changes (Day 59a) and these content updates.
 
 ---
 
