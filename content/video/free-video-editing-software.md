@@ -232,3 +232,5 @@ For some users, the better paid path is not Premiere Pro. It is **DaVinci Resolv
 **DaVinci Resolve** is still the strongest free editor here when your footage, hardware, and patience match what it asks for. **CapCut Desktop** is better for fast short-form social output. **OpenShot** is the easiest place to begin. **Kdenlive** is the best open-source all-rounder for people who want a middle option, and **Shotcut** stays useful as the compatibility fallback.
 
 If you need to record before you edit, pair this list with our guide to [free screen recording software](/video/free-screen-recording-software/). OBS Studio plus DaVinci Resolve is still one of the best free production stacks on the web.
+
+If you are on a Mac and want platform-specific guidance — including iMovie, Apple Silicon performance notes, and macOS codec considerations — see our [free video editing software for Mac guide](/video/free-video-editing-mac/).

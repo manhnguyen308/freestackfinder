@@ -1,17 +1,39 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-05 (Day 61)
-**Current day:** 61
+**Last updated:** 2026-05-06 (Day 62a)
+**Current day:** 62
 
 ## Current state
 
-- Total articles: 46
-- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 5/7
+- Total articles: 47
+- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 6/7
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
-- Next content: Creative (2 remaining) or Video (2 remaining)
+- Next content: Creative (2 remaining) or Video (1 remaining) — 3 articles needed to reach 50
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 62a — Publish free-video-editing-mac
+
+- Date: 2026-05-06
+- Article published: "Best Free Video Editing Software for Mac in 2026" (`content/video/free-video-editing-mac.md`)
+- Silo: Video — now 6/7
+- Total article count: 47 (up from 46)
+- Word count: ~2,250 words
+- Feature image: `static/img/free-video-editing-mac.webp` — 37 KB (WebP, 1200×630); generated via `scripts/images/generate_free_video_editing_mac.py`
+- Internal links from new article: 3 — `/video/free-video-editing-software/`, `/video/premiere-pro-alternatives/`, `/video/free-screen-recording-software/`
+- Backlinks added to existing articles:
+  - `content/video/free-video-editing-software.md` — added Mac-specific guide link in "Our verdict" section
+  - `content/video/premiere-pro-alternatives.md` — added Mac guide link in "Our verdict" section
+- Validation: `git diff --check` clean · QA runner 3/3 passed (47 articles, 0 broken links, 0 front matter errors) · `publish_checklist.py video free-video-editing-mac` 7/7 auto-checks passed · `hugo --minify` clean (2 known deprecation warnings, 0 errors) · `public/video/free-video-editing-mac/index.html` confirmed present (30 KB)
+- Stale report: 0 stale articles
+- Article count confirmed: 47 (46 → 47)
+- Video silo count confirmed: 6/7 (5 → 6)
+- AdSense quality check: article provides decision logic, practical Mac/Apple Silicon notes, free-tier limits per tool, common mistakes section, switching guidance, and a clear final recommendation. No fake testing claims, no shallow listicle, no affiliate CTAs. Suitable for AdSense review preparation.
+- Remaining to reach 50: 3 articles (Creative ×2, Video ×1)
+- Follow-up items carried forward from Day 61b: custom sitemap.xml to exclude noindex taxonomy pages; Hugo deprecation warning fix; SKILL.md + BUILD-VALIDATION.md article count update (still stale at 43); placeholder AdSense slot ID replacement after approval
 
 ---
 

@@ -209,3 +209,5 @@ If you are editing solo and delivering standard web video, those reasons usually
 **DaVinci Resolve** is the strongest free Premiere Pro alternative for most serious solo editors. **CapCut Desktop** is often the better answer for creators whose real workflow is short-form social publishing. **Kdenlive** is the best open-source timeline replacement, while **OpenShot** and **Shotcut** cover the lighter and more specialized ends of the spectrum.
 
 If you need to capture tutorials, demos, or talking-head footage before editing, pair these tools with our guide to [free screen recording software](/video/free-screen-recording-software/). That combo matters more than the editor alone.
+
+Mac users switching from Premiere will also find platform-specific guidance — including iMovie as a starting point, Apple Silicon performance notes, and macOS codec considerations — in our [free video editing software for Mac guide](/video/free-video-editing-mac/).

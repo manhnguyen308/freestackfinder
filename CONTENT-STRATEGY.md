@@ -85,7 +85,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 2 | Best Free Zoom Alternatives in 2026 | zoom-alternatives | ✓ Published |
 | 3 | Best Free Premiere Pro Alternatives in 2026 | premiere-pro-alternatives | ✓ Published |
 | 4 | Best Free Screen Recording Software in 2026 | free-screen-recording-software | ✓ Published |
-| 5 | Best Free Video Editing Software for Mac in 2026 | free-video-editing-mac | Later |
+| 5 | Best Free Video Editing Software for Mac in 2026 | free-video-editing-mac | ✓ Published |
 | 6 | Best Free Open-Source Video Editors in 2026 | free-open-source-video-editors | Later |
 | 7 | Best Free Video Conferencing Tools in 2026 | free-video-conferencing | ✓ Published |
 
