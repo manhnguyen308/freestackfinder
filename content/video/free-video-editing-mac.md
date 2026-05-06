@@ -1,8 +1,8 @@
 ---
 title: "Best Free Video Editing Software for Mac in 2026 — Honest Free-Tier Picks"
 description: "Mac users have iMovie built in, but it runs out quickly. Here are the best free video editors for Mac in 2026, with honest notes on what each free tier includes."
-date: "2026-05-05"
-lastmod: "2026-05-05"
+date: "2026-05-06"
+lastmod: "2026-05-06"
 draft: false
 weight: 68
 slug: "free-video-editing-mac"
