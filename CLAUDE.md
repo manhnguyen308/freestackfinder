@@ -5,21 +5,26 @@ Build freestackfinder.com into a high-quality, useful, monetizable Hugo site by 
 
 ## Project skill
 
-For all operational guidance — daily content workflow, feature workflow, weekly/monthly review, GSC-led refresh, affiliate safety, image generation, validation checklist, commit/deploy rules, and output format — use:
+For all task-specific workflows — daily content publishing, feature work, GSC-led refresh, AdSense workflow, affiliate safety, image generation, validation checklist, tracker updates, commit/deploy rules — use:
 
 **`docs/SKILL.md`**
+
+For general agent operating discipline — session scope, plan-first, targeted reads, repeated-failure rule, diff/commit discipline, optional advanced tools — use:
+
+**`docs/AGENT-WORKFLOW.md`** (works for Claude, Codex, or any coding agent)
 
 ## When to read what
 
 | Task | Read |
 |------|------|
-| Every run | This file + `freestackfinder-progress-log.md` |
+| Every fresh session | This file + `docs/AGENT-WORKFLOW.md` + `freestackfinder-progress-log.md` |
+| Any task execution | `docs/SKILL.md` |
 | Article publishing | `CONTENT-STRATEGY.md` |
 | Feature work | `FEATURE-STRATEGY.md` |
 | Image generation | `docs/IMAGE-GUIDELINES.md` |
 | Affiliate / monetization | `docs/AFFILIATE-GUIDELINES.md` |
 | Visual design / CSS / tokens | `docs/DESIGN-SYSTEM.md` |
-| Build / deployment setup | `README.md` |
+| Build / deployment setup | `README.md` + `docs/BUILD-VALIDATION.md` |
 
 Do not load every doc for every task. Load only what the current task requires.
 

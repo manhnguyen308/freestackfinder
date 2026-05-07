@@ -54,7 +54,7 @@ Before marking a deployment complete:
 1. `git diff --check` clean
 2. `python3 scripts/run_quality_checks.py --with-counts` — 3 passed · 0 failed
 3. `hugo --minify` — no errors, no deprecation warnings
-4. Article count matches tracker (currently 43)
+4. Article count matches tracker (see `freestackfinder-progress-log.md` Current state)
 5. Search index JSON builds (`public/index.json` present)
 6. Start Here page builds (`public/start-here/`)
 7. Category hub pages build (one per silo)

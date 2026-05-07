@@ -22,37 +22,16 @@ Use when the task is one of:
 
 Do not use for unrelated Hugo or Python projects.
 
-## 3. Repo operating rules
+## 3. Operating discipline
 
-### Think before acting
-- State assumptions explicitly when they affect the outcome
-- If a task has more than one reasonable interpretation, pick the one that best fits publishing/monetization goals and note the choice briefly
-- If an instruction conflicts with CLAUDE.md, stop and flag it — do not silently override
-- Prefer the simplest change that satisfies the request
+General agent operating rules — session scope, plan-first, targeted reads, repeated-failure rule, diff/commit discipline, optional advanced tools — live in **`docs/AGENT-WORKFLOW.md`**. Read it once per fresh session.
 
-### Surgical changes
-- Touch only what the task requires
-- Do not reformat, refactor, or "improve" adjacent code, front matter, or prose unrelated to the task
-- Match existing style, structure, and naming
-- If a change makes an import, variable, or asset unused, remove it; do not delete pre-existing unused code unless the task asks for it
-- Every changed line must trace back to the current day activity
-
-### Simplicity first
-- Write the minimum code, markup, or content needed to meet the goal
-- No speculative abstractions or configuration for a single use case
-- No error handling for cases that cannot occur in a static Hugo + Cloudflare setup
-- If the result feels overengineered, rewrite it shorter before committing
-
-### Execution discipline
-- A daily run may contain multiple related tasks, but they must belong to one focused day activity
-- Do not take on weekly reviews or monthly audits unless explicitly requested
-- Do not perform a broad repo audit unless the tracker is clearly outdated
-- Do not scan unrelated directories
-- Do not reread the same file unless necessary
-- Do not ask what to do next unless blocked by a real conflict or missing file
-- Trust actual repo files over the tracker if they conflict; then correct the tracker
-- Keep changes production-ready and cohesive
-- Keep output concise and focused on actual edits
+Project-specific reinforcements:
+- Touch only what the task requires; match existing style, structure, naming.
+- Every changed line must trace back to the current day activity.
+- A daily run may contain multiple related tasks, but they must belong to one focused day activity.
+- Trust actual repo files over the tracker when they conflict; then correct the tracker.
+- Do not ask what to do next unless blocked by a real conflict or missing file.
 
 ## 4. Task routing
 
@@ -122,17 +101,10 @@ Day-labeling: new SGT calendar day (12:00 AM Asia/Singapore) = new day number. M
 
 ## 5. Token-saving rules
 
-- Do not use broad grep/search to understand the whole site
-- Prefer targeted file reads, tracker notes, directory listings, and known file paths
-- Use grep only for exact terms inside a specific folder
-- Always cap grep output with `head -20`
-- Do not print large command outputs
-- Do not scan all content files unless the task truly requires it
-- Do not use repeated grep searches with similar keywords
-- Do not use `cat` on large Markdown files
-- Do not read unrelated folders
-
-Allowed examples:
+See `docs/AGENT-WORKFLOW.md` §4 for general context/token rules. Repo-specific:
+- Do not scan all content files unless the task truly requires it.
+- Do not read `docs/ARCHIVE/` unless an old decision is required.
+- Allowed quick lookups:
 ```bash
 find content -maxdepth 3 -name "*.md"
 find content -name "*.md" -size +25k
@@ -166,11 +138,11 @@ author: "FreeStackFinder Team"
 Never use: `featured:` · `faqs:` · bare unquoted date values · inline keyword arrays
 
 ### Article date rule
-- Use today's actual date for `date` and `lastmod` on new articles
-- Never use future dates on live published articles
-- Duplicate dates are allowed when multiple articles publish the same day
-- Do not inflate dates to keep them unique
-- Do not change existing article dates unless correcting a real error
+- Use today's actual **local execution-environment date** for `date` and `lastmod` on new articles — not UTC.
+- Never use future dates on live published articles.
+- Duplicate dates are allowed when multiple articles publish the same day.
+- Do not inflate dates to keep them unique.
+- Do not change existing article dates unless correcting a real error.
 
 ### Article structure
 1. Quick verdict
@@ -231,7 +203,7 @@ Before marking any deployment complete:
 1. `git diff --check` clean
 2. `python3 scripts/run_quality_checks.py --with-counts` — 3 passed · 0 failed
 3. `hugo --minify` — no errors, no deprecation warnings (run only if public-facing files changed)
-4. Article count matches tracker (currently 43)
+4. Article count matches tracker (see `freestackfinder-progress-log.md` Current state — 48 as of Day 63a)
 5. Search index JSON builds (`public/index.json` present)
 6. Start Here page builds (`public/start-here/`)
 7. Category hub pages build (one per silo)

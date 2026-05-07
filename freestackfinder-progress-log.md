@@ -1,7 +1,7 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-07 (Day 63a)
+**Last updated:** 2026-05-07 (Day 63b)
 **Current day:** 63
 
 ## Current state
@@ -12,6 +12,26 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: Creative ×2 remaining — 2 articles needed to reach 50
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 63b — Refine agent workflow documentation
+
+- Date: 2026-05-07
+- Reference used: external Claude Code best-practices guide (distilled, not copied)
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/DESIGN-SYSTEM.md` (head), `docs/BUILD-VALIDATION.md`, `freestackfinder-progress-log.md`
+- Files changed:
+  - `CLAUDE.md` — added pointer to `docs/AGENT-WORKFLOW.md`; updated read-first table to include it and `docs/BUILD-VALIDATION.md`; clarified SKILL.md is task-specific.
+  - `docs/SKILL.md` — replaced long "Repo operating rules" (§3) and "Token-saving rules" (§5) with short repo-specific reinforcements that defer to AGENT-WORKFLOW.md; clarified local-date publishing rule; replaced hardcoded count "43" with tracker reference.
+  - `docs/AGENT-WORKFLOW.md` — new file. Sections: purpose, session discipline, plan-before-edit, context/token mgmt, verification, repeated-failure rule, diff/commit, tracker handoff, optional advanced tools, rule summary.
+  - `docs/BUILD-VALIDATION.md` — replaced hardcoded count "43" with tracker reference.
+- Docs split decision: yes — created `docs/AGENT-WORKFLOW.md` to host generic agent operating discipline; SKILL.md stays repo-specific.
+- Codex compatibility: AGENT-WORKFLOW.md uses neutral "agent" language; Plan Mode, Skills, Subagents, Hooks, MCP, Worktrees marked optional.
+- Rules preserved: front matter never-use list, affiliate restrictions (Canva/Grammarly/Zoho), public-content restrictions, git rules, validation checklist, AdSense/CTR/affiliate workflows, image rules, day-labeling rule, local-date publishing rule.
+- Article count: 48 (unchanged).
+- Validation: `git diff --check` clean · `python3 scripts/run_quality_checks.py --with-counts --with-stale` → 3 passed · 0 failed · 3 known image orphans · no stale articles.
+- No public-facing files changed; no URL/slug/alias changes.
+- Follow-up items: none.
 
 ---
 
