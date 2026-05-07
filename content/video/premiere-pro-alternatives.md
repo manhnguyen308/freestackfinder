@@ -211,3 +211,5 @@ If you are editing solo and delivering standard web video, those reasons usually
 If you need to capture tutorials, demos, or talking-head footage before editing, pair these tools with our guide to [free screen recording software](/video/free-screen-recording-software/). That combo matters more than the editor alone.
 
 Mac users switching from Premiere will also find platform-specific guidance — including iMovie as a starting point, Apple Silicon performance notes, and macOS codec considerations — in our [free video editing software for Mac guide](/video/free-video-editing-mac/).
+
+If open-source licensing is a priority — permanent free access, no risk of future tier changes, auditable source code — our guide to [free open-source video editors](/video/free-open-source-video-editors/) covers Kdenlive, Shotcut, OpenShot, and Blender VSE in depth.

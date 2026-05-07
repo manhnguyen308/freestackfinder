@@ -234,3 +234,5 @@ For some users, the better paid path is not Premiere Pro. It is **DaVinci Resolv
 If you need to record before you edit, pair this list with our guide to [free screen recording software](/video/free-screen-recording-software/). OBS Studio plus DaVinci Resolve is still one of the best free production stacks on the web.
 
 If you are on a Mac and want platform-specific guidance — including iMovie, Apple Silicon performance notes, and macOS codec considerations — see our [free video editing software for Mac guide](/video/free-video-editing-mac/).
+
+If you want only tools where the source code is public and the license is permanent — no vendor lock-in, no risk of free-tier changes — see our dedicated guide to [free open-source video editors](/video/free-open-source-video-editors/).

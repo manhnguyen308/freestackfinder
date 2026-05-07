@@ -1,17 +1,39 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-06 (Day 62a)
-**Current day:** 62
+**Last updated:** 2026-05-07 (Day 63a)
+**Current day:** 63
 
 ## Current state
 
-- Total articles: 47
-- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 6/7
+- Total articles: 48
+- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
-- Next content: Creative (2 remaining) or Video (1 remaining) — 3 articles needed to reach 50
+- Next content: Creative ×2 remaining — 2 articles needed to reach 50
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 63a — Publish free-open-source-video-editors
+
+- Date: 2026-05-07
+- Article published: "Best Free Open-Source Video Editors in 2026 — No Watermarks, No Vendor Lock-in" (`content/video/free-open-source-video-editors.md`)
+- Silo: Video — now 7/7 ✓ (complete)
+- Total article count: 48 (up from 47)
+- Word count: ~2,608 words
+- Feature image: `static/img/free-open-source-video-editors.webp` — 38.7 KB (WebP, 1200×630); generated via `scripts/images/generate_free_open_source_video_editors.py`
+- Internal links from new article: 4 — `/video/free-video-editing-software/`, `/video/premiere-pro-alternatives/`, `/video/free-video-editing-mac/`, `/video/free-screen-recording-software/`
+- Backlinks added to existing articles:
+  - `content/video/free-video-editing-software.md` — added open-source guide link in "Our verdict" section
+  - `content/video/premiere-pro-alternatives.md` — added open-source guide link in "Our verdict" section
+- Validation: `git diff --check` clean · QA runner 3/3 passed (48 articles, 0 broken links, 0 front matter errors) · `publish_checklist.py video free-open-source-video-editors` 7/7 auto-checks passed · `hugo --minify` clean (2 known deprecation warnings, 0 errors) · `public/video/free-open-source-video-editors/index.html` confirmed present (31.6 KB)
+- Stale report: 0 stale articles
+- Article count confirmed: 48 (47 → 48)
+- Video silo count confirmed: 7/7 ✓ (complete)
+- AdSense quality check: article explains the open-source licensing distinction (not just "free"), covers practical tradeoffs per tool, explains who should skip open-source editors (colorists, social content creators, Mac users), includes common mistakes section, no fake testing claims, no affiliate CTAs, clear final recommendation. Suitable for AdSense review preparation.
+- Remaining to reach 50: 2 articles (Creative ×2: canva-free-vs-paid, freecad-alternatives)
+- Follow-up items carried forward: custom sitemap.xml to exclude noindex taxonomy pages; Hugo deprecation warning fix; SKILL.md + BUILD-VALIDATION.md article count update (stale at 43); placeholder AdSense slot ID replacement after approval
 
 ---
 
