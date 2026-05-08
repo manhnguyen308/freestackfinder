@@ -1,17 +1,41 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-07 (Day 63b)
-**Current day:** 63
+**Last updated:** 2026-05-08 (Day 64a)
+**Current day:** 64
 
 ## Current state
 
-- Total articles: 48
-- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 6/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
+- Total articles: 49
+- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 7/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
-- Next content: Creative ×2 remaining — 2 articles needed to reach 50
+- Next content: Creative ×1 remaining (canva-free-vs-paid) — 1 article needed to reach 50
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 64a — Publish freecad-alternatives
+
+- Date: 2026-05-08
+- Article published: "Best Free FreeCAD Alternatives in 2026 — 3D CAD Without the Steep Learning Curve" (`content/creative/freecad-alternatives.md`)
+- Silo: Creative — now 7/8
+- Total article count: 49 (up from 48)
+- Word count: ~3,953 words
+- Description length: 196 characters
+- Feature image: `static/img/freecad-alternatives.webp` — 39.1 KB (WebP, 1200×630); generated via `scripts/images/generate_freecad_alternatives.py`
+- Internal links from new article: 4 — `/creative/illustrator-alternatives/`, `/creative/photoshop-alternatives/`, `/creative/free-stock-photos/`, `/creative/figma-alternatives/`
+- Backlinks added to existing articles:
+  - `content/creative/illustrator-alternatives.md` — added FreeCAD-alternatives link in closing paragraph
+  - `content/creative/figma-alternatives.md` — added FreeCAD-alternatives link in closing paragraph (product designers / 3D-printed enclosures angle)
+- Tracker update: `CONTENT-STRATEGY.md` — Creative #8 (freecad-alternatives) marked ✓ Published
+- Validation: `git diff --check` clean · QA runner 3/3 passed (49 articles, 0 broken links, 0 front matter errors) · `publish_checklist.py creative freecad-alternatives` 7/7 auto-checks passed · `hugo --minify` clean (2 known deprecation warnings, 0 errors) · `public/creative/freecad-alternatives/index.html` confirmed present (40.8 KB)
+- Stale report: 0 stale articles
+- Article count confirmed: 49 (48 → 49)
+- Creative silo count confirmed: 7/8 (6 → 7)
+- AdSense quality check: article provides specific decision logic per tool (license, offline, parametric vs primitive), real licensing tradeoffs (Onshape public-only, Fusion Personal revenue cap, GPL/LGPL options), free-plan limits (Fusion's 10-active-document cap, Onshape public projects), common mistakes section, switching/migration notes from FreeCAD to browser CAD, "who should still use FreeCAD" pay-or-stay framing, and explicit final recommendation. No fake testing claims, no shallow listicle, no affiliate CTAs. Suitable for AdSense review preparation.
+- Remaining to reach 50: 1 article (Creative ×1: canva-free-vs-paid)
+- Follow-up items carried forward: custom sitemap.xml to exclude noindex taxonomy pages; Hugo deprecation warning fix; SKILL.md + BUILD-VALIDATION.md article count update (still stale at 43); placeholder AdSense slot ID replacement after approval
 
 ---
 
