@@ -1,7 +1,7 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-09 (Day 65b)
+**Last updated:** 2026-05-09
 **Current day:** 65
 
 ## Current state
@@ -12,6 +12,28 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-05-09 — Final content freshness and AdSense validation pass
+
+- Scope: final pre-re-review validation against AdSense readiness, freshness, trust, robots/sitemap, affiliate safety, rendering, and metadata requirements. No article publishing, no ad-slot additions, no ad enablement, no placeholder slot replacement, no public URL/slug/alias/redirect/sitemap/robots behavior changes.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `docs/DESIGN-SYSTEM.md`, `freestackfinder-progress-log.md`, `CONTENT-STRATEGY.md`, `FEATURE-STRATEGY.md`, `docs/GSC-NOTES.md`, `docs/AFFILIATE-GUIDELINES.md`, `docs/AFFILIATE-TRACKER.md`, `docs/BUILD-VALIDATION.md`, `config.toml`, `layouts/partials/head.html`, `layouts/partials/footer.html`, `layouts/_default/single.html`, `layouts/404.html`, trust pages, high-priority article sources, and targeted content/search scans.
+- Generated pages inspected after Hugo 0.160.1 Extended build: `public/index.html`, `public/start-here/index.html`, `public/about/index.html`, `public/contact/index.html`, `public/privacy-policy/index.html`, `public/terms/index.html`, `public/disclaimer/index.html`, `public/search/index.html`, `public/404.html`, `public/creative/index.html`, `public/tags/canva-free-plan/index.html`, `public/sitemap.xml`, `public/robots.txt`, and the high-priority article pages listed in the review brief.
+- Article/silo status: 50 published articles confirmed; all six silos complete (Productivity 9/9, Creative 8/8, Business 13/13, Security 6/6, Cloud 7/7, Video 7/7). No drafts, no article under 1,200 words, no article description under 100 characters, and no 2026-title article with stale non-2026 `date`/`lastmod`.
+- Freshness/content quality: newest articles are not thin (`canva-free-vs-paid` ~2.7k words; `freecad-alternatives` ~3.6k words). Focused outdated-content scan found no critical blocker and no required same-day wording fix. Findings that remain manual fact-check candidates because plan limits change often: cloud storage amounts/transfer caps (Dropbox, MEGA, Google Drive, OneDrive, Box, Proton Drive), Microsoft/WPS storage and pricing, social scheduling free-plan caps, CRM/accounting/invoicing free-tier limits, Figma Starter limits, Fusion personal-use revenue threshold, AI tool usage limits, and Blackmagic/DaVinci free export-format limits. Historical references such as Authy desktop end-of-life in August 2024 and FreeCAD 1.x release history were contextual and acceptable.
+- Trust/compliance: About, Contact, Privacy Policy, Terms, and Disclaimer exist, build, are linked in the footer, are indexable, and appear in the sitemap. `contact@freestackfinder.com` is consistent across public content and schema. Privacy covers cookies, AdSense/advertising context, affiliate links, data handling, third-party links, and provider logs. Disclaimer explains affiliate disclosure and current programs. No fake lab, benchmark, credential, company-size, or hands-on benchmark claim was found.
+- Robots/sitemap: homepage, article pages, trust pages, Start Here, and silo hubs render `index, follow`; Search and tag/taxonomy pages render `noindex, follow`; 404 renders `noindex, follow`. `robots.txt` references `https://freestackfinder.com/sitemap.xml`. Important pages and trust pages are in the sitemap. Noindexed tag/taxonomy pages still appear in the sitemap; this is a known low-priority mixed-signal follow-up, not an AdSense blocker.
+- AdSense/ad safety: `showAds = false`; no visible `<ins class="adsbygoogle">` ad slots render in inspected built pages; AdSense verification/head script remains present; placeholder slot IDs remain gated and inert. No ad-click encouragement, popups, intrusive CTAs, or ad-first layout found.
+- Affiliate/commercial safety: Canva and Grammarly remain unavailable for CTAs per tracker/guidelines, and no Canva or Grammarly affiliate CTA exists. Approved affiliate CTAs use `rel="sponsored noopener"`. One live NordPass Business CTA on `free-password-managers-teams` was approved-program content but missing from the internal tracker; the tracker was corrected. No affiliate-heavy first screens or thin affiliate-only pages found.
+- Rendering/UX: homepage, Start Here, pagination, search page, header/footer, 404, silo hub, taxonomy sample, latest article, representative article, and high-priority article pages generated cleanly. Start Here renders 6 collection cards and 24 collection links, not raw HTML. Search index JSON exists. No `TODO`, `lorem`, `coming soon`, `under construction`, typo email variants, placeholder `href="#"`, or escaped raw HTML artifacts found in inspected source/generated pages. Feature images are present for all 50 articles.
+- Metadata/schema: site-name signals say Free Stack Finder; homepage includes WebSite and Organization schema; article pages include Article and BreadcrumbList schema; canonicals are correct on inspected pages; titles/descriptions exist on indexable article pages; no internal revision-language descriptions found.
+- Tiny fixes made: internal-only update to `docs/AFFILIATE-TRACKER.md` to add the existing NordPass CTA on `free-password-managers-teams`; this log entry added. No public content, ad, route, slug, alias, redirect, sitemap, robots, or Cloudflare change made.
+- Validation result: `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken links, 0 front matter errors, 0 stale articles, 1 non-blocking long-description warning on `freecad-alternatives`, and 3 known image orphans; `python3 scripts/publish_checklist.py` printed the no-arg checklist cleanly; Hugo Extended 0.160.1 build succeeded with 483 pages, 21 paginator pages, 210 aliases, and 0 errors; generated-page robots, sitemap, schema, and ad-slot checks passed. Final `git diff --check` and post-edit validation were run after this entry.
+- Critical blockers: none.
+- High-priority issues: none.
+- Medium/low follow-ups: optional custom sitemap to exclude noindexed taxonomy/tag URLs; ongoing manual checks for volatile free-plan limits before future refreshes; replace placeholder AdSense slot IDs only after approval and before enabling ads.
+- Final recommendation: request AdSense re-review now.
 
 ---
 

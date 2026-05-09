@@ -2,8 +2,8 @@
 
 Internal operations file. Not a public page. Do not reference this in site content or commit messages.
 
-**Last updated:** 2026-04-30 (Day 53b)
-**Last verified:** 2026-04-30 (Day 53b) — deferred-program statuses checked; one legacy Grammarly CTA removed
+**Last updated:** 2026-05-09
+**Last verified:** 2026-05-09 — approved CTA inventory checked; deferred-program statuses unchanged
 **Active programs:** NordVPN, NordPass, Amazon Associates US
 **Unavailable programs (CTA placement deferred):** Canva, Grammarly — Under review / Needs approval; do not add links or CTAs
 **Pending programs:** Zoho via CJ (apply when Zoho content established), Impact.com (deferred), Amazon Associates SG (reserved)
@@ -30,6 +30,7 @@ See `docs/AFFILIATE-GUIDELINES.md` for CTA format, placement rules, and program 
 | Article | Silo | Program | CTA placed | Verified | Priority | Notes |
 |---------|------|---------|-----------|---------|---------|-------|
 | `free-password-managers` | Security | NordPass | Placed | Verified (Day 49a) | High | CTA live; link uses nordpass.com direct — no tracked URL visible; flag for link update if tracked URL becomes available |
+| `free-password-managers-teams` | Security | NordPass | Placed | Verified (2026-05-09) | Medium | CTA live; direct NordPass Business URL; rel="sponsored noopener" confirmed; flag for link update if tracked URL becomes available |
 | `free-vpn` | Security | NordVPN | Placed | Verified (Day 49a) | High | CTA live; go.nordvpn.net tracked URL confirmed; rel="sponsored noopener" present |
 | `free-antivirus-software` | Security | NordVPN | Placed | Verified (Day 49a) | High | CTA live; go.nordvpn.net tracked URL confirmed; rel="sponsored noopener" present |
 | `best-free-2fa-apps` | Security | NordVPN + Amazon US | Placed | Verified (Day 49a) | High | Both CTAs live: NordVPN (go.nordvpn.net) and Amazon YubiKey category (tag freestackfi20-20 confirmed); category-level search URL |
@@ -72,7 +73,7 @@ See `docs/AFFILIATE-GUIDELINES.md` for CTA format, placement rules, and program 
 
 ---
 
-## Next action queue (Day 53b)
+## Next action queue
 
 All verification rows are resolved. Canva and Grammarly CTA placement is not currently available — do not add. Remaining open actions:
 
