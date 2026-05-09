@@ -1,7 +1,7 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-09 (Day 65a)
+**Last updated:** 2026-05-09 (Day 65b)
 **Current day:** 65
 
 ## Current state
@@ -12,6 +12,31 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 65b — Final AdSense re-review readiness pass
+
+- Date: 2026-05-09
+- Scope: review-only sweep against the AdSense re-review checklist; no content publishing, no ad enable, no slot ID change, no affiliate CTA additions
+- Files inspected (targeted only): `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md` (head), `layouts/partials/head.html`, `layouts/partials/footer.html`, `layouts/_default/single.html` (ad-slot region), `config.toml` (`showAds`), `content/search.md`, trust pages directory listing
+- Generated pages inspected: `public/index.html`, `public/about/index.html`, `public/contact/index.html`, `public/privacy-policy/index.html`, `public/terms/index.html`, `public/disclaimer/index.html`, `public/start-here/index.html`, `public/search/index.html`, `public/creative/index.html` (silo hub), `public/creative/canva-free-vs-paid/index.html` (article + high-impression spot-check), `public/tags/canva-free-plan/index.html` (taxonomy spot-check), `public/sitemap.xml`, `public/robots.txt`
+- Article/silo status: 50/50 articles confirmed via QA runner; all six silos complete (Productivity 9/9, Creative 8/8, Business 13/13, Security 6/6, Cloud 7/7, Video 7/7); 0 broken links; 0 front matter errors; 0 stale articles; 3 known image orphans (non-blocking)
+- Robots verification (built HTML): homepage, article, silo hub, About, Contact, Privacy, Terms, Disclaimer, Start Here all `index, follow`; Search and tag pages all `noindex, follow` — correct
+- Sitemap verification: trust pages and Start Here present; Search excluded (sitemap.disable in front matter); tag/taxonomy URLs still appear in `sitemap.xml` despite being noindexed — pre-existing follow-up, not a blocker for AdSense (AdSense does not require sitemap purity), tracked under existing follow-ups
+- AdSense safety: `showAds = false` in `config.toml`; `<ins class="adsbygoogle">` slots gated behind `.Site.Params.showAds`, confirmed not rendered in built article HTML; AdSense site-verification script loads in `<head>` (expected for review); placeholder slot IDs `TOP_ARTICLE_SLOT_ID` / `SIDEBAR_SLOT_ID` remain in template but are inert while `showAds=false` — replace only after approval
+- Affiliate/commercial safety: no Canva or Grammarly affiliate CTAs detected in `content/` or `layouts/`; per-article disclosure renders near the top ("affiliate links — we may earn a commission if you make a purchase, at no extra cost to you"); footer disclaimer link present; no affiliate image banners
+- Trust/policy: footer links About, Contact, Privacy Policy, Terms, Disclaimer; `contact@freestackfinder.com` consistent across `content/contact.md` and `layouts/partials/schema.html`; no typo variants found
+- Rendering/UX: no `draft: true`, `TODO`, `lorem`, `coming soon`, `under construction`, `href="#"`, or known email typos found in `content/`/`layouts/`/`static/`; no escaped `&lt;div`/`&lt;p`/`&lt;ul` artifacts; `verdict-box` references remain only in `static/css/style.css` (legacy class kept for older content compatibility, not added to fresh content per CLAUDE.md rule)
+- Metadata/schema: site title remains "Free Stack Finder"; canonicals set per page; OG/Twitter tags present; article schema partial active for article pages; titles/descriptions present on inspected pages
+- High-impression spot-check: all eight listed URLs present and indexable in `public/`
+- Known follow-ups carried forward (non-blocking for AdSense): custom sitemap.xml to exclude noindex tag/taxonomy URLs; Hugo deprecation warnings (`languageCode` → `locale`, `.Site.LanguageCode` → `.Site.Language.Locale`); placeholder AdSense slot ID replacement after approval; SKILL.md article count reference (now resolved by tracker reference)
+- Tiny fixes made: none — review surfaced no AdSense-blocking issues
+- Validation: `git diff --check` clean · `python3 scripts/run_quality_checks.py --with-counts --with-stale` → 3 passed · 0 failed · 50 articles · 0 broken links · 0 front matter errors · 0 stale articles · `python3 scripts/publish_checklist.py` (no args) printed checklist as expected · `hugo --minify` clean (2 known deprecation warnings, 0 errors, 482 pages, 21 paginator pages, 210 aliases)
+- Critical blockers: none
+- High-priority issues: none
+- Medium/low follow-ups: tag pages in sitemap despite noindex (existing); Hugo deprecation warnings (existing)
+- Final recommendation: ready to request AdSense re-review now — 50-article threshold met, all six silos complete, robots/sitemap policy correct, ads disabled and gated, trust pages indexable and linked, disclosures in place, no unapproved Canva/Grammarly CTAs, no fake testing claims
 
 ---
 
