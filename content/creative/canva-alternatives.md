@@ -216,3 +216,5 @@ If that is your workflow, the paid upgrade saves real time. If you are a solo cr
 **Adobe Express** is the best free Canva alternative for most readers because it covers the same broad, practical use cases with the fewest compromises. **Photopea** is better when your work is image-heavy rather than template-heavy. **Microsoft Designer** is useful when AI helps you get unstuck fast. **Pixlr** is the strongest browser backup option, and **Picsart** is the better fit for phone-first creators.
 
 Once you pick a design tool, pair it with better assets. Our guides to [free stock photo sites](/creative/free-stock-photos/), [free font websites](/creative/free-font-websites/), and [free Figma alternatives](/creative/figma-alternatives/) all plug naturally into the same workflow.
+
+Still on the fence about whether the Canva free plan is enough for what you actually do? Our [Canva Free vs Paid decision guide](/creative/canva-free-vs-paid/) walks through who should stay free, who should upgrade, and the common mistakes that push people to the wrong tier.

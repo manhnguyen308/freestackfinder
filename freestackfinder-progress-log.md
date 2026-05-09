@@ -1,17 +1,42 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-08 (Day 64b)
-**Current day:** 64
+**Last updated:** 2026-05-09 (Day 65a)
+**Current day:** 65
 
 ## Current state
 
-- Total articles: 49
-- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 7/8 · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
-- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
+- Total articles: 50 — 50-article milestone reached
+- Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 8/8 ✓ · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
+- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold now met for re-review prep
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
-- Next content: Creative ×1 remaining (canva-free-vs-paid) — 1 article needed to reach 50
+- Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 65a — Publish canva-free-vs-paid (50-article milestone)
+
+- Date: 2026-05-09
+- Article published: "Canva Free vs Paid in 2026 — Is the Free Plan Actually Enough?" (`content/creative/canva-free-vs-paid.md`)
+- Silo: Creative — now 8/8 ✓ (silo complete)
+- Total article count: 50 (up from 49) — 50-article milestone reached
+- Word count: ~2,861 words
+- Description length: 161 characters
+- Feature image: `static/img/canva-free-vs-paid.webp` — 32.2 KB (WebP, 1200×630); generated via `scripts/images/generate_canva_free_vs_paid.py`
+- Internal links from new article: 9 contextual links — `/creative/canva-alternatives/`, `/creative/photoshop-alternatives/`, `/creative/illustrator-alternatives/`, `/creative/figma-alternatives/`, `/creative/free-stock-photos/` (×2), `/creative/free-font-websites/` (×2), `/business/free-resume-builders/`, `/business/free-social-media-scheduling/`, `/cloud/free-cloud-storage-comparison/`, `/video/free-open-source-video-editors/`
+- Backlinks added to existing articles:
+  - `content/creative/canva-alternatives.md` — added Canva Free vs Paid link in closing paragraph (decision-stage follow-on)
+  - `content/creative/free-stock-photos.md` — added Canva Free vs Paid link in closing verdict block
+- Tracker update: `CONTENT-STRATEGY.md` — Creative #7 (canva-free-vs-paid) marked ✓ Published
+- Validation: `git diff --check` clean · QA runner 3/3 passed (50 articles, 0 broken links, 0 front matter errors) · `publish_checklist.py creative canva-free-vs-paid` 7/7 auto-checks passed · `hugo --minify` clean (2 known deprecation warnings, 0 errors) · `public/creative/canva-free-vs-paid/index.html` confirmed present (34.6 KB)
+- Stale report: 0 stale articles
+- Article count confirmed: 50 (49 → 50)
+- Creative silo count confirmed: 8/8 (7 → 8) — silo complete
+- AdSense quality check: original decision logic with seven user-type examples (student, hobbyist, small business, freelance designer, small agency/non-profit, job seeker, video creator, Etsy/POD seller); explicit "stay free" and "go pro" criteria; six common mistakes section calls out template/storage/background-remover/brand-kit traps; clear free-plan limit explanations (background remover, brand kits, magic resize, storage, scheduling, collaboration); practical comparison table; concrete final recommendation framed as occasional vs routine. No fake testing or hands-on benchmark claims. No Canva affiliate CTA or link placement (Canva remains Under review per tracker). No Grammarly mentions. No ad slots, no AdSense slot ID changes.
+- Affiliate safety: confirmed Canva tracker status Under review — no CTA placements added; only neutral comparison and decision content.
+- 50-article milestone target reached: yes (AdSense re-review readiness threshold met)
+- Follow-up items carried forward: custom sitemap.xml to exclude noindex taxonomy pages; Hugo deprecation warning fix (`languageCode` → `locale`); placeholder AdSense slot ID replacement after approval; SKILL.md article count update (still references 48); next move likely a GSC-led CTR pass on top-impression URLs rather than another new article
 
 ---
 

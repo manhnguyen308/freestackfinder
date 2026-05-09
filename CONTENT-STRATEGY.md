@@ -33,7 +33,7 @@ Articles are grouped by silo. ✓ = published. Priority: **Early** = write next.
 | 4 | Best Free Stock Photo Sites in 2026 | free-stock-photos | ✓ Published |
 | 5 | Best Free Figma Alternatives in 2026 | figma-alternatives | ✓ Published |
 | 6 | Best Free Font Websites in 2026 | free-font-websites | ✓ Published |
-| 7 | Canva Free vs Paid — Is the Free Plan Enough? | canva-free-vs-paid | Later |
+| 7 | Canva Free vs Paid — Is the Free Plan Enough? | canva-free-vs-paid | ✓ Published |
 | 8 | Best Free FreeCAD Alternatives in 2026 | freecad-alternatives | ✓ Published |
 
 ### Business (target: 13 articles)
