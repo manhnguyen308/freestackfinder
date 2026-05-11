@@ -1,7 +1,7 @@
 ---
 title: "Best Free Microsoft Office Alternatives in 2026 — Word, Excel, and PowerPoint Replacements"
 date: "2026-04-07"
-lastmod: "2026-05-08"
+lastmod: "2026-05-11"
 description: "The best free Microsoft Office alternatives for 2026 — Google Docs, LibreOffice, OnlyOffice, and WPS compared, with free-plan limits and who each is for."
 slug: "microsoft-office-alternatives"
 categories: ["Productivity"]
@@ -19,7 +19,7 @@ weight: 90
 
 The best free Microsoft Office alternatives in 2026 are **Google Docs, Sheets, and Slides** for browser-based work and real-time collaboration, and **LibreOffice** for full offline desktop power. **OnlyOffice** is the strongest pick if `.docx` fidelity matters, and **WPS Office** is a polished but ad-supported option with privacy caveats. All four are completely free for personal use.
 
-Microsoft 365 Personal costs $99.99 per year. Microsoft 365 Family (up to 6 people) costs $129.99 per year. If you're paying that annually just to write documents and manage spreadsheets, it's worth asking whether you actually need it. For most students, home users, freelancers, and small businesses, the answer is: probably not.
+Microsoft's current US list pricing puts Microsoft 365 Personal at $99.99 per year and Microsoft 365 Family at $129.99 per year. If you're paying that annually just to write documents and manage spreadsheets, it's worth asking whether you actually need it. For most students, home users, freelancers, and small businesses, the answer is: probably not. Check Microsoft's current pricing page before cancelling or subscribing, because regional pricing, promos, and plan names can change.
 
 This guide compares free office software alternatives against the jobs most people use Microsoft Office for: writing documents, building spreadsheets, creating presentations, collaborating in real time, and opening Microsoft file formats — and explains where each free option breaks down so you don't pick the wrong one.
 
@@ -146,7 +146,7 @@ WPS Office is a popular Microsoft Office-compatible suite with a very polished i
 **What the free version includes:**
 - Word, Spreadsheet, Presentation editors
 - Good Office format compatibility
-- 1GB free cloud storage
+- A small free cloud-storage allowance, with the exact cap worth checking before you use WPS as a sync service
 - Mobile apps included
 
 **Caveats:** Ads in the interface, privacy considerations, and occasional prompts to upgrade. Not our first recommendation for most users, but worth knowing about.

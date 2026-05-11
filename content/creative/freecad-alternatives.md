@@ -2,7 +2,7 @@
 title: "Best Free FreeCAD Alternatives in 2026 — 3D CAD Without the Steep Learning Curve"
 description: "Compare free FreeCAD alternatives for parametric 3D modeling, mechanical design, hobby CAD, and 3D printing — including Onshape, Fusion 360 Personal, Tinkercad, SolveSpace, and OpenSCAD."
 date: "2026-05-08"
-lastmod: "2026-05-08"
+lastmod: "2026-05-11"
 draft: false
 weight: 36
 slug: "freecad-alternatives"
@@ -101,7 +101,7 @@ For people who simply want a 3D model exported as STL for a 3D printer this even
 **Where Autodesk has tightened the free plan:**
 
 - **Active document limit.** You can have only ten "active and editable" documents at a time. Older files become read-only until you reactivate one.
-- No commercial use. The Personal license requires gross revenue under a stated threshold (currently around $1,000 USD per year from work using Fusion).
+- No commercial use. The Personal license has revenue and business-use restrictions, so verify Autodesk's current personal-use terms before using Fusion for anything that earns money.
 - Some export formats and advanced features (generative design, advanced simulation, 5-axis CAM, specific drawing exports) are paid-only.
 - Cloud-only file storage; no true offline mode for collaboration features.
 

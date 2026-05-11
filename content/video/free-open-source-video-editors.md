@@ -2,7 +2,7 @@
 title: "Best Free Open-Source Video Editors in 2026 — No Watermarks, No Vendor Lock-in"
 description: "The best open-source video editors in 2026 give you a complete, permanently free tool with source code you can trust. Here's what each one actually does well."
 date: "2026-05-07"
-lastmod: "2026-05-07"
+lastmod: "2026-05-11"
 draft: false
 weight: 65
 slug: "free-open-source-video-editors"
@@ -162,7 +162,7 @@ Olive is an open-source node-based video editor that has been in development sin
 
 **Current status:**
 
-Olive is in beta (v0.2.x as of 2026). It is not production-ready. Files created in earlier versions have had compatibility issues with later builds. The project has a small team, and development pace varies.
+Olive has been a pre-release project for a long time, and its release status can change between article refreshes. Check the current project page before installing it. Unless the project has clearly reached a stable release by the time you read this, treat it as a promising tool to evaluate rather than a production editor. Files created in earlier versions have had compatibility issues with later builds. The project has a small team, and development pace varies.
 
 **Who it is worth installing:**
 

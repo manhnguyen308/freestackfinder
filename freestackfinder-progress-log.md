@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-09
-**Current day:** 65
+**Last updated:** 2026-05-11
+**Current day:** 66
 
 ## Current state
 
@@ -12,6 +12,35 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-05-11 — Factual product freshness pass
+
+- Scope: sitewide factual freshness audit across published Markdown content under `content/`; no new article publishing, no redesign, no ad-slot work, no ad enablement, no affiliate CTA additions, and no URL, slug, alias, redirect, sitemap, robots, or Cloudflare config changes.
+- Files inspected: required operating docs (`CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `docs/DESIGN-SYSTEM.md`, `freestackfinder-progress-log.md`, `CONTENT-STRATEGY.md`, `docs/BUILD-VALIDATION.md`), all published Markdown paths under `content/`, and priority article sources for ChatGPT alternatives, AI writing tools, AI email tools, Grammarly alternatives, Microsoft Office alternatives, Dropbox alternatives, Canva alternatives, Canva Free vs Paid, Figma alternatives, FreeCAD alternatives, free/open-source video editors, and free video editing software.
+- Scan method used: content inventory with `find content -name "*.md" -not -name "_index.md"`; targeted stale-risk scans for old model names (`GPT-4o`, `GPT-4`, `Claude 3.5`, `Gemini 1.5`, `Llama 4`), volatile phrasing (`as of`, `currently`, `latest`, `newest`, `recently`), plan/pricing/limit terms (`free plan`, `paid plan`, `Pro`, `Plus`, `Team`, `Business`, `Enterprise`, `storage`, `GB`, `MB`, `credits`, `tokens`, `unlimited`), and public internal-refresh wording (`refreshed`, `updated list`, `current free-plan reality`, `previous version`, `old plan`).
+- Official sources checked: OpenAI ChatGPT pricing and Help Center release/free-tier pages; Anthropic Claude pricing and usage-limit Help Center pages; Google Gemini Apps limits and Google AI plans pages; Microsoft Copilot and Microsoft 365 pricing/support pages; Perplexity Help Center pages; Meta AI product/news pages; Rytr pricing; Copy.ai pricing/help; Compose AI pricing; Spike pricing; Canva Pro pages; Adobe Express pricing/help; Dropbox Basic/help; Google Drive storage help; Microsoft storage support; Proton Drive pricing/support; Box pricing/support; Blackmagic DaVinci Resolve product page.
+- Pages updated:
+  - `content/productivity/free-chatgpt-alternatives.md`
+  - `content/productivity/free-ai-writing-tools.md`
+  - `content/cloud/free-ai-email-tools.md`
+  - `content/productivity/grammarly-alternatives.md`
+  - `content/productivity/microsoft-office-alternatives.md`
+  - `content/cloud/dropbox-alternatives.md`
+  - `content/creative/canva-alternatives.md`
+  - `content/creative/canva-free-vs-paid.md`
+  - `content/creative/figma-alternatives.md`
+  - `content/creative/freecad-alternatives.md`
+  - `content/video/free-open-source-video-editors.md`
+  - `content/video/free-video-editing-software.md`
+- Key stale issues fixed: removed old ChatGPT/OpenAI model anchoring, Claude 3.5 Sonnet claims, Copilot GPT-4/GPT-4 Turbo claims, Gemini 1.5 references, Meta Llama 4 positioning, Rytr free plagiarism/language claims that no longer matched official pricing, Compose AI fixed-credit assumptions, Spike undocumented AI-limit wording, Proton Drive's outdated 1GB figure, unverified fixed MEGA transfer quota, hard-coded Canva storage/Pro limits, exact Figma Starter limits, Fusion personal-use revenue threshold, Olive version label, and a public video article description that sounded like an internal refresh note.
+- Evergreen wording improvements: added AI-plan volatility notes; shifted model-specific recommendations toward message limits, web access, file upload support, coding help, writing quality, privacy controls, and ecosystem fit; replaced volatile exact pricing/storage/credit claims with "verify current limit" wording where official sources were unclear or likely to change.
+- Pages flagged for future manual verification: business SaaS pages with exact free-tier limits (CRM, social scheduling, invoicing, accounting, time tracking, HR), security pages with audit/lab-test claims, video conferencing time/participant limits, Figma/Penpot collaboration limits, cloud storage transfer/version-history details, and Canva/Adobe/Pixlr/Picsart AI-credit and commercial-use boundaries.
+- Maintenance doc added: `docs/FRESHNESS-CHECKS.md` with monthly freshness checks, fastest-aging content types, claim checklist, and safer evergreen wording patterns.
+- Article count: unchanged at 50; no new article created.
+- AdSense readiness note: improves visible content freshness and avoids stale product/model claims without adding ads, affiliate CTAs, keyword stuffing, or fake testing claims.
+- Validation result: `git diff --check` clean; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 stale articles, 1 non-blocking long-description warning on `freecad-alternatives`, and 3 known possible image orphans; `python3 scripts/publish_checklist.py` printed the no-arg checklist cleanly; Hugo Extended 0.160.1 build via `/tmp/hugo-0.160.1/hugo --minify` succeeded with 483 pages, 21 paginator pages, 210 aliases, and 0 errors; URL/slug/alias diff check clean; high-risk model phrase rescan clean; no new article, affiliate CTA, ad-slot, robots, taxonomy, sitemap, or Cloudflare change made.
 
 ---
 
