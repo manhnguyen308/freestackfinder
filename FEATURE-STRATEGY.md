@@ -19,7 +19,8 @@ The site is a Hugo static site hosted on Cloudflare Pages. All features must be 
 - All Phase 1–4 features complete; full QA tooling suite in place
 - Validators available: `scripts/validate_front_matter.py`, `scripts/check_internal_links.py`, `scripts/check_feature_images.py`
 - Reports available: `scripts/report_article_counts.py`, `scripts/report_stale_content.py`
-- Canva and Grammarly affiliate programs: Under review — do not mark Active or add CTAs
+- Canva affiliate program: Under review — do not mark Active or add CTAs
+- Grammarly affiliate program: Declined — keep mentions editorial only; do not add links, CTAs, sponsored buttons, or monetized recommendations
 - NordPass: direct link in place; tracked URL follow-up pending if approved URL becomes available
 - AdSense: script live (`ca-pub-5934721249825043`); formal approval pending
 
@@ -125,14 +126,14 @@ Work through phases in order. Within a phase, pick the item with the clearest be
 
 **Possible work:**
 - Update NordPass link in `free-password-managers` only if an approved tracked URL is confirmed available
-- Resume Canva and Grammarly placement only after program approval is confirmed — both are currently Under review
+- Resume Canva placement only after program approval is confirmed; Grammarly is declined and should remain editorial-only
 - Apply for Zoho via CJ once Zoho content cluster is established
 - Reapply to Impact.com when traffic data is sufficient (month 4–6 target)
 - Add approved CTAs only where contextually useful — one per article maximum unless clearly editorial
 - Verify all affiliate links before placement; update `docs/AFFILIATE-TRACKER.md` after every change
 - Avoid aggressive monetization before AdSense formal approval
 
-**Do not do in this phase:** add Canva or Grammarly CTAs until approval is confirmed in writing.
+**Do not do in this phase:** add Canva CTAs until approval is confirmed in writing; do not add Grammarly CTAs while the application is declined.
 
 ---
 
@@ -211,7 +212,7 @@ All Phase 1–4 features are complete. The full QA and ops tooling suite is in p
 **Same day / non-content work:**
 - Use `docs/GSC-NOTES.md` only if there is new GSC data worth recording
 - Use `docs/AFFILIATE-TRACKER.md` only if an approved affiliate link has changed
-- Do not add Canva or Grammarly CTAs until program approval is confirmed
+- Do not add Canva CTAs until program approval is confirmed; do not add Grammarly CTAs while the application is declined
 - Do not build sticky article ToC unless article length and reader need clearly justify it
 - Phase 9 validation runner, article count report, stale content report, and pre-publish checklist are all complete; next Phase 9 candidate is orphan-image cleanup listing
 

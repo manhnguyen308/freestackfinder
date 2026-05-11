@@ -15,6 +15,16 @@
 
 ---
 
+### 2026-05-11 — Grammarly affiliate status declined
+
+- Scope: internal monetization documentation update only; no public article content, links, CTA placements, ad slots, URLs, slugs, aliases, redirects, sitemap, robots, or Cloudflare settings changed.
+- Files updated: `docs/AFFILIATE-GUIDELINES.md`, `docs/AFFILIATE-TRACKER.md`, `docs/GSC-NOTES.md`, `FEATURE-STRATEGY.md`, and this progress log.
+- Status change: Grammarly application marked Declined across affiliate guidance and tracker rows; all Grammarly mentions remain editorial only.
+- Guardrail: do not add Grammarly affiliate links, CTA placements, sponsored buttons, or monetized recommendations while status is Declined.
+- Validation result: `git diff --check` clean; Grammarly under-review/needs-approval status rescan clean; no Grammarly external affiliate link, CTA placement, sponsored button, or monetized recommendation detected in `content/`, `layouts/`, or docs; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with the known non-blocking `freecad-alternatives` description warning and known possible image orphans.
+
+---
+
 ### 2026-05-11 — Factual product freshness pass
 
 - Scope: sitewide factual freshness audit across published Markdown content under `content/`; no new article publishing, no redesign, no ad-slot work, no ad enablement, no affiliate CTA additions, and no URL, slug, alias, redirect, sitemap, robots, or Cloudflare config changes.
@@ -109,7 +119,7 @@
 - Stale report: 0 stale articles
 - Article count confirmed: 50 (49 → 50)
 - Creative silo count confirmed: 8/8 (7 → 8) — silo complete
-- AdSense quality check: original decision logic with seven user-type examples (student, hobbyist, small business, freelance designer, small agency/non-profit, job seeker, video creator, Etsy/POD seller); explicit "stay free" and "go pro" criteria; six common mistakes section calls out template/storage/background-remover/brand-kit traps; clear free-plan limit explanations (background remover, brand kits, magic resize, storage, scheduling, collaboration); practical comparison table; concrete final recommendation framed as occasional vs routine. No fake testing or hands-on benchmark claims. No Canva affiliate CTA or link placement (Canva remains Under review per tracker). No Grammarly mentions. No ad slots, no AdSense slot ID changes.
+- AdSense quality check: original decision logic with seven user-type examples (student, hobbyist, small business, freelance designer, small agency/non-profit, job seeker, video creator, Etsy/POD seller); explicit "stay free" and "go pro" criteria; six common mistakes section calls out template/storage/background-remover/brand-kit traps; clear free-plan limit explanations (background remover, brand kits, magic resize, storage, scheduling, collaboration); practical comparison table; concrete final recommendation framed as occasional vs routine. No fake testing or hands-on benchmark claims. No Canva affiliate CTA or link placement (Canva remains pending per tracker). No Grammarly mentions. No ad slots, no AdSense slot ID changes.
 - Affiliate safety: confirmed Canva tracker status Under review — no CTA placements added; only neutral comparison and decision content.
 - 50-article milestone target reached: yes (AdSense re-review readiness threshold met)
 - Follow-up items carried forward: custom sitemap.xml to exclude noindex taxonomy pages; Hugo deprecation warning fix (`languageCode` → `locale`); placeholder AdSense slot ID replacement after approval; SKILL.md article count update (still references 48); next move likely a GSC-led CTR pass on top-impression URLs rather than another new article
@@ -319,7 +329,7 @@
   - `content/video/free-screen-recording-software.md` — added link to conferencing guide in the Our verdict section
 - Validation: `git diff --check` clean · QA 3/3 passed (46 articles, 46 images, 0 broken links, 0 stale) · `hugo --minify` clean · article at `public/video/free-video-conferencing/index.html` confirmed (34.7 KB)
 - Article count: 45 → 46 (4 remaining to reach 50)
-- AdSense note: Video silo now 5/7. Remaining gap: Creative 2, Video 2. Canva Under review — no CTAs. Grammarly Declined — no CTAs.
+- AdSense note: Video silo now 5/7. Remaining gap: Creative 2, Video 2. Canva pending — no CTAs. Grammarly Declined — no CTAs.
 
 ---
 
@@ -335,7 +345,7 @@
   - `content/security/free-vpn.md` — added link in the "full security stack" closing paragraph
 - Validation: `git diff --check` clean · QA 3/3 passed (45 articles, 45 images, 0 broken links, 0 stale) · `hugo --minify` clean · article at `public/security/free-security-audit-tools/index.html` confirmed
 - Article count: 44 → 45 (5 remaining to reach 50)
-- AdSense note: Security silo now complete. Remaining gap: Creative 2, Video 3. Canva Under review — no CTAs. Grammarly Declined — no CTAs.
+- AdSense note: Security silo now complete. Remaining gap: Creative 2, Video 3. Canva pending — no CTAs. Grammarly Declined — no CTAs.
 
 ---
 
@@ -452,7 +462,7 @@
 - Trust/compliance changes: none beyond Day 59a.
 - Homepage/Start Here changes: none — both reviewed and confirmed substantive.
 - High-priority page changes: none — sampled pages are not thin.
-- Affiliate/commercial safety: confirmed clean. Canva still Under review (no CTAs added). Grammarly still Declined (no CTAs added). NordVPN/NordPass/Amazon placements unchanged. No banner images, no incentivized-click copy, no ad-clicking encouragement language anywhere.
+- Affiliate/commercial safety: confirmed clean. Canva still pending (no CTAs added). Grammarly still Declined (no CTAs added). NordVPN/NordPass/Amazon placements unchanged. No banner images, no incentivized-click copy, no ad-clicking encouragement language anywhere.
 - Weekly post-approval monitoring plan (added here so it survives across runs): once AdSense approves, the weekly review should check (a) `pageviews` and `top landing pages` in GSC vs. prior week, (b) ad CTR and impressions per page from AdSense, (c) bounce rate and average engagement time per top page, (d) any "Limited ad serving" or policy notices in the AdSense console, (e) freshness — articles untouched for 90+ days that still receive impressions. Findings go into `docs/GSC-NOTES.md` and inform the next refresh cycle.
 - Ad A/B testing posture: no ad layout, ad density, or ad placement experiments will be run before AdSense approval and at least four weeks of stable serving. Premature A/B tests risk policy strikes and skew the baseline data needed to evaluate any future change.
 - Files changed: `freestackfinder-progress-log.md` (this entry only).
@@ -491,7 +501,7 @@
 - Backlink added: `free-password-managers.md` → `free-password-managers-teams` in "Who should pay" section
 - `CONTENT-STRATEGY.md` updated: free-password-managers-teams marked ✓ Published
 - Article count: 43 → 44 · Security silo: 4/6 → 5/6
-- Canva remains Under review / Needs approval; Grammarly remains Declined; no new Canva or Grammarly CTAs added
+- Canva remains pending; Grammarly remains Declined; no new Canva or Grammarly CTAs added
 - Validation: `git diff --check` clean · QA runner 3/3 passed (44 articles, 44 images, 0 broken links) · stale report: 0 stale articles · `hugo --minify` clean · `public/security/free-password-managers-teams/index.html` confirmed · `/start-here/` confirmed 6 collection-card elements, 0 escaped entities · pagination page-item confirmed in business hub · no URL/slug/alias changes
 - Follow-up: Security silo needs 1 more article (free-security-audit-tools) to reach 6/6 target
 
@@ -559,7 +569,7 @@
 - Trust/legal pages: inspected; `/about/`, `/disclaimer/`, `/privacy-policy/`, `/terms/`, `/contact/` already render with `.static-page` styling that matches the handoff trust-page tone. No content overwrite.
 - Category icon update: SVG icons from Day 57a confirmed rendered in `public/index.html`; no emoji fallback remains visible anywhere.
 - Search/page behavior: search.html and `/js/search.js` index logic untouched; results still return.
-- Affiliate/AdSense safety: no /go/ redirect, no AdSense slot, no affiliate link added or moved; Canva remains Under review; Grammarly remains Declined.
+- Affiliate/AdSense safety: no /go/ redirect, no AdSense slot, no affiliate link added or moved; Canva remains pending; Grammarly remains Declined.
 - Site-name signal check: `og:site_name = Free Stack Finder`, `application-name = Free Stack Finder`, WebSite/Organization JSON-LD names, and canonical homepage URL untouched.
 - Validation result: `git diff --check` clean; QA runner 3/3 passed (43 articles, 43 images, 0 broken links); `hugo --minify` 421 pages / 183 aliases clean; rendered homepage shows `.hero-eyebrow`, `.hero-cta-row`, `.hero-meta`, `.tenets-section`, six `.cat-count` spans (6+9+4+13+4+7 = 43); article count remains 43; no new article created.
 - Follow-up: optional — sweep older articles for dated `verdict-box` shortcode usage if a future polish pass is needed; no functional issue today.
@@ -574,7 +584,7 @@
 - Design areas implemented: category icon system (six distinct accent colors, no emoji fallback, no icon font, no CDN); 44px icon circle motif; preserved teal-only UI chrome rule (accent colors confined to icon circles only)
 - Routes/pages validated: `/`, `/about/`, `/disclaimer/`, `/privacy-policy/`, `/search/`, `/creative/`, `/productivity/`, `/video/`, `/business/`, `/security/`, `/cloud/` all build successfully
 - Validation result: `git diff --check` clean; QA runner passed 3/3 with 43 articles, 43 images, 0 broken internal links; Hugo Extended build clean (421 pages, 183 aliases); homepage SVG cat-icon markup verified in `public/index.html`
-- Guardrails confirmed: article count remains 43; no new article created; no URL/slug/alias changes; no affiliate links added; Canva remains Under review; Grammarly remains Declined; site-name signals (og:site_name, application-name, WebSite/Organization JSON-LD, canonical homepage) untouched; no public workflow language introduced
+- Guardrails confirmed: article count remains 43; no new article created; no URL/slug/alias changes; no affiliate links added; Canva remains pending; Grammarly remains Declined; site-name signals (og:site_name, application-name, WebSite/Organization JSON-LD, canonical homepage) untouched; no public workflow language introduced
 - Follow-up: optional — port the same SVG icons to category list-page headers and the footer category list when a future polish pass is needed
 
 ---
@@ -584,7 +594,7 @@
 - Files inspected: `CLAUDE.md`, `freestackfinder-progress-log.md`, `FEATURE-STRATEGY.md`, `CONTENT-STRATEGY.md`, `docs/BUILD-VALIDATION.md`, `.claude/` directory
 - Files changed: `CLAUDE.md` (refactored), `docs/SKILL.md` (created)
 - What changed: created `docs/SKILL.md` with YAML front matter and 12 operational sections covering daily content workflow, feature workflow, weekly/monthly review, GSC-led refresh, affiliate safety, image workflow, token-saving rules, content quality rules, validation checklist, tracker update expectations, commit/deploy rules, and output format; refactored `CLAUDE.md` from ~340 lines to ~90 lines — kept mission, read-first routing table, task priority, validation commands, critical never-do rules, known bugs list, growth targets, and repo structure reference; moved all repeatable operational guidance into SKILL.md with a pointer from CLAUDE.md
-- Validation result: `git diff --check` clean; QA runner passed 3/3 with 43 articles, 43 images, 0 broken internal links, 0 stale articles; article count remains 43; no new article created; no public-facing content changed; Canva remains Under review; Grammarly remains Declined
+- Validation result: `git diff --check` clean; QA runner passed 3/3 with 43 articles, 43 images, 0 broken internal links, 0 stale articles; article count remains 43; no new article created; no public-facing content changed; Canva remains pending; Grammarly remains Declined
 - Guardrails confirmed: no URL/slug/alias changes; no affiliate links added; no public workflow or internal language added to content
 - Follow-up: none — FEATURE-STRATEGY.md not updated as this is a documentation/maintenance item not yet listed in the Phase 9 roadmap; can be added if desired
 
@@ -597,7 +607,7 @@
 - Issues found: `static/site.webmanifest` colors had drifted from the Day 55c theme-color note; homepage trust copy still made a stronger hands-on claim than the documented evaluation process supports; the two newest Cloud email guides were missing curated related-guide entries; `docs/BUILD-VALIDATION.md` and the feature roadmap still referenced a 42-article / incomplete-Cloud baseline
 - Fixes made: aligned manifest colors with the homepage head theme color; softened homepage trust copy to practical-limit checking; added curated related-guide coverage for the newest Cloud email pages and adjacent email guides; refreshed build-validation count and roadmap baseline; added a GSC notes entry for this review
 - Validation result: `git diff --check` clean; QA runner passed 3/3 with 43 articles, 43 images, 0 broken internal links, 0 stale articles; publish checklist passed for `cloud/free-ai-email-tools`; Hugo Extended 0.160.1 build passed cleanly; generated homepage confirms `og:site_name`, `application-name`, WebSite JSON-LD name/alternateName, Organization JSON-LD name, and canonical homepage URL
-- Guardrails confirmed: article count remains 43; no new article created; no content file, URL, slug, or alias changes; Canva remains Under review / Needs approval; Grammarly remains Under review / Needs approval; no affiliate links or CTAs added
+- Guardrails confirmed: article count remains 43; no new article created; no content file, URL, slug, or alias changes; Canva remains pending; Grammarly remains Declined; no affiliate links or CTAs added
 - Follow-up: next GSC action should wait for a fresh data window; local PATH `hugo` currently resolves to 0.161.1 and emits deprecation warnings, while the documented 0.160.1 target still builds cleanly with the pinned binary
 
 ---
@@ -609,7 +619,7 @@
 - **`layouts/partials/head.html`**: added `application-name` meta (`Free Stack Finder`), `theme-color` meta, favicon link tags (ico, 16×16 png, 32×32 png), apple-touch-icon link, and `<link rel=manifest>` — all were missing despite favicon files existing in `static/`
 - **`static/site.webmanifest`**: updated `name` from "FreeStackFinder" to "Free Stack Finder"; updated `theme_color` and `background_color` to match site dark theme `#101116`
 - No article published; article count remains 43; no URLs, slugs, aliases, or routing changed
-- Canva and Grammarly remain under review / needs approval
+- Canva remains pending; Grammarly remains Declined
 - Generated homepage signals confirmed: og:site_name ✓ · application-name ✓ · manifest ✓ · favicon.ico ✓ · WebSite JSON-LD name ✓ · alternateName ✓ · Organization JSON-LD name ✓ · canonical URL ✓
 - Note: Google may take days to weeks to recrawl and update the SERP site name display after these signals are live
 - Validation: git diff --check clean · QA 3/3 passed · 43 articles · 0 broken links · 0 stale · Hugo build clean
@@ -623,7 +633,7 @@
 - Silo + slug mode (`python3 scripts/publish_checklist.py <silo> <slug>`): auto-verifies 7 file-level checks (file exists, required fields, draft:false, date valid, lastmod valid, image field format, image file size) then prints remaining manual steps; exits non-zero on failures
 - Updated `FEATURE-STRATEGY.md`: pre-publish checklist marked complete in Phase 9 archive; baseline updated to Day 55b / 43 articles; next Phase 9 candidate updated to orphan-image cleanup listing
 - No articles published; article count remains 43; no URLs, slugs, or public templates changed
-- Canva and Grammarly remain under review / needs approval
+- Canva remains pending; Grammarly remains Declined
 - Validation: git diff --check clean · QA 3/3 passed · 43 articles · 43 images · 0 broken links · 0 stale articles · no Hugo rebuild needed (no public-facing files changed)
 
 ---
@@ -638,7 +648,7 @@
 - Backlinks added: free-team-email verdict → free-ai-email-tools; free-email-service verdict → free-ai-email-tools
 - `CONTENT-STRATEGY.md` updated: free-ai-email-tools marked ✓ Published; Cloud silo 7/7 complete
 - Article count: 42 → 43 · Cloud silo: 6/7 → 7/7 ✓ complete
-- Canva and Grammarly remain under review / needs approval; no affiliate CTAs added to this article (no active relevant program)
+- Canva remains pending; Grammarly remains Declined; no affiliate CTAs added to this article (no active relevant program)
 - Validation: git diff --check clean · QA runner 3/3 passed · 43 articles counted · 43 images verified · 0 broken links · 3 known image orphans unchanged · Hugo 0.161.1 build: 0 errors · `public/cloud/free-ai-email-tools/index.html` confirmed · stale report: 0 stale articles
 
 ---
@@ -652,7 +662,7 @@
 - Initial stale report result: 42 published articles checked · 0 stale articles found
 - No article published; article count remains 42
 - No URLs, slugs, aliases, public templates, article bodies, images, affiliate links, Canva CTAs, or Grammarly CTAs changed
-- Canva and Grammarly remain Under review / Needs approval
+- Canva remains pending; Grammarly remains Declined
 - Validation: git diff --check clean · QA runner 3/3 passed with counts · stale report clean · Hugo Extended 0.160.1 build passed · 42 articles counted · 0 broken internal links
 
 ---
@@ -667,7 +677,7 @@
 - Backlink added: free-email-service verdict → free-team-email
 - `CONTENT-STRATEGY.md` not changed (free-team-email was "Later" — marking complete via tracker only; update CONTENT-STRATEGY.md in next routine pass)
 - Article count: 41 → 42 · Cloud silo: 5/7 → 6/7
-- Canva and Grammarly remain under review / needs approval
+- Canva remains pending; Grammarly remains Declined
 - Validation: git diff --check clean · QA runner 3/3 passed · 42 articles counted · 42 images verified · 0 broken links · 3 known image orphans unchanged · Hugo Extended 0.160.1 build: 0 errors · `public/cloud/free-team-email/index.html` confirmed in output
 
 ---
@@ -677,13 +687,13 @@
 - Reviewed recent Cloud/Business/Productivity content, GSC target pages, Start Here, category hubs, search index/card behavior, schema/head partials, related guides, affiliate/disclosure docs, validation docs, and QA/reporting scripts
 - Fixed future-date validation gap: front matter validation now blocks live articles dated after the UTC build date; article count reporting now lists future-dated files that normal Hugo builds would exclude; build docs and run rules now require confirming new article output in `public/<silo>/<slug>/index.html`
 - Corrected stale documentation/tracker state: `docs/BUILD-VALIDATION.md` now shows 41 articles, `FEATURE-STRATEGY.md` reflects Business 13/13 and Cloud 5/7, and affiliate tracker rows now include `free-hr-software` and `free-email-signature`
-- Removed an existing Grammarly CTA from `free-note-taking-apps`; Canva and Grammarly remain Under review / Needs approval, not Active; public disclosure now lists only currently used affiliate programs
+- Removed an existing Grammarly CTA from `free-note-taking-apps`; Canva remains pending and Grammarly remains Declined, not Active; public disclosure now lists only currently used affiliate programs
 - Added curated related-guide coverage for `free-hr-software` and `free-email-signature`; related-guide map now covers all 41 article slugs with no self-links or missing targets
 - Softened unsupported public testing language and trimmed overlong meta descriptions; front matter validator now reports 0 description warnings
 - No new article published; no slugs, URLs, aliases, or generated output were changed
 - Validation: `python3 scripts/run_quality_checks.py --with-counts` passed 3/3; 41 articles counted; 41 images verified; 0 broken internal links; only the 3 known image orphans remain
 - Hugo build: Hugo Extended 0.160.1 exact binary passed with 399 pages, 17 paginator pages, 173 aliases, 0 errors; `free-email-signature` and `free-hr-software` both appear in built output and search index
-- Follow-up: keep Cloud or Creative as the next content silo; update NordPass only if an approved tracked URL becomes available; keep Canva/Grammarly placements on hold until approval is confirmed
+- Follow-up: keep Cloud or Creative as the next content silo; update NordPass only if an approved tracked URL becomes available; keep Canva placements on hold until approval is confirmed and keep Grammarly editorial-only while declined
 
 ---
 
@@ -697,7 +707,7 @@
 - Backlink added: free-email-service verdict section → free-email-signature
 - `CONTENT-STRATEGY.md` updated: free-email-signature marked ✓ Published
 - Article count: 40 → 41 · Cloud silo: 4/7 → 5/7
-- Canva and Grammarly remain under review / needs approval
+- Canva remains pending; Grammarly remains Declined
 - Build: see validation below
 
 ---
@@ -707,7 +717,7 @@
 - Verified all 8 GSC target pages from Day 52a (Microsoft Office, Dropbox, Slack, Grammarly, Illustrator, free backup software, QuickBooks, free project management) have improvements in place; all carry `lastmod: "2026-04-28"`
 - Same 2026-04-28 GSC snapshot confirmed recorded in `docs/GSC-NOTES.md`; no new data requiring action
 - Fixed stale article count in `docs/BUILD-VALIDATION.md`: 39 → 40
-- No new content published; article count remains 40; Canva and Grammarly remain under review / needs approval
+- No new content published; article count remains 40; Canva remains pending; Grammarly remains Declined
 - Validation: git diff --check clean · QA runner 3 passed · 0 failed · Hugo build 388 pages · 0 errors
 
 ---
@@ -729,7 +739,7 @@
 - Fixed weak public snippet wording on `free-backup-software`; removed unsupported "tested" wording from the Illustrator title and Microsoft Office intro
 - Existing hub, related-guide, and contextual links already cover target pages; no mass backlinking added
 - No new article published; article count remains 40; Business silo remains 13/13
-- No affiliate links added; no Canva or Grammarly CTAs added; Canva and Grammarly remain under review / needs approval
+- No affiliate links added; no Canva or Grammarly CTAs added; Canva remains pending; Grammarly remains Declined
 - `docs/GSC-NOTES.md` updated with snapshot, priority pages, query themes, actions, and follow-up items
 - Validation: git diff check, quality runner, Hugo build, article count, internal links, and generated-output checks completed
 
@@ -745,7 +755,7 @@
 - Backlinks added: free-time-tracking-software verdict section → free-hr-software; free-project-management-software verdict section → free-hr-software
 - `CONTENT-STRATEGY.md` updated: free-hr-software marked ✓ Published
 - Article count: 39 → 40 · Business silo: 12/13 → 13/13 ✓
-- Canva and Grammarly remain under review / needs approval
+- Canva remains pending; Grammarly remains Declined
 - Build: PASSED · 388 pages · 0 errors · 0 warnings · front matter valid · image resolves · internal links resolve · QA runner 3 passed · 0 failed
 
 ---
@@ -756,7 +766,7 @@
 - No template, config, shortcode, or content changes required — zero deprecation warnings
 - `README.md` updated: `HUGO_VERSION` env var and version check comment changed from `0.128.0` → `0.160.1`
 - `docs/BUILD-VALIDATION.md` created: records required Hugo version, QA script usage, and deployment checklist
-- Validation: `hugo --minify` clean (373 pages, 0 errors, 0 warnings); QA runner 3 passed · 0 failed; article count confirmed at 39; Canva/Grammarly remain under review
+- Validation: `hugo --minify` clean (373 pages, 0 errors, 0 warnings); QA runner 3 passed · 0 failed; article count confirmed at 39; Canva remains pending; Grammarly remains Declined
 - Cloudflare Pages: update `HUGO_VERSION` env var in dashboard to `0.160.1`
 
 ---
@@ -767,7 +777,7 @@
 - Issues found: stale feature roadmap counts after `free-web-analytics`, affiliate tracker missing `free-web-analytics`, unsupported public "tested" wording, and missing curated related-guide coverage for the new analytics article
 - Fixes made: updated public trust wording to "compare/evaluate" language, added `free-web-analytics` to curated related guides and affiliate tracker, refreshed `FEATURE-STRATEGY.md` counts/next recommendation, and corrected current tracker next-content/feature notes
 - Validation: git diff --check clean; QA runner clean with known warnings only; Hugo build passed; article count confirmed at 39 total and Business 12/13
-- Follow-up: publish `free-hr-software` on the next content day; keep Canva/Grammarly deferred until approval is confirmed; update NordPass only if an approved tracked URL is available
+- Follow-up: publish `free-hr-software` on the next content day; keep Canva deferred until approval is confirmed, keep Grammarly editorial-only while declined, and update NordPass only if an approved tracked URL is available
 
 ---
 
@@ -781,7 +791,7 @@
 - Internal links added to free-website-builders, free-project-management-software, free-crm-software
 - `CONTENT-STRATEGY.md` updated: free-web-analytics marked ✓ Published
 - Article count: 38 → 39 · Business silo: 11/13 → 12/13
-- Canva and Grammarly remain under review / needs approval
+- Canva remains pending; Grammarly remains Declined
 - Build: PASSED · front matter valid · image resolves · internal links resolve
 
 ---
@@ -794,7 +804,7 @@
 - `FEATURE-STRATEGY.md` updated: Phase 9 article count item marked done (Day 49f); archive row added; Suggested Next Feature updated to `free-web-analytics`
 - No article published; article count unchanged at 38
 - No public page, template, CSS, JS, image, or article body changed
-- Canva and Grammarly remain under review / needs approval
+- Canva remains pending; Grammarly remains Declined
 
 ---
 
@@ -807,7 +817,7 @@
 - `FEATURE-STRATEGY.md` updated: Phase 9 runner item marked done (Day 49e); archive row added; Suggested Next Feature updated
 - No article published; article count unchanged at 38
 - No public page, template, CSS, JS, image, or article body changed
-- No affiliate CTAs added; Canva and Grammarly remain under review / needs approval
+- No affiliate CTAs added; Canva remains pending; Grammarly remains Declined
 
 ---
 
@@ -816,13 +826,13 @@
 - `FEATURE-STRATEGY.md` fully reorganized after completion of all Phase 1–4 features
 - All 26 completed features moved from mixed inline entries into a clean "Completed Feature Archive" table with day, category, and one-line note
 - Old Phase 1–4 active sections (all done) replaced with 5 new future phases: Phase 5 (content expansion), Phase 6 (GSC-led refresh), Phase 7 (monetization readiness), Phase 8 (E-E-A-T strengthening), Phase 9 (maintenance automation)
-- Current Feature Baseline updated: 38 articles, Business 11/13, Canva/Grammarly under review noted, validators listed
+- Current Feature Baseline updated: 38 articles, Business 11/13, Canva pending and Grammarly declined noted, validators listed
 - Suggested Next Feature updated: primary recommendation is `free-web-analytics`; no Canva/Grammarly CTA suggestion
 - "What Not To Build Yet" updated to include sticky ToC and affiliate CTA shortcode
 - "How To Choose The Next Feature" updated to reference new phase numbers
 - No article published; article count unchanged at 38
 - No public page, template, CSS, JS, image, or article body changed
-- No affiliate CTAs added; Canva and Grammarly remain under review
+- No affiliate CTAs added; Canva remains pending; Grammarly remains Declined
 - Validation: git diff --check clean · front matter 0 errors PASSED · internal links 0 broken PASSED · feature images 0 errors PASSED
 
 ---
@@ -835,7 +845,7 @@
 - Update cadence: weekly light check · monthly deeper review · after major content batches
 - No new article published; article count unchanged at 38
 - No public page, template, CSS, JS, image, or article body changed
-- No affiliate CTAs added; Canva and Grammarly remain deferred (not available for placement)
+- No affiliate CTAs added; Canva remains deferred and Grammarly remains declined (not available for placement)
 - `FEATURE-STRATEGY.md` updated: Phase 4.4 marked complete (Day 49c); row added to Completed Feature Systems; Suggested Next Feature updated
 - Front matter: 0 errors · 18 warnings · PASSED
 - Internal links: 0 broken · PASSED
@@ -845,9 +855,9 @@
 
 ### Day 49b — affiliate tracker Canva/Grammarly cleanup
 
-- Canva and Grammarly CTA placement confirmed not currently available; all related tracker rows downgraded from High/Medium priority to Deferred
-- Updated `docs/AFFILIATE-TRACKER.md`: header active-programs list corrected; 7 Canva/Grammarly rows set to Deferred; next-action queue cleaned (items 1 and 2 removed)
-- Updated `docs/AFFILIATE-GUIDELINES.md`: Canva and Grammarly changed from Active to Deferred with placement note
+- Canva CTA placement confirmed not currently available; Grammarly placement removed from the active pool; related tracker rows downgraded from High/Medium priority to Deferred
+- Updated `docs/AFFILIATE-TRACKER.md`: header active-programs list corrected; related Canva/Grammarly rows set to Deferred; next-action queue cleaned (items 1 and 2 removed)
+- Updated `docs/AFFILIATE-GUIDELINES.md`: Canva changed from Active to Deferred and Grammarly removed from active placement guidance
 - Updated `FEATURE-STRATEGY.md`: removed Canva/Grammarly CTA suggestion from Suggested Next Feature; replaced with NordPass tracked URL follow-up
 - No public article published; article count unchanged at 38
 - No public page, template, CSS, JS, or image changed

@@ -2,10 +2,11 @@
 
 Internal operations file. Not a public page. Do not reference this in site content or commit messages.
 
-**Last updated:** 2026-05-09
-**Last verified:** 2026-05-09 — approved CTA inventory checked; deferred-program statuses unchanged
+**Last updated:** 2026-05-11
+**Last verified:** 2026-05-11 — Grammarly application declined; approved CTA inventory unchanged
 **Active programs:** NordVPN, NordPass, Amazon Associates US
-**Unavailable programs (CTA placement deferred):** Canva, Grammarly — Under review / Needs approval; do not add links or CTAs
+**Unavailable programs (CTA placement deferred):** Canva — Under review / Needs approval; do not add links or CTAs
+**Declined programs:** Grammarly — Declined; do not add links or CTAs; keep mentions editorial only
 **Pending programs:** Zoho via CJ (apply when Zoho content established), Impact.com (deferred), Amazon Associates SG (reserved)
 
 See `docs/AFFILIATE-GUIDELINES.md` for CTA format, placement rules, and program details.
@@ -35,19 +36,19 @@ See `docs/AFFILIATE-GUIDELINES.md` for CTA format, placement rules, and program 
 | `free-antivirus-software` | Security | NordVPN | Placed | Verified (Day 49a) | High | CTA live; go.nordvpn.net tracked URL confirmed; rel="sponsored noopener" present |
 | `best-free-2fa-apps` | Security | NordVPN + Amazon US | Placed | Verified (Day 49a) | High | Both CTAs live: NordVPN (go.nordvpn.net) and Amazon YubiKey category (tag freestackfi20-20 confirmed); category-level search URL |
 | `canva-alternatives` | Creative | Canva | Not placed | Needs approval (Day 53b) | Deferred | Canva CTA placement not currently available; do not add |
-| `grammarly-alternatives` | Productivity | Grammarly | Not placed | Needs approval (Day 53b) | Deferred | Grammarly CTA placement not currently available; do not add |
+| `grammarly-alternatives` | Productivity | Grammarly | Not placed | Declined (2026-05-11) | Deferred | Application denied; keep mentions editorial only and do not add links or CTAs |
 | `free-backup-software` | Cloud | Amazon US | Placed | Verified (Day 49a) | High | Portable SSD category CTA live; tag freestackfi20-20 confirmed; category-level URL ✓ |
 | `free-screen-recording-software` | Video | Amazon US | Placed | Verified (Day 49a) | Medium | USB mic category CTA live; tag freestackfi20-20 confirmed; category-level URL ✓ |
 | `dropbox-alternatives` | Cloud | NordVPN | Placed | Verified (Day 49a) | Medium | CTA live; go.nordvpn.net tracked URL confirmed; rel="sponsored noopener" present |
 | `free-email-service` | Cloud | NordVPN | Placed | Verified (Day 49a) | Medium | CTA live; go.nordvpn.net tracked URL confirmed; rel="sponsored noopener" present |
 | `free-stock-photos` | Creative | Canva | Not placed | Needs approval (Day 53b) | Deferred | Canva CTA placement not currently available; do not add |
-| `free-ai-writing-tools` | Productivity | Grammarly | Not placed | Needs approval (Day 53b) | Deferred | Grammarly CTA placement not currently available; do not add |
+| `free-ai-writing-tools` | Productivity | Grammarly | Not placed | Declined (2026-05-11) | Deferred | Application denied; keep mentions editorial only and do not add links or CTAs |
 | `free-crm-software` | Business | Zoho (pending) | Not placed | Needs approval | Medium | Hold until Zoho CJ application approved |
 | `free-invoicing-software` | Business | Zoho (pending) | Not placed | Needs approval | Medium | Hold until Zoho CJ application approved |
 | `free-accounting-software` | Business | Zoho (pending) | Not placed | Needs approval | Low | Candidate if Zoho CJ approved; editorial fit is reasonable |
 | `photoshop-alternatives` | Creative | Canva | Not placed | Needs approval (Day 53b) | Deferred | Canva CTA placement not currently available; do not add |
 | `illustrator-alternatives` | Creative | Canva | Not placed | Needs approval (Day 53b) | Deferred | Canva CTA placement not currently available; do not add |
-| `microsoft-office-alternatives` | Productivity | Grammarly | Not placed | Needs approval (Day 53b) | Deferred | Grammarly CTA placement not currently available; do not add |
+| `microsoft-office-alternatives` | Productivity | Grammarly | Not placed | Declined (2026-05-11) | Deferred | Application denied; keep mentions editorial only and do not add links or CTAs |
 | `quickbooks-alternatives` | Business | Zoho (pending) | Not placed | Needs approval | Low | Zoho Books may be relevant; hold until CJ approved |
 | `free-project-management-software` | Business | None identified | Not placed | N/A | Deferred | No active program fits naturally; do not force |
 | `free-cloud-storage-comparison` | Cloud | None identified | Not placed | N/A | Deferred | No active program fits without forcing |
@@ -61,7 +62,7 @@ See `docs/AFFILIATE-GUIDELINES.md` for CTA format, placement rules, and program 
 | `zoom-alternatives` | Video | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `figma-alternatives` | Creative | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `free-font-websites` | Creative | None identified | Not placed | N/A | Deferred | No active program fits naturally |
-| `free-note-taking-apps` | Productivity | Grammarly | Not placed | Needs approval (Day 53b) | Deferred | Legacy Grammarly CTA removed; do not add again unless approval is confirmed |
+| `free-note-taking-apps` | Productivity | Grammarly | Not placed | Declined (2026-05-11) | Deferred | Legacy Grammarly CTA removed; application denied; do not add again |
 | `free-calendar-app` | Productivity | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `free-chatgpt-alternatives` | Productivity | None identified | Not placed | N/A | Deferred | No active program fits naturally |
 | `free-pdf-editor-alternatives` | Productivity | None identified | Not placed | N/A | Deferred | No active program fits naturally |
@@ -75,11 +76,11 @@ See `docs/AFFILIATE-GUIDELINES.md` for CTA format, placement rules, and program 
 
 ## Next action queue
 
-All verification rows are resolved. Canva and Grammarly CTA placement is not currently available — do not add. Remaining open actions:
+All verification rows are resolved. Canva CTA placement is not currently available, and Grammarly is declined — do not add either program's links or CTAs. Remaining open actions:
 
 1. **free-password-managers NordPass link** — link currently uses `https://nordpass.com` direct; if a tracked affiliate URL is available from the NordPass program dashboard, update to tracked URL for attribution
 2. **Zoho rows** — all on hold until Zoho CJ affiliate application is submitted and approved; no placements to make
-3. **Canva / Grammarly rows** — all deferred; do not revisit unless program availability is confirmed
+3. **Canva / Grammarly rows** — Canva deferred until approval is confirmed; Grammarly declined and editorial-only unless the program status changes in writing
 
 ---
 

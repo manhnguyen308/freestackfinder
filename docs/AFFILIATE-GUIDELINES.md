@@ -27,7 +27,7 @@ Use adblocker-safe text CTA blocks only. Do not use affiliate image banners.
 | NordVPN | Active | go.nordvpn.net |
 | NordPass | Active | Direct nordpass.com link only; tracked URL follow-up pending |
 | Canva | Under review / Needs approval | CTA placement not currently available; do not add |
-| Grammarly | Under review / Needs approval | CTA placement not currently available; do not add |
+| Grammarly | Declined | Application denied; keep mentions editorial only and do not add links or CTAs |
 | Amazon Associates US | Active | tag: `freestackfi20-20` |
 | Amazon Associates SG | Reserved | tag: `freestackfi20-22` — future SG-specific hardware content |
 | Zoho via CJ | Pending | Apply after Zoho content is established |
@@ -68,7 +68,7 @@ Per article:
 | NordVPN | `free-vpn`, `free-antivirus-software`, `dropbox-alternatives`, `free-email-service`, `best-free-2fa-apps` |
 | NordPass | `free-password-managers` |
 | Canva (hold until approved) | `canva-alternatives`, `free-stock-photos` |
-| Grammarly (hold until approved) | `grammarly-alternatives`, `free-ai-writing-tools` |
+| Grammarly (declined; editorial only) | `grammarly-alternatives`, `free-ai-writing-tools` |
 | Amazon US | `best-free-2fa-apps` (security keys), `free-backup-software` (SSDs), `free-screen-recording-software` (USB mics) |
 | Zoho (pending) | `free-crm-software`, `free-email-service`, `free-invoicing-software` |
 
@@ -77,6 +77,7 @@ Per article:
 ## Pending actions
 
 - Zoho affiliate application still pending — apply via CJ Affiliate once Zoho content is established
-- Canva and Grammarly remain under review — do not place links or CTAs until approval is confirmed
+- Canva remains under review — do not place links or CTAs until approval is confirmed
+- Grammarly is declined — do not add Grammarly affiliate links, CTA placements, sponsored buttons, or monetized recommendations; keep mentions editorial only
 - Impact.com reapplication deferred until traffic data is sufficient
 - Amazon Associates SG tag (`freestackfi20-22`) reserved for future SG-specific hardware content

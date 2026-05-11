@@ -23,7 +23,7 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 |------|--------------|-------------|--------|-----|---------|-------|-------------|---------|
 | `/productivity/microsoft-office-alternatives/` | Microsoft Office alternative / MS Office alternative | 1,545 | 2 | 0.1% | — | Strong impressions, weak CTR | Refreshed title, description, and first-screen wording around Word/Excel/PowerPoint replacement intent | High |
 | `/cloud/dropbox-alternatives/` | Dropbox alternative / Dropbox alternatives | 763 | 1 | 0.1% | — | Strong impressions, weak CTR | Refreshed title, description, and quick verdict around more free cloud storage | High |
-| `/productivity/grammarly-alternatives/` | Grammarly alternatives | 402 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description only; no CTA while program remains under review | Medium |
+| `/productivity/grammarly-alternatives/` | Grammarly alternatives | 402 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description only; no CTA because Grammarly is declined | Medium |
 | `/productivity/slack-alternatives/` | Slack alternative / Slack alternatives | 339 | 1 | 0.3% | — | Meaningful impressions, weak CTR | Refreshed title, description, and quick verdict around the 90-day history limit | Medium |
 | `/creative/illustrator-alternatives/` | Illustrator alternatives | 249 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description; removed unsupported "tested" wording | Medium |
 | `/cloud/free-backup-software/` | Free backup software | 143 | 0 | 0% | — | Description was not search-snippet friendly | Rewrote description to explain backup use case and tools | Medium |
