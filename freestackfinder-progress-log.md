@@ -15,6 +15,21 @@
 
 ---
 
+### 2026-05-16 — GSC CTR pass on Office and Dropbox
+
+- Scope: focused GSC CTR improvement on the two highest-impression / low-CTR pages while the site waits for AdSense re-review; no new article, no URL/slug/alias change, no sitemap/robots/Cloudflare change, no ad enablement, no AdSense slot ID replacement, no new affiliate links or CTA placements.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/BUILD-VALIDATION.md`, `docs/GSC-NOTES.md`, this progress log, `content/productivity/microsoft-office-alternatives.md`, `content/cloud/dropbox-alternatives.md`.
+- Files changed: `content/productivity/microsoft-office-alternatives.md`, `content/cloud/dropbox-alternatives.md`, `docs/GSC-NOTES.md`, and this progress log.
+- GSC signal used: Office page at 1,545 impressions / 2 clicks / ~0.1% CTR; Dropbox page at 763 impressions / 1 click / ~0.1% CTR (2026-04-28 snapshot, last 3 months); Dropbox impressions include "dropbox alternatief" Dutch query variants.
+- Title/meta changes: Office title now reads "Best Free Microsoft Office Alternatives in 2026 — No Subscription Needed" with a meta that leads with the Word/Excel/PowerPoint replacement promise and names the four covered tools with their fit; Dropbox title now reads "Best Free Dropbox Alternatives in 2026 — More Free Storage Than 2GB" with a meta that drops the inaccurate "Sync.com" name from the prior description, anchors the 2GB free cap, and names MEGA, Google Drive, OneDrive, Proton Drive, and Box with their fit.
+- First-screen changes: both quick verdicts now open with an explicit "Which … should you pick?" decision line and short fit guidance per tool, so the searcher gets the answer above the fold without needing to scroll into the tool list.
+- Internal links: no new internal links added; existing inbound/outbound link map on both pages already covers the relevant cluster (Office ↔ Slack, note-taking, Grammarly, spreadsheet, PDF editor, calendar; Dropbox ↔ free cloud storage comparison, Office alternatives, backup software, password managers).
+- Dutch query handling: intentionally not creating a Dutch page and not stuffing Dutch terms into title or meta; "dropbox alternatief" added to the GSC-NOTES query column for the Dropbox page so future passes can monitor whether Dutch impressions keep growing.
+- AdSense safety: no ad slots added, no ad enablement, no AdSense slot ID replacement, no new affiliate links, no Canva or Grammarly CTAs, no invented testing or benchmark claims, no raw URLs added to article bodies, titles and metas remain accurate and not keyword-stuffed.
+- Validation result: `git diff --check` clean; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken links, and known non-blocking warnings only; `python3 scripts/publish_checklist.py` (no-arg) printed cleanly; Hugo Extended 0.160.1 build succeeded with 0 errors; both updated pages remain `index, follow` with unchanged canonical URLs.
+- Guardrails confirmed: 50 articles unchanged · no new article · no URL/slug/alias/redirect/sitemap/robots/Cloudflare change · no ad enablement · no affiliate CTA additions · Grammarly remains Declined · Canva remains Under review.
+- Next recommended CTR target: `/creative/canva-alternatives/` or `/creative/photoshop-alternatives/` from the GSC priority set after the next recrawl window, only if CTR remains weak.
+
 ### 2026-05-16 — GSC Crawled, currently not indexed fix pass
 
 - Scope: targeted quality and indexing-signal improvement on the GSC "Crawled - currently not indexed" example URL `/business/free-resume-builders/`; no new article, no URL/slug/alias change, no affiliate CTA additions, no ad enablement, no sitemap/robots/Cloudflare changes.

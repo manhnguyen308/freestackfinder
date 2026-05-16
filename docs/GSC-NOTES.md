@@ -21,8 +21,8 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 
 | Page | Query / theme | Impressions | Clicks | CTR | Avg pos | Issue | Next action | Priority |
 |------|--------------|-------------|--------|-----|---------|-------|-------------|---------|
-| `/productivity/microsoft-office-alternatives/` | Microsoft Office alternative / MS Office alternative | 1,545 | 2 | 0.1% | — | Strong impressions, weak CTR | Refreshed title, description, and first-screen wording around Word/Excel/PowerPoint replacement intent | High |
-| `/cloud/dropbox-alternatives/` | Dropbox alternative / Dropbox alternatives | 763 | 1 | 0.1% | — | Strong impressions, weak CTR | Refreshed title, description, and quick verdict around more free cloud storage | High |
+| `/productivity/microsoft-office-alternatives/` | Microsoft Office alternative / MS Office alternative | 1,545 | 2 | 0.1% | — | Strong impressions, weak CTR | 2026-05-16 CTR pass: title shifted to "No Subscription Needed" framing, meta now leads with Word/Excel/PowerPoint replacement, quick verdict opens with explicit decision question | High |
+| `/cloud/dropbox-alternatives/` | Dropbox alternative / Dropbox alternatives / dropbox alternatief | 763 | 1 | 0.1% | — | Strong impressions, weak CTR | 2026-05-16 CTR pass: title now anchors "More Free Storage Than 2GB", meta drops inaccurate Sync.com mention and lists actual covered tools, quick verdict opens with explicit decision question | High |
 | `/productivity/grammarly-alternatives/` | Grammarly alternatives | 402 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description only; no CTA because Grammarly is declined | Medium |
 | `/productivity/slack-alternatives/` | Slack alternative / Slack alternatives | 339 | 1 | 0.3% | — | Meaningful impressions, weak CTR | Refreshed title, description, and quick verdict around the 90-day history limit | Medium |
 | `/creative/illustrator-alternatives/` | Illustrator alternatives | 249 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description; removed unsupported "tested" wording | Medium |
@@ -62,6 +62,17 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Validation: git diff --check clean · QA 3/3 passed (46 articles, 0 broken links, 0 front matter errors) · hugo --minify clean · all 5 pages confirmed index, follow · lastmod updated to 2026-05-05 on all 5 articles.
 - Article count: 46 unchanged. No new articles. No URL/slug changes. No affiliate CTAs added.
 - Follow-up: monitor CTR and avg position on these 5 pages after next Googlebot recrawl cycle; if CTR remains below 1% at next GSC window, consider a title/description pass on the lowest performers.
+
+## 2026-05-16 — CTR pass on Office and Dropbox
+
+- Focus: tighten title and meta description on the two highest-impression / low-CTR pages while the site waits for AdSense re-review.
+- Pages updated: `/productivity/microsoft-office-alternatives/`, `/cloud/dropbox-alternatives/`.
+- Query themes addressed: "microsoft office alternative" / "ms office alternative" / "free office suite" intent around Word, Excel, PowerPoint replacement; "dropbox alternative" / "dropbox replacement" intent around the 2GB free cap and more free storage.
+- Title changes: Office title shifted from a long Word/Excel/PowerPoint subtitle to "No Subscription Needed" framing; Dropbox title shifted from "More Free Cloud Storage" to "More Free Storage Than 2GB" to anchor the comparison.
+- Meta changes: Office meta now leads with the Word/Excel/PowerPoint replacement promise and names the four tools with their fit; Dropbox meta now leads with the 2GB cap, drops the inaccurate "Sync.com" name that was not covered in the article, and names MEGA, Google Drive, OneDrive, Proton Drive, and Box with their fit.
+- First-screen changes: both quick verdicts now open with an explicit "Which … should you pick?" decision line followed by short fit guidance per tool.
+- Dutch query handling: GSC shows "dropbox alternatief" impressions; intentionally not creating a Dutch page and not stuffing Dutch terms into title or meta. Monitor whether Dutch impressions keep growing before considering a localized variant.
+- Follow-up: monitor CTR, clicks, and average position on both pages after the next Googlebot recrawl; if CTR stays below 1% after the snippet refresh, consider one more conservative title pass on the weaker performer.
 
 ## 2026-05-16 — Crawled, currently not indexed fix pass
 
