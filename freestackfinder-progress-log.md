@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-11
-**Current day:** 66
+**Last updated:** 2026-05-16
+**Current day:** 67
 
 ## Current state
 
@@ -14,6 +14,18 @@
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-16 — GSC Crawled, currently not indexed fix pass
+
+- Scope: targeted quality and indexing-signal improvement on the GSC "Crawled - currently not indexed" example URL `/business/free-resume-builders/`; no new article, no URL/slug/alias change, no affiliate CTA additions, no ad enablement, no sitemap/robots/Cloudflare changes.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `freestackfinder-progress-log.md`, `docs/GSC-NOTES.md`, `content/business/free-resume-builders.md`, `content/business/free-invoicing-software.md`, robots/canonical handling in `layouts/partials/head.html`, internal-link map for the resume page, and the generated `public/business/free-resume-builders/index.html` + `public/sitemap.xml`.
+- Files changed: `content/business/free-resume-builders.md`, `content/business/free-invoicing-software.md`, `docs/GSC-NOTES.md`, and this progress log.
+- Root cause assessment: no technical indexing bug found — page is `index, follow`, canonical resolves to the correct final URL, page is in the sitemap, no `noindex` in front matter, and not blocked by `robots.txt`. The most likely Googlebot signal is content depth and uniqueness on a competitive query; the fix focused on adding original decision logic, tradeoffs, common mistakes, and concrete examples not copyable from a product page.
+- Fixes made: stronger opener naming who the guide is for; new "When a free resume builder is enough — and when it is not" decision section; practical tradeoffs block (export format, watermark risk, template quality, privacy/signup, ATS readability, editing flexibility); common mistakes section; concrete examples for student, freelancer, career switcher, and one-page refresh scenarios; one contextual inbound link from `free-invoicing-software` to the resume guide; `lastmod` bumped to 2026-05-16 on both edited articles.
+- Validation result: `git diff --check` clean; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken links, 0 stale articles, and known non-blocking warnings only; `python3 scripts/publish_checklist.py` (no-arg) printed cleanly; Hugo Extended build succeeded with 483 pages and 0 errors; live source confirms `<meta name="robots" content="index, follow">` and canonical URL on the resume page; page present in `public/sitemap.xml` with the new lastmod.
+- Guardrails confirmed: 50 articles unchanged · no new article · no URL/slug/alias/redirect/sitemap/robots/Cloudflare change · no affiliate CTA additions · no ad enablement · no fake testing claims added.
+- Validate Fix recommendation: safe to click Validate Fix in GSC after the next Cloudflare Pages deployment of `main` completes and the page is publicly serving the refreshed content.
+- Follow-up: monitor the affected URL in GSC after the validation window; if it still does not get indexed, consider one further inbound link from a high-impression page rather than another rewrite.
 
 ### 2026-05-11 — Final AdSense readiness and mobile rendering check
 

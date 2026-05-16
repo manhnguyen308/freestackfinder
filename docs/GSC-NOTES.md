@@ -63,6 +63,16 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Article count: 46 unchanged. No new articles. No URL/slug changes. No affiliate CTAs added.
 - Follow-up: monitor CTR and avg position on these 5 pages after next Googlebot recrawl cycle; if CTR remains below 1% at next GSC window, consider a title/description pass on the lowest performers.
 
+## 2026-05-16 — Crawled, currently not indexed fix pass
+
+- Issue: GSC "Crawled - currently not indexed" affecting 2 pages; example URL `/business/free-resume-builders/`.
+- Page improved: `content/business/free-resume-builders.md`.
+- Editorial additions: stronger opener clarifying who a free resume builder fits; new "When a free resume builder is enough — and when it is not" decision section; practical tradeoffs block covering export format, watermark risk, template quality, privacy/signup, ATS readability, and editing flexibility; common mistakes section; concrete examples for student, freelancer, career switcher, and one-page refresh scenarios.
+- Indexing signals: confirmed `index, follow`, canonical points to `https://freestackfinder.com/business/free-resume-builders/`, page present in `public/sitemap.xml`, not blocked by `robots.txt`, no `noindex` in front matter.
+- Internal links: added a contextual inbound link from `content/business/free-invoicing-software.md` to strengthen the freelancer cluster path into the resume guide; existing inbound links from `canva-free-vs-paid` and `grammarly-alternatives`, and outbound links from the resume article to Canva alternatives, Microsoft Office alternatives, Grammarly alternatives, free invoicing, free CRM, and free spreadsheet alternatives are unchanged.
+- `lastmod` updated to 2026-05-16 on both edited articles.
+- Follow-up: monitor indexing status after the next Googlebot recrawl; if the page is still not indexed after the validation window, consider one tighter title/description pass or another contextual inbound link from a high-impression page.
+
 ## 2026-05-05 production polish follow-up
 
 - Focus: fix high-impression quality issues found after the earlier content pass, especially raw `verdict-box` markup and metadata drift.
