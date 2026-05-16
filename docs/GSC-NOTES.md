@@ -24,7 +24,9 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 | `/productivity/microsoft-office-alternatives/` | Microsoft Office alternative / MS Office alternative | 1,545 | 2 | 0.1% | — | Strong impressions, weak CTR | 2026-05-16 CTR pass: title shifted to "No Subscription Needed" framing, meta now leads with Word/Excel/PowerPoint replacement, quick verdict opens with explicit decision question | High |
 | `/cloud/dropbox-alternatives/` | Dropbox alternative / Dropbox alternatives / dropbox alternatief | 763 | 1 | 0.1% | — | Strong impressions, weak CTR | 2026-05-16 CTR pass: title now anchors "More Free Storage Than 2GB", meta drops inaccurate Sync.com mention and lists actual covered tools, quick verdict opens with explicit decision question | High |
 | `/productivity/grammarly-alternatives/` | Grammarly alternatives | 402 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description only; no CTA because Grammarly is declined | Medium |
-| `/productivity/slack-alternatives/` | Slack alternative / Slack alternatives | 339 | 1 | 0.3% | — | Meaningful impressions, weak CTR | Refreshed title, description, and quick verdict around the 90-day history limit | Medium |
+| `/productivity/slack-alternatives/` | Slack alternative / Slack alternatives | 339 | 1 | 0.3% | — | Meaningful impressions, weak CTR | 2026-05-16 CTR pass: kept 90-day-limit title; description tightened to lead with Discord as the direct answer and name Teams, Google Chat, Mattermost, and Rocket.Chat | Medium |
+| `/creative/canva-alternatives/` | Canva alternative / free Canva alternative | — | — | — | — | Meaningful impressions, weak CTR | 2026-05-16 CTR pass: title now leads with "Social Posts, Templates, and Presentations"; description opens with Adobe Express as the direct answer and names the four other compared tools | Medium |
+| `/creative/photoshop-alternatives/` | Photoshop alternative / free Photoshop alternative | — | — | — | — | Meaningful impressions, weak CTR | 2026-05-16 CTR pass: title simplified to "PSD, Desktop, and Browser Editors"; description opens with Photopea as the direct answer and names GIMP, Krita, and Pixlr with intent terms | Medium |
 | `/creative/illustrator-alternatives/` | Illustrator alternatives | 249 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description; removed unsupported "tested" wording | Medium |
 | `/cloud/free-backup-software/` | Free backup software | 143 | 0 | 0% | — | Description was not search-snippet friendly | Rewrote description to explain backup use case and tools | Medium |
 | `/business/quickbooks-alternatives/` | QuickBooks alternatives | 141 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description around freelancer accounting intent | Medium |
@@ -37,6 +39,13 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Actions taken: refreshed query-aligned titles/descriptions and a few first-screen verdict lines on priority pages; no new articles, URL changes, slug changes, affiliate links, or Canva/Grammarly CTAs.
 - Internal links: existing hub, related-guide, and contextual links already cover the priority pages; no mass backlinking added.
 - Follow-up: monitor the same pages after the next GSC data window; consider another small title/meta pass only if impressions rise and CTR remains below 1%.
+
+## 2026-05-16 CTR pass — Canva, Photoshop, Slack
+
+- Pages updated: `/creative/canva-alternatives/`, `/creative/photoshop-alternatives/`, `/productivity/slack-alternatives/`.
+- Query themes addressed: free Canva alternative / social posts / templates / presentations; free Photoshop alternative / PSD editing / layers / browser editing; free Slack alternative / unlimited message history / team chat for small teams.
+- Changes: front-matter only — titles and meta descriptions rewritten so the first sentence delivers the direct answer and names the actual compared tools; no body edits, no new affiliate links, no CTA additions, no URL/slug changes, `lastmod` bumped to 2026-05-16 on all three pages.
+- Follow-up: monitor CTR, clicks, and average position on all three pages after the next recrawl window; if CTR remains below 1% with rising impressions, consider one round of intro/quick-verdict tightening before further metadata changes.
 
 ## 2026-05-02 weekly review notes
 
