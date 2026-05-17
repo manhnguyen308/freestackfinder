@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-05-17
-**Current day:** 68d
+**Current day:** 68e
 
 ## Current state
 
@@ -14,6 +14,31 @@
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-17 — Final article-authenticity polish completed
+
+- Scope: polish the ten remaining high-template articles identified for final cleanup without publishing a new article, changing URLs/slugs/aliases, changing front-matter dates/lastmod/weight/images, adding affiliate links, adding CTA placements, adding ad slots, or touching trust pages.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/GSC-NOTES.md`, `docs/BUILD-VALIDATION.md`, and the ten requested articles.
+- Files changed: `content/productivity/free-note-taking-apps.md`, `content/creative/free-stock-photos.md`, `content/productivity/free-calendar-app.md`, `content/business/free-spreadsheet-alternatives.md`, `content/cloud/free-ai-email-tools.md`, `content/video/zoom-alternatives.md`, `content/creative/free-font-websites.md`, `content/security/free-password-managers-teams.md`, `content/business/free-hr-software.md`, `content/cloud/free-email-signature.md`, and this progress log.
+- Articles modified: 10 existing articles; article count unchanged at 50.
+- Per-page changes:
+  - Note-Taking Apps: opener and closer H2s varied; repeated tool labels converted into scenario-based prose around quick capture, handwriting/scanning, encryption, markdown, structured notes, offline needs, and team sharing.
+  - Free Stock Photos: opener and closer H2s varied; repeated labels converted into licensing, attribution, search-quality, image-style, and release-check guidance; practical license-record note added.
+  - Free Calendar Apps: opener and closer H2s varied; repeated labels converted into scheduling scenarios around personal planning, shared calendars, reminders, booking, privacy, and ecosystem fit.
+  - Spreadsheet Alternatives: opener and closer H2s varied; repeated labels converted into Excel-compatibility, collaboration, formula, offline, and round-trip testing guidance.
+  - AI Email Tools: opener and closer H2s varied; repeated labels converted into prose around drafting, replying, summarizing, inbox integration, privacy, and changing free-tier limits.
+  - Zoom Alternatives: opener and closer H2s varied; repeated labels converted into meeting-length, participant, recording, browser-access, and team-fit guidance.
+  - Free Font Websites: opener and closer H2s varied; repeated labels converted into commercial licensing, web-font hosting, brand-use, and download-quality guidance.
+  - Team Password Managers: opener and closer H2s varied; repeated labels converted into shared-vault, admin-control, onboarding/offboarding, recovery, audit, and self-hosting decision guidance.
+  - Free HR Software: opener and closer H2s varied; repeated labels converted into employee-record, time-off, onboarding, payroll-limit, scheduling, and small-team fit guidance.
+  - Email Signature Makers: opener and closer H2s varied; repeated labels converted into branding, Gmail/Outlook use, HTML compatibility, image-hosting, and team-consistency guidance.
+- Repeated-heading counts (full `content/` tree, before → after): `## Quick verdict` 19 → 9; `## Our verdict` 13 → 3; `Why it stands out:` 14 → 4; `Who it's best for:` 12 → 3; `Free plan includes:` 13 → 3; `What the free plan is missing:` 13 → 3.
+- Generic-word cleanup: across the ten target articles, the requested terms (`unlock`, `powerful`, `seamless`, `wide range`, `streamline`) went from 14 total matches to 0; remaining matches are outside this batch.
+- Word counts (per article, before → after): Note-Taking Apps 2,148 → 2,171 (+23); Free Stock Photos 2,176 → 2,180 (+4); Free Calendar Apps 2,200 → 2,201 (+1); Spreadsheet Alternatives 2,236 → 2,238 (+2); AI Email Tools 2,267 → 2,294 (+27); Zoom Alternatives 1,967 → 1,978 (+11); Free Font Websites 1,807 → 1,843 (+36); Team Password Managers 2,518 → 2,528 (+10); Free HR Software 1,780 → 1,822 (+42); Email Signature Makers 1,898 → 1,940 (+42). Combined: 20,997 → 21,195 (+198).
+- Preservation: all `title`, `description`, `date`, `lastmod`, `weight`, `slug`, `categories`, `tags`, `image`, and `author` fields left unchanged on all ten articles. No URL, slug, alias, redirect, sitemap, robots, Cloudflare, taxonomy, search, image reference, internal link, `/go/` link, or affiliate link change made.
+- Affiliate/ad safety: no new affiliate links, no new ad slots, no CTA placements added, no Canva CTA, no Grammarly CTA, no fake hands-on/testing claims, no screenshots, no benchmarks, no raw URLs in article bodies, and no public process language added.
+- Validation result: `git diff --check` clean; final repeated-heading counts recorded above; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, 3 known description warnings, and 3 known image orphans only; `python3 scripts/publish_checklist.py` (no args) printed cleanly; Hugo Extended 0.160.1 build via `/tmp/hugo-0.160.1/hugo --minify` succeeded with 483 pages, 21 paginator pages, 210 aliases, and 0 errors.
+- Request review recommendation: wait 14 days after the latest deployment before requesting AdSense re-review.
 
 ### 2026-05-17 — Step 2c template-uniformity remediation completed
 
