@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-05-17
-**Current day:** 68b
+**Current day:** 68c
 
 ## Current state
 
@@ -14,6 +14,32 @@
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-17 — Step 2b structural variation on next 10 articles
+
+- Scope: complete the next ten-article template-uniformity pass without publishing a new article, changing URLs/slugs/aliases, changing front-matter dates/lastmod/weight/images, adding affiliate links, adding CTA placements, adding ad slots, or touching trust pages.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/GSC-NOTES.md`, `docs/BUILD-VALIDATION.md`, and the ten requested articles.
+- Files changed: `content/business/free-project-management-software.md`, `content/business/free-invoicing-software.md`, `content/business/free-accounting-software.md`, `content/business/free-time-tracking-software.md`, `content/security/free-password-managers.md`, `content/security/free-antivirus-software.md`, `content/security/free-vpn.md`, `content/cloud/free-email-service.md`, `content/cloud/free-team-email.md`, `content/video/free-screen-recording-software.md`, `docs/GSC-NOTES.md`, and this progress log.
+- Articles modified: 10 more articles structurally varied; total articles structurally varied so far: 25/50.
+- Per-page changes:
+  - Project Management: `## Quick verdict` → `## Where to start`; `## Our verdict` → `## Which project tool makes the most sense?`; per-tool labels varied around task views, collaboration, automation limits, guest access, reporting, and daily-use fit; decision framing added for solo users, small teams, and client-facing work.
+  - Invoicing: `## Quick verdict` → `## The short answer`; `## Our verdict` → `## The takeaway`; repeated free-plan label stacks converted to prose blocks covering invoice volume, payment links, branding, client records, tax fields, and growth limits.
+  - Accounting: `## Quick verdict` → `## What we recommend`; `## Our verdict` → `## Final recommendation`; tool sections converted to comparison-anchor prose around QuickBooks/Xero-style needs, bookkeeping fit, invoices, bank feeds, reporting, and accountant handoff.
+  - Time Tracking: `## Quick verdict` → `## The bottom line`; `## Our verdict` → `## Putting it together`; per-tool labels varied around timer limits, reporting, projects, billing, and team tracking; decision framing added for freelancers, agencies, and teams.
+  - Password Managers: `## Quick verdict` → `## Start here`; `## Our verdict` → `## So which password manager should you use?`; tool sections converted to prose blocks covering device sync, sharing, passkeys, emergency access, and family/team needs; existing NordPass CTA preserved unchanged.
+  - Antivirus: `## Quick verdict` → `## The short answer`; `## Our verdict` → `## Final thoughts`; per-tool labels varied around real-time protection, scans, ransomware/browser protection, and upsell limits; security claims kept conservative.
+  - VPN: `## Quick verdict` → `## Where to start`; `## Our verdict` → `## The takeaway`; tool sections converted to comparison-anchor prose around data caps, server choice, speed, privacy posture, streaming limits, and device support; existing NordVPN CTA preserved unchanged.
+  - Email Services: `## Quick verdict` → `## What we recommend`; `## Our verdict` → `## Which free email service should you pick?`; tool sections converted to prose blocks covering storage, privacy, custom domains, aliases, app quality, and migration friction; existing NordVPN CTA preserved unchanged.
+  - Team Email: `## Quick verdict` → `## The bottom line`; `## Our verdict` → `## Putting it together`; per-tool labels varied around shared inboxes, custom domains, team permissions, aliases, and admin limits; decision framing added for solo operators, small teams, and client-facing addresses.
+  - Screen Recording: `## Quick verdict` → `## Start here`; `## Our verdict` → `## Final recommendation`; per-tool labels varied around recording length, watermark, webcam overlay, editing, export quality, and cloud sharing; decision framing added for tutorials, demos, meetings, and bug reports; existing Amazon CTA preserved unchanged.
+- Repeated-heading counts (full `content/` tree, before → after across Step 2b only): `## Quick verdict` 35 → 25; `## Our verdict` 29 → 19; `Why it stands out:` 30 → 20; `Who it's best for:` 27 → 17; `Free plan includes:` 28 → 18; `What the free plan is missing:` 24 → 15.
+- Word counts (per article, before → after): Project Management 2,210 → 2,267 (+57); Invoicing 2,250 → 2,254 (+4); Accounting 3,238 → 3,238 (flat); Time Tracking 1,969 → 2,026 (+57); Password Managers 2,311 → 2,311 (flat); Antivirus 1,961 → 1,964 (+3); VPN 1,988 → 1,988 (flat); Email Services 2,270 → 2,271 (+1); Team Email 2,432 → 2,476 (+44); Screen Recording 2,297 → 2,359 (+62). Combined: 22,926 → 23,154 (+228).
+- Preservation: all `title`, `description`, `date`, `lastmod`, `weight`, `slug`, `categories`, `tags`, `image`, and `author` fields left unchanged on all ten articles. No URL, slug, alias, redirect, sitemap, robots, Cloudflare, taxonomy, search, image reference, internal link, `/go/` link, or affiliate link change made.
+- Affiliate/ad safety: no new affiliate links, no new ad slots, no CTA placements added, no Canva CTA, no Grammarly CTA, no fake hands-on/testing claims, no screenshots, no benchmarks, no raw URLs in article bodies, and no public internal-workflow language added.
+- Validation result: `git diff --check` clean; final repeated-heading counts recorded above; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, 3 known description warnings, and 3 known image orphans only; `python3 scripts/publish_checklist.py` (no args) printed cleanly; Hugo Extended 0.160.1 build via `/tmp/hugo-0.160.1/hugo --minify` succeeded with 483 pages, 21 paginator pages, 210 aliases, and 0 errors.
+- Article count: unchanged at 50; no new article created.
+- Request review recommendation: do not request yet; wait until deployment and recrawl after the full uniformity pass.
+- Next step: optional Step 2c can continue reducing repeated headings if final counts are still above target ranges.
 
 ### 2026-05-17 — Step 2a structural variation on next 10 articles
 

@@ -40,6 +40,15 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Internal links: existing hub, related-guide, and contextual links already cover the priority pages; no mass backlinking added.
 - Follow-up: monitor the same pages after the next GSC data window; consider another small title/meta pass only if impressions rise and CTR remains below 1%.
 
+## 2026-05-17 — Step 2b structural variation pass (next 10 articles)
+
+- Pages updated: `/business/free-project-management-software/`, `/business/free-invoicing-software/`, `/business/free-accounting-software/`, `/business/free-time-tracking-software/`, `/security/free-password-managers/`, `/security/free-antivirus-software/`, `/security/free-vpn/`, `/cloud/free-email-service/`, `/cloud/free-team-email/`, `/video/free-screen-recording-software/`.
+- Reason: continued AdSense-readiness work on remaining high-template pages, including the project management page already present in the GSC opportunity table and closely related Business, Security, Cloud email, and Video support articles.
+- Changes: opener and closer H2s varied per article; project management, time tracking, antivirus, team email, and screen recording use varied per-tool labels; invoicing, password manager, and email service sections use prose review blocks; accounting and VPN sections use comparison-anchor prose. The old repeated labels were removed from all ten target articles.
+- Front-matter rule: no `date`, `lastmod`, `weight`, `image`, `slug`, `alias`, `title`, `description`, `categories`, or `tags` changes on any of the ten pages.
+- Repeated-heading counts across all 50 articles (post-Step-2a → post-Step-2b): Quick verdict 35 → 25 · Our verdict 29 → 19 · Why it stands out 30 → 20 · Who it's best for 27 → 17 · Free plan includes 28 → 18 · What the free plan is missing 24 → 15.
+- Follow-up: optional Step 2c can continue reducing repeated headings if final counts are still above target ranges after this structural pass.
+
 ## 2026-05-17 — Step 2a structural variation pass (next 10 articles)
 
 - Pages updated: `/productivity/grammarly-alternatives/`, `/creative/illustrator-alternatives/`, `/productivity/notion-alternatives/`, `/productivity/free-chatgpt-alternatives/`, `/productivity/free-pdf-editor-alternatives/`, `/creative/figma-alternatives/`, `/productivity/free-ai-writing-tools/`, `/video/free-video-editing-software/`, `/cloud/free-cloud-storage-comparison/`, `/business/free-crm-software/`.
