@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-05-17
-**Current day:** 68c
+**Current day:** 68d
 
 ## Current state
 
@@ -14,6 +14,28 @@
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-17 — Step 2c template-uniformity remediation completed
+
+- Scope: finish the narrow six-article cleanup to bring the remaining repeated-heading counts closer to target without publishing a new article, changing URLs/slugs/aliases, changing front-matter dates/lastmod/weight/images, adding affiliate links, adding CTA placements, adding ad slots, or touching trust pages.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/GSC-NOTES.md`, `docs/BUILD-VALIDATION.md`, and the six requested articles.
+- Files changed: `content/business/quickbooks-alternatives.md`, `content/business/free-web-analytics.md`, `content/business/free-website-builders.md`, `content/security/best-free-2fa-apps.md`, `content/cloud/free-backup-software.md`, `content/video/premiere-pro-alternatives.md`, `docs/GSC-NOTES.md`, and this progress log.
+- Articles modified: 6 additional articles structurally varied; total articles structurally varied so far: 31/50.
+- Per-page changes:
+  - QuickBooks Alternatives: `## Quick verdict` → `## The short answer`; `## Our verdict` → `## Which accounting tool makes the most sense?`; tool sections converted to QuickBooks comparison prose around invoices, bookkeeping, bank feeds, reporting, accountant handoff, and small-business fit.
+  - Free Web Analytics: `## Quick verdict` → `## Where to start`; `## Our verdict` → `## The takeaway`; tool sections converted to prose blocks covering privacy-friendly analytics, event tracking, dashboards, traffic sources, and beginner setup.
+  - Free Website Builders: `## Quick verdict` → `## What we recommend`; `## Our verdict` → `## Final recommendation`; per-tool labels varied around free domains, templates, storage, ecommerce limits, branding, and upgrade pressure; decision framing added for portfolios, small business sites, blogs, and landing pages.
+  - Best Free 2FA Apps: `## Quick verdict` → `## Start here`; `## Our verdict` → `## So which 2FA app should you use?`; tool sections converted to prose blocks covering backup, device sync, account recovery, privacy, team use, and migration risk; existing security CTAs preserved unchanged.
+  - Free Backup Software: `## Quick verdict` → `## The bottom line`; `## Our verdict` → `## Putting it together`; per-tool labels varied around backup type, restore friction, cloud/local storage, scheduling, and ransomware caveats; decision framing added for simple file backup versus full backup behavior; existing Amazon CTA preserved unchanged.
+  - Premiere Pro Alternatives: `## Quick verdict` → `## Where to start`; `## Our verdict` → `## Final thoughts`; tool sections converted to Premiere comparison prose around timeline editing, effects, export limits, learning curve, templates, and professional handoff.
+- Repeated-heading counts (full `content/` tree, before → after across Step 2c only): `## Quick verdict` 25 → 19; `## Our verdict` 19 → 13; `Why it stands out:` 20 → 14; `Who it's best for:` 17 → 12; `Free plan includes:` 18 → 13; `What the free plan is missing:` 15 → 13.
+- Word counts (per article, before → after): QuickBooks Alternatives 2,106 → 2,106 (flat); Free Web Analytics 2,133 → 2,133 (flat); Free Website Builders 2,393 → 2,439 (+46); Best Free 2FA Apps 2,253 → 2,253 (flat); Free Backup Software 1,671 → 1,726 (+55); Premiere Pro Alternatives 1,871 → 2,056 (+185). Combined: 12,427 → 12,713 (+286).
+- Preservation: all `title`, `description`, `date`, `lastmod`, `weight`, `slug`, `categories`, `tags`, `image`, and `author` fields left unchanged on all six articles. No URL, slug, alias, redirect, sitemap, robots, Cloudflare, taxonomy, search, image reference, internal link, `/go/` link, or affiliate link change made.
+- Affiliate/ad safety: no new affiliate links, no new ad slots, no CTA placements added, no Canva CTA, no Grammarly CTA, no fake hands-on/testing claims, no screenshots, no benchmarks, no raw URLs in article bodies, and no public internal-workflow language added.
+- Validation result: `git diff --check` clean; final repeated-heading counts recorded above; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, 3 known description warnings, and 3 known image orphans only; `python3 scripts/publish_checklist.py` (no args) printed cleanly; Hugo Extended 0.160.1 build via `/tmp/hugo-0.160.1/hugo --minify` succeeded with 483 pages, 21 paginator pages, 210 aliases, and 0 errors.
+- Article count: unchanged at 50; no new article created.
+- Request review recommendation: wait 14 days after deployment before requesting AdSense re-review.
+- Next step: stop broad template remediation unless final counts still look materially above target.
 
 ### 2026-05-17 — Step 2b structural variation on next 10 articles
 

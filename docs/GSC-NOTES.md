@@ -40,6 +40,14 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Internal links: existing hub, related-guide, and contextual links already cover the priority pages; no mass backlinking added.
 - Follow-up: monitor the same pages after the next GSC data window; consider another small title/meta pass only if impressions rise and CTR remains below 1%.
 
+## 2026-05-17 — final high-template structural cleanup pass
+
+- Pages updated: `/business/quickbooks-alternatives/`, `/business/free-web-analytics/`, `/business/free-website-builders/`, `/security/best-free-2fa-apps/`, `/cloud/free-backup-software/`, `/video/premiere-pro-alternatives/`.
+- Reason: finish the narrow template-uniformity cleanup on remaining high-template pages without extending the pass across the whole site.
+- Changes: opener and closer H2s varied per article; QuickBooks and Premiere sections use comparison-anchor prose; Web Analytics and 2FA sections use prose review blocks; Website Builders and Backup use varied per-tool labels. No title, description, date, lastmod, weight, image, slug, alias, affiliate, or recommendation changes.
+- Repeated-heading counts across all 50 articles (post-Step-2b → final cleanup): Quick verdict 25 → 19 · Our verdict 19 → 13 · Why it stands out 20 → 14 · Who it's best for 17 → 12 · Free plan includes 18 → 13 · What the free plan is missing 15 → 13.
+- Follow-up: stop broad template remediation unless future counts still look materially above target after deployment and recrawl.
+
 ## 2026-05-17 — Step 2b structural variation pass (next 10 articles)
 
 - Pages updated: `/business/free-project-management-software/`, `/business/free-invoicing-software/`, `/business/free-accounting-software/`, `/business/free-time-tracking-software/`, `/security/free-password-managers/`, `/security/free-antivirus-software/`, `/security/free-vpn/`, `/cloud/free-email-service/`, `/cloud/free-team-email/`, `/video/free-screen-recording-software/`.

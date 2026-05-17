@@ -21,9 +21,11 @@ Most "free website builder" comparisons are written to push you toward a paid pl
 
 This guide focuses on what the free plan actually gives you, what it visibly withholds, and when the limits stop being acceptable. No trial plans. No "14 days free" options disguised as free tiers.
 
-## Quick verdict
+## What we recommend
 
 **Google Sites** is the only major builder with no branding, no ads, and no storage limits on the free plan — but it trades that in for limited design control. **Wix** offers the most complete builder experience on a free plan, with hundreds of templates and a full editor, though its subdomain and in-site ads make it unsuitable for a professional-facing site. **WordPress.com** is the strongest free option for blogs and content-heavy sites. **Carrd** is the cleanest choice for a simple one-page site, portfolio, or link-in-bio page. **Canva Websites** is the lowest-friction option if you already design in Canva and just need to put a page online.
+
+Portfolios and landing pages can tolerate a simple one-page builder longer than small business sites can tolerate an awkward URL. Blogs need publishing tools more than visual freedom. Local business sites usually need a custom domain, contact form, and analytics sooner than they need a huge template library.
 
 {{< comparison-table >}}
 columns:
@@ -81,13 +83,13 @@ Understanding what type of builder you actually need makes the decision clearer:
 
 **What it is:** Wix is a hosted website builder with a drag-and-drop editor, an AI site generator, and a large app marketplace. The free plan gives access to the full editor and most of the template library.
 
-**Free plan includes:** Drag-and-drop and AI-assisted editor, 800+ templates, Wix App Market, basic SEO settings, image gallery, contact form, and 500MB storage with 500MB bandwidth.
+**What you can build for free:** Drag-and-drop and AI-assisted editor, 800+ templates, Wix App Market, basic SEO settings, image gallery, contact form, and 500MB storage with 500MB bandwidth.
 
-**What the free plan is missing:** Custom domain (your site lives on a `username.wixsite.com/sitename` URL), removal of the Wix ad banner at the top of your pages, and the ability to connect Google Analytics or run ecommerce transactions. Bandwidth limits become noticeable if your site attracts meaningful traffic.
+**The practical limit:** Custom domain (your site lives on a `username.wixsite.com/sitename` URL), removal of the Wix ad banner at the top of your pages, and the ability to connect Google Analytics or run ecommerce transactions. Bandwidth limits become noticeable if your site attracts meaningful traffic.
 
-**Who it's best for:** Anyone who wants to explore a proper website builder without committing money. Freelancers testing a portfolio layout, small businesses evaluating whether a website builder suits their needs, or hobbyists building a passion project.
+**Best fit:** Anyone who wants to explore a proper website builder without committing money. Freelancers testing a portfolio layout, small businesses evaluating whether a website builder suits their needs, or hobbyists building a passion project.
 
-**Why it stands out:** Wix has the most usable free builder experience on this list. The editor is genuinely capable, the templates are varied, and the app marketplace includes useful free additions. The limits are real but the builder itself is not crippled on the free plan.
+**Upgrade pressure to know:** Wix has the most usable free builder experience on this list. The editor is genuinely capable, the templates are varied, and the app marketplace includes useful free additions. The limits are real but the builder itself is not crippled on the free plan.
 
 ---
 
@@ -97,13 +99,13 @@ Understanding what type of builder you actually need makes the decision clearer:
 
 **What it is:** Google Sites is a free, browser-based site builder included with every Google account. It integrates directly with Google Drive, Docs, Sheets, Slides, Forms, Calendar, Maps, and YouTube.
 
-**Free plan includes:** Unlimited multi-page sites, unlimited storage counted against your Google Drive quota (shared with Gmail and Drive), no branding, no ads, no paid tiers. Custom domain connection is supported — you own and pay for the domain, but Google Sites itself costs nothing.
+**What you can build for free:** Unlimited multi-page sites, unlimited storage counted against your Google Drive quota (shared with Gmail and Drive), no branding, no ads, no paid tiers. Custom domain connection is supported — you own and pay for the domain, but Google Sites itself costs nothing.
 
-**What the free plan is missing:** Design flexibility. Google Sites has a fixed set of layouts and a small selection of themes. You cannot freely position elements on the page, add custom CSS, or install third-party apps. The output is clean and functional but visually constrained.
+**The tradeoff to know:** Design flexibility. Google Sites has a fixed set of layouts and a small selection of themes. You cannot freely position elements on the page, add custom CSS, or install third-party apps. The output is clean and functional but visually constrained.
 
-**Who it's best for:** Internal business tools, simple informational pages, school or club websites, anyone who wants a multi-page site at absolute zero cost and does not need strong visual differentiation.
+**Best fit:** Internal business tools, simple informational pages, school or club websites, anyone who wants a multi-page site at absolute zero cost and does not need strong visual differentiation.
 
-**Why it stands out:** It is the only builder on this list where "free" means genuinely free — no subdomain forced on you if you have a domain, no ads, no artificial bandwidth caps tied to upgrade pressure. The tradeoff is that you are working within Google's template system, and the results look like Google Sites rather than a custom design.
+**What feels different in daily use:** It is the only builder on this list where "free" means genuinely free — no subdomain forced on you if you have a domain, no ads, no artificial bandwidth caps tied to upgrade pressure. The tradeoff is that you are working within Google's template system, and the results look like Google Sites rather than a custom design.
 
 If your business already runs on Google Workspace, Google Sites is worth evaluating before anything else. Embedded Sheets, Slides, and Forms work without any configuration.
 
@@ -115,13 +117,13 @@ If your business already runs on Google Workspace, Google Sites is worth evaluat
 
 **What it is:** WordPress.com is a hosted version of WordPress managed by Automattic. It is distinct from self-hosted WordPress.org, which requires your own hosting. The free plan is a stripped-down version of the platform.
 
-**Free plan includes:** Unlimited blog posts and pages, basic themes, Jetpack traffic statistics, a `yoursitename.wordpress.com` subdomain, 1GB storage.
+**What you can publish for free:** Unlimited blog posts and pages, basic themes, Jetpack traffic statistics, a `yoursitename.wordpress.com` subdomain, 1GB storage.
 
-**What the free plan is missing:** Custom domain, removal of WordPress.com ads on your pages, custom plugins (no plugin installation on free), advanced theme customization, and premium theme access. Ecommerce requires a paid plan.
+**Where you may outgrow it:** Custom domain, removal of WordPress.com ads on your pages, custom plugins (no plugin installation on free), advanced theme customization, and premium theme access. Ecommerce requires a paid plan.
 
-**Who it's best for:** Writers, bloggers, journalists, and anyone building a content-first site where publishing schedule matters more than visual customization. If you plan to write regularly and want a built-in audience discovery mechanism, WordPress.com's free plan is functional.
+**Best fit:** Writers, bloggers, journalists, and anyone building a content-first site where publishing schedule matters more than visual customization. If you plan to write regularly and want a built-in audience discovery mechanism, WordPress.com's free plan is functional.
 
-**Why it stands out:** The WordPress editor (Block editor / Gutenberg) is powerful for content publishing. Categories, tags, scheduling, RSS, and basic SEO fields are all available without paying. The broader WordPress ecosystem means there is extensive documentation and community support even for the free plan.
+**Where it makes sense:** The WordPress editor (Block editor / Gutenberg) is powerful for content publishing. Categories, tags, scheduling, RSS, and basic SEO fields are all available without paying. The broader WordPress ecosystem means there is extensive documentation and community support even for the free plan.
 
 The main friction on the free plan is ads and the subdomain. If your site is for public professional use, the WordPress.com ads shown to visitors are a credibility problem. A paid Personal plan removes them and adds a custom domain.
 
@@ -133,13 +135,13 @@ The main friction on the free plan is ads and the subdomain. If your site is for
 
 **What it is:** Carrd is a minimal website builder optimized for single-page sites. It is popular for portfolios, personal pages, link-in-bio pages, and simple landing pages.
 
-**Free plan includes:** Up to three sites hosted at a `carrd.co` subdomain, access to most templates, the full design editor, and basic embed support. No credit card required.
+**What you can launch for free:** Up to three sites hosted at a `carrd.co` subdomain, access to most templates, the full design editor, and basic embed support. No credit card required.
 
-**What the free plan is missing:** Custom domain, form submissions (the contact form requires a paid plan for form handling), third-party integrations, and multi-page layouts. Each free site is a single scrollable page.
+**The practical limit:** Custom domain, form submissions (the contact form requires a paid plan for form handling), third-party integrations, and multi-page layouts. Each free site is a single scrollable page.
 
-**Who it's best for:** Freelancers who want a fast, attractive portfolio page. Creators who need a link-in-bio page. Side project founders who want a quick landing page while building something. Carrd's free plan is the fastest way to get a clean-looking page online without spending anything.
+**Best fit:** Freelancers who want a fast, attractive portfolio page. Creators who need a link-in-bio page. Side project founders who want a quick landing page while building something. Carrd's free plan is the fastest way to get a clean-looking page online without spending anything.
 
-**Why it stands out:** The template quality is higher than most free builders at this price point, and the editor is uncluttered. The lack of custom domain on the free plan is a real limitation, but if you need a portfolio link to share in a pitch deck or bio, a `yourname.carrd.co` URL is more respectable than a subdomain with ads.
+**What feels different in daily use:** The template quality is higher than most free builders at this price point, and the editor is uncluttered. The lack of custom domain on the free plan is a real limitation, but if you need a portfolio link to share in a pitch deck or bio, a `yourname.carrd.co` URL is more respectable than a subdomain with ads.
 
 ---
 
@@ -149,13 +151,13 @@ The main friction on the free plan is ads and the subdomain. If your site is for
 
 **What it is:** Canva Websites is a publishing feature built into Canva that lets you turn a Canva design into a live web page. It is not a traditional website builder — it is closer to a design-to-web publishing tool.
 
-**Free plan includes:** Publish any Canva design as a web page at a `canva.com/design/.../view` URL. The page is live and shareable. Free Canva account is sufficient.
+**What you can publish for free:** Publish any Canva design as a web page at a `canva.com/design/.../view` URL. The page is live and shareable. Free Canva account is sufficient.
 
-**What the free plan is missing:** A clean custom URL, meaningful SEO control, multi-page structure, navigation between pages, and JavaScript functionality. The published URL is not a proper domain. Analytics and visitor tracking are not available on the free plan.
+**The practical limit:** A clean custom URL, meaningful SEO control, multi-page structure, navigation between pages, and JavaScript functionality. The published URL is not a proper domain. Analytics and visitor tracking are not available on the free plan.
 
-**Who it's best for:** Designers, social media managers, and creators who already spend time in Canva and want to publish something quickly without creating a separate web presence. Event pages, digital lookbooks, visual resumes, or simple promotional pages work well.
+**Best fit:** Designers, social media managers, and creators who already spend time in Canva and want to publish something quickly without creating a separate web presence. Event pages, digital lookbooks, visual resumes, or simple promotional pages work well.
 
-**Why it stands out:** The zero-friction setup is genuinely useful if you already have a Canva account. Design a page in Canva using layouts you are already comfortable with, click publish, share the link. There is no separate onboarding, no new platform to learn, and no additional cost. For internal sharing or temporary use, it is the fastest path from design to URL.
+**When to skip it:** The zero-friction setup is genuinely useful if you already have a Canva account. Design a page in Canva using layouts you are already comfortable with, click publish, share the link. There is no separate onboarding, no new platform to learn, and no additional cost. For internal sharing or temporary use, it is the fastest path from design to URL.
 
 It is not suitable as a primary business website. The URL structure is not memorable, SEO value is negligible, and the design-to-web fidelity varies by template. Think of it as a quick publishing shortcut, not a long-term web presence.
 
@@ -181,7 +183,7 @@ If you need a full free business software stack to go alongside your website —
 
 ---
 
-## Our verdict
+## Final recommendation
 
 For a zero-cost site with no compromises on branding: **Google Sites** if you value clean output over visual sophistication.
 
