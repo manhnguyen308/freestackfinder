@@ -23,9 +23,11 @@ Microsoft's current US list pricing puts Microsoft 365 Personal at $99.99 per ye
 
 This guide compares free office software alternatives against the jobs most people use Microsoft Office for: writing documents, building spreadsheets, creating presentations, collaborating in real time, and opening Microsoft file formats — and explains where each free option breaks down so you don't pick the wrong one.
 
-## Quick verdict
+## The short answer
 
 **Which free Office alternative should you pick?** Use **Google Docs, Sheets, and Slides** if you collaborate or work across devices — it is the best free Office alternative for most users. Pick **LibreOffice** if you work mostly offline or need full desktop power. Pick **OnlyOffice** if you regularly exchange `.docx` or `.xlsx` files with Microsoft Office users and need format fidelity. **WPS Office** is feature-rich but ad-supported with privacy caveats — skip it for sensitive documents.
+
+The fastest way to choose is by file-compatibility need: if every document round-trips through Microsoft Office colleagues, lean OnlyOffice. If you control the final export (PDFs to clients, slides you present), LibreOffice or Google Docs are both fine. If you mostly write from scratch and share via link, Google Docs wins on friction. If you need a desktop tool but never touch Microsoft files, LibreOffice is the obvious choice.
 
 {{< comparison-table >}}
 columns:
@@ -54,7 +56,7 @@ rows:
 
 ## The best free Microsoft Office alternatives
 
-### 1. Google Docs / Sheets / Slides — best for most people
+### 1. Best for collaboration: Google Docs, Sheets, and Slides
 
 {{< verdict "Best overall" >}}
 
@@ -86,7 +88,7 @@ For team messaging alongside Google Workspace, see our [free Slack alternatives 
 
 ---
 
-### 2. LibreOffice — best free desktop Office replacement
+### 2. Best offline suite: LibreOffice
 
 {{< verdict "Best for offline use" >}}
 
@@ -114,7 +116,7 @@ LibreOffice is a full-featured, open-source desktop office suite with Writer (Wo
 
 ---
 
-### 3. OnlyOffice (free desktop edition) — best .docx compatibility
+### 3. Best for Microsoft file fidelity: OnlyOffice
 
 {{< verdict "Best .docx compatibility" >}}
 
@@ -137,7 +139,7 @@ OnlyOffice is worth knowing about specifically if .docx compatibility is your to
 
 ---
 
-### 4. WPS Office (free tier) — a capable but ad-supported option
+### 4. Capable but compromised: WPS Office
 
 WPS Office is a popular Microsoft Office-compatible suite with a very polished interface. The free version is usable but shows ads.
 
@@ -177,7 +179,7 @@ You should keep Microsoft 365 if you:
 - Rely on Outlook's calendar and email management at an enterprise level
 - Require Word's advanced citation and bibliography tools for academic work
 
-## Our recommendation by user type
+## So what should you actually use?
 
 - **Students and home users:** Start with Google Docs. It handles everything most students need and collaboration is seamless.
 - **Freelancers:** Google Docs for everyday work, LibreOffice when a client needs a perfectly formatted Word file.

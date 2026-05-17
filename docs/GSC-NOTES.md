@@ -40,6 +40,15 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Internal links: existing hub, related-guide, and contextual links already cover the priority pages; no mass backlinking added.
 - Follow-up: monitor the same pages after the next GSC data window; consider another small title/meta pass only if impressions rise and CTR remains below 1%.
 
+## 2026-05-17 — structural variation pass on top 5 GSC pages
+
+- Pages updated: `/productivity/microsoft-office-alternatives/`, `/cloud/dropbox-alternatives/`, `/creative/canva-alternatives/`, `/creative/photoshop-alternatives/`, `/productivity/slack-alternatives/`.
+- Reason: same-skeleton risk for the AdSense re-review — every article opened with `## Quick verdict`, closed with `## Our verdict`, and repeated the same `Free plan includes:` / `What the free plan is missing:` / `Who it's best for:` / `Why it stands out:` labels per tool. The top GSC pages are the most likely sampled by a reviewer, so they were varied first.
+- Changes: heading text replaced per page (e.g., "Quick verdict" → "The short answer" / "Where to start" / "Start here" / "What we recommend" / "The bottom line"; "Our verdict" → "So what should you actually use?" / "The takeaway" / "Final recommendation" / "Final thoughts" / "Putting it together"). Tool sections rewritten into prose or varied labels per page; comparison-anchor framing ("Unlike Dropbox…", "Compared with Slack…") used on Dropbox and Slack; descriptive H3s used on Office; Canva gained a new "What to look for in a free Canva alternative" section; word counts held steady or increased on every page.
+- Front-matter rule: no `date`, `lastmod`, `weight`, `image`, `slug`, `alias`, `title`, `description`, `categories`, or `tags` changes on any of the five pages — this was a structural variation pass, not a CTR refresh.
+- Repeated-heading counts across all 50 articles: Quick verdict 50 → 45 · Our verdict 42 → 39 · Why it stands out 44 → 40 · Who it's best for 41 → 37 · Free plan includes 40 → 37 · What the free plan is missing 34 → 31.
+- Follow-up: Step 2 should apply the same pass to Grammarly and Illustrator alternatives (deferred from this batch), then progressively to the remaining cluster pages.
+
 ## 2026-05-16 CTR pass — Canva, Photoshop, Slack
 
 - Pages updated: `/creative/canva-alternatives/`, `/creative/photoshop-alternatives/`, `/productivity/slack-alternatives/`.

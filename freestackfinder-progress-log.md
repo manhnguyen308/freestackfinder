@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-16
-**Current day:** 67
+**Last updated:** 2026-05-17
+**Current day:** 68
 
 ## Current state
 
@@ -14,6 +14,37 @@
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-17 — Step 1 structural variation on top 5 GSC articles
+
+- Scope: reduce repeated article-template patterns across the top 5 highest-impression GSC pages ahead of the next AdSense re-review. No new article, no URL/slug/alias change, no front-matter date/lastmod/weight/image change, no affiliate-link change, no CTA additions, no ad slot changes.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `docs/BUILD-VALIDATION.md`, `docs/GSC-NOTES.md`, this progress log, and the five edited articles.
+- Files changed: `content/productivity/microsoft-office-alternatives.md`, `content/cloud/dropbox-alternatives.md`, `content/creative/canva-alternatives.md`, `content/creative/photoshop-alternatives.md`, `content/productivity/slack-alternatives.md`, `docs/GSC-NOTES.md`, and this progress log.
+- Per-page changes:
+  - Office: `## Quick verdict` → `## The short answer`; `## Our recommendation by user type` → `## So what should you actually use?`; tool H3s converted to descriptive form ("Best for collaboration: Google Docs…", "Best offline suite: LibreOffice", "Best for Microsoft file fidelity: OnlyOffice", "Capable but compromised: WPS Office"); added short file-compatibility decision paragraph under the new opener.
+  - Dropbox: `## Quick verdict` → `## Where to start`; `## Our verdict` → `## The takeaway`; added storage-vs-sync-vs-backup framing under the opener; rewrote Google Drive, OneDrive, Proton Drive, and Box sections into "Compared with Dropbox…" / "Unlike Dropbox…" prose; removed repeated "Free plan includes" / "What the free plan is missing" / "Who it's best for" / "Why it stands out" labels on tools 2–5; expanded "When paid cloud storage is worth it" with one short framing paragraph.
+  - Canva: `## Quick verdict` → `## Start here` with a use-case decision sentence; `## Our verdict` → `## Final recommendation`; converted all five tool sections to prose review blocks; removed repeated "Free plan includes" / "What the free plan is missing" / "Who it's best for" / "Why it stands out" labels across tools; added new `## What to look for in a free Canva alternative` section between the "Why people move away" block and the tool reviews.
+  - Photoshop: `## Quick verdict` → `## What we recommend`; `## Our final recommendation` → `## Final thoughts`; replaced repeated labels in the Krita and Pixlr sections with varied per-tool labels ("Inside the free desktop app:", "Where it shows its specialization:", "The natural audience:", "Where it diverges from Photoshop:" / "Inside the free browser editor:", "Where you bump into the paywall:", "The natural audience:", "Why it earns a spot:").
+  - Slack: `## Quick verdict` → `## The bottom line` opening with the 90-day-history pain point; `## Our verdict` → `## Putting it together`; rewrote Discord, Teams, Google Chat, Mattermost, and Rocket.Chat tool sections into "Unlike Slack…" / "Compared with Slack…" prose; removed repeated "Free plan includes" / "What the free plan is missing" / "Who it's best for" / "Why it stands out" labels across the tool list; added a short framing paragraph before the existing "Why teams look for a free alternative to Slack" section.
+- Repeated-heading counts (full `content/` tree, before → after):
+  - `## Quick verdict`: 50 → 45
+  - `## Our verdict`: 42 → 39
+  - `Why it stands out:`: 44 → 40
+  - `Who it's best for:`: 41 → 37
+  - `Free plan includes:`: 40 → 37
+  - `What the free plan is missing:`: 34 → 31
+- Word counts (per article, before → after):
+  - Office: 2,016 → 2,074 (+58)
+  - Dropbox: 2,502 → 2,538 (+36)
+  - Canva: 1,718 → 1,837 (+119)
+  - Photoshop: 2,089 → 2,095 (+6)
+  - Slack: 2,453 → 2,508 (+55)
+  - Combined: 10,778 → 11,052 (+274)
+- Preservation: all `title`, `description`, `date`, `lastmod`, `weight`, `slug`, `categories`, `tags`, `image`, and `author` fields left unchanged on all five articles. All internal links, the NordVPN CTA on the Dropbox article, and all comparison-table / verdict shortcodes preserved as-is.
+- AdSense safety: no new ad slots, no ad enablement, no AdSense slot ID replacement, no new affiliate links, no Canva CTAs, no Grammarly CTAs, no invented testing or benchmark claims, no screenshots added, no raw URLs added to article bodies, no internal-workflow language added to public copy.
+- Validation result: `git diff --check` clean; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, and the three known image orphans only; `python3 scripts/publish_checklist.py` (no-arg) printed cleanly; Hugo Extended 0.161.1 build succeeded with 483 pages, 0 errors (existing pre-Hugo-0.158 `languageCode` deprecation warnings unchanged); all five edited pages remain `index, follow` with unchanged canonical URLs.
+- Guardrails confirmed: 50 articles unchanged · no new article · no URL/slug/alias/redirect/sitemap/robots/Cloudflare change · no ad enablement · no affiliate CTA additions · Grammarly remains Declined · Canva remains Under review.
+- Next step: Step 2 should apply the same template-variation pass to Grammarly and Illustrator alternatives (the two pages in the GSC top-impression set that were deferred from this batch), then extend to the rest of the cluster pages whose template count is still high.
 
 ### 2026-05-16 — GSC CTR pass on Canva, Photoshop, and Slack
 

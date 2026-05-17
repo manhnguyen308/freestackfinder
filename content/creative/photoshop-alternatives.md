@@ -18,7 +18,7 @@ The good news is that free alternatives are much better than older roundup posts
 
 That difference matters. A lot of weak comparison pages treat every design app as if it were a Photoshop replacement. It is more useful to separate the tools by workflow and be honest about what each one does well.
 
-## Quick verdict
+## What we recommend
 
 For most people who just need Photoshop-like editing without paying, **Photopea** is the best starting point. It opens PSD files, runs in a browser, and feels immediately familiar if you have used Adobe before. If you want a real desktop application and do not mind a steeper learning curve, **GIMP** is still the strongest free desktop choice. If your work is more painting and illustration than photo retouching, **Krita** is the better fit. **Pixlr** is the easiest lightweight browser option when you want something faster and simpler than GIMP, but it is not as deep as Photopea.
 
@@ -136,21 +136,21 @@ The tools below map cleanly to those paths.
 
 **What it is:** A free desktop app built primarily for artists, illustrators, and painters rather than photo retouchers.
 
-**What the free version includes:**
+**Inside the free desktop app:**
 - Excellent brush engine
 - Layer-based workflow
 - PSD import and export
 - Animation tools
 - Strong tablet support
 
-**What is limited:**
+**Where it shows its specialization:**
 - It is not built around photography-first workflows
 - Retouching and product-image work are less natural here than in Photopea or GIMP
 - Beginners who only want basic photo edits may find it too specialized
 
-**Who it's best for:** Illustrators, comic artists, concept artists, and anyone who uses Photoshop more for drawing than for photography.
+**The natural audience:** illustrators, comic artists, concept artists, and anyone who uses Photoshop more for drawing than for photography.
 
-**Why it stands out:** Krita is the best example of why "Photoshop alternative" is too broad a phrase. If you are painting, sketching, or building artwork from scratch, Krita is often a better tool than Photoshop rather than a lesser clone of it.
+**Where it diverges from Photoshop:** Krita is the best example of why "Photoshop alternative" is too broad a phrase. If you are painting, sketching, or building artwork from scratch, Krita is often a better tool than Photoshop rather than a lesser clone of it.
 
 [Download Krita free ->](https://krita.org)
 
@@ -160,19 +160,19 @@ The tools below map cleanly to those paths.
 
 **What it is:** A browser-based editing suite that sits between casual design tools and deeper editors like Photopea.
 
-**What the free version includes:**
+**Inside the free browser editor:**
 - Browser-based editing with no installation
 - Quick fixes, filters, overlays, templates, and design tools
 - Enough controls for basic photo cleanup and simple graphics
 
-**What is limited:**
+**Where you bump into the paywall:**
 - Ads and upgrade prompts are part of the free experience
 - Some AI-heavy features and convenience features are gated behind paid tiers
 - It is not the strongest tool for serious PSD-heavy work
 
-**Who it's best for:** People who need to resize, clean up, annotate, or lightly retouch images and do not want the heavier feel of GIMP.
+**The natural audience:** people who need to resize, clean up, annotate, or lightly retouch images and do not want the heavier feel of GIMP.
 
-**Why it stands out:** Pixlr is easier to recommend than many older "lightweight Photoshop alternatives" because it is honest about what it is: a fast web editor for practical day-to-day work, not a full creative suite for advanced production.
+**Why it earns a spot:** Pixlr is easier to recommend than many older "lightweight Photoshop alternatives" because it is honest about what it is — a fast web editor for practical day-to-day work, not a full creative suite for advanced production.
 
 [Try Pixlr free ->](https://pixlr.com/)
 
@@ -209,7 +209,7 @@ If that is not your situation, the free tools above are usually enough.
 
 ---
 
-## Our final recommendation
+## Final thoughts
 
 Start with **Photopea** if you want the lowest-friction replacement for everyday Photoshop tasks. Move to **GIMP** if you want a fuller desktop setup. Pick **Krita** if your work is more about drawing than retouching. Use **Pixlr** when you need something lighter and faster than a full editor.
 
