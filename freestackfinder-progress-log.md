@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-05-17
-**Current day:** 68
+**Current day:** 68b
 
 ## Current state
 
@@ -14,6 +14,47 @@
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-17 — Step 2a structural variation on next 10 articles
+
+- Scope: continue reducing repeated article-template patterns ahead of the next AdSense re-review by applying the same kind of structural variation to ten more articles beyond the Step 1 top 5. No new article, no URL/slug/alias change, no front-matter date/lastmod/weight/image change, no affiliate-link change, no CTA additions, no ad slot changes.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `docs/BUILD-VALIDATION.md`, `docs/GSC-NOTES.md`, this progress log, and the ten edited articles.
+- Files changed: `content/productivity/grammarly-alternatives.md`, `content/creative/illustrator-alternatives.md`, `content/productivity/notion-alternatives.md`, `content/productivity/free-chatgpt-alternatives.md`, `content/productivity/free-pdf-editor-alternatives.md`, `content/creative/figma-alternatives.md`, `content/productivity/free-ai-writing-tools.md`, `content/video/free-video-editing-software.md`, `content/cloud/free-cloud-storage-comparison.md`, `content/business/free-crm-software.md`, `docs/GSC-NOTES.md`, and this progress log.
+- Per-page changes (each article uses a different label set so the global text counts of repeated labels drop):
+  - Grammarly: `## Quick verdict` → `## The short answer`; `## Our verdict` → `## Which writing tool should you choose?`; labels swapped to "What you can do for free:" / "Where the paywall sits:" / "Best fit:" / "Where it helps most:"; no Grammarly CTA added (Grammarly remains Declined).
+  - Illustrator: `## Quick verdict` → `## What we recommend`; `## Our verdict` → `## Final thoughts`; descriptive H3s on tools 1 and 2 ("Best for open-source vector work: Inkscape", "Best for browser-based vectors: Vectr"); labels swapped to "Inside the free version:" / "A natural fit for:" / "What feels different in daily use:".
+  - Notion: `## Quick verdict` → `## Start here`; `## Our verdict` → `## Putting it together`; labels swapped to "What you get for free:" / "Where the free tier ends:" / "Strong fit for:" / "What sets it apart:".
+  - ChatGPT: `## Quick verdict` → `## Where to start`; `## Our verdict` → `## The takeaway`; labels swapped to "What the free tier covers:" / "Where it caps you:" / "Where it fits:" / "What makes it different:"; added a short decision-framing paragraph at the top covering writing, coding, web search, file uploads, privacy, and ecosystem fit.
+  - PDF Editor: `## Quick verdict` → `## The bottom line`; `## Our verdict` → `## So what should you use?`; labels swapped to "What the free tier handles:" / "Where the free tier stops:" / "The natural audience:" / "Why it makes the list:".
+  - Figma: `## Quick verdict` → `## The short answer`; `## Our verdict` → `## Final recommendation`; labels swapped to "The free experience:" / "The tradeoff to know:" / "Natural fit:" / "What feels different:"; added a short decision-framing paragraph at the top mapping tools to collaborative design, solo desktop, code-output, prototyping with usability testing, and portfolio work.
+  - AI Writing: `## Quick verdict` → `## What we recommend`; `## Our verdict` → `## The takeaway`; labels swapped to "What's free:" / "Where the cap kicks in:" / "Strongest at:" / "Why it earns a spot:"; added a short writing-task-fit framing paragraph at the top.
+  - Video: `## Quick verdict` → `## Start here`; `## Our verdict` → `## Final thoughts`; labels swapped to "Strongest for:" / "Why it makes the list:" (this article had no Free plan includes / What the free plan is missing labels — it already used varied per-tool labels); added a short pick-by-workflow framing paragraph at the top.
+  - Cloud Storage Comparison: `## Quick verdict` → `## Where to start`; `## Our verdict` → `## The takeaway`; labels swapped to "On the free plan:" / "Most useful for:" / "What sets it apart:".
+  - CRM: `## Quick verdict` → `## The bottom line`; `## Our verdict` → `## Which CRM makes the most sense?`; labels swapped to "Inside the free CRM:" / "What's gated behind paid:" / "Strong fit for:" / "Why it earns a spot:".
+- Repeated-heading counts (full `content/` tree, before → after across Step 2a only):
+  - `## Quick verdict`: 45 → 35
+  - `## Our verdict`: 39 → 29
+  - `Why it stands out:`: 40 → 30
+  - `Who it's best for:`: 37 → 27
+  - `Free plan includes:`: 37 → 28
+  - `What the free plan is missing:`: 31 → 24
+- Word counts (per article, before → after):
+  - Grammarly: 2,332 → 2,334 (+2)
+  - Illustrator: 2,338 → 2,343 (+5)
+  - Notion: 2,175 → 2,176 (+1)
+  - ChatGPT: 2,130 → 2,192 (+62)
+  - PDF Editor: 1,945 → 1,954 (+9)
+  - Figma: 1,921 → 1,959 (+38)
+  - AI Writing: 2,163 → 2,200 (+37)
+  - Video: 2,025 → 2,067 (+42)
+  - Cloud Storage: 1,887 → 1,888 (+1)
+  - CRM: 1,848 → 1,848 (flat)
+  - Combined Step 2a: 20,764 → 20,961 (+197)
+- Preservation: all `title`, `description`, `date`, `lastmod`, `weight`, `slug`, `categories`, `tags`, `image`, and `author` fields left unchanged on all ten articles. All internal links, all affiliate links (including the NordVPN CTA already on Dropbox from Step 1, untouched here), and all comparison-table / verdict shortcodes preserved.
+- AdSense safety: no new ad slots, no ad enablement, no AdSense slot ID replacement, no new affiliate links, no Canva CTAs, no Grammarly CTAs, no invented testing or benchmark claims, no screenshots added, no raw URLs added to article bodies, no internal-workflow language added to public copy.
+- Validation result: `git diff --check` clean; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, and the three known image orphans only; `python3 scripts/publish_checklist.py` (no-arg) printed cleanly; Hugo Extended 0.161.1 build succeeded with 483 pages, 0 errors (only the pre-existing `languageCode` deprecation warning).
+- Guardrails confirmed: 50 articles unchanged · no new article · no URL/slug/alias/redirect/sitemap/robots/Cloudflare change · no ad enablement · no affiliate CTA additions · Grammarly remains Declined · Canva remains Under review.
+- Next step: Step 2b should continue with another batch of ~10 articles across the remaining high-template pages (Business, Security, Cloud email, Video sub-cluster) until repeated-label counts drop below half of their original baseline.
 
 ### 2026-05-17 — Step 1 structural variation on top 5 GSC articles
 

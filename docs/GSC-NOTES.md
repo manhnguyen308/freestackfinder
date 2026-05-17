@@ -40,6 +40,15 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Internal links: existing hub, related-guide, and contextual links already cover the priority pages; no mass backlinking added.
 - Follow-up: monitor the same pages after the next GSC data window; consider another small title/meta pass only if impressions rise and CTR remains below 1%.
 
+## 2026-05-17 — Step 2a structural variation pass (next 10 articles)
+
+- Pages updated: `/productivity/grammarly-alternatives/`, `/creative/illustrator-alternatives/`, `/productivity/notion-alternatives/`, `/productivity/free-chatgpt-alternatives/`, `/productivity/free-pdf-editor-alternatives/`, `/creative/figma-alternatives/`, `/productivity/free-ai-writing-tools/`, `/video/free-video-editing-software/`, `/cloud/free-cloud-storage-comparison/`, `/business/free-crm-software/`.
+- Reason: continued AdSense-readiness work. After Step 1 the global label counts were still high (Quick verdict 45, Our verdict 39, Free plan includes 37, What the free plan is missing 31, Who it's best for 37, Why it stands out 40). The ten articles above are the next biggest contributors and include several with GSC impressions (Grammarly, Illustrator, CRM, Cloud Storage).
+- Changes: H2 swaps per page using a different combination per article ("The short answer" / "Where to start" / "Start here" / "What we recommend" / "The bottom line" for the opener; "Which writing tool should you choose?" / "Final thoughts" / "Putting it together" / "The takeaway" / "So what should you use?" / "Final recommendation" / "Which CRM makes the most sense?" for the closer). Per-tool labels swapped to article-specific varied label sets so the global text counts of `Free plan includes:`, `What the free plan is missing:`, `Who it's best for:`, and `Why it stands out:` all drop. Short decision-framing paragraphs added to ChatGPT, Figma, AI Writing, and Video to keep word counts flat or up.
+- Front-matter rule: no `date`, `lastmod`, `weight`, `image`, `slug`, `alias`, `title`, `description`, `categories`, or `tags` changes on any of the ten pages.
+- Repeated-heading counts across all 50 articles (post-Step-1 → post-Step-2a): Quick verdict 45 → 35 · Our verdict 39 → 29 · Why it stands out 40 → 30 · Who it's best for 37 → 27 · Free plan includes 37 → 28 · What the free plan is missing 31 → 24.
+- Follow-up: Step 2b should apply the same pass to another ~10 articles across the remaining cluster pages.
+
 ## 2026-05-17 — structural variation pass on top 5 GSC pages
 
 - Pages updated: `/productivity/microsoft-office-alternatives/`, `/cloud/dropbox-alternatives/`, `/creative/canva-alternatives/`, `/creative/photoshop-alternatives/`, `/productivity/slack-alternatives/`.
