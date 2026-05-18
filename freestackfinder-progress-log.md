@@ -1,19 +1,34 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-17
-**Current day:** 68e
+**Last updated:** 2026-05-18
+**Current day:** 69a
 
 ## Current state
 
 - Total articles: 50 — 50-article milestone reached
 - Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 8/8 ✓ · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
-- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold now met for re-review prep
+- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold now met, and the 14-day re-review waiting window should restart or extend from the latest sitemap/indexing deployment
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-18 — Sitemap indexing cleanup completed
+
+- Scope: clean generated `sitemap.xml` so noindexed taxonomy and tag URLs are no longer submitted, without publishing a new article, rewriting article content, changing URLs/slugs/aliases/redirects, changing robots meta behavior, changing Cloudflare config, changing affiliate links, changing image references, changing dates/lastmod/weight fields, adding ad slots, or adding affiliate CTAs.
+- Issue confirmed: Hugo's default sitemap generation was including `/tags/`, `/tags/<term>/`, `/categories/`, and `/categories/<term>/` URLs even though taxonomy and term pages render `noindex, follow`, creating a mixed sitemap-versus-robots signal. `/search/` was already excluded through `noindex: true` and `sitemap.disable: true`.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/BUILD-VALIDATION.md`, `config.toml`, `layouts/partials/head.html`, existing `layouts/` templates, `content/search.md`, `docs/GSC-NOTES.md`, generated `public/sitemap.xml`, generated taxonomy/article pages, and generated `public/robots.txt`.
+- Files changed: `layouts/sitemap.xml`, `docs/GSC-NOTES.md`, and this progress log.
+- Sitemap change: added a custom Hugo sitemap template that includes normal indexable site pages while excluding drafts, pages with `noindex: true`, pages with `sitemap.disable: true`, taxonomy list pages, and taxonomy term pages.
+- URLs removed from sitemap: `/tags/`, `/tags/<term>/`, `/categories/`, and `/categories/<term>/`; `/search/` remains excluded.
+- URLs preserved in sitemap: homepage, `/start-here/`, section hub pages, all published article pages, `/about/`, `/contact/`, `/privacy-policy/`, `/terms/`, and `/disclaimer/`.
+- Robots/indexing check: taxonomy/tag sample pages still render `noindex, follow`; representative article pages still render `index, follow`; `robots.txt` still includes `Sitemap: https://freestackfinder.com/sitemap.xml`.
+- Article count: unchanged at 50; no new article created.
+- Validation result: `git diff --check` clean; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, known description warnings, and 3 known image orphans only; `python3 scripts/publish_checklist.py` (no args) printed cleanly; Hugo Extended 0.160.1 build via `/tmp/hugo-0.160.1/hugo --minify` succeeded with 483 pages, 21 paginator pages, 210 aliases, and 0 errors; generated sitemap now has 63 indexable URLs and no `/tags/`, `/categories/`, or `/search/` entries.
+- AdSense re-review note: restart or extend the 14-day waiting window from this deployment if this remains the latest structural indexing change.
+- Guardrails confirmed: no article content, URL, slug, alias, redirect, robots meta, Cloudflare config, affiliate link, image reference, date, lastmod, or weight changes; no ad slots or affiliate CTAs added; no public-facing workflow language added to site content.
 
 ### 2026-05-17 — Final article-authenticity polish completed
 

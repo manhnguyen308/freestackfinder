@@ -32,6 +32,12 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 | `/business/quickbooks-alternatives/` | QuickBooks alternatives | 141 | 0 | 0% | — | Meaningful impressions, no clicks | Refreshed title and description around freelancer accounting intent | Medium |
 | `/business/free-project-management-software/` | Free project management software | 94 | 0 | 0% | — | Below 100 impressions but in priority set | Tightened description only; existing hub and related links are sufficient | Low |
 
+## 2026-05-18 sitemap indexing cleanup
+
+- Issue: noindexed taxonomy URLs were present in generated `sitemap.xml`, including `/tags/`, tag term pages, `/categories/`, and category term pages.
+- Change: added a custom Hugo sitemap template that keeps indexable content pages, articles, trust pages, Start Here, homepage, and section hubs in the sitemap while excluding taxonomy/term pages and any explicit noindex or sitemap-disabled page.
+- GSC note: submit or refresh the sitemap after the next deployment, then let Google recrawl before judging any indexing-status movement.
+
 ## 2026-04-28 review notes
 
 - Overall snapshot: 13 clicks, 4.64K impressions, 0.3% CTR, average position 51.7 over the last 3 months.
