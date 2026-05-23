@@ -81,15 +81,6 @@
       {{ .Content }}
     </div>
 
-    <!-- Tags -->
-    {{ with .Params.tags }}
-    <div class="article-tags" aria-label="Article tags">
-      {{ range . }}
-      <a href="/tags/{{ . | urlize }}/" class="tag">{{ . }}</a>
-      {{ end }}
-    </div>
-    {{ end }}
-
     <!-- Author box -->
     <div class="author-box" itemscope itemtype="https://schema.org/Person">
       <div class="author-avatar" aria-hidden="true">SFF</div>

@@ -46,9 +46,9 @@ summarylength = 40
     ordered = false
 
 [outputs]
-  home = ["HTML", "RSS", "JSON"]
+  home = ["HTML", "JSON"]
   page = ["HTML"]
-  section = ["HTML", "RSS"]
+  section = ["HTML"]
 
 [menu]
   [[menu.main]]

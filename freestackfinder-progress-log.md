@@ -1,19 +1,36 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-18
-**Current day:** 69a
+**Last updated:** 2026-05-23
+**Current day:** 74a
 
 ## Current state
 
 - Total articles: 50 — 50-article milestone reached
 - Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 8/8 ✓ · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
-- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold now met, and the 14-day re-review waiting window should restart or extend from the latest sitemap/indexing deployment
+- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold now met, final crawl-signal cleanup completed, and the 14-day re-review waiting window should start from this deployment
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 
 ---
+
+### 2026-05-23 — Final pre-freeze AdSense/GSC cleanup completed
+
+- Scope: final controlled AdSense/GSC cleanup before the 14-day wait; no new article, no broad content rewrite, no sitewide article-structure pass, no ad slots, no ad enablement, no affiliate links or CTA placements, no URL/slug/alias/redirect/Cloudflare/image/date/lastmod/weight changes, and no trust-page edits.
+- Issue summary: tag pages were discoverable from article tag links; RSS `/index.xml` created crawl noise; `/business/free-resume-builders/` was a Crawled - currently not indexed example and still carried the older full template structure; `free-social-media-scheduling` and `free-visio-alternatives` also still carried the older Business template structure.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/GSC-NOTES.md`, `docs/BUILD-VALIDATION.md`, `config.toml`, `layouts/partials/head.html`, `layouts/_default/single.html`, `layouts/sitemap.xml`, `layouts/robots.txt`, the three target Business articles, generated `public/sitemap.xml`, generated representative article pages, generated taxonomy/search pages, and generated `public/robots.txt`.
+- Files changed: `config.toml`, `layouts/partials/head.html`, `layouts/_default/single.html`, `content/business/free-resume-builders.md`, `content/business/free-social-media-scheduling.md`, `content/business/free-visio-alternatives.md`, `docs/GSC-NOTES.md`, and this progress log.
+- Crawl-signal changes: removed RSS from home and section outputs while preserving JSON search output; removed the RSS alternate link from `head.html`; removed the visible linked article tag block from article pages while preserving article front matter tags and article tag meta; left taxonomy/search robots meta logic unchanged.
+- Sitemap/RSS/tag-link validation: clean Hugo build generated `public/index.json` and did not generate `public/index.xml`; generated article pages no longer contain `href="/tags/`; generated HTML no longer contains RSS alternate links; generated `public/sitemap.xml` contains no `/tags/`, `/categories/`, `/search/`, or `/index.xml` entries and still includes homepage, `/start-here/`, `/about/`, `/contact/`, `/privacy-policy/`, `/terms/`, `/disclaimer/`, section hubs, and representative article URLs including the three edited Business pages.
+- Article template cleanup: `free-resume-builders` now opens with `## The short answer` and closes with `## The takeaway`, with the first recommendation section reframed around ATS readability, clean PDF export, design-heavy templates versus readable templates, students, career switchers, freelancers, quick resume refreshes, and privacy/account signup tradeoffs. `free-social-media-scheduling` now opens with `## The bottom line` and closes with `## Putting it together`, with per-tool copy reframed around post limits, supported networks, analytics, visual planning, client approvals, and solo creator versus small business use. `free-visio-alternatives` now opens with `## What we recommend` and closes with `## Which diagramming tool should you use?`, with tool sections reframed around flowcharts, org charts, network diagrams, export formats, collaboration, Microsoft compatibility, and simple versus technical diagrams.
+- Repeated-heading counts across `content/` (before → after): `## Quick verdict` 9 → 6; `Why it stands out:` 4 → 1; `Free plan includes:` 3 → 1; `## Our verdict` 3 → 0; `Who it's best for:` 3 → 0; `What the free plan is missing:` 3 → 0.
+- Word counts for the three edited articles (before → after): Free Resume Builders 3,086 → 3,221 (+135); Free Social Media Scheduling 2,208 → 2,258 (+50); Free Visio Alternatives 1,937 → 1,981 (+44). Combined: 7,231 → 7,460 (+229).
+- Robots/indexing check: search, tag, and category generated pages still render `noindex, follow`; the three edited articles render `index, follow`; `robots.txt` still includes `Sitemap: https://freestackfinder.com/sitemap.xml`.
+- Preservation: article count unchanged at 50; no new article created; no article URL, slug, alias, title, description, date, lastmod, weight, category, tag, image, internal link, external tool link, `/go/` link, or affiliate link was changed.
+- Affiliate/ad safety: no new affiliate links, no new ad slots, no CTA placements, no ad enablement, no fake testing claims, no screenshots, no benchmarks, and no raw HTML artifacts added.
+- Validation result: `git diff --check` clean; final repeated-heading counts recorded above; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, 3 known description warnings, and 3 known image orphans only; `python3 scripts/publish_checklist.py` (no args) printed cleanly; Hugo Extended 0.160.1 build via `/tmp/hugo-0.160.1/hugo --minify --cleanDestinationDir` succeeded with 476 pages, 21 paginator pages, 210 aliases, and 0 errors.
+- Freeze recommendation: start the 14-day wait from this deployment; make no more content, template, or SEO changes unless a clear blocker appears.
 
 ### 2026-05-18 — Sitemap indexing cleanup completed
 

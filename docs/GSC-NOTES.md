@@ -38,6 +38,13 @@ Track pages worth acting on. Only record pages with meaningful impression counts
 - Change: added a custom Hugo sitemap template that keeps indexable content pages, articles, trust pages, Start Here, homepage, and section hubs in the sitemap while excluding taxonomy/term pages and any explicit noindex or sitemap-disabled page.
 - GSC note: submit or refresh the sitemap after the next deployment, then let Google recrawl before judging any indexing-status movement.
 
+## 2026-05-23 Crawled - currently not indexed cleanup
+
+- Issue: GSC examples included `/tags/best-free-calendar-2026/`, `/business/free-resume-builders/`, and `/index.xml`. Tag pages were noindex but still discoverable from article tag links; RSS `/index.xml` was exposed by Hugo output settings and the RSS alternate link; the resume page and two additional Business pages still carried the older full template structure.
+- Change: removed visible article tag links while preserving tag front matter and article tag meta; removed RSS output and the RSS alternate link while preserving the JSON search index; confirmed the generated sitemap excludes `/tags/`, `/categories/`, `/search/`, and `/index.xml`; structurally varied `free-resume-builders`, `free-social-media-scheduling`, and `free-visio-alternatives`.
+- Validation: clean build generated no `public/index.xml`, kept `public/index.json`, kept taxonomy/search pages as `noindex, follow`, kept edited articles as `index, follow`, and left article count unchanged at 50.
+- Follow-up: start the 14-day wait from this deployment and avoid further content/template/SEO changes unless a clear blocker appears.
+
 ## 2026-04-28 review notes
 
 - Overall snapshot: 13 clicks, 4.64K impressions, 0.3% CTR, average position 51.7 over the last 3 months.
