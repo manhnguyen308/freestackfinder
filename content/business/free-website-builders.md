@@ -4,6 +4,7 @@ description: "Compare the best free website builders for small businesses, freel
 date: "2026-04-27"
 lastmod: "2026-04-27"
 draft: false
+weight: 45
 slug: "free-website-builders"
 categories: ["Business"]
 tags: ["free website builder", "wix free plan", "google sites", "wordpress free", "carrd free", "website builder 2026"]

@@ -4,6 +4,7 @@ description: "Compare free cloud storage providers by space, shared quotas, uplo
 date: "2026-03-16"
 lastmod: "2026-04-30"
 draft: false
+weight: 75
 slug: "free-cloud-storage-comparison"
 categories: ["Cloud"]
 tags: ["free cloud storage", "google drive alternative", "mega cloud"]

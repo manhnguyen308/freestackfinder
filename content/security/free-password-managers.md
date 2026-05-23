@@ -4,6 +4,7 @@ description: "Compare free password managers after LastPass changed its free tie
 date: "2026-03-27"
 lastmod: "2026-04-30"
 draft: false
+weight: 80
 slug: "free-password-managers"
 categories: ["Security"]
 tags: ["free password manager", "bitwarden review", "lastpass alternative"]

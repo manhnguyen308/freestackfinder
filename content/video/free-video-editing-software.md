@@ -4,6 +4,7 @@ description: "Compare the best free video editors for real tradeoffs: format lim
 date: "2026-03-17"
 lastmod: "2026-05-11"
 draft: false
+weight: 65
 slug: "free-video-editing-software"
 categories: ["Video"]
 tags: ["free video editor", "davinci resolve free", "best free video editing software"]

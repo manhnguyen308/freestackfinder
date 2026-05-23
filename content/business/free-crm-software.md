@@ -4,6 +4,7 @@ description: "Compare the best free CRM software for solopreneurs and small team
 date: "2026-04-02"
 lastmod: "2026-04-25"
 draft: false
+weight: 37
 slug: "free-crm-software"
 categories: ["Business"]
 tags: ["free crm", "hubspot free crm", "zoho crm free", "best free crm 2026", "small business tools"]

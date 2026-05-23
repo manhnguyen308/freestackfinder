@@ -4,6 +4,7 @@ description: "Many free VPNs rely on ads, data collection, or tight limits. Prot
 date: "2026-04-04"
 lastmod: "2026-04-25"
 draft: false
+weight: 36
 slug: "free-vpn"
 categories: ["Security"]
 tags: ["free vpn", "protonvpn free", "best free vpn 2026", "free vpn no logs"]

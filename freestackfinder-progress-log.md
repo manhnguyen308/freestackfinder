@@ -15,6 +15,31 @@
 
 ---
 
+### 2026-05-23 — Homepage weight metadata housekeeping
+
+- Scope: added `weight:` front matter to 7 articles that were missing the field so the homepage "Featured comparisons" section sorts the full catalog instead of skipping unweighted pages. No body, title, description, date, lastmod, slug, alias, image, layout, config, sitemap, or trust-page changes.
+- Weights added (after the `draft:` line, YAML format):
+  - cloud/free-cloud-storage-comparison.md → 75
+  - security/free-password-managers.md → 80
+  - security/free-vpn.md → 36
+  - business/free-crm-software.md → 37
+  - business/free-website-builders.md → 45
+  - video/zoom-alternatives.md → 58
+  - video/free-video-editing-software.md → 65
+- Resulting homepage top 6 (by weight descending):
+  1. slack-alternatives (92)
+  2. microsoft-office-alternatives (90)
+  3. canva-alternatives (85)
+  4. free-password-managers (80) — newly weighted
+  5. free-ai-writing-tools (78)
+  6. free-spreadsheet-alternatives (78)
+- Note: free-cloud-storage-comparison (75) lands at position 7; existing 76/78-weighted pages outrank it. Original task expected slack=95 and free-cloud-storage in slot 6, but actual existing weights placed it just below the cutoff.
+- Validation: `python3 scripts/run_quality_checks.py --with-counts --with-stale` → 3/3 passed, 0 stale. `hugo --minify` clean (476 pages, 0 errors). `git diff --check` clean. Diff scope is exactly the 7 single-line weight additions plus this log entry.
+- Article count: 50 (unchanged). No new article, no URL/slug/alias changes, no broken links, no body content changes.
+- Freeze: small metadata housekeeping change only; continue the AdSense review freeze after deployment unless a real blocker appears.
+
+---
+
 ### 2026-05-23 — Final pre-freeze AdSense/GSC cleanup completed
 
 - Scope: final controlled AdSense/GSC cleanup before the 14-day wait; no new article, no broad content rewrite, no sitewide article-structure pass, no ad slots, no ad enablement, no affiliate links or CTA placements, no URL/slug/alias/redirect/Cloudflare/image/date/lastmod/weight changes, and no trust-page edits.
