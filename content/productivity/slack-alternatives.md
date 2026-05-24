@@ -1,6 +1,6 @@
 ---
 title: "Best Free Slack Alternatives in 2026 — Team Chat Without the 90-Day Limit"
-description: "Discord is the best free Slack alternative for most teams — unlimited history, integrations, and video calls. Compare it with Teams, Google Chat, Mattermost, and Rocket.Chat."
+description: "Compare Discord, Teams, Google Chat, Mattermost, and Rocket.Chat for free team chat, message history, and small-team workflows."
 date: "2026-03-23"
 lastmod: "2026-05-16"
 draft: false

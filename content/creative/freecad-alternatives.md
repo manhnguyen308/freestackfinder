@@ -1,6 +1,6 @@
 ---
 title: "Best Free FreeCAD Alternatives in 2026 — 3D CAD Without the Steep Learning Curve"
-description: "Compare free FreeCAD alternatives for parametric 3D modeling, mechanical design, hobby CAD, and 3D printing — including Onshape, Fusion 360 Personal, Tinkercad, SolveSpace, and OpenSCAD."
+description: "Compare FreeCAD alternatives for 3D modeling, mechanical design, hobby CAD, and 3D printing without a steep learning curve."
 date: "2026-05-08"
 lastmod: "2026-05-11"
 draft: false

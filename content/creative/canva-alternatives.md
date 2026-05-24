@@ -1,6 +1,6 @@
 ---
 title: "Best Free Canva Alternatives in 2026 — Social Posts, Templates, and Presentations"
-description: "Adobe Express is the closest free Canva alternative for most creators. Compare it with Photopea, Pixlr, Microsoft Designer, and Picsart for social posts and templates."
+description: "Compare Adobe Express, Photopea, Pixlr, Microsoft Designer, and Picsart for free social posts, templates, and presentations."
 date: "2026-03-19"
 lastmod: "2026-05-16"
 draft: false

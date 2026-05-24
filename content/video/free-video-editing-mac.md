@@ -1,6 +1,6 @@
 ---
 title: "Best Free Video Editing Software for Mac in 2026 — Honest Free-Tier Picks"
-description: "Mac users have iMovie built in, but it runs out quickly. Here are the best free video editors for Mac in 2026, with honest notes on what each free tier includes."
+description: "Compare iMovie, DaVinci Resolve, CapCut, and more to find the best free Mac video editor for your editing workflow."
 date: "2026-05-06"
 lastmod: "2026-05-06"
 draft: false

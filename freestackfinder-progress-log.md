@@ -1,17 +1,36 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-23
-**Current day:** 74a
+**Last updated:** 2026-05-24
+**Current day:** 75a
 
 ## Current state
 
 - Total articles: 50 — 50-article milestone reached
 - Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 8/8 ✓ · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
-- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold now met, final crawl-signal cleanup completed, and the 14-day re-review waiting window should start from this deployment
+- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold met and Ahrefs technical cleanup completed; after deployment, restart or continue the 14-day re-review waiting window
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-05-24 — Ahrefs audit remediation completed
+
+- Scope: targeted technical SEO cleanup based on the Ahrefs crawl dated `2026-05-24T00:58:43Z`; no new articles, no broad rewrites, no article URL/slug/alias/date/lastmod/weight changes, no affiliate-link changes, no image-reference changes beyond the Open Graph fallback, no ad slots, and no affiliate CTA placements.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/BUILD-VALIDATION.md`, `docs/GSC-NOTES.md`, `config.toml`, `layouts/partials/head.html`, `layouts/_default/single.html`, `layouts/_default/list.html`, `layouts/index.html`, `layouts/sitemap.xml`, `layouts/robots.txt`, `static/_redirects`, targeted content pages, generated public HTML, generated sitemap, and generated redirects.
+- Files changed: `config.toml`, `layouts/partials/head.html`, `content/contact.md`, `content/privacy-policy.md`, `content/cloud/free-email-service.md`, `content/cloud/free-team-email.md`, `content/about.md`, `content/terms.md`, `content/search.md`, `content/creative/photoshop-alternatives.md`, `content/creative/canva-alternatives.md`, `content/creative/freecad-alternatives.md`, `content/productivity/slack-alternatives.md`, `content/business/free-time-tracking-software.md`, `content/video/free-video-editing-mac.md`, and this progress log.
+- Broken-link cleanup: removed raw body email strings and raw email-bearing `mailto:` hrefs from the four Ahrefs source pages (`/privacy-policy/`, `/cloud/free-email-service/`, `/cloud/free-team-email/`, `/contact/`) so Cloudflare Email Address Obfuscation no longer has crawler-visible body email links to rewrite into `/cdn-cgi/l/email-protection`; generated output has no `/cdn-cgi/` or `email-protection` links.
+- 5XX/www status: repo-level redirect was not changed. Cloudflare Pages `_redirects` supports path redirects but not domain-level redirects, so the Ahrefs 525 needs Cloudflare configuration: verify the `www` custom domain/DNS record and SSL certificate coverage, then add a Cloudflare Bulk Redirect or redirect rule from `www` to the apex host.
+- Meta descriptions: shortened the 7 listed long descriptions to 115-127 characters; expanded `/about/`, `/terms/`, and `/privacy-policy/` to 124-142 characters; also expanded the noindex `/search/` description to 124 characters as the one additional local short-description notice.
+- Open Graph: added a sitewide fallback image (`/img/default-article.jpg`) through `params.ogImage`, emitted `og:image` and `twitter:image` on pages without front matter images, kept `og:description` backed by page description then site description, and kept `og:type` as `article` for articles and `website` for other pages. Representative canonical-page OG report: 268 checked, 0 missing required fields.
+- Title remediation: baseline rendered title report found 85 titles over 60 characters and 57 over 70; final report found 27 over 60 and 0 over 70. Article pages now render without the `| Free Stack Finder` suffix, and long article title tags use the main pre-subtitle phrase while preserving the full H1/front matter title. Article title suffixes removed: 50/50 article pages. No front matter titles were manually changed.
+- Page/SERP title mismatch notices: the three affected pages now render shorter titles: `/security/free-password-managers/` → `Best Free Password Managers in 2026`; `/productivity/microsoft-office-alternatives/` → `Best Free Microsoft Office Alternatives in 2026`; `/business/free-visio-alternatives/` → `Best Free Microsoft Visio Alternatives in 2026`.
+- Noindex/redirect/IndexNow notices: `/search/`, `/tags/`, and `/categories/` remain `noindex, follow`; article and trust-page samples remain `index, follow`; the apex HTTP-to-HTTPS 301 is expected and non-blocking; IndexNow remains a notice only and no infrastructure was added.
+- Internal-link notice: not reproduced locally across canonical pages; the generated internal-link report found no canonical page with only one dofollow internal inlink, so no extra article links were added.
+- Sitemap/RSS/tag-link validation: generated `public/index.xml` remains absent, `public/index.json` remains present, generated article pages contain no `href="/tags/`, `href="/categories/`, RSS alternate, or `/index.xml` exposure, and generated `sitemap.xml` excludes `/tags/`, `/categories/`, `/search/`, and `/index.xml`.
+- Validation result: Hugo Extended 0.160.1 build succeeded with 476 pages, 21 paginator pages, 210 aliases, and 0 errors; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, and 3 known image orphans; `python3 scripts/publish_checklist.py` printed cleanly. Final `git diff --check` and commit validation were run after this entry.
+- Article count: unchanged at 50. Freeze recommendation: after deployment, restart or continue the 14-day AdSense freeze and avoid further content/template/SEO changes unless a real blocker appears.
 
 ---
 

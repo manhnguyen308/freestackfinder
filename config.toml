@@ -11,6 +11,7 @@ summarylength = 40
   author = "FreeStackFinder Team"
   tagline = "Stop paying for software you don't have to."
   email = "contact@freestackfinder.com"
+  ogImage = "/img/default-article.jpg"
   adsensePublisherId = "ca-pub-5934721249825043"
   showAds = false
 

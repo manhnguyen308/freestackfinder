@@ -1,6 +1,6 @@
 ---
 title: "About Free Stack Finder"
-description: "Why we built Free Stack Finder, how we evaluate free software plans, and who we are."
+description: "Learn why Free Stack Finder exists, how we evaluate free software plans, and how our guides help people compare practical no-cost tools."
 type: page
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Privacy Policy"
-description: "Free Stack Finder privacy policy — what data we collect, how we use it, and your rights."
+description: "Read how Free Stack Finder handles privacy, including cookies, analytics, affiliate links, data collection, and your rights."
 type: page
 ---
 
@@ -105,6 +105,6 @@ We may update this Privacy Policy from time to time. When we do, we will update 
 
 ## 11. Contact
 
-For privacy-related questions or to exercise your data rights, contact us through our [contact page](/contact/) or email us at: contact@freestackfinder.com
+For privacy-related questions or to exercise your data rights, contact us through our [contact page](/contact/) or email us at: contact<span aria-hidden="true">&#64;</span>freestackfinder.com
 
 </div>

@@ -30,7 +30,7 @@ Solo operators mostly need a professional address and low setup friction. Small 
 
 Personal free email — Gmail, Outlook.com, Proton Mail — is one of the most competitive spaces on the internet. Providers give away generous personal accounts because they want the user base. Team email is different.
 
-When a team needs a shared inbox, a custom domain (you@yourcompany.com), or the ability for multiple people to send and receive from one address, providers view this as a business feature worth charging for. Google Workspace starts at $6/user/month. Microsoft 365 Business Basic is $6/user/month. Most shared inbox tools like Front and Help Scout have no genuine free tier for teams.
+When a team needs a shared inbox, a custom domain (you<span aria-hidden="true">&#64;</span>yourcompany.com), or the ability for multiple people to send and receive from one address, providers view this as a business feature worth charging for. Google Workspace starts at $6/user/month. Microsoft 365 Business Basic is $6/user/month. Most shared inbox tools like Front and Help Scout have no genuine free tier for teams.
 
 The result: truly free team email requires either choosing a provider with an explicit free team plan, using clever workarounds inside tools designed for individuals, or accepting limits that only work for the smallest setups.
 
@@ -46,7 +46,7 @@ The five tools below represent your real options in 2026.
 
 **What you can set up for free:**
 - Up to 5 users
-- Custom domain email (you@yourcompany.com)
+- Custom domain email (you<span aria-hidden="true">&#64;</span>yourcompany.com)
 - 5GB mailbox per user
 - Web access, IMAP, and mobile apps
 - Spam filtering and basic admin controls
@@ -163,7 +163,7 @@ The five tools below represent your real options in 2026.
 - Not suitable for high-volume team support email
 - No custom domain on free Gmail
 
-**Best fit:** Two to three-person teams where one person owns the main inbox (e.g., hello@gmail.com) and wants one or two colleagues to help respond. Founders who share customer communication with a virtual assistant often use this setup. It is a workaround, not a team email product — but it works and it is free.
+**Best fit:** Two to three-person teams where one person owns the main inbox (e.g., hello<span aria-hidden="true">&#64;</span>gmail.com) and wants one or two colleagues to help respond. Founders who share customer communication with a virtual assistant often use this setup. It is a workaround, not a team email product — but it works and it is free.
 
 **Why it matters:** There is no signup, no new product to adopt, and no cost. If your team is already using Gmail and simply needs one more person to have inbox access, delegate access is the fastest and simplest path. Setting it up takes under two minutes inside Gmail Settings → Accounts → Grant access.
 

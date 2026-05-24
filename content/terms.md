@@ -1,6 +1,6 @@
 ---
 title: "Terms of Use"
-description: "Free Stack Finder terms of use. Please read before using this website."
+description: "Read the Free Stack Finder terms of use, including website usage rules, content limitations, affiliate disclosures, and liability information."
 type: page
 ---
 

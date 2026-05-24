@@ -2,7 +2,7 @@
 title: "Best Free Photoshop Alternatives in 2026 — PSD, Desktop, and Browser Editors"
 date: "2026-04-30"
 lastmod: "2026-05-16"
-description: "Photopea is the easiest free Photoshop alternative for most people. Compare it with GIMP, Krita, and Pixlr for PSD work, layers, illustration, and browser editing."
+description: "Compare Photopea, GIMP, Krita, and Pixlr for PSD editing, layers, illustration, and quick browser-based photo work."
 slug: "photoshop-alternatives"
 categories: ["Creative"]
 tags: ["photoshop alternatives", "free photo editor", "GIMP", "Photopea"]

@@ -1,6 +1,6 @@
 ---
 title: "Best Free Time Tracking Software in 2026 — Track Hours Without Paying"
-description: "Clockify gives you unlimited time tracking and unlimited users for free — forever. Here's how the best free time trackers compare and which one fits your workflow."
+description: "Compare Clockify, Toggl Track, Paymo, and more to find the best free time tracker for freelancers, teams, and billable work."
 date: "2026-04-16"
 lastmod: "2026-04-24"
 draft: false
