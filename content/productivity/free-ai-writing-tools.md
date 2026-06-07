@@ -4,7 +4,7 @@ description: "ChatGPT isn't the only free writing tool worth using. Compare free
 date: "2026-04-20"
 lastmod: "2026-05-11"
 draft: false
-weight: 78
+weight: 74
 slug: "free-ai-writing-tools"
 categories: ["Productivity"]
 tags:

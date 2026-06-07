@@ -4,7 +4,7 @@ description: "Compare free spreadsheet alternatives to Excel, including Google S
 date: "2026-04-23"
 lastmod: "2026-04-30"
 draft: false
-weight: 78
+weight: 74
 slug: "free-spreadsheet-alternatives"
 categories: ["Business"]
 tags:

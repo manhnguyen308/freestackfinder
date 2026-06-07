@@ -4,7 +4,7 @@ description: "Compare free accounting software for small businesses and freelanc
 date: "2026-04-24"
 lastmod: "2026-04-30"
 draft: false
-weight: 76
+weight: 74
 slug: "free-accounting-software"
 categories: ["Business"]
 tags:

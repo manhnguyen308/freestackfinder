@@ -71,16 +71,17 @@
 
 {{ $adsensePublisherId := .Site.Params.adsensePublisherId }}
 {{ $hasAdsensePublisherId := and $adsensePublisherId (not (in $adsensePublisherId "XXXXXXXXXX")) }}
+{{ $adsEnabled := and .Site.Params.showAds $hasAdsensePublisherId }}
 
 <link rel="stylesheet" href="/css/style.css" />
-{{ if $hasAdsensePublisherId }}
+{{ if $adsEnabled }}
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
 <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
 {{ end }}
 
 {{ partial "schema.html" . }}
 
-{{ if $hasAdsensePublisherId }}
+{{ if $adsEnabled }}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={{ $adsensePublisherId }}"
      crossorigin="anonymous"></script>
 {{ end }}

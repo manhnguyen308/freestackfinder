@@ -1,17 +1,31 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-05-24
-**Current day:** 75a
+**Last updated:** 2026-06-07
+**Current day:** 76a
 
 ## Current state
 
 - Total articles: 50 — 50-article milestone reached
 - Silos: Productivity 9/9 ✓ · Business 13/13 ✓ · Creative 8/8 ✓ · Security 6/6 ✓ · Cloud 7/7 ✓ · Video 7/7 ✓
-- AdSense: script live (`ca-pub-5934721249825043`); formal approval pending — 50-article threshold met and Ahrefs technical cleanup completed; after deployment, restart or continue the 14-day re-review waiting window
+- AdSense: scripts disabled while approval is pending; publisher ID retained in config; after deployment, restart the 14-day freeze window
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-06-07 — Final cleanup before freeze completed
+
+- Scope: disabled public AdSense resource loading while approval is pending and verified the homepage Featured comparisons order by weight. No new article, no article body rewrite, no URL/slug/alias/date/lastmod/sitemap/robots/schema/affiliate-link/image/trust-page change, and no CTR edits.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/BUILD-VALIDATION.md`, `config.toml`, `layouts/partials/head.html`, `layouts/index.html`, `layouts/_default/single.html`, targeted article front matter, generated homepage HTML, generated sitemap, generated robots-meta samples, and generated public HTML ad-resource search results.
+- Files changed: `layouts/partials/head.html`, `content/productivity/slack-alternatives.md`, `content/productivity/free-ai-writing-tools.md`, `content/business/free-spreadsheet-alternatives.md`, `content/productivity/free-chatgpt-alternatives.md`, `content/business/free-accounting-software.md`, and this progress log.
+- AdSense cleanup: `showAds = false` now suppresses the AdSense script plus `pagead2.googlesyndication.com` preconnect and DNS prefetch. Existing manual article ad containers remain gated by `showAds` and do not render while ads are disabled. Generated `public/` output contains no `pagead2.googlesyndication.com`, `googleads.g.doubleclick.net`, `adsbygoogle`, or `fundingchoicesmessages.google.com` matches.
+- Homepage ordering: `layouts/index.html` already sorts Featured comparisons by descending `weight`; the remaining issue was ranking metadata. Slack was moved to the requested 95 weight, and four non-target pages that outranked the requested cutoff were moved below 75 so the weight sort renders the intended six-card set.
+- Weights added or verified: the seven previously planned fields were already present with the requested values: cloud storage 75, password managers 80, VPN 36, CRM 37, website builders 45, Zoom alternatives 58, and video editing software 65. Rendered Featured comparisons order is now Slack alternatives, Microsoft Office alternatives, Canva alternatives, password managers, 2FA apps, and cloud storage.
+- Validation result: Hugo Extended 0.160.1 build with `--minify --cleanDestinationDir` succeeded with 476 pages, 21 paginator pages, and 210 aliases; quality checks passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, and the 3 known image orphans; no-arg publish checklist printed cleanly. Generated sitemap still excludes `/tags/`, `/categories/`, `/search/`, and `/index.xml`; `public/index.xml` is absent; representative articles and trust pages remain `index, follow`; search, tag, and category pages remain `noindex, follow`.
+- Article count: unchanged at 50. No new article was created. Article body content, URLs, slugs, aliases, dates, lastmod values, affiliate links, image references, sitemap behavior, robots behavior, and trust-page body content were preserved.
+- Freeze recommendation: restart the 14-day freeze after deployment.
 
 ---
 

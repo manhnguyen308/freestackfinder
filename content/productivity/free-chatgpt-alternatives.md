@@ -4,7 +4,7 @@ description: "ChatGPT isn't your only option. Compare free alternatives with use
 date: "2026-04-21"
 lastmod: "2026-05-11"
 draft: false
-weight: 76
+weight: 74
 slug: "free-chatgpt-alternatives"
 categories: ["Productivity"]
 tags:

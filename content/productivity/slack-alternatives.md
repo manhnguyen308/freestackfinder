@@ -4,7 +4,7 @@ description: "Compare Discord, Teams, Google Chat, Mattermost, and Rocket.Chat f
 date: "2026-03-23"
 lastmod: "2026-05-16"
 draft: false
-weight: 92
+weight: 95
 slug: "slack-alternatives"
 categories: ["Productivity"]
 tags: ["slack alternatives", "free team chat", "discord for work"]
