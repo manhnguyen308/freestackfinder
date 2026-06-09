@@ -12,11 +12,14 @@
   "url": {{ .Permalink | jsonify | safeJS }},
   "datePublished": {{ .Date.Format "2006-01-02" | jsonify | safeJS }},
   "dateModified": {{ .Lastmod.Format "2006-01-02" | jsonify | safeJS }},
-  "author": {
+  "author": {{ with .Site.Params.authorProfile.name }}{
+    "@type": "Person",
+    "name": {{ . | jsonify | safeJS }}
+  }{{ else }}{
     "@type": "Organization",
     "name": "Free Stack Finder",
     "url": "https://freestackfinder.com"
-  },
+  }{{ end }},
   "publisher": {
     "@type": "Organization",
     "name": "Free Stack Finder",

@@ -34,7 +34,12 @@
       <p class="article-description">{{ . }}</p>
       {{ end }}
 
+      {{ $authorName := or .Site.Params.authorProfile.name .Params.author .Site.Params.author }}
       <div class="article-meta">
+        <span class="article-byline" itemprop="author" itemscope itemtype="https://schema.org/Person">
+          By <span itemprop="name">{{ $authorName }}</span>{{ with .Site.Params.authorProfile.role }}, <span itemprop="jobTitle">{{ . }}</span>{{ end }}
+        </span>
+        <span>·</span>
         <time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">
           Published {{ .Date.Format "January 2, 2006" }}
         </time>
@@ -46,9 +51,6 @@
         {{ end }}
         <span>·</span>
         <span>{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
-        <span itemprop="author" itemscope itemtype="https://schema.org/Person" style="display:none">
-          <span itemprop="name">{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}</span>
-        </span>
       </div>
 
       <p class="editorial-note article-editorial-note">Some links on this page are affiliate links — we may earn a commission if you make a purchase, at no extra cost to you. We compare the tools we cover and note important free-tier limits. <a href="/about/">How we evaluate</a> · <a href="/disclaimer/">Full disclosure</a> · <a href="/contact/">Report a change</a></p>
@@ -83,10 +85,14 @@
 
     <!-- Author box -->
     <div class="author-box" itemscope itemtype="https://schema.org/Person">
+      {{ with .Site.Params.authorProfile.photo }}
+      <div class="author-avatar"><img src="{{ . }}" alt="{{ $authorName }}" width="64" height="64" loading="lazy" decoding="async" itemprop="image" /></div>
+      {{ else }}
       <div class="author-avatar" aria-hidden="true">SFF</div>
+      {{ end }}
       <div class="author-info">
-        <strong itemprop="name">{{ with .Params.author }}{{ . }}{{ else }}{{ .Site.Params.author }}{{ end }}</strong>
-        <p>We test the tools we cover, compare the free tier with the paid upgrade when it matters, and document the limits that would make us tell you to skip it. Our reviews are written for everyday users, freelancers, and small teams rather than enterprise buyers.</p>
+        <strong itemprop="name">{{ $authorName }}</strong>
+        <p>{{ with .Site.Params.authorProfile.bio }}{{ . }}{{ else }}The Free Stack Finder editorial team evaluates free software by comparing free-tier limits, upgrade tradeoffs, and practical use cases. Our guides are written for everyday users, freelancers, and small teams rather than enterprise buyers.{{ end }}</p>
       </div>
     </div>
 

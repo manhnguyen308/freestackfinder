@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-06-07
-**Current day:** 76a
+**Last updated:** 2026-06-09
+**Current day:** 78a
 
 ## Current state
 
@@ -12,6 +12,45 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-06-09 — Author identity system + quality tier proposal (Path A Phase 1–2)
+
+- Scope: built a real-author-ready identity system using safe placeholders and produced a proposal-only three-tier content-quality plan. No new article, no article body rewrite, no URL/slug/alias/date/lastmod/weight/title/description change, no affiliate-link/image change, no ad enablement, no ad slots, no CTA additions, and no noindex/consolidation/deletion/redirect applied.
+- Files inspected: `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, `freestackfinder-progress-log.md`, `docs/BUILD-VALIDATION.md`, `docs/GSC-NOTES.md`, `docs/FRESHNESS-CHECKS.md`, `config.toml`, `layouts/_default/single.html`, `layouts/partials/schema.html`, `layouts/partials/head.html`, and a generated word-count report across all 50 articles.
+- Files changed: `config.toml`, `layouts/_default/single.html`, `layouts/partials/schema.html`, and this progress log.
+
+**Phase 1 — author system findings (before):**
+- Author was a single site-wide param `author = "FreeStackFinder Team"` in `config.toml`; per-article `author:` front matter was already supported via `{{ .Params.author }}` with that site default as fallback.
+- Article byline existed only inside a hidden `display:none` microdata span — no visible byline rendered to readers.
+- "Published" / "Updated" dates were already visible in `.article-meta`.
+- Author box carried an unsupported first-hand testing claim: "We test the tools we cover…".
+- Article schema `author` was an `Organization` (no Person), which is valid and honest but not real-author-ready.
+
+**Phase 1 — author system added:**
+- Added a `[params.authorProfile]` block in `config.toml` with empty, clearly-commented placeholder fields (`name` = AUTHOR_NAME_PLACEHOLDER, `role`, `bio` = AUTHOR_BIO_PLACEHOLDER, `photo` = AUTHOR_PHOTO_PLACEHOLDER). All fields default blank so the live site keeps the safe "FreeStackFinder Team" byline until real details are supplied — no literal placeholder strings render publicly.
+- Decision: used empty-default site-wide params instead of literal "AUTHOR_NAME_PLACEHOLDER" text in rendered output, because the site is live and pushing placeholder gibberish would harm the pending AdSense review. The placeholder tokens live in config comments and in the request list below.
+- `single.html`: added a visible top-of-article byline ("By {author}" with optional role) carrying `itemprop="author"` Person microdata, and removed the old hidden `display:none` author span. Author resolution precedence: `authorProfile.name` → per-article `author` → site `author` (single-author model; per-article override can be re-enabled later).
+- `single.html` author box: replaced the "We test the tools we cover" claim with neutral, non-testing editorial wording ("…evaluates free software by comparing free-tier limits, upgrade tradeoffs, and practical use cases…"); added optional author-photo rendering (falls back to the existing "SFF" initials avatar when `photo` is blank).
+- `schema.html`: Article `author` now upgrades to `Person` only when `authorProfile.name` is set; otherwise it stays the existing `Organization` author. WebSite and Organization schema unchanged.
+- Visible byline / last-updated status: byline now renders for all 50 articles ("By FreeStackFinder Team" until a real name is supplied); "Published" and "Updated" dates remain visible and unchanged.
+- User inputs required before the next deploy can show a real author: (1) real author full name; (2) short 1–2 sentence bio (no testing claims unless real evidence supplied); (3) optional author photo file + path (e.g. `/img/authors/<name>.webp`, square, ~64–256px); (4) optional role/title; (5) any real credentials/experience comfortable to publish; (6) whether the site uses one author or multiple author profiles later.
+
+**Phase 2 — tier proposal (PROPOSAL ONLY — nothing applied; awaiting user approval):**
+- Data sources: `docs/GSC-NOTES.md` 2026-04-28 snapshot impressions, per-article word counts (generated report), homepage `weight` signals, and topical redundancy/strategic value. GSC impressions are sparse — only ~10 pages have recorded numbers; the rest are marked GSC-unavailable and ranked by word count, cluster/strategic value, and redundancy.
+- TIER 1 (top 10 — Phase 3 differentiation candidates, no edits yet): microsoft-office-alternatives (1,545 imp), dropbox-alternatives (763), grammarly-alternatives (402), slack-alternatives (339, homepage weight 92–95), illustrator-alternatives (249), free-backup-software (143), quickbooks-alternatives (141), free-project-management-software (94), canva-alternatives (meaningful imp, weight 85), photoshop-alternatives (meaningful imp).
+- TIER 2 (keep indexed, cluster/strategic support, no action now): free-password-managers, free-password-managers-teams, best-free-2fa-apps, free-vpn, free-antivirus-software, free-security-audit-tools, free-cloud-storage-comparison, free-email-service, free-team-email, free-ai-email-tools, free-ai-writing-tools, free-chatgpt-alternatives, notion-alternatives, free-note-taking-apps, free-calendar-app, free-pdf-editor-alternatives, free-spreadsheet-alternatives, free-invoicing-software, free-accounting-software, free-crm-software, free-website-builders, free-resume-builders, figma-alternatives, canva-free-vs-paid, free-stock-photos, freecad-alternatives, free-video-editing-software, free-screen-recording-software, zoom-alternatives, premiere-pro-alternatives, free-video-conferencing, free-time-tracking-software, free-social-media-scheduling.
+- TIER 3 (weakest / most generic / most redundant — candidates only): free-email-signature (1,760w, no GSC, narrow utility, overlaps email cluster) → consolidate into `free-team-email` OR keep+improve; free-hr-software (1,652w, shortest, no GSC, niche) → keep indexed but improve later, else defer; free-font-websites (1,717w, generic resource list, overlaps `free-stock-photos`) → keep+improve OR fold into a creative-assets roundup; free-video-editing-mac (2,497w, platform-narrow split overlapping `free-video-editing-software` + `free-open-source-video-editors`) → consolidate/cross-link; free-open-source-video-editors (2,621w, heavy overlap with `free-video-editing-software`) → differentiate angle OR consolidate; free-web-analytics (2,048w, no GSC traction, generic) → keep+improve later OR defer.
+- Tradeoff recorded: fewer-but-stronger pages can raise perceived site quality for AdSense, but noindexing/consolidating too aggressively reduces topical coverage and internal-link depth. Recommendation is conservative — improve-or-defer for most Tier 3, consolidation only where overlap is strongest (video-editing splits, email-signature). No Tier 3 action will be taken without explicit user approval.
+
+**Phase 3 (preview only — NOT executed):** Tier 1 differentiation later needs user-supplied first-hand inputs (real screenshots, real UI observations, real free-tier limit confirmations, real setup friction, real "what surprised me" notes, real choose/skip reasons). Agent will not fabricate these. Freeze: do not start Phase 3 until the user supplies real first-hand inputs.
+
+**Phase 4 (preview only — NOT created):** proposed future non-list content types — (1) migration walkthrough ("How to migrate from Dropbox to MEGA without losing shared folders"); (2) workflow stack guide ("How to build a free freelancer software stack without tool overlap"); (3) decision framework ("When free software is enough — and when paying is cheaper than the workaround").
+
+- Validation result: `git diff --check` clean; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 broken internal links, 0 missing images, 0 stale articles, and the 3 known image orphans; `python3 scripts/publish_checklist.py` (no args) printed cleanly; Hugo Extended 0.160.1 `--minify --cleanDestinationDir` build succeeded with 476 pages, 21 paginator pages, 210 aliases, 0 errors. Generated output confirms a visible "By FreeStackFinder Team" byline, the neutral author-box bio, the removed "We test the tools we cover" claim (0 matches), and the schema `author` remaining `Organization` while no real name is set.
+- Article count: unchanged at 50. No new article created; no article URL/slug/alias/date/lastmod/weight/body/affiliate/image change; no ads enabled; no noindex/consolidation/deletion/redirect applied; no fabricated first-hand claims; no public internal-workflow language added.
+- Freeze note: this is a controlled quality-system change. Do not start Phase 3 article differentiation until the user supplies real first-hand inputs, and do not apply any Phase 2 Tier 3 action without explicit approval.
 
 ---
 
