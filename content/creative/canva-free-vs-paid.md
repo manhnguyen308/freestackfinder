@@ -221,7 +221,7 @@ Listing photography, mockups, packaging inserts, and shop banners stack up fast.
 
 ---
 
-## Canva alternatives worth considering before paying
+## Check these Canva alternatives before paying
 
 Before committing to a Canva Pro subscription, it is worth checking whether your real bottleneck is best solved by a different tool entirely. The free tiers of these tools cover specific needs better than Canva does.
 

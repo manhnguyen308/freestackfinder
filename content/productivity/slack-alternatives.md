@@ -44,7 +44,7 @@ Discord is a voice, video, and text communication platform originally built for 
 
 Unlike Slack's free tier, Discord doesn't roll messages off after 90 days, doesn't cap integrations at 10, and doesn't time-limit video or voice calls. The free experience covers unlimited message history, unlimited channels organised into servers, unlimited integrations and bots, unlimited video and voice calls, file sharing, screen sharing, reactions, threads, forum channels for organised discussions, and clients for Windows, macOS, Linux, iOS, and Android. On every metric that matters for everyday team communication, Discord's free plan is more capable than Slack's free plan.
 
-The tradeoffs are smaller but real. Video quality is capped at 720p (1080p requires Nitro), file uploads are limited to 10MB per file on free, some server customisation features require Nitro, and the interface takes adjustment for teams used to Slack's workspace structure. The learning curve is genuine — Discord uses "servers" instead of "workspaces" and feels slightly more casual — but for teams willing to spend an afternoon on setup, the capability gap is significant.
+The tradeoffs are smaller but real. Video quality is capped at 720p (1080p requires Nitro), file uploads are limited to 10MB per file on free, and some server customisation features require Nitro. Discord calls its spaces servers rather than workspaces and has a more casual structure. A team that sets up channels and roles carefully gives up less than the unfamiliar terminology first suggests.
 
 A natural fit for startups, remote teams, developer teams, creative agencies, and any small team that wants unlimited message history and integrations without a monthly subscription.
 

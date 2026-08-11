@@ -106,7 +106,7 @@ Understanding what type of builder you actually need makes the decision clearer:
 
 **Best fit:** Internal business tools, simple informational pages, school or club websites, anyone who wants a multi-page site at absolute zero cost and does not need strong visual differentiation.
 
-**What feels different in daily use:** It is the only builder on this list where "free" means genuinely free — no subdomain forced on you if you have a domain, no ads, no artificial bandwidth caps tied to upgrade pressure. The tradeoff is that you are working within Google's template system, and the results look like Google Sites rather than a custom design.
+**Free-plan tradeoff:** Google Sites does not add ads, and it can use a domain you already own without a paid builder plan. The template system is restrictive, and the result retains the recognizable Google Sites structure rather than a custom layout.
 
 If your business already runs on Google Workspace, Google Sites is worth evaluating before anything else. Embedded Sheets, Slides, and Forms work without any configuration.
 
@@ -124,7 +124,7 @@ If your business already runs on Google Workspace, Google Sites is worth evaluat
 
 **Best fit:** Writers, bloggers, journalists, and anyone building a content-first site where publishing schedule matters more than visual customization. If you plan to write regularly and want a built-in audience discovery mechanism, WordPress.com's free plan is functional.
 
-**Where it makes sense:** The WordPress editor (Block editor / Gutenberg) is powerful for content publishing. Categories, tags, scheduling, RSS, and basic SEO fields are all available without paying. The broader WordPress ecosystem means there is extensive documentation and community support even for the free plan.
+**Where it makes sense:** WordPress.com Free is built for publishing. Categories, tags, scheduling, RSS, and basic SEO fields are available without paying, and the wider WordPress ecosystem provides plenty of documentation when the editor is unfamiliar.
 
 The main friction on the free plan is ads and the subdomain. If your site is for public professional use, the WordPress.com ads shown to visitors are a credibility problem. A paid Personal plan removes them and adds a custom domain.
 
@@ -142,7 +142,7 @@ The main friction on the free plan is ads and the subdomain. If your site is for
 
 **Best fit:** Freelancers who want a fast, attractive portfolio page. Creators who need a link-in-bio page. Side project founders who want a quick landing page while building something. Carrd's free plan is the fastest way to get a clean-looking page online without spending anything.
 
-**What feels different in daily use:** The template quality is higher than most free builders at this price point, and the editor is uncluttered. The lack of custom domain on the free plan is a real limitation, but if you need a portfolio link to share in a pitch deck or bio, a `yourname.carrd.co` URL is more respectable than a subdomain with ads.
+**Free-plan tradeoff:** Carrd's templates are geared toward focused one-page sites, but a custom domain requires payment. The `yourname.carrd.co` address can work for a temporary portfolio or profile; it is a poor fit for a business that needs its own domain.
 
 ---
 

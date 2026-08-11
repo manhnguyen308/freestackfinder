@@ -16,11 +16,11 @@ By accessing or using Free Stack Finder ("the site"), you agree to be bound by t
 
 The content on Free Stack Finder is provided for **informational purposes only**. Nothing on this site constitutes professional advice of any kind — including but not limited to legal, financial, technical, or business advice.
 
-Software recommendations reflect our independent testing and opinions at the time of writing. We make no guarantees that any tool will be suitable for your specific needs or circumstances.
+Software recommendations reflect the published free-plan limits and editorial comparisons available when each page is updated. We make no guarantees that any tool will be suitable for your specific needs or circumstances.
 
 ## 2. Accuracy of information
 
-We make every reasonable effort to keep the information on this site accurate and up to date. However, software pricing, features, and availability change frequently. We cannot guarantee that every piece of information on this site is current or error-free at all times.
+We make every reasonable effort to keep the information on this site accurate and up to date. Software pricing, features, and availability change frequently, so we cannot guarantee that every detail is current or error-free at all times.
 
 **You should always verify pricing and features directly with the software provider before making a purchasing decision.**
 

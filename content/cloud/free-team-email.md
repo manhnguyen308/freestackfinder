@@ -20,7 +20,7 @@ author: "FreeStackFinder Team"
 
 ## The bottom line
 
-Most "free team email" tools are either free for individuals only or free trials that eventually require payment. The exception is **Zoho Mail**, which offers a genuinely free plan for up to five users with a custom domain — making it the clearest recommendation for small teams that need professional email addresses without paying. **Spike** is the best option if your team wants email to feel more like a team chat tool. **Proton Mail** and **Tutanota** are the right picks when privacy is the primary requirement, though their free tiers are individual-only. If your team is already inside the Google ecosystem, **Gmail with shared labels and delegates** is a practical zero-cost workaround that many small teams use without realising it's an option.
+A free team inbox is usually either a small custom-domain plan or a workaround built from individual accounts. **Zoho Mail** covers up to five custom-domain users on its free plan. **Spike** changes the inbox into a chat-style interface, while Proton Mail and Tutanota remain individual accounts on their free tiers. Gmail delegates can work for a tiny Google-based team, but they do not create a managed business-email system.
 
 Solo operators mostly need a professional address and low setup friction. Small teams need user accounts, permissions, and enough storage to avoid constant inbox cleanup. Client-facing addresses need extra care around custom domains and shared access, because those are the limits that decide whether a free setup still looks professional.
 
@@ -87,7 +87,7 @@ The five tools below represent your real options in 2026.
 
 **Best fit:** Remote teams that find traditional email too slow but don't want to manage a separate tool like Slack alongside email. Spike is most effective when the whole team adopts it — using it individually while the rest of the team uses standard Gmail is a partial benefit at best.
 
-**What feels different in daily use:** Rather than requiring a new email address, Spike wraps around your existing accounts. A small team on Gmail or Zoho can layer Spike on top, gain a more collaborative inbox experience, and still receive email from the outside world normally. The free five-person limit makes it genuinely usable for early-stage teams.
+**Workflow tradeoff:** Spike works with existing Gmail or Zoho accounts instead of requiring new addresses. A small team can add its chat-style inbox while continuing to receive ordinary email. The five-person free limit keeps it relevant only for very small teams.
 
 **Spike:** [spike.email](https://www.spike.email/)
 
@@ -114,7 +114,7 @@ The five tools below represent your real options in 2026.
 
 **Best fit:** Small teams where each member uses their own individual Proton Mail account and privacy is more important than a shared custom domain. Non-profits, journalists, activists, and legal or healthcare teams handling sensitive communication often choose Proton Mail for security reasons even when accepting its limitations on the free plan.
 
-**Where it makes sense:** Among the tools listed here, Proton Mail is the only one with end-to-end encryption by default. The free plan is fully functional for individual use — just know that a "free Proton team" means each person has a separate free account, not an organizational setup. For context on the broader personal email landscape, see our [free email service guide](/cloud/free-email-service/) where Proton Mail is the top privacy pick.
+**Where it makes sense:** Among the tools listed here, Proton Mail is the only one with end-to-end encryption by default. The free plan works for individuals, but grouping free Proton accounts does not create shared administration. Our [free email service guide](/cloud/free-email-service/) compares Proton Mail with other personal providers.
 
 **Proton Mail:** [proton.me/mail](https://proton.me/mail)
 

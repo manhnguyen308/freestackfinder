@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-06-09
-**Current day:** 78a
+**Last updated:** 2026-08-11
+**Current day:** 79a
 
 ## Current state
 
@@ -12,6 +12,22 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-08-11 — Humanizer quality-authenticity cleanup completed
+
+- Scope: scanned all 50 published silo articles and the important indexable hub/start/trust copy. Used `.claude/skills/humanizer.md` as the governing rulebook. This was a quality-authenticity cleanup only: no article was added, removed, consolidated, noindexed, or redirected.
+- Files inspected: `CLAUDE.md`, `.claude/skills/humanizer.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, this progress log, `docs/BUILD-VALIDATION.md`, `docs/GSC-NOTES.md`, `docs/FRESHNESS-CHECKS.md`, `CONTENT-STRATEGY.md`, `layouts/_default/single.html`, `config.toml`, all 50 article files, the six silo hubs, and the indexable start/trust pages.
+- Audit list, high risk (9, all fixed): `business/free-accounting-software`, `business/free-project-management-software`, `business/free-social-media-scheduling`, `cloud/dropbox-alternatives`, `productivity/notion-alternatives`, `security/free-antivirus-software`, `video/free-video-editing-software`, `video/free-open-source-video-editors`, and `video/free-video-conferencing`.
+- Audit list, medium risk (33, all fixed): `business/quickbooks-alternatives`, `business/free-invoicing-software`, `business/free-resume-builders`, `business/free-spreadsheet-alternatives`, `business/free-time-tracking-software`, `business/free-visio-alternatives`, `business/free-web-analytics`, `business/free-website-builders`, `cloud/free-ai-email-tools`, `cloud/free-email-service`, `cloud/free-email-signature`, `cloud/free-team-email`, `creative/canva-alternatives`, `creative/canva-free-vs-paid`, `creative/figma-alternatives`, `creative/freecad-alternatives`, `creative/free-font-websites`, `creative/free-stock-photos`, `creative/illustrator-alternatives`, `productivity/free-ai-writing-tools`, `productivity/free-calendar-app`, `productivity/free-chatgpt-alternatives`, `productivity/free-note-taking-apps`, `productivity/free-pdf-editor-alternatives`, `productivity/grammarly-alternatives`, `productivity/microsoft-office-alternatives`, `productivity/slack-alternatives`, `security/best-free-2fa-apps`, `security/free-password-managers`, `security/free-vpn`, `video/free-screen-recording-software`, `video/free-video-editing-mac`, and `video/zoom-alternatives`.
+- Audit list, low risk (8): minor edits were made to `business/free-crm-software`, `cloud/free-backup-software`, `creative/photoshop-alternatives`, `security/free-password-managers-teams`, `security/free-security-audit-tools`, and `video/premiere-pro-alternatives`. `business/free-hr-software` and `cloud/free-cloud-storage-comparison` were left unchanged because their body copy was already specific and the remaining structural labels carried clear judgments.
+- Files changed: 48 article bodies, all six silo hub introductions, `content/about.md`, `content/disclaimer.md`, `content/privacy-policy.md`, `content/terms.md`, and this progress log. The article count remains 50.
+- Main cleanup: cut filler openings, generic transitions, vague vendor praise, negative-parallel constructions, repeated conclusion copy, broad feature-list summaries, smart quotes, and unsupported daily-use/setup-time language. Reworked verdicts around free-tier limits, workflow fit, paid boundaries, and clear choose/skip decisions while preserving rankings and published plan details.
+- First-hand integrity: removed unsupported testing framing and replaced it with published-limit and workflow-fit language. No installation, benchmark, screenshot, setup, interface, or long-term-use experience was invented. The consistency scan found no unsupported `we tested`, `in our testing`, `hands-on`, benchmark, or screenshot claims.
+- Real first-hand input needed later: `/productivity/microsoft-office-alternatives/` needs real compatibility examples and screenshots for complex DOCX/XLSX files, tracked changes, formulas, and macros; `/cloud/dropbox-alternatives/` needs current storage, sharing, sync, and upgrade-prompt screenshots for Dropbox, MEGA, Google Drive, and Proton Drive; `/security/free-antivirus-software/` needs a current lab-cycle confirmation plus real setup/update-notification observations; `/video/free-video-editing-software/` needs representative export, watermark, codec, footage, and hardware observations; `/creative/canva-free-vs-paid/` needs current asset, export, brand-control, and upgrade-prompt screenshots; `/productivity/notion-alternatives/` needs real migration, export, and offline-workflow observations.
+- Validation result: `python scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 front matter errors, 0 broken internal links, 0 missing images, 0 stale articles, and the 3 known image orphans; `python scripts/publish_checklist.py` with no arguments printed cleanly; Hugo Extended 0.160.1 `--minify --cleanDestinationDir` succeeded with 476 pages, 21 paginator pages, 210 aliases, and 0 errors. Generated output contains no ad scripts, author placeholder tokens, or unsupported first-hand claims. The final diff gate found 50 unchanged article paths, 0 article front matter changes, 0 external or `/go/` link changes, 0 added or deleted files, and no config or layout change.
+- Freeze note: this is a quality-authenticity cleanup. Restart the 14-day AdSense freeze after deployment. Do not start Phase 3 first-hand differentiation until real user inputs are supplied.
 
 ---
 

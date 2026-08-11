@@ -97,7 +97,7 @@ The gaps compared to Canva Pro are deliberate. The deeper brand-management tools
 
 ---
 
-### 2. Photopea - best for people who need real editing, not just layouts
+### 2. Photopea - best for layer-based image editing
 
 {{< verdict "Best for image editing" >}}
 
@@ -129,7 +129,7 @@ It is most useful when your bottleneck is not execution but ideation — it gets
 
 Pixlr is a web-based suite that mixes light design tools with stronger photo editing than most template-first apps. The free version gives you browser-based editing, fast photo cleanup tools, simple layouts, templates, text effects, and enough depth for thumbnails, banners, and quick promo graphics.
 
-Ads and upgrade prompts are part of the free experience, premium tiers unlock a smoother workflow and the more AI-heavy tools, and it is less cohesive than Adobe Express as an all-purpose design workspace. Pixlr works well when your tasks bounce between design and image cleanup and you want one fast browser tool rather than a heavier app stack.
+Ads and upgrade prompts are part of the free experience. Paid tiers remove more friction and include more AI tools, but Pixlr remains less cohesive than Adobe Express as an all-purpose workspace. Choose it when the job moves between layout and image cleanup in one browser tab.
 
 [Try Pixlr free ->](https://pixlr.com/)
 

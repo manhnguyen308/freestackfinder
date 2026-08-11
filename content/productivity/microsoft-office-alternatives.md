@@ -73,7 +73,7 @@ Google's free productivity suite has quietly become one of the most capable offi
 - Offline mode available via Chrome extension
 
 **The practical free-plan limit:**
-- Less powerful than Excel for advanced data analysis (though covers 90%+ of everyday use)
+- Missing Excel features such as Power Query and VBA, though ordinary formulas and charts are covered
 - Formatting can shift slightly when exporting complex .docx files for Office users
 - No desktop app for Windows/Mac — browser-only (or mobile app)
 - 15GB storage is shared across Gmail, Drive, and Photos — can fill up
@@ -95,7 +95,7 @@ For team messaging alongside Google Workspace, see our [free Slack alternatives 
 LibreOffice is a full-featured, open-source desktop office suite with Writer (Word), Calc (Excel), Impress (PowerPoint), Draw, Base (database), and Math. It runs on Windows, macOS, and Linux, and it's completely free — no subscription, no premium tier.
 
 **What the desktop suite gives you:**
-- Comprehensive word processor with advanced formatting, styles, mail merge
+- Word processor with advanced formatting, styles, and mail merge
 - Spreadsheet with extensive formula support and macro capability
 - Presentation software with slide transitions and animations
 - Opens and saves .docx, .xlsx, .pptx (Microsoft formats)
@@ -181,7 +181,7 @@ You should keep Microsoft 365 if you:
 
 ## So what should you actually use?
 
-- **Students and home users:** Start with Google Docs. It handles everything most students need and collaboration is seamless.
+- **Students and home users:** Start with Google Docs. Sharing and simultaneous editing are straightforward, and no desktop install is required.
 - **Freelancers:** Google Docs for everyday work, LibreOffice when a client needs a perfectly formatted Word file.
 - **Small businesses:** Google Workspace free tier covers most needs; upgrade to the paid Workspace plan ($6/user/month) only when you need a custom domain email.
 - **Power Excel users:** Keep Microsoft 365, or invest time learning Sheets — it handles most advanced functions now.

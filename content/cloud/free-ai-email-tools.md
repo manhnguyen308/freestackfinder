@@ -25,7 +25,7 @@ author: "FreeStackFinder Team"
 
 ## Where to start
 
-Most AI email features worth using are already free. **Gmail's Smart Compose and Smart Reply** are built into every Gmail account and handle the most common cases — predictive text while you type and one-tap responses to short messages. **Compose AI** is the strongest free browser extension if you want full AI-drafted replies in Gmail or Outlook without switching apps. **ChatGPT's free tier** remains the most flexible option for drafting longer or more nuanced emails when you're willing to copy and paste. **Boomerang for Gmail** adds a free writing quality scorer that helps you calibrate tone before sending. **Spike** is worth considering if you want a dedicated email app with AI built in at no cost. For teams that need custom-domain email alongside these tools, start with our [best free team email guide](/cloud/free-team-email/) before choosing an AI layer.
+Start with the tool already in your inbox. **Gmail's Smart Compose and Smart Reply** handle predictive text and short responses. **Compose AI** drafts inside Gmail or Outlook, while **ChatGPT's free tier** is better suited to longer messages when copy and paste is acceptable. **Boomerang for Gmail** adds a writing-quality score. Choose **Spike** only if you also want to replace the email app itself. Teams that need custom-domain mail should begin with our [free team email guide](/cloud/free-team-email/) before adding an AI layer.
 
 ---
 

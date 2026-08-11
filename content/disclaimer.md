@@ -14,19 +14,19 @@ type: page
 
 Free Stack Finder is reader-supported. Some of the links on this site are **affiliate links**, which means we may earn a small commission if you click through and make a purchase — at absolutely no extra cost to you.
 
-We are required by the FTC (Federal Trade Commission) and similar regulations in other countries to disclose this clearly, and we're happy to do so.
+The FTC (Federal Trade Commission) and similar regulators require clear disclosure of these relationships.
 
 ## How affiliate links work on this site
 
 When we write a comparison article — say, "Best free alternatives to Adobe Photoshop" — we may include a link to the paid version of Photoshop or another premium tool. If you click that link and purchase the product, we receive a small percentage of the sale price.
 
-This helps us keep the site running, the content free, and the lights on.
+That commission helps fund the site and does not change the price paid by the reader.
 
 ## What this means for our recommendations
 
 Here is our firm policy: **affiliate relationships never determine our recommendations.**
 
-If a free tool genuinely works well, we will recommend it — even if we earn nothing from that recommendation. We turn away higher-paying affiliate programs when we don't believe the product is worth recommending.
+If a free tool is the better fit, we recommend it even when that recommendation earns no commission.
 
 We may decline to feature tools when the product does not fit the reader need, even if an affiliate program exists. Our comparison process and recommendations are independent.
 
@@ -57,6 +57,6 @@ If you have concerns about a specific recommendation or believe we may have a co
 
 ## Questions?
 
-If you have any questions about our affiliate relationships or how we make money, please reach out through our [contact page](/contact/). We're an open book.
+Questions about an affiliate relationship can be sent through our [contact page](/contact/).
 
 </div>

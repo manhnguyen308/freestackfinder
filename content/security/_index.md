@@ -3,7 +3,7 @@ title: "Free Security & Privacy Software"
 description: "Free antivirus, VPN, and password manager options — what's genuinely free, what's bait, and what's actually worth installing."
 ---
 
-Security software has a complicated relationship with the word "free." This section cuts through the noise: which tools are genuinely protective, which are adware in disguise, and when a paid option is actually necessary.
+Free security tools need a clear business model and limits you can verify. These guides compare published audit or lab information, device and data caps, recovery options, ads, and the point where a paid plan solves a real problem.
 
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>

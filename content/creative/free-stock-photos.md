@@ -23,7 +23,7 @@ author: "FreeStackFinder Team"
 
 ## Where to start
 
-For most bloggers, marketers, and content creators, **Unsplash** covers 80% of use cases — 3M+ well-curated photos, no attribution required, free for commercial use. For content that needs video alongside photos, **Pexels** is the better default: a CC0-equivalent license, strong curation, and a 60,000+ video library that Unsplash lacks entirely. If you need vectors and illustrations in addition to photos, **Pixabay** has the broadest scope (4M+ assets across media types). None of these platforms requires attribution, none charges for access, and all are genuinely free for commercial use. Paid stock services — Shutterstock, Getty, Adobe Stock — justify their cost when you need guaranteed exclusivity, model-release documentation, or specialist imagery that free libraries do not cover. For standard content production, the free sites below are sufficient.
+Use **Unsplash** for curated photography, **Pexels** when the same search also needs video, and **Pixabay** for vectors and illustrations beside photos. All three permit broad free use under their own licences, but check the asset page when a recognizable person, logo, artwork, or property appears. Paid libraries become easier to justify when model releases, specialist imagery, or exclusivity matter.
 
 ---
 
@@ -71,7 +71,7 @@ Unsplash's curation standard is higher than most free stock sites because its co
 
 Pexels gives free users:
 - 3M+ photos
-- 60,000+ videos (a significant differentiator over Unsplash)
+- 60,000+ videos, which Unsplash does not offer
 - Pexels License — free for all personal and commercial use, no attribution required
 - Download without account (account adds collections and save features)
 - API access for developers

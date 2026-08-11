@@ -83,7 +83,7 @@ The free version is the full version. There is no "ZAP Pro" that unlocks more sc
 
 **Best for:** Developers who build web applications and want to run security tests as part of their own workflow. Also useful for freelancers who manage client websites and want to do a pre-launch security check.
 
-**Who should skip it:** Users who want a simple point-and-click scan of an already-live website they do not own or have explicit written permission to test. Running ZAP against third-party infrastructure without authorization is a legal issue, not just an ethical one.
+**Who should skip it:** Users who want a simple point-and-click scan of a live website they do not own or have explicit written permission to test. Running ZAP against third-party infrastructure without authorization can create legal as well as ethical problems.
 
 ---
 

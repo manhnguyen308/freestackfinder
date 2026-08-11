@@ -51,7 +51,7 @@ The open-source community responded. Inkscape has been in active development sin
 **The main catch:**
 - The interface is less polished than Illustrator — steeper learning curve for Illustrator users
 - No native .ai file format support — Illustrator files must be exported as PDF or SVG first
-- Artboard workflow is less seamless than Illustrator's
+- Artboard handling takes more steps than it does in Illustrator
 - Performance on very complex files with thousands of objects can be slower
 - No cloud sync or collaboration features built in
 
@@ -75,14 +75,14 @@ The open-source community responded. Inkscape has been in active development sin
 - No account required for basic use
 
 **What it is missing:**
-- Significantly less powerful than Inkscape — no boolean operations, no advanced typography
+- No boolean operations or advanced typography, so it reaches its limit sooner than Inkscape
 - No complex path editing or node manipulation
 - Limited export options compared to Inkscape
 - Slower for detailed illustration work — designed for simple graphics
 
 **A natural fit for:** Non-designers who need to create simple vector graphics quickly — social media icons, basic logos, simple illustrations — without learning a complex tool.
 
-**What feels different in daily use:** Vectr's appeal is the zero-friction entry point. Open a browser, start designing — no download, no account, no settings to configure. For users who need to produce a simple logo or icon set once and have no intention of becoming a regular design tool user, Vectr's simplicity is genuinely valuable. It is not a replacement for Inkscape or Illustrator for any serious project, but for one-off simple graphics it removes all the setup friction.
+**Why choose it:** Vectr runs in a browser without a download or account. That is enough for a one-off logo or icon, but its toolset does not replace Inkscape or Illustrator for detailed vector work.
 
 [Try Vectr free →](https://vectr.com)
 
@@ -107,7 +107,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **A natural fit for:** Users who want a more modern, polished interface than Inkscape and are comfortable with a cloud-first workflow. Good for intermediate designers who find Inkscape's interface too daunting.
 
-**What feels different in daily use:** Gravit Designer occupies a middle ground between Inkscape's power and Vectr's simplicity. The interface is cleaner and more approachable than Inkscape, and the tool set is comprehensive enough for professional logo design and illustration. The cloud-first approach means your files are accessible from any device. For designers who want Illustrator's general aesthetic but cannot justify the cost, Gravit is the closest free experience.
+**Why choose it:** Gravit Designer sits between Inkscape's deeper toolset and Vectr's narrower browser editor. Its cloud-first setup keeps files available across devices. Check the current free-plan boundaries before relying on it for client work.
 
 [Try Gravit Designer free →](https://www.designer.io)
 
@@ -132,7 +132,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **A natural fit for:** Developers and technical users who need to quickly view or edit SVG files without installing software. Also good for privacy-conscious users who do not want design files uploaded to any cloud service.
 
-**What feels different in daily use:** SVG-edit is the most transparent tool in this list — open-source, no account, no data collection, works offline. For developers who occasionally need to tweak an SVG icon or adjust a vector element, it provides exactly what is needed without any software installation or cloud dependency.
+**Why choose it:** SVG-edit is open-source, works offline, and requires neither an account nor a cloud workflow. It fits developers who occasionally need to adjust an SVG icon without installing a larger design application.
 
 [Try SVG-edit free →](https://svgedit.netlify.app)
 
@@ -158,7 +158,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **A natural fit for:** Business owners, marketers, and non-designers who need professional-looking graphics quickly and are not concerned with producing editable vector files.
 
-**What feels different in daily use:** Canva is not a true Illustrator alternative for designers — it cannot replace Illustrator's path editing, typography control, or illustration capability. But for users who were using Illustrator primarily to produce social media graphics, simple logos, or marketing materials from templates, Canva's free tier covers that use case at zero cost with a fraction of the learning curve. If you are a designer, use Inkscape. If you are not a designer, Canva is probably what you actually need.
+**Why choose it:** Canva cannot replace Illustrator's path editing, typography control, or illustration tools. It can replace an Illustrator workflow built mainly around templates for social graphics, simple logos, and marketing material. Use Inkscape for vector construction and Canva for template-based output.
 
 [Visit Canva](https://www.canva.com/)
 
@@ -178,7 +178,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 ## Making the switch from Illustrator to Inkscape
 
-The most common friction point when switching from Illustrator to Inkscape is interface familiarity. Inkscape uses different keyboard shortcuts and organises its tools differently to Illustrator. The adjustment period is typically one to two weeks of daily use before muscle memory transfers.
+The main switching cost is interface familiarity. Inkscape uses different keyboard shortcuts and organises tools differently from Illustrator, so plan time to rebuild shortcuts and templates before moving deadline-sensitive work.
 
 Key differences to know upfront: Inkscape uses XML-based SVG as its native format, which is different from Illustrator's proprietary .ai format. Files you want to open from Illustrator should be exported as PDF from Illustrator first — Inkscape opens PDF and extracts the vector content. Inkscape's equivalent of Illustrator's Pen tool is the Bezier tool (B key). The node editor (N key) functions similarly to Illustrator's direct selection tool.
 

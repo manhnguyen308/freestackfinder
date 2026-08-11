@@ -97,7 +97,7 @@ This site is not directed at children under 13 years of age. We do not knowingly
 
 ## 9. Security
 
-We implement reasonable security measures to protect information transmitted to and stored by our site. However, no method of internet transmission is 100% secure. We cannot guarantee absolute security.
+We implement reasonable security measures to protect information transmitted to and stored by our site. No method of internet transmission is 100% secure, and we cannot guarantee absolute security.
 
 ## 10. Changes to this policy
 

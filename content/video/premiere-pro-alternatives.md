@@ -34,7 +34,7 @@ Choose by workflow before brand familiarity. Timeline editing depth points to Re
 
 ## Why switching away from Premiere is harder than it looks
 
-Premiere users are not just attached to one timeline. They are often attached to:
+Premiere users often depend on a wider Adobe workflow, including:
 
 - Adobe keyboard habits
 - After Effects handoffs

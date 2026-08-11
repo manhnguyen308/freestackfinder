@@ -94,7 +94,7 @@ The tools below map cleanly to those paths.
 
 **Best fit:** Occasional editors, Chromebook users, people who receive PSDs from clients, and anyone who wants the fastest route from "I need Photoshop" to "I can edit this file right now."
 
-**What feels different in real use:** Photopea gets the most important thing right: the mental model feels familiar. If you already understand layers, adjustment logic, and Photoshop's general layout, the switch is small. Its privacy policy is also better than many people assume. Photopea says files opened in the editor are processed on your device rather than uploaded to its servers. That is a meaningful trust advantage for quick client work or one-off edits.
+**Workflow difference:** Photopea uses layers, adjustment logic, and a layout that follows the same broad model as Photoshop. Its privacy policy also says files opened in the editor are processed on the device rather than uploaded to its servers. Confirm that policy against your own handling requirements before opening sensitive client material.
 
 > **Our verdict:** Photopea is the best free Photoshop substitute for most readers because it solves the real problem quickly: opening and editing layered files without paying Adobe or installing anything heavy. It is still worth checking exports when a PSD uses smart objects, live effects, or very large linked assets, because browser editing is convenient but not identical to Photoshop's production workflow.
 

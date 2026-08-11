@@ -154,7 +154,7 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 **Best fit:** Apple users whose top priority is making sure a lost or damaged iPhone can be restored cleanly.
 
-**What feels different in daily use:** iCloud is less a storage recommendation than a safety recommendation. If you are inside Apple's ecosystem, turning it on is one of the most important backup steps you can take, even if you later outgrow the free tier.
+**What the free tier protects:** iCloud is more useful for Apple-device recovery than for general file storage. Turn it on for device data and settings, then add another backup destination when 5GB is no longer enough.
 
 [Set up iCloud ->](https://www.apple.com/icloud/)
 

@@ -116,7 +116,7 @@ CapCut is a ByteDance product designed primarily for short-form content — the 
 
 **What to watch for:** Some stock assets from CapCut's library apply a watermark to the exported video if you use them in the free tier — the watermark is avoided only if you use your own footage throughout. An online account is required to use the editor. CapCut's ownership structure means some organizations and schools have policies restricting its use on institutional devices.
 
-**Best for:** Content creators focused on short-form social videos who want built-in templates and auto-captions without a complex timeline. The auto-caption feature alone saves significant time for creators who subtitle everything.
+**Best for:** Short-form creators who want templates and auto-captions without a complex timeline. Auto-captions remove a repetitive step for anyone who subtitles every clip.
 
 **Who should skip it:** Anyone editing branded work, corporate content, or longer productions. Also not the right choice if the ByteDance association or account requirement is a concern for your organization.
 
@@ -165,7 +165,7 @@ The common mistake is downloading DaVinci Resolve because it sounds more profess
 
 ## Common mistakes when picking a free Mac video editor
 
-**Ignoring RAM and GPU requirements.** DaVinci Resolve is powerful but asks significantly more from hardware than iMovie. On a Mac with 8 GB of unified memory, 4K Resolve projects will feel sluggish without proxy clips enabled. iMovie handles the same footage smoothly because it is tightly optimized for Apple's hardware and media stack. The right tool is the one that runs well on what you actually own.
+**Ignoring RAM and GPU requirements.** DaVinci Resolve asks much more from the hardware than iMovie. On a Mac with 8 GB of unified memory, 4K Resolve projects may need proxy clips to stay responsive. iMovie is built around Apple's hardware and media stack. Choose for the Mac you own, not the editor with the longest spec sheet.
 
 **Treating "Mac compatible" as equivalent to "runs well on Mac."** Kdenlive is Mac-compatible but was built for Linux. CapCut is Mac-compatible but was built for mobile workflows and later adapted for desktop. Test with a clip from your actual camera and your typical project length before committing.
 

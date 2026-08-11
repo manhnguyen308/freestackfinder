@@ -57,23 +57,21 @@ rows:
 
 ---
 
-## How we evaluated these editors
+## What this comparison focuses on
 
-Most free-video-editor roundups read like a feature list copy-pasted from each product page. That isn't useful when you need to pick one and start cutting tomorrow. Here is what we actually weighted, and what we deliberately ignored.
+This ranking focuses on published free-tier limits and workflow fit. Performance varies with hardware and source footage, so check an editor with a representative clip before moving a real project.
 
-**Watermark behaviour, especially conditional watermarks.** Several "free" editors are technically free but watermark exports the moment you use a stock asset, a template, or a default outro. Treat any tool with conditional watermarks as a risk to check before you build a workflow around it — readers should know up front, not after they render a four-minute video and discover a logo in the corner. CapCut earns its place on this list because plain edits without templates can export clean; it loses points where templated workflows may reintroduce watermarks.
+**Watermarks and conditional export rules.** A clean export can depend on whether you used a stock asset, template, or default outro. CapCut can export plain edits without a watermark, but some template-led workflows can add one. Confirm the export path you plan to use before building a repeatable workflow around it.
 
-**Format and codec support against common source footage.** A free editor that cannot import HEVC from an iPhone, AV1 from a webcam capture, or 10-bit Log from a mid-range mirrorless can be a non-starter for many readers. The formats to check before committing are the ones you actually shoot or record: iPhone HEVC, screen-recording H.264, mirrorless 10-bit 4:2:0, and OBS-recorded formats are common examples. Where Blackmagic's current Resolve page states the free version's 8-bit/UHD/60fps limit, we say so rather than burying it in a footnote.
+**Format and codec support.** HEVC from an iPhone, AV1 from a webcam capture, 10-bit Log footage, and OBS recordings do not place the same demands on an editor. Blackmagic's published limits for free Resolve are especially relevant here: the free version is positioned around virtually all 8-bit formats up to UHD at 60fps.
 
-**Time to first usable cut for a beginner.** A pro editor that takes a week to learn isn't free if your time has any value. We weighed how long it takes someone with no editing background to import a clip, trim it, add a title, and export an MP4 that plays on social. OpenShot wins this dimension. Resolve loses it.
+**Learning overhead.** OpenShot asks less of a first-time editor. Resolve offers much more depth, but learning its editing, color, audio, and effects pages takes time. That difference matters when the immediate job is a basic cut and export.
 
-**Stability on consumer hardware.** Editors that need a $2,500 workstation to feel responsive aren't really free in the sense that matters. We considered behaviour on a typical laptop with 16 GB of RAM and integrated or low-end discrete graphics — the machine most readers actually own.
+**Hardware requirements.** Resolve is demanding compared with OpenShot or Shotcut. A free licence does not help if the editor runs poorly on the computer you already own, so check current system requirements and use proxy media when the editor supports it.
 
-**Honest limits, not marketing limits.** Free Resolve advertises a long feature list, but the AI tools, several effects, and codecs above 8-bit are paywalled behind Studio. We kept the focus on what the free tier delivers, and pointed at the paid version when the paid version is the right answer.
+**Where the paid tier begins.** Resolve Studio reserves several effects, AI features, and higher-end format support for paying users. This guide keeps those boundaries visible instead of treating the product's full feature list as part of the free version.
 
-**What we deliberately ignored:** social proof from review aggregators, raw star counts on download sites, and YouTube-tutorial volume. Those measure popularity, not fit, and they push every guide toward the same one or two winners regardless of the reader's actual workflow.
-
-The result is a list that does not crown a single best editor. The right pick depends on what you shoot, what you publish, and how much time you're willing to spend learning the tool — which is the framing the rest of this guide uses.
+Review-aggregator scores and tutorial counts are not ranking factors here. They measure popularity more readily than fit. The useful question is narrower: which editor matches your footage, output, hardware, and tolerance for setup?
 
 ---
 
@@ -86,7 +84,7 @@ People shop for "the best free editor" when they usually mean one of four very d
 - I mainly edit short social clips
 - I have footage other apps keep choking on
 
-Those are not the same requirement. A good guide should help you pick the right class of tool, not just crown one winner and move on.
+Those are different requirements. The useful comparison is between classes of tool rather than a single winner.
 
 ---
 
@@ -134,7 +132,7 @@ If you are specifically trying to replace Adobe's editor, see our full [Premiere
 - Easy short-form workflow
 
 **What to watch for:**
-- CapCut's help pages now make watermark behavior more nuanced than many older reviews suggest
+- CapCut's help pages describe more conditional watermark rules than many older reviews suggest
 - Standard editing exports are usually clean, but templates, stock assets, or a default outro can add a watermark or attribution requirement
 - It is much weaker than Resolve for longer, more deliberate editing
 
@@ -196,7 +194,7 @@ If you are specifically trying to replace Adobe's editor, see our full [Premiere
 
 ### 5. Shotcut - best when import compatibility is the pain point
 
-**What it is:** An open-source editor known for handling a wide range of formats without much fuss.
+**What it is:** An open-source editor that is especially useful for older, mixed, or stubborn source formats.
 
 **What the free version includes:**
 - Broad format support

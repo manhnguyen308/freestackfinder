@@ -3,7 +3,7 @@ title: "Free Cloud Storage & File Sharing Alternatives"
 description: "Free alternatives to Dropbox and Google Drive — how much free storage you actually get, and which service is worth using."
 ---
 
-Cloud storage free tiers have been shrinking for years. This section compares what actually matters: how much space you get, upload limits, reliability, privacy model, and whether a free tier is worth committing to.
+A storage number is only the starting point. These guides also compare shared quotas, transfer and upload limits, sync behaviour, privacy, and whether the tool is meant for everyday files or actual backup.
 
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>

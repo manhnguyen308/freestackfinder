@@ -178,7 +178,7 @@ Its strength is clean output with little setup. The board cap means it is not a 
 
 ## Tools to know about but not lead with
 
-**LibreOffice Draw** is part of the LibreOffice office suite and handles basic flowcharts, network diagrams, and simple Visio-compatible output without any subscription. It is not as capable as draw.io for complex technical diagrams, but it is a solid offline option for users already in the LibreOffice ecosystem. If you need Visio import support on desktop without any internet dependency, LibreOffice Draw is worth considering alongside draw.io.
+**LibreOffice Draw** is part of the LibreOffice suite and handles basic flowcharts, network diagrams, and simple Visio-compatible output without a subscription. It is less suited to complex technical diagrams than draw.io. Choose it when offline desktop use and Visio import matter more than browser collaboration.
 
 **Cacoo** has a free plan with limited diagrams and fewer shape libraries than Lucidchart. It is a reasonable alternative if Lucidchart's interface does not suit your workflow, but the free tier is narrow.
 

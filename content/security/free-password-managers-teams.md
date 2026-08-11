@@ -63,7 +63,7 @@ Without a shared vault, teams fall back on dangerous habits — emailing passwor
 
 The challenge is that most commercial team password managers charge per user per month. For a team of five, even budget options add up to $15–25/month — real money for a freelance studio, small agency, or early-stage startup. Genuinely free options exist, but they come with limits that require a clear-eyed assessment.
 
-The practical decision is not only "free or paid." It is whether your team can safely handle onboarding, offboarding, recovery, and accountability. A shared vault works only if someone owns the process: inviting new users, removing departed users, rotating credentials after access changes, and checking that two-factor authentication is enabled on important accounts. Free tools can support that discipline, but they do not create it for you.
+The practical decision goes beyond price. A team must safely handle onboarding, offboarding, recovery, and accountability. A shared vault works only if someone owns the process: inviting new users, removing departed users, rotating credentials after access changes, and checking that two-factor authentication is enabled on important accounts. Free tools can support that discipline, but they do not create it.
 
 ---
 
@@ -91,7 +91,7 @@ The hard limit is team size:
 
 Use it for freelance partnerships, two co-founders sharing infrastructure credentials, a designer and developer on a shared project, or any two-person team that wants shared cloud access without setup complexity.
 
-For exactly two people, this is the low-friction free option. Setup is quick: create an organization, invite one member, create shared collections. Both members keep their personal Bitwarden vaults plus access to the shared vault. The moment a third person joins, however, you hit the hard wall and need to self-host or upgrade.
+For exactly two people, this is the simplest hosted free option. Create an organization, invite one member, and add shared collections. Both members keep personal Bitwarden vaults plus access to the shared vault. A third person forces the choice between self-hosting and a paid plan.
 
 [Try Bitwarden Organizations free →](https://bitwarden.com)
 
@@ -244,4 +244,4 @@ For most small teams in 2026, the realistic free path is:
 - **Teams wanting purpose-built sharing with fine access controls:** Passbolt Community Edition on a self-hosted server.
 - **Micro-teams with occasional shared credential needs:** KeePassXC vault in shared cloud storage — simple, free, but limited.
 
-If managing a server is not realistic for your team, Bitwarden Teams at $3/user/month is the lowest-cost transition to a fully managed cloud solution. For individual password management recommendations across the whole team, start with our [free password managers guide](/security/free-password-managers/) — every team member should have a personal vault in addition to the shared one. And once your vault is set up, [free 2FA apps](/security/best-free-2fa-apps/) are the next layer of account protection worth deploying across the team.
+If managing a server is not realistic for your team, Bitwarden Teams at $3/user/month is the lowest-cost transition to a fully managed cloud solution. For individual password management recommendations, start with our [free password managers guide](/security/free-password-managers/): every team member should have a personal vault separate from the shared one. Once the vault is set up, [free 2FA apps](/security/best-free-2fa-apps/) add another layer of account protection.

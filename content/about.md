@@ -14,9 +14,9 @@ type: page
 
 Software subscriptions have gotten out of hand. Adobe Creative Cloud costs over $600 per year. Microsoft 365 charges monthly. Tools that used to be one-time purchases are now subscription-based by default.
 
-But here's the thing: for a large percentage of users, there are genuinely good free alternatives to almost every piece of paid software. The problem is finding them, and knowing which ones are actually worth using.
+Many paid tools have a usable free substitute, but the free label rarely tells you enough. Export limits, watermarks, storage caps, and team restrictions often decide whether the substitute works.
 
-That's why Free Stack Finder exists.
+Free Stack Finder exists to make those boundaries easier to compare.
 
 ## What we actually do
 
@@ -50,11 +50,9 @@ Affiliate links never influence our recommendations. If a free tool is genuinely
 
 You can read our full [affiliate disclaimer here](/disclaimer/).
 
-## Who runs this site
+## Who these guides are for
 
-Free Stack Finder is run by a small editorial team of independent software users with a strong preference for not paying for tools that do not earn their keep.
-
-We're not writing for enterprise procurement teams. We approach these comparisons from the perspective of real buyers: a freelancer who needs a dependable photo editor, a small business owner trying to avoid another monthly subscription, or a student who needs something that runs on a basic laptop or Chromebook.
+Free Stack Finder is an editorial comparison site for people choosing software without an enterprise budget. The guides focus on the decisions faced by freelancers, small businesses, students, and individuals using ordinary laptops or Chromebooks.
 
 If you have a question, a tool suggestion, or found something we got wrong, use the [contact page](/contact/) to reach us.
 

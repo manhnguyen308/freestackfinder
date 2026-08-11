@@ -3,7 +3,7 @@ title: "Free Business Software Alternatives"
 description: "Free alternatives to QuickBooks, Salesforce, Mailchimp, and other business tools — honest comparisons for freelancers and small teams."
 ---
 
-Business software subscriptions can drain thousands per year from a small operation. This section covers genuinely free alternatives to the most common business tools: CRM, invoicing, project management, accounting, and more.
+A small operation may need CRM, invoicing, project tracking, and bookkeeping without needing enterprise plans for any of them. These guides compare the free boundaries that matter first: users, records, automations, exports, and accountant or client handoff.
 
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>

@@ -31,7 +31,7 @@ The tools below are compared for small websites, blogs, affiliate sites, and sid
 
 ## Where to start
 
-**Google Analytics 4** remains the most capable free analytics tool for most websites, with deep traffic, acquisition, and conversion data — but it requires cookie consent in most regions and is not suitable for privacy-first deployments. **Google Search Console** is not general-purpose analytics, but it is the definitive free tool for understanding how your site performs in Google Search specifically; use it alongside analytics, not instead of it. **Microsoft Clarity** is the best free option for heatmaps and session recordings and pairs well with GA4 at no cost. **Umami** is the strongest self-hosted option for teams that want privacy-friendly analytics without paying for a third-party SaaS tool. **Matomo On-Premise** is more powerful but significantly more complex to run.
+**Google Analytics 4** covers traffic, acquisition, events, and conversions at no software cost, but it brings consent and privacy work in many regions. **Google Search Console** only covers Google Search performance, so use it beside analytics rather than as a substitute. **Microsoft Clarity** adds heatmaps and session recordings. Choose **Umami** for a lighter self-hosted setup, or **Matomo On-Premise** when deeper reporting is worth the extra server and maintenance work.
 
 For a beginner setup, start with the question you need answered. Search visibility points to Search Console. Traffic sources and conversion events point to GA4. Layout confusion points to Clarity. Privacy-friendly dashboards point to Umami, and full self-hosted reporting depth points to Matomo if you can maintain it.
 
@@ -182,7 +182,7 @@ Matomo fits teams that need GA4-equivalent depth plus full data sovereignty and 
 
 For most small websites, the combination of **Google Analytics 4** and **Google Search Console** covers everything you need to understand your traffic and improve it — and both are free with no meaningful cap for sites at this scale. Add **Microsoft Clarity** if you want heatmaps and session recordings without paying for Hotjar.
 
-If cookie consent or privacy compliance is a significant concern for your audience, **Umami** self-hosted is the most practical starting point: it is lighter to run than Matomo, faster to set up, and genuinely free as long as you have hosting.
+If cookie consent or privacy requirements drive the decision, **Umami** self-hosted is the practical starting point. It is lighter to run than Matomo and carries no software fee when you already have hosting.
 
 Matomo On-Premise is worth the effort if you need GA4-depth reporting without relying on Google infrastructure, and you have someone comfortable managing a PHP application long-term.
 
