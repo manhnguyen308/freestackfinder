@@ -29,7 +29,7 @@ We do not require registration or account creation to use this site, and we do n
 When you visit Free Stack Finder, our hosting, security, advertising, and infrastructure providers may automatically process limited technical data such as:
 
 - **Pages visited** and navigation paths through the site
-- **Approximate geographic location** (country or region level — we do not collect precise location)
+- **Approximate geographic location** (country or region level: we do not collect precise location)
 - **Device and browser type** (e.g., Chrome on Windows, Safari on iPhone)
 - **Referring URL** (the page that linked you here)
 - **Time and date** of your visit

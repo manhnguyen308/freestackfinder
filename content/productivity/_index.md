@@ -1,6 +1,6 @@
 ---
 title: "Free Productivity Software Alternatives"
-description: "Free alternatives to Microsoft Office, Notion, Grammarly, Slack, and more — compared with honest free-plan limits."
+description: "Free alternatives to Microsoft Office, Notion, Grammarly, Slack, and more, compared by free-plan limits and workflow fit."
 ---
 
 Start with the task you need to keep: editing Office files, taking notes, checking writing, managing chat, or changing a PDF. These guides compare free tools by that workflow and the limit most likely to interrupt it.
@@ -8,9 +8,9 @@ Start with the task you need to keep: editing Office files, taking notes, checki
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>
 <ul>
-<li><a href="/productivity/microsoft-office-alternatives/">Microsoft Office Alternatives</a> — if you need word processing, spreadsheets, or presentations</li>
-<li><a href="/productivity/free-note-taking-apps/">Free Note-Taking Apps</a> — if you're replacing Notion, Evernote, or OneNote</li>
-<li><a href="/productivity/grammarly-alternatives/">Free Writing Assistants</a> — if you want grammar and clarity help without a Grammarly subscription</li>
-<li><a href="/productivity/free-pdf-editor-alternatives/">Free PDF Editors</a> — if you need to edit, sign, or convert PDFs without Adobe</li>
+<li><a href="/productivity/microsoft-office-alternatives/">Microsoft Office Alternatives</a>: if you need word processing, spreadsheets, or presentations</li>
+<li><a href="/productivity/free-note-taking-apps/">Free Note-Taking Apps</a>: if you're replacing Notion, Evernote, or OneNote</li>
+<li><a href="/productivity/grammarly-alternatives/">Free Writing Assistants</a>: if you want grammar and clarity help without a Grammarly subscription</li>
+<li><a href="/productivity/free-pdf-editor-alternatives/">Free PDF Editors</a>: if you need to edit, sign, or convert PDFs without Adobe</li>
 </ul>
 </div>

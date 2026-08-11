@@ -14,7 +14,7 @@ By accessing or using Free Stack Finder ("the site"), you agree to be bound by t
 
 ## 1. Informational purposes only
 
-The content on Free Stack Finder is provided for **informational purposes only**. Nothing on this site constitutes professional advice of any kind — including but not limited to legal, financial, technical, or business advice.
+The content on Free Stack Finder is provided for **informational purposes only**. Nothing on this site constitutes professional advice of any kind, including but not limited to legal, financial, technical, or business advice.
 
 Software recommendations reflect the published free-plan limits and editorial comparisons available when each page is updated. We make no guarantees that any tool will be suitable for your specific needs or circumstances.
 
@@ -32,7 +32,7 @@ Some links on this site are affiliate links. See our full [Affiliate Disclaimer]
 
 ## 4. Intellectual property
 
-All original content on Free Stack Finder — including text, graphics, and layout — is owned by or licensed to Free Stack Finder and protected by applicable intellectual property laws.
+All original content on Free Stack Finder, including text, graphics, and layout, is owned by or licensed to Free Stack Finder and protected by applicable intellectual property laws.
 
 You may:
 - Link to any page on this site

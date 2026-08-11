@@ -30,7 +30,7 @@
     {{ end }}
   </header>
 
-  <!-- Articles Grid — sorted by date descending -->
+  <!-- Articles Grid: sorted by date descending -->
   {{ if $paginator.Pages }}
   <div class="articles-grid category-articles">
     {{ range $paginator.Pages }}
@@ -44,7 +44,7 @@
   {{ template "_internal/pagination.html" . }}
 
   {{ else }}
-  <p class="empty-state">No articles in this category yet. Check back soon — we publish new comparisons weekly.</p>
+  <p class="empty-state">No articles are published in this category yet. Browse another category or use site search.</p>
   {{ end }}
 
 </div>

@@ -19,10 +19,10 @@ summarylength = 40
   # Real site-owner author identity. Fill these before the next deploy.
   # Any field left blank falls back to the generic team byline, so the live
   # site stays safe until real details are supplied.
-  name = ""   # AUTHOR_NAME_PLACEHOLDER — real author full name, e.g. "Jane Doe"
+  name = ""   # AUTHOR_NAME_PLACEHOLDER: real author full name, e.g. "Jane Doe"
   role = ""   # optional title, e.g. "Editor"
-  bio = ""    # AUTHOR_BIO_PLACEHOLDER — 1–2 sentences; no "we tested" claims unless verified
-  photo = ""  # AUTHOR_PHOTO_PLACEHOLDER — optional, e.g. "/img/authors/jane.webp"
+  bio = ""    # AUTHOR_BIO_PLACEHOLDER: 1 to 2 sentences; no "we tested" claims unless verified
+  photo = ""  # AUTHOR_PHOTO_PLACEHOLDER: optional, e.g. "/img/authors/jane.webp"
 
 [params.social]
   twitter = ""

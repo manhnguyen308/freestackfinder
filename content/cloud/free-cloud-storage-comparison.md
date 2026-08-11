@@ -18,15 +18,15 @@ author: "FreeStackFinder Team"
 
 Free cloud storage comparisons often overfocus on the headline number and under-explain the catch. That is how you end up with a list that says one service gives "more space" while quietly ignoring transfer limits, shared quotas, upload caps, weak privacy, or poor collaboration.
 
-The storage number still matters, especially if you are trying to avoid a paid plan. But it is only the first filter. The better question is: **What kind of free storage are you actually getting?**
+The storage number still matters, especially if you are trying to avoid a paid plan. But it is only the first filter. The better question is: **What kind of free storage are you getting?**
 
 If you want the most free space, one answer wins. If you want the best daily workflow, a different one does.
 
-## Where to start
+## Start with the storage type
 
 If your goal is simple capacity, **MEGA** still offers the biggest mainstream free allowance at **20GB**. If your goal is practical day-to-day use, **Google Drive** is still the most useful free option because the storage comes with Docs, Sheets, Slides, and strong sharing. If privacy matters more than size, **Proton Drive** is now much more competitive than older reviews suggest because its free tier sits at **5GB**, not the old 1GB figure many articles still repeat.
 
-The weakest free value here is **Dropbox**. It is still polished, but at **2GB** and a **30-day** free version-history window, it is hard to recommend as your main free storage account unless you already depend on the Dropbox ecosystem.
+The weakest free value here is **Dropbox**. Its sync client is mature, but the free plan offers only **2GB** and a **30-day** version-history window. Keep it only when an existing Dropbox workflow matters more than storage allowance.
 
 {{< comparison-table >}}
 columns:
@@ -71,7 +71,7 @@ rows:
 
 Two services can both say "5GB free" and still feel completely different in practice.
 
-One might be perfect for Windows backups and Office files. Another might be better for private document storage. Another might fill up instantly because it is also carrying your photos, email, and phone backups.
+One service may fit Windows backups and Office files, while another gives private documents stronger protections. A third can run out of space quickly if it also carries photos, email, and phone backups.
 
 That is why this ranking starts with free space but breaks ties using practical usefulness:
 
@@ -228,9 +228,9 @@ That is why this ranking starts with free space but breaks ties using practical 
 
 ---
 
-### 7. Dropbox - polished, but the weakest free value here
+### 7. Dropbox: mature sync, weak free storage
 
-**What it is:** The best-known legacy cloud storage brand, still polished but now outclassed on the free plan.
+**What it is:** A mature sync service whose 2GB free allowance trails every main alternative in this comparison.
 
 **On the free plan:**
 - 2GB storage
@@ -266,7 +266,7 @@ That is usually the point where the time cost of managing around a free plan bec
 
 ---
 
-## The takeaway
+## The storage decision
 
 If you want the most free space, use **MEGA**. If you want the most useful free storage day to day, use **Google Drive**. If you want privacy-first storage, **Proton Drive** deserves more attention than it got a year ago. **Dropbox** is no longer a serious first recommendation on free.
 

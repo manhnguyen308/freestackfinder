@@ -5,10 +5,10 @@
 {{ $ogImage := .Params.image | default $fallbackImage }}
 {{ $titleText := .Title }}
 {{ if .IsHome }}
-  {{ $titleText = printf "%s — %s" .Site.Title .Site.Params.tagline }}
+  {{ $titleText = printf "%s: %s" .Site.Title .Site.Params.tagline }}
 {{ else if $isArticlePage }}
-  {{ if and (gt (len .Title) 60) (in .Title " — ") }}
-    {{ $titleText = index (split .Title " — ") 0 }}
+  {{ if and (gt (len .Title) 60) (in .Title ": ") }}
+    {{ $titleText = index (split .Title ": ") 0 }}
   {{ else if and (gt (len .Title) 60) (in .Title " - ") }}
     {{ $titleText = index (split .Title " - ") 0 }}
   {{ end }}
@@ -57,7 +57,7 @@
 <meta property="og:type" content="website" />
 {{ end }}
 
-<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }} — {{ .Site.Params.tagline }}{{ else }}{{ .Title }}{{ end }}" />
+<meta property="og:title" content="{{ if .IsHome }}{{ .Site.Title }}: {{ .Site.Params.tagline }}{{ else }}{{ .Title }}{{ end }}" />
 <meta property="og:description" content="{{ $pageDescription }}" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:site_name" content="{{ .Site.Title }}" />
@@ -86,7 +86,7 @@
      crossorigin="anonymous"></script>
 {{ end }}
 
-{{/* Google Analytics 4 — replace G-XXXXXXXXXX */}}
+{{/* Google Analytics 4: replace G-XXXXXXXXXX */}}
 {{/*
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
 <script>

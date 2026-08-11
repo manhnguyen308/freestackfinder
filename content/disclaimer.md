@@ -12,13 +12,13 @@ type: page
 
 ## Our commitment to transparency
 
-Free Stack Finder is reader-supported. Some of the links on this site are **affiliate links**, which means we may earn a small commission if you click through and make a purchase — at absolutely no extra cost to you.
+Free Stack Finder is reader-supported. Some of the links on this site are **affiliate links**, which means we may earn a small commission if you click through and make a purchase: at absolutely no extra cost to you.
 
 The FTC (Federal Trade Commission) and similar regulators require clear disclosure of these relationships.
 
 ## How affiliate links work on this site
 
-When we write a comparison article — say, "Best free alternatives to Adobe Photoshop" — we may include a link to the paid version of Photoshop or another premium tool. If you click that link and purchase the product, we receive a small percentage of the sale price.
+When we write a comparison article, say, "Best free alternatives to Adobe Photoshop", we may include a link to the paid version of Photoshop or another premium tool. If you click that link and purchase the product, we receive a small percentage of the sale price.
 
 That commission helps fund the site and does not change the price paid by the reader.
 
@@ -30,14 +30,14 @@ If a free tool is the better fit, we recommend it even when that recommendation 
 
 We may decline to feature tools when the product does not fit the reader need, even if an affiliate program exists. Our comparison process and recommendations are independent.
 
-If we recommend a paid tool or the paid version of a free tool, it's because we believe it's the right choice for a specific use case — not because of commission rates.
+If we recommend a paid tool or the paid version of a free tool, it's because we believe it's the right choice for a specific use case, not because of commission rates.
 
 ## Programs we participate in
 
 We currently participate in the following affiliate programs:
 
-- **Amazon Associates** — for hardware and physical product links (webcams, security keys, storage drives, and similar)
-- **NordVPN and NordPass affiliate programs** — Nord Security's affiliate programs for VPN and password manager recommendations
+- **Amazon Associates**: for hardware and physical product links (webcams, security keys, storage drives, and similar)
+- **NordVPN and NordPass affiliate programs**: Nord Security's affiliate programs for VPN and password manager recommendations
 
 This list reflects programs currently in use and is updated when our affiliate relationships change. Where we earn from a specific recommendation, we aim to note it clearly in the article.
 

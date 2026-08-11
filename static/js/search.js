@@ -1,4 +1,4 @@
-/* FreeStackFinder — search.js */
+/* FreeStackFinder: search.js */
 
 (function () {
   'use strict';

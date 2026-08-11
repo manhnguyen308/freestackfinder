@@ -53,10 +53,10 @@
         <span>{{ math.Round (div (countwords .Content) 200.0) }} min read</span>
       </div>
 
-      <p class="editorial-note article-editorial-note">Some links on this page are affiliate links — we may earn a commission if you make a purchase, at no extra cost to you. We compare the tools we cover and note important free-tier limits. <a href="/about/">How we evaluate</a> · <a href="/disclaimer/">Full disclosure</a> · <a href="/contact/">Report a change</a></p>
+      <p class="editorial-note article-editorial-note">Some links on this page are affiliate links. We may earn a commission if you make a purchase, at no extra cost to you. We compare the tools we cover and note important free-tier limits. <a href="/about/">How we evaluate</a> · <a href="/disclaimer/">Full disclosure</a> · <a href="/contact/">Report a change</a></p>
     </header>
 
-    <!-- Ad slot: top of article — activate after AdSense approval -->
+    <!-- Ad slot: top of article: activate after AdSense approval -->
     {{ if .Site.Params.showAds }}
     <div class="ad-container ad-top" aria-label="Advertisement">
       <ins class="adsbygoogle"
@@ -109,7 +109,7 @@
     </div>
     {{ end }}
 
-    <!-- Ad sidebar — activate after AdSense approval -->
+    <!-- Ad sidebar: activate after AdSense approval -->
     {{ if .Site.Params.showAds }}
     <div class="sidebar-widget ad-widget" aria-label="Advertisement">
       <ins class="adsbygoogle"
@@ -139,7 +139,7 @@
     {{ with .Site.GetPage "/free-stack-guide" }}
     <div class="sidebar-widget cta-widget">
       <h4>Free stack for freelancers</h4>
-      <p>Get our curated list of the best free tools for freelancers and small teams — no email required.</p>
+      <p>Get our list of free tools for freelancers and small teams. No email required.</p>
       <a href="{{ .RelPermalink }}" class="btn btn-primary">Download free →</a>
     </div>
     {{ end }}

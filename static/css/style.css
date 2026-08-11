@@ -1,5 +1,5 @@
 /* ===========================================
-   SwitchForFree — Main Stylesheet
+   SwitchForFree - Main Stylesheet
    Mobile-first | AdSense-friendly | Fast
    =========================================== */
 
@@ -220,7 +220,7 @@ button { font-family: inherit; cursor: pointer; }
 .hero-meta a:hover { color: var(--primary); }
 @media (max-width: 600px) { .hero { padding: 40px 0 36px; } }
 
-/* Tenets strip — light editorial replacement for the loud trust banner */
+/* Tenets strip - light editorial replacement for the loud trust banner */
 .tenets-section {
   background: var(--bg-2);
   border-top: 1px solid var(--border);
@@ -631,7 +631,7 @@ button { font-family: inherit; cursor: pointer; }
   margin: 32px 0;
 }
 
-/* Tables — mobile scrollable */
+/* Tables - mobile scrollable */
 .article-content .table-wrap { overflow-x: auto; margin: 24px 0; -webkit-overflow-scrolling: touch; }
 .article-content table {
   width: 100%;
@@ -1161,7 +1161,7 @@ button { font-family: inherit; cursor: pointer; }
   }
 }
 
-/* 25. Responsive — Mobile
+/* 25. Responsive - Mobile
    =========================================== */
 @media (max-width: 768px) {
   .nav-toggle { display: flex; }
@@ -1691,7 +1691,7 @@ mark {
   }
 }
 
-/* 32. Freshness indicator — updated dates on cards and list items
+/* 32. Freshness indicator - updated dates on cards and list items
    =========================================== */
 .card-meta time.updated,
 .article-list-item time.updated {

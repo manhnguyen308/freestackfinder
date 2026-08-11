@@ -1,4 +1,4 @@
-{{/* Review / methodology trust block — shown on article pages only. */}}
+{{/* Review / methodology trust block: shown on article pages only. */}}
 {{ if and (not .Params.noindex) (ne .Type "page") .Params.categories }}
 <aside class="review-block" aria-label="Review and methodology">
   <div class="review-block-item">
@@ -11,7 +11,7 @@
   </div>
   <div class="review-block-item">
     <span class="review-block-label">What "free" means here</span>
-    <p>Some tools are fully free or open source. Others have limited free plans that are still genuinely useful.</p>
+    <p>Some tools are fully free or open source. Others have limited free plans that are still useful.</p>
   </div>
 </aside>
 {{ end }}

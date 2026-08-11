@@ -3,7 +3,7 @@
   Call with: {{ partial "related-guides.html" (dict "page" . "limit" 5) }}
 
   Strategy: a slug -> [slugs] map captures the strongest editorial next-reads
-  per article (cluster-first, adjacent-cluster when genuinely helpful). Falls
+  per article (cluster-first, adjacent-cluster when helpful). Falls
   back to Hugo's built-in .Related when a slug is not in the map, so newly
   added articles still get reasonable recommendations until curated.
 */}}

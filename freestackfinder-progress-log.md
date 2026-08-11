@@ -15,6 +15,19 @@
 
 ---
 
+### 2026-08-11 - Sitewide rendered-copy humanizer pass completed
+
+- Rule sources: used both `.claude/skills/humanizer.md` and the complete `.claude/skills/humanizer.skill` package, including its reference list and scanner. This pass covered all reader-visible source copy, not only article bodies.
+- Scope: inventoried 85 public-source files across `content/`, `layouts/`, `static/`, and `config.toml`; reviewed all 50 published articles, section hubs, homepage cards and labels, trust/start pages, shared article components, navigation, footer, search/404 copy, metadata templates, and static UI text.
+- Initial audit: found 1,102 em dashes and 33 en dashes in public-source text, plus repeated uses of vague intensifiers and editorial shortcuts such as "actually," "genuinely," "honest," "polished," and "capable." The homepage use-case cards and many article titles/section endings also repeated the same formula.
+- Cleanup: replaced dash-heavy constructions with sentence-specific punctuation or direct phrasing; rewrote homepage collection descriptions around concrete jobs; replaced vague praise with plan limits, workflow fit, or upgrade boundaries; changed formulaic title triplets and generic closing headings where they obscured the decision; and cleaned shared rendered copy outside the article tree.
+- Integrity: no first-hand experience, screenshots, benchmarks, setup observations, pricing discoveries, credentials, or author details were invented. Unsupported testing-language and placeholder scans are clean. Real first-hand inputs listed in the earlier article-audit entry are still needed before Phase 3 differentiation.
+- Preservation: article count remains 50, with no article added or removed. Slugs, aliases, dates, lastmod values, weights, affiliate links, images, redirects, schema behavior, the author system, homepage weighting, and ad settings were not changed. Ads remain disabled with `showAds = false`.
+- Validation: the packaged humanizer scanner reports 0 finding files across all 85 public-source files. `python scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 front-matter errors, 0 broken internal links, 0 missing images, 0 stale articles, and 3 known image orphans; the no-argument publish checklist printed cleanly. Hugo Extended 0.160.1 built 476 pages, 21 paginator pages, and 210 aliases with 0 errors. Scans across 500 generated HTML files found 0 em/en dash files, 0 targeted vague-phrase files, 0 unsupported first-hand files, 0 placeholder files, and 0 ad-script files; the packaged scanner also passed the consolidated rendered text. Protected comparisons found 0 slug/alias/date/lastmod/weight changes, 0 external or `/go/` link changes, 0 image-reference changes, and 0 added, deleted, or renamed files. `git diff --check` passed.
+- Freeze note: this is a quality-authenticity cleanup. Restart the 14-day AdSense freeze after deployment. Do not start Phase 3 first-hand differentiation until real user inputs are supplied.
+
+---
+
 ### 2026-08-11 — Humanizer quality-authenticity cleanup completed
 
 - Scope: scanned all 50 published silo articles and the important indexable hub/start/trust copy. Used `.claude/skills/humanizer.md` as the governing rulebook. This was a quality-authenticity cleanup only: no article was added, removed, consolidated, noindexed, or redirected.

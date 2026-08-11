@@ -18,7 +18,7 @@ Many paid tools have a usable free substitute, but the free label rarely tells y
 
 Free Stack Finder exists to make those boundaries easier to compare.
 
-## What we actually do
+## What we do
 
 We focus on tools with usable free plans, then compare them by the limits readers usually discover too late: exports, watermarks, storage, seats, usage caps, platform support, and upgrade pressure.
 
@@ -28,7 +28,7 @@ When a free tool is a good alternative, we explain why. When it is too limited, 
 
 For every comparison, we review:
 
-- What is genuinely free versus what requires an upgrade
+- What is free versus what requires an upgrade
 - The practical limits that affect normal use
 - Platform support, export options, storage, usage caps, and account requirements
 - Where a free option can replace a paid tool, and where it cannot
@@ -40,13 +40,13 @@ Our reviews are updated when pricing or features change significantly. If you fi
 
 Software changes quickly. Free plans get tighter, pricing pages move, and features that were generous last quarter can become limited without much warning.
 
-When we spot a material change, we update the article and its "Updated" date. If you find something stale, email us with the page URL or the tool name — correction reports are one of the fastest ways this site gets better.
+When we spot a material change, we update the article and its "Updated" date. If you find something stale, email us with the page URL or the tool name: correction reports are one of the fastest ways this site gets better.
 
-## Our honest policy on affiliate links
+## Our affiliate policy
 
-Some articles on this site contain affiliate links — links to paid tools that we may earn a small commission on if you click and purchase. We only include these when they're genuinely relevant: for example, recommending the paid version of a tool when the free version isn't enough for your use case.
+Some articles on this site contain affiliate links: links to paid tools that we may earn a small commission on if you click and purchase. We only include these when they're relevant: for example, recommending the paid version of a tool when the free version isn't enough for your use case.
 
-Affiliate links never influence our recommendations. If a free tool is genuinely better for most users, we'll say so, even if the paid alternative pays a higher commission.
+Affiliate links never influence our recommendations. If a free tool is better for most users, we'll say so, even if the paid alternative pays a higher commission.
 
 You can read our full [affiliate disclaimer here](/disclaimer/).
 

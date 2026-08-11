@@ -8,11 +8,11 @@ type: page
 
 # Contact
 
-<p class="page-meta">Last updated: April 2026 · We read every message. Response time is usually 2–5 business days.</p>
+<p class="page-meta">Last updated: April 2026 · We read every message. Response time is usually 2 to 5 business days.</p>
 
 ## Ways to reach us
 
-**Found outdated information?** Software pricing and features change constantly. If you spot something that's no longer accurate, please let us know — it helps us keep the site useful for everyone.
+**Found outdated information?** Software pricing and features change constantly. If you spot something that's no longer accurate, please let us know: it helps us keep the site useful for everyone.
 
 **Want to suggest a tool or comparison?** We're always looking for free software categories or tools we haven't covered yet. If there's a comparison you'd like to see, send it through.
 

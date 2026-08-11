@@ -1,7 +1,7 @@
-{{/* Schema.org markup partial — FreeStackFinder */}}
+{{/* Schema.org markup partial: FreeStackFinder */}}
 {{ $isArticlePage := and .IsPage (ne .Type "page") (not .Params.noindex) }}
 
-{{/* Article schema — on every article page */}}
+{{/* Article schema: on every article page */}}
 {{ if $isArticlePage }}
 <script type="application/ld+json">
 {
@@ -64,7 +64,7 @@
 
 {{ end }}
 
-{{/* Site-level WebSite and Organization schema — only on homepage */}}
+{{/* Site-level WebSite and Organization schema: only on homepage */}}
 {{ if .IsHome }}
 <script type="application/ld+json">
 {
