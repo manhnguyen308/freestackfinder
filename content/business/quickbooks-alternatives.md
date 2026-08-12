@@ -48,7 +48,7 @@ Assess the business complexity before switching. Payroll, inventory, multiple fi
 
 Wave is a free cloud-based accounting, invoicing, and receipt management platform built specifically for freelancers and very small businesses.
 
-Compared with QuickBooks, Wave makes more sense when you need the core freelance accounting workflow without payroll, inventory, or multi-user finance controls. The free Starter plan covers unlimited income and expense tracking, unlimited invoicing with customisable templates, unlimited bank and credit card connections, receipt scanning, profit and loss, balance sheet, cash flow reporting, multi-currency support, and core accounting with no recurring subscription.
+Compared with QuickBooks, Wave makes more sense when you need the core freelance accounting workflow without payroll, inventory, or multi-user finance controls. The free Starter plan covers unlimited income and expense tracking, unlimited invoicing with customizable templates, unlimited bank and credit card connections, receipt scanning, profit and loss, balance sheet, cash flow reporting, multi-currency support, and core accounting with no recurring subscription.
 
 The limits sit around the services that turn a solo bookkeeping setup into a broader business platform. Payment processing has per-transaction fees, payroll is a paid add-on, bookkeeping and accountant support services are paid extras, and some advanced reporting is more limited than QuickBooks.
 

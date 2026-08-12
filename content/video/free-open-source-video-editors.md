@@ -19,7 +19,7 @@ image: "/img/free-open-source-video-editors.webp"
 author: "FreeStackFinder Team"
 ---
 
-An open-source editor and a commercial editor with a free tier are different bets. A vendor can tighten export limits or discontinue a free plan. An open-source licence keeps the code available, even if the original project slows down or changes hands.
+An open-source editor and a commercial editor with a free tier are different bets. A vendor can tighten export limits or discontinue a free plan. An open-source license keeps the code available, even if the original project slows down or changes hands.
 
 That permanence comes with rough edges. Documentation, platform polish, captions, and social templates often lag behind commercial editors. The useful choice is which compromise fits the work you need to finish, rather than choosing by license alone.
 
@@ -27,7 +27,7 @@ That permanence comes with rough edges. Documentation, platform polish, captions
 
 Start with **Kdenlive** for a conventional multi-track editor with proxy support. Keep **Shotcut** in mind for difficult source formats, and use **OpenShot** when the project is simple and the learning curve matters most. **Blender's Video Sequence Editor** only makes sense if Blender is already part of the job. Treat **Olive Video Editor** as pre-release software, not the place to keep a deadline-critical project.
 
-If color work matters more than licence type, read our [main free video editing software guide](/video/free-video-editing-software/). DaVinci Resolve is proprietary, but its free tier has much deeper grading tools.
+If color work matters more than license type, read our [main free video editing software guide](/video/free-video-editing-software/). DaVinci Resolve is proprietary, but its free tier has much deeper grading tools.
 
 ---
 
@@ -44,7 +44,7 @@ These are real advantages for creators who want stability and predictability. Th
 
 ---
 
-## Quick comparison
+## Quick comparison table
 
 | Editor | Best for | Platform | Complexity | Active development |
 |--------|----------|----------|------------|-------------------|
@@ -178,7 +178,7 @@ Anyone working on projects where data integrity and delivery deadlines matter. O
 
 Open-source editors are a good fit for a specific kind of user. They are not the right starting point for everyone.
 
-**If you need serious color grading.** DaVinci Resolve's free tier is proprietary, but its scopes and node-based grading go well beyond the tools listed here. If color work is central to the output, licence type should not drive the choice.
+**If you need serious color grading.** DaVinci Resolve's free tier is proprietary, but its scopes and node-based grading go well beyond the tools listed here. If color work is central to the output, license type should not drive the choice.
 
 **If you create primarily short-form social content.** CapCut is not open-source, but it is better for TikTok, Reels, and Shorts: auto-captions, templates, social-format presets, and platform-specific sizing are all built in. No open-source editor competes here. See our [free Premiere Pro alternatives guide](/video/premiere-pro-alternatives/) for a comparison that includes both open-source and proprietary options.
 

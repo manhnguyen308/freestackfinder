@@ -57,11 +57,11 @@ Google Calendar's free account covers the core scheduling jobs most people need:
 - Appointment scheduling pages for free (limited slots)
 
 The limits mostly show up when you use it as a business scheduling system:
-- Google Workspace (paid) adds admin controls, custom domains, and organisational sharing
+- Google Workspace (paid) adds admin controls, custom domains, and organizational sharing
 - Some appointment booking features are more limited on the free tier versus Workspace plans
 - No end-to-end encryption for event content
 
-Use it if Gmail, Google Meet, or Google Workspace already sits at the centre of your day. It fits personal calendars, school schedules, family calendars, and small-team coordination where shared calendars and invitations matter more than formal admin controls.
+Use it if Gmail, Google Meet, or Google Workspace already sits at the center of your day. It fits personal calendars, school schedules, family calendars, and small-team coordination where shared calendars and invitations matter more than formal admin controls.
 
 The practical advantage is passive event capture. Flight bookings, restaurant reservations, package deliveries, and event tickets can appear in your calendar without manual entry. For heavy email users, that saves more time than any visual calendar feature. Pair it with a [free note-taking app](/productivity/free-note-taking-apps/) to keep meeting notes alongside each event.
 
@@ -151,7 +151,7 @@ Proton Calendar is the only mainstream calendar app here where event details are
 Zoho Calendar is a calendar tool within the Zoho productivity suite, free with any Zoho account: designed for individuals and small teams.
 
 Zoho Calendar covers the small-team basics:
-- Multiple calendars with colour-coding
+- Multiple calendars with color-coding
 - Event invitations and attendee management
 - Integration with Zoho Mail, Zoho CRM, and other Zoho apps
 - Team calendar view for coordinating across a small group

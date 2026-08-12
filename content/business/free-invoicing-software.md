@@ -114,7 +114,7 @@ Invoice Ninja is an open-source invoicing platform with a free hosted tier (up t
 
 Invoice Ninja's hosted free plan covers up to 20 clients, while the self-hosted path can be unlimited. It includes unlimited invoices, quotes, and proposals; time tracking that links directly to invoices; expense tracking; project billing; recurring invoices; a client portal; and payment gateway integrations including Stripe, PayPal, WePay, and others.
 
-The hosted client limit is the hard ceiling, and some template customisation sits behind paid tiers. Self-hosting removes the hosted client cap, but it requires a VPS plus ongoing updates and backups. Agencies, consultants, and developers who bill by the hour or project get the cleanest fit.
+The hosted client limit is the hard ceiling, and some template customization sits behind paid tiers. Self-hosting removes the hosted client cap, but it requires a VPS plus ongoing updates and backups. Agencies, consultants, and developers who bill by the hour or project get the cleanest fit.
 
 The time-tracking-to-invoice workflow is what separates Invoice Ninja from Wave and Zoho Invoice. If your invoices are built from tracked hours rather than fixed amounts, logging time inside Invoice Ninja and converting it directly to a line-item invoice is meaningfully faster than exporting from a separate time tracker and manually building an invoice.
 
@@ -130,7 +130,7 @@ Square Invoices is built around service payments rather than bookkeeping. The fr
 
 Payment processing uses Square's listed invoice-payment rate, and the product does not replace accounting software or time tracking. Multi-currency support is also limited. Cleaners, contractors, photographers, tutors, and other service businesses benefit most when in-person and remote card payments can run through the same Square ecosystem.
 
-The digital contract and e-signature flow is Square's differentiator. Sending a signed contract and an invoice in a single workflow removes friction from the proposal-to-payment process, while milestone payments help on longer projects where clients prefer staged billing. Square's recognisable brand also reduces payment friction with individual clients compared with less-familiar platforms.
+The digital contract and e-signature flow is Square's differentiator. Sending a signed contract and an invoice in a single workflow removes friction from the proposal-to-payment process, while milestone payments help on longer projects where clients prefer staged billing. Square's recognizable brand also reduces payment friction with individual clients compared with less-familiar platforms.
 
 [Try Square Invoices free →](https://squareup.com/us/en/invoices)
 
@@ -140,9 +140,9 @@ The digital contract and e-signature flow is Square's differentiator. Sending a 
 
 PayPal Invoicing is PayPal's built-in invoicing feature, available to any PayPal Business account at no subscription cost.
 
-PayPal keeps the invoice workflow simple: unlimited invoices to unlimited clients, customisable templates, payment tracking and history, partial payment support, QR code payment links, and automatic reminders are included without a subscription.
+PayPal keeps the invoice workflow simple: unlimited invoices to unlimited clients, customizable templates, payment tracking and history, partial payment support, QR code payment links, and automatic reminders are included without a subscription.
 
-The trade-off is cost and depth. PayPal's listed transaction fee is higher than Square or Stripe, there are no accounting features, project or time-based billing is absent, and template customisation is limited compared with Wave or Zoho Invoice. Freelancers whose clients already prefer PayPal, especially international clients in PayPal-heavy regions, get the lowest setup friction.
+The trade-off is cost and depth. PayPal's listed transaction fee is higher than Square or Stripe, there are no accounting features, project or time-based billing is absent, and template customization is limited compared with Wave or Zoho Invoice. Freelancers whose clients already prefer PayPal, especially international clients in PayPal-heavy regions, get the lowest setup friction.
 
 PayPal's primary advantage is client trust. Many clients, especially individuals and small businesses, are more comfortable paying a PayPal invoice than entering card details into an unfamiliar system. The invoicing feature is basic, but it gets money from client to bank account reliably with minimal friction on both sides.
 

@@ -73,7 +73,7 @@ The one mistake to avoid is treating migration as a someday task. A password man
 
 Bitwarden is an open-source, end-to-end encrypted password manager with unlimited storage across unlimited devices on the free tier, and an independently audited security model.
 
-Bitwarden's free tier is unusually broad: unlimited passwords, unlimited devices, end-to-end encryption, browser extensions for Chrome, Firefox, Safari, Edge, and more, desktop apps, mobile apps, secure notes, credit card and identity storage, a customisable password generator, and basic two-factor authentication support are all included.
+Bitwarden's free tier is unusually broad: unlimited passwords, unlimited devices, end-to-end encryption, browser extensions for Chrome, Firefox, Safari, Edge, and more, desktop apps, mobile apps, secure notes, credit card and identity storage, a customizable password generator, and basic two-factor authentication support are all included.
 
 The paid gates are advanced 2FA options such as YubiKey and FIDO2 hardware keys, encrypted file attachments, emergency access, and fuller Bitwarden Send file-sharing use. For almost everyone, individuals, families using separate accounts, and developers who want open-source security tooling they can verify themselves, the free plan covers daily password management without forcing a device-sync compromise.
 

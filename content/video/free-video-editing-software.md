@@ -65,7 +65,7 @@ This ranking focuses on published free-tier limits and workflow fit. Performance
 
 **Learning overhead.** OpenShot asks less of a first-time editor. Resolve offers much more depth, but learning its editing, color, audio, and effects pages takes time. That difference matters when the immediate job is a basic cut and export.
 
-**Hardware requirements.** Resolve is demanding compared with OpenShot or Shotcut. A free licence does not help if the editor runs poorly on the computer you already own, so check current system requirements and use proxy media when the editor supports it.
+**Hardware requirements.** Resolve is demanding compared with OpenShot or Shotcut. A free license does not help if the editor runs poorly on the computer you already own, so check current system requirements and use proxy media when the editor supports it.
 
 **Where the paid tier begins.** Resolve Studio reserves several effects, AI features, and higher-end format support for paying users. This guide keeps those boundaries visible instead of treating the product's full feature list as part of the free version.
 
@@ -221,4 +221,4 @@ If you need to record before you edit, pair this list with our guide to [free sc
 
 If you are on a Mac and want platform-specific guidance, including iMovie, Apple Silicon performance notes, and macOS codec considerations, see our [free video editing software for Mac guide](/video/free-video-editing-mac/).
 
-If you want tools with public source code and open licences instead of vendor-controlled free tiers, see our dedicated guide to [free open-source video editors](/video/free-open-source-video-editors/).
+If you want tools with public source code and open licenses instead of vendor-controlled free tiers, see our dedicated guide to [free open-source video editors](/video/free-open-source-video-editors/).

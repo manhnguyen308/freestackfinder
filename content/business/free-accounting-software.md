@@ -102,7 +102,7 @@ Wave is a cloud-based accounting and invoicing platform built specifically for f
 
 Compared with QuickBooks, Wave makes more sense for a solo service business that needs double-entry books but not payroll, inventory, or a multi-user finance department. The free workflow covers income, expenses, assets, liabilities, and equity; unlimited invoicing and estimates; transaction imports with reconciliation; core financial reports; receipt scanning; and browser access.
 
-The trade-offs are the places larger businesses usually care about first. Live bank feeds are a paid Pro feature on the current plan structure, payroll is a separate paid add-on, payment processing carries per-transaction fees, inventory management is minimal compared with QuickBooks or Xero, and free support is limited to help centre and community resources.
+The trade-offs are the places larger businesses usually care about first. Live bank feeds are a paid Pro feature on the current plan structure, payroll is a separate paid add-on, payment processing carries per-transaction fees, inventory management is minimal compared with QuickBooks or Xero, and free support is limited to help center and community resources.
 
 Wave fits freelancers, consultants, contractors, and sole proprietors who need real double-entry accounting plus invoicing without a monthly bill. It stands out because the free tier is a complete product rather than a stripped-down teaser: a freelancer can invoice clients, record expenses, reconcile accounts, produce year-end reports, and hand an accountant something usable without touching a paid feature. Wave's plan structure and feature boundaries have shifted over time, so it is worth skimming Wave's current pricing page before committing, but the core free-accounting promise has held.
 
@@ -138,11 +138,11 @@ For connected Zoho tools already published here, see our [free CRM software guid
 
 Akaunting is an open-source accounting application that can be self-hosted on your own server or used through Akaunting's own cloud environment. Its source code is available and actively maintained, with a plug-in style app marketplace for optional extensions.
 
-Unlike a hosted accounting suite, Akaunting is better when data ownership and self-hosting matter more than plug-and-play convenience. The free core covers double-entry accounting with invoicing, bills, payments, and reconciliation; multi-company, multi-currency, and multi-user support on self-hosted installs; customer and vendor management with statements; profit and loss, balance sheet, and tax reports; an open-source codebase; and a self-hosting option with no ongoing licence cost.
+Unlike a hosted accounting suite, Akaunting is better when data ownership and self-hosting matter more than plug-and-play convenience. The free core covers double-entry accounting with invoicing, bills, payments, and reconciliation; multi-company, multi-currency, and multi-user support on self-hosted installs; customer and vendor management with statements; profit and loss, balance sheet, and tax reports; an open-source codebase; and a self-hosting option with no ongoing license cost.
 
 The cost is operational effort. Self-hosting requires a PHP/MySQL server and someone to handle updates and backups. Many integrations live in Akaunting's paid app marketplace, hosted terms have changed over time, and free installations rely on community support.
 
-Akaunting fits technically comfortable small business owners, developers, and agencies that want full data ownership and are willing to run their own server. It stands out because it is one of the few free, open-source accounting products that also feels modern. The self-hosted path is durable as long as the codebase remains open, but "free" here means no licence fee, not no effort.
+Akaunting fits technically comfortable small business owners, developers, and agencies that want full data ownership and are willing to run their own server. It stands out because it is one of the few free, open-source accounting products that also feels modern. The self-hosted path is durable as long as the codebase remains open, but "free" here means no license fee, not no effort.
 
 [Try Akaunting free →](https://akaunting.com)
 
@@ -170,7 +170,7 @@ Manager fits sole proprietors, very small businesses, and bookkeepers managing m
 
 GnuCash is a mature, fully open-source double-entry accounting application available for Windows, macOS, and Linux. GnuCash has been in active development since 1998 and is one of the longest-running free accounting projects.
 
-Unlike a modern SaaS accounting app, GnuCash is better when you want a disciplined local ledger and do not need client-facing polish. It includes proper double-entry accounting with accounts, sub-accounts, and transaction splits; invoices, bills, customer and vendor tracking, tax tables, scheduled transactions, budgeting, reconciliation, standard reports, multi-currency with live exchange rate lookups, OFX/QIF/CSV imports, and a completely free open-source model with no licence fee, revenue cap, or user cap.
+Unlike a modern SaaS accounting app, GnuCash is better when you want a disciplined local ledger and do not need client-facing polish. It includes proper double-entry accounting with accounts, sub-accounts, and transaction splits; invoices, bills, customer and vendor tracking, tax tables, scheduled transactions, budgeting, reconciliation, standard reports, multi-currency with live exchange rate lookups, OFX/QIF/CSV imports, and a completely free open-source model with no license fee, revenue cap, or user cap.
 
 The learning curve is steeper than Wave or Zoho Books because the interface and terminology are closer to a traditional accounting package. There is no built-in cloud sync or collaboration, your data file lives locally, client portal features and modern payment collection are absent, mobile companion apps are limited compared with desktop, and support is community-based.
 

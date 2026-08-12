@@ -99,7 +99,7 @@ Avast Free Antivirus is a long-standing free antivirus product with a large feat
 - Wi-Fi network scanner
 - Password manager (basic)
 - Software updater to flag outdated apps
-- Behavioural analysis for unknown threats
+- Behavioral analysis for unknown threats
 
 **The tradeoff to know:**
 - Advanced ransomware shield requires paid
@@ -123,7 +123,7 @@ AVG AntiVirus Free is owned by the same parent company as Avast (Gen Digital) an
 - Real-time malware and virus protection
 - Web and email protection
 - Performance and junk file scanning
-- Behavioural detection
+- Behavioral detection
 
 **The tradeoff to know:**
 - Same limitations and privacy history as Avast (same parent company, similar data practices)

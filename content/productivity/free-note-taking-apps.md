@@ -42,13 +42,13 @@ The easiest way to choose is by the first action you take most often. If you cap
 
 ### 1. Google Keep: best for fast capture and Google ecosystem users
 
-Google Keep is Google's note-taking app: a lightweight, colour-coded card interface built for quick capture, with reminders, labels, and direct Google Docs export.
+Google Keep is Google's note-taking app: a lightweight, color-coded card interface built for quick capture, with reminders, labels, and direct Google Docs export.
 
 Google Keep is strongest when the note is short and temporary. The free app gives you:
 - Unlimited notes
 - Notes, lists, voice memos, and image notes
 - Reminders and location-based alerts
-- Labels and colour coding for organisation
+- Labels and color coding for organization
 - Collaborative notes: share and co-edit with others
 - Syncs instantly across Android, iOS, and web
 - Google Docs integration: export any note to a document in one click
@@ -80,8 +80,8 @@ Apple Notes gives Apple users a full notes system without installing anything:
 - Handwriting recognition (search inside handwritten notes)
 - Password-locked notes with Face ID / Touch ID
 - Collaborate and share notes with other Apple users
-- Smart folders (automated organisation by tag or date)
-- Quick Note: capture from any app via Control Centre
+- Smart folders (automated organization by tag or date)
+- Quick Note: capture from any app via Control Center
 - Completely free on Apple devices
 
 The boundary is the ecosystem. The app is excellent inside Apple hardware and awkward outside it:
@@ -134,7 +134,7 @@ Simplenote keeps the feature set intentionally small:
 - Instant sync across all platforms
 - Version history: recover any previous version of a note
 - Note sharing via link
-- Tags for organisation
+- Tags for organization
 - Available on Windows, macOS, Linux, iOS, Android, and web
 - Completely free: no paid tier exists
 

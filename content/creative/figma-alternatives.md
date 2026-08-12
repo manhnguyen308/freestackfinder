@@ -62,7 +62,7 @@ Penpot is an open-source, browser-based design and prototyping platform develope
 - No Dev Mode equivalent (inspect panel is basic)
 - Community template library is growing but smaller than Figma's
 
-**Natural fit:** Choose Penpot when the team needs self-hosting, SVG-native files, or no per-seat licence fee. Its on-premise option also fits client work that cannot be stored in a vendor cloud.
+**Natural fit:** Choose Penpot when the team needs self-hosting, SVG-native files, or no per-seat license fee. Its on-premise option also fits client work that cannot be stored in a vendor cloud.
 
 Penpot is free and open-source, with no seat limit or paid feature tier. Its SVG-native files suit teams that care about portable, standards-based output and want to avoid per-seat pricing.
 

@@ -134,7 +134,7 @@ Perplexity AI is an AI-powered research assistant that answers questions with ci
 
 **Where it fits:** Researchers, students, journalists, and anyone who needs sourced, fact-checkable answers rather than generated text. If you are looking up information and need to verify it, Perplexity is more useful than a general chatbot.
 
-**What makes it different:** Perplexity solves a specific problem that general chatbots do not: it tells you where the answer came from. Every response includes citations with clickable links to the source pages, so you can verify claims independently. This matters for research, fact-checking, and any task where accuracy is more important than fluency. The search threading also works well: you can ask a follow-up question and Perplexity maintains the context of your original query across several steps. For organising the notes and sources you find, see our [best free note-taking apps guide](/productivity/free-note-taking-apps/).
+**What makes it different:** Perplexity solves a specific problem that general chatbots do not: it tells you where the answer came from. Every response includes citations with clickable links to the source pages, so you can verify claims independently. This matters for research, fact-checking, and any task where accuracy is more important than fluency. The search threading also works well: you can ask a follow-up question and Perplexity maintains the context of your original query across several steps. For organizing the notes and sources you find, see our [best free note-taking apps guide](/productivity/free-note-taking-apps/).
 
 [Use Perplexity AI free →](https://perplexity.ai)
 

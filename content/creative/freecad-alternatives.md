@@ -23,13 +23,13 @@ image: "/img/freecad-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 
-FreeCAD gives you parametric, open-source CAD without a licence fee, but the learning curve is real. Under-constrained sketches can behave unpredictably, edits early in a long feature history can cause naming problems, and moving between workbenches takes time to learn. Existing FreeCAD users may prefer to keep that investment. Someone trying to print a simple part this weekend has easier options.
+FreeCAD gives you parametric, open-source CAD without a license fee, but the learning curve is real. Under-constrained sketches can behave unpredictably, edits early in a long feature history can cause naming problems, and moving between workbenches takes time to learn. Existing FreeCAD users may prefer to keep that investment. Someone trying to print a simple part this weekend has easier options.
 
 The catches differ more than the modelling tools do. Onshape requires public projects on its free hobbyist plan, Fusion Personal narrows commercial and advanced use, and simpler tools trade depth for speed. Check those boundaries before moving a long-lived project.
 
 ## Pick by CAD workflow
 
-Use **Onshape's free hobbyist plan** for browser-based parametric CAD when public project files are acceptable. **Autodesk Fusion 360 Personal** keeps projects private and adds desktop CAD and CAM, but its licence limits revenue, active documents, and some advanced features. Choose **SolveSpace** for a smaller offline parametric tool, **OpenSCAD** for scripted models, or **LibreCAD** for 2D drafting.
+Use **Onshape's free hobbyist plan** for browser-based parametric CAD when public project files are acceptable. **Autodesk Fusion 360 Personal** keeps projects private and adds desktop CAD and CAM, but its license limits revenue, active documents, and some advanced features. Choose **SolveSpace** for a smaller offline parametric tool, **OpenSCAD** for scripted models, or **LibreCAD** for 2D drafting.
 
 For absolute beginners and quick 3D-printing parts, **Tinkercad** is faster than any other tool here: drag, drop, group, export STL, done. For programmers who want to describe geometry in code rather than sketch it, **OpenSCAD** is in a category of its own. And for users who need a free, open-source, parametric desktop CAD with no licensing surprises, **SolveSpace** is a lighter, more focused alternative to FreeCAD that handles small mechanical parts cleanly.
 
@@ -168,7 +168,7 @@ SolveSpace is a free, open-source parametric 2D and 3D CAD tool focused on small
 
 **Best for:** Engineers and makers who want a lightweight, license-clean, parametric CAD with no cloud dependency and no Autodesk strings. Particularly good for small mechanical parts, jigs, and brackets where the constraint solver matters more than fancy surfacing.
 
-**Why it stands out:** SolveSpace is a focused open-source parametric CAD tool with a small installer, offline use, and no personal-use licence restriction. It gives up FreeCAD's range of workbenches and Fusion or Onshape's cloud collaboration. Choose it for constrained mechanical parts when that narrower scope is an advantage.
+**Why it stands out:** SolveSpace is a focused open-source parametric CAD tool with a small installer, offline use, and no personal-use license restriction. It gives up FreeCAD's range of workbenches and Fusion or Onshape's cloud collaboration. Choose it for constrained mechanical parts when that narrower scope is an advantage.
 
 [Try SolveSpace free →](https://solvespace.com)
 
@@ -197,7 +197,7 @@ OpenSCAD is a free, open-source 3D modeler where geometry is described in a text
 
 **Best for:** Programmers, engineers comfortable with scripting, anyone designing parametric parts that need to be regenerated for many sizes (e.g., enclosures for different boards, gears with different tooth counts), or open-source hardware projects that benefit from version-controllable text-based design files.
 
-**Why it is in a category of its own:** OpenSCAD is the only tool here where your design is entirely text. That has practical implications: a design file goes into Git cleanly, diffs are readable, parameters can be exposed for users to customise (this is how most Thingiverse "Customizer" parts work), and the same design can produce hundreds of variants with a script. For people whose work has any of those properties, OpenSCAD is irreplaceable. For people who just want to draw a bracket, it is the wrong tool.
+**Why it is in a category of its own:** OpenSCAD is the only tool here where your design is entirely text. That has practical implications: a design file goes into Git cleanly, diffs are readable, parameters can be exposed for users to customize (this is how most Thingiverse "Customizer" parts work), and the same design can produce hundreds of variants with a script. For people whose work has any of those properties, OpenSCAD is irreplaceable. For people who just want to draw a bracket, it is the wrong tool.
 
 [Try OpenSCAD free →](https://openscad.org)
 
@@ -250,13 +250,13 @@ Most of the time the decision is not "which is best" but "which one matches the 
 
 **Project privacy.** Onshape's free plan requires public documents. Choose another tool for a gift, client project, competition entry, or any design that must stay private.
 
-**Commercial use.** Fusion 360's Personal licence caps revenue. Onshape's free plan does not allow commercial use. Tinkercad's terms allow personal commercial use of designs you create. SolveSpace, OpenSCAD, LibreCAD, and FreeCAD use GPL or LGPL licences without a commercial-use restriction. An unrestricted licence avoids a later migration if the project begins earning money.
+**Commercial use.** Fusion 360's Personal license caps revenue. Onshape's free plan does not allow commercial use. Tinkercad's terms allow personal commercial use of designs you create. SolveSpace, OpenSCAD, LibreCAD, and FreeCAD use GPL or LGPL licenses without a commercial-use restriction. An unrestricted license avoids a later migration if the project begins earning money.
 
 **Offline use.** Onshape and Tinkercad require an internet connection. Fusion is cloud-tethered for collaboration features. SolveSpace, OpenSCAD, LibreCAD, and FreeCAD run offline.
 
 **Part complexity.** Tinkercad fits a simple printable object built from primitive shapes. Mechanical parts with constraints, fillets, and assemblies point to Onshape, Fusion, SolveSpace, or FreeCAD. OpenSCAD fits one scripted design produced in many sizes.
 
-**Vendor policy risk.** Fusion 360 Personal has been narrowed multiple times over the past five years. FreeCAD, SolveSpace, OpenSCAD, and LibreCAD do not depend on a commercial vendor continuing the same free licence terms.
+**Vendor policy risk.** Fusion 360 Personal has been narrowed multiple times over the past five years. FreeCAD, SolveSpace, OpenSCAD, and LibreCAD do not depend on a commercial vendor continuing the same free license terms.
 
 ---
 
@@ -294,7 +294,7 @@ For users in those situations, the right move is usually to keep using FreeCAD a
 
 ## The CAD tool to start with
 
-Start with **Onshape's free hobbyist plan** if public projects are acceptable, or **Fusion 360 Personal** if the files must stay private and its current personal-use licence fits. Export important work as STEP files periodically so a later licence or tool change does not trap the project.
+Start with **Onshape's free hobbyist plan** if public projects are acceptable, or **Fusion 360 Personal** if the files must stay private and its current personal-use license fits. Export important work as STEP files periodically so a later license or tool change does not trap the project.
 
 For users who have specifically chosen open-source for licensing or principle reasons, **SolveSpace** is a lighter alternative to FreeCAD that handles small mechanical parts cleanly, **OpenSCAD** is unmatched for code-driven parametric work, and **LibreCAD** is the right tool for 2D-only drafting. None of these replace FreeCAD's full breadth, but each is a better choice for the tasks they cover.
 

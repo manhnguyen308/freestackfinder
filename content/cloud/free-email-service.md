@@ -40,7 +40,7 @@ All free email services let you send and receive email. The real differences are
 
 For storing files securely alongside your email, see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/) for the services with the most generous free tiers.
 
-There is also a personal-versus-business split. A personal inbox can optimise for convenience, search, and mobile notifications. A business inbox needs to look credible to clients, survive staff changes, and keep account ownership clear. That is why Gmail may be the best personal answer while Zoho Mail is the better free answer for a small client-facing address. If the email address appears on invoices, proposals, websites, or support replies, custom-domain support becomes more important than one extra gigabyte of storage.
+There is also a personal-versus-business split. A personal inbox can optimize for convenience, search, and mobile notifications. A business inbox needs to look credible to clients, survive staff changes, and keep account ownership clear. That is why Gmail may be the best personal answer while Zoho Mail is the better free answer for a small client-facing address. If the email address appears on invoices, proposals, websites, or support replies, custom-domain support becomes more important than one extra gigabyte of storage.
 
 ---
 
@@ -78,7 +78,7 @@ Proton Mail fits privacy-conscious users who want email content protected from a
 
 Outlook.com is Microsoft's free email service, integrated with Microsoft 365 tools and offering 15GB of storage.
 
-Outlook.com gives free users 15GB of email storage, webmail and mobile apps, Microsoft Calendar, OneDrive, and Office Online integration, 5GB of included OneDrive storage, Focused Inbox, advanced spam and phishing filtering, and rules for inbox organisation.
+Outlook.com gives free users 15GB of email storage, webmail and mobile apps, Microsoft Calendar, OneDrive, and Office Online integration, 5GB of included OneDrive storage, Focused Inbox, advanced spam and phishing filtering, and rules for inbox organization.
 
 The trade-offs are familiar: Microsoft processes email content for advertising systems, custom-domain email requires Microsoft 365, and end-to-end encryption is not included. The web app also puts more controls and navigation around the inbox than Gmail.
 
@@ -130,7 +130,7 @@ Tutanota fits privacy-conscious users who want an alternative to Proton Mail or 
 
 ## The privacy trade-off in plain terms
 
-Gmail and Outlook are free because your data, email content, metadata, behavioural signals, contributes to advertising targeting and product improvement. You are not paying with money; you are paying with data. This is a reasonable trade-off for most users, and both companies provide genuine value in return.
+Gmail and Outlook are free because your data, email content, metadata, behavioral signals, contributes to advertising targeting and product improvement. You are not paying with money; you are paying with data. This is a reasonable trade-off for most users, and both companies provide genuine value in return.
 
 Proton Mail and Tutanota are free (in limited tiers) because they generate revenue from paid subscribers who want more storage and features. The encryption architecture means they have no ability to monetise your data even if they wanted to. The trade-off is a 1GB storage limit and a smaller ecosystem.
 

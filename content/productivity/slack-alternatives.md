@@ -44,7 +44,7 @@ Discord is a voice, video, and text communication platform originally built for 
 
 Discord keeps message history, integrations, channels, and voice calls available without Slack's 90-day history limit. It also includes threads, forum channels, bots, file sharing, screen sharing, and clients for desktop and mobile platforms.
 
-The tradeoffs are smaller but real. Video quality is capped at 720p (1080p requires Nitro), file uploads are limited to 10MB per file on free, and some server customisation features require Nitro. Discord calls its spaces servers rather than workspaces and has a more casual structure. A team that sets up channels and roles carefully gives up less than the unfamiliar terminology first suggests.
+The tradeoffs are smaller but real. Video quality is capped at 720p (1080p requires Nitro), file uploads are limited to 10MB per file on free, and some server customization features require Nitro. Discord calls its spaces servers rather than workspaces and has a more casual structure. A team that sets up channels and roles carefully gives up less than the unfamiliar terminology first suggests.
 
 A natural fit for startups, remote teams, developer teams, creative agencies, and any small team that wants unlimited message history and integrations without a monthly subscription.
 
@@ -62,9 +62,9 @@ Microsoft Teams free is Microsoft's workplace communication and collaboration pl
 
 Compared with Slack's free plan, Teams free trades third-party integration breadth for native Microsoft 365 integration. The free experience includes unlimited group and 1:1 messages with full search history, group video calls up to 60 minutes with up to 100 participants, file sharing with cloud storage per user, screen sharing, background blur, integration with Microsoft 365 web apps, and clients for Windows, macOS, iOS, and Android.
 
-The constraints to plan around: a 60-minute group call time limit (fine for standups and client check-ins, awkward for workshops or long reviews), meeting recordings sit behind a Microsoft 365 subscription, advanced admin controls and compliance features are paid-only, and the experience is thinner than full Teams inside a Microsoft 365 organisation.
+The constraints to plan around: a 60-minute group call time limit (fine for standups and client check-ins, awkward for workshops or long reviews), meeting recordings sit behind a Microsoft 365 subscription, advanced admin controls and compliance features are paid-only, and the experience is thinner than full Teams inside a Microsoft 365 organization.
 
-Teams free is the most natural Slack replacement for organisations already invested in Microsoft's ecosystem. The persistent channel structure, file sharing via OneDrive, and integration with Office web apps create a coherent collaboration environment. If your team already stores files in OneDrive and keeps meetings short, Teams is efficient; if the chat tool needs to be lightweight and independent from Microsoft accounts, Discord or Google Chat will feel easier.
+Teams free is the most natural Slack replacement for organizations already invested in Microsoft's ecosystem. The persistent channel structure, file sharing via OneDrive, and integration with Office web apps create a coherent collaboration environment. If your team already stores files in OneDrive and keeps meetings short, Teams is efficient; if the chat tool needs to be lightweight and independent from Microsoft accounts, Discord or Google Chat will feel easier.
 
 [Use Microsoft Teams free →](https://www.microsoft.com/microsoft-teams/free)
 
@@ -92,7 +92,7 @@ Compared with Slack, Mattermost is the closest thing to a self-hosted equivalent
 
 The constraints divide cleanly. The cloud-hosted free tier has feature limitations. Advanced admin features and compliance tools require a paid Enterprise plan. The integration marketplace is smaller than Slack's. Self-hosting itself requires technical setup, server costs, and ongoing maintenance.
 
-The natural audience is developer teams, companies with data-residency requirements, and organisations prepared to run their own communication server. Mattermost uses Slack-like channels, threads, reactions, and search. When you self-host it, the message data stays on infrastructure your organisation controls, which is the reason to accept the maintenance work.
+The natural audience is developer teams, companies with data-residency requirements, and organizations prepared to run their own communication server. Mattermost uses Slack-like channels, threads, reactions, and search. When you self-host it, the message data stays on infrastructure your organization controls, which is the reason to accept the maintenance work.
 
 [Try Mattermost free →](https://mattermost.com)
 
@@ -106,7 +106,7 @@ Unlike Slack's tightly scoped free tier, Rocket.Chat's self-hosted deployment is
 
 The tradeoffs are higher operational cost. The cloud-hosted free tier is limited to 1,000 messages per month. Advanced compliance and audit features sit behind paid plans. Self-hosting requires server setup, ongoing maintenance, and more configuration work than the other options in this list.
 
-The natural fit: technical teams who want maximum features on a self-hosted deployment, organisations that need end-to-end encryption, and teams that have outgrown Mattermost's feature set. The trade compared to Mattermost is higher setup complexity in exchange for the broadest feature set at zero software cost. The integration library covers most major development, project management, and productivity tools. End-to-end encryption is available for sensitive conversations. The trade-off compared to Mattermost is higher setup complexity, but for teams with technical capacity to manage it, the breadth of features at zero software cost is unmatched.
+The natural fit: technical teams who want maximum features on a self-hosted deployment, organizations that need end-to-end encryption, and teams that have outgrown Mattermost's feature set. The trade compared to Mattermost is higher setup complexity in exchange for the broadest feature set at zero software cost. The integration library covers most major development, project management, and productivity tools. End-to-end encryption is available for sensitive conversations. The trade-off compared to Mattermost is higher setup complexity, but for teams with technical capacity to manage it, the breadth of features at zero software cost is unmatched.
 
 [Try Rocket.Chat free →](https://rocket.chat)
 
@@ -129,7 +129,7 @@ The natural fit: technical teams who want maximum features on a self-hosted depl
 
 **Migrating channels but not habits.** The most common reason a Slack alternative fails within a team is that the tool moves but the norms do not. If Slack's culture was that every question went to a team-wide channel and everyone expected a fast reply, that expectation does not automatically transfer to Discord or Teams. The first week of a new tool is the time to set clear expectations about response time, which channels are for which topics, and whether the team's old Slack archive is still accessible for reference. Without that reset conversation, the new tool quickly feels disorganised.
 
-**Choosing self-hosted without accounting for maintenance.** Mattermost and Rocket.Chat are compelling at zero software cost, but "free" here means free to license, not free to run. A self-hosted deployment requires a server (which has a monthly cost), someone to handle updates and backups, and a plan for what happens when the server goes down outside office hours. For a small team without technical staff, that ongoing operational overhead is likely higher than the cost of a Slack subscription. Self-hosted is the right call for organisations with data residency requirements or a dedicated IT team, for others, it trades one monthly bill for a different kind of ongoing cost.
+**Choosing self-hosted without accounting for maintenance.** Mattermost and Rocket.Chat are compelling at zero software cost, but "free" here means free to license, not free to run. A self-hosted deployment requires a server (which has a monthly cost), someone to handle updates and backups, and a plan for what happens when the server goes down outside office hours. For a small team without technical staff, that ongoing operational overhead is likely higher than the cost of a Slack subscription. Self-hosted is the right call for organizations with data residency requirements or a dedicated IT team, for others, it trades one monthly bill for a different kind of ongoing cost.
 
 **Switching during a high-pressure period.** A new communication tool creates migration work: channels need owners, notifications need adjustment, and some people will fall back to email. Schedule the move outside a product launch or client deadline, and keep the old archive available until the team can find prior decisions in the new system.
 
@@ -141,7 +141,7 @@ Slack Pro and Business+ make the most sense for larger teams where the depth of 
 
 Enterprise compliance requirements are the other strong argument for Slack paid. Data retention policies, eDiscovery, audit logs, and SSO integrations are available on Slack's Business+ and Enterprise Grid plans at a level that free tools cannot always match with the same reliability and support guarantees.
 
-For organisations where Slack is deeply embedded in customer support workflows, using Slack Connect to communicate with external clients and vendors, the network effect of staying on Slack makes sense. Asking external contacts to switch to Discord or Mattermost creates friction that may cost more in relationship management than the subscription saves.
+For organizations where Slack is deeply embedded in customer support workflows, using Slack Connect to communicate with external clients and vendors, the network effect of staying on Slack makes sense. Asking external contacts to switch to Discord or Mattermost creates friction that may cost more in relationship management than the subscription saves.
 
 ---
 

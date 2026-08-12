@@ -78,7 +78,7 @@ ShareX is a free, open-source screen capture and screen recording tool for Windo
 - GIF recording
 - Optical character recognition (OCR) on screenshots
 - Automatic file upload to Imgur, Dropbox, Google Drive, and 80+ destinations
-- Hotkey customisation for every function
+- Hotkey customization for every function
 - Workflow automation: capture, annotate, and upload in one keystroke
 
 **The practical limit:**
@@ -110,7 +110,7 @@ Loom Free is a cloud-based screen recording tool with an automatic shareable lin
 **The practical limit:**
 - 5-minute recording limit: hard cap, cannot be extended on free
 - 25 video storage limit: oldest videos must be deleted to make room
-- No custom branding or viewer customisation on free
+- No custom branding or viewer customization on free
 - Download of recordings requires paid plan on some configurations
 - Drawing tools during recording require paid
 

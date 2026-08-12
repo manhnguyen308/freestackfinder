@@ -82,7 +82,7 @@ Logseq is a free, open-source knowledge management tool built around an outliner
 
 **Strong fit for:** Power users who want an outliner-first workflow, researchers who think in connected ideas rather than linear documents, and anyone who prefers open-source tools.
 
-Logseq is built on the same local-first, Markdown-file philosophy as Obsidian but takes a different approach to structure. Where Obsidian is document-centred, Logseq is block-centred: every bullet point is a separate entity that can be referenced, tagged, and queried independently. This makes it exceptionally good at capturing fleeting notes and creating connections between them in a way that feels more natural than Notion's database approach. The open-source codebase and active community development also mean the tool improves rapidly.
+Logseq is built on the same local-first, Markdown-file philosophy as Obsidian but takes a different approach to structure. Where Obsidian is document-centered, Logseq is block-centered: every bullet point is a separate entity that can be referenced, tagged, and queried independently. This makes it exceptionally good at capturing fleeting notes and creating connections between them in a way that feels more natural than Notion's database approach. The open-source codebase and active community development also mean the tool improves rapidly.
 
 [Download Logseq free →](https://logseq.com)
 
@@ -107,7 +107,7 @@ Anytype is a local-first, end-to-end encrypted knowledge management app that off
 
 **Strong fit for:** Users who want a Notion-like block-based interface but with privacy-first architecture, and anyone moving away from Notion who wants the least amount of workflow disruption.
 
-Anytype is the closest match to Notion in this list. Its block editor, database views, and page hierarchy follow a familiar pattern, while data is encrypted and stored locally by default. Choose it when moving to a document-first tool such as Obsidian would disrupt the way you already organise information.
+Anytype is the closest match to Notion in this list. Its block editor, database views, and page hierarchy follow a familiar pattern, while data is encrypted and stored locally by default. Choose it when moving to a document-first tool such as Obsidian would disrupt the way you already organize information.
 
 [Try Anytype free →](https://anytype.io)
 

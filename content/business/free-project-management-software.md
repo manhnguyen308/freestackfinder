@@ -57,7 +57,7 @@ rows:
 
 ## Why teams overpay for project management software
 
-Project management software pricing is notoriously opaque. Monday.com starts at $9/user/month but requires a minimum of 3 seats. Smartsheet charges $14/user/month. Basecamp charges a flat $99/month regardless of team size. For a 5-person team, these costs reach $500 to $1,200 per year for software whose core function, organising tasks and tracking who is doing what, is available for free from Trello, Asana, and ClickUp.
+Project management software pricing is notoriously opaque. Monday.com starts at $9/user/month but requires a minimum of 3 seats. Smartsheet charges $14/user/month. Basecamp charges a flat $99/month regardless of team size. For a 5-person team, these costs reach $500 to $1,200 per year for software whose core function, organizing tasks and tracking who is doing what, is available for free from Trello, Asana, and ClickUp.
 
 The paid tiers add genuine value for specific use cases: advanced automation, detailed workload reporting, portfolio management, time tracking integration, and SSO. For teams that need those features, the costs can be justified. For the majority of small teams who need a board, some tasks, due dates, and comments, the free tier is all they will ever use.
 
@@ -84,7 +84,7 @@ Trello Free is a Kanban-based project management tool owned by Atlassian, with a
 - Power-Ups: 1 per board (integrations with Slack, Google Drive, etc.)
 
 **The practical limit:**
-- Limited to 10 boards: larger organisations running many simultaneous projects hit this cap
+- Limited to 10 boards: larger organizations running many simultaneous projects hit this cap
 - Only 1 Power-Up per board; paid plans include unlimited integrations
 - No timeline (Gantt chart) view on free
 - No dashboard or table views on free
@@ -227,4 +227,4 @@ Before you switch, decide whether you want a dedicated project tracker or an all
 
 Choose **Trello Free** when adoption speed matters more than reporting. Move to **Asana Free** for dependencies and a more structured plan, or **ClickUp Free** when the team accepts a denser setup in exchange for more controls. Monday.com, Smartsheet, and Basecamp make more sense once automation, reporting, or compliance is a requirement rather than a future possibility.
 
-Once your projects are organised, the next step is getting paid, see our guide to [free invoicing software in 2026](/business/free-invoicing-software/) for tools that close the billing loop without a subscription. For tracking the hours behind your projects, our [free time tracking software guide](/business/free-time-tracking-software/) covers the best options for teams and freelancers at no cost. If you are also replacing team chat and scheduling tools, pair this with our [free Slack alternatives guide](/productivity/slack-alternatives/) and [best free calendar apps guide](/productivity/free-calendar-app/). For documenting the workflows and processes your projects follow, see our [free Visio alternatives guide](/business/free-visio-alternatives/), draw.io in particular pairs well with any project management tool as a free diagramming layer. For managing people alongside your projects, see our [free HR software guide](/business/free-hr-software/) covering HRIS tools, leave tracking, and scheduling for small teams.
+Once your projects are organized, the next step is getting paid, see our guide to [free invoicing software in 2026](/business/free-invoicing-software/) for tools that close the billing loop without a subscription. For tracking the hours behind your projects, our [free time tracking software guide](/business/free-time-tracking-software/) covers the best options for teams and freelancers at no cost. If you are also replacing team chat and scheduling tools, pair this with our [free Slack alternatives guide](/productivity/slack-alternatives/) and [best free calendar apps guide](/productivity/free-calendar-app/). For documenting the workflows and processes your projects follow, see our [free Visio alternatives guide](/business/free-visio-alternatives/), draw.io in particular pairs well with any project management tool as a free diagramming layer. For managing people alongside your projects, see our [free HR software guide](/business/free-hr-software/) covering HRIS tools, leave tracking, and scheduling for small teams.

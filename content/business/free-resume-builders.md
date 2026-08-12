@@ -81,16 +81,16 @@ Canva is a design tool first, so its templates offer more layout control than de
 
 On the free plan, the useful pieces are:
 - Hundreds of resume templates (a subset of premium templates requires Canva Pro)
-- Drag-and-drop editor for text, layout, and colours
+- Drag-and-drop editor for text, layout, and colors
 - Export to PDF, PNG, or share a public link
 - No watermark on free downloads
 - Works in any browser, no installation required
 - One-page and two-page layouts available
 
 Check these limits before committing to a template:
-- Some templates are labelled "Pro" and require a paid subscription
+- Some templates are labeled "Pro" and require a paid subscription
 - Brand Kit and custom font features require Canva Pro
-- No built-in ATS optimisation or job description matching
+- No built-in ATS optimization or job description matching
 - Designed layouts with columns and icons may not parse cleanly through strict ATS systems
 
 Choose Canva when the resume will be viewed by a person before it is parsed by software: a portfolio role, freelance proposal, agency application, startup introduction, or client-facing profile. It is also useful when you want a resume, one-page bio, and portfolio document to share a consistent look. Canva's creative tools are covered in depth in our [free Canva alternatives guide](/creative/canva-alternatives/) if you want to compare the broader design platform options.
@@ -118,7 +118,7 @@ Its free setup covers the practical resume workflow:
 The limits are mostly about polish and guidance:
 - Template variety is limited compared to dedicated resume builders
 - No guided content suggestions or bullet point writing prompts
-- Design customisation requires manual formatting rather than drag-and-drop
+- Design customization requires manual formatting rather than drag-and-drop
 
 Use Google Docs for large employers, corporations, government roles, recruiters, or any application funnel where an ATS is likely to read your file before a person does. A clean, single-column Google Docs resume exported to PDF is one of the safest formats for parsing. It is also the right choice if you already use Google Workspace and want your resume in the same ecosystem as your other documents: see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for the broader picture of document tools.
 
@@ -141,7 +141,7 @@ The free workflow includes:
 
 The main constraints are tied to the platform:
 - Resume design is functional but basic: limited template variety
-- Primarily optimised for the Indeed ecosystem; less suitable as a general-purpose resume
+- Primarily optimized for the Indeed ecosystem; less suitable as a general-purpose resume
 - Privacy setting controls matter: your resume is searchable by default unless you set it to private
 
 Use it if Indeed is your main job board and you value speed over presentation. It is especially useful for high-volume applications, entry-level searches, local roles, and situations where being searchable by recruiters is part of the strategy. If you do not want that visibility, set the resume to private before adding personal details.
@@ -161,7 +161,7 @@ The no-cost builder gives you:
 - Pre-written bullet point suggestions by job title and industry
 - Select basic templates and download as PDF
 - Cover letter builder included
-- Basic customisation of colours and fonts
+- Basic customization of colors and fonts
 
 The trade-offs show up in template choice and upgrade pressure:
 - Premium templates and advanced design features require a paid subscription
@@ -222,10 +222,10 @@ Compare these tradeoffs before choosing a builder:
 
 - **Export format.** A real PDF export is non-negotiable. Some tools only export PNG or share a public link on the free tier, which is awkward to attach to applications. Confirm a clean PDF export exists before you invest time building inside a tool.
 - **Watermark risk.** A handful of free resume tools add a small watermark or footer credit on the free PDF. Canva, Google Docs, Indeed Resume Builder, and Resume.com do not. Check any tool outside this list before finalising a document.
-- **Template quality.** Visual polish varies widely. Canva leads on template variety; Google Docs offers a small set of conservative layouts; guided builders sit in between. If your target industry prioritises clarity over design, a plain layout is an advantage, not a limitation.
+- **Template quality.** Visual polish varies widely. Canva leads on template variety; Google Docs offers a small set of conservative layouts; guided builders sit in between. If your target industry prioritizes clarity over design, a plain layout is an advantage, not a limitation.
 - **Privacy and account signup.** Most free tools require an account. Indeed makes your resume searchable to recruiters by default: adjust your visibility setting if you do not want that. Avoid pasting personal details into any tool that requires a credit card "for verification" on the free tier; that pattern is a paywall in disguise.
 - **ATS readability.** Multi-column layouts, sidebars, icons, embedded text boxes, and decorative fonts can confuse strict applicant tracking systems. A clean single-column layout exported to PDF is the safest format for large employers. If you are not sure whether the company uses an ATS, assume yes.
-- **Editing flexibility.** A guided builder is faster for a first resume but harder to customise for unusual career paths. A document editor like Google Docs is slower upfront but lets you place every element exactly where you want it: useful for career switchers and people with non-linear experience.
+- **Editing flexibility.** A guided builder is faster for a first resume but harder to customize for unusual career paths. A document editor like Google Docs is slower upfront but lets you place every element exactly where you want it: useful for career switchers and people with non-linear experience.
 
 ---
 

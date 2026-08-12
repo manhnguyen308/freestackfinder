@@ -152,7 +152,7 @@ Spike is the only free option here that combines an actual email client with AI 
 
 ---
 
-## Quick comparison
+## Quick comparison table
 
 {{< comparison-table >}}
 columns:

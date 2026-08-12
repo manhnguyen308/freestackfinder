@@ -148,7 +148,7 @@ Tutanota's pricing is slightly lower than Proton's at the paid tier, and its ope
 
 ### 5. Gmail delegate access: best free workaround for teams already on Google
 
-Gmail delegate access is a built-in Gmail feature that lets you grant one or more people access to your Gmail inbox. Delegates can read, reply, and organise email on your behalf from within their own Gmail account without sharing your password.
+Gmail delegate access is a built-in Gmail feature that lets you grant one or more people access to your Gmail inbox. Delegates can read, reply, and organize email on your behalf from within their own Gmail account without sharing your password.
 
 **What the workaround gives you:**
 - Up to 10 delegates per Gmail account (or up to 40 for Google Workspace accounts)

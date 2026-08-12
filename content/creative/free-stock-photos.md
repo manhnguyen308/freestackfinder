@@ -21,9 +21,9 @@ image: "/img/free-stock-photos.webp"
 author: "FreeStackFinder Team"
 ---
 
-## Choose by subject and licence
+## Choose by subject and license
 
-Use **Unsplash** for curated photography, **Pexels** when the same search also needs video, and **Pixabay** for vectors and illustrations beside photos. All three permit broad free use under their own licences, but check the asset page when a recognizable person, logo, artwork, or property appears. Paid libraries become easier to justify when model releases, specialist imagery, or exclusivity matter.
+Use **Unsplash** for curated photography, **Pexels** when the same search also needs video, and **Pixabay** for vectors and illustrations beside photos. All three permit broad free use under their own licenses, but check the asset page when a recognizable person, logo, artwork, or property appears. Paid libraries become easier to justify when model releases, specialist imagery, or exclusivity matter.
 
 ---
 
@@ -57,7 +57,7 @@ The licensing caveats are specific rather than hidden:
 - Cannot guarantee exclusivity: the same image may appear on competitor sites
 - Model releases are not guaranteed for every image
 
-Use Unsplash for blog headers, lifestyle imagery, architecture, nature, and business photography where style matters more than exclusivity. The practical mistake to avoid is using a recognisable person or private property in an ad campaign without checking release requirements first.
+Use Unsplash for blog headers, lifestyle imagery, architecture, nature, and business photography where style matters more than exclusivity. The practical mistake to avoid is using a recognizable person or private property in an ad campaign without checking release requirements first.
 
 Unsplash's curation standard is higher than most free stock sites because its contribution process attracted serious photographers early. The homepage and curated collections are strong enough that browsing produces usable images quickly, which matters when finding the right image can take longer than writing the content it illustrates.
 
@@ -155,7 +155,7 @@ The smaller catalog means more manual searching:
 
 Choose Reshot when staged stock photography would clash with an editorial or documentary style. Its library leans toward candid scenes and less formal composition.
 
-The problem with popular free stock sites is that widely downloaded images become recognisable across competing sites. A frequently used Unsplash photo that appears on ten other blogs in your niche undermines the distinctiveness of your content. Reshot's smaller, less-trafficked library gives you a better chance of finding an image that has not already saturated your category.
+The problem with popular free stock sites is that widely downloaded images become recognizable across competing sites. A frequently used Unsplash photo that appears on ten other blogs in your niche undermines the distinctiveness of your content. Reshot's smaller, less-trafficked library gives you a better chance of finding an image that has not already saturated your category.
 
 [Browse Reshot →](https://www.reshot.com)
 
@@ -205,7 +205,7 @@ All six sites above allow commercial use without attribution, but the license te
 
 **Unsplash License:** Allows personal and commercial use, modification, and distribution. Two restrictions: you cannot aggregate Unsplash photos into a competing stock service, and you cannot use a photo to imply endorsement by the depicted person. For 99% of marketing and content use cases, these restrictions are irrelevant.
 
-**Model and property releases:** None of the free sites guarantee model or property releases for every image. For advertising campaigns featuring recognisable individuals or private property prominently, paid stock services provide the release documentation. For blog, social, and website use, this is rarely required.
+**Model and property releases:** None of the free sites guarantee model or property releases for every image. For advertising campaigns featuring recognizable individuals or private property prominently, paid stock services provide the release documentation. For blog, social, and website use, this is rarely required.
 
 Before publishing client or paid campaign work, check the license page for the specific site and save a note of where the image came from. That small habit matters more than attribution: it gives you a record if a client, ad platform, or reviewer asks where the image rights came from later.
 

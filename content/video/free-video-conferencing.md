@@ -91,7 +91,7 @@ Jitsi Meet is an open-source video conferencing platform that runs in a browser 
 - No participant account required: share a URL and anyone joins immediately
 - Screen sharing, hand raising, chat, and reactions
 - End-to-end encryption available as an opt-in setting
-- Self-hosted deployment option for organisations that need full data control
+- Self-hosted deployment option for organizations that need full data control
 - Available in-browser and as mobile apps for iOS and Android
 
 **Practical limits to keep in mind:**
@@ -204,7 +204,7 @@ Discord combines voice, video, and text in persistent channels. Participants can
 
 Choose Discord for creative collaborators, developer pairing, and small teams that use ongoing channels more often than scheduled client calls.
 
-Discord's model is categorically different: instead of "schedule a meeting," the pattern is "voice channels are always available, drop in when you need to talk." For teams that find the overhead of scheduling stand-ups and syncs disruptive, this changes how they communicate. It is a stronger fit for smaller, always-on teams than for organisations running formal client calls or structured presentations.
+Discord's model is categorically different: instead of "schedule a meeting," the pattern is "voice channels are always available, drop in when you need to talk." For teams that find the overhead of scheduling stand-ups and syncs disruptive, this changes how they communicate. It is a stronger fit for smaller, always-on teams than for organizations running formal client calls or structured presentations.
 
 [Use Discord free →](https://discord.com)
 
@@ -229,7 +229,7 @@ The free tiers of Google Meet, Jitsi Meet, and Whereby cover most small-team and
 - **Your meetings consistently run over 60 minutes.** If team workshops, client strategy sessions, or training sessions routinely exceed the 60-minute free limit, a paid plan, or switching to Jitsi Meet/Whereby, is the cleanest fix.
 - **You need cloud recording and playback.** Paid Google Workspace, Teams, and Zoom plans include cloud recording and retention for client calls, internal demos, and course replays.
 - **You are running webinars for large audiences.** Zoho Meeting (25-attendee webinar cap), Google Meet (presentation-mode limits), and Discord (25-person video cap) all restrict audience size on free plans. If you regularly host 50 to 500 people, a dedicated webinar platform's paid tier is a different class of product.
-- **You need admin controls and compliance.** Enterprise IT requirements around data retention, meeting transcription, GDPR compliance, and SSO integration are rarely included on any free tier. For regulated industries or large organisations, paid Google Workspace or Teams 365 plans are the practical requirement.
+- **You need admin controls and compliance.** Enterprise IT requirements around data retention, meeting transcription, GDPR compliance, and SSO integration are rarely included on any free tier. For regulated industries or large organizations, paid Google Workspace or Teams 365 plans are the practical requirement.
 
 Do not upgrade because a paid plan lists more features. Upgrade when a recurring meeting is being cut short, cannot be recorded, exceeds the participant cap, or needs admin controls the free tier does not provide.
 

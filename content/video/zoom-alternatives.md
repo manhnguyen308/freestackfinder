@@ -175,9 +175,9 @@ The permanent room URL is the reason to choose it. Instead of generating a new m
 
 ## When Zoom's paid plan is worth it
 
-Zoom's paid plans make sense for organisations that need enterprise-grade meeting management: large webinars with hundreds of attendees, cloud recording with automatic transcription, advanced admin controls, and IT compliance features. The Zoom Webinar product has no meaningful free equivalent, and for businesses running regular large-scale virtual events the paid tier is the right tool.
+Zoom's paid plans make sense for organizations that need enterprise-grade meeting management: large webinars with hundreds of attendees, cloud recording with automatic transcription, advanced admin controls, and IT compliance features. The Zoom Webinar product has no meaningful free equivalent, and for businesses running regular large-scale virtual events the paid tier is the right tool.
 
-Teams that have standardised on Zoom and rely on its integrations with Salesforce, Slack, or enterprise software also have a genuine reason to keep paying. The switching cost of moving an entire team to a new platform outweighs the savings for most organisations, particularly when Zoom's call quality and reliability at scale remain strong.
+Teams that have standardised on Zoom and rely on its integrations with Salesforce, Slack, or enterprise software also have a genuine reason to keep paying. The switching cost of moving an entire team to a new platform outweighs the savings for most organizations, particularly when Zoom's call quality and reliability at scale remain strong.
 
 For individual professionals, the consideration is simpler: if your clients expect a Zoom link and are unfamiliar with alternatives, the friction of asking them to switch may cost more in goodwill than the subscription saves in money. Using Zoom paid for client-facing calls while using Google Meet or Jitsi internally is a reasonable middle ground.
 

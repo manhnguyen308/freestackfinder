@@ -80,7 +80,7 @@ ProWritingAid is a writing analysis tool that checks grammar, style, readability
 
 **Best fit:** Fiction writers, content writers, and bloggers who want more than grammar checking: particularly those focused on improving sentence variety, pacing, and overused words.
 
-**Where it helps most:** ProWritingAid goes deeper than any other free tool in this list. Where Grammarly and LanguageTool focus primarily on grammar and clarity at the sentence level, ProWritingAid analyses your writing at a structural level: flagging repeated sentence openings, passive voice overuse, readability scores by paragraph, and clichés. The 500-word cap on the free plan is a genuine limitation for long articles, but for editing in sections it remains useful. If you write regularly and want to actively improve your writing craft rather than just fix mistakes, the insights ProWritingAid provides are worth the friction.
+**Where it helps most:** ProWritingAid goes deeper than any other free tool in this list. Where Grammarly and LanguageTool focus primarily on grammar and clarity at the sentence level, ProWritingAid analyzes your writing at a structural level: flagging repeated sentence openings, passive voice overuse, readability scores by paragraph, and clichés. The 500-word cap on the free plan is a genuine limitation for long articles, but for editing in sections it remains useful. If you write regularly and want to actively improve your writing craft rather than just fix mistakes, the insights ProWritingAid provides are worth the friction.
 
 [Try ProWritingAid free →](https://prowritingaid.com)
 
@@ -92,7 +92,7 @@ Hemingway Editor is a web-based editor that highlights hard-to-read sentences, p
 
 **What you can do for free:**
 - Full readability analysis in the browser: completely free
-- Colour-coded highlights for different types of issues
+- Color-coded highlights for different types of issues
 - Readability grade score
 - Word and sentence count
 - No account or login required
@@ -104,7 +104,7 @@ Hemingway Editor is a web-based editor that highlights hard-to-read sentences, p
 
 **Best fit:** Writers who already catch their own grammar mistakes but want to tighten their writing, improve clarity, and reduce waffle: particularly useful for blog posts, marketing copy, and professional emails.
 
-**Where it helps most:** Hemingway Editor does one thing and does it extremely well. It does not check grammar. It does not suggest word replacements. It tells you whether your writing is easy to read, and it shows you exactly which sentences are the problem. The colour-coded interface makes it immediately obvious where your writing loses momentum: purple for complex words, red for very hard sentences, yellow for hard sentences, blue for adverbs. Paste your draft in, clean up the highlights, and your writing becomes measurably more readable. Used alongside LanguageTool for grammar, the two together cover most of what Grammarly Premium offers for clarity and correctness.
+**Where it helps most:** Hemingway Editor does one thing and does it extremely well. It does not check grammar. It does not suggest word replacements. It tells you whether your writing is easy to read, and it shows you exactly which sentences are the problem. The color-coded interface makes it immediately obvious where your writing loses momentum: purple for complex words, red for very hard sentences, yellow for hard sentences, blue for adverbs. Paste your draft in, clean up the highlights, and your writing becomes measurably more readable. Used alongside LanguageTool for grammar, the two together cover most of what Grammarly Premium offers for clarity and correctness.
 
 [Try Hemingway Editor free →](https://hemingwayapp.com)
 

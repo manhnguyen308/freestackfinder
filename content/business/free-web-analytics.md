@@ -44,7 +44,7 @@ columns:
 rows:
   - tool: Google Analytics 4
     best_for: Full-featured traffic and conversion analytics
-    free: Unlimited pageviews, events, acquisition and behaviour reports
+    free: Unlimited pageviews, events, acquisition and behavior reports
     limit: Requires cookie consent; limited raw data export on free tier
   - tool: Google Search Console
     best_for: Search traffic and keyword performance only
@@ -68,7 +68,7 @@ rows:
 
 ## Why web analytics still matters in 2026
 
-Organic search has become harder to read. Zero-click results, AI-generated answers, and increased SERP features mean raw traffic numbers tell less of the story than they used to. But web analytics is still the primary way to answer questions that matter for a small site, which pages are landing pages, where visitors drop off, which sources convert, and whether a publishing push led to a measurable change in behaviour.
+Organic search has become harder to read. Zero-click results, AI-generated answers, and increased SERP features mean raw traffic numbers tell less of the story than they used to. But web analytics is still the primary way to answer questions that matter for a small site, which pages are landing pages, where visitors drop off, which sources convert, and whether a publishing push led to a measurable change in behavior.
 
 Major analytics platforms give small sites traffic, acquisition, page, and conversion reports without a subscription. The decision turns on data collection, retention, hosting, and compliance rather than feature count alone.
 
@@ -86,7 +86,7 @@ GA4's free value is breadth: unlimited traffic, acquisition, engagement, and con
 
 The limits are complexity and compliance. Raw event-level export requires BigQuery, which is free within quota limits but adds setup work. Some advanced predictive audiences and modelled conversion features depend on higher data volumes, and there is no SLA or guaranteed support on the free tier. If you are in the EU or targeting EU visitors, cookie consent and consent mode need to be handled correctly.
 
-GA4 fits any small-to-medium site that needs full-funnel traffic and conversion data and is comfortable managing the setup. No other free tool gives you the same acquisition, behaviour, and conversion reporting in one interface, but it is not the easiest or most privacy-light starting point.
+GA4 fits any small-to-medium site that needs full-funnel traffic and conversion data and is comfortable managing the setup. No other free tool gives you the same acquisition, behavior, and conversion reporting in one interface, but it is not the easiest or most privacy-light starting point.
 
 [Google Analytics →](https://analytics.google.com)
 
@@ -108,9 +108,9 @@ Every website should use Search Console alongside GA4, Umami, or another analyti
 
 ### Microsoft Clarity
 
-Clarity is a free behaviour analytics tool from Microsoft. It supplements traffic reports with heatmaps, scroll depth, rage-click signals, and session recordings.
+Clarity is a free behavior analytics tool from Microsoft. It supplements traffic reports with heatmaps, scroll depth, rage-click signals, and session recordings.
 
-Clarity gives behaviour data that traffic dashboards do not: heatmaps, session recordings, rage-click, dead-click, and excessive-scroll detection, basic funnel analysis, GA4 integration, and a dashboard with behavioural insights. Microsoft does not state a session or recording cap, and the product has remained free since launch.
+Clarity gives behavior data that traffic dashboards do not: heatmaps, session recordings, rage-click, dead-click, and excessive-scroll detection, basic funnel analysis, GA4 integration, and a dashboard with behavioral insights. Microsoft does not state a session or recording cap, and the product has remained free since launch.
 
 The limitation is that Clarity does not report acquisition sources, pageview counts by channel, or traditional conversion data in the way GA4 does. It is a companion to analytics, not a replacement. Session recordings may also auto-expire over time.
 
@@ -128,7 +128,7 @@ Umami's self-hosted free value is simple privacy-friendly traffic reporting: unl
 
 The cost is infrastructure. You need a server or hosting environment, and ongoing maintenance such as upgrades, backups, and uptime is your responsibility. Reporting depth is lighter than GA4, with no built-in funnel analysis or session recording.
 
-Umami fits developers and technically confident site owners who prioritise privacy compliance and do not want to use Google's infrastructure. Cookieless tracking may reduce consent-banner complexity depending on your legal context, and the interface is easier to read than GA4 for basic traffic patterns.
+Umami fits developers and technically confident site owners who prioritize privacy compliance and do not want to use Google's infrastructure. Cookieless tracking may reduce consent-banner complexity depending on your legal context, and the interface is easier to read than GA4 for basic traffic patterns.
 
 [Umami on GitHub →](https://github.com/umami-software/umami)
 
@@ -140,7 +140,7 @@ Matomo is the most feature-complete open-source analytics platform available. Th
 
 Matomo On-Premise is the heavyweight self-hosted option. The free self-hosted setup includes a full analytics suite comparable to GA4 depth, ecommerce and goal tracking, funnels, cohort analysis, a tag manager, heatmaps and session recordings through on-premise plugins, complete data ownership, and built-in GDPR tools.
 
-The setup is more involved than Umami. Matomo requires PHP, a MySQL or MariaDB database, and a server sized for the site's traffic. Some plugins have different terms between self-hosted and cloud plans, so check the licence before relying on one. Matomo also leaves updates, backups, and database maintenance to the site owner.
+The setup is more involved than Umami. Matomo requires PHP, a MySQL or MariaDB database, and a server sized for the site's traffic. Some plugins have different terms between self-hosted and cloud plans, so check the license before relying on one. Matomo also leaves updates, backups, and database maintenance to the site owner.
 
 Matomo fits teams that need GA4-equivalent depth plus full data sovereignty and have someone comfortable maintaining it. It is not the right starting point for a small site with no server administration experience; GA4 or Umami will be easier.
 

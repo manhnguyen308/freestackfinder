@@ -178,7 +178,7 @@ Canva cannot replace Illustrator's path editing, typography control, or illustra
 
 ## Making the switch from Illustrator to Inkscape
 
-The main switching cost is interface familiarity. Inkscape uses different keyboard shortcuts and organises tools differently from Illustrator, so plan time to rebuild shortcuts and templates before moving deadline-sensitive work.
+The main switching cost is interface familiarity. Inkscape uses different keyboard shortcuts and organizes tools differently from Illustrator, so plan time to rebuild shortcuts and templates before moving deadline-sensitive work.
 
 Key differences to know upfront: Inkscape uses XML-based SVG as its native format, which is different from Illustrator's proprietary .ai format. Files you want to open from Illustrator should be exported as PDF from Illustrator first: Inkscape opens PDF and extracts the vector content. Inkscape's equivalent of Illustrator's Pen tool is the Bezier tool (B key). The node editor (N key) functions similarly to Illustrator's direct selection tool.
 

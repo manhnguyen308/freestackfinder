@@ -71,7 +71,7 @@ Visio is the default choice in enterprise environments where IT departments, arc
 
 Visio does all of those well. So does draw.io, for free, with no seat limit and no export restrictions. The gap between Visio and its best free alternatives is smaller than the price difference suggests.
 
-There are legitimate reasons to stay on Visio: your organisation uses SharePoint deeply, you need Visio-native file formats shared across a large team, or you are working with diagrams that already exist in `.vsdx` format. For everyone else, the tools below are worth evaluating first.
+There are legitimate reasons to stay on Visio: your organization uses SharePoint deeply, you need Visio-native file formats shared across a large team, or you are working with diagrams that already exist in `.vsdx` format. For everyone else, the tools below are worth evaluating first.
 
 ---
 

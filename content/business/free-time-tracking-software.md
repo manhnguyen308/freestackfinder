@@ -112,7 +112,7 @@ RescueTime Lite is a desktop and mobile app that runs in the background, automat
 **The practical limit:**
 - Distraction blocking and Focus Sessions require paid ($6.50/month)
 - Goals and alerts require paid
-- Detailed category customisation requires paid
+- Detailed category customization requires paid
 - Data history beyond 3 months requires paid
 
 **Best fit:** Knowledge workers who want to understand where their time goes without the discipline of starting and stopping a manual timer. RescueTime is not designed for client billing: it is designed for personal productivity awareness.
@@ -193,7 +193,7 @@ Free time tracking covers all core use cases for solo freelancers and small team
 
 For most freelancers billing 1 to 20 clients, Clockify Free or Toggl Track Free handle every tracking and reporting need. The time-to-invoice step can be handled by a separate free invoicing tool: see our guide to [free invoicing software in 2026](/business/free-invoicing-software/) for options that pair well with any time tracker.
 
-For teams running multiple concurrent projects, Clockify's unlimited free plan scales cleanly alongside [free project management software](/business/free-project-management-software/): the two tools complement each other without either requiring a subscription. If those hours are tied to leads, clients, or deal stages, a [free CRM tool](/business/free-crm-software/) helps keep the customer side organised before the work turns into an invoice.
+For teams running multiple concurrent projects, Clockify's unlimited free plan scales cleanly alongside [free project management software](/business/free-project-management-software/): the two tools complement each other without either requiring a subscription. If those hours are tied to leads, clients, or deal stages, a [free CRM tool](/business/free-crm-software/) helps keep the customer side organized before the work turns into an invoice.
 
 ---
 

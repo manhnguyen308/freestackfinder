@@ -21,9 +21,9 @@ image: "/img/free-font-websites.webp"
 author: "FreeStackFinder Team"
 ---
 
-## Choose by licence and hosting
+## Choose by license and hosting
 
-Start with **Google Fonts** for open-source web and design families. Use **Font Squirrel** when commercial-use filtering matters, or **Fontsource** when the font files need to be self-hosted or installed through npm. **DaFont** offers more novelty, but every download needs a licence check. **1001 Fonts** is useful for browsing as long as the individual licence matches the project.
+Start with **Google Fonts** for open-source web and design families. Use **Font Squirrel** when commercial-use filtering matters, or **Fontsource** when the font files need to be self-hosted or installed through npm. **DaFont** offers more novelty, but every download needs a license check. **1001 Fonts** is useful for browsing as long as the individual license matches the project.
 
 ---
 
@@ -106,7 +106,7 @@ Its risk is licensing inconsistency:
 
 Use DaFont for mood boards, personal projects, and early visual exploration where variety matters and you have time to verify the license before shipping.
 
-DaFont's large catalog is useful for narrow display styles such as vintage letterpress, retro science fiction, or hand-drawn brush scripts. Treat every download as personal-use-only until the font's own licence states otherwise.
+DaFont's large catalog is useful for narrow display styles such as vintage letterpress, retro science fiction, or hand-drawn brush scripts. Treat every download as personal-use-only until the font's own license states otherwise.
 
 [Browse DaFont →](https://www.dafont.com)
 
