@@ -1,6 +1,6 @@
 ---
 title: "Free Cloud Storage & File Sharing Alternatives"
-description: "Free alternatives to Dropbox and Google Drive: how much free storage you get, and which service is worth using."
+description: "Compare free alternatives to Dropbox and Google Drive by storage, transfer limits, sync behavior, and privacy."
 ---
 
 A storage number is only the starting point. These guides also compare shared quotas, transfer and upload limits, sync behaviour, privacy, and whether the tool is meant for everyday files or actual backup.

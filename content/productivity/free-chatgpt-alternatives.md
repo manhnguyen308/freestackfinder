@@ -46,7 +46,7 @@ The main reasons people switch from or supplement ChatGPT's free plan: they hit 
 
 ### 1. Claude free (Anthropic)
 
-**What it is:** Anthropic's AI assistant, aimed at long documents and tasks that need qualified, carefully structured responses.
+Claude free (Anthropic) is Anthropic's AI assistant, aimed at long documents and tasks that need qualified, carefully structured responses.
 
 **What the free tier covers:**
 - Access to Claude on web, mobile, and desktop
@@ -70,7 +70,7 @@ The main reasons people switch from or supplement ChatGPT's free plan: they hit 
 
 ### 2. Microsoft Copilot
 
-**What it is:** Microsoft's AI assistant, available free on the web, in Edge, and through Microsoft apps, with web-grounded answers and image creation features.
+Microsoft Copilot is Microsoft's AI assistant, available free on the web, in Edge, and through Microsoft apps, with web-grounded answers and image creation features.
 
 **What the free tier covers:**
 - Free web and app access for general questions, writing, brainstorming, summarising, and image creation
@@ -93,7 +93,7 @@ The main reasons people switch from or supplement ChatGPT's free plan: they hit 
 
 ### 3. Google Gemini
 
-**What it is:** Google's AI assistant, integrated with Google Workspace and powered by Google's own Gemini models.
+Google Gemini is Google's AI assistant, integrated with Google Workspace and powered by Google's own Gemini models.
 
 **What the free tier covers:**
 - General access to Gemini's fast model for everyday prompts
@@ -118,7 +118,7 @@ The main reasons people switch from or supplement ChatGPT's free plan: they hit 
 
 ### 4. Perplexity AI
 
-**What it is:** An AI-powered research assistant that answers questions with cited sources, combining large language model generation with real-time web search.
+Perplexity AI is an AI-powered research assistant that answers questions with cited sources, combining large language model generation with real-time web search.
 
 **What the free tier covers:**
 - Unlimited standard searches using Perplexity's core model
@@ -142,7 +142,7 @@ The main reasons people switch from or supplement ChatGPT's free plan: they hit 
 
 ### 5. Meta AI
 
-**What it is:** Meta's AI assistant, built into Meta's web, mobile, and social app ecosystem.
+Meta AI is Meta's AI assistant, built into Meta's web, mobile, and social app ecosystem.
 
 **What the free tier covers:**
 - Full access at no cost: no subscription or credit card required

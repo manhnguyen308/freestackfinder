@@ -38,7 +38,7 @@ Paid suites increasingly sell bundles: VPN access, password management, identity
 
 ### 1. Windows Defender: best free antivirus for most Windows users
 
-**What it is:** Microsoft's built-in antivirus and security suite, included with every copy of Windows 10 and 11. No download required, no account needed, no subscription.
+Windows Defender is Microsoft's built-in antivirus and security suite, included with every copy of Windows 10 and 11. No download required, no account needed, no subscription.
 
 **Protection you get for free:**
 - Real-time malware and virus protection
@@ -67,14 +67,14 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 ### 2. Malwarebytes Free: best on-demand second-opinion scanner
 
-**What it is:** A specialist malware scanner that excels at detecting and removing threats that other antivirus tools miss: particularly adware, spyware, and potentially unwanted programmes (PUPs).
+Malwarebytes Free is a specialist malware scanner that excels at detecting and removing threats that other antivirus tools miss: particularly adware, spyware, and potentially unwanted programmes (PUPs).
 
 **What you can scan for free:**
 - On-demand malware and threat scanning
 - Removal of detected threats
 - Detection of adware, spyware, and PUPs
 - Available on Windows, macOS, Android, and iOS
-- Lightweight: does not significantly impact system performance during scans
+- Runs as an on-demand scanner rather than a second real-time antivirus layer
 
 **The real-time protection limit:**
 - No real-time protection on the free tier: scans must be initiated manually
@@ -83,7 +83,7 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 **Best fit:** Windows Defender users who want a second-opinion scanner to run monthly or after any suspicious activity. Also useful for Mac users who want a dedicated malware scanner alongside macOS's built-in security tools.
 
-**Where it makes sense:** Malwarebytes built its reputation on catching threats that traditional signature-based antivirus missed: particularly adware and potentially unwanted programmes that sit in a grey zone between malware and legitimate software. Running Malwarebytes Free as a monthly manual scan alongside Windows Defender gives you layered coverage at zero cost.
+Malwarebytes built its reputation on catching threats that traditional signature-based antivirus missed: particularly adware and potentially unwanted programmes that sit in a grey zone between malware and legitimate software. Running Malwarebytes Free as a monthly manual scan alongside Windows Defender gives you layered coverage at zero cost.
 
 [Download Malwarebytes Free →](https://malwarebytes.com)
 
@@ -91,7 +91,7 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 ### 3. Avast Free Antivirus: feature-rich but with privacy trade-offs worth knowing
 
-**What it is:** A long-standing free antivirus product with a large feature set, available on Windows, Mac, Android, and iOS.
+Avast Free Antivirus is a long-standing free antivirus product with a large feature set, available on Windows, Mac, Android, and iOS.
 
 **Protection you get for free:**
 - Real-time malware protection
@@ -109,7 +109,7 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 **Best fit:** Users who want a full-featured free antivirus with a clean interface and do not have strong privacy concerns about telemetry.
 
-**Where it makes sense:** Avast Free adds a web shield, network scanner, and behavioral detection beyond the default Windows tools. Its privacy history keeps it below Defender in this ranking.
+Avast Free adds a web shield, network scanner, and behavioral detection beyond the default Windows tools. Its privacy history keeps it below Defender in this ranking.
 
 [Download Avast Free →](https://avast.com)
 
@@ -117,7 +117,7 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 ### 4. AVG AntiVirus Free: same engine as Avast, different interface
 
-**What it is:** AVG is owned by the same parent company as Avast (Gen Digital) and uses the same underlying antivirus engine. The products are functionally near-identical: the main differences are UI, bundled features, and branding.
+AVG AntiVirus Free is owned by the same parent company as Avast (Gen Digital) and uses the same underlying antivirus engine. The main differences are the interface, bundled features, and branding.
 
 **Protection you get for free:**
 - Real-time malware and virus protection
@@ -127,11 +127,11 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 **The tradeoff to know:**
 - Same limitations and privacy history as Avast (same parent company, similar data practices)
-- Enhanced firewall and ransomware protection require paid
+- Firewall and ransomware protection require a paid plan
 
 **Best fit:** Users who prefer AVG's interface over Avast's: the core protection is equivalent.
 
-**Where it makes sense:** If you are choosing between Avast and AVG, the choice is primarily aesthetic. Both use the same engine, both have the same data collection history, and both have similar free tier limitations.
+If you are choosing between Avast and AVG, the choice is primarily aesthetic. Both use the same engine, both have the same data collection history, and both have similar free tier limitations.
 
 [Download AVG Free →](https://avg.com)
 
@@ -139,7 +139,7 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 ### 5. Bitdefender Antivirus Free: lightweight, minimal, no configuration required
 
-**What it is:** Bitdefender's stripped-down free antivirus product: no interface to speak of, just a background process that scans automatically.
+Bitdefender Antivirus Free is Bitdefender's stripped-down free antivirus product: no interface to speak of, just a background process that scans automatically.
 
 **Protection you get for free:**
 - Real-time antivirus and anti-malware scanning
@@ -151,7 +151,7 @@ One important note: Defender works best when Windows Update is current. Its thre
 - No VPN, no firewall control, no ransomware module on free
 - No interface for scheduling or configuring scans
 - No Android or iOS support on the free tier
-- Significantly fewer features than Avast or AVG free tiers
+- Fewer bundled tools than the Avast or AVG free tiers
 
 **Best fit:** Users who want a lightweight, set-and-forget background scanner. Particularly good on older hardware where system resources are limited.
 
@@ -163,7 +163,7 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 ## Quick comparison table
 
-| Tool | Real-time protection | Platforms | Notable trade-off |
+| Tool | Real-time protection | Platforms | Main trade-off |
 |------|---------------------|-----------|-------------------|
 | Windows Defender | ✅ Yes | Windows only | Best kept updated via Windows Update |
 | Malwarebytes Free | ⚠️ Manual scan only | Win, Mac, Android, iOS | No real-time on free |
@@ -173,13 +173,13 @@ One important note: Defender works best when Windows Update is current. Its thre
 
 ---
 
-## What about Mac users?
+## Antivirus protection on a Mac
 
 macOS faces a different mix of threats from Windows. Apple's XProtect, Gatekeeper, and sandbox provide the built-in layer. Malwarebytes Free can add manual scans, while Avast and Bitdefender offer free Mac versions with real-time protection for users who want another background scanner.
 
 ---
 
-## Do you need paid antivirus software?
+## When paid antivirus makes sense
 
 On a current Windows 11 machine with updates enabled, a separate paid antivirus is usually unnecessary for basic malware protection. Paid suites become useful for VPN access, identity monitoring, family controls, support, or multi-device administration. If none of those solve a problem you have, compare current lab reports before replacing Defender. For files stored online, see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).
 

@@ -30,7 +30,7 @@ Before picking by storage size alone, separate three different jobs: **sync** ke
 
 Dropbox pioneered consumer cloud storage synchronisation when it launched in 2007 and its desktop sync client, a folder that just works, remains one of the best-designed pieces of software in the category. The free tier at launch was 2GB, supplemented by referral bonuses that could push it to 18GB. Over time, Dropbox reduced referral bonuses, grandfathered out extra storage for existing users, and has kept the base free tier at 2GB.
 
-For context: Google raised its free Drive storage from 5GB to 15GB in 2013. Apple iCloud free tier is 5GB. Microsoft OneDrive is 5GB. MEGA launched in 2013 with 50GB free, later reduced to a permanent 20GB. Dropbox's 2GB has not moved.
+For context: Google raised its free Drive storage from 5GB to 15GB in 2013. Apple iCloud and Microsoft OneDrive list 5GB free. MEGA launched in 2013 with 50GB free and later reduced the base allowance to 20GB. Dropbox still lists 2GB.
 
 Dropbox still handles desktop sync, shareable links, and version history well. The problem is the 2GB free allowance. A phone backup or one active media project can consume it, so the alternatives below trade Dropbox's familiar client for more space, stronger privacy, or closer ties to an office suite.
 
@@ -40,10 +40,10 @@ Dropbox still handles desktop sync, shareable links, and version history well. T
 
 ### 1. MEGA: best for maximum free storage and privacy
 
-**What it is:** A New Zealand-based cloud storage service offering 20GB free with end-to-end encryption on all files by default.
+MEGA is a New Zealand-based cloud storage service offering 20GB free with end-to-end encryption on all files by default.
 
 **What the free plan gives you:**
-- 20GB permanent free storage
+- 20GB base free storage
 - End-to-end encryption: MEGA cannot read your files
 - Desktop sync client for Windows, macOS, and Linux
 - Mobile apps for iOS and Android
@@ -147,7 +147,7 @@ A natural fit for small businesses whose cloud storage use is primarily document
 
 ---
 
-## What about Dropbox's paid plans?
+## When Dropbox's paid plan makes sense
 
 Dropbox's paid tiers make sense for teams that already depend on its sync client, Paper, or online-only file access. That continuity can be worth paying for when a migration would disrupt shared folders. On the free tier, the 2GB cap remains the deciding weakness.
 

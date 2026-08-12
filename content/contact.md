@@ -8,19 +8,19 @@ type: page
 
 # Contact
 
-<p class="page-meta">Last updated: April 2026 · We read every message. Response time is usually 2 to 5 business days.</p>
+<p class="page-meta">Last updated: April 2026</p>
 
 ## Ways to reach us
 
-**Found outdated information?** Software pricing and features change constantly. If you spot something that's no longer accurate, please let us know: it helps us keep the site useful for everyone.
+**Report outdated information.** Include the page URL, tool name, and the pricing or feature detail that changed.
 
-**Want to suggest a tool or comparison?** We're always looking for free software categories or tools we haven't covered yet. If there's a comparison you'd like to see, send it through.
+**Suggest a tool or comparison.** Tell us the task you need to complete and the free tool or category you want compared.
 
-**Press or partnership inquiries?** Email us directly and put "Partnership" in the subject line.
+**Send a press or partnership inquiry.** Email us directly and put "Partnership" in the subject line.
 
 ## Email us directly
 
-<p class="contact-note">Email is currently the fastest and most reliable way to reach us. Correction requests are especially helpful because they let us fix published guides quickly.</p>
+<p class="contact-note">Use email for corrections, tool suggestions, press questions, and partnership inquiries.</p>
 
 <div class="contact-options" aria-label="Contact options">
   <a class="contact-option" href="mailto:contact%40freestackfinder.com?subject=Free%20Stack%20Finder%20correction">

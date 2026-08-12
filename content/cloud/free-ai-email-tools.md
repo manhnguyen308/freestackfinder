@@ -31,7 +31,7 @@ Start with the tool already in your inbox. **Gmail's Smart Compose and Smart Rep
 
 ## Why AI email tools are worth using in 2026
 
-Business email is time-consuming in ways that compound: drafting a clear reply, adjusting tone for a client versus a colleague, summarizing a long thread before you respond, and fixing the half-formed sentence you wrote at the end of the day. AI handles all of these faster than editing by hand.
+Business email time adds up across drafting, changing tone for a client or colleague, summarizing a long thread, and fixing a half-formed sentence before sending. The tools below address those tasks, but their quotas and data access differ.
 
 The useful shift is that basic AI email help is no longer limited to premium inbox tools. In 2026, many everyday functions are available at no cost: predictive compose, AI-assisted replies, tone adjustment, and subject line ideas. The catch is that limits, credits, and inbox access vary sharply by provider, so the safest move is to match the tool to your email workflow before relying on it.
 
@@ -43,7 +43,7 @@ The practical question is not whether to use AI for email: it's which free optio
 
 ### 1. Gmail Smart Compose and Smart Reply: best built-in free AI for most people
 
-**What it is:** Two built-in AI features inside Gmail that require no extension, no signup, and no additional account. Smart Compose predicts the rest of your sentence as you type. Smart Reply generates three short response options at the top of any email you open.
+Gmail Smart Compose and Smart Reply are two built-in AI features inside Gmail that require no extension, no signup, and no additional account. Smart Compose predicts the rest of your sentence as you type. Smart Reply generates three short response options at the top of any email you open.
 
 Gmail's built-in features are free because they are part of Gmail itself:
 - Smart Compose in compose and reply windows across all Gmail accounts
@@ -66,7 +66,7 @@ The practical advantage is that it requires nothing beyond your Gmail account. T
 
 ### 2. Compose AI: best free extension for full AI-drafted email
 
-**What it is:** A browser extension (Chrome, Edge) that adds AI writing features directly inside Gmail, Outlook, and most web-based text inputs. You can ask it to write a full email from a prompt, rephrase a selection, adjust the tone, or continue from where you left off.
+Compose AI is a browser extension (Chrome, Edge) that adds AI writing features directly inside Gmail, Outlook, and most web-based text inputs. You can ask it to write a full email from a prompt, rephrase a selection, adjust the tone, or continue from where you left off.
 
 Compose AI's free path is useful when you want drafting inside the compose box:
 - Autocomplete and sentence completions, subject to the current free/starter terms
@@ -89,7 +89,7 @@ The inline experience is the reason to consider it. Writing inside your actual c
 
 ### 3. ChatGPT free tier: best for complex or sensitive drafts
 
-**What it is:** OpenAI's free ChatGPT web interface. Not email-specific, but widely used for email drafting because the free model handles tone, context, and length precisely when given clear instructions.
+ChatGPT is OpenAI's free ChatGPT web interface. Not email-specific, but widely used for email drafting because the free model handles tone, context, and length precisely when given clear instructions.
 
 ChatGPT is not email-specific, but it covers flexible drafting:
 - Limited access to OpenAI's current ChatGPT models
@@ -111,7 +111,7 @@ The lack of inbox integration is a real limitation, but it is also a privacy che
 
 ### 4. Boomerang for Gmail: best free AI email quality scorer
 
-**What it is:** A Gmail extension that adds scheduling, follow-up reminders, and an AI-powered email quality checker called Respondable. Before you send, Respondable scores your email on subject length, word count, tone, question count, and predicted response likelihood.
+Boomerang for Gmail is a Gmail extension that adds scheduling, follow-up reminders, and an AI-powered email quality checker called Respondable. Before you send, Respondable scores your email on subject length, word count, tone, question count, and predicted response likelihood.
 
 Boomerang's free value is not full drafting; it is quality feedback:
 - 10 message credits per month for Boomerang scheduling and follow-up features
@@ -132,7 +132,7 @@ Most free AI email tools help you write faster. Boomerang helps you notice wheth
 
 ### 5. Spike: best free dedicated AI email app
 
-**What it is:** An email client (web, desktop, iOS, Android) that redesigns the email experience as a chat-like interface and includes an AI writing assistant. The AI can draft replies, summarize threads, and adjust tone from inside the app.
+Spike is an email client (web, desktop, iOS, Android) that redesigns the email experience as a chat-like interface and includes an AI writing assistant. The AI can draft replies, summarize threads, and adjust tone from inside the app.
 
 Spike is the most complete app-level option in this list:
 - Spike AI for email drafts, replies, and summaries with a small free query allowance

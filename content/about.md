@@ -12,7 +12,7 @@ type: page
 
 ## Why this site exists
 
-Software subscriptions have gotten out of hand. Adobe Creative Cloud costs over $600 per year. Microsoft 365 charges monthly. Tools that used to be one-time purchases are now subscription-based by default.
+Recurring subscriptions can cost more than a narrow workflow justifies. Creative, office, and business tools that were once sold as one-time purchases now commonly use monthly or annual plans.
 
 Many paid tools have a usable free substitute, but the free label rarely tells you enough. Export limits, watermarks, storage caps, and team restrictions often decide whether the substitute works.
 
@@ -34,13 +34,13 @@ For every comparison, we review:
 - Where a free option can replace a paid tool, and where it cannot
 - Reader corrections and material pricing or feature changes
 
-Our reviews are updated when pricing or features change significantly. If you find outdated information, please let us know.
+The date on each guide shows when its recommendations or plan details were last materially revised. If you find outdated information, please send the page URL and the changed detail.
 
 ## How we handle corrections and updates
 
 Software changes quickly. Free plans get tighter, pricing pages move, and features that were generous last quarter can become limited without much warning.
 
-When we spot a material change, we update the article and its "Updated" date. If you find something stale, email us with the page URL or the tool name: correction reports are one of the fastest ways this site gets better.
+When a material change is confirmed, we revise the article and its "Updated" date. A correction report should include the page URL, tool name, and the pricing or feature detail that changed.
 
 ## Our affiliate policy
 

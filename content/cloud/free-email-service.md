@@ -48,7 +48,7 @@ There is also a personal-versus-business split. A personal inbox can optimise fo
 
 ### 1. Gmail: best free email for most people
 
-**What it is:** Google's free email service, included with any Google account. The most widely used email service in the world.
+Gmail is Google's free email service, included with any Google account. The most widely used email service in the world.
 
 Gmail gives free users 15GB shared across Gmail, Google Drive, and Google Photos. The account also includes mobile apps, search across messages, labels and filters, Google Meet integration, Chrome offline mode, 2-step verification, and close ties to Docs, Sheets, Calendar, and Drive.
 
@@ -62,7 +62,7 @@ Gmail fits users who want 15GB of shared storage, mature mobile apps, strong sea
 
 ### 2. Proton Mail: best free email for privacy
 
-**What it is:** A Swiss-based encrypted email service with a free tier offering 1GB storage and genuine end-to-end encryption: meaning Proton cannot read your email even if compelled by law.
+Proton Mail is a Swiss-based encrypted email service with a free tier offering 1GB storage and genuine end-to-end encryption: meaning Proton cannot read your email even if compelled by law.
 
 Proton Mail's free tier is built around privacy rather than storage. It includes 1GB shared with Proton Drive, end-to-end encryption between Proton users, zero-access encryption at rest, a web interface, mobile apps, one `@proton.me` address, a 150-message daily sending limit, basic filters and labels, and Swiss jurisdiction privacy protection.
 
@@ -76,7 +76,7 @@ Proton Mail fits privacy-conscious users who want email content protected from a
 
 ### 3. Outlook.com: best free email for Microsoft ecosystem users
 
-**What it is:** Microsoft's free email service, integrated with Microsoft 365 tools and offering 15GB of storage.
+Outlook.com is Microsoft's free email service, integrated with Microsoft 365 tools and offering 15GB of storage.
 
 Outlook.com gives free users 15GB of email storage, webmail and mobile apps, Microsoft Calendar, OneDrive, and Office Online integration, 5GB of included OneDrive storage, Focused Inbox, advanced spam and phishing filtering, and rules for inbox organisation.
 
@@ -90,7 +90,7 @@ Outlook.com fits Windows users, Microsoft 365 subscribers, and OneDrive users wh
 
 ### 4. Zoho Mail: best free email for a custom domain
 
-**What it is:** A professional email service with a free tier supporting up to 5 user accounts on a custom domain: the only major free email service that allows business email addresses at no cost.
+Zoho Mail is a professional email service with a free tier supporting up to 5 user accounts on a custom domain: the only major free email service that allows business email addresses at no cost.
 
 Zoho Mail is the unusual free option because it supports up to 5 user accounts on one custom domain. The free tier includes 5GB per user, webmail, mobile apps, IMAP/POP access, basic calendar and contacts, spam filtering, security features, and an ad-free interface.
 
@@ -104,7 +104,7 @@ Zoho Mail fits freelancers, solopreneurs, and very small businesses that need <c
 
 ### 5. Tutanota: best private email alternative to Proton Mail
 
-**What it is:** A German-based end-to-end encrypted email service with a free tier offering 1GB storage: Proton Mail's closest free competitor in the privacy space.
+Tutanota is a German-based end-to-end encrypted email service with a free tier offering 1GB storage: Proton Mail's closest free competitor in the privacy space.
 
 Tutanota offers 1GB of storage, end-to-end encrypted email between Tutanota users, encrypted subject lines, an encrypted calendar, webmail, mobile apps, and one address on the `tutanota.com` or `tuta.com` domain.
 
@@ -152,7 +152,7 @@ Aliases are another reason to think ahead. A single personal address is easy unt
 </div>
 </div>
 
-## Which free email service should you pick?
+## The email service to start with
 
 Choose **Gmail** for 15GB of shared storage and direct integration with Docs and Drive. Choose **Proton Mail** when end-to-end encryption matters more than storage. **Zoho Mail** is the only free option here that supports a custom domain for a small business. Those three choices cover convenience, privacy, and business identity without pretending one provider wins every category.
 

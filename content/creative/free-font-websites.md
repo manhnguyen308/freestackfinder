@@ -41,7 +41,7 @@ For client or brand work, keep a small record of where each font came from and w
 
 ### 1. Google Fonts: best overall free font library
 
-**What it is:** A free, open-source font hosting service from Google. All fonts are licensed under the SIL Open Font License (OFL) or Apache License: both allow free use in commercial projects, websites, apps, and products with no attribution requirement.
+Google Fonts is a free, open-source font hosting service from Google. All fonts are licensed under the SIL Open Font License (OFL) or Apache License: both allow free use in commercial projects, websites, apps, and products with no attribution requirement.
 
 Google Fonts gives designers and developers:
 - 1,400+ font families spanning serif, sans-serif, monospace, display, and handwriting
@@ -65,7 +65,7 @@ Every font in the library is open-source, the API is straightforward, and the li
 
 ### 2. Font Squirrel: best for guaranteed commercial-use fonts
 
-**What it is:** A curated font library that specializes in fonts explicitly cleared for commercial use. Font Squirrel manually vets every font in its free collection and maintains a separate Webfont Generator tool for converting font files to web-ready formats.
+Font Squirrel is a curated font library that specializes in fonts explicitly cleared for commercial use. Font Squirrel manually vets every font in its free collection and maintains a separate Webfont Generator tool for converting font files to web-ready formats.
 
 Font Squirrel is built around commercial clearance:
 - 1,000+ fonts: all vetted as free for commercial use
@@ -89,7 +89,7 @@ The commercial-use vetting removes the license checking step that makes broad re
 
 ### 3. DaFont: best for design exploration and personal projects
 
-**What it is:** A community-driven font repository with 90,000+ free fonts across every style imaginable. DaFont is the largest freely browsable font library available, and many of its fonts are unique display and novelty typefaces not found elsewhere.
+DaFont is a community-driven font repository with 90,000+ free fonts across every style imaginable. DaFont is the largest freely browsable font library available, and many of its fonts are unique display and novelty typefaces not found elsewhere.
 
 DaFont is the browsing giant:
 - 90,000+ font families
@@ -106,7 +106,7 @@ Its risk is licensing inconsistency:
 
 Use DaFont for mood boards, personal projects, and early visual exploration where variety matters and you have time to verify the license before shipping.
 
-No font library matches DaFont's volume or variety. If you are looking for a very specific style, vintage letterpress, retro sci-fi, hand-drawn brush script, DaFont almost certainly has it. The discipline is treating every DaFont download as personal-use-only by default until the license proves otherwise.
+DaFont's large catalog is useful for narrow display styles such as vintage letterpress, retro science fiction, or hand-drawn brush scripts. Treat every download as personal-use-only until the font's own licence states otherwise.
 
 [Browse DaFont →](https://www.dafont.com)
 
@@ -114,7 +114,7 @@ No font library matches DaFont's volume or variety. If you are looking for a ver
 
 ### 4. Fontsource: best for developers self-hosting open-source fonts
 
-**What it is:** An open-source project that packages Google Fonts and many other open-source font families as individual npm packages. Fontsource lets developers self-host web fonts without loading from a third-party CDN.
+Fontsource is an open-source project that packages Google Fonts and many other open-source font families as individual npm packages. Fontsource lets developers self-host web fonts without loading from a third-party CDN.
 
 Fontsource is for developers who want font files in the build:
 - 1,500+ font families as npm packages: a superset of Google Fonts
@@ -139,7 +139,7 @@ Fontsource solves a specific developer problem: keeping font loading inside your
 
 ### 5. 1001 Fonts: best for browsing a large mixed library
 
-**What it is:** A community font repository with 45,000+ fonts, offering both free and commercial options with clear "100% Free" and "Free for personal use" labels on each download page.
+1001 Fonts is a community font repository with 45,000+ fonts, offering both free and commercial options with clear "100% Free" and "Free for personal use" labels on each download page.
 
 1001 Fonts gives browsers a large mixed catalog:
 - 45,000+ font families with per-font license labels

@@ -168,7 +168,7 @@ It covers the native Meta workflow:
 The missing pieces are all about channels and flexibility:
 - Facebook and Instagram only: no LinkedIn, X, TikTok, Pinterest, or any other platform
 - Analytics are less flexible than third-party tools
-- Interface is functional but not as streamlined as dedicated scheduling tools
+- Scheduling and approval take more steps than in a dedicated scheduling tool
 - Some users find the Meta ecosystem's navigation cumbersome
 
 Use Meta Business Suite when Facebook and Instagram are the business. Local services, restaurants, community groups, small retailers, and creators who live entirely inside Meta can skip a third-party scheduler. It also handles comments and messages in the same place, which matters more than post queuing for many small businesses.

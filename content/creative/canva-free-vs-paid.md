@@ -169,61 +169,61 @@ Most upgrade regret comes from misreading the wrong feature as the deciding fact
 
 ---
 
-## Practical examples by user type
+## Practical examples by workflow
 
 ### The student making class slides and a resume
 
-**Verdict:** Stay free.
+**Stay on Canva Free.**
 
 You will use Canva in bursts: a few weeks before a project, then nothing. The free plan covers slide templates, resume templates, posters, and infographics with room to spare. Pair it with [free font websites](/creative/free-font-websites/) for typographic variety.
 
 ### The hobby creator running a small Instagram
 
-**Verdict:** Stay free for as long as Instagram is the only channel.
+**Stay free while one square format covers the work.**
 
-A square post a few times a week is well within free limits. You will reach for the upgrade only if you start posting stories, reels, and Pinterest pins from the same source design. At that point, Magic Resize alone is worth it. Until then, [free stock photos](/creative/free-stock-photos/) and the free template library cover the gap.
+A square post a few times a week fits the free workflow. The paid resize tools become relevant when the same design needs recurring story, reel, and Pinterest versions. Until then, [free stock photos](/creative/free-stock-photos/) and the free template library cover the gap.
 
 ### The small business owner doing their own marketing
 
-**Verdict:** Pro generally pays for itself.
+**Choose Pro only when paid tools remove repeated weekly steps.**
 
-Weekly Instagram posts, monthly email headers, occasional flyers, and product graphics quickly add up. Background removal on product photos alone usually justifies the cost. Pair Canva Pro with a proper scheduling tool: see our [free social media scheduling tools](/business/free-social-media-scheduling/) guide for options that complement Canva's built-in planner without locking you in.
+Weekly Instagram posts, email headers, flyers, and product graphics can make background removal, resizing, and brand controls recurring requirements. If those steps stay occasional, the free plan remains enough. For publishing, compare the options in our [free social media scheduling tools](/business/free-social-media-scheduling/) guide.
 
 ### The freelance designer producing simple branded assets
 
-**Verdict:** Pro, with caveats.
+**Choose Pro for repeated brand work, with a separate vector or photo editor when needed.**
 
 Pro is right for production speed. The caveat: do not let Canva be the only tool in your kit if your clients ever need vector logos, complex illustration, or print-press files: for that work, look at [free Illustrator alternatives](/creative/illustrator-alternatives/) or [free Photoshop alternatives](/creative/photoshop-alternatives/).
 
 ### The team of three running a small agency or non-profit
 
-**Verdict:** Pro (or Teams plan).
+**Compare Pro or Teams when shared brand assets and approvals become routine.**
 
-Shared brand assets and team folders matter more than any single feature. The hours saved on "which logo file is the latest one?" pay back the subscription quickly.
+Shared brand assets and team folders become relevant when three people need the same current logo, colors, templates, and approval path. Check the current seat and collaboration terms before choosing between Pro and Teams.
 
 ### The job seeker building one resume
 
-**Verdict:** Stay free.
+**Stay on Canva Free for a single resume and cover letter.**
 
 A single resume and a matching cover letter do not need a subscription. A free plan plus one of the dedicated [free resume builders](/business/free-resume-builders/) is more than enough.
 
 ### The maker of simple talking-head videos
 
-**Verdict:** Mostly free, depending on volume.
+**Stay free until multi-format video output becomes a weekly task.**
 
 Canva can assemble short social clips, intros, and overlays. Editing-heavy work belongs in a timeline editor; the [free open-source video editors guide](/video/free-open-source-video-editors/) compares those options. Canva Pro becomes relevant when weekly publishing requires repeated resizing across several aspect ratios.
 
 ### The Etsy or print-on-demand seller
 
-**Verdict:** Pro, almost always.
+**Choose Pro when product-image cleanup and branded variants recur across listings.**
 
-Listing photography, mockups, packaging inserts, and shop banners stack up fast. Background removal on product photos and unlimited premium elements remove the slowest steps in listing prep.
+Listing photography, mockups, packaging inserts, and shop banners create repeated layout and image-cleanup work. Pro makes sense when background removal, premium assets, and brand controls are requirements across many listings rather than one-off tasks.
 
 ---
 
 ## Check these Canva alternatives before paying
 
-Before committing to a Canva Pro subscription, it is worth checking whether your real bottleneck is best solved by a different tool entirely. The free tiers of these tools cover specific needs better than Canva does.
+Before committing to Canva Pro, identify the bottleneck. The free tools below cover several jobs that Canva handles only partially.
 
 - **[Adobe Express](/creative/canva-alternatives/)**: the closest free Canva substitute for general-purpose design. Strong free templates and quick exports.
 - **Photopea**: covered in our [free Photoshop alternatives](/creative/photoshop-alternatives/) guide. Better than Canva when you need real layered image editing rather than templates.

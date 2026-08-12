@@ -41,7 +41,7 @@ The main limitations of free stock remain: niche or highly specific imagery (med
 
 ### 1. Unsplash: best overall for photography quality
 
-**What it is:** A curated free photo platform founded in 2013, now owned by Getty Images but operating independently under its own license. Over 3 million photos contributed by photographers worldwide.
+Unsplash is a curated free photo platform founded in 2013, now owned by Getty Images but operating independently under its own license. Over 3 million photos contributed by photographers worldwide.
 
 Unsplash's free library gives you:
 - 3M+ high-resolution photos
@@ -67,7 +67,7 @@ Unsplash's curation standard is higher than most free stock sites because its co
 
 ### 2. Pexels: best for photos and video in one place
 
-**What it is:** A free stock media platform with both photos and videos under the Pexels License: similar to CC0, free for all uses with no attribution required.
+Pexels is a free stock media platform with both photos and videos under the Pexels License: similar to CC0, free for all uses with no attribution required.
 
 Pexels gives free users:
 - 3M+ photos
@@ -92,7 +92,7 @@ The video library is Pexels' clearest differentiator. Unsplash has no video; Pix
 
 ### 3. Pixabay: best for the broadest media library
 
-**What it is:** A free media repository with photos, vector illustrations, clipart, videos, and music: all under the Pixabay License, which allows commercial use without attribution.
+Pixabay is a free media repository with photos, vector illustrations, clipart, videos, and music: all under the Pixabay License, which allows commercial use without attribution.
 
 Pixabay is the broadest free-media option:
 - 4M+ free media files
@@ -116,7 +116,7 @@ No other free platform offers photos, vectors, illustrations, videos, and music 
 
 ### 4. Burst (by Shopify): best for e-commerce and product imagery
 
-**What it is:** A free stock photo library operated by Shopify, specifically designed for e-commerce businesses and entrepreneurs. Photos are styled for product, lifestyle, and business marketing contexts.
+Burst (by Shopify) is a free stock photo library operated by Shopify, specifically designed for e-commerce businesses and entrepreneurs. Photos are styled for product, lifestyle, and business marketing contexts.
 
 Burst's free library is smaller but more focused:
 - 10,000+ professional photos
@@ -140,7 +140,7 @@ The e-commerce focus means Burst's photos look like they belong in a sales conte
 
 ### 5. Reshot: best for authentic and non-generic imagery
 
-**What it is:** A free stock library focused on authentic, non-stock-looking photography: avoiding the posed, generic aesthetic common to traditional stock sites.
+Reshot is a free stock library focused on authentic, non-stock-looking photography: avoiding the posed, generic aesthetic common to traditional stock sites.
 
 Reshot's free collection includes:
 - 50,000+ photos
@@ -163,7 +163,7 @@ The problem with popular free stock sites is that widely downloaded images becom
 
 ### 6. ISO Republic: best for tech and creative subject matter
 
-**What it is:** A curated free stock library under CC0, with a focus on technology, design, creative tools, and lifestyle photography.
+ISO Republic is a curated free stock library under CC0, with a focus on technology, design, creative tools, and lifestyle photography.
 
 ISO Republic focuses its free catalog on:
 - Tens of thousands of photos

@@ -61,7 +61,7 @@ rows:
   - tool: Matomo On-Premise
     best_for: GA4-equivalent depth with full data control
     free: All core features when self-hosted; no data caps or seat limits
-    limit: Significantly more complex setup and server requirements than Umami
+    limit: Requires PHP, MySQL or MariaDB, a server, updates, and backups
 {{< /comparison-table >}}
 
 ---
@@ -94,7 +94,7 @@ GA4 fits any small-to-medium site that needs full-funnel traffic and conversion 
 
 ### Google Search Console
 
-Search Console is not a general-purpose analytics tool: it does not track pageviews, sessions, referrals, or time on page. What it tracks is how Google sees and ranks your site, and that is valuable enough to treat as a required complement to any analytics setup.
+Search Console is not a general-purpose analytics tool: it does not track pageviews, sessions, referrals, or time on page. It reports Google Search queries, impressions, clicks, average position, indexing, and crawl issues. Use it beside GA4, Umami, or another traffic analytics tool.
 
 Search Console is free search intelligence rather than whole-site analytics. It gives query-level clicks, impressions, CTR, and average position for up to 16 months; page-level search performance; index coverage; crawl error reporting; Core Web Vitals field data; and structured data or rich-result validation.
 
@@ -160,7 +160,7 @@ Matomo fits teams that need GA4-equivalent depth plus full data sovereignty and 
 
 ---
 
-## Decision guide: when is free analytics enough?
+## When free analytics is enough
 
 **Free analytics is enough when:**
 - You run a blog, affiliate site, content site, or small business website with under a few million pageviews per month

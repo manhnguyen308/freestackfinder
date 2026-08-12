@@ -71,7 +71,7 @@ For free tools that complement project management, particularly for tracking inc
 
 {{< verdict "Best overall" >}}
 
-**What it is:** A Kanban-based project management tool owned by Atlassian, with a free tier that gives unlimited cards, 10 boards, and up to 10 collaborators per workspace.
+Trello Free is a Kanban-based project management tool owned by Atlassian, with a free tier that gives unlimited cards, 10 boards, and up to 10 collaborators per workspace.
 
 **What you can do for free:**
 - Unlimited cards (tasks) across all boards
@@ -85,7 +85,7 @@ For free tools that complement project management, particularly for tracking inc
 
 **The practical limit:**
 - Limited to 10 boards: larger organisations running many simultaneous projects hit this cap
-- Only 1 Power-Up per board: paid plans unlock unlimited integrations
+- Only 1 Power-Up per board; paid plans include unlimited integrations
 - No timeline (Gantt chart) view on free
 - No dashboard or table views on free
 - Advanced automation requires paid
@@ -102,7 +102,7 @@ For free tools that complement project management, particularly for tracking inc
 
 {{< verdict "Best for structured teams" >}}
 
-**What it is:** A structured project management platform with a free tier supporting up to 15 team members, including list view, board view, and basic timeline access.
+Asana Free is a structured project management platform with a free tier supporting up to 15 team members, including list view, board view, and basic timeline access.
 
 **What you can do for free:**
 - Unlimited tasks and projects
@@ -124,7 +124,7 @@ For free tools that complement project management, particularly for tracking inc
 
 **Best fit:** Teams of up to 15 people who need more structure than Trello's Kanban: particularly teams that work with deadlines, dependencies between tasks, and need visibility across multiple projects.
 
-**Where it makes sense:** Asana's free tier is more structured than Trello's, which makes it better for teams with complex project dependencies but harder to pick up quickly. The 15-member limit is the most generous team size cap in this list. The basic timeline view, even in read-only mode on free, gives teams a Gantt-style overview of project schedules that Trello Free does not provide at all.
+Asana's free tier is more structured than Trello's, which makes it better for teams with complex project dependencies but harder to pick up quickly. The 15-member limit is the most generous team size cap in this list. The basic timeline view, even in read-only mode on free, gives teams a Gantt-style overview of project schedules that Trello Free does not provide at all.
 
 [Try Asana Free →](https://asana.com)
 
@@ -132,7 +132,7 @@ For free tools that complement project management, particularly for tracking inc
 
 ### 3. Notion Free: best for combining tasks with documentation
 
-**What it is:** A flexible workspace that combines notes, wikis, databases, and task management in a single tool: covering the use case of a project management tool and a team knowledge base simultaneously.
+Notion Free is a flexible workspace that combines notes, wikis, databases, and task management in a single tool: covering the use case of a project management tool and a team knowledge base simultaneously.
 
 **What you can do for free:**
 - Unlimited pages and blocks
@@ -161,7 +161,7 @@ For free tools that complement project management, particularly for tracking inc
 
 {{< verdict "Best all-in-one free tier" >}}
 
-**What it is:** An all-in-one project management platform with the most generous free tier in terms of raw feature count: unlimited tasks, multiple views, basic time tracking, and whiteboards all on the free plan.
+ClickUp Free has the broadest feature list in this comparison: unlimited tasks, multiple views, basic time tracking, and whiteboards are all on the free plan.
 
 **What you can do for free:**
 - Unlimited tasks and unlimited members
@@ -190,7 +190,7 @@ For free tools that complement project management, particularly for tracking inc
 
 ### 5. Linear Free: best for software development teams
 
-**What it is:** An issue tracker and project management tool built for software teams, with a free tier for up to 10 members.
+Linear Free is an issue tracker and project management tool built for software teams, with a free tier for up to 10 members.
 
 **What you can do for free:**
 - Unlimited issues (tasks) and projects
@@ -223,7 +223,7 @@ Before you switch, decide whether you want a dedicated project tracker or an all
 
 ---
 
-## Which project tool makes the most sense?
+## The project tool to start with
 
 Choose **Trello Free** when adoption speed matters more than reporting. Move to **Asana Free** for dependencies and a more structured plan, or **ClickUp Free** when the team accepts a denser setup in exchange for more controls. Monday.com, Smartsheet, and Basecamp make more sense once automation, reporting, or compliance is a requirement rather than a future possibility.
 

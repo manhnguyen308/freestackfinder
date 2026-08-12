@@ -71,7 +71,7 @@ If your email setup involves a custom domain, see our [free email service compar
 
 ### 1. HubSpot Email Signature Generator: best for most people
 
-**What it is:** A free web-based tool from HubSpot that walks you through filling in your contact details, selects a template, and outputs ready-to-copy HTML. No account required.
+HubSpot Email Signature Generator is a free web-based tool from HubSpot that walks you through filling in your contact details, selects a template, and outputs ready-to-copy HTML. No account required.
 
 HubSpot's generator is built for quick one-off setup:
 - Unlimited use with no account
@@ -94,7 +94,7 @@ The practical advantage is the clean HTML output. It pastes into common email cl
 
 ### 2. MySignature: best for saved signatures with Gmail and Outlook integration
 
-**What it is:** A dedicated email signature platform with direct Gmail and Outlook add-on integrations. The free plan gives you one saved signature that you can update and reinstall without regenerating from scratch.
+MySignature is a dedicated email signature platform with direct Gmail and Outlook add-on integrations. The free plan gives you one saved signature that you can update and reinstall without regenerating from scratch.
 
 MySignature is better when you want to save the signature:
 - 1 saved signature
@@ -117,7 +117,7 @@ The direct email client integration is the differentiator. Most free tools gener
 
 ### 3. WiseStamp: best-known brand, solid free option
 
-**What it is:** One of the oldest and best-known email signature tools. WiseStamp has a larger template library than most alternatives and supports many social icons, custom fields, and promotional banners.
+WiseStamp is one of the oldest and best-known email signature tools. WiseStamp has a larger template library than most alternatives and supports many social icons, custom fields, and promotional banners.
 
 WiseStamp's free plan covers the basics:
 - 1 signature
@@ -140,7 +140,7 @@ Its template library and installation guides cover the common email clients. The
 
 ### 4. Newoldstamp: clean modern design on a budget
 
-**What it is:** A signature generator with a stronger focus on design quality than most free tools. Templates lean toward contemporary, minimal styles suited to agencies, creatives, and tech roles.
+Newoldstamp is a signature generator with a stronger focus on design quality than most free tools. Templates lean toward contemporary, minimal styles suited to agencies, creatives, and tech roles.
 
 Newoldstamp's free plan gives one user:
 - 1 user / 1 signature
@@ -163,7 +163,7 @@ The free templates look more refined than many basic generators. If presentation
 
 ### 5. Signature Maker: simplest completely free option
 
-**What it is:** A minimal browser-based signature generator that produces clean HTML output with no account and no branding. Interface is spartan but functional.
+Signature Maker is a minimal browser-based signature generator that produces clean HTML output with no account and no branding. Interface is spartan but functional.
 
 Signature Maker strips the workflow down to essentials:
 - Unlimited use with no account

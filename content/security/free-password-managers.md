@@ -71,7 +71,7 @@ The one mistake to avoid is treating migration as a someday task. A password man
 
 {{< verdict "Best overall" >}}
 
-**What it is:** An open-source, end-to-end encrypted password manager with unlimited storage across unlimited devices on the free tier, and an independently audited security model.
+Bitwarden is an open-source, end-to-end encrypted password manager with unlimited storage across unlimited devices on the free tier, and an independently audited security model.
 
 Bitwarden's free tier is unusually broad: unlimited passwords, unlimited devices, end-to-end encryption, browser extensions for Chrome, Firefox, Safari, Edge, and more, desktop apps, mobile apps, secure notes, credit card and identity storage, a customisable password generator, and basic two-factor authentication support are all included.
 
@@ -87,7 +87,7 @@ Bitwarden stands out because the unlimited devices policy alone puts it ahead of
 
 {{< verdict "Best for zero-cloud privacy" >}}
 
-**What it is:** A free, open-source password manager that stores an encrypted vault file on your computer and requires no cloud account.
+KeePassXC is a free, open-source password manager that stores an encrypted vault file on your computer and requires no cloud account.
 
 KeePassXC is completely free and open-source, with an AES-256 encrypted vault stored as a local `.kdbx` file. It requires no cloud account, registration, or internet connection, and still supports browser integration through KeePassXC-Browser, a fully configurable password generator, SSH key management, TOTP code generation, and desktop apps for Windows, macOS, and Linux.
 
@@ -103,7 +103,7 @@ KeePassXC fits privacy-conscious users, security professionals, developers, and 
 
 {{< verdict "Best for Proton users" >}}
 
-**What it is:** Proton's password manager, built on the same privacy-first principles as ProtonMail and Proton Drive, with a generous free tier.
+Proton Pass is Proton's password manager, built on the same privacy-first principles as ProtonMail and Proton Drive, with a generous free tier.
 
 Proton Pass gives free users unlimited logins, end-to-end encryption with open-source client apps, browser extensions, mobile apps, email alias creation for signups, integrated TOTP storage, and support across the major platforms.
 
@@ -117,7 +117,7 @@ Proton Pass stands out because it keeps passwords, aliases, mail, VPN, and drive
 
 ### 4. NordPass free tier: best interface, but limited to one active device
 
-**What it is:** Nord Security's password manager, the same company behind NordVPN, with a clean, beginner-friendly interface.
+NordPass is Nord Security's password manager, the same company behind NordVPN, with a clean, beginner-friendly interface.
 
 NordPass gives free users unlimited password storage, end-to-end encryption, a password health checker, browser extensions, and mobile apps.
 
@@ -131,7 +131,7 @@ NordPass fits users who mainly access passwords from one device and want guided 
 
 ### 5. Dashlane free tier: limited to one device
 
-**What it is:** A well-known commercial password manager with a free tier that is significantly more restricted than the alternatives in this list.
+Dashlane's free tier is limited to 25 passwords on one device, while Bitwarden and Proton Pass allow a larger vault across devices.
 
 Dashlane's free tier is closer to an evaluation path than a long-term password manager. It includes up to 25 stored passwords, one device, a password generator, and security alerts for breached passwords.
 
@@ -147,7 +147,7 @@ Dashlane is useful mainly for users with very few accounts who want to evaluate 
 
 LastPass is not in our recommended list. In 2021 it restricted its free tier to one device type. In 2022 it suffered a breach that exposed encrypted user vaults. Even though the vaults are encrypted, the incident demonstrated that LastPass's internal security practices were not at the level expected for a security-critical product. Bitwarden, Proton Pass, and KeePassXC all offer better free tiers and stronger security track records. We recommend moving away from LastPass rather than continuing to use it.
 
-## Who should pay for a password manager?
+## When a paid password manager makes sense
 
 Paid password manager plans make the most sense for families, where a shared family plan lets multiple people use premium features at a lower per-person cost than individual plans. Bitwarden's family plan costs $3.33/month for 6 users: excellent value for families who want to share certain passwords (streaming services, home utilities) while keeping others private.
 
@@ -166,13 +166,13 @@ NordPass is the password manager from the same company as NordVPN. It offers a c
 <div class="affiliate-cta">
   <div class="affiliate-cta-content">
     <p class="affiliate-cta-title">Already using NordVPN? Add NordPass for free.</p>
-    <p class="affiliate-cta-desc">NordPass is Nord Security's password manager: unlimited passwords, end-to-end encrypted, beginner-friendly interface. The free tier works on one active device. Premium unlocks multi-device sync and password sharing.</p>
+    <p class="affiliate-cta-desc">NordPass is Nord Security's password manager. The free tier stores unlimited passwords but works on one active device. Premium adds multi-device sync and password sharing.</p>
     <a href="https://nordpass.com" class="affiliate-cta-btn" rel="sponsored noopener" target="_blank">Try NordPass free →</a>
   </div>
 </div>
 
 For protecting those accounts with a second factor beyond your password, see our [free 2FA authenticator apps guide](/security/best-free-2fa-apps/): enabling 2FA on your email and password manager itself is the most important next step after choosing a password manager.
 
-## So which password manager should you use?
+## The password manager to start with
 
 **Bitwarden Free** is the default for individual users who need sync across devices. **KeePassXC** is the local-only choice, and **Proton Pass** fits people already using Proton services. Pay when sharing, business administration, recovery, or hardware-key support is the missing requirement. Whichever tool you pick, protect the password-manager account itself with 2FA; our [free authenticator apps guide](/security/best-free-2fa-apps/) covers that next step.

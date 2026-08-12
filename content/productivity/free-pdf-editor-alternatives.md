@@ -67,7 +67,7 @@ rows:
 
 {{< verdict "Best overall" >}}
 
-**What it is:** A full PDF editor for Windows and Mac that covers text editing, annotations, form filling, signing, merging, splitting, compressing, and converting: all without a watermark or account requirement.
+PDFgear is a full PDF editor for Windows and Mac that covers text editing, annotations, form filling, signing, merging, splitting, compressing, and converting: all without a watermark or account requirement.
 
 **What the free tier handles:**
 - Edit existing PDF text directly (add, modify, delete)
@@ -88,7 +88,7 @@ rows:
 
 **The natural audience:** People who regularly handle contracts, invoices, or forms and want a desktop editor without an Acrobat subscription.
 
-**Why it makes the list:** Most tools in this space either add watermarks, cap pages, or gate editing behind a paywall. PDFgear gives a complete editing experience on the free tier. The interface is clean and closer to Acrobat than most open-source alternatives.
+Most tools in this space either add watermarks, cap pages, or gate editing behind a paywall. PDFgear gives a complete editing experience on the free tier. The interface is clean and closer to Acrobat than most open-source alternatives.
 
 [Visit PDFgear](https://www.pdfgear.com/)
 
@@ -98,7 +98,7 @@ rows:
 
 {{< verdict "Best for quick tasks" >}}
 
-**What it is:** A browser-based suite of over 25 PDF utilities, edit, compress, merge, split, convert, OCR, sign, and more, accessible without an account.
+PDF24 Tools is a browser-based suite of over 25 PDF utilities, edit, compress, merge, split, convert, OCR, sign, and more, accessible without an account.
 
 **What the free tier handles:**
 - Over 25 distinct PDF tools accessible from the browser
@@ -116,7 +116,7 @@ rows:
 
 **The natural audience:** Anyone who needs to run a quick PDF task, compress before emailing, merge two files, convert a scan to text, without installing software or creating an account.
 
-**Why it makes the list:** The breadth of tools in a single free, no-login interface is hard to match. For occasional PDF work and file format conversions, PDF24 Tools removes all friction.
+The breadth of tools in a single free, no-login interface is hard to match. For occasional PDF work and file format conversions, PDF24 Tools removes all friction.
 
 [Visit PDF24 Tools](https://www.pdf24.org/)
 
@@ -126,7 +126,7 @@ rows:
 
 {{< verdict "Good for occasional work" >}}
 
-**What it is:** A browser-based PDF editor and toolkit with a clean interface and a generous free tier for users who work with PDFs regularly but not daily.
+Sejda is a browser-based PDF editor and toolkit with a clean interface and a generous free tier for users who work with PDFs regularly but not daily.
 
 **What the free tier handles:**
 - Text editing directly in PDFs
@@ -143,7 +143,7 @@ rows:
 
 **The natural audience:** Users who handle PDFs a few times a week and want a clean browser editor without installing software. The hourly task limit is rarely hit by casual users.
 
-**Why it makes the list:** Sejda supports browser-based text editing and form filling, two tasks that many free PDF tools limit to annotations.
+Sejda supports browser-based text editing and form filling, two tasks that many free PDF tools limit to annotations.
 
 [Visit Sejda](https://www.sejda.com/)
 
@@ -153,7 +153,7 @@ rows:
 
 {{< verdict "Best offline option" >}}
 
-**What it is:** The drawing and layout application in the LibreOffice suite, which can open, edit, and export PDFs as part of its vector graphics workflow. LibreOffice is a complete [free Microsoft Office alternative](/productivity/microsoft-office-alternatives/): Draw handles PDFs as editable files rather than treating them as locked documents.
+LibreOffice Draw is the drawing and layout application in the LibreOffice suite, which can open, edit, and export PDFs as part of its vector graphics workflow. LibreOffice is a complete [free Microsoft Office alternative](/productivity/microsoft-office-alternatives/): Draw handles PDFs as editable files rather than treating them as locked documents.
 
 **What the free tier handles:**
 - Open any PDF as an editable file
@@ -166,12 +166,12 @@ rows:
 
 **Where the free tier stops:**
 - Editing complex PDFs can produce cluttered layers: best for documents created in office tools rather than design-heavy PDFs
-- Steeper learning curve than a dedicated PDF editor: the interface is optimized for drawing, not PDF review
+- Steeper learning curve than a dedicated PDF editor: the interface is designed for drawing, not PDF review
 - No form-filling or e-signature workflow built in the way dedicated PDF tools provide it
 
 **The natural audience:** Users who already have LibreOffice installed, work offline, and occasionally need to modify PDF text or layout without a specialized tool. Also useful in environments where cloud-based PDF processing is not allowed.
 
-**Why it makes the list:** For users already in the LibreOffice ecosystem (see our [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/) for context), Draw adds PDF editing without requiring a separate install. It's the most privacy-preserving option since nothing leaves your machine.
+For users already in the LibreOffice ecosystem (see our [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/) for context), Draw adds PDF editing without requiring a separate install. It's the most privacy-preserving option since nothing leaves your machine.
 
 [Visit LibreOffice](https://www.libreoffice.org/)
 
@@ -179,7 +179,7 @@ rows:
 
 ### 5. Xodo: best for annotation and signing on mobile
 
-**What it is:** A PDF annotation, form-filling, and signing tool available on Android, iOS, Windows, and in the browser. Focused on reviewing and signing workflows rather than content editing.
+Xodo is a PDF annotation, form-filling, and signing tool available on Android, iOS, Windows, and in the browser. Focused on reviewing and signing workflows rather than content editing.
 
 **What the free tier handles:**
 - Highlight, underline, strikethrough, and comment on PDFs
@@ -195,7 +195,7 @@ rows:
 
 **The natural audience:** Users who primarily read, annotate, and sign PDFs rather than edit their content: common workflows for students reviewing documents, professionals signing contracts, and teams reviewing drafts.
 
-**Why it makes the list:** Xodo's mobile annotation experience is among the better free options, and it handles form filling reliably across different PDF types. A reasonable choice for anyone who signs and marks up documents more than they write them.
+Xodo's mobile annotation experience is among the better free options, and it handles form filling reliably across different PDF types. A reasonable choice for anyone who signs and marks up documents more than they write them.
 
 [Visit Xodo](https://xodo.com/)
 

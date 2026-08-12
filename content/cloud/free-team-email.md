@@ -42,7 +42,7 @@ The five tools below represent your real options in 2026.
 
 ### 1. Zoho Mail: best free custom-domain email for small teams
 
-**What it is:** A full business email service from Zoho, the company behind Zoho CRM and a broad suite of business software. Zoho Mail is a standalone email product with a webmail interface, mobile apps, and IMAP/POP3 support.
+Zoho Mail is a full business email service from Zoho, the company behind Zoho CRM and a broad suite of business software. Zoho Mail is a standalone email product with a webmail interface, mobile apps, and IMAP/POP3 support.
 
 **What you can set up for free:**
 - Up to 5 users
@@ -68,7 +68,7 @@ The five tools below represent your real options in 2026.
 
 ### 2. Spike: best free option for email-as-collaboration
 
-**What it is:** Spike reimagines email as a real-time conversation tool. It connects to any existing email account (Gmail, Outlook, Zoho, or IMAP account) and displays messages as threaded chat conversations rather than traditional email threads. Teams can use it as a shared workspace without switching to a dedicated chat tool.
+Spike reimagines email as a real-time conversation tool. It connects to any existing email account (Gmail, Outlook, Zoho, or IMAP account) and displays messages as threaded chat conversations rather than traditional email threads. Teams can use it as a shared workspace without switching to a dedicated chat tool.
 
 **What collaboration looks like for free:**
 - Up to 5 team members
@@ -95,7 +95,7 @@ The five tools below represent your real options in 2026.
 
 ### 3. Proton Mail Free: best free email for privacy-conscious teams
 
-**What it is:** End-to-end encrypted email service based in Switzerland, operated by Proton AG. Proton Mail has become the default recommendation for people who want email that even the provider cannot read.
+Proton Mail Free is End-to-end encrypted email service based in Switzerland, operated by Proton AG. Proton Mail has become the default recommendation for people who want email that even the provider cannot read.
 
 **What each person gets free:**
 - 1 free account per person
@@ -114,7 +114,7 @@ The five tools below represent your real options in 2026.
 
 **Best fit:** Small teams where each member uses their own individual Proton Mail account and privacy is more important than a shared custom domain. Non-profits, journalists, activists, and legal or healthcare teams handling sensitive communication often choose Proton Mail for security reasons even when accepting its limitations on the free plan.
 
-**Where it makes sense:** Among the tools listed here, Proton Mail is the only one with end-to-end encryption by default. The free plan works for individuals, but grouping free Proton accounts does not create shared administration. Our [free email service guide](/cloud/free-email-service/) compares Proton Mail with other personal providers.
+Among the tools listed here, Proton Mail is the only one with end-to-end encryption by default. The free plan works for individuals, but grouping free Proton accounts does not create shared administration. Our [free email service guide](/cloud/free-email-service/) compares Proton Mail with other personal providers.
 
 **Proton Mail:** [proton.me/mail](https://proton.me/mail)
 
@@ -122,7 +122,7 @@ The five tools below represent your real options in 2026.
 
 ### 4. Tutanota: alternative encrypted email for teams on a budget
 
-**What it is:** Open-source encrypted email based in Germany, operated by Tuta (formerly Tutanota). Similar to Proton Mail in its privacy focus but with a different interface and pricing model.
+Tutanota is Open-source encrypted email based in Germany, operated by Tuta (formerly Tutanota). Similar to Proton Mail in its privacy focus but with a different interface and pricing model.
 
 **What each person gets free:**
 - 1 free personal account
@@ -140,7 +140,7 @@ The five tools below represent your real options in 2026.
 
 **Best fit:** Teams where privacy is the main concern and each member is comfortable using separate individual accounts. Tutanota's German data jurisdiction and open-source code make it a strong alternative to Proton Mail for users who prefer a European provider outside Switzerland.
 
-**Where it makes sense:** Tutanota's pricing is slightly lower than Proton's at the paid tier, and its open-source code means the encryption implementation is independently auditable. For small teams willing to pay a small amount, Tuta Business starts at around €6/month for 3 users: less than Google Workspace.
+Tutanota's pricing is slightly lower than Proton's at the paid tier, and its open-source code means the encryption implementation is independently auditable. For small teams willing to pay a small amount, Tuta Business starts at around €6/month for 3 users: less than Google Workspace.
 
 **Tutanota:** [tuta.com](https://tuta.com/)
 
@@ -148,7 +148,7 @@ The five tools below represent your real options in 2026.
 
 ### 5. Gmail delegate access: best free workaround for teams already on Google
 
-**What it is:** A built-in Gmail feature that lets you grant one or more people access to your Gmail inbox. Delegates can read, reply, and organise email on your behalf from within their own Gmail account without sharing your password.
+Gmail delegate access is a built-in Gmail feature that lets you grant one or more people access to your Gmail inbox. Delegates can read, reply, and organise email on your behalf from within their own Gmail account without sharing your password.
 
 **What the workaround gives you:**
 - Up to 10 delegates per Gmail account (or up to 40 for Google Workspace accounts)

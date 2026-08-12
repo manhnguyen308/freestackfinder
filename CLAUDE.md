@@ -13,12 +13,21 @@ For general agent operating discipline — session scope, plan-first, targeted r
 
 **`docs/AGENT-WORKFLOW.md`** (works for Claude, Codex, or any coding agent)
 
+For every task that writes, rewrites, reviews, or publishes reader-visible website copy, use:
+
+**`website-content-humanizer.md`**
+
+@website-content-humanizer.md
+
+Treat it as the governing editorial standard for articles, hubs, homepage copy, trust pages, headings, metadata, calls to action, navigation labels, empty states, and shared template text. Run its full publication gate before delivery. Its accuracy, anti-fabrication, sitewide-audit, and no-dash rules are mandatory.
+
 ## When to read what
 
 | Task | Read |
 |------|------|
 | Every fresh session | This file + `docs/AGENT-WORKFLOW.md` + `freestackfinder-progress-log.md` |
 | Any task execution | `docs/SKILL.md` |
+| Any public-facing writing or editing | `website-content-humanizer.md` |
 | Article publishing | `CONTENT-STRATEGY.md` |
 | Feature work | `FEATURE-STRATEGY.md` |
 | Image generation | `docs/IMAGE-GUIDELINES.md` |

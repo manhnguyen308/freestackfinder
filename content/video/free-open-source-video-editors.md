@@ -1,6 +1,6 @@
 ---
 title: "Best Free Open-Source Video Editors in 2026: No Watermarks, No Vendor Lock-in"
-description: "The best open-source video editors in 2026 give you a complete, permanently free tool with source code you can trust. Here's what each one does well."
+description: "Compare open-source video editors in 2026 by timeline workflow, format support, hardware demands, and project fit."
 date: "2026-05-07"
 lastmod: "2026-05-11"
 draft: false

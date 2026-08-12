@@ -21,7 +21,7 @@ author: "FreeStackFinder Team"
 
 Mac users are in a better position than they often realize. iMovie ships free on every Mac and handles most casual editing tasks without a subscription. The problem is that iMovie has a ceiling. No multi-cam beyond two angles, no motion tracking, no proxy workflow for demanding 4K footage, and a timeline that becomes awkward for longer productions. When you hit that ceiling, you need a real alternative, and the free editor market for Mac is competitive in 2026.
 
-The challenge is that most roundups treat Mac the same as Windows or Linux. A cross-platform tool that runs well on Windows may behave differently on macOS, especially on Apple Silicon Macs. DaVinci Resolve runs exceptionally well on M-series chips. CapCut has a native Mac build. Kdenlive and Shotcut both work on macOS but are not optimized for Apple Silicon the same way commercial editors are.
+Cross-platform support does not guarantee the same macOS experience. DaVinci Resolve and CapCut have native Mac builds. Kdenlive and Shotcut also run on macOS, but their Apple Silicon support and release-specific stability need closer checking before a deadline.
 
 This guide covers what works well on Mac, what is free (no watermarks, no trial expirations), and what to watch out for on macOS specifically.
 
@@ -94,7 +94,7 @@ iMovie is pre-installed on every Mac and handles everything a casual editor need
 
 ### DaVinci Resolve (free): Professional-grade editing at no cost
 
-Blackmagic Design offers DaVinci Resolve as a permanent free product rather than a trial. The free version includes the editing timeline, color grading, Fairlight audio, and Fusion visual effects.
+Blackmagic Design offers DaVinci Resolve as a free product rather than a time-limited trial. The free version includes the editing timeline, color grading, Fairlight audio, and Fusion visual effects.
 
 **Mac requirements:** Resolve requires macOS 12.4 Monterey or later. It runs natively on Apple Silicon and performs noticeably better on M1, M2, and M3 chips than on older Intel Macs. On Intel hardware below a 2020 model, 4K playback can be choppy without enabling proxy clips in project settings.
 
@@ -169,7 +169,7 @@ The common mistake is downloading DaVinci Resolve because it sounds more profess
 
 **Treating "Mac compatible" as equivalent to "runs well on Mac."** Kdenlive is Mac-compatible but was built for Linux. CapCut is Mac-compatible but was built for mobile workflows and later adapted for desktop. Test with a clip from your actual camera and your typical project length before committing.
 
-**Not checking codec support before starting a project.** If you shoot with a Sony mirrorless, Fuji X-series, DJI drone, or a newer iPhone using a LOG or ProRes profile, verify your editor supports the exact codec before your deadline arrives. Resolve's free tier handles most 8-bit workflows but has limits on some 10-bit formats that the paid Studio version unlocks.
+**Not checking codec support before starting a project.** If you shoot with a Sony mirrorless, Fuji X-series, DJI drone, or a newer iPhone using a LOG or ProRes profile, verify your editor supports the exact codec before your deadline arrives. Resolve's free tier handles most 8-bit workflows, while Studio adds support for some 10-bit formats.
 
 **Conflating free trials with free software.** Final Cut Pro's 90-day trial, Adobe Premiere Pro's 7-day trial, and Camtasia's trial are not permanent free options. The tools in this guide have no trial clock.
 
@@ -183,7 +183,7 @@ If you are migrating from Windows, the biggest practical adjustments are workflo
 
 **From Vegas Pro:** Shotcut has a similar clip-based approach and is worth testing first if Vegas habits are deeply ingrained.
 
-**From Windows Movie Maker or similar:** iMovie is the direct equivalent in terms of simplicity and approach. The learning curve is minimal.
+**From Windows Movie Maker or similar:** iMovie is the closest match in workflow and complexity.
 
 Project files from Premiere, Vegas, and Windows Movie Maker do not import directly into any of these editors. Plan to rebuild from original source media rather than salvaging project files.
 
@@ -193,7 +193,7 @@ Project files from Premiere, Vegas, and Windows Movie Maker do not import direct
 
 For most Mac users: start with **iMovie**. It is pre-installed, fast, and handles the majority of typical editing projects without any configuration.
 
-When you outgrow iMovie, **DaVinci Resolve** is the natural upgrade. It runs exceptionally well on Apple Silicon, the free tier is professional, and learning it builds skills applicable to any serious production environment. Enable proxy editing from the start to avoid performance issues on older or lower-RAM hardware.
+When you outgrow iMovie, **DaVinci Resolve** adds deeper timeline, color, audio, and effects controls while running natively on Apple Silicon. Use proxy media on older or lower-RAM hardware when full-resolution playback stutters.
 
 Use **CapCut Desktop** if short-form social content is your primary output: it is purpose-built for that workflow and wastes time on longer productions.
 

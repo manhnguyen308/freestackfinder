@@ -46,7 +46,7 @@ The mistake to avoid is choosing a calendar only by its visual layout. Reminders
 
 ### 1. Google Calendar
 
-**What it is:** Google's full-featured calendar, available free with any Google account: the most widely used calendar app in the world.
+Google Calendar is Google's full-featured calendar, available free with any Google account: the most widely used calendar app in the world.
 
 Google Calendar's free account covers the core scheduling jobs most people need:
 - Unlimited events, calendars, and recurring events
@@ -71,7 +71,7 @@ The practical advantage is passive event capture. Flight bookings, restaurant re
 
 ### 2. Notion Calendar
 
-**What it is:** A standalone calendar app from Notion, built on the foundation of the Cron calendar app (acquired by Notion in 2022): free for anyone with a Notion account.
+Notion Calendar is a standalone calendar app from Notion, built on the foundation of the Cron calendar app (acquired by Notion in 2022): free for anyone with a Notion account.
 
 Notion Calendar is free for Notion users and includes:
 - Full calendar functionality with day, week, and month views
@@ -96,7 +96,7 @@ The keyboard-first interface is also faster for creating and editing events than
 
 ### 3. Apple Calendar
 
-**What it is:** Apple's built-in calendar app, available on every iPhone, iPad, Mac, and Apple Watch at no cost: syncs through iCloud.
+Apple Calendar is Apple's built-in calendar app, available on every iPhone, iPad, Mac, and Apple Watch at no cost: syncs through iCloud.
 
 Apple Calendar is free because it is part of the device ecosystem:
 - Unlimited events across multiple calendars
@@ -122,7 +122,7 @@ Its advantage is that there is almost nothing to set up. It is already installed
 
 ### 4. Proton Calendar
 
-**What it is:** A privacy-focused calendar from Proton (the company behind ProtonMail), with end-to-end encryption applied to all event data.
+Proton Calendar is a privacy-focused calendar from Proton (the company behind ProtonMail), with end-to-end encryption applied to all event data.
 
 Proton Calendar's free tier is built around privacy:
 - End-to-end encrypted events: Proton cannot read your calendar data
@@ -148,7 +148,7 @@ Proton Calendar is the only mainstream calendar app here where event details are
 
 ### 5. Zoho Calendar
 
-**What it is:** A calendar tool within the Zoho productivity suite, free with any Zoho account: designed for individuals and small teams.
+Zoho Calendar is a calendar tool within the Zoho productivity suite, free with any Zoho account: designed for individuals and small teams.
 
 Zoho Calendar covers the small-team basics:
 - Multiple calendars with colour-coding

@@ -98,7 +98,7 @@ Support and documentation matter because free tools often assume you already und
 
 {{< verdict "Best overall" >}}
 
-**What it is:** A cloud-based accounting and invoicing platform built specifically for freelancers, sole proprietors, and very small businesses. Wave has kept the core bookkeeping workflow outside a recurring subscription for years and monetises through payment processing, payroll, and its optional Pro tier.
+Wave is a cloud-based accounting and invoicing platform built specifically for freelancers, sole proprietors, and very small businesses. Wave has kept the core bookkeeping workflow outside a recurring subscription for years and monetises through payment processing, payroll, and its optional Pro tier.
 
 Compared with QuickBooks, Wave makes more sense for a solo service business that needs double-entry books but not payroll, inventory, or a multi-user finance department. The free workflow covers income, expenses, assets, liabilities, and equity; unlimited invoicing and estimates; transaction imports with reconciliation; core financial reports; receipt scanning; and browser access.
 
@@ -116,7 +116,7 @@ For invoicing-specific comparisons, including Wave against Zoho Invoice and Invo
 
 {{< verdict "Best for Zoho users" >}}
 
-**What it is:** Zoho's full cloud accounting product, with a free tier aimed at very small businesses below a defined revenue threshold. It is part of the broader Zoho ecosystem that includes CRM, Invoice, Expense, and Books.
+Zoho Books is Zoho's full cloud accounting product, with a free tier aimed at very small businesses below a defined revenue threshold. It is part of the broader Zoho ecosystem that includes CRM, Invoice, Expense, and Books.
 
 Compared with Wave, Zoho Books makes more sense if you already use Zoho CRM, Zoho Invoice, Zoho Expense, or Zoho Mail and want bookkeeping to sit inside the same business suite. The free tier includes full double-entry accounting with balance sheet, profit and loss, and cash flow statements; invoicing, quotes, credit notes, customer and vendor management; bank reconciliation and transaction matching; sales tax and multi-currency support; an integrated client portal; native Zoho integrations; and mobile apps for iOS and Android.
 
@@ -136,7 +136,7 @@ For connected Zoho tools already published here, see our [free CRM software guid
 
 {{< verdict "Best open source" >}}
 
-**What it is:** An open-source accounting application that can be self-hosted on your own server or used through Akaunting's own cloud environment. Its source code is available and actively maintained, with a plug-in style app marketplace for optional extensions.
+Akaunting is an open-source accounting application that can be self-hosted on your own server or used through Akaunting's own cloud environment. Its source code is available and actively maintained, with a plug-in style app marketplace for optional extensions.
 
 Unlike a hosted accounting suite, Akaunting is better when data ownership and self-hosting matter more than plug-and-play convenience. The free core covers double-entry accounting with invoicing, bills, payments, and reconciliation; multi-company, multi-currency, and multi-user support on self-hosted installs; customer and vendor management with statements; profit and loss, balance sheet, and tax reports; an open-source codebase; and a self-hosting option with no ongoing licence cost.
 
@@ -152,7 +152,7 @@ Akaunting fits technically comfortable small business owners, developers, and ag
 
 {{< verdict "Best offline option" >}}
 
-**What it is:** A full desktop accounting application available as a free edition that runs locally on Windows, macOS, and Linux. Paid editions exist for server and cloud use, but the desktop edition has historically been free and feature-complete.
+Manager is a full desktop accounting application available as a free edition that runs locally on Windows, macOS, and Linux. Paid editions exist for server and cloud use, but the desktop edition has historically been free and feature-complete.
 
 Compared with cloud accounting products, Manager makes more sense when offline control is the requirement. The free desktop edition handles full double-entry accounting for unlimited businesses and transactions, invoices, quotes, bills, purchase orders, credit notes, bank reconciliation, cash-basis or accrual-basis reporting, profit and loss, balance sheet, general ledger, trial balance reports, inventory, fixed assets, payroll modules, and the same product experience on Windows, macOS, and Linux.
 
@@ -168,7 +168,7 @@ Manager fits sole proprietors, very small businesses, and bookkeepers managing m
 
 {{< verdict "Best for sole proprietors" >}}
 
-**What it is:** A mature, fully open-source double-entry accounting application available for Windows, macOS, and Linux. GnuCash has been in active development since 1998 and is one of the longest-running free accounting projects.
+GnuCash is a mature, fully open-source double-entry accounting application available for Windows, macOS, and Linux. GnuCash has been in active development since 1998 and is one of the longest-running free accounting projects.
 
 Unlike a modern SaaS accounting app, GnuCash is better when you want a disciplined local ledger and do not need client-facing polish. It includes proper double-entry accounting with accounts, sub-accounts, and transaction splits; invoices, bills, customer and vendor tracking, tax tables, scheduled transactions, budgeting, reconciliation, standard reports, multi-currency with live exchange rate lookups, OFX/QIF/CSV imports, and a completely free open-source model with no licence fee, revenue cap, or user cap.
 

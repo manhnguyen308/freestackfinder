@@ -1,7 +1,7 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-08-11
+**Last updated:** 2026-08-12
 **Current day:** 79a
 
 ## Current state
@@ -12,6 +12,20 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-08-12 - Website content humanizer reaudit completed
+
+- Rule source: used `website-content-humanizer.md` as the governing standard and added `@website-content-humanizer.md` to the root `CLAUDE.md` so future reader-visible copy checks load the same rulebook.
+- Scope: scanned all 50 published articles and the rest of the reader-visible site source, including the homepage, six section hubs, Start Here, About, Contact, Affiliate Disclaimer, 404 page, shared list and article templates, review labels, navigation, footer, and configuration-backed interface copy.
+- Articles: edited all 50 articles through localized changes. Recommendations, rankings, published free-plan details, and article structure were preserved unless wording needed a narrower, supportable claim.
+- Cleanup: removed 187 repeated definition labels, formulaic question headings, generic verdict labels, vague praise, unsupported absolutes, promotional phrasing, filler transitions, repetitive conclusions, and prohibited dash punctuation. Replaced them with concrete limits, workflow fit, upgrade boundaries, and direct choose-or-skip guidance.
+- First-hand integrity: no first-hand experience, screenshots, benchmark results, setup observations, pricing discoveries, credentials, or author details were invented. Unsupported testing, setup, performance, and social-proof wording was removed or narrowed to published facts.
+- Real first-hand input needed later: `/cloud/free-cloud-storage-comparison/` and `/cloud/dropbox-alternatives/` need current screenshots of free storage, sharing, account-limit, and upgrade-prompt screens; `/video/free-video-editing-mac/` needs real Apple Silicon observations using representative footage, proxies, and exports; `/business/free-crm-software/` needs real account-setup, navigation, and upgrade-prompt observations for the listed free plans.
+- Preservation: article count remains 50. No article was created or removed. Article URLs, slugs, aliases, dates, lastmod values, weights, affiliate destinations, images, ad settings, schema, and homepage weighting were not changed. Ads remain disabled.
+- Validation: `python scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 front-matter errors, 0 broken internal links, 0 missing images, and 0 stale articles. The no-argument publish checklist completed successfully. Hugo Extended 0.160.1 built 476 pages, 21 paginator pages, and 210 aliases with 0 errors. Final source and rendered scans found 0 prohibited dashes, 0 targeted generic phrases, 0 unsupported first-hand claims, 0 citation leaks, 0 public placeholders, and 0 raw Markdown leaks. `git diff --check` passed.
+- Freeze note: this is a quality-authenticity cleanup. Restart the 14-day AdSense freeze after deployment. Do not start Phase 3 first-hand differentiation until real user inputs are supplied.
 
 ---
 

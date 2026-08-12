@@ -28,7 +28,7 @@ Tutorials and product demos usually need recording length, export quality, and w
 
 ## Why Loom's free tier changes drove people to search for alternatives
 
-Loom was the default recommendation for free screen recording for several years: its combination of instant shareable links, automatic cloud hosting, and clean viewer interface made it significantly easier to use than OBS Studio for non-technical users. The free tier was generous: unlimited recordings, unlimited storage, up to 25 videos.
+Loom combined recording, cloud hosting, and a shareable viewer link in one workflow, while OBS Studio saved local files and required separate sharing. Its earlier free tier allowed unlimited recordings and storage with a 25-video cap.
 
 In 2023, Loom (acquired by Atlassian) tightened the free tier to 25 videos total and 5-minute recording limits per video. For anyone using Loom for product demos, onboarding videos, or training content, this change immediately pushed recordings over the limit.
 
@@ -40,7 +40,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 ### 1. OBS Studio: best free screen recorder for most users
 
-**What it is:** A free, open-source screen recording and live streaming application used by professional content creators, streamers, and video producers worldwide.
+OBS Studio is a free, open-source screen recording and live streaming application used by professional content creators, streamers, and video producers worldwide.
 
 **What you can record for free:**
 - Unlimited recording length: no time caps
@@ -61,7 +61,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 **Best fit:** Anyone who needs unlimited, watermark-free screen recording for tutorials, product demos, course content, or any video that exceeds 5 minutes. Also the right choice for users who want full control over output quality and format.
 
-**What sets it apart:** OBS Studio supports the recording setups used for professional production while remaining free. Its scenes and sources system can hold several configurations, such as screen only, webcam overlay, and presentation mode. The audio mixer controls desktop and microphone levels separately. That flexibility is unnecessary for a quick clip, but useful when a recording workflow becomes more involved.
+OBS Studio supports the recording setups used for professional production while remaining free. Its scenes and sources system can hold several configurations, such as screen only, webcam overlay, and presentation mode. The audio mixer controls desktop and microphone levels separately. That flexibility is unnecessary for a quick clip, but useful when a recording workflow becomes more involved.
 
 [Download OBS Studio free →](https://obsproject.com)
 
@@ -69,7 +69,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 ### 2. ShareX: best free screen recorder for Windows power users
 
-**What it is:** A free, open-source screen capture and screen recording tool for Windows with an extensive feature set including annotation, workflow automation, and over 80 upload destinations.
+ShareX is a free, open-source screen capture and screen recording tool for Windows with an extensive feature set including annotation, workflow automation, and over 80 upload destinations.
 
 **What you can capture for free:**
 - Unlimited screen recording: no watermarks, no time limits
@@ -96,7 +96,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 ### 3. Loom Free: best for quick shareable recordings under 5 minutes
 
-**What it is:** A cloud-based screen recording tool with an automatic shareable link, built-in viewer, and asynchronous video messaging features.
+Loom Free is a cloud-based screen recording tool with an automatic shareable link, built-in viewer, and asynchronous video messaging features.
 
 **What you can share for free:**
 - Recordings up to 5 minutes in length
@@ -116,7 +116,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 **Best fit:** Teams sending short async video messages: status updates, quick feedback on designs, brief product walkthroughs under 5 minutes. The shareable link workflow is the feature that justifies Loom despite its limits.
 
-**Where it makes sense:** Loom's shareable link experience is better than OBS or ShareX for quick communication. A Loom link opens in a browser, plays immediately, and allows the recipient to comment and react without downloading anything. For internal team communication where videos are short and the recipient experience matters, Loom's 5-minute free tier covers the use case. For anything longer, OBS is the answer.
+Loom's shareable link experience is better than OBS or ShareX for quick communication. A Loom link opens in a browser, plays immediately, and allows the recipient to comment and react without downloading anything. For internal team communication where videos are short and the recipient experience matters, Loom's 5-minute free tier covers the use case. For anything longer, OBS is the answer.
 
 [Try Loom Free →](https://loom.com)
 
@@ -124,7 +124,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 ### 4. Screencastify: best for educators and Chrome users
 
-**What it is:** A Chrome extension-based screen recorder designed primarily for educators, with a free tier that allows unlimited recordings with some restrictions.
+Screencastify is a Chrome extension-based screen recorder designed primarily for educators, with a free tier that allows unlimited recordings with some restrictions.
 
 **What Chrome records for free:**
 - Unlimited recordings (limited to 30 minutes each on free)
@@ -142,7 +142,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 **Best fit:** Teachers who record lessons or feedback in Chrome and distribute them through Google Classroom or Drive. The recording lands in the same system students already use.
 
-**Where it makes sense:** Screencastify keeps the path short: install the Chrome extension, record, and send the Google Drive link. The watermark on free recordings is the main trade-off. It matters less for a classroom explanation than for a client-facing video.
+Screencastify keeps the path short: install the Chrome extension, record, and send the Google Drive link. The watermark on free recordings is the main trade-off. It matters less for a classroom explanation than for a client-facing video.
 
 [Try Screencastify Free →](https://screencastify.com)
 
@@ -150,7 +150,7 @@ The alternatives below offer unlimited recording in different ways: OBS Studio w
 
 ### 5. Clipchamp: best zero-install option for Windows 11 users
 
-**What it is:** Microsoft's video creation tool, built into Windows 11, which includes a screen recorder alongside basic video editing capabilities.
+Clipchamp is Microsoft's video creation tool, built into Windows 11, which includes a screen recorder alongside basic video editing capabilities.
 
 **What Windows gives you for free:**
 - Screen recording with no time limits
@@ -196,7 +196,7 @@ That is the complete setup for 95% of recording use cases. The scenes, transitio
 
 ---
 
-## Who should pay for a screen recording tool?
+## When a paid recorder earns its cost
 
 Paid screen recording tools such as Loom Business, Camtasia, and ScreenFlow add built-in editing, chapter markers, interactive elements, and team management. They make sense for client-ready course content or product demos when moving recordings into a separate editor takes too much time.
 
@@ -208,7 +208,7 @@ For most users, developers recording bug reproductions, product managers sharing
 
 **OBS Studio** is the correct free screen recorder for any recording that needs to be longer than 5 minutes, of professional quality, or output in a specific format. It has no meaningful limitations on the free tier and is the same tool used by professional video producers. The setup investment is 5 to 10 minutes. For quick async messages under 5 minutes where the recipient experience matters more than recording length, **Loom Free** is still useful despite its limits. **ShareX** is the Windows-only pick for users who need annotation and workflow automation alongside recording. For zero-install simplicity on Windows 11, **Clipchamp** covers basic needs without any configuration.
 
-If you are recording walkthroughs of a live meeting rather than a standalone screencast, pairing a screen recorder with the right conferencing tool matters, our [free video conferencing guide](/video/free-video-conferencing/) covers the best free options for team calls and client meetings. The most common quality issue in screen recordings is audio, not video. Built-in laptop microphones pick up room noise, fan sound, and keyboard clicks, all of which are distracting in a walkthrough or tutorial. A USB microphone connects without drivers, appears immediately as an audio device in OBS, and significantly improves perceived recording quality. A decent USB mic for recording costs $40 to $80 and is the highest return-on-cost upgrade for anyone recording regularly.
+For walkthroughs recorded during a live meeting, compare the meeting limits in our [free video conferencing guide](/video/free-video-conferencing/). Audio can make a clear screen capture hard to follow when a laptop microphone also picks up room noise, fan sound, and keyboard clicks. If that is happening, compare a USB microphone with moving the laptop closer and reducing background noise before buying other recording hardware.
 
 <div class="affiliate-cta">
 <div class="affiliate-cta-content">

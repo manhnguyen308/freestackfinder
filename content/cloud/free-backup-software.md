@@ -55,9 +55,9 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 ## The best free backup software in 2026
 
-### 1. Google Drive - best free offsite copy for documents and active folders
+### 1. Google Drive: best free offsite copy for documents and active folders
 
-**What it is:** Google's storage service plus Drive for desktop, which can continuously sync folders from your computer and back up photos and videos to your Google account.
+Google Drive is Google's storage service plus Drive for desktop, which can continuously sync folders from your computer and back up photos and videos to your Google account.
 
 **Backup type:**
 - 15GB free storage shared across Drive, Gmail, and Google Photos
@@ -77,15 +77,15 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 **Best fit:** People with under 15GB of important files who mainly need a simple offsite copy and are currently backing up nothing.
 
-**Restore friction to know:** The best free backup tool is often the one people will use. Google Drive wins there. It is not the most complete backup answer, but it is the easiest way for a non-technical user to stop having zero offsite protection.
+**Restore friction to know:** Google Drive is an approachable way to keep an offsite copy of active folders, but sync lacks the retention and restore controls of dedicated backup software.
 
 [Get Google Drive free ->](https://support.google.com/drive/answer/10838124)
 
 ---
 
-### 2. Duplicati - best free backup software for scheduled encrypted backups
+### 2. Duplicati: best free backup software for scheduled encrypted backups
 
-**What it is:** A free, open-source backup application that creates encrypted, incremental backups to many cloud destinations.
+Duplicati is a free, open-source backup application that creates encrypted, incremental backups to many cloud destinations.
 
 **Backup type:**
 - Scheduled backups
@@ -114,7 +114,7 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 ### 3. Backblaze Personal Backup: paid option for larger datasets
 
-**What it is:** A paid cloud backup service for one computer with unlimited backup and very little setup friction.
+Backblaze Personal Backup is a paid cloud backup service for one computer with unlimited backup and very little setup friction.
 
 **Current pricing and value:**
 - $9/month
@@ -126,15 +126,15 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 **Best fit:** People with a lot of personal data who want a simple set-it-and-forget-it backup service and do not want to assemble their own backup stack.
 
-**Where it makes sense:** Backblaze fits one computer with more data than free cloud storage can hold. It is a paid boundary in this guide, not a free recommendation.
+Backblaze fits one computer with more data than free cloud storage can hold. It is a paid boundary in this guide, not a free recommendation.
 
 [Try Backblaze ->](https://www.backblaze.com/cloud-backup/personal)
 
 ---
 
-### 4. iCloud Backup - best built-in backup for Apple users
+### 4. iCloud Backup: best built-in backup for Apple users
 
-**What it is:** Apple's built-in backup and sync layer for iPhone, iPad, and parts of the Mac file workflow.
+iCloud Backup is Apple's built-in backup and sync layer for iPhone, iPad, and parts of the Mac file workflow.
 
 **Backup type:**
 - 5GB iCloud storage
@@ -160,9 +160,9 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 ---
 
-### 5. Duplicacy - best for advanced users and NAS-oriented setups
+### 5. Duplicacy: best for advanced users and NAS-oriented setups
 
-**What it is:** A backup tool with a free command-line version for personal use and a reputation for efficient deduplication.
+Duplicacy is a backup tool with a free command-line version for personal use and a reputation for efficient deduplication.
 
 **Backup type:**
 - Efficient backups across larger, more complex datasets
@@ -176,7 +176,7 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 **Best fit:** Advanced users who know exactly why they want Duplicacy instead of Duplicati.
 
-**Where it makes sense:** Duplicacy is not the default recommendation, but it is still worth knowing about if you care about storage efficiency and already think in terms of repositories, deduplication, and self-managed backup strategy.
+Choose Duplicacy only if you already work with repositories, deduplication, and self-managed backup storage. Duplicati is the more approachable default for scheduled encrypted backups.
 
 [Download Duplicacy ->](https://duplicacy.com)
 

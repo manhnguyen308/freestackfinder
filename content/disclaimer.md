@@ -1,6 +1,6 @@
 ---
 title: "Affiliate Disclaimer"
-description: "Free Stack Finder affiliate disclosure. We believe in full transparency about how this site earns revenue."
+description: "How Free Stack Finder labels affiliate links, earns commissions, and keeps commercial relationships separate from rankings."
 type: page
 ---
 
@@ -10,9 +10,9 @@ type: page
 
 <p class="page-meta">Last updated: April 2026</p>
 
-## Our commitment to transparency
+## What affiliate links pay for
 
-Free Stack Finder is reader-supported. Some of the links on this site are **affiliate links**, which means we may earn a small commission if you click through and make a purchase: at absolutely no extra cost to you.
+Some links on this site are **affiliate links**. We may earn a commission if you follow one and make a purchase. The seller pays the commission; the referral does not increase the price charged to you.
 
 The FTC (Federal Trade Commission) and similar regulators require clear disclosure of these relationships.
 
@@ -24,13 +24,13 @@ That commission helps fund the site and does not change the price paid by the re
 
 ## What this means for our recommendations
 
-Here is our firm policy: **affiliate relationships never determine our recommendations.**
+**Affiliate relationships do not determine our recommendations.**
 
 If a free tool is the better fit, we recommend it even when that recommendation earns no commission.
 
 We may decline to feature tools when the product does not fit the reader need, even if an affiliate program exists. Our comparison process and recommendations are independent.
 
-If we recommend a paid tool or the paid version of a free tool, it's because we believe it's the right choice for a specific use case, not because of commission rates.
+We recommend a paid tool only when its limits or features fit the stated use case better than the free options, not because of its commission rate.
 
 ## Programs we participate in
 
@@ -55,7 +55,7 @@ The editorial team at Free Stack Finder makes all content and recommendation dec
 
 If you have concerns about a specific recommendation or believe we may have a conflict of interest, please [contact us](/contact/) and we will address it directly.
 
-## Questions?
+## Affiliate questions
 
 Questions about an affiliate relationship can be sent through our [contact page](/contact/).
 

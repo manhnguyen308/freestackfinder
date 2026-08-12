@@ -73,7 +73,7 @@ The practical decision goes beyond price. A team must safely handle onboarding, 
 
 {{< verdict "Best for two-person teams" >}}
 
-**What it is:** Bitwarden's cloud product includes a free "Organization" tier that allows two members to share credential collections: no credit card required.
+Bitwarden's cloud product includes a free Organization tier that allows two members to share credential collections without a credit card.
 
 Bitwarden's free organization tier includes:
 - Two organization members (the owner plus one invited member)
@@ -101,7 +101,7 @@ For exactly two people, this is the simplest hosted free option. Create an organ
 
 {{< verdict "Best for teams that can manage a server" >}}
 
-**What it is:** The official Bitwarden server stack deployed on your own infrastructure via Docker. Self-hosting removes all user-count restrictions: the software cost is zero.
+Bitwarden Self-Hosted is the official Bitwarden server stack deployed on your own infrastructure via Docker. Self-hosting removes all user-count restrictions: the software cost is zero.
 
 Self-hosted Bitwarden removes the cloud tier's user cap:
 - Unlimited organization members
@@ -126,7 +126,7 @@ Self-hosting gives you the commercial Bitwarden feature set at the cost of infra
 
 ### 3. Vaultwarden: best lightweight self-hosted option
 
-**What it is:** An unofficial but widely used reimplementation of the Bitwarden server API written in Rust. It is fully compatible with all official Bitwarden client apps but runs on dramatically lower hardware: a Raspberry Pi or a shared $3/month VPS is enough.
+Vaultwarden is an unofficial but widely used reimplementation of the Bitwarden server API written in Rust. It is fully compatible with all official Bitwarden client apps but runs on dramatically lower hardware: a Raspberry Pi or a shared $3/month VPS is enough.
 
 Vaultwarden keeps the Bitwarden-compatible workflow lighter:
 - Compatible with every Bitwarden client app
@@ -150,7 +150,7 @@ Vaultwarden is the practical choice for teams that want Bitwarden self-hosted bu
 
 ### 4. Passbolt Community Edition: best purpose-built free team option
 
-**What it is:** An open-source password manager built specifically for team collaboration, not a personal tool adapted for teams, but a product designed from the ground up for shared credential management.
+Passbolt Community Edition is an open-source password manager built specifically for team collaboration, not a personal tool adapted for teams, but a product designed from the ground up for shared credential management.
 
 Passbolt Community Edition gives technical teams granular sharing:
 - Unlimited users on the Community Edition
@@ -177,7 +177,7 @@ Passbolt's permission system is the most granular in this list. You can share on
 
 ### 5. KeePassXC shared vault: the manual option for micro-teams
 
-**What it is:** Using a single KeePassXC vault file stored in shared cloud storage (Google Drive, Dropbox, Nextcloud) as a basic team password solution. The vault is a single encrypted file; anyone with the master password can open it.
+KeePassXC shared vault is Using a single KeePassXC vault file stored in shared cloud storage (Google Drive, Dropbox, Nextcloud) as a basic team password solution. The vault is a single encrypted file; anyone with the master password can open it.
 
 The shared-vault approach keeps costs at zero:
 - Completely free and open-source
@@ -200,7 +200,7 @@ Its appeal is that there is no server, no account system, and no recurring payme
 
 ---
 
-## Who should pay for a team password manager?
+## When team controls justify paying
 
 The free options above work in specific scenarios, but a paid team plan is the right choice when:
 
@@ -235,7 +235,7 @@ For the rest of your team's security baseline, pair a shared password manager wi
 
 ---
 
-## Which team password manager makes the most sense?
+## The team password manager to start with
 
 For most small teams in 2026, the realistic free path is:
 

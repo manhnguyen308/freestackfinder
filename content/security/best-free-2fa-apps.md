@@ -50,7 +50,7 @@ Before migrating, save backup codes from every important service and confirm you
 
 ### 1. Aegis Authenticator: best free 2FA app for Android
 
-**What it is:** A free, open-source TOTP authenticator for Android with an encrypted local vault, flexible backup options, and a clean interface.
+Aegis Authenticator is a free, open-source TOTP authenticator for Android with an encrypted local vault, flexible backup options, and a clean interface.
 
 Aegis gives Android users TOTP and HOTP code generation, an AES-256 encrypted local vault with password or biometric unlock, encrypted backup export, imports from Google Authenticator, Authy, and other apps, custom icons and grouping, no required account, and an open-source codebase.
 
@@ -64,7 +64,7 @@ Aegis fits Android users who want a transparent free 2FA app, especially anyone 
 
 ### 2. Raivo OTP: best free 2FA app for iPhone
 
-**What it is:** A free, open-source TOTP authenticator for iOS with iCloud Keychain sync and an encrypted local vault.
+Raivo OTP is a free, open-source TOTP authenticator for iOS with iCloud Keychain sync and an encrypted local vault.
 
 Raivo OTP gives iPhone users TOTP code generation, iCloud Keychain sync across iPhone, iPad, and Mac, an encrypted local vault with Face ID or Touch ID unlock, export and backup functionality, a clean native iOS interface, and an open-source app.
 
@@ -78,7 +78,7 @@ Raivo fits iPhone users who want an open-source Google Authenticator alternative
 
 ### 3. 2FAS: best free cross-platform 2FA app
 
-**What it is:** A free, open-source authenticator that works on both iOS and Android, with optional encrypted cloud backup and a browser extension for desktop use.
+2FAS is a free, open-source authenticator that works on both iOS and Android, with optional encrypted cloud backup and a browser extension for desktop use.
 
 2FAS covers both Android and iOS with TOTP and HOTP code generation, optional encrypted cloud backup, browser extensions for Chrome, Firefox, Safari, and Edge, no required account for basic use, open-source apps, and imports from Google Authenticator and other apps.
 
@@ -92,9 +92,9 @@ The backup convenience comes with a different trust model. Cloud backup requires
 
 ### 4. Bitwarden TOTP: best if you already use Bitwarden
 
-**What it is:** Bitwarden's built-in TOTP authenticator, available on paid plans, but worth understanding if you already use Bitwarden as your password manager.
+Bitwarden TOTP is Bitwarden's built-in TOTP authenticator, available on paid plans, but worth understanding if you already use Bitwarden as your password manager.
 
-Bitwarden TOTP is included because many password-manager users ask whether they can keep codes in the same place as passwords. Bitwarden Free does not include TOTP generation, but Bitwarden Premium unlocks TOTP for all accounts, stores codes alongside passwords in the same encrypted vault, supports browser-extension auto-fill, and keeps the vault end-to-end encrypted with open-source clients.
+Bitwarden TOTP is included because password-manager users may want codes beside their passwords. Bitwarden Free does not include TOTP generation. Bitwarden Premium adds it for all accounts, stores codes in the encrypted vault, and supports browser-extension auto-fill through its open-source clients.
 
 The trade-off is not price alone. TOTP requires the paid plan, Bitwarden is not a standalone 2FA app, and storing passwords plus 2FA codes in the same vault reduces the separation that makes a second factor valuable if the vault itself is compromised.
 
@@ -106,7 +106,7 @@ Bitwarden TOTP fits Premium users who value consolidation and understand the red
 
 ### 5. Authy: most widely used, but with an important caveat
 
-**What it is:** Twilio's 2FA authenticator app: widely installed, multi-device support, and cloud backup included by default.
+Authy is Twilio's 2FA authenticator app: widely installed, multi-device support, and cloud backup included by default.
 
 Authy remains widely used because it offers TOTP generation, multi-device sync across phone, tablet, and desktop, encrypted cloud backup on Authy/Twilio infrastructure, iOS and Android apps, and setup tied to a phone number rather than a separate account system.
 
@@ -133,7 +133,7 @@ Authy fits existing users who do not want to migrate or users who specifically n
 
 ## Setting up 2FA properly: the backup codes step most people skip
 
-Every service that offers 2FA also generates backup codes when you enable it: typically 8 to 10 one-time-use codes that bypass your 2FA app in an emergency. Most people click past this screen. This is the single biggest 2FA mistake: if you lose access to your authenticator app and have no backup codes, you may be permanently locked out of that account.
+Many services generate one-time backup codes when you enable 2FA. Save them before leaving the setup screen. If you lose the authenticator and have no recovery code or alternate recovery method, regaining access may require a provider-specific account recovery process.
 
 When enabling 2FA, download or print the backup codes immediately. Store them in the password manager vault rather than the authenticator app, since the codes are needed when that app is inaccessible.
 
@@ -155,7 +155,7 @@ Google Authenticator is widely known and appears in many setup tutorials. It is 
 </div>
 </div>
 
-## So which 2FA app should you use?
+## The authenticator to start with
 
 Start with primary email, the password manager, and financial accounts. **Aegis** fits Android, **Raivo OTP** is the iOS pick in this comparison, and **2FAS** covers a mixed-device household. Save recovery codes somewhere separate from the phone before moving the next account.
 

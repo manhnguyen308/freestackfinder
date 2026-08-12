@@ -36,7 +36,7 @@ For users who want to switch, the main concerns are usually feature parity and m
 
 ### 1. Obsidian: best free Notion alternative for personal knowledge management
 
-**What it is:** A free local-first note-taking application that stores all notes as plain Markdown files in a folder on your own computer.
+Obsidian is a free local-first note-taking application that stores all notes as plain Markdown files in a folder on your own computer.
 
 **What you get for free:**
 - Completely free for personal use: no subscription, no block limits, no expiry
@@ -53,7 +53,7 @@ For users who want to switch, the main concerns are usually feature parity and m
 
 **Strong fit for:** Writers, researchers, developers, and students who want local Markdown files, offline access, and no subscription.
 
-**What sets it apart:** Obsidian's defining advantage over every other tool in this list is data ownership. Your notes are Markdown files in a folder on your computer: they open in any text editor, they are searchable with any file search tool, and they will be readable in 20 years regardless of whether Obsidian as a company still exists. No other major note-taking app makes that promise. The backlink system and graph view also provide a useful way to see how ideas connect across your notes, which is something Notion does not do well.
+Obsidian's defining advantage over every other tool in this list is data ownership. Your notes are Markdown files in a folder on your computer: they open in any text editor, they are searchable with any file search tool, and they will be readable in 20 years regardless of whether Obsidian as a company still exists. No other major note-taking app makes that promise. The backlink system and graph view also provide a useful way to see how ideas connect across your notes, which is something Notion does not do well.
 
 For productivity tools that pair well with Obsidian, also see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for document editing options.
 
@@ -63,7 +63,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 ### 2. Logseq: best open-source outliner for networked note-taking
 
-**What it is:** A free, open-source knowledge management tool built around an outliner structure, storing notes as local Markdown or Org-mode files.
+Logseq is a free, open-source knowledge management tool built around an outliner structure, storing notes as local Markdown or Org-mode files.
 
 **What you get for free:**
 - Completely free and open-source
@@ -82,7 +82,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 **Strong fit for:** Power users who want an outliner-first workflow, researchers who think in connected ideas rather than linear documents, and anyone who prefers open-source tools.
 
-**What sets it apart:** Logseq is built on the same local-first, Markdown-file philosophy as Obsidian but takes a different approach to structure. Where Obsidian is document-centred, Logseq is block-centred: every bullet point is a separate entity that can be referenced, tagged, and queried independently. This makes it exceptionally good at capturing fleeting notes and creating connections between them in a way that feels more natural than Notion's database approach. The open-source codebase and active community development also mean the tool improves rapidly.
+Logseq is built on the same local-first, Markdown-file philosophy as Obsidian but takes a different approach to structure. Where Obsidian is document-centred, Logseq is block-centred: every bullet point is a separate entity that can be referenced, tagged, and queried independently. This makes it exceptionally good at capturing fleeting notes and creating connections between them in a way that feels more natural than Notion's database approach. The open-source codebase and active community development also mean the tool improves rapidly.
 
 [Download Logseq free →](https://logseq.com)
 
@@ -90,7 +90,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 ### 3. Anytype: best privacy-first Notion alternative with a generous free tier
 
-**What it is:** A local-first, end-to-end encrypted knowledge management app that offers a Notion-like block-based interface while keeping data on your device by default.
+Anytype is a local-first, end-to-end encrypted knowledge management app that offers a Notion-like block-based interface while keeping data on your device by default.
 
 **What you get for free:**
 - Local-first storage with end-to-end encryption
@@ -107,7 +107,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 **Strong fit for:** Users who want a Notion-like block-based interface but with privacy-first architecture, and anyone moving away from Notion who wants the least amount of workflow disruption.
 
-**What sets it apart:** Anytype is the closest match to Notion in this list. Its block editor, database views, and page hierarchy follow a familiar pattern, while data is encrypted and stored locally by default. Choose it when moving to a document-first tool such as Obsidian would disrupt the way you already organise information.
+Anytype is the closest match to Notion in this list. Its block editor, database views, and page hierarchy follow a familiar pattern, while data is encrypted and stored locally by default. Choose it when moving to a document-first tool such as Obsidian would disrupt the way you already organise information.
 
 [Try Anytype free →](https://anytype.io)
 
@@ -115,7 +115,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 ### 4. Coda free tier: best Notion replacement for document-centric teams
 
-**What it is:** A cloud document platform that combines documents, spreadsheets, and databases. Its free tier gives document-focused teams more room than Notion in several areas.
+Coda is a cloud document platform that combines documents, spreadsheets, and databases. Its free tier gives document-focused teams more room than Notion in several areas.
 
 **What you get for free:**
 - Unlimited docs on the free plan
@@ -132,7 +132,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 **Strong fit for:** Small teams who want a Notion-like tool for collaborative documents without hitting block limits, and users who primarily use Notion for documents and wikis rather than personal notes.
 
-**What sets it apart:** Coda treats reports, wiki pages, and project briefs as documents first. Its tables sit inside those documents and behave more like spreadsheets than Notion databases. Choose it when live tables need to support the narrative instead of living as a separate workspace object.
+Coda treats reports, wiki pages, and project briefs as documents first. Its tables sit inside those documents and behave more like spreadsheets than Notion databases. Choose it when live tables need to support the narrative instead of living as a separate workspace object.
 
 [Try Coda free →](https://coda.io)
 
@@ -140,7 +140,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 ### 5. Joplin: best free open-source note-taking for Evernote and Notion refugees
 
-**What it is:** A free, open-source note-taking application that syncs across devices using your own cloud storage, supporting Markdown and rich formatting.
+Joplin is a free, open-source note-taking application that syncs across devices using your own cloud storage, supporting Markdown and rich formatting.
 
 **What you get for free:**
 - Completely free and open-source
@@ -158,7 +158,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 **Strong fit for:** Users who primarily need a note-taking tool rather than a full workspace, Evernote refugees looking for a privacy-respecting replacement, and users who want sync without paying for yet another subscription.
 
-**What sets it apart:** Joplin occupies a different category from the other tools in this list. It is a note-taking app, not a workspace. If you use Notion primarily as a digital notebook, capturing ideas, saving articles, writing journal entries, keeping reference material, Joplin covers that use case completely, syncs across all your devices using storage you already have, and costs nothing. It is not the right tool for building a company wiki or managing a complex project, but for straightforward personal note-taking it is one of the most reliable free options available.
+Joplin occupies a different category from the other tools in this list. It is a note-taking app, not a workspace. If you use Notion primarily as a digital notebook, capturing ideas, saving articles, writing journal entries, keeping reference material, Joplin covers that use case completely, syncs across all your devices using storage you already have, and costs nothing. It is not the right tool for building a company wiki or managing a complex project, but for straightforward personal note-taking it is one of the most reliable free options available.
 
 [Download Joplin free →](https://joplinapp.org)
 
@@ -177,7 +177,7 @@ For productivity tools that pair well with Obsidian, also see our [free Microsof
 
 ---
 
-## Who should still pay for Notion?
+## When Notion's paid plan still fits
 
 Notion's paid plans make the most sense when one workspace carries project tracking, a team wiki, internal documentation, and product roadmaps. At that point, shared permissions and database relationships can justify the cost, especially if moving everyone to a more technical tool would create a training burden.
 

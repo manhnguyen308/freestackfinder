@@ -85,7 +85,7 @@ A few things matter more than a tool's template count when you compare it agains
 
 ## The best free alternatives to Canva in 2026
 
-### 1. Adobe Express - best overall free Canva alternative
+### 1. Adobe Express: best overall free Canva alternative
 
 {{< verdict "Best overall" >}}
 
@@ -97,7 +97,7 @@ The gaps compared to Canva Pro are deliberate. The deeper brand-management tools
 
 ---
 
-### 2. Photopea - best for layer-based image editing
+### 2. Photopea: best for layer-based image editing
 
 {{< verdict "Best for image editing" >}}
 
@@ -111,7 +111,7 @@ If that sounds like your workflow, our full [free Photoshop alternatives guide](
 
 ---
 
-### 3. Microsoft Designer - best for quick AI-assisted design drafts
+### 3. Microsoft Designer: best for quick AI-assisted design drafts
 
 {{< verdict "Best for AI drafts" >}}
 
@@ -123,7 +123,7 @@ It is most useful when your bottleneck is not execution but ideation: it gets yo
 
 ---
 
-### 4. Pixlr - best browser fallback for quick design and photo cleanup
+### 4. Pixlr: best browser fallback for quick design and photo cleanup
 
 {{< verdict "Best browser fallback" >}}
 
@@ -135,7 +135,7 @@ Ads and upgrade prompts are part of the free experience. Paid tiers remove more 
 
 ---
 
-### 5. Picsart - best for mobile-first creators
+### 5. Picsart: best for mobile-first creators
 
 {{< verdict "Best for mobile" >}}
 
@@ -145,7 +145,7 @@ The free experience pushes premium assets and upgrades often, it is weaker for s
 
 [Try Picsart free ->](https://picsart.com)
 
-## Who should still pay for Canva Pro?
+## When Canva Pro starts paying for itself
 
 Canva Pro still earns its keep for three kinds of users:
 

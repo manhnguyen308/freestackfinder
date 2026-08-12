@@ -11,6 +11,6 @@ Editing, screen recording, and video calls fail for different reasons on free pl
 <li><a href="/video/free-video-editing-software/">Free Video Editing Software</a>: if you need a desktop editor for cutting, trimming, and exporting video</li>
 <li><a href="/video/free-screen-recording-software/">Free Screen Recorders</a>: if you need to record your screen for tutorials, demos, or documentation</li>
 <li><a href="/video/zoom-alternatives/">Free Zoom Alternatives</a>: if you need video calls without Zoom's time limits or paid tiers</li>
-<li><a href="/video/premiere-pro-alternatives/">Free Premiere Pro Alternatives</a>: if you're replacing Premiere with a professional-grade free editor</li>
+<li><a href="/video/premiere-pro-alternatives/">Free Premiere Pro Alternatives</a>: if you're replacing Premiere with a deeper free timeline editor</li>
 </ul>
 </div>

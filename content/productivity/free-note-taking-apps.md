@@ -42,7 +42,7 @@ The easiest way to choose is by the first action you take most often. If you cap
 
 ### 1. Google Keep: best for fast capture and Google ecosystem users
 
-**What it is:** Google's note-taking app: a lightweight, colour-coded card interface built for quick capture, with reminders, labels, and direct Google Docs export.
+Google Keep is Google's note-taking app: a lightweight, colour-coded card interface built for quick capture, with reminders, labels, and direct Google Docs export.
 
 Google Keep is strongest when the note is short and temporary. The free app gives you:
 - Unlimited notes
@@ -71,7 +71,7 @@ The Android widget is the practical reason it sticks: one-tap voice or text capt
 
 ### 2. Apple Notes: best for iPhone and Mac users
 
-**What it is:** Apple's built-in notes app with device sync, scanning, attachments, checklists, shared notes, and handwriting support.
+Apple Notes is Apple's built-in notes app with device sync, scanning, attachments, checklists, shared notes, and handwriting support.
 
 Apple Notes gives Apple users a full notes system without installing anything:
 - Unlimited notes with iCloud sync (requires iCloud storage: 5GB free)
@@ -100,7 +100,7 @@ The document scanner with OCR is the quiet standout: scan a receipt or whiteboar
 
 ### 3. Standard Notes: best for encrypted, long-term note storage
 
-**What it is:** An open-source, end-to-end encrypted note-taking app with a strong commitment to longevity and simplicity. The founders have explicitly committed to keeping Standard Notes free and operational indefinitely.
+Standard Notes is an open-source, end-to-end encrypted note-taking app with a strong commitment to longevity and simplicity. The founders have explicitly committed to keeping Standard Notes free and operational indefinitely.
 
 Standard Notes keeps the free tier narrow but serious:
 - Unlimited notes and tags
@@ -126,7 +126,7 @@ Its value is trust and permanence. The encryption is zero-knowledge: the company
 
 ### 4. Simplenote: best minimalist markdown notes across all platforms
 
-**What it is:** A bare-bones markdown notes app from Automattic (the company behind WordPress.com): text only, synced instantly across every platform, entirely free.
+Simplenote is a bare-bones markdown notes app from Automattic (the company behind WordPress.com): text only, synced instantly across every platform, entirely free.
 
 Simplenote keeps the feature set intentionally small:
 - Unlimited notes
@@ -155,7 +155,7 @@ The version history is the practical reason to consider it over a basic text fil
 
 ### 5. Notion free tier: databases and project notes with more setup
 
-**What it is:** The free tier of Notion: a workspace tool that includes unlimited pages, databases, and AI-light features, but requires more setup than a dedicated notes app.
+Notion's free tier of Notion: a workspace tool that includes unlimited pages, databases, and AI-light features, but requires more setup than a dedicated notes app.
 
 Notion's free tier includes enough structure to become a personal workspace:
 - Unlimited pages and blocks
@@ -194,7 +194,7 @@ For a full comparison of Notion alternatives including Obsidian, Logseq, and sel
 
 ---
 
-## Decision guide, which app should you use?
+## Match the app to the capture workflow
 
 **Use Google Keep if:** You are on Android or Chrome, capture ideas on the go, and want the fastest possible path from thought to saved note.
 
@@ -212,7 +212,7 @@ For a full comparison of Notion alternatives including Obsidian, Logseq, and sel
 
 Note-taking is usually the first draft: capturing raw ideas before refining them into emails, documents, or blog posts. Once your thoughts are captured, tools like LanguageTool and ProWritingAid can help improve the grammar and clarity of that writing at no cost. If you work with writing professionally, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for the tools that handle the editing step. If those notes turn into longer reports, spreadsheets, or presentations, pair them with our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/). If your notes often become PDFs for sharing or distribution, see our [free PDF editor alternatives guide](/productivity/free-pdf-editor-alternatives/) for editing, annotating, and signing without a subscription.
 
-## Which notes app makes the most sense?
+## The notes app to start with
 
 Use **Google Keep** or **Apple Notes** for quick capture inside the device ecosystem you already use. Choose **Standard Notes** for zero-knowledge encryption and **Simplenote** for plain Markdown across platforms. Notion fits databases and structured project notes, but it adds unnecessary setup to a simple capture workflow.
 

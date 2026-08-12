@@ -42,7 +42,7 @@ Most time trackers leave timers and basic reports free, then charge for billing 
 
 ### 1. Clockify: best free time tracker overall
 
-**What it is:** A web-based time tracker from Cake.com with a permanently free plan covering unlimited users and unlimited time tracking. Used by over 5 million users, including teams at Amazon, Google, and Apple.
+Clockify is a web-based time tracker from Cake.com. Its current free plan lists unlimited users and unlimited time tracking.
 
 **What you can track for free:**
 - Unlimited users
@@ -72,7 +72,7 @@ Most time trackers leave timers and basic reports free, then charge for billing 
 
 ### 2. Toggl Track: best for individuals who want the cleanest interface
 
-**What it is:** One of the most widely used time trackers, known for its minimal UI and reliable cross-platform experience. Free plan covers individual use and very small teams.
+Toggl Track is one of the most widely used time trackers, known for its minimal UI and reliable cross-platform experience. Free plan covers individual use and very small teams.
 
 **What you can track for free:**
 - Up to 5 users
@@ -100,7 +100,7 @@ Most time trackers leave timers and basic reports free, then charge for billing 
 
 ### 3. RescueTime Lite: best for automatic background time tracking
 
-**What it is:** A desktop and mobile app that runs in the background, automatically recording time spent in apps, websites, and documents without requiring manual timer starts. RescueTime Lite is the free tier.
+RescueTime Lite is a desktop and mobile app that runs in the background, automatically recording time spent in apps, websites, and documents without requiring manual timer starts. RescueTime Lite is the free tier.
 
 **What you can learn for free:**
 - Automatic time tracking (no manual entry required)
@@ -125,7 +125,7 @@ Most time trackers leave timers and basic reports free, then charge for billing 
 
 ### 4. TimeCamp: best free time tracker with basic invoicing
 
-**What it is:** A cloud-based time tracker with a permanently free plan that includes unlimited users and unlimited projects. TimeCamp's free tier adds basic time-to-invoice functionality that most competitors lock to paid plans.
+TimeCamp is a cloud-based time tracker whose current free plan includes unlimited users and unlimited projects. The tier also includes basic time-to-invoice functionality that many competitors reserve for paid plans.
 
 **What you can track for free:**
 - Unlimited users
@@ -152,7 +152,7 @@ Most time trackers leave timers and basic reports free, then charge for billing 
 
 ### 5. Harvest: best free plan for solo freelancers with built-in invoicing
 
-**What it is:** A time tracker that turns entries into invoices and accepts client payments. The free tier stops at one seat and two active projects.
+Harvest is a time tracker that turns entries into invoices and accepts client payments. The free tier stops at one seat and two active projects.
 
 **What you can track for free:**
 - 1 seat (solo use only)

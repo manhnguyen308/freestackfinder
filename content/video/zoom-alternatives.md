@@ -38,7 +38,7 @@ The right replacement depends on the meeting pattern. A weekly client call needs
 
 ### 1. Google Meet: best free video calling for most users
 
-**What it is:** Google's browser-based video calling platform, free to anyone with a Google account.
+Google Meet is Google's browser-based video calling platform, free to anyone with a Google account.
 
 Google Meet's free tier covers most everyday calls:
 - Unlimited 1:1 video calls with no time limit
@@ -63,7 +63,7 @@ The practical advantage over Zoom Free is simple: 1:1 calls do not run out, and 
 
 ### 2. Jitsi Meet: best completely open-source option with no account required
 
-**What it is:** A fully open-source, browser-based video calling platform that requires no account, no download, and has no time limits on any call.
+Jitsi Meet is a fully open-source, browser-based video calling platform that requires no account, no download, and has no time limits on any call.
 
 Jitsi Meet keeps the entry barrier unusually low:
 - Unlimited call duration with no participant limits on the public hosted version
@@ -89,7 +89,7 @@ Its defining advantage is setup speed. Open meet.jit.si, type a room name, and s
 
 ### 3. Microsoft Teams free: best for users in the Microsoft ecosystem
 
-**What it is:** Microsoft's collaboration and video calling platform with a free tier covering core meeting and messaging features.
+Microsoft Teams free is Microsoft's collaboration and video calling platform with a free tier covering core meeting and messaging features.
 
 Teams Free gives Microsoft users more than a meeting room:
 - Group video calls up to 60 minutes with up to 100 participants
@@ -114,7 +114,7 @@ Teams Free makes the most sense as a broader collaboration platform. Persistent 
 
 ### 4. Discord: best for informal teams and long-running calls
 
-**What it is:** A voice, video, and text communication platform widely used by remote teams, study groups, and creator communities.
+Discord is a voice, video, and text communication platform widely used by remote teams, study groups, and creator communities.
 
 Discord's free tier is built for ongoing group spaces:
 - Unlimited video and voice calls with no time limits
@@ -139,7 +139,7 @@ Discord fills a gap that Zoom and Google Meet do not address: persistent, always
 
 ### 5. Whereby: best browser-based option for client-facing calls
 
-**What it is:** A browser-based video calling tool with a permanent room URL, designed for simple and professional client meetings.
+Whereby is a browser-based video calling tool with a permanent room URL, designed for simple and professional client meetings.
 
 Whereby's free plan is simple and client-friendly:
 - One permanent meeting room with a custom URL (e.g. whereby.com/yourname)
@@ -173,7 +173,7 @@ The permanent room URL is the reason to choose it. Instead of generating a new m
 
 ---
 
-## Who should still pay for Zoom?
+## When Zoom's paid plan is worth it
 
 Zoom's paid plans make sense for organisations that need enterprise-grade meeting management: large webinars with hundreds of attendees, cloud recording with automatic transcription, advanced admin controls, and IT compliance features. The Zoom Webinar product has no meaningful free equivalent, and for businesses running regular large-scale virtual events the paid tier is the right tool.
 

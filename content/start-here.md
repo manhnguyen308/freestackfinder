@@ -28,7 +28,7 @@ author: "FreeStackFinder Team"
 </ul>
 </div><div class="collection-card">
 <p class="collection-title">I'm replacing Microsoft Office or paid apps</p>
-<p class="collection-intro">Drop the subscription and keep your productivity. Free alternatives for writing, notes, spreadsheets, and PDFs.</p>
+<p class="collection-intro">Free options for writing, notes, spreadsheets, and PDFs, grouped by the workflow they replace.</p>
 <ul class="collection-list">
 <li><a href="/productivity/microsoft-office-alternatives/"><span class="collection-link-title">Microsoft Office Alternatives</span><span class="collection-link-cat">Productivity</span></a></li>
 <li><a href="/productivity/free-note-taking-apps/"><span class="collection-link-title">Free Note-Taking Apps</span><span class="collection-link-cat">Productivity</span></a></li>
@@ -37,7 +37,7 @@ author: "FreeStackFinder Team"
 </ul>
 </div><div class="collection-card">
 <p class="collection-title">I want safer accounts and privacy basics</p>
-<p class="collection-intro">Stronger passwords, two-factor authentication, a VPN, and antivirus: all available without a paid subscription.</p>
+<p class="collection-intro">Compare password managers, two-factor authentication, VPNs, and antivirus by their free limits and security model.</p>
 <ul class="collection-list">
 <li><a href="/security/free-password-managers/"><span class="collection-link-title">Free Password Managers</span><span class="collection-link-cat">Security</span></a></li>
 <li><a href="/security/best-free-2fa-apps/"><span class="collection-link-title">Free 2FA Apps</span><span class="collection-link-cat">Security</span></a></li>
@@ -55,7 +55,7 @@ author: "FreeStackFinder Team"
 </ul>
 </div><div class="collection-card">
 <p class="collection-title">I need storage, backup, or cloud tools</p>
-<p class="collection-intro">Free cloud storage, Dropbox alternatives, and backup software that protect your files without a monthly fee.</p>
+<p class="collection-intro">Free cloud storage, Dropbox alternatives, and backup software, with storage and retention limits shown.</p>
 <ul class="collection-list">
 <li><a href="/cloud/free-cloud-storage-comparison/"><span class="collection-link-title">Free Cloud Storage Compared</span><span class="collection-link-cat">Cloud</span></a></li>
 <li><a href="/cloud/dropbox-alternatives/"><span class="collection-link-title">Free Dropbox Alternatives</span><span class="collection-link-cat">Cloud</span></a></li>
@@ -75,7 +75,7 @@ author: "FreeStackFinder Team"
 
 <div class="static-page start-here-footer">
 
-## Not sure which path fits?
+## Choose by the job you need to finish
 
 Use [site search](/search/) to find tools by name or task. Or browse all categories: [Productivity](/productivity/) · [Business](/business/) · [Creative](/creative/) · [Security](/security/) · [Cloud](/cloud/) · [Video](/video/).
 

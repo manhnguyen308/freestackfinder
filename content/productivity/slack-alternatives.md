@@ -131,11 +131,11 @@ The natural fit: technical teams who want maximum features on a self-hosted depl
 
 **Choosing self-hosted without accounting for maintenance.** Mattermost and Rocket.Chat are compelling at zero software cost, but "free" here means free to license, not free to run. A self-hosted deployment requires a server (which has a monthly cost), someone to handle updates and backups, and a plan for what happens when the server goes down outside office hours. For a small team without technical staff, that ongoing operational overhead is likely higher than the cost of a Slack subscription. Self-hosted is the right call for organisations with data residency requirements or a dedicated IT team, for others, it trades one monthly bill for a different kind of ongoing cost.
 
-**Switching during a high-pressure period.** The first two weeks on a new communication tool always include friction: people miss channels, forget to check the new app, or fall back to email. Running a tool switch during a product launch, a client deadline, or a hiring sprint multiplies that friction at exactly the wrong moment. A quieter week, ideally with a parallel test period where both tools are running, reduces the disruption significantly.
+**Switching during a high-pressure period.** A new communication tool creates migration work: channels need owners, notifications need adjustment, and some people will fall back to email. Schedule the move outside a product launch or client deadline, and keep the old archive available until the team can find prior decisions in the new system.
 
 ---
 
-## Who should still pay for Slack?
+## When Slack's paid history is worth it
 
 Slack Pro and Business+ make the most sense for larger teams where the depth of the integration ecosystem is in use. Slack has the largest marketplace of third-party app integrations of any team communication tool: if your team depends on Salesforce, ServiceNow, or complex custom workflow automations built on Slack's API, the switching cost to a free alternative can outweigh the subscription cost.
 

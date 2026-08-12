@@ -27,7 +27,7 @@ Adobe Illustrator costs $22.99/month as a standalone app, or $59.99/month inside
 
 Adobe's shift to a subscription-only model in 2013 fundamentally changed who can afford Illustrator. At $22.99/month, a solo freelancer pays $275/year for a single app. The full Creative Cloud suite, which many users subscribe to just to get Illustrator alongside Photoshop, costs $719/year. For occasional users, students, and small businesses, that cost is difficult to justify.
 
-The open-source community responded. Inkscape has been in active development since 2003 and has advanced significantly in recent years: particularly with the 1.0 release which added features that had been on the roadmap for years. For the majority of vector design work, the gap between Inkscape and Illustrator has narrowed considerably. For free graphic design tools that complement vector work, see our [free Canva alternatives guide](/creative/canva-alternatives/) for template-based design tools that pair well with Inkscape.
+Inkscape has been in active development since 2003. Its current toolset covers SVG paths, nodes, boolean operations, typography, layers, and print-ready exports, which is enough for many logo, icon, and technical illustration workflows. It still differs from Illustrator in `.ai` compatibility, artboards, cloud collaboration, and some complex-file performance. For template-based work that sits beside vector editing, see our [free Canva alternatives guide](/creative/canva-alternatives/).
 
 ---
 
@@ -35,7 +35,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 ### 1. Best for open-source vector work: Inkscape
 
-**What it is:** A free, open-source vector graphics editor that handles professional illustration, logo design, SVG editing, icon creation, and print-ready artwork.
+Inkscape is a free, open-source vector editor for illustration, logo design, SVG editing, icons, and print-ready artwork.
 
 **What you get without paying:**
 - Full SVG editing with Bezier curves, nodes, and paths
@@ -65,7 +65,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 ### 2. Best for browser-based vectors: Vectr
 
-**What it is:** A lightweight, browser-based vector editor focused on simplicity: no installation required, works in any modern browser.
+Vectr is a lightweight browser editor for simple vector graphics. It runs without a desktop installation.
 
 **Inside the free version:**
 - Basic shapes, paths, and text
@@ -82,7 +82,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **A natural fit for:** Non-designers who need to create simple vector graphics quickly, social media icons, basic logos, simple illustrations, without learning a complex tool.
 
-**Why choose it:** Vectr runs in a browser without a download or account. That is enough for a one-off logo or icon, but its toolset does not replace Inkscape or Illustrator for detailed vector work.
+Vectr runs in a browser without a download or account. That is enough for a one-off logo or icon, but its toolset does not replace Inkscape or Illustrator for detailed vector work.
 
 [Try Vectr free →](https://vectr.com)
 
@@ -90,7 +90,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 ### 3. Gravit Designer: best for users who want a cloud-based Illustrator experience
 
-**What it is:** A cross-platform vector editor with a desktop app, cloud storage, and an interface organized around modern design panels.
+Gravit Designer is a cross-platform vector editor with a desktop app, cloud storage, and an interface organized around modern design panels.
 
 **Inside the free version:**
 - Full vector design tools including Bezier curves, boolean operations, and path editing
@@ -107,7 +107,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **A natural fit for:** Intermediate designers who prefer a cloud-first workflow and find Inkscape's menus difficult to learn.
 
-**Why choose it:** Gravit Designer sits between Inkscape's deeper toolset and Vectr's narrower browser editor. Its cloud-first setup keeps files available across devices. Check the current free-plan boundaries before relying on it for client work.
+Gravit Designer sits between Inkscape's deeper toolset and Vectr's narrower browser editor. Its cloud-first setup keeps files available across devices. Check the current free-plan boundaries before relying on it for client work.
 
 [Try Gravit Designer free →](https://www.designer.io)
 
@@ -115,7 +115,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 ### 4. SVG-edit: best for quick browser-based SVG editing
 
-**What it is:** An open-source, browser-based SVG editor that runs entirely in the browser with no server-side component: no account, no installation, no data sent anywhere.
+SVG-edit is an open-source, browser-based SVG editor that runs entirely in the browser with no server-side component: no account, no installation, no data sent anywhere.
 
 **Inside the free version:**
 - Basic SVG shape tools (rectangle, ellipse, line, polyline, path)
@@ -132,7 +132,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **A natural fit for:** Developers and technical users who need to quickly view or edit SVG files without installing software. Also good for privacy-conscious users who do not want design files uploaded to any cloud service.
 
-**Why choose it:** SVG-edit is open-source, works offline, and requires neither an account nor a cloud workflow. It fits developers who occasionally need to adjust an SVG icon without installing a larger design application.
+SVG-edit is open-source, works offline, and requires neither an account nor a cloud workflow. It fits developers who occasionally need to adjust an SVG icon without installing a larger design application.
 
 [Try SVG-edit free →](https://svgedit.netlify.app)
 
@@ -140,7 +140,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 ### 5. Canva free tier: best for non-designers who want vector-adjacent results
 
-**What it is:** A template-driven design platform that includes basic vector shape tools alongside its extensive template library.
+Canva is a template-driven design platform that includes basic vector shape tools alongside its extensive template library.
 
 **Inside the free version:**
 - Thousands of templates for logos, social media, presentations, and print
@@ -158,7 +158,7 @@ The open-source community responded. Inkscape has been in active development sin
 
 **A natural fit for:** Business owners, marketers, and non-designers who need professional-looking graphics quickly and are not concerned with producing editable vector files.
 
-**Why choose it:** Canva cannot replace Illustrator's path editing, typography control, or illustration tools. It can replace an Illustrator workflow built mainly around templates for social graphics, simple logos, and marketing material. Use Inkscape for vector construction and Canva for template-based output.
+Canva cannot replace Illustrator's path editing, typography control, or illustration tools. It can replace an Illustrator workflow built mainly around templates for social graphics, simple logos, and marketing material. Use Inkscape for vector construction and Canva for template-based output.
 
 [Visit Canva](https://www.canva.com/)
 
@@ -188,11 +188,11 @@ Key differences to know upfront: Inkscape uses XML-based SVG as its native forma
 
 ---
 
-## Who should still pay for Adobe Illustrator?
+## When Illustrator still earns its subscription
 
 Illustrator remains the right choice for professional studio environments where files are shared between team members who all use Adobe products, where .ai compatibility is a hard requirement from clients or printers, or where the extended feature set, perspective grid, variable fonts, advanced gradient mesh, Live Paint, is in regular use. For individual freelancers and studios who have built workflows around Illustrator's specific capabilities, the switching cost may outweigh the subscription cost.
 
-For most other users, Inkscape's capabilities have closed the gap significantly. A freelance logo designer, a small business creating their own brand assets, a student learning vector design: all of these users can produce professional output with Inkscape at zero cost.
+Inkscape covers the core path, node, typography, and export work needed for logos, small-business brand assets, and learning vector design. Keep Illustrator when native `.ai` exchange, Adobe integrations, or its specific print workflow is part of the job.
 
 ---
 

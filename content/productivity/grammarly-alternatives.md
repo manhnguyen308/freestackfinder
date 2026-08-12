@@ -36,7 +36,7 @@ Most users need grammar checks, clarity flags, and word-choice suggestions. The 
 
 ### 1. LanguageTool: best for multilingual writers and everyday grammar checking
 
-**What it is:** An open-source grammar and spell checker that supports over 30 languages, available as a browser extension, desktop app, and web editor.
+LanguageTool is an open-source grammar and spell checker that supports over 30 languages, available as a browser extension, desktop app, and web editor.
 
 **What you can use for free:**
 - Grammar, spelling, and punctuation checking in 30+ languages
@@ -63,7 +63,7 @@ Most users need grammar checks, clarity flags, and word-choice suggestions. The 
 
 ### 2. ProWritingAid: best for long-form writers who want structural feedback
 
-**What it is:** A writing analysis tool that checks grammar, style, readability, and sentence structure. The free tier covers its core editing workflow.
+ProWritingAid is a writing analysis tool that checks grammar, style, readability, and sentence structure. The free tier covers its core editing workflow.
 
 **What you can do for free:**
 - Grammar and spelling checks
@@ -88,7 +88,7 @@ Most users need grammar checks, clarity flags, and word-choice suggestions. The 
 
 ### 3. Hemingway Editor: best for improving readability and cutting clutter
 
-**What it is:** A web-based editor that highlights hard-to-read sentences, passive voice, adverbs, and overly complex phrasing, with a simple readability grade.
+Hemingway Editor is a web-based editor that highlights hard-to-read sentences, passive voice, adverbs, and overly complex phrasing, with a simple readability grade.
 
 **What you can do for free:**
 - Full readability analysis in the browser: completely free
@@ -112,7 +112,7 @@ Most users need grammar checks, clarity flags, and word-choice suggestions. The 
 
 ### 4. Google Docs built-in tools: best for writers already working in Google's ecosystem
 
-**What it is:** The grammar, spelling, and smart compose features built into Google Docs, available to anyone with a free Google account.
+Google Docs built-in tools is the grammar, spelling, and smart compose features built into Google Docs, available to anyone with a free Google account.
 
 **What you can do for free:**
 - Real-time spelling and grammar checking
@@ -163,7 +163,7 @@ The free tools above are not competing replacements: they work better in combina
 
 ---
 
-## Who should still pay for Grammarly Premium?
+## When Grammarly Premium makes sense
 
 Grammarly Premium makes the most sense for professionals whose writing directly affects their income or reputation: think job applicants polishing cover letters, consultants writing client proposals, or marketers producing copy at scale. The tone detection feature, which tells you whether a piece of writing sounds confident, formal, or friendly, is particularly useful for anyone managing brand voice across multiple channels. It is the kind of feedback that would otherwise require a human editor.
 
@@ -173,7 +173,7 @@ The plagiarism checker bundled with Premium is a niche but genuine use case for 
 
 ---
 
-## Which writing tool should you choose?
+## The writing tool to start with
 
 Use **LanguageTool** for everyday correction, **ProWritingAid** for a long-document review, and **Hemingway Editor** for a final readability check. That combination involves more than one tool but keeps grammar and clarity work free. Pay for Grammarly when keeping rewrites, tone feedback, and plagiarism checking in one interface saves enough time to matter.
 

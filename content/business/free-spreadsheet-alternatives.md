@@ -31,7 +31,7 @@ Use **Google Sheets** for shared browser-based work and **LibreOffice Calc** for
 
 Microsoft 365 Personal costs $99.99 per year. For a student, freelancer, or small business owner who primarily needs to manage budgets, track data, and build simple formulas, that is a recurring cost for features they will never use.
 
-The free alternatives have closed the gap significantly. Google Sheets added array formulas, XLOOKUP, and lambda functions over the past two years. LibreOffice Calc handles complex multi-sheet workbooks and imports Excel files with good formatting fidelity. The common use cases, expense tracking, project budgets, inventory lists, client invoices, data cleaning, are all covered at zero cost.
+Google Sheets includes array formulas, XLOOKUP, and lambda functions. LibreOffice Calc handles multi-sheet workbooks and imports Excel files, although complex formatting and formulas still need checking after import. Both cover common work such as expense tracking, project budgets, inventory lists, invoices, and data cleaning.
 
 The practical triggers for switching are usually either hitting a budget constraint or moving to a new device where Excel is not already installed. In both cases, the tools below handle the transition without meaningful compromise for most users.
 
@@ -45,7 +45,7 @@ Collaboration is the other dividing line. If three people edit the same tracker,
 
 ### 1. Google Sheets: best overall free spreadsheet for most users
 
-**What it is:** Google's cloud-based spreadsheet application: part of Google Workspace, free for personal accounts, and the most widely used free Excel alternative globally.
+Google Sheets is Google's cloud-based spreadsheet application: part of Google Workspace, free for personal accounts, and the most widely used free Excel alternative globally.
 
 Google Sheets covers the everyday spreadsheet work most people do:
 - Unlimited spreadsheets stored in Google Drive (15GB free storage shared across Drive, Gmail, and Photos)
@@ -75,7 +75,7 @@ For tracking project budgets and timelines alongside spreadsheet data, see our [
 
 ### 2. LibreOffice Calc: best free offline desktop spreadsheet
 
-**What it is:** The spreadsheet component of LibreOffice: a fully featured, open-source office suite that installs locally on Windows, macOS, or Linux.
+LibreOffice Calc is the spreadsheet component of LibreOffice: a fully featured, open-source office suite that installs locally on Windows, macOS, or Linux.
 
 LibreOffice Calc is the desktop answer:
 - Completely free: no subscription, no trial period, no feature limits
@@ -103,7 +103,7 @@ Calc is the only tool in this list with no meaningful limitation on the free ver
 
 ### 3. Zoho Sheet: best free spreadsheet inside a business workflow
 
-**What it is:** Zoho's cloud-based spreadsheet application, available as a standalone free tool and as part of the broader Zoho Workplace suite.
+Zoho Sheet is Zoho's cloud-based spreadsheet application, available as a standalone free tool and as part of the broader Zoho Workplace suite.
 
 Zoho Sheet gives free accounts:
 - 5GB storage for free accounts
@@ -131,7 +131,7 @@ For related Zoho tools in the Business suite, see our [free CRM software guide](
 
 ### 4. ONLYOFFICE Docs: best free collaborative spreadsheet for self-hosted or team setups
 
-**What it is:** An open-source office suite with a spreadsheet editor that can be used via ONLYOFFICE's free cloud tier or self-hosted on your own server.
+ONLYOFFICE Docs is an open-source office suite with a spreadsheet editor that can be used via ONLYOFFICE's free cloud tier or self-hosted on your own server.
 
 ONLYOFFICE is strongest when Excel compatibility is the decision point:
 - Cloud-hosted free tier with collaborative spreadsheet editing
@@ -156,7 +156,7 @@ ONLYOFFICE has the most faithful Excel format rendering of any free spreadsheet 
 
 ### 5. Airtable free tier: best for spreadsheet-database hybrid workflows
 
-**What it is:** A cloud platform that combines a spreadsheet interface with a relational database structure: useful for teams managing structured data, content calendars, project tracking, and lightweight CRM workflows.
+Airtable is a cloud platform that combines a spreadsheet interface with a relational database structure: useful for teams managing structured data, content calendars, project tracking, and lightweight CRM workflows.
 
 Airtable's free tier is for structured data, not heavy formulas:
 - Up to 5 bases (workspaces) with up to 1,000 records per base
@@ -194,7 +194,7 @@ For more on free project and task management, see our [free project management s
 
 ---
 
-## Who should still pay for Microsoft Excel?
+## When Excel is still worth paying for
 
 Excel remains the right tool when the work requires it: complex financial models with Power Query and Power Pivot, large datasets that would slow down a browser-based tool, VBA macros built into existing business processes, or strict compliance environments where data cannot leave a corporate-controlled system.
 
@@ -206,7 +206,7 @@ Do not test with a blank file.
 
 ---
 
-## Which spreadsheet makes the most sense?
+## The spreadsheet to start with
 
 Use **Google Sheets** for browser-based collaboration and **LibreOffice Calc** for unrestricted offline desktop work. **Zoho Sheet** fits businesses already using Zoho apps. Keep paying for Excel when VBA, Power Query, advanced pivots, add-ins, or strict workbook compatibility are requirements.
 

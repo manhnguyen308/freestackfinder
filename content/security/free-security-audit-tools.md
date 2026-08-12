@@ -75,7 +75,7 @@ This guide focuses on tools useful for freelancers, solo developers, and small t
 
 OWASP ZAP (now maintained by Checkmarx under the ZAP project) is a web application security scanner that intercepts traffic between your browser and a target application, then runs a battery of checks for common vulnerabilities: SQL injection, cross-site scripting, insecure headers, exposed sensitive paths, and more. It is the most widely used free web application scanner in the world.
 
-The free version is the full version. There is no "ZAP Pro" that unlocks more scans: the open-source release includes the automated spider, the active scanner, the passive scan listener, and the API for scripting automated runs in CI pipelines.
+The free version is the full version. There is no "ZAP Pro" with extra scan types: the open-source release includes the automated spider, active scanner, passive scan listener, and an API for scripted CI runs.
 
 **What the free version covers:** Full automated scanning, manual proxy interception, active and passive scan modes, scriptable rules, CI/CD integration via Docker image. No scan count limit. No time limit.
 
@@ -115,7 +115,7 @@ A typical Lynis audit checks filesystem permissions, authentication configuratio
 
 **Best for:** Anyone running a Linux VPS, self-hosted application, or home server who wants a structured list of security improvements to work through. Running `lynis audit system` after a fresh server setup is one of the most practical things a self-hosting developer can do.
 
-**What to watch out for:** Lynis finds a lot of issues on any fresh system because it checks against a strong hardening baseline. A hardening index of 60 to 70/100 on a new server is normal, not alarming. Work through the suggestions by priority: SSH settings and authentication are almost always more critical than file permission tweaks.
+**What to watch out for:** Lynis checks against a strict hardening baseline, so a fresh system may produce a long suggestion list. Prioritize exposed services, SSH settings, authentication, and findings tied to the system's threat model instead of treating every recommendation as equally urgent.
 
 ---
 
@@ -137,7 +137,7 @@ The typical use case is a quick sanity check before deploying a new site or afte
 
 Greenbone Community Edition (formerly known as OpenVAS) is a full-featured vulnerability management platform with a community-maintained feed of 60,000+ vulnerability tests. It runs as a set of services on a local machine or VM, provides a web interface for managing scans and targets, and produces structured vulnerability reports categorized by severity.
 
-The setup is significantly more involved than any of the other tools in this guide. Greenbone publishes an official Docker Compose configuration that reduces setup to a few commands on a Linux host, but the initial synchronization of the vulnerability feed takes 20 to 40 minutes, and the system requires at least 4 GB of RAM to run comfortably.
+Greenbone requires a Linux host, Docker Compose, at least 4 GB of RAM, and an initial vulnerability-feed synchronization that takes 20 to 40 minutes. It also needs ongoing feed updates and more server maintenance than the other tools in this guide.
 
 **What the free version covers:** Full vulnerability scanner with the community feed, web-based management UI, scheduled scan support, and detailed per-host vulnerability reports. The paid Greenbone Enterprise product adds commercial vulnerability feeds with faster updates and compliance reporting, but for most small-team use cases, the community edition finds everything actionable.
 

@@ -87,7 +87,7 @@ On the free plan, the useful pieces are:
 - Works in any browser, no installation required
 - One-page and two-page layouts available
 
-The trade-offs are worth checking before you commit to a template:
+Check these limits before committing to a template:
 - Some templates are labelled "Pro" and require a paid subscription
 - Brand Kit and custom font features require Canva Pro
 - No built-in ATS optimisation or job description matching
@@ -122,7 +122,7 @@ The limits are mostly about polish and guidance:
 
 Use Google Docs for large employers, corporations, government roles, recruiters, or any application funnel where an ATS is likely to read your file before a person does. A clean, single-column Google Docs resume exported to PDF is one of the safest formats for parsing. It is also the right choice if you already use Google Workspace and want your resume in the same ecosystem as your other documents: see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for the broader picture of document tools.
 
-Google Docs stands out because the file stays portable. You can download it as PDF or Word, edit it later without returning to a proprietary resume platform, and keep a version history as you tailor the resume for different roles.
+The Google Docs file stays portable. You can download it as PDF or Word, edit it without returning to a proprietary resume platform, and keep a version history for role-specific copies.
 
 [Open Google Docs templates](https://docs.google.com/)
 
@@ -154,7 +154,7 @@ For people applying mainly through Indeed, keeping the resume on the platform re
 
 ### 4. Resume.com: best guided free builder
 
-Resume.com is a dedicated guided builder rather than a general design or document tool. Its strongest use case is helping you move from "I do not know what to write" to a structured draft with sections and bullet prompts.
+Resume.com is a guided builder for turning a blank page into a structured draft with sections and bullet prompts. It does not offer the layout control of Canva or Google Docs.
 
 The no-cost builder gives you:
 - Guided section-by-section resume builder
@@ -182,7 +182,7 @@ The pre-written suggestions are not a finished resume, but they are a useful sta
 
 **Novoresume** has a free plan with one basic template and limited sections. It may work for a minimal resume, but the free tier is narrow enough that most users will hit its constraints quickly.
 
-**Kickresume** offers a free plan with access to a limited template set. The templates are well-designed, but premium templates and AI-assisted content are paywalled. Worth exploring if Canva's template style does not match your target industry.
+**Kickresume** offers a free plan with a limited template set, while premium templates and generated content are paid. Check it only if Canva's layouts do not fit the target industry.
 
 **Microsoft Word Online** is a reasonable option if you already have a Microsoft account: Word templates include several resume layouts, and the free web version exports to .docx cleanly. For users in the Microsoft ecosystem, it works similarly to Google Docs.
 
@@ -201,9 +201,9 @@ The pre-written suggestions are not a finished resume, but they are a useful sta
 
 ---
 
-## Decision guide: when a paid resume builder is worth it
+## When a paid resume builder is worth it
 
-A free tool covers the job for most resume needs. Consider a paid option if:
+A free tool covers a conventional one- or two-page resume. Consider a paid option if:
 
 - You are hiring a professional resume writer who uses a specific platform
 - You need a resume and cover letter package with consistent branding across multiple documents
@@ -216,22 +216,12 @@ For job seekers who also handle their own invoicing or client billing as freelan
 
 ---
 
-## When a free resume builder is enough and when it is not
-
-A free builder is enough when your priority is producing a clean, current, one or two-page resume for direct applications, LinkedIn updates, or recruiter outreach. It is also enough when your experience fits a conventional layout: chronological work history, a short skills section, and an education block.
-
-A free builder starts to fall short in three specific situations. The first is when you need tightly coordinated branding across a resume, cover letter, portfolio site, and email signature for a senior or client-facing role. The second is when you want AI tailoring that automatically rewrites your resume against each job description: most free tiers offer basic suggestions but not full rewriting. The third is when you are working with a professional resume writer who insists on a specific paid platform for revisions.
-
-For everything else, a free tool is not a compromise. The quality of a resume comes from the content, specific, verifiable accomplishments, role-relevant keywords, and clean structure, not from a premium template.
-
----
-
 ## Practical tradeoffs to weigh before you pick one
 
-The right free resume builder depends on which of these tradeoffs matters most for your situation:
+Compare these tradeoffs before choosing a builder:
 
 - **Export format.** A real PDF export is non-negotiable. Some tools only export PNG or share a public link on the free tier, which is awkward to attach to applications. Confirm a clean PDF export exists before you invest time building inside a tool.
-- **Watermark risk.** A handful of free resume tools add a small watermark or footer credit on the free PDF. Canva, Google Docs, Indeed Resume Builder, and Resume.com do not, but anything outside this list is worth a quick check before you finalise a document.
+- **Watermark risk.** A handful of free resume tools add a small watermark or footer credit on the free PDF. Canva, Google Docs, Indeed Resume Builder, and Resume.com do not. Check any tool outside this list before finalising a document.
 - **Template quality.** Visual polish varies widely. Canva leads on template variety; Google Docs offers a small set of conservative layouts; guided builders sit in between. If your target industry prioritises clarity over design, a plain layout is an advantage, not a limitation.
 - **Privacy and account signup.** Most free tools require an account. Indeed makes your resume searchable to recruiters by default: adjust your visibility setting if you do not want that. Avoid pasting personal details into any tool that requires a credit card "for verification" on the free tier; that pattern is a paywall in disguise.
 - **ATS readability.** Multi-column layouts, sidebars, icons, embedded text boxes, and decorative fonts can confuse strict applicant tracking systems. A clean single-column layout exported to PDF is the safest format for large employers. If you are not sure whether the company uses an ATS, assume yes.
@@ -243,13 +233,13 @@ The right free resume builder depends on which of these tradeoffs matters most f
 
 - **Choosing design over readability.** A heavily designed template can look impressive in the preview and still get rejected by an ATS or skimmed past by a recruiter who has 20 seconds per resume. Lead with clarity; treat design as the finish, not the foundation.
 - **Using graphics-heavy templates for ATS roles.** Icons next to skills, photo headshots, two-column layouts with sidebars, and decorative fonts are common reasons a resume parses incorrectly. If you are applying to a large employer, a corporate recruiter, or any role posted on a major job board, default to a clean single-column layout.
-- **Forgetting to export a clean PDF.** Always download the final resume as a PDF and open it on a different device before submitting. Confirm the fonts render correctly, no template-credit footer is added, and links are clickable. A surprising number of issues only appear at this final step.
-- **Relying too heavily on AI-generated phrasing.** Generic AI-written bullet points read identically across thousands of resumes. Use AI suggestions as a starting point, then rewrite each bullet with a specific outcome, metric, or detail only you could supply. Recruiters can spot purely AI-written resumes quickly.
+- **Forgetting to export a clean PDF.** Download the final resume as a PDF and open it on a different device before submitting. Confirm that fonts render correctly, no template-credit footer appears, and links are clickable.
+- **Relying on generated phrasing.** Template-generated bullet points stay generic until you add a verified outcome, metric, or detail from your own work. Rewrite every suggestion before submitting it.
 - **Mismatched dates and details.** Free builders sometimes auto-fill placeholder values that survive into the final export. Proofread every date, job title, and company name in the exported PDF; the builder preview is not the final check.
 
 ---
 
-## Concrete examples, which tool fits which situation
+## Match the builder to the application
 
 - **Student resume (first internship or graduate role).** Resume.com or Indeed Resume Builder. The guided prompts help structure a first CV around education, projects, and part-time work where formal job experience is thin. Export as PDF and keep it to one page.
 - **Freelancer profile between contracts.** Canva can keep the resume, portfolio, and proposal documents visually consistent for direct clients.

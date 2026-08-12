@@ -43,7 +43,7 @@ The open-source community responded. Penpot reached production stability and now
 
 ### 1. Penpot: best free Figma alternative overall
 
-**What it is:** An open-source, browser-based design and prototyping platform developed by Kaleidos. Penpot is completely free: no paid tiers, no user limits, no feature restrictions.
+Penpot is an open-source, browser-based design and prototyping platform developed by Kaleidos. Penpot is completely free: no paid tiers, no user limits, no feature restrictions.
 
 **The free experience:**
 - Unlimited users and projects
@@ -62,9 +62,9 @@ The open-source community responded. Penpot reached production stability and now
 - No Dev Mode equivalent (inspect panel is basic)
 - Community template library is growing but smaller than Figma's
 
-**Natural fit:** Design teams of any size who want zero licensing cost, full feature access, and the option to self-host for data sovereignty. Agencies working with clients who require on-premise tooling find Penpot especially valuable.
+**Natural fit:** Choose Penpot when the team needs self-hosting, SVG-native files, or no per-seat licence fee. Its on-premise option also fits client work that cannot be stored in a vendor cloud.
 
-**Why choose it:** Penpot is free and open-source, with no seat limit or paid feature tier. Its SVG-native files suit teams that care about portable, standards-based output and want to avoid per-seat pricing.
+Penpot is free and open-source, with no seat limit or paid feature tier. Its SVG-native files suit teams that care about portable, standards-based output and want to avoid per-seat pricing.
 
 [Try Penpot free →](https://penpot.app)
 
@@ -72,7 +72,7 @@ The open-source community responded. Penpot reached production stability and now
 
 ### 2. Lunacy: best free desktop design app for Windows
 
-**What it is:** A free desktop design application by Icons8, available on Windows, macOS, and Linux. Lunacy includes built-in icons, photos, and illustrations from the Icons8 library.
+Lunacy is a free desktop design application by Icons8, available on Windows, macOS, and Linux. Lunacy includes built-in icons, photos, and illustrations from the Icons8 library.
 
 **The free experience:**
 - Full design and prototyping features: no feature restrictions
@@ -91,7 +91,7 @@ The open-source community responded. Penpot reached production stability and now
 
 **Natural fit:** Solo designers and freelancers on Windows who want a fast, feature-complete desktop app without a browser dependency. The built-in Icons8 asset library reduces the need for external stock asset subscriptions.
 
-**Why choose it:** Lunacy works offline and bundles icons, stock photos, and illustrations into the desktop app. It fits freelancers who create mockups and hand off static assets without needing browser collaboration.
+Lunacy works offline and bundles icons, stock photos, and illustrations into the desktop app. It fits freelancers who create mockups and hand off static assets without needing browser collaboration.
 
 [Download Lunacy free →](https://icons8.com/lunacy)
 
@@ -99,7 +99,7 @@ The open-source community responded. Penpot reached production stability and now
 
 ### 3. Plasmic: best for visual prototyping that generates real code
 
-**What it is:** A visual design and page builder that outputs production-ready React, Next.js, and Gatsby code. Plasmic bridges the gap between design mockups and working applications.
+Plasmic is a visual design and page builder that outputs production-ready React, Next.js, and Gatsby code. Plasmic bridges the gap between design mockups and working applications.
 
 **The free experience:**
 - Unlimited projects (personal use)
@@ -118,7 +118,7 @@ The open-source community responded. Penpot reached production stability and now
 
 **Natural fit:** Developers and designer-developers who want a visual prototype to become working code instead of ending at a static handoff. The design-to-code pipeline is most useful for startups and independent developers building marketing pages or app interfaces.
 
-**Why choose it:** Plasmic produces code from the visual design instead of stopping at a handoff file. It fits a designer-developer or a small team that values a shorter path to a working page over a conventional Figma handoff.
+Plasmic produces code from the visual design instead of stopping at a handoff file. It fits a designer-developer or a small team that values a shorter path to a working page over a conventional Figma handoff.
 
 [Try Plasmic free →](https://plasmic.app)
 
@@ -126,7 +126,7 @@ The open-source community responded. Penpot reached production stability and now
 
 ### 4. Quant UX: best free open-source prototyping tool
 
-**What it is:** A free, open-source prototyping and usability testing tool. Quant UX focuses specifically on interactive prototypes with built-in analytics: user flow testing, heatmaps, and task analysis.
+Quant UX is a free, open-source prototyping and usability testing tool. Quant UX focuses specifically on interactive prototypes with built-in analytics: user flow testing, heatmaps, and task analysis.
 
 **The free experience:**
 - Unlimited projects and prototypes
@@ -145,7 +145,7 @@ The open-source community responded. Penpot reached production stability and now
 
 **Natural fit:** UX researchers and product teams who need to prototype, test, and measure user interactions in a single tool without paying for separate prototyping and usability testing subscriptions.
 
-**Why choose it:** Quant UX combines prototyping with built-in usability analytics. Figma needs a plugin or separate service such as Maze for that work. Choose Quant UX when task-flow measurement belongs inside the prototype tool.
+Quant UX combines prototyping with built-in usability analytics. Figma needs a plugin or separate service such as Maze for that work. Choose Quant UX when task-flow measurement belongs inside the prototype tool.
 
 [Try Quant UX free →](https://quant-ux.com)
 
@@ -153,7 +153,7 @@ The open-source community responded. Penpot reached production stability and now
 
 ### 5. Figma (Starter plan): best free plan from an established platform
 
-**What it is:** Figma itself offers a free Starter plan that covers individual use and limited team collaboration. For many users, the free tier is sufficient without alternatives.
+Figma (Starter plan) is Figma itself offers a free Starter plan that covers individual use and limited team collaboration. For many users, the free tier is sufficient without alternatives.
 
 **The free experience:**
 - Unlimited personal files (drafts)

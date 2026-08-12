@@ -73,7 +73,7 @@ Also remember what a VPN does not do. It does not make weak passwords safe, remo
 
 {{< verdict "Best overall" >}}
 
-**What it is:** The free tier of ProtonVPN, from the same Swiss-based company behind ProtonMail and Proton Drive. The only major free VPN with unlimited data and an independently audited no-logs policy.
+ProtonVPN Free's free tier of ProtonVPN, from the same Swiss-based company behind ProtonMail and Proton Drive. The only major free VPN with unlimited data and an independently audited no-logs policy.
 
 Unlike most free VPNs, ProtonVPN Free does not make data allowance the bottleneck. It includes unlimited data, an independently audited no-logs policy, open-source apps, servers in the USA, Netherlands, and Japan, one device on the free tier, apps for Windows, macOS, Linux, iOS, and Android, and no ads in the app.
 
@@ -89,7 +89,7 @@ ProtonVPN Free fits users who need a trustworthy VPN for occasional public Wi-Fi
 
 {{< verdict "Best for variety" >}}
 
-**What it is:** A Canadian-based VPN with a generous free tier offering 10GB of monthly data and access to servers in over 11 countries.
+Windscribe Free is a Canadian-based VPN with a generous free tier offering 10GB of monthly data and access to servers in over 11 countries.
 
 Compared with ProtonVPN Free, Windscribe makes more sense if server variety matters more than unlimited data. The free tier includes 10GB per month, or 15GB if you confirm your email address; servers in 11+ countries; a self-attested no-logs policy; Chrome and Firefox extensions; the R.O.B.E.R.T. ad and tracker blocker; apps for Windows, macOS, Linux, iOS, Android, and routers; and unlimited devices.
 
@@ -105,7 +105,7 @@ Windscribe fits users who need more server country options than ProtonVPN Free o
 
 {{< verdict "Most transparent" >}}
 
-**What it is:** A Canadian VPN with a 2GB monthly free tier and one of the most transparent privacy track records in the free VPN market, including annual independent audits published publicly.
+Tunnelbear Free is a Canadian VPN with a 2GB monthly free tier and one of the most transparent privacy track records in the free VPN market, including annual independent audits published publicly.
 
 Unlike Windscribe, Tunnelbear's free plan is not generous on data, but it is unusually transparent. It includes 2GB per month, access to servers in 47 countries, independent security audits published annually by Cure53, a no-logs policy, apps for Windows, macOS, iOS, and Android, and up to 5 simultaneous devices.
 
@@ -119,7 +119,7 @@ Tunnelbear fits users who value transparency and trust above data allowance. Pub
 
 ### 4. Hotspot Shield Free: fast, with privacy and server limits
 
-**What it is:** A widely-used free VPN with a data cap of 500MB per day, one server location, and a business model that includes an ad-supported free tier.
+Hotspot Shield Free is a widely-used free VPN with a data cap of 500MB per day, one server location, and a business model that includes an ad-supported free tier.
 
 Compared with the safer free VPN picks above, Hotspot Shield Free is included mainly because it appears frequently in searches. It offers 500MB per day, servers in one country, an ad-supported app, and support for Windows, macOS, iOS, and Android.
 

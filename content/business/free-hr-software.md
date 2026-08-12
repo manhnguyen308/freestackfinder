@@ -58,7 +58,7 @@ If you're also evaluating broader tools for your business, see the guides on [fr
 
 ### 1. Zoho People
 
-**What it is:** A cloud-based HRIS from Zoho covering employee records, leave management, self-service portals, and basic onboarding workflows.
+Zoho People is a cloud-based HRIS from Zoho covering employee records, leave management, self-service portals, and basic onboarding workflows.
 
 Zoho People covers the first layer of employee administration:
 - Up to 5 employees
@@ -83,7 +83,7 @@ Zoho People's free plan is a genuine HRIS rather than a demo. Leave management, 
 
 ### 2. OrangeHRM Community Edition
 
-**What it is:** An open-source HRIS that you self-host. The Community Edition covers employee records, leave management, time and attendance, performance reviews, and recruitment basics.
+OrangeHRM Community Edition is an open-source HRIS that you self-host. The Community Edition covers employee records, leave management, time and attendance, performance reviews, and recruitment basics.
 
 OrangeHRM Community Edition gives self-hosted teams a full HRIS base:
 - Unlimited employees (self-hosted)
@@ -109,7 +109,7 @@ OrangeHRM removes the user cap entirely for self-hosted installs. For a business
 
 ### 3. Homebase
 
-**What it is:** A scheduling, time tracking, and team communication tool designed for hourly and shift-based workforces. Not a full HRIS, but useful for the operational side of people management.
+Homebase is a scheduling, time tracking, and team communication tool designed for hourly and shift-based workforces. Not a full HRIS, but useful for the operational side of people management.
 
 Homebase is scheduling-first:
 - 1 location, unlimited employees
@@ -136,7 +136,7 @@ Its free plan covers scheduling and time tracking for one location with no emplo
 
 ### 4. Bitrix24
 
-**What it is:** A broad free workspace that includes CRM, project management, communication, and a set of HR-adjacent features: employee directory, absence calendar, time tracking, and basic onboarding.
+Bitrix24 is a broad free workspace that includes CRM, project management, communication, and a set of HR-adjacent features: employee directory, absence calendar, time tracking, and basic onboarding.
 
 Bitrix24 wraps basic HR tasks into a larger workspace:
 - Unlimited users
@@ -165,7 +165,7 @@ For teams already using Bitrix24's [free CRM tools](/business/free-crm-software/
 
 ### 5. Google Sheets (or Excel Online)
 
-**What it is:** A spreadsheet. Not HR software, but still the most widely used tool for small-team people operations.
+Google Sheets (or Excel Online) is a spreadsheet. Not HR software, but still the most widely used tool for small-team people operations.
 
 The free plan is simply the spreadsheet tier you already have: Google Sheets and Microsoft Excel Online both cover rows, sharing, commenting, and basic automation.
 
