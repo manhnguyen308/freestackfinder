@@ -59,7 +59,7 @@ Most people do not need every part of Photoshop. They need a few dependable thin
 - export options
 - decent retouching tools
 
-If that is your use case, the question is not "What is the perfect Photoshop clone?" It is "Which free tool handles my actual work with the least friction?"
+If that is your use case, the question is not "What is the perfect Photoshop clone?" It is "Which free tool handles my actual work with the least extra work?"
 
 That usually leads to one of four paths:
 
@@ -146,7 +146,7 @@ Krita is a free desktop app built primarily for artists, illustrators, and paint
 **Where it shows its specialization:**
 - It is not built around photography-first workflows
 - Retouching and product-image work are less natural here than in Photopea or GIMP
-- Beginners who only want basic photo edits may find it too specialized
+- Skip it if you only need basic photo edits
 
 **The natural audience:** illustrators, comic artists, concept artists, and anyone who uses Photoshop more for drawing than for photography.
 
@@ -211,6 +211,6 @@ If that is not your situation, the free tools above are usually enough.
 
 ## The desktop and browser picks
 
-Start with **Photopea** if you want the lowest-friction replacement for everyday Photoshop tasks. Move to **GIMP** if you want a fuller desktop setup. Pick **Krita** if your work is more about drawing than retouching. Use **Pixlr** when you need something lighter and faster than a full editor.
+Start with **Photopea** if you want the easiest replacement for everyday Photoshop tasks. Move to **GIMP** if you want a fuller desktop setup. Pick **Krita** if your work is more about drawing than retouching. Use **Pixlr** when you need something lighter and faster than a full editor.
 
 If your real need is social graphics rather than image editing, skip the Photoshop-style tools and go straight to our [free Canva alternatives guide](/creative/canva-alternatives/). And once you have an editor, pair it with better source images from our roundup of the [best free stock photo sites](/creative/free-stock-photos/).

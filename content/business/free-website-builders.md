@@ -61,7 +61,7 @@ rows:
 
 A decade ago, building a website without coding skills meant choosing between clunky free hosts and expensive agencies. That gap has narrowed. Modern free website builders let a freelancer, a local business, or a creator get a credible web presence without spending money upfront.
 
-The catch in 2026 is branding and addressability. Almost every free plan puts the builder's name in your URL and places the builder's ads or badge somewhere on your pages. That is acceptable for a proof of concept or a personal project. It becomes a friction point the moment a potential client or employer is evaluating you.
+The catch in 2026 is branding and the web address. Almost every free plan puts the builder's name in your URL and places the builder's ads or badge somewhere on your pages. That is acceptable for a proof of concept or a personal project. It becomes a problem once a potential client or employer is evaluating you.
 
 The other common catch is storage and bandwidth. Tools that advertise "free" often cap how much traffic your site can handle before they throttle it or redirect visitors to an upgrade page. For a low-traffic project, this is irrelevant. For a business expecting consistent visitors, it matters.
 
@@ -122,9 +122,9 @@ WordPress.com is a hosted version of WordPress managed by Automattic. It is dist
 
 **Choose WordPress.com for:** A blog or publication that needs posts, pages, categories, tags, scheduling, and RSS more than custom design or plugins.
 
-WordPress.com Free is built for publishing. Categories, tags, scheduling, RSS, and basic SEO fields are available without paying, and the wider WordPress ecosystem provides plenty of documentation when the editor is unfamiliar.
+WordPress.com Free is built for publishing. Categories, tags, scheduling, RSS, and basic SEO fields are available without paying, and the wider WordPress community provides plenty of documentation when the editor is unfamiliar.
 
-The main friction on the free plan is ads and the subdomain. If your site is for public professional use, the WordPress.com ads shown to visitors are a credibility problem. A paid Personal plan removes them and adds a custom domain.
+The main problems on the free plan are ads and the subdomain. If your site is for public professional use, the WordPress.com ads shown to visitors are a credibility problem. A paid Personal plan removes them and adds a custom domain.
 
 ---
 
@@ -152,7 +152,7 @@ Canva Websites publishes a Canva design as a live page. It works as a design-to-
 
 **What you can publish for free:** Publish any Canva design as a web page at a `canva.com/design/.../view` URL. The page is live and shareable. Free Canva account is sufficient.
 
-**The practical limit:** A clean custom URL, meaningful SEO control, multi-page structure, navigation between pages, and JavaScript functionality. The published URL is not a proper domain. Analytics and visitor tracking are not available on the free plan.
+**The practical limit:** A clean custom URL, useful SEO controls, a multi-page structure, navigation between pages, and support for JavaScript. The published URL is not a proper domain. Analytics and visitor tracking are not available on the free plan.
 
 **Choose Canva Websites for:** An event page, digital lookbook, visual resume, or temporary promotion designed in an existing Canva account.
 
@@ -184,7 +184,7 @@ If you need a full free business software stack to go alongside your website, in
 
 ## Where each free builder stops
 
-For a zero-cost site with no compromises on branding: **Google Sites** if you value clean output over visual sophistication.
+For a zero-cost site with no compromises on branding: **Google Sites** if you value clean output over advanced visual design.
 
 For the most complete builder experience on a free plan: **Wix**, accepting the subdomain and ads as a temporary state.
 
@@ -194,7 +194,7 @@ For a portfolio or link-in-bio page: **Carrd**, fast to set up and clean enough 
 
 For creators already in Canva: **Canva Websites** as a quick publish, not a permanent web home.
 
-None of these free plans are permanent replacements for a properly hosted website. They are entry points. The value of starting on a free plan is learning what you need before committing to a specific platform's paid tier. Pick the one that matches your current use case, build something real, and upgrade when the limits become friction rather than guardrails.
+None of these free plans are permanent replacements for a properly hosted website. They are entry points. The value of starting on a free plan is learning what you need before committing to a specific platform's paid tier. Pick the one that matches your current use case, build something real, and upgrade when the limits start getting in the way.
 
 For sharing your work and reaching clients beyond your website, pairing with a free social media scheduling tool can extend your reach without adding cost. See our [free social media scheduling tools guide](/business/free-social-media-scheduling/).
 

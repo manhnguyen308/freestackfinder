@@ -32,7 +32,7 @@ Pick by the first action you take. **Google Keep** is built for quick capture in
 
 Notion, Coda, and Obsidian can store far more than a quick note, but they also ask the user to build a system. Meeting notes, lists, drafts, and reading highlights often need faster capture instead.
 
-The apps that survive long-term note-taking habits tend to be the ones that open instantly, sync reliably, and get out of the way. A note-taking app that takes 30 seconds to open is one you will stop using within a month. The apps in this list are all free, not time-limited trials or "free up to X notes." They work.
+For long-term note-taking, an app needs to open quickly, sync reliably, and stay out of the way. The apps in this list are all free, not time-limited trials or "free up to X notes."
 
 The easiest way to choose is by the first action you take most often. If you capture thoughts while walking, pick the fastest mobile widget. If you scan documents or write by hand, choose the app built into your tablet or phone. If notes become a knowledge base, choose structure over speed.
 
@@ -40,7 +40,7 @@ The easiest way to choose is by the first action you take most often. If you cap
 
 ## The best free note-taking apps in 2026
 
-### 1. Google Keep: best for fast capture and Google ecosystem users
+### 1. Google Keep: best for fast capture and Google app users
 
 Google Keep is Google's note-taking app: a lightweight, color-coded card interface built for quick capture, with reminders, labels, and direct Google Docs export.
 
@@ -84,8 +84,8 @@ Apple Notes gives Apple users a full notes system without installing anything:
 - Quick Note: capture from any app via Control Center
 - Completely free on Apple devices
 
-The boundary is the ecosystem. The app is excellent inside Apple hardware and awkward outside it:
-- Apple ecosystem only: no native Android or Windows app (web access at iCloud.com is limited)
+The boundary is device support. The app works well on Apple hardware and is awkward outside it:
+- Apple devices only: no native Android or Windows app (web access at iCloud.com is limited)
 - Sync depends on iCloud free tier (5GB shared with photos and backups)
 - No markdown support
 - Not end-to-end encrypted by default (iCloud encryption applies, but not the same as zero-knowledge E2E)
@@ -200,7 +200,7 @@ For a full comparison of Notion alternatives including Obsidian, Logseq, and sel
 
 **Use Apple Notes if:** You mainly use iPhone and Mac and want scanning, attachments, checklists, and sync without another account.
 
-**Use Standard Notes if:** Privacy and longevity matter more than polish: you want to know your notes are encrypted and will be accessible in 10 years.
+**Use Standard Notes if:** Privacy and longevity matter more than visual design: you want to know your notes are encrypted and will be accessible in 10 years.
 
 **Use Simplenote if:** You write in markdown, use Linux, and want a truly free, no-upsell experience with version history.
 
@@ -214,6 +214,6 @@ Note-taking is usually the first draft: capturing raw ideas before refining them
 
 ## The notes app to start with
 
-Use **Google Keep** or **Apple Notes** for quick capture inside the device ecosystem you already use. Choose **Standard Notes** for zero-knowledge encryption and **Simplenote** for plain Markdown across platforms. Notion fits databases and structured project notes, but it adds unnecessary setup to a simple capture workflow.
+Use **Google Keep** or **Apple Notes** for quick capture on the devices you already use. Choose **Standard Notes** for zero-knowledge encryption and **Simplenote** for plain Markdown across platforms. Notion fits databases and structured project notes, but it adds unnecessary setup to a simple capture workflow.
 
 The [free AI writing tools guide](/productivity/free-ai-writing-tools/) compares tools that can turn rough notes into a draft. For reminders and time planning, see the [free calendar apps guide](/productivity/free-calendar-app/).

@@ -48,7 +48,7 @@ Windows Defender is Microsoft's built-in antivirus and security suite, included 
 - Phishing and malicious website blocking
 - Device performance and health reports
 - Parental controls via Microsoft Family Safety
-- Offline scan capability for deeply embedded threats
+- Offline scans for deeply embedded threats
 
 **The practical limit:**
 - Windows only: no cross-platform support

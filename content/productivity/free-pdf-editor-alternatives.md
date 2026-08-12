@@ -83,7 +83,7 @@ PDFgear is a full PDF editor for Windows and Mac that covers text editing, annot
 
 **Where the free tier stops:**
 - Some advanced AI-powered features are gated behind an account
-- No mobile app at the same capability level as the desktop version
+- The mobile app has fewer features than the desktop version
 - No cloud sync or web access: desktop install only
 
 **The natural audience:** People who regularly handle contracts, invoices, or forms and want a desktop editor without an Acrobat subscription.
@@ -116,7 +116,7 @@ PDF24 Tools is a browser-based suite of over 25 PDF utilities, edit, compress, m
 
 **The natural audience:** Anyone who needs to run a quick PDF task, compress before emailing, merge two files, convert a scan to text, without installing software or creating an account.
 
-The breadth of tools in a single free, no-login interface is hard to match. For occasional PDF work and file format conversions, PDF24 Tools removes all friction.
+The number of tools in a single free, no-login interface is hard to match. For occasional PDF work and file format conversions, PDF24 Tools avoids extra setup.
 
 [Visit PDF24 Tools](https://www.pdf24.org/)
 
@@ -171,7 +171,7 @@ LibreOffice Draw is the drawing and layout application in the LibreOffice suite,
 
 **The natural audience:** Users who already have LibreOffice installed, work offline, and occasionally need to modify PDF text or layout without a specialized tool. Also useful in environments where cloud-based PDF processing is not allowed.
 
-For users already in the LibreOffice ecosystem (see our [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/) for context), Draw adds PDF editing without requiring a separate install. It's the most privacy-preserving option since nothing leaves your machine.
+For users who already have LibreOffice (see our [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/) for context), Draw adds PDF editing without requiring a separate install. It's the most privacy-preserving option since nothing leaves your machine.
 
 [Visit LibreOffice](https://www.libreoffice.org/)
 

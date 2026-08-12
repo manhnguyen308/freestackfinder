@@ -26,7 +26,7 @@ author: "FreeStackFinder Team"
 
 The shortest framing is by writing task: blog outlines and long-form drafts lean Claude. General-purpose drafting and brainstorming lean ChatGPT. Web-grounded research and summarisation lean Microsoft Copilot. Structured marketing copy with templates leans Rytr or Copy.ai. Most writers end up using two of these in combination rather than one for everything.
 
-Choose by writing task. **ChatGPT's free tier** covers general drafting and brainstorming. **Claude free** is better suited to long documents and edits with many constraints. **Microsoft Copilot** fits web-grounded work inside Microsoft's ecosystem. **Rytr** offers structured short-form templates with a current free allowance of 10,000 generated characters per month, while **Copy.ai** has a smaller free allowance for template-driven marketing copy. Before publishing a draft, use a [free grammar checker](/productivity/grammarly-alternatives/) for a separate language pass.
+Choose by writing task. **ChatGPT's free tier** covers general drafting and brainstorming. **Claude free** is better suited to long documents and edits with many constraints. **Microsoft Copilot** fits web-grounded work inside Microsoft apps. **Rytr** offers structured short-form templates with a current free allowance of 10,000 generated characters per month, while **Copy.ai** has a smaller free allowance for template-driven marketing copy. Before publishing a draft, use a [free grammar checker](/productivity/grammarly-alternatives/) for a separate language pass.
 
 AI writing limits change quickly. Treat model names, file upload rules, image credits, and monthly generation caps as things to verify on the product's current pricing page before you depend on them.
 
@@ -178,9 +178,9 @@ Copy.ai includes templates for AIDA, PAS, and BAB marketing frameworks, so the s
 
 ## When to pay for an AI writing tool
 
-A paid plan makes sense once you are generating content at a pace where the free caps regularly interrupt your workflow. If you are a full-time content creator, agency writer, or marketer producing multiple pieces of content every day, the friction of hitting a daily cap, and switching between tools when one runs out, will cost more in time than the subscription price.
+A paid plan makes sense once you are generating content at a pace where the free caps regularly interrupt your workflow. If you are a full-time content creator, agency writer, or marketer producing multiple pieces of content every day, hitting a daily cap and switching tools when one runs out may cost more in time than the subscription price.
 
-Paid ChatGPT and Claude plans both offer substantially higher usage limits, more model choice, and paid-plan workflow features. For professional writers who use AI daily, those upgrades can be worth the cost. For occasional users, a few drafts per week, the free tiers above handle the workload without a subscription.
+Paid ChatGPT and Claude plans both offer much higher usage limits, more model choice, and paid-plan workflow features. For professional writers who use AI daily, those upgrades can be worth the cost. For occasional users, a few drafts per week, the free tiers above handle the workload without a subscription.
 
 The other case for paid is integration. Eligible Microsoft 365 and Copilot plans add AI features inside Word, Excel, PowerPoint, Outlook, and OneNote. If your work lives in Microsoft 365 and a separate browser tab slows it down, verify which current plan includes the specific app features you need.
 

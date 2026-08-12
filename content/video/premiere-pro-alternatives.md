@@ -28,7 +28,7 @@ For most solo editors, **DaVinci Resolve** is still the strongest free Premiere 
 
 Premiere Pro still makes sense if you depend heavily on After Effects, Photoshop handoffs, or large-team Adobe workflows.
 
-Choose by workflow before brand familiarity. Timeline editing depth points to Resolve or Kdenlive. Fast templates, captions, and social exports point to CapCut. Strange footage points to Shotcut. Professional handoff back into Adobe teams is where staying with Premiere can still be the lower-friction choice.
+Choose by workflow before brand familiarity. Timeline editing depth points to Resolve or Kdenlive. Fast templates, captions, and social exports point to CapCut. Unusual footage points to Shotcut. Professional handoff back into Adobe teams is where staying with Premiere can still be the easier choice.
 
 ---
 
@@ -109,11 +109,11 @@ Kdenlive is a mature open-source editor with a timeline workflow that feels more
 **What to watch for:**
 - Its interface and workflow are rougher than Premiere or Resolve
 - Windows users may still run into rough edges
-- The ecosystem around it is smaller
+- It has fewer plugins and learning resources
 
-Compared with Premiere Pro, Kdenlive makes sense when you want a traditional multi-track timeline and open-source licensing more than Adobe polish. It fits editors who want a proper editor without Resolve's heavier post-production structure.
+Compared with Premiere Pro, Kdenlive makes sense when you want a traditional multi-track timeline and open-source licensing more than Adobe's smoother interface. It fits editors who want a proper editor without Resolve's heavier post-production structure.
 
-The ecosystem is smaller and the polish is not at Premiere or Resolve level, especially for some Windows users. Still, Kdenlive is the easiest bridge for people who want a familiar editor without Adobe's subscription model.
+Kdenlive has fewer plugins and learning resources, and its interface is not as smooth as Premiere or Resolve, especially for some Windows users. Still, Kdenlive is the easiest bridge for people who want a familiar editor without Adobe's subscription model.
 
 [Download Kdenlive free ->](https://kdenlive.org)
 
@@ -131,7 +131,7 @@ OpenShot is a beginner-friendly open-source editor focused on cuts, titles, tran
 
 **What to watch for:**
 - It tops out quickly on more demanding work
-- Performance and polish are limited on heavier projects
+- Performance and interface smoothness are limited on heavier projects
 - It is not built to mirror a professional Premiere workflow
 
 Unlike Premiere Pro, OpenShot is better when your editing needs were basic all along. It fits users who only need cuts, titles, transitions, and straightforward exports, and who found Premiere heavier than the work required.
@@ -171,9 +171,9 @@ Shotcut's interface asks more of a new user than Kdenlive, and its toolset is na
 |--------|---------------------------|-------------|
 | DaVinci Resolve | Serious solo editing and finishing | Free version has real format limits |
 | CapCut Desktop | Short-form social content | Watermarks depend on templates, assets, and outro choices |
-| Kdenlive | Open-source timeline editing | More setup and interface friction than commercial editors |
+| Kdenlive | Open-source timeline editing | More setup and a harder interface than commercial editors |
 | OpenShot | Casual editing and basic projects | Limited ceiling |
-| Shotcut | Footage compatibility problems | Less intuitive workflow |
+| Shotcut | Footage compatibility problems | Harder workflow to learn |
 
 ---
 
@@ -185,9 +185,9 @@ Switching away from Premiere is not always cheaper. Readers who depend on Adobe 
 
 **You shoot in 10-bit or higher than UHD at 60fps.** Blackmagic positions free Resolve around 8-bit formats up to UHD 60fps. If your camera records 10-bit Log, 4K above 60fps, or anything from a higher-end cinema body, parts of your footage will either fail to import or render with limits that the paid Studio version removes. Test your specific codec and bit depth in free Resolve before you commit: don't assume "Resolve handles it" from a feature list.
 
-**You work inside an agency or shared-team Premiere environment.** Project files, shared bins, locked-down asset paths, producer review tools, and team-wide keyboard customizations are real switching costs. If your collaborators are in Premiere, you handing over a Resolve project will add friction every single delivery cycle. The right time to leave is when you control the whole pipeline, not when you share it.
+**You work inside an agency or shared-team Premiere environment.** Project files, shared bins, locked-down asset paths, producer review tools, and team-wide keyboard customizations are real switching costs. If your collaborators are in Premiere, handing over a Resolve project will add work to every delivery cycle. The right time to leave is when you control the whole pipeline, not when you share it.
 
-**You rely on a specific paid plugin ecosystem.** Pluraleyes, Magic Bullet, Red Giant Universe, and several Premiere-only motion graphics packs are still part of many editors' daily workflow. Free Resolve and Kdenlive cover a lot, but they don't load Adobe-targeted plugins, and the closest equivalents may be paid Resolve Studio features rather than free ones.
+**You rely on a specific set of paid plugins.** Pluraleyes, Magic Bullet, Red Giant Universe, and several Premiere-only motion graphics packs are still part of many editors' daily workflow. Free Resolve and Kdenlive cover a lot, but they don't load Adobe-targeted plugins, and the closest equivalents may be paid Resolve Studio features rather than free ones.
 
 **You're a colorist who needs ACES, HDR delivery, or Dolby Vision finishing.** Free Resolve handles a great deal of color work, but ACES interchange and HDR-grade finishing typically point to Studio. If color is the job, budget for the $295 Studio license instead of building a workflow around free-tier gaps.
 

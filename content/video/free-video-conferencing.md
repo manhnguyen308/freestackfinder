@@ -31,7 +31,7 @@ Use **Google Meet** for ordinary team and client calls. **Whereby** fits a perma
 
 ## What to look for before you choose
 
-Most free video conferencing tools advertise similar features, HD video, screen sharing, chat, but the meaningful differences are in the constraints you will hit during real use:
+Most free video conferencing tools advertise similar features, HD video, screen sharing, chat, but the differences are in the limits you will hit during real use:
 
 - **Time limits on group calls.** A 40 to 60-minute cap is not a problem for a quick standup, but it will interrupt a team workshop, client discovery session, or online class. Know whether the free tier cuts off group calls.
 - **Participant limit.** Tools that cap group video at 25 or fewer participants are fine for small team standups but unsuitable for all-hands meetings or client webinars.
@@ -95,7 +95,7 @@ Jitsi Meet is an open-source video conferencing platform that runs in a browser 
 - Available in-browser and as mobile apps for iOS and Android
 
 **Practical limits to keep in mind:**
-- Call quality on the public Jitsi instance (meet.jit.si) degrades noticeably with 15+ participants: the server is shared and unguaranteed
+- Call quality on the public Jitsi instance (meet.jit.si) degrades noticeably with 15+ participants: the shared server has no performance guarantee
 - No built-in calendar integration or scheduling tools
 - No cloud recording on the public hosted service
 - Participants unfamiliar with Jitsi may need more guidance than they would with Google Meet or Teams
@@ -124,11 +124,11 @@ Microsoft Teams combines chat, file sharing, and group video calls with Microsof
 - The 60-minute group call limit mirrors Zoom's restriction: it is the same ceiling, not an improvement
 - Meeting recording requires a Microsoft 365 Business subscription
 - IT admin controls, compliance features, and custom domains are locked behind paid plans
-- The interface carries the full complexity of an enterprise collaboration platform: more friction than a simple video calling tool for ad hoc meetings
+- The interface includes a full business collaboration platform, so it is harder to use than a simple video calling tool for one-off meetings
 
 Choose Teams when OneDrive, Outlook, SharePoint, or Office documents are already part of the workflow and persistent chat channels need to sit beside calls.
 
-Teams Free earns its place when persistent channels and Office app integration matter alongside video calls. For calls alone, Google Meet is simpler. Choose Teams for the Microsoft ecosystem, but expect the same 60-minute group-call limit as Zoom Free.
+Teams Free earns its place when persistent channels and Office app integration matter alongside video calls. For calls alone, Google Meet is simpler. Choose Teams if you use Microsoft apps, but expect the same 60-minute group-call limit as Zoom Free.
 
 [Use Microsoft Teams Free →](https://www.microsoft.com/microsoft-teams/free)
 
@@ -153,7 +153,7 @@ Whereby provides a persistent browser-based meeting-room URL, so a solo host can
 
 Choose Whereby for one-to-one client calls that benefit from a reusable room URL. The same link can sit in an email signature, booking page, or invoice footer, but the free plan does not suit a team that needs several rooms.
 
-If the single biggest friction in your client calls is generating and resending links before every meeting, Whereby's permanent room URL solves that permanently on the free plan. For teams needing multiple rooms or recording, the free plan limits become real constraints quickly, but for a solo professional running one-on-one client calls, one permanent room is usually all you need.
+If the main repeated problem in your client calls is generating and resending links before every meeting, Whereby's permanent room URL solves it on the free plan. For teams needing multiple rooms or recording, the free plan limits become real constraints quickly, but for a solo professional running one-on-one client calls, one permanent room is usually all you need.
 
 [Try Whereby free →](https://whereby.com)
 
@@ -200,11 +200,11 @@ Discord combines voice, video, and text in persistent channels. Participants can
 - Video quality is capped at 720p on the free tier (1080p requires Nitro)
 - 25-person video cap means it is not suitable for all-hands meetings or webinars
 - No built-in meeting scheduling or calendar integration
-- The interface and server setup assumes familiarity: new users can find it confusing compared to a simple meeting link
+- The interface and server setup require more technical knowledge than a simple meeting link
 
 Choose Discord for creative collaborators, developer pairing, and small teams that use ongoing channels more often than scheduled client calls.
 
-Discord's model is categorically different: instead of "schedule a meeting," the pattern is "voice channels are always available, drop in when you need to talk." For teams that find the overhead of scheduling stand-ups and syncs disruptive, this changes how they communicate. It is a stronger fit for smaller, always-on teams than for organizations running formal client calls or structured presentations.
+Discord works differently: instead of "schedule a meeting," the pattern is "voice channels are always available, drop in when you need to talk." For teams that find the work of scheduling stand-ups and syncs disruptive, this changes how they communicate. It is a stronger fit for smaller, always-on teams than for organizations running formal client calls or structured presentations.
 
 [Use Discord free →](https://discord.com)
 

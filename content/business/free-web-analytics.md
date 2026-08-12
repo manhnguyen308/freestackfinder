@@ -180,7 +180,7 @@ Matomo fits teams that need GA4-equivalent depth plus full data sovereignty and 
 
 ## The small-site stack
 
-For most small websites, **Google Analytics 4** and **Google Search Console** cover traffic sources, landing pages, queries, and conversions without a meaningful usage cap. Add **Microsoft Clarity** for heatmaps and session recordings.
+For most small websites, **Google Analytics 4** and **Google Search Console** cover traffic sources, landing pages, queries, and conversions without a usage cap they are likely to hit. Add **Microsoft Clarity** for heatmaps and session recordings.
 
 If cookie consent or privacy requirements drive the decision, **Umami** self-hosted is the practical starting point. It is lighter to run than Matomo and carries no software fee when you already have hosting.
 

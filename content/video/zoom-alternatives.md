@@ -26,7 +26,7 @@ Choose **Google Meet** to replace Zoom for ordinary browser-based calls. Choose 
 
 Zoom's free tier used to be more practical than it is today. The 40-minute limit on group calls, any meeting with three or more participants, means that team calls, study sessions, and client meetings get cut off mid-conversation unless someone upgrades. For professional use, having a countdown timer hanging over every meeting is disruptive and unprofessional.
 
-The other frustration is that Zoom requires a download. On a shared computer, a work laptop with restricted permissions, or a device you use infrequently, installing and maintaining the Zoom desktop app adds unnecessary friction. Browser-based alternatives remove that entirely: participants can join with a single click, no installation needed.
+The other frustration is that Zoom requires a download. On a shared computer, a work laptop with restricted permissions, or a device you use infrequently, installing and maintaining the Zoom desktop app adds unnecessary work. Browser-based alternatives remove that step: participants can join with a single click and no installation.
 
 For many users, the switch away from Zoom is not even about cost. It is about removing two specific annoyances: a time limit that interrupts real conversations, and a download requirement that slows down spontaneous calls. Every tool below solves both problems.
 
@@ -76,7 +76,7 @@ Jitsi Meet keeps the entry barrier unusually low:
 The free hosted version is best for smaller, lighter calls:
 - Call quality can degrade with larger groups on the free hosted version
 - No cloud recording on the free hosted service
-- More setup friction for participants than Zoom or Google Meet
+- More setup for participants than Zoom or Google Meet
 - No built-in calendar integration
 
 Pick Jitsi for spontaneous calls, privacy-conscious groups, developer teams, or meetings where asking every participant to create another account would slow things down.
@@ -87,7 +87,7 @@ Its defining advantage is setup speed. Open meet.jit.si, type a room name, and s
 
 ---
 
-### 3. Microsoft Teams free: best for users in the Microsoft ecosystem
+### 3. Microsoft Teams free: best for users of Microsoft apps
 
 Microsoft Teams free is Microsoft's collaboration and video calling platform with a free tier covering core meeting and messaging features.
 
@@ -147,14 +147,14 @@ Whereby's free plan is simple and client-friendly:
 - No download required for participants: join with one click
 - Screen sharing and in-meeting chat
 
-The limits are around scale and polish:
+The limits are around meeting size and interface quality:
 - Limited to one meeting room on the free plan
 - Recording requires a paid plan
 - Breakout rooms and custom branding are paid features
 
 Use Whereby if you are a freelancer, consultant, coach, or small business owner who wants one professional video link to put in a signature, invoice, or booking confirmation.
 
-The permanent room URL is the reason to choose it. Instead of generating a new meeting link for every call, you share your Whereby URL once and clients click it whenever they need to talk. For solo professionals, that single free room covers the vast majority of client call scenarios.
+The permanent room URL is the reason to choose it. Instead of generating a new meeting link for every call, you share your Whereby URL once and clients click it whenever they need to talk. For solo professionals, that single free room covers most client calls.
 
 [Try Whereby free →](https://whereby.com)
 
@@ -175,11 +175,11 @@ The permanent room URL is the reason to choose it. Instead of generating a new m
 
 ## When Zoom's paid plan is worth it
 
-Zoom's paid plans make sense for organizations that need enterprise-grade meeting management: large webinars with hundreds of attendees, cloud recording with automatic transcription, advanced admin controls, and IT compliance features. The Zoom Webinar product has no meaningful free equivalent, and for businesses running regular large-scale virtual events the paid tier is the right tool.
+Zoom's paid plans make sense for organizations that need to manage large meetings: webinars with hundreds of attendees, cloud recording with automatic transcription, advanced admin controls, and IT compliance features. The Zoom Webinar product has no real free equivalent, and the paid tier is the right tool for businesses that run large virtual events regularly.
 
 Teams that have standardised on Zoom and rely on its integrations with Salesforce, Slack, or enterprise software also have a genuine reason to keep paying. The switching cost of moving an entire team to a new platform outweighs the savings for most organizations, particularly when Zoom's call quality and reliability at scale remain strong.
 
-For individual professionals, the consideration is simpler: if your clients expect a Zoom link and are unfamiliar with alternatives, the friction of asking them to switch may cost more in goodwill than the subscription saves in money. Using Zoom paid for client-facing calls while using Google Meet or Jitsi internally is a reasonable middle ground.
+For individual professionals, the choice is simpler: if your clients expect a Zoom link and are unfamiliar with alternatives, asking them to switch may cost more in goodwill than the subscription saves. Using Zoom paid for client-facing calls while using Google Meet or Jitsi internally is a reasonable middle ground.
 
 Also check recording before you switch. Many free plans handle live calls well but reserve recording, transcripts, and retention for paid tiers. If the meeting needs to be watched later, that feature may matter more than the call-length limit.
 

@@ -115,12 +115,12 @@ Its free setup covers the practical resume workflow:
 - Works offline via the Chrome extension
 - No account required to view; Google account (free) required to edit and save
 
-The limits are mostly about polish and guidance:
+The limits are mostly about design and guidance:
 - Template variety is limited compared to dedicated resume builders
 - No guided content suggestions or bullet point writing prompts
 - Design customization requires manual formatting rather than drag-and-drop
 
-Use Google Docs for large employers, corporations, government roles, recruiters, or any application funnel where an ATS is likely to read your file before a person does. A clean, single-column Google Docs resume exported to PDF is one of the safest formats for parsing. It is also the right choice if you already use Google Workspace and want your resume in the same ecosystem as your other documents: see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for the broader picture of document tools.
+Use Google Docs for large employers, corporations, government roles, recruiters, or any application funnel where an ATS is likely to read your file before a person does. A clean, single-column Google Docs resume exported to PDF is one of the safest formats for parsing. It is also the right choice if you already use Google Workspace and want your resume beside your other documents: see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for the broader picture of document tools.
 
 The Google Docs file stays portable. You can download it as PDF or Word, edit it without returning to a proprietary resume platform, and keep a version history for role-specific copies.
 
@@ -141,7 +141,7 @@ The free workflow includes:
 
 The main constraints are tied to the platform:
 - Resume design is functional but basic: limited template variety
-- Primarily optimized for the Indeed ecosystem; less suitable as a general-purpose resume
+- Built mainly for Indeed; less suitable as a general-purpose resume
 - Privacy setting controls matter: your resume is searchable by default unless you set it to private
 
 Use it if Indeed is your main job board and you value speed over presentation. It is especially useful for high-volume applications, entry-level searches, local roles, and situations where being searchable by recruiters is part of the strategy. If you do not want that visibility, set the resume to private before adding personal details.
@@ -166,7 +166,7 @@ The no-cost builder gives you:
 The trade-offs show up in template choice and upgrade pressure:
 - Premium templates and advanced design features require a paid subscription
 - The free tier has fewer template choices than Canva
-- Some users report upgrade prompts appearing during the build process
+- Upgrade prompts may appear during the build process
 
 Use Resume.com when the writing process is the hard part: a first resume, a return after a work gap, a career change, or a job history that needs help turning responsibilities into concise bullet points. The guided approach is more useful than a blank document for people who find resume writing difficult.
 
@@ -184,7 +184,7 @@ The pre-written suggestions are not a finished resume, but they are a useful sta
 
 **Kickresume** offers a free plan with a limited template set, while premium templates and generated content are paid. Check it only if Canva's layouts do not fit the target industry.
 
-**Microsoft Word Online** is a reasonable option if you already have a Microsoft account: Word templates include several resume layouts, and the free web version exports to .docx cleanly. For users in the Microsoft ecosystem, it works similarly to Google Docs.
+**Microsoft Word Online** is a reasonable option if you already have a Microsoft account: Word templates include several resume layouts, and the free web version exports to .docx cleanly. For people who already use Microsoft apps, it works similarly to Google Docs.
 
 ---
 
@@ -222,7 +222,7 @@ Compare these tradeoffs before choosing a builder:
 
 - **Export format.** A real PDF export is non-negotiable. Some tools only export PNG or share a public link on the free tier, which is awkward to attach to applications. Confirm a clean PDF export exists before you invest time building inside a tool.
 - **Watermark risk.** A handful of free resume tools add a small watermark or footer credit on the free PDF. Canva, Google Docs, Indeed Resume Builder, and Resume.com do not. Check any tool outside this list before finalising a document.
-- **Template quality.** Visual polish varies widely. Canva leads on template variety; Google Docs offers a small set of conservative layouts; guided builders sit in between. If your target industry prioritizes clarity over design, a plain layout is an advantage, not a limitation.
+- **Template quality.** Visual quality varies widely. Canva leads on template variety; Google Docs offers a small set of conservative layouts; guided builders sit in between. If your target industry prioritizes clarity over design, a plain layout is an advantage, not a limitation.
 - **Privacy and account signup.** Most free tools require an account. Indeed makes your resume searchable to recruiters by default: adjust your visibility setting if you do not want that. Avoid pasting personal details into any tool that requires a credit card "for verification" on the free tier; that pattern is a paywall in disguise.
 - **ATS readability.** Multi-column layouts, sidebars, icons, embedded text boxes, and decorative fonts can confuse strict applicant tracking systems. A clean single-column layout exported to PDF is the safest format for large employers. If you are not sure whether the company uses an ATS, assume yes.
 - **Editing flexibility.** A guided builder is faster for a first resume but harder to customize for unusual career paths. A document editor like Google Docs is slower upfront but lets you place every element exactly where you want it: useful for career switchers and people with non-linear experience.

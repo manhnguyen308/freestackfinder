@@ -15,6 +15,20 @@
 
 ---
 
+### 2026-08-12 - Plain-language humanizer audit completed
+
+- Rule source: used `website-content-humanizer.md` as the governing editorial standard for this readability pass.
+- Scope: scanned 85 public source files: 64 content pages, 18 layout or template files, 2 JavaScript files, and `config.toml`. The 64 content pages include all 50 published articles, six section hubs, the homepage source, and the public start, trust, contact, policy, terms, and search pages.
+- Priority audit: 14 high-priority pages, 29 medium-priority pages, 8 low-priority pages, and 13 pages with no difficult wording found. All 14 high-priority pages were fixed. Of the medium group, 28 were fixed and `content/terms.md` was left unchanged because its remaining matches are necessary legal wording. Seven low-priority pages received small fixes; the remaining low-priority match is the technical phrase "scalable artwork" on the Creative hub.
+- Files edited: 50 public source files, covering 49 article pages plus the homepage collection label. This progress log is the only internal file edited.
+- Main wording changes: replaced "notoriously opaque" with "hard to understand," references to product "ecosystems" with the specific apps or tools involved, "friction" with the actual extra step or setup work, "granular sharing" with "detailed sharing controls," "capabilities" and "functionality" with named features, "curated" with "editor-selected" or "reviewed," and vague terms such as "compelling," "polish," and "vast majority" with direct descriptions.
+- Technical terms kept: API, encryption, two-factor authentication, open source, vector editing, cloud storage, password manager, CRM, VPN, endpoint, export limit, storage cap, watermark, file sync, After Effects Dynamic Link, Apple Silicon optimized, and scalable artwork. Legal terms in `content/terms.md`, including "functionality" and "consequential damages," were kept to preserve legal meaning.
+- First-hand integrity: no first-hand use, setup, benchmark, screenshot, performance, credential, or testing claim was invented. Removed unsupported setup-time and user-reaction wording where it appeared; no replacement estimate was added.
+- Preservation: article count remains 50. No page was created, deleted, consolidated, noindexed, or redirected. Slugs, URLs, aliases, canonicals, dates, lastmod values, weights, affiliate links, images, navigation, schema, tracking, ad settings, and sitemap logic were not intentionally changed. Ads remain disabled.
+- Validation: `python scripts/run_quality_checks.py --with-counts` and `--with-stale` passed 3/3 with 50 articles, 0 front-matter errors, 0 broken internal links, 0 missing images, 0 stale articles, and the 3 known image orphans. Hugo 0.159.2 built 476 pages, 21 paginator pages, and 210 aliases with no errors. All 500 generated HTML files passed the dash, unsupported first-hand claim, placeholder, raw Markdown, and ad-script scans. The only rendered watch-list match is the necessary technical phrase "scalable artwork." The documented Hugo version is 0.160.1, which is not installed locally.
+
+---
+
 ### 2026-08-12 - Humanizer deep pass: spelling convention normalized
 
 - Scope: audited FreeStackFinder against `website-content-humanizer.md`, first with a pattern scan across all 64 content files, then with the structural and rendered-copy checks a word scan cannot cover. Work on the two other Hugo sites in the workspace was stopped and left uncommitted upstream; see the note at the end of this entry.

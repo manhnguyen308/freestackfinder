@@ -57,7 +57,7 @@ rows:
 
 ## Why small businesses still overpay for CRM
 
-Many businesses stay on spreadsheets longer than they should because paid CRM pricing looks intimidating. Then, when they finally research "free CRM," they land on stale comparison posts that blur together free plans, free trials, and feature pages.
+Many businesses stay on spreadsheets longer than they should because paid CRM pricing looks hard to compare. Then, when they finally research "free CRM," they land on stale comparison posts that blur together free plans, free trials, and feature pages.
 
 The wrong CRM wastes setup time and forces another migration when a core workflow reaches a hidden cap. Start with a free plan whose seat, record, storage, and automation limits fit the work you already do.
 
@@ -79,7 +79,7 @@ The tools below can handle that baseline. The real differences are how many peop
 
 {{< verdict "Best overall" >}}
 
-HubSpot CRM Free is a starter CRM with contact management, deal stages, meeting scheduling, and basic sales tools inside the HubSpot ecosystem.
+HubSpot CRM Free is a starter CRM with contact management, deal stages, meeting scheduling, and basic sales tools that connect with other HubSpot products.
 
 **Current free plan includes:**
 - Up to two users
@@ -148,7 +148,7 @@ Freshsales Free is Freshworks' CRM with a free plan aimed at small teams that wa
 **What's gated behind paid:**
 - More seats without paying
 - The stronger automation and forecasting layers found in paid tiers
-- The broader ecosystem depth you get from HubSpot or Zoho
+- The wider set of connected tools you get from HubSpot or Zoho
 
 **Choose Freshsales for:** A team of up to three people that works mainly from a visual deal pipeline and wants email, phone, and chat tools beside it.
 

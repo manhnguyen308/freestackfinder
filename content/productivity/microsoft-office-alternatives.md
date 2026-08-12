@@ -47,7 +47,7 @@ rows:
   - tool: OnlyOffice Desktop
     best_for: Heavy .docx compatibility needs
     free: Strong Microsoft format fidelity
-    limit: Smaller ecosystem and add-on library
+    limit: Fewer connected apps and add-ons
   - tool: WPS Office
     best_for: Users who want an Office-like UI
     free: Feature-rich free tier
@@ -96,7 +96,7 @@ LibreOffice is a full-featured, open-source desktop office suite with Writer (Wo
 
 **What the desktop suite gives you:**
 - Word processor with advanced formatting, styles, and mail merge
-- Spreadsheet with extensive formula support and macro capability
+- Spreadsheet with extensive formula and macro support
 - Presentation software with slide transitions and animations
 - Opens and saves .docx, .xlsx, .pptx (Microsoft formats)
 - No internet connection required
@@ -133,7 +133,7 @@ OnlyOffice is worth knowing about specifically if .docx compatibility is your to
 - Less well-known so community resources are smaller than LibreOffice
 - The online/cloud version has a more limited free tier
 
-**The practical use case:** If your work regularly involves exchanging documents with Office users who rely on tracked changes, review comments, or specific table formatting, OnlyOffice is the most reliable free tool for opening those files without surprises. LibreOffice handles most .docx files well, but tracked-change round-trips between LibreOffice and Microsoft Office can behave unpredictably: OnlyOffice's native format support reduces that friction for document-heavy collaborative workflows. If you only write documents from scratch and rarely receive complex Office files from others, this distinction will not affect you.
+**The practical use case:** If your work regularly involves exchanging documents with Office users who rely on tracked changes, review comments, or specific table formatting, OnlyOffice is the most reliable free tool for opening those files without surprises. LibreOffice handles most .docx files well, but tracked-change round-trips between LibreOffice and Microsoft Office can behave unpredictably. OnlyOffice's native format support avoids some of that extra work for teams that exchange many documents. If you only write documents from scratch and rarely receive complex Office files from others, this distinction will not affect you.
 
 [Try OnlyOffice Desktop free →](https://www.onlyoffice.com/download-desktop.aspx)
 

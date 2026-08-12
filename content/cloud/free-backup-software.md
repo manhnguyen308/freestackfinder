@@ -66,7 +66,7 @@ Google Drive is Google's storage service plus Drive for desktop, which can conti
 - Photo and video backup into Google Photos
 
 **Where it makes sense:**
-- Extremely low setup friction
+- Setup takes very little work
 - Good protection for current documents, desktop folders, and lightweight project files
 - Easy access to files from any device
 
@@ -77,7 +77,7 @@ Google Drive is Google's storage service plus Drive for desktop, which can conti
 
 **Best fit:** People with under 15GB of important files who mainly need a simple offsite copy and are currently backing up nothing.
 
-**Restore friction to know:** Google Drive is an approachable way to keep an offsite copy of active folders, but sync lacks the retention and restore controls of dedicated backup software.
+**Restore limits to know:** Google Drive is a simple way to keep an offsite copy of active folders, but sync lacks the retention and restore controls of dedicated backup software.
 
 [Get Google Drive free ->](https://support.google.com/drive/answer/10838124)
 
@@ -99,7 +99,7 @@ Duplicati is a free, open-source backup application that creates encrypted, incr
 - Strong flexibility around destination and schedule
 - Good fit for a local-drive-plus-cloud strategy
 
-**Restore friction to know:**
+**Restore limits to know:**
 - Configuration requires more steps than Google Drive or iCloud
 - Restores require more manual steps than most paid consumer tools
 - It is best for people willing to spend a little time configuring backup jobs properly
@@ -114,7 +114,7 @@ Duplicati is a free, open-source backup application that creates encrypted, incr
 
 ### 3. Backblaze Personal Backup: paid option for larger datasets
 
-Backblaze Personal Backup is a paid cloud backup service for one computer with unlimited backup and very little setup friction.
+Backblaze Personal Backup is a paid cloud backup service for one computer with unlimited backup and a setup process that takes little work.
 
 **Current pricing and value:**
 - $9/month
@@ -176,7 +176,7 @@ Duplicacy is a backup tool with a free command-line version for personal use and
 
 **Best fit:** Advanced users who know exactly why they want Duplicacy instead of Duplicati.
 
-Choose Duplicacy only if you already work with repositories, deduplication, and self-managed backup storage. Duplicati is the more approachable default for scheduled encrypted backups.
+Choose Duplicacy only if you already work with repositories, deduplication, and self-managed backup storage. Duplicati is the easier starting point for scheduled encrypted backups.
 
 [Download Duplicacy ->](https://duplicacy.com)
 

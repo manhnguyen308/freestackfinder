@@ -41,7 +41,7 @@ If you are doing 2D drafting only, floor plans, technical drawings, schematics, 
 
 FreeCAD is the obvious starting point for anyone who wants free parametric CAD. It runs everywhere, it has no licensing strings, and the 1.x release in 2024 fixed a number of long-standing pain points. But several things drive users to evaluate alternatives:
 
-The **interface and workflow** are unfamiliar even to engineers coming from commercial CAD. Workbenches (Part Design, Sketcher, Draft, Arch, etc.) function as separate tools that share a document, and switching between them is more friction than the integrated environment of Fusion 360 or Onshape. The default views, mouse navigation, and shortcuts feel different from every other CAD tool, which raises the cost of switching teams or working on a borrowed machine.
+The **interface and workflow** are unfamiliar even to engineers coming from commercial CAD. Workbenches (Part Design, Sketcher, Draft, Arch, etc.) act as separate tools that share a document, and switching between them takes more work than in Fusion 360 or Onshape. The default views, mouse navigation, and shortcuts feel different from every other CAD tool, which raises the cost of switching teams or working on a borrowed machine.
 
 FreeCAD 1.0 reduced the **Topological Naming Problem**, where editing an early feature can break references in later features, but did not eliminate it. Anyone moving from commercial CAD should expect some models to need repaired references after upstream edits.
 
@@ -49,7 +49,7 @@ FreeCAD 1.0 reduced the **Topological Naming Problem**, where editing an early f
 
 **Performance** on large assemblies can be slower than commercial tools, particularly when using older workbenches. Most hobby parts are small enough that this is invisible, but it shows up on bigger projects.
 
-FreeCAD is excessive for a one-off STL made from basic shapes, yet its assembly workflow can add friction to a 30-part project. The alternatives below cover both ends.
+FreeCAD is excessive for a one-off STL made from basic shapes, yet its assembly workflow can slow down a 30-part project. The alternatives below cover both ends.
 
 ---
 
@@ -79,7 +79,7 @@ Onshape's free hobbyist plan is a browser-based parametric CAD platform with ske
 
 **Best for:** Makers, 3D printing hobbyists, students learning mechanical design, open-source hardware projects, and anyone who wants the workflow of professional CAD without the FreeCAD learning curve. Particularly good for users on Chromebooks or older hardware where Fusion 360 will not run well.
 
-**Why it stands out:** Onshape combines parametric modeling, assemblies, browser access, and version history on the free hobbyist plan. The public-document rule excludes private client work, gifts, competition entries, and unreleased product ideas.
+**Browser CAD with version history:** Onshape combines parametric modeling, assemblies, browser access, and version history on the free hobbyist plan. The public-document rule excludes private client work, gifts, competition entries, and unreleased product ideas.
 
 [Try Onshape free →](https://www.onshape.com/en/products/free)
 
@@ -107,7 +107,7 @@ Autodesk Fusion 360 (Personal Use license) is a commercial parametric CAD/CAM/CA
 
 **Best for:** Hobbyists with personal CNC mills, 3D printers, or laser cutters who want CAD and CAM in one tool. Engineering students working on personal projects. Anyone who needs private projects without paying.
 
-**Why it stands out:** Fusion combines CAD, CAM, basic simulation, and rendering in one free personal-use plan. Its integrated CAM workflow removes a separate export-and-import step for milling projects. The active-document limit is the main friction; more than ten projects require regular activation changes.
+**CAD and CAM in one plan:** Fusion combines CAD, CAM, basic simulation, and rendering in one free personal-use plan. Its built-in CAM workflow removes a separate export-and-import step for milling projects. The active-document limit is the main drawback; more than ten projects require regular activation changes.
 
 **What to watch out for:** Autodesk has reduced the Personal license features several times over the past few years. Plan around the assumption that this could continue. If Fusion's free tier matters to your workflow, keep your projects exportable as STEP files so you can move them out of the Autodesk cloud if the policy changes.
 
@@ -168,7 +168,7 @@ SolveSpace is a free, open-source parametric 2D and 3D CAD tool focused on small
 
 **Best for:** Engineers and makers who want a lightweight, license-clean, parametric CAD with no cloud dependency and no Autodesk strings. Particularly good for small mechanical parts, jigs, and brackets where the constraint solver matters more than fancy surfacing.
 
-**Why it stands out:** SolveSpace is a focused open-source parametric CAD tool with a small installer, offline use, and no personal-use license restriction. It gives up FreeCAD's range of workbenches and Fusion or Onshape's cloud collaboration. Choose it for constrained mechanical parts when that narrower scope is an advantage.
+**A focused offline CAD tool:** SolveSpace is a focused open-source parametric CAD tool with a small installer, offline use, and no personal-use license restriction. It gives up FreeCAD's range of workbenches and Fusion or Onshape's cloud collaboration. Choose it for constrained mechanical parts when that narrower scope is an advantage.
 
 [Try SolveSpace free →](https://solvespace.com)
 
@@ -197,7 +197,7 @@ OpenSCAD is a free, open-source 3D modeler where geometry is described in a text
 
 **Best for:** Programmers, engineers comfortable with scripting, anyone designing parametric parts that need to be regenerated for many sizes (e.g., enclosures for different boards, gears with different tooth counts), or open-source hardware projects that benefit from version-controllable text-based design files.
 
-**Why it is in a category of its own:** OpenSCAD is the only tool here where your design is entirely text. That has practical implications: a design file goes into Git cleanly, diffs are readable, parameters can be exposed for users to customize (this is how most Thingiverse "Customizer" parts work), and the same design can produce hundreds of variants with a script. For people whose work has any of those properties, OpenSCAD is irreplaceable. For people who just want to draw a bracket, it is the wrong tool.
+**Why it is in a category of its own:** OpenSCAD is the only tool here where your design is entirely text. That brings practical benefits: a design file goes into Git cleanly, diffs are readable, parameters can be exposed for users to customize (this is how most Thingiverse "Customizer" parts work), and the same design can produce hundreds of variants with a script. OpenSCAD is the only option here for work that needs those features. For people who just want to draw a bracket, it is the wrong tool.
 
 [Try OpenSCAD free →](https://openscad.org)
 
@@ -296,7 +296,7 @@ For users in those situations, the right move is usually to keep using FreeCAD a
 
 Start with **Onshape's free hobbyist plan** if public projects are acceptable, or **Fusion 360 Personal** if the files must stay private and its current personal-use license fits. Export important work as STEP files periodically so a later license or tool change does not trap the project.
 
-For users who have specifically chosen open-source for licensing or principle reasons, **SolveSpace** is a lighter alternative to FreeCAD that handles small mechanical parts cleanly, **OpenSCAD** is unmatched for code-driven parametric work, and **LibreCAD** is the right tool for 2D-only drafting. None of these replace FreeCAD's full breadth, but each is a better choice for the tasks they cover.
+For users who have specifically chosen open-source for licensing or principle reasons, **SolveSpace** is a lighter alternative to FreeCAD that handles small mechanical parts cleanly, **OpenSCAD** is the only code-driven parametric tool here, and **LibreCAD** is the right tool for 2D-only drafting. None of these replace FreeCAD's full breadth, but each is a better choice for the tasks they cover.
 
 Use **Tinkercad** for a first printable part when speed matters more than a parametric feature history.
 

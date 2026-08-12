@@ -29,9 +29,9 @@ Start with **Google Fonts** for open-source web and design families. Use **Font 
 
 ## Why font licensing still matters in 2026
 
-Most designers know that using a random font file pulled from a search can create legal exposure: commercial license violations are a real risk, not a theoretical one. The good news is that the legitimate free font ecosystem has grown substantially. Google Fonts expanded to 1,400+ families, all under open-source licenses. Font Squirrel has maintained its strict commercial-use vetting. The problem is that DaFont and similar repositories mix truly free fonts with "free for personal use only" fonts throughout the same browsing interface, making it easy to download the wrong file for a client project.
+Using a random font file from a search can create legal risk because commercial license violations do happen. The set of legitimate free font sites has grown a lot. Google Fonts expanded to 1,400+ families, all under open-source licenses. Font Squirrel still checks each font for commercial use. The problem is that DaFont and similar sites mix truly free fonts with "free for personal use only" fonts in the same browsing interface, making it easy to download the wrong file for a client project.
 
-The sites below solve that problem differently: some through strict curation, some through npm packaging, some through sheer volume with license filters. Knowing which to reach for first saves time and avoids a licensing headache later.
+The sites below solve that problem differently: some check every license, some use npm packaging, and some offer large libraries with license filters. Knowing which to reach for first saves time and avoids a licensing headache later.
 
 For client or brand work, keep a small record of where each font came from and what license applied when you downloaded it. That does not need to be complicated: a project note with the font name, site, license label, and download date is enough for most small projects. The habit matters most when a mockup becomes a real logo, website, app, or product package.
 
@@ -65,7 +65,7 @@ Every font in the library is open-source, the API is straightforward, and the li
 
 ### 2. Font Squirrel: best for guaranteed commercial-use fonts
 
-Font Squirrel is a curated font library that specializes in fonts explicitly cleared for commercial use. Font Squirrel manually vets every font in its free collection and maintains a separate Webfont Generator tool for converting font files to web-ready formats.
+Font Squirrel is a reviewed font library that specializes in fonts cleared for commercial use. It checks every font in its free collection and maintains a separate Webfont Generator tool for converting font files to web-ready formats.
 
 Font Squirrel is built around commercial clearance:
 - 1,000+ fonts: all vetted as free for commercial use
@@ -185,6 +185,6 @@ Good typography works alongside good visuals. See our guide to [free stock photo
 
 ## The font-source decision
 
-**Google Fonts** is the right starting point for almost every web project: 1,400+ open-source families, simple CDN embedding, and zero licensing friction. **Font Squirrel** is the safest choice for any commercial design work where you want the vetting done for you. **DaFont** is the best resource for unique display and novelty fonts, but treat every download as personal-use-only until you verify the license. **Fontsource** is the developer's preferred path for self-hosting open-source fonts without a CDN dependency. **1001 Fonts** rounds out the list for browsing a large library with clearer labeling than DaFont.
+**Google Fonts** is the right starting point for almost every web project: 1,400+ open-source families, simple CDN embedding, and clear licensing. **Font Squirrel** is the safest choice for commercial design work when you want the license checks done for you. **DaFont** is the best resource for unique display and novelty fonts, but treat every download as personal-use-only until you verify the license. **Fontsource** is the developer's preferred path for self-hosting open-source fonts without a CDN dependency. **1001 Fonts** rounds out the list for browsing a large library with clearer labeling than DaFont.
 
 For design work beyond type, see our [free Figma alternatives](/creative/figma-alternatives/) for UI prototyping and our [free Canva alternatives](/creative/canva-alternatives/) for quick graphic design without the font hunt.

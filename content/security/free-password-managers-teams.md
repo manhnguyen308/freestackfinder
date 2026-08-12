@@ -126,7 +126,7 @@ Self-hosting gives you the commercial Bitwarden feature set at the cost of infra
 
 ### 3. Vaultwarden: best lightweight self-hosted option
 
-Vaultwarden is an unofficial but widely used reimplementation of the Bitwarden server API written in Rust. It is fully compatible with all official Bitwarden client apps but runs on dramatically lower hardware: a Raspberry Pi or a shared $3/month VPS is enough.
+Vaultwarden is an unofficial but widely used version of the Bitwarden server API written in Rust. It works with all official Bitwarden client apps but needs fewer hardware resources: a Raspberry Pi or a shared $3/month VPS is enough.
 
 Vaultwarden keeps the Bitwarden-compatible workflow lighter:
 - Compatible with every Bitwarden client app
@@ -152,24 +152,24 @@ Vaultwarden is the practical choice for teams that want Bitwarden self-hosted bu
 
 Passbolt Community Edition is an open-source password manager built specifically for team collaboration, not a personal tool adapted for teams, but a product designed from the ground up for shared credential management.
 
-Passbolt Community Edition gives technical teams granular sharing:
+Passbolt Community Edition gives technical teams detailed sharing controls:
 - Unlimited users on the Community Edition
 - GPG-based end-to-end encryption for all shared passwords
-- Granular sharing: share individual passwords or groups of passwords with specific users or teams
+- Per-password sharing: share individual passwords or groups of passwords with specific users or teams
 - Permission levels: read, write, and ownership
-- Browser extension for Chrome, Firefox, and Edge (required for full functionality)
+- Browser extension for Chrome, Firefox, and Edge (required for all features)
 - Self-hosted via Docker or direct install; documented for popular Linux distributions
 - REST API for programmatic integration
 
 The setup burden is higher than Bitwarden:
 - Cloud-hosted option requires Passbolt Cloud (paid from $4/user/month)
 - Mobile apps and Single Sign-On (SSO) are Cloud/Business tier features
-- Initial setup requires GPG key generation per user: the security model is correct but adds friction for non-technical users
-- More setup friction than Bitwarden's hosted apps
+- Initial setup requires GPG key generation per user, which adds work for non-technical users
+- More setup work than Bitwarden's hosted apps
 
 It fits development teams, sysadmin teams, or IT departments that share many service credentials and need fine-grained access control. Teams where technical users can help others through GPG setup will have a smoother rollout.
 
-Passbolt's permission system is the most granular in this list. You can share one password read-only, share another with a group write-enabled, and keep personal passwords separate within the same interface. The GPG encryption model requires more setup than the alternatives, but the access-control model is strong for technical teams.
+Passbolt has the most detailed permission system in this list. You can share one password read-only, share another with a group write-enabled, and keep personal passwords separate within the same interface. The GPG encryption model requires more setup than the alternatives, but the access-control model is strong for technical teams.
 
 [Passbolt Community Edition →](https://www.passbolt.com/ce/docker)
 
@@ -177,7 +177,7 @@ Passbolt's permission system is the most granular in this list. You can share on
 
 ### 5. KeePassXC shared vault: the manual option for micro-teams
 
-KeePassXC shared vault is Using a single KeePassXC vault file stored in shared cloud storage (Google Drive, Dropbox, Nextcloud) as a basic team password solution. The vault is a single encrypted file; anyone with the master password can open it.
+A KeePassXC shared vault uses a single vault file stored in shared cloud storage (Google Drive, Dropbox, Nextcloud) as a basic team password setup. The vault is a single encrypted file; anyone with the master password can open it.
 
 The shared-vault approach keeps costs at zero:
 - Completely free and open-source
@@ -239,7 +239,7 @@ For the rest of your team's security baseline, pair a shared password manager wi
 
 For most small teams in 2026, the realistic free path is:
 
-- **Two people:** Bitwarden Free Organizations: zero setup, zero cost, full cloud functionality.
+- **Two people:** Bitwarden Free Organizations: no server setup, zero cost, and all cloud features.
 - **Three or more people, technically comfortable:** Bitwarden self-hosted or Vaultwarden on a $5 to 8/month VPS. The software is free; you pay for infrastructure you likely already have.
 - **Teams wanting purpose-built sharing with fine access controls:** Passbolt Community Edition on a self-hosted server.
 - **Micro-teams with occasional shared credential needs:** KeePassXC vault in shared cloud storage: simple, free, but limited.

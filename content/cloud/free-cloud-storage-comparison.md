@@ -58,7 +58,7 @@ rows:
   - tool: iCloud
     free_storage: 5GB
     best_for: Apple device backup and sync
-    limit: Fills quickly; Apple-ecosystem only
+    limit: Fills quickly; best on Apple devices
   - tool: Dropbox
     free_storage: 2GB
     best_for: Existing Dropbox users only
@@ -98,7 +98,7 @@ MEGA is a privacy-focused cloud storage service whose current marketing pages st
 
 **What you give up:**
 - Transfer limits can be more restrictive than the storage number suggests
-- Collaboration is weaker than Google Drive or Microsoft's ecosystem
+- Collaboration is weaker than Google Drive or Microsoft tools
 - It is better for storage and sharing than for live document work
 
 **Choose MEGA for:** A larger free storage pool when live document collaboration is not required.
@@ -170,7 +170,7 @@ OneDrive is Microsoft's cloud storage service, bundled tightly with Windows and 
 **What you give up:**
 - 5GB is a small free allowance
 - It is more convenient than generous
-- It is strongest when you already work in Microsoft's ecosystem
+- It is strongest when you already work with Microsoft apps
 
 **Choose OneDrive for:** Windows file sync and Office web apps when 5GB is enough.
 
@@ -194,7 +194,7 @@ Proton Drive is Proton's encrypted cloud storage service, now with a more credib
 
 **What you give up:**
 - It is still not the strongest collaboration workspace
-- It prioritizes privacy over ecosystem breadth
+- It prioritizes privacy over connections to other apps
 - If you need your cloud drive to be a daily team productivity hub, it is not the easiest answer
 
 **Choose Proton Drive for:** Personal records and sensitive documents that need end-to-end encrypted storage.
@@ -217,7 +217,7 @@ iCloud is Apple's built-in storage and sync service for iPhone, iPad, and Mac us
 
 **What you give up:**
 - 5GB fills very quickly
-- It is much less compelling outside the Apple ecosystem
+- It is much less useful outside Apple devices
 - It is convenient, but not a great value once you need real storage room
 
 **Choose iCloud for:** Apple device backup, photo sync, and file continuity across iPhone, iPad, and Mac.

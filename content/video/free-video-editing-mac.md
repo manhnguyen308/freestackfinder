@@ -40,7 +40,7 @@ rows:
   - tool: iMovie
     mac_support: "Native: macOS + Apple Silicon"
     free_tier: Fully free, no watermark, no trial
-    best_for: Casual editing, beginners, Apple ecosystem
+    best_for: Casual editing, beginners, Apple device users
     catch: Ceiling hits quickly; no proxy, no motion tracking
   - tool: DaVinci Resolve
     mac_support: "Native: macOS 12.4+ · Apple Silicon optimized"
@@ -92,7 +92,7 @@ iMovie is pre-installed on every Mac and handles everything a casual editor need
 
 ---
 
-### DaVinci Resolve (free): Professional-grade editing at no cost
+### DaVinci Resolve (free): professional editing at no cost
 
 Blackmagic Design offers DaVinci Resolve as a free product rather than a time-limited trial. The free version includes the editing timeline, color grading, Fairlight audio, and Fusion visual effects.
 
@@ -126,7 +126,7 @@ CapCut is a ByteDance product for TikTok, Instagram Reels, and YouTube Shorts. T
 
 Kdenlive is a KDE project that originated on Linux and has maintained a macOS build for several years. The editor provides a proper multi-track timeline, proxy clip support, color scopes, audio mixing, and a growing library of effects. It is fully open-source under FOSS licensing with no paid tier, no watermark, and no vendor lock-in.
 
-**macOS caveat:** The macOS version lags behind the Linux version in stability and Apple Silicon optimization. Some Mac users report rendering glitches and occasional crashes that are less common on Linux. On Apple Silicon specifically, test with a representative clip from your camera before committing to a project with a deadline.
+**macOS caveat:** The macOS version lags behind the Linux version in stability and Apple Silicon optimization, with possible rendering glitches and occasional crashes. On Apple Silicon specifically, test with a representative clip from your camera before committing to a project with a deadline.
 
 **Free tier includes:** everything. Multi-track timeline, proxy clips, color scopes, audio mixing, effect library, export presets. No paid tier exists.
 
@@ -138,11 +138,11 @@ Kdenlive is a KDE project that originated on Linux and has maintained a macOS bu
 
 ### Shotcut: Format-first open-source editor
 
-Shotcut is a cross-platform open-source editor that prioritizes format compatibility over interface polish. It uses FFmpeg internally, which means it opens file formats that other editors reject. Shotcut provides native Mac builds for both Intel and Apple Silicon: one of the few open-source editors that has kept up with Apple's chip transition.
+Shotcut is a cross-platform open-source editor that prioritizes format compatibility over a smooth interface. It uses FFmpeg internally, which means it opens file formats that other editors reject. Shotcut provides native Mac builds for both Intel and Apple Silicon: one of the few open-source editors that has kept up with Apple's chip transition.
 
 **Free tier includes:** everything. Open-source with no paid version. Supports virtually every input format via FFmpeg. No watermark.
 
-**What to watch out for:** Shotcut's interface is not intuitive. The workflow is based around a source-clip-to-timeline model that differs from most modern timeline editors, and new users regularly find it confusing despite good documentation. The visual design is functional but older-feeling compared to commercial alternatives.
+**What to watch out for:** Shotcut's interface is hard to learn. The source-clip-to-timeline workflow differs from most modern timeline editors, even though the documentation explains it. The visual design works but looks older than commercial alternatives.
 
 **Best for:** Editors who need to work with unusual camera formats, older codecs, or footage from mixed devices. Shotcut is also useful as a conversion tool when you need to transcode files before editing elsewhere.
 
@@ -181,7 +181,7 @@ If you are migrating from Windows, the biggest practical adjustments are workflo
 
 **From Adobe Premiere Pro:** DaVinci Resolve is the closest feature equivalent with a genuine free tier. Resolve's Cut and Edit pages resemble Premiere's bin-and-timeline structure, and most conceptual knowledge transfers: the adjustment is interface navigation, not methodology. Our [guide to free Premiere Pro alternatives](/video/premiere-pro-alternatives/) covers the transition in more detail.
 
-**From Vegas Pro:** Shotcut has a similar clip-based approach and is worth testing first if Vegas habits are deeply ingrained.
+**From Vegas Pro:** Shotcut has a similar clip-based approach and is worth checking first if your Vegas habits are hard to change.
 
 **From Windows Movie Maker or similar:** iMovie is the closest match in workflow and complexity.
 

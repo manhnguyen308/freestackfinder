@@ -35,7 +35,7 @@ Business email time adds up across drafting, changing tone for a client or colle
 
 The useful shift is that basic AI email help is no longer limited to premium inbox tools. In 2026, many everyday functions are available at no cost: predictive compose, AI-assisted replies, tone adjustment, and subject line ideas. The catch is that limits, credits, and inbox access vary sharply by provider, so the safest move is to match the tool to your email workflow before relying on it.
 
-The practical question is not whether to use AI for email: it's which free option fits your existing workflow without adding friction or introducing privacy risk to sensitive business messages.
+The practical question is not whether to use AI for email: it's which free option fits your existing workflow without adding extra steps or privacy risk to sensitive business messages.
 
 ---
 
@@ -79,11 +79,11 @@ The main thing to watch is the current credit model:
 - The product's free and paid packaging has changed over time, so verify the current credit model before depending on it for daily email volume
 - No email thread summarization
 - No calendar or CRM integration
-- The extension adds a visible toolbar overlay that some users find distracting
+- The extension adds a visible toolbar overlay that takes up space in the compose window
 
 It fits professionals who live in Gmail or Outlook and want draft help without copying text between windows. If you write five to fifteen business emails a day, verify the current allowance before making it part of your daily rhythm.
 
-The inline experience is the reason to consider it. Writing inside your actual compose window, rather than generating in ChatGPT and pasting across, removes enough friction that people are more likely to keep using it.
+The inline experience is the reason to consider it. Writing inside your compose window, rather than generating in ChatGPT and pasting the text across, removes an extra step from every draft.
 
 ---
 
@@ -148,7 +148,7 @@ The practical question is whether you want to switch email clients:
 
 It fits individual professionals who are willing to change their primary inbox in exchange for built-in AI drafting, thread summarization, and a conversation-style email view.
 
-Spike is the only free option here that combines an actual email client with AI drafting and thread summarization in one place. The others are add-ons to existing clients; Spike is a full replacement, which is both its strength and its biggest adoption hurdle.
+Spike is the only free option here that combines an actual email client with AI drafting and thread summarization in one place. The others are add-ons to existing clients; Spike is a full replacement, which is both its strength and the main reason it takes more work to switch.
 
 ---
 
@@ -211,7 +211,7 @@ The free plans on this list work well for light-to-moderate daily email. You wil
 
 - **Your monthly credits, queries, or free messages interrupt your work**: Compose AI, Spike, and ChatGPT all have limits that can change, so the upgrade point is when those caps break your normal email rhythm
 - **You need team features**: Spike's AI is individual-only on free; Boomerang's team features require a paid plan
-- **You need direct CRM or calendar integration**: tools like Superhuman, Front, or Missive combine AI email with workflow automation, but none have a meaningful free tier
+- **You need direct CRM or calendar integration**: tools like Superhuman, Front, or Missive combine AI email with workflow automation, but none have a useful free tier
 - **Your organization requires enterprise data processing agreements**: consumer free tiers rarely include the data governance controls that regulated industries require
 
 For teams that have outgrown individual free tools, the paid tiers of Compose AI, Spike, or a full email client with Copilot integration are the natural next step.

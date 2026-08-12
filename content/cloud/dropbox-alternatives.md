@@ -58,7 +58,7 @@ MEGA is a New Zealand-based cloud storage service offering 20GB free with end-to
 
 **Best fit:** Users who want the most free storage possible and care about privacy. Also good for users who want to share large files securely without a Google or Microsoft account.
 
-**Where it beats Dropbox Free:** MEGA's 20GB free tier is 10 times what Dropbox offers. The end-to-end encryption is not a premium add-on: it is the default architecture. MEGA cannot read your files even if compelled to by a legal request, which puts it in a different security category to Google Drive, OneDrive, and Dropbox. The desktop sync client works cleanly on all major platforms and behaves similarly to Dropbox's sync folder. For users who want a direct Dropbox replacement with more storage and better privacy, MEGA is the most compelling option.
+**Where it beats Dropbox Free:** MEGA's 20GB free tier is 10 times what Dropbox offers. The end-to-end encryption is not a premium add-on: it is the default design. MEGA cannot read your files even if compelled to by a legal request, which puts it in a different security category to Google Drive, OneDrive, and Dropbox. The desktop sync client works cleanly on all major platforms and behaves similarly to Dropbox's sync folder. For users who want a direct Dropbox replacement with more storage and better privacy, MEGA is the best option here.
 
 **The limit to plan around:** MEGA's transfer quota on the free plan is the main practical constraint, and it is safer to treat it as variable rather than plan around a fixed number. For personal file sync, documents, photos, small project folders, this is rarely an issue. The quota becomes relevant if you share a large file via a MEGA link that gets downloaded repeatedly, or if you sync a media library across multiple devices in a short period. For a primary sync folder with everyday files, most free-plan users will not hit the limit. For a shared folder used by several people downloading frequently, you will.
 
@@ -72,11 +72,11 @@ Google's cloud storage and productivity suite is included with every Google acco
 
 Google Drive competes less on raw storage than on what comes with the account. The 15GB pool sits beside Docs, Sheets, Slides, Forms, desktop sync, mobile apps, and search across file contents. Pick it when shared documents matter more than encrypted storage. If you need help choosing Office tools that work alongside Drive, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
-The tradeoffs sit on the privacy and accounting side. There is no end-to-end encryption, so Google can access and index file content: fine for most documents, a real consideration for sensitive ones. The 15GB pool is shared with Gmail and Google Photos, and active users with large inboxes or photo libraries find that the headline 15GB is not really 15GB of free Drive space.
+The tradeoffs sit on the privacy and accounting side. There is no end-to-end encryption, so Google can access and index file content: fine for most documents, a real consideration for sensitive ones. The 15GB pool is shared with Gmail and Google Photos, so a large inbox or photo library can leave much less than 15GB for Drive files.
 
 A natural pick for: anyone already using Gmail (the 15GB is shared anyway), users who want cloud storage alongside productivity tools, and teams that collaborate in documents more than they sync raw files.
 
-**The storage sharing trap:** The 15GB limit sounds generous until you factor in that Gmail, Google Photos, and Drive all draw from the same pool. An active Gmail account with years of messages and attachments can consume 5 to 8GB on its own; a photo-heavy Google Photos library can fill the rest. If you are switching from Dropbox primarily to get more free file storage, check your Google account's current usage before assuming you have 15GB available for Drive files: the actual free space available for documents and project files may be considerably less.
+**The storage sharing trap:** The 15GB limit sounds generous until you factor in that Gmail, Google Photos, and Drive all draw from the same pool. An active Gmail account with years of messages and attachments can consume 5 to 8GB on its own; a photo-heavy Google Photos library can fill the rest. If you are switching from Dropbox primarily to get more free file storage, check your Google account's current usage before assuming you have 15GB available for Drive files: the actual free space available for documents and project files may be much smaller.
 
 [Try Google Drive Free →](https://drive.google.com)
 
@@ -100,7 +100,7 @@ The zero-setup advantage makes most sense for Windows-first users with a modest 
 
 Proton's end-to-end encrypted cloud storage service offers up to 5GB of free Proton Drive storage after the account setup steps Proton currently requires.
 
-Compared with Dropbox, the headline difference is not capacity but architecture: Proton cannot read your files, and the company operates under Swiss privacy law: among the strongest data protection regimes in the world. Like MEGA, the encryption is the default, not an upsell. Unlike MEGA, Proton sits inside a broader privacy suite (ProtonMail, Proton VPN), so a single account covers email, VPN, and storage if you are deliberately leaving the Google or Microsoft ecosystem.
+Compared with Dropbox, the main difference is not capacity but design: Proton cannot read your files, and the company operates under Swiss privacy law, among the strongest data protection regimes in the world. Like MEGA, the encryption is the default, not an upsell. Unlike MEGA, Proton is part of a broader privacy suite (Proton Mail, Proton VPN), so a single account covers email, VPN, and storage if you are moving away from Google or Microsoft tools.
 
 The tradeoffs are practical. 5GB is smaller than MEGA, Google Drive, or Box. The desktop sync client is newer and less mature than the Dropbox or Google Drive equivalents. Collaboration features are thinner than Google Drive's. For storing sensitive documents, contracts, medical records, financial files, Proton Drive is the only free option in this list that provides end-to-end encryption under strong jurisdictional protection without caveats. For account security alongside your cloud storage, see our [free password managers guide](/security/free-password-managers/) to protect your cloud access credentials.
 
@@ -157,7 +157,7 @@ Dropbox's paid tiers make sense for teams that already depend on its sync client
 
 Stay on a free tier while your files, sync requirements, and version-history window fit inside it. Paying starts to make sense when you split files between services to avoid a cap or lose an edit after the recovery window expires.
 
-Free tiers are sufficient until you either run out of space consistently, need team admin controls, or want guaranteed uptime SLAs. At that point, compare the current paid pricing directly rather than relying on old roundups; storage providers change regional prices, bundles, and promotional terms often. For teams who want the privacy of MEGA with full device backup and version history, the paid tier is a straightforward upgrade from the free 20GB.
+Free tiers are sufficient until you either run out of space consistently, need team admin controls, or want guaranteed uptime SLAs. At that point, compare the current paid pricing directly rather than relying on old roundups; storage providers change regional prices, bundles, and promotional terms often. For teams that want the privacy of MEGA with full device backup and version history, the paid tier is the next step from the free 20GB.
 
 For users who want encrypted cloud storage bundled with a VPN, useful if you regularly access cloud files on public Wi-Fi, NordLocker (from NordVPN) offers encrypted storage alongside VPN protection in a single subscription.
 

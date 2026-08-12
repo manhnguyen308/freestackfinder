@@ -46,11 +46,11 @@ rows:
   - tool: Kdenlive
     best_for: Open-source middle ground
     free: Multi-track timeline, proxy editing, cross-platform
-    limit: More setup and interface friction than commercial editors
+    limit: More setup and a harder interface than commercial editors
   - tool: Shotcut
     best_for: Problem source formats
     free: Broad format support, open-source, cross-platform
-    limit: Less intuitive editing experience
+    limit: Editing workflow is harder to learn
 {{< /comparison-table >}}
 
 ---
@@ -177,7 +177,7 @@ Kdenlive adds proxy editing, multi-track control, and broader audio and color to
 
 ---
 
-### 5. Shotcut: best when import compatibility is the pain point
+### 5. Shotcut: best when file imports are the main problem
 
 Shotcut is an open-source editor that is especially useful for older, mixed, or stubborn source formats.
 
@@ -188,13 +188,13 @@ Shotcut is an open-source editor that is especially useful for older, mixed, or 
 - Free cross-platform use
 
 **What to watch for:**
-- The interface is less intuitive than the other options here
-- Editing speed and polish are not its strengths
+- The interface is harder to learn than the other options here
+- Editing speed and interface smoothness are not its strengths
 - You pick Shotcut for compatibility, not elegance
 
 **Choose Shotcut for:** Older, mixed, or unusual source formats that another editor will not import cleanly.
 
-Shotcut accepts a broad range of source formats. Its interface and editing workflow are the tradeoff, so use it when compatibility matters more than a polished timeline experience.
+Shotcut accepts many source formats. Its interface and editing workflow are the tradeoff, so use it when compatibility matters more than a smooth timeline.
 
 [Download Shotcut free ->](https://shotcut.org)
 

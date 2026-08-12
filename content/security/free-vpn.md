@@ -57,7 +57,7 @@ A VPN requires servers in multiple countries, bandwidth, and ongoing maintenance
 
 The most common answer is user data. In 2015, Hola VPN was found to be selling users' bandwidth and traffic to a botnet. In 2020, seven free VPN providers, all claiming "no-logs" policies, were found to have exposed logs containing user data, IP addresses, and session information stored on unprotected servers. In 2021, the FTC found that several free VPN apps were collecting and selling user data in violation of their own privacy policies.
 
-The pattern is consistent: free VPN services that are not backed by a sustainable business model tend to monetise through data. This is not hypothetical: it has happened repeatedly, at scale.
+The pattern is consistent: free VPN services without a sustainable business model often make money from user data. This has happened repeatedly and affected many users.
 
 The good news is that a handful of free VPN tiers are trustworthy: specifically the ones offered by companies whose paid products generate enough revenue to subsidise a limited free tier as a customer acquisition strategy.
 
@@ -79,7 +79,7 @@ Unlike most free VPNs, ProtonVPN Free does not make data allowance the bottlenec
 
 Compared with paid VPNs, the limits are server choice, speed priority, device coverage, and streaming. Free users are limited to a few server countries, paid users get faster priority on crowded servers, the free tier covers one device, streaming unblocking is not included, and Tor over VPN requires paid.
 
-ProtonVPN Free fits users who need a trustworthy VPN for occasional public Wi-Fi protection, basic IP masking, or getting started before committing to a paid plan. It stands out because unlimited data and independent auditing rarely appear together in the free VPN market, and Proton's paid subscription business gives the company a clearer way to subsidise free users without monetising them through data.
+ProtonVPN Free fits users who need a trustworthy VPN for occasional public Wi-Fi protection, basic IP masking, or getting started before committing to a paid plan. Unlimited data and independent auditing rarely appear together in the free VPN market, and Proton's paid subscriptions fund the free plan without relying on user data for revenue.
 
 [Try ProtonVPN Free →](https://protonvpn.com)
 
@@ -125,7 +125,7 @@ Compared with the safer free VPN picks above, Hotspot Shield Free is included ma
 
 The free tier has only a US server location. Hotspot Shield's parent company Aura has also faced regulatory attention over privacy practices, the plan is ad-supported, and its no-logs claims lack an independent audit. Those limits keep it below ProtonVPN and Windscribe here.
 
-Hotspot Shield Free is fast because the Hydra protocol performs well, but speed without verified privacy is not a meaningful advantage for a security tool. For privacy-conscious users, ProtonVPN Free is a better choice; if speed is the priority, a paid VPN with audited no-logs is the cleaner answer.
+Hotspot Shield Free is fast because the Hydra protocol performs well, but speed without verified privacy is not a useful advantage for a security tool. For privacy-conscious users, ProtonVPN Free is a better choice; if speed is the priority, a paid VPN with audited no-logs is the clearer answer.
 
 [Try Hotspot Shield →](https://hotspotshield.com)
 

@@ -33,7 +33,7 @@ For most designers, **Penpot** is the strongest free Figma alternative in 2026, 
 
 Figma changed the design industry by making collaborative, browser-based UI design the default. But its free tier has tightened over time. Starter-plan limits around team files, version history, Dev Mode, and advanced collaboration can matter quickly for agencies and product teams. Before switching or paying, check Figma's current pricing page against your exact workflow: number of editors, number of active files, handoff needs, and version-history expectations.
 
-The proposed Adobe acquisition was abandoned on December 18, 2023 after regulators signaled they would block the deal. Even though Figma remained independent, the episode still pushed many teams to evaluate alternatives as a hedge against future pricing changes or ecosystem risk.
+The proposed Adobe acquisition was abandoned on December 18, 2023 after regulators signaled they would block the deal. Even though Figma remained independent, the episode still pushed many teams to consider alternatives in case future pricing or platform changes caused problems.
 
 The open-source community responded. Penpot reached production stability and now offers a competitive design environment with no seat limits and no feature gates. For teams whose Figma usage centers on UI layout, component libraries, and basic prototyping, the migration path is straightforward.
 
@@ -58,7 +58,7 @@ Penpot is an open-source, browser-based design and prototyping platform develope
 
 **The tradeoff to know:**
 - There is no paid plan: everything is free
-- Plugin ecosystem is smaller than Figma's
+- Plugin library is smaller than Figma's
 - No Dev Mode equivalent (inspect panel is basic)
 - Community template library is growing but smaller than Figma's
 
@@ -80,7 +80,7 @@ Lunacy is a free desktop design application by Icons8, available on Windows, mac
 - Sketch file import/export
 - Figma file import
 - Auto Layout, components, styles
-- Offline mode (full functionality without internet)
+- Offline mode (all features work without internet)
 - AI-powered tools: background removal, image upscaling, text generation
 - Export to PNG, SVG, PDF, CSS
 
@@ -139,7 +139,7 @@ Quant UX is a free, open-source prototyping and usability testing tool. Quant UX
 
 **The tradeoff to know:**
 - No paid plan: everything is free
-- Design capabilities are more limited than Penpot or Figma (focused on prototyping, not full UI design)
+- Design features are more limited than Penpot or Figma (focused on prototyping, not full UI design)
 - Smaller community and fewer templates
 - No real-time multiplayer editing
 
@@ -173,7 +173,7 @@ Figma (Starter plan) is Figma itself offers a free Starter plan that covers indi
 
 **Natural fit:** Solo designers and teams of two or three who can work within the 3-file team limit. Students and freelancers doing occasional UI work can stay free if three shared files cover their active projects.
 
-**Why it stays relevant:** Figma's ecosystem, plugins, community files, hiring market familiarity, is unmatched. For designers building a portfolio or working on freelance projects, Figma's free tier provides access to the industry-standard tool. The limitation is specifically around team scale, not feature quality.
+**Why it stays relevant:** No other tool matches Figma's plugins, community files, and familiarity in the hiring market. For designers building a portfolio or working on freelance projects, Figma's free tier provides access to the industry-standard tool. The limitation is team size, not feature quality.
 
 [Use Figma Starter free →](https://figma.com)
 

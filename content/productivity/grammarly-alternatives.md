@@ -55,7 +55,7 @@ LanguageTool is an open-source grammar and spell checker that supports over 30 l
 
 **Where it makes the biggest difference:** LanguageTool's browser extension works in Gmail, Google Docs, WordPress, Notion, and other web editors. Its clearer advantage is multilingual support: the same extension checks German, Spanish, French, Portuguese, and English. Choose it when your writing crosses languages; that is a more concrete reason than simply wanting a second English grammar checker.
 
-**Who might find the free tier limiting:** LanguageTool's free text-length allowance is not a problem for email and social media, but very long documents may need to be checked in sections. For a 5,000-word article, that can mean splitting the text multiple times: a minor but real friction point. Writers who regularly edit long pieces in a single session should check LanguageTool's current free limit before relying on it as their only editor.
+**Who might find the free tier limiting:** LanguageTool's free text-length allowance is not a problem for email and social media, but very long documents may need to be checked in sections. For a 5,000-word article, that can mean splitting the text multiple times, which adds a small but real extra step. Writers who regularly edit long pieces in a single session should check LanguageTool's current free limit before relying on it as their only editor.
 
 [Try LanguageTool free →](https://languagetool.org)
 
@@ -80,7 +80,7 @@ ProWritingAid is a writing analysis tool that checks grammar, style, readability
 
 **Best fit:** Fiction writers, content writers, and bloggers who want more than grammar checking: particularly those focused on improving sentence variety, pacing, and overused words.
 
-**Where it helps most:** ProWritingAid goes deeper than any other free tool in this list. Where Grammarly and LanguageTool focus primarily on grammar and clarity at the sentence level, ProWritingAid analyzes your writing at a structural level: flagging repeated sentence openings, passive voice overuse, readability scores by paragraph, and clichés. The 500-word cap on the free plan is a genuine limitation for long articles, but for editing in sections it remains useful. If you write regularly and want to actively improve your writing craft rather than just fix mistakes, the insights ProWritingAid provides are worth the friction.
+**Where it helps most:** ProWritingAid goes deeper than any other free tool in this list. Where Grammarly and LanguageTool focus primarily on grammar and clarity at the sentence level, ProWritingAid analyzes your writing at a structural level: flagging repeated sentence openings, passive voice overuse, readability scores by paragraph, and clichés. The 500-word cap on the free plan is a genuine limitation for long articles, but for editing in sections it remains useful. If you write regularly and want to improve your writing rather than just fix mistakes, those reports can be worth the extra work.
 
 [Try ProWritingAid free →](https://prowritingaid.com)
 
@@ -110,7 +110,7 @@ Hemingway Editor is a web-based editor that highlights hard-to-read sentences, p
 
 ---
 
-### 4. Google Docs built-in tools: best for writers already working in Google's ecosystem
+### 4. Google Docs built-in tools: best for writers already using Google Docs
 
 Google Docs built-in tools is the grammar, spelling, and smart compose features built into Google Docs, available to anyone with a free Google account.
 
@@ -127,7 +127,7 @@ Google Docs built-in tools is the grammar, spelling, and smart compose features 
 - No readability scoring
 - Suggestions are less detailed than dedicated writing tools
 
-**Best fit:** Anyone who already writes in Google Docs and wants solid, no-friction grammar checking without installing anything extra.
+**Best fit:** Anyone who already writes in Google Docs and wants solid grammar checking without installing anything extra.
 
 **Where it helps most:** Google Docs already includes real-time spelling and grammar checks plus Smart Compose. A Docs-first writer may not need another extension for ordinary emails and business documents. It is less precise than Grammarly or LanguageTool on ambiguous sentence structure, but it adds no setup or extra account. If you are considering leaving Microsoft Word, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
@@ -155,11 +155,11 @@ The free tools above are not competing replacements: they work better in combina
 - **Hemingway Editor** as a final pass before publishing: paste in the finished draft, clear the red and yellow highlights, publish. This takes about five minutes and meaningfully improves readability.
 - **ProWritingAid** for essays, articles, and reports where structure and sentence variety matter as much as grammar.
 
-**For email writing specifically:** Google Docs' Smart Compose or LanguageTool's extension is sufficient. Running email drafts through ProWritingAid's 500-word limit is friction without payoff for a message that will be read once.
+**For email writing specifically:** Google Docs' Smart Compose or LanguageTool's extension is sufficient. Running email drafts through ProWritingAid's 500-word limit adds work without much benefit for a message that will be read once.
 
 **For academic writing:** ProWritingAid's structural reports (passive voice, sentence variety, readability per paragraph) are more useful than grammar checking alone. The 500-word session cap on the free plan is a genuine inconvenience for long papers, but editing in sections, introduction, body, conclusion, makes it workable without a subscription.
 
-**For multilingual writers:** LanguageTool is the only tool in this list that covers non-English grammar checking at a useful depth. Hemingway and ProWritingAid are English-first tools; Google Docs handles other languages but with less nuance.
+**For multilingual writers:** LanguageTool is the only tool in this list that covers non-English grammar checking at a useful depth. Hemingway and ProWritingAid are English-first tools; Google Docs handles other languages but gives less detailed feedback.
 
 ---
 
@@ -169,7 +169,7 @@ Grammarly Premium makes the most sense for professionals whose writing directly 
 
 Premium rewriting can justify the fee for someone who writes frequently in a second language or spends time reworking phrasing. Grammarly handles full-sentence rewrites more naturally than the basic correction tools above. The return comes from repeated rewriting work rather than simple error checks.
 
-The plagiarism checker bundled with Premium is a niche but genuine use case for students and researchers. Running a document through Grammarly's checker before submission is faster than managing a separate tool, and the integration with the existing writing workflow reduces friction. If you are in academic writing and need that feature regularly, Grammarly Premium is easier to justify than it is for casual writers.
+The plagiarism checker bundled with Premium is a niche but genuine use case for students and researchers. Running a document through Grammarly's checker before submission is faster than managing a separate tool, and keeping it in the same writing workflow saves a step. If you are in academic writing and need that feature regularly, Grammarly Premium is easier to justify than it is for casual writers.
 
 ---
 

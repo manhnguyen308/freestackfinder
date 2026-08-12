@@ -24,7 +24,7 @@ Choose **Obsidian** when local Markdown files, offline access, and a large plugi
 
 ## Why people look for a free alternative to Notion
 
-Notion's free tier has become progressively more restricted over time. The block limit on the free plan means that heavy users will hit a wall and face an upgrade prompt. There is no meaningful offline mode: if you lose internet access, your notes become inaccessible. And the fundamental architecture of Notion stores all your data on their servers in a proprietary format, which means you are dependent on the company's continued existence and pricing decisions for access to your own information.
+Notion's free tier has become more restricted over time. The block limit on the free plan means that heavy users will hit a wall and face an upgrade prompt. There is no useful offline mode: if you lose internet access, you cannot reach your notes. Notion also stores all your data on its servers in a proprietary format, which leaves access to your information tied to the company's continued operation and pricing decisions.
 
 The other common trigger is privacy. Notes are often the most sensitive data a person creates: personal journals, work strategies, client information, research on health or financial topics. Storing all of that in a third-party cloud platform requires a level of trust that many users are no longer comfortable extending by default.
 
@@ -42,8 +42,8 @@ Obsidian is a free local-first note-taking application that stores all notes as 
 - Completely free for personal use: no subscription, no block limits, no expiry
 - Notes stored as plain .md files in a folder you own
 - Backlinks and graph view to see connections between notes
-- Extensive plugin ecosystem: hundreds of community plugins for calendars, tasks, databases, and more
-- Full offline functionality: works without internet
+- Large plugin library: hundreds of community plugins for calendars, tasks, databases, and more
+- Full offline access: works without internet
 - Available on Windows, macOS, Linux, iOS, and Android
 
 **Where the free tier ends:**
@@ -82,7 +82,7 @@ Logseq is a free, open-source knowledge management tool built around an outliner
 
 **Strong fit for:** Power users who want an outliner-first workflow, researchers who think in connected ideas rather than linear documents, and anyone who prefers open-source tools.
 
-Logseq is built on the same local-first, Markdown-file philosophy as Obsidian but takes a different approach to structure. Where Obsidian is document-centered, Logseq is block-centered: every bullet point is a separate entity that can be referenced, tagged, and queried independently. This makes it exceptionally good at capturing fleeting notes and creating connections between them in a way that feels more natural than Notion's database approach. The open-source codebase and active community development also mean the tool improves rapidly.
+Logseq is built on the same local-first, Markdown-file philosophy as Obsidian but takes a different approach to structure. Where Obsidian is document-centered, Logseq is block-centered: every bullet point is a separate entity that can be referenced, tagged, and queried independently. This makes it very good at capturing quick notes and creating connections between them in a way that feels more natural than Notion's database approach. The open-source codebase and active community development also mean the tool improves rapidly.
 
 [Download Logseq free →](https://logseq.com)
 
@@ -101,7 +101,7 @@ Anytype is a local-first, end-to-end encrypted knowledge management app that off
 
 **Where the free tier ends:**
 - Still in active development, with fewer mature collaboration controls than Notion
-- Smaller community and plugin ecosystem than Obsidian
+- Smaller community and plugin library than Obsidian
 - The object-based model has a learning curve for users coming from Notion
 - 1GB storage limit on free sync tier
 

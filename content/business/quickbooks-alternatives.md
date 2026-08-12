@@ -30,7 +30,7 @@ QuickBooks handles payroll, inventory, tax preparation, and multi-user access th
 
 Wave keeps its core accounting workflow outside a recurring fee and charges for payment processing, payroll, and Pro features instead. That model makes it a usable free product for a solo business, though its bank-feed and support boundaries still need checking before a switch.
 
-The trade-off is real but acceptable for most freelancers: free accounting tools have less automation, less polish, and more limited integrations than QuickBooks. For someone billing 5 to 20 clients per month and tracking a few hundred transactions per year, that trade-off is straightforward to make.
+The trade-off is real but acceptable for most freelancers: free accounting tools have less automation, rougher interfaces, and fewer integrations than QuickBooks. For someone billing 5 to 20 clients per month and tracking a few hundred transactions per year, that trade-off is easy to understand.
 
 ---
 
@@ -62,7 +62,7 @@ Wave fits freelancers, consultants, and sole traders who invoice clients regular
 
 Zoho Books is Zoho's cloud accounting platform with a free tier available for businesses below a certain annual revenue threshold.
 
-Compared with QuickBooks, Zoho Books makes more sense if your small business already lives inside the Zoho ecosystem and wants accounting to connect naturally with CRM, Projects, and related tools. The free tier includes up to 1,000 invoices per year, bank reconciliation and transaction import, basic expense tracking, a client portal for invoice viewing and payment, Zoho integrations, and automated payment reminders.
+Compared with QuickBooks, Zoho Books makes more sense if your small business already uses Zoho tools and wants accounting to connect naturally with CRM, Projects, and related products. The free tier includes up to 1,000 invoices per year, bank reconciliation and transaction import, basic expense tracking, a client portal for invoice viewing and payment, Zoho integrations, and automated payment reminders.
 
 The free tier is limited to businesses under a regional revenue threshold, so current limits should be verified before committing. It is also limited to 1 user on the free plan, while automated workflows, custom reports, and some non-Zoho integrations require paid plans.
 
@@ -92,7 +92,7 @@ GnuCash is a free, open-source desktop accounting application that runs locally 
 
 Unlike QuickBooks Online, GnuCash is better when local control matters more than cloud convenience. It includes full double-entry bookkeeping, income and expense tracking, invoicing and billing, tax reporting features, multi-currency support, Windows/macOS/Linux availability, and a completely free open-source model with no subscription or cloud account.
 
-The trade-off is friction. There is no cloud sync or mobile access, the interface is dated compared with modern cloud tools, automatic bank connections are absent, and transactions usually need to be imported manually via CSV. Users unfamiliar with double-entry accounting also face a steeper learning curve.
+The trade-off is extra work. There is no cloud sync or mobile access, the interface is dated compared with modern cloud tools, automatic bank connections are absent, and transactions usually need to be imported manually via CSV. Users unfamiliar with double-entry accounting also face a steeper learning curve.
 
 GnuCash fits freelancers who want local double-entry accounting and do not want financial data stored on a third-party server. It runs on Linux, Windows, and macOS, but its interface follows desktop accounting conventions rather than a guided cloud setup.
 
@@ -119,7 +119,7 @@ If you have outgrown Wave and want a more guided freelancer-accounting workflow,
 | Tool | Ongoing free plan | Invoicing | Bank sync | Best for |
 |------|-----------------|-----------|-----------|----------|
 | Wave | ✅ Yes | ✅ Unlimited | ✅ Yes | Most freelancers: best overall |
-| Zoho Books | ✅ Yes (with limits) | ✅ 1,000/year | ✅ Yes | Zoho ecosystem users |
+| Zoho Books | ✅ Yes (with limits) | ✅ 1,000/year | ✅ Yes | Zoho tool users |
 | Invoice Ninja | ✅ Yes (20 clients) | ✅ Unlimited | ⚠️ Limited | Hourly billing, project work |
 | GnuCash | ✅ Yes | ✅ Yes | ⚠️ Manual import | Offline, privacy-first users |
 | FreshBooks | ❌ Trial only | ✅ Yes | ✅ Yes | Evaluation before paying |

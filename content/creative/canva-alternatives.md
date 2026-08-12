@@ -79,7 +79,7 @@ A few things matter more than a tool's template count when you compare it agains
 - **A free tier that isn't a demo.** Some tools advertise generous free limits but gate the formats and resolutions you need behind a paywall. Test your real export before committing.
 - **Workflow fit.** Template-first tools (Canva, Adobe Express) speed up the first 80% but get clumsy when you need finer control. Editor-first tools (Photopea) feel slower at first but scale further once you learn them.
 - **Where your work lives.** Browser-only tools are convenient on a Chromebook or a borrowed laptop. Desktop or mobile apps matter more if you work offline or on the go.
-- **Ad and upgrade pressure.** Ads and repeated upgrade prompts add friction even when the core editor remains free.
+- **Ad and upgrade pressure.** Ads and repeated upgrade prompts get in the way even when the core editor remains free.
 
 ---
 
@@ -91,7 +91,7 @@ A few things matter more than a tool's template count when you compare it agains
 
 Adobe's browser and mobile design app handles social posts, flyers, presentations, quick video, and light photo editing, and on a free plan it covers a surprisingly large surface area without feeling disposable. The free tier includes a large template library, basic photo, video, and document editing tools, PNG, JPG, PDF, and GIF export, limited Adobe Stock assets, basic scheduling for one account per social network, and 5GB of storage. You can start from a template, make small edits quickly, export in the formats people need, and keep moving.
 
-The gaps compared to Canva Pro are deliberate. The deeper brand-management tools, bulk resize, stronger publishing controls, the full premium asset library, and unlimited access to Adobe's more advanced AI and editing features all sit on paid plans. Adobe Express is not as broad as Canva's paid ecosystem, but the free version is usable for solo creators, students, and small businesses making social graphics, flyers, simple promos, and presentation visuals, which is exactly the audience that finds Canva Pro hard to justify.
+The gaps compared to Canva Pro are intentional. The deeper brand-management tools, bulk resize, stronger publishing controls, the full premium asset library, and unlimited access to Adobe's more advanced AI and editing features all sit on paid plans. Adobe Express does not offer as many paid tools as Canva, but the free version fits solo creators, students, and small businesses making social graphics, flyers, simple promos, and presentation visuals.
 
 [Try Adobe Express free ->](https://www.adobe.com/express/pricing.html)
 
@@ -129,7 +129,7 @@ It is most useful when your bottleneck is not execution but ideation: it gets yo
 
 Pixlr is a web-based suite that mixes light design tools with stronger photo editing than most template-first apps. The free version gives you browser-based editing, fast photo cleanup tools, simple layouts, templates, text effects, and enough depth for thumbnails, banners, and quick promo graphics.
 
-Ads and upgrade prompts are part of the free experience. Paid tiers remove more friction and include more AI tools, but Pixlr remains less cohesive than Adobe Express as an all-purpose workspace. Choose it when the job moves between layout and image cleanup in one browser tab.
+Ads and upgrade prompts are part of the free experience. Paid tiers reduce these interruptions and include more AI tools, but Pixlr still does not bring its tools together as well as Adobe Express. Choose it when the job moves between layout and image cleanup in one browser tab.
 
 [Try Pixlr free ->](https://pixlr.com/)
 

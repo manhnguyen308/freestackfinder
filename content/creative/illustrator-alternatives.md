@@ -25,7 +25,7 @@ Adobe Illustrator costs $22.99/month as a standalone app, or $59.99/month inside
 
 ## Why people are leaving Adobe Illustrator
 
-Adobe's shift to a subscription-only model in 2013 fundamentally changed who can afford Illustrator. At $22.99/month, a solo freelancer pays $275/year for a single app. The full Creative Cloud suite, which many users subscribe to just to get Illustrator alongside Photoshop, costs $719/year. For occasional users, students, and small businesses, that cost is difficult to justify.
+Adobe's shift to a subscription-only model in 2013 changed who can afford Illustrator. At $22.99/month, a solo freelancer pays $275/year for a single app. The full Creative Cloud suite, which many users subscribe to just to get Illustrator alongside Photoshop, costs $719/year. For occasional users, students, and small businesses, that cost is difficult to justify.
 
 Inkscape has been in active development since 2003. Its current toolset covers SVG paths, nodes, boolean operations, typography, layers, and print-ready exports, which is enough for many logo, icon, and technical illustration workflows. It still differs from Illustrator in `.ai` compatibility, artboards, cloud collaboration, and some complex-file performance. For template-based work that sits beside vector editing, see our [free Canva alternatives guide](/creative/canva-alternatives/).
 
@@ -44,7 +44,7 @@ Inkscape is a free, open-source vector editor for illustration, logo design, SVG
 - Object grouping, layers, and z-order management
 - Filters, effects, and blend modes
 - Import and export: SVG, PDF, EPS, PNG, JPEG, and more
-- Extensions library for additional functionality
+- Extensions library for extra features
 - Available on Windows, macOS, and Linux
 - Completely free: no premium tier, no subscription, no ads
 
@@ -55,9 +55,9 @@ Inkscape is a free, open-source vector editor for illustration, logo design, SVG
 - Performance on very complex files with thousands of objects can be slower
 - No cloud sync or collaboration features built in
 
-**Best fit:** Designers who need full professional vector capabilities without paying for Illustrator. Particularly good for logo design, icon sets, technical illustration, and SVG web graphics.
+**Best fit:** Designers who need professional vector tools without paying for Illustrator. Particularly good for logo design, icon sets, technical illustration, and SVG web graphics.
 
-**Where it beats lighter tools:** Inkscape is the only free tool in this list that matches Illustrator's core capability set for serious design work. The node editor, Bezier tool, and boolean operations work at a professional level. The learning curve is real, Inkscape's interface has its own logic that takes adjustment if you are coming from Illustrator, but once past that adjustment, the tool handles complex vector work without meaningful limitation. For anyone who used Illustrator primarily for logo design, icon creation, or technical illustration, Inkscape is a complete replacement.
+**Where it beats lighter tools:** Inkscape is the only free tool in this list that matches Illustrator's core tools for serious design work. The node editor, Bezier tool, and boolean operations work at a professional level. The learning curve is real. Inkscape's interface has its own logic that takes adjustment if you are coming from Illustrator, but once past that adjustment, the tool handles complex vector work without major limits. For anyone who used Illustrator primarily for logo design, icon creation, or technical illustration, Inkscape is a complete replacement.
 
 [Download Inkscape free →](https://inkscape.org)
 
@@ -140,7 +140,7 @@ SVG-edit is open-source, works offline, and requires neither an account nor a cl
 
 ### 5. Canva free tier: best for non-designers who want vector-adjacent results
 
-Canva is a template-driven design platform that includes basic vector shape tools alongside its extensive template library.
+Canva is a template-driven design platform that includes basic vector shape tools alongside its large template library.
 
 **Inside the free version:**
 - Thousands of templates for logos, social media, presentations, and print
@@ -190,7 +190,7 @@ Key differences to know upfront: Inkscape uses XML-based SVG as its native forma
 
 ## When Illustrator still earns its subscription
 
-Illustrator remains the right choice for professional studio environments where files are shared between team members who all use Adobe products, where .ai compatibility is a hard requirement from clients or printers, or where the extended feature set, perspective grid, variable fonts, advanced gradient mesh, Live Paint, is in regular use. For individual freelancers and studios who have built workflows around Illustrator's specific capabilities, the switching cost may outweigh the subscription cost.
+Illustrator remains the right choice for professional studios where files are shared between team members who all use Adobe products, where clients or printers require .ai compatibility, or where the extended feature set, perspective grid, variable fonts, advanced gradient mesh, Live Paint, is in regular use. For individual freelancers and studios that depend on these Illustrator features, the switching cost may outweigh the subscription cost.
 
 Inkscape covers the core path, node, typography, and export work needed for logos, small-business brand assets, and learning vector design. Keep Illustrator when native `.ai` exchange, Adobe integrations, or its specific print workflow is part of the job.
 

@@ -69,7 +69,7 @@ OBS Studio supports the recording setups used for professional production while 
 
 ### 2. ShareX: best free screen recorder for Windows power users
 
-ShareX is a free, open-source screen capture and screen recording tool for Windows with an extensive feature set including annotation, workflow automation, and over 80 upload destinations.
+ShareX is a free, open-source screen capture and screen recording tool for Windows with annotation, workflow automation, and over 80 upload destinations.
 
 **What you can capture for free:**
 - Unlimited screen recording: no watermarks, no time limits
@@ -150,7 +150,7 @@ Screencastify keeps the path short: install the Chrome extension, record, and se
 
 ### 5. Clipchamp: best zero-install option for Windows 11 users
 
-Clipchamp is Microsoft's video creation tool, built into Windows 11, which includes a screen recorder alongside basic video editing capabilities.
+Clipchamp is Microsoft's video creation tool, built into Windows 11, which includes a screen recorder alongside basic video editing features.
 
 **What Windows gives you for free:**
 - Screen recording with no time limits
@@ -206,7 +206,7 @@ For most users, developers recording bug reproductions, product managers sharing
 
 ## The recording setup
 
-**OBS Studio** is the correct free screen recorder for any recording that needs to be longer than 5 minutes, of professional quality, or output in a specific format. It has no meaningful limitations on the free tier and is the same tool used by professional video producers. The setup investment is 5 to 10 minutes. For quick async messages under 5 minutes where the recipient experience matters more than recording length, **Loom Free** is still useful despite its limits. **ShareX** is the Windows-only pick for users who need annotation and workflow automation alongside recording. For zero-install simplicity on Windows 11, **Clipchamp** covers basic needs without any configuration.
+**OBS Studio** is the correct free screen recorder for any recording that needs to be longer than 5 minutes, of professional quality, or output in a specific format. The free tier has no time, watermark, or output-format limits and is the same tool used by professional video producers. Setup takes more work than with the simpler recorders here. For quick async messages under 5 minutes where the recipient experience matters more than recording length, **Loom Free** is still useful despite its limits. **ShareX** is the Windows-only pick for users who need annotation and workflow automation alongside recording. For zero-install simplicity on Windows 11, **Clipchamp** covers basic needs without any configuration.
 
 For walkthroughs recorded during a live meeting, compare the meeting limits in our [free video conferencing guide](/video/free-video-conferencing/). Audio can make a clear screen capture hard to follow when a laptop microphone also picks up room noise, fan sound, and keyboard clicks. If that is happening, compare a USB microphone with moving the laptop closer and reducing background noise before buying other recording hardware.
 

@@ -125,7 +125,7 @@ RescueTime Lite is a desktop and mobile app that runs in the background, automat
 
 ### 4. TimeCamp: best free time tracker with basic invoicing
 
-TimeCamp is a cloud-based time tracker whose current free plan includes unlimited users and unlimited projects. The tier also includes basic time-to-invoice functionality that many competitors reserve for paid plans.
+TimeCamp is a cloud-based time tracker whose current free plan includes unlimited users and unlimited projects. The tier can also turn basic time records into invoices, a feature many competitors reserve for paid plans.
 
 **What you can track for free:**
 - Unlimited users

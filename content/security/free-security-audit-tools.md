@@ -111,7 +111,7 @@ A typical Lynis audit checks filesystem permissions, authentication configuratio
 
 **What the free version covers:** Full audit across 300+ tests, hardening index score, detailed report output, support for all major Linux distributions. The open-source version runs all tests with no registration required.
 
-**Where the free version runs into limits:** Lynis Enterprise adds centralized reporting for multiple hosts, compliance mapping (CIS, PCI DSS, HIPAA), and team-based dashboards. For a single VPS or a small team managing a few servers, the open-source version covers everything meaningful.
+**Where the free version runs into limits:** Lynis Enterprise adds centralized reporting for multiple hosts, compliance mapping (CIS, PCI DSS, HIPAA), and team-based dashboards. For a single VPS or a small team managing a few servers, the open-source version covers the main needs.
 
 **Best for:** Anyone running a Linux VPS, self-hosted application, or home server who wants a structured list of security improvements to work through. Running `lynis audit system` after a fresh server setup is one of the most practical things a self-hosting developer can do.
 
