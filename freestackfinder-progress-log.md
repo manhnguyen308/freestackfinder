@@ -15,6 +15,18 @@
 
 ---
 
+### 2026-08-12 - Multi-site humanizer audit: FreeStackFinder verified clean
+
+- Scope: audited FreeStackFinder alongside the two other Hugo sites in the workspace (Cryptometric Analytics, SoloOpsGuide) against `website-content-humanizer.md`. This entry covers the FreeStackFinder result only.
+- Result: no edits were required. The working tree stayed clean through the entire audit.
+- Pattern scan: across all 64 content files the scan returned 3 first-hand matches, 2 chatbot-artifact matches, 4 dash matches, and 2 inflated-language matches. Every one was a false positive on inspection: "When we" appears only in disclosure and policy sentences ("When we write a comparison article", "When we materially revise a page"), "placeholder" appears as ordinary vocabulary ("auto-fill placeholder values", "reputation as a placeholder"), the dash matches are CSS custom properties in `content/contact.md` (`var(--muted)`), and "unlock" refers to literal biometric unlock features in the 2FA guide.
+- Structural check: no repeated generic conclusions, no repeated paragraph openings beyond two incidental cases, and no formulaic section template. Article openings lead with the decision ("Choose Wave for cloud bookkeeping...", "Start with the view your team will maintain..."). The 4 Title Case headings found are all product names (OrangeHRM Community Edition, Google Sheets, Google Search Console, OBS Studio).
+- The "Quick comparison table" label repeats across 28 articles. Left in place: it is a functional scanning label for a table, not a generic prose heading, and consistent labelling helps readers.
+- Validation: `python scripts/run_quality_checks.py --with-counts` passed 3/3 with 50 articles. `git status` reported zero modified files. No build was run because no public-facing file changed.
+- Carry-over: the first-hand input still needed for `/cloud/free-cloud-storage-comparison/`, `/cloud/dropbox-alternatives/`, `/video/free-video-editing-mac/`, and `/business/free-crm-software/` remains outstanding from the 2026-08-12 reaudit entry above.
+
+---
+
 ### 2026-08-12 - Website content humanizer reaudit completed
 
 - Rule source: used `website-content-humanizer.md` as the governing standard and added `@website-content-humanizer.md` to the root `CLAUDE.md` so future reader-visible copy checks load the same rulebook.
