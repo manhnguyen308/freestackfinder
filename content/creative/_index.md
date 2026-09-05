@@ -1,5 +1,5 @@
 ---
-title: "Free Creative & Design Software Alternatives"
+title: "Free creative and design software alternatives"
 description: "Compare free alternatives to Photoshop, Illustrator, Canva, and other creative tools by exports, watermarks, and plan limits."
 ---
 

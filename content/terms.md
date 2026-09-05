@@ -1,14 +1,14 @@
 ---
-title: "Terms of Use"
+title: "Terms of use"
 description: "Read the Free Stack Finder terms of use, including website usage rules, content limitations, affiliate disclosures, and liability information."
 type: page
 ---
 
 <div class="static-page">
 
-# Terms of Use
+# Terms of use
 
-<p class="page-meta">Last updated: April 2026</p>
+<p class="page-meta">Last updated: September 2026</p>
 
 By accessing or using Free Stack Finder ("the site"), you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use the site.
 

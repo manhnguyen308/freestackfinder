@@ -8,7 +8,7 @@ type: page
 
 # About Free Stack Finder
 
-<p class="page-meta">Last updated: April 2026</p>
+<p class="page-meta">Last updated: September 2026</p>
 
 ## Why this site exists
 

@@ -1,5 +1,5 @@
 ---
-title: "Free Video & Recording Software Alternatives"
+title: "Free video and recording software alternatives"
 description: "Free alternatives to Adobe Premiere Pro, Final Cut Pro, Loom, Zoom, and other video tools: compared by free-plan limits and workflow fit."
 ---
 

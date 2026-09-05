@@ -1,5 +1,5 @@
 ---
-title: "Free Cloud Storage & File Sharing Alternatives"
+title: "Free cloud storage and file-sharing alternatives"
 description: "Compare free alternatives to Dropbox and Google Drive by storage, transfer limits, sync behavior, and privacy."
 ---
 

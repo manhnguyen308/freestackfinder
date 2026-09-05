@@ -1,8 +1,8 @@
 ---
-title: "Best Free Invoicing Software in 2026: Get Paid Without the Monthly Fee"
-description: "Compare the best free invoicing software for freelancers and small businesses, including Wave, Zoho Invoice, Invoice Ninja, Square, PayPal, and Stripe."
+title: "Free invoicing software in 2026: six options for freelancers"
+description: "Wave, Zoho Invoice, Invoice Ninja, Square, PayPal, and Stripe compared by client limits, invoice caps, bookkeeping, and payment fees."
 date: "2026-04-13"
-lastmod: "2026-05-16"
+lastmod: "2026-09-05"
 draft: false
 weight: 74
 slug: "free-invoicing-software"
@@ -21,9 +21,9 @@ image: "/img/free-invoicing-software.webp"
 author: "FreeStackFinder Team"
 ---
 
-## Choose by billing model
+## Wave for books, Zoho Invoice for client portals
 
-Choose **Wave** when invoices should feed into a free accounting ledger. Choose **Zoho Invoice** for a client portal and payment reminders, or **Invoice Ninja** for project billing and time tracking within its hosted client limit. FreshBooks, QuickBooks, and Xero start to make sense when the work extends beyond sending and tracking invoices.
+Choose **Wave** when invoices should feed into a free accounting ledger. Choose **Zoho Invoice** for a client portal and payment reminders, or **Invoice Ninja** for project billing and time tracking within its five-client hosted limit. FreshBooks, QuickBooks, and Xero start to make sense when the work extends beyond sending and tracking invoices.
 
 The right choice usually comes down to invoice volume, how clients pay, and how much business recordkeeping you want in the same account. If you mostly send fixed-fee invoices, Wave or Zoho Invoice are easier than a project-heavy tool. If invoices come from tracked hours, Invoice Ninja or Harvest-style workflows matter more. If payment links and card acceptance are the main concern, Square, PayPal, and Stripe each make sense for different client expectations. Branding, tax fields, client records, and export habits matter more over time than the color of the invoice template.
 
@@ -36,43 +36,41 @@ columns:
 rows:
   - tool: Wave
     best_for: Freelancers and sole operators
-    free: Unlimited invoices, unlimited clients, full accounting
-    limit: Payment processing has per-transaction fees
+    free: Unlimited invoices and bookkeeping records
+    limit: Automation and receipt capture require paid
   - tool: Zoho Invoice
-    best_for: Small client roster, Zoho tool users
+    best_for: Solo businesses, Zoho tool users
     free: Client portal, reminders, time tracking included
-    limit: 5-client cap on the free tier
+    limit: 2 users, 3 projects, 500 invoices per year
   - tool: Invoice Ninja
     best_for: Hourly and project billing
-    free: Up to 20 clients hosted; unlimited self-hosted
-    limit: 20-client limit on the hosted free plan
+    free: Up to 5 clients hosted; unlimited invoices
+    limit: 5-client limit on the hosted free plan
   - tool: Square Invoices
     best_for: Service businesses taking card payments
-    free: Unlimited invoices, contracts, e-sign
-    limit: No accounting or time tracking
+    free: Unlimited invoices, estimates, and contracts
+    limit: Milestone payments require paid
   - tool: PayPal Invoicing
     best_for: Clients who already use PayPal
     free: Unlimited invoices, unlimited clients
-    limit: Higher per-transaction fee than Square or Stripe
+    limit: Payment fees vary by method and country
   - tool: Stripe Invoicing
     best_for: Developers and API-driven billing
-    free: Unlimited manual invoices, multi-currency
-    limit: Automated billing has a per-invoice fee
+    free: No monthly fee; dashboard and API access
+    limit: 0.4% fee per paid Starter invoice, plus processing
 {{< /comparison-table >}}
 
----
 
-## Why freelancers pay for invoicing software they don't need
+## Payment fees matter more than invoice count
 
-FreshBooks starts at $19/month. QuickBooks Simple Start is $35/month. For a freelancer sending ten invoices a month and chasing two or three payments, that is $228 to $420 per year for a billing workflow that Wave handles for nothing. The paid-tier features, payroll, inventory, advanced reporting, bank sync at scale, are useful for businesses with employees and complex accounts. They are overkill for someone who invoices clients and tracks expenses.
+FreshBooks and QuickBooks package invoicing inside paid accounting plans. Payroll, inventory, advanced reporting, and bank reconciliation can justify those plans for a business with employees or complex books. A freelancer who only sends invoices and records payments should compare the no-cost tools below before paying for a larger accounting system.
 
 Switching gets harder after client records, recurring invoices, tax settings, and payment links are tied to one service. The alternatives below require setup, but none requires a credit card. Wave keeps core invoicing outside a monthly subscription and earns revenue from payment processing instead.
 
 That setup work is still worth doing carefully. Import or create your core client records, check how the invoice PDF looks with your logo, send yourself a test invoice before sending one to a client, and confirm that payment links, tax fields, and reminder settings behave the way you expect. Those small checks matter more than choosing the tool with the longest feature list, especially once clients start paying through it.
 
----
 
-## The best free invoicing software in 2026
+## Six invoicing routes and their limits
 
 ### 1. Wave: best overall free invoicing for freelancers
 
@@ -80,15 +78,14 @@ That setup work is still worth doing carefully. Import or create your core clien
 
 Wave is a free cloud-based accounting, invoicing, and payment platform built specifically for freelancers and solo business owners. Wave makes money from payment processing fees, not subscriptions.
 
-Wave keeps invoice volume unrestricted: unlimited invoices, estimates, recurring invoices, and clients sit alongside branded templates, automatic payment reminders, receipt scanning, expense tracking, double-entry accounting, bank and credit card connections, and multi-currency invoicing. That means the same free account can hold client records, unpaid invoices, expense history, and basic financial reports.
+Wave Starter keeps invoice and bookkeeping volume unrestricted. Its [current plan page](https://www.waveapps.com/pricing) lists unlimited estimates, invoices, bills, and bookkeeping records, plus optional payment processing.
 
-The cost shows up around the edges rather than as a subscription. Card payments carry the listed per-transaction fee, payroll is a paid add-on, phone support requires a paid plan, and built-in time tracking is not part of the workflow. Freelancers, consultants, and solo operators who want estimate-to-payment-to-reporting in one place get the most value here.
+The limits show up around automation. Automatic bank imports and categorization, automatic payment reminders, and digital receipt capture require Pro or an add-on. Card payments carry transaction fees, payroll is separate, and built-in time tracking is not part of the workflow.
 
-Wave's Starter plan keeps its core invoicing and accounting tools free, which is what most solo freelancers need. The double-entry accounting means your accountant can work with Wave's export at tax time without translation. For freelancers who do not need payroll or inventory, the current free tier covers the main tasks without forcing a subscription decision first.
+Wave Starter fits a solo operator willing to enter bookkeeping records manually. Check exports with the accountant who will use them rather than assuming a particular tax workflow.
 
 [Try Wave free →](https://www.waveapps.com)
 
----
 
 ### 2. Zoho Invoice: best free invoicing with a client portal
 
@@ -96,45 +93,42 @@ Wave's Starter plan keeps its core invoicing and accounting tools free, which is
 
 Zoho Invoice is part of Zoho's set of business tools. It is a dedicated invoicing tool, separate from Zoho Books, with an ongoing free tier.
 
-Zoho Invoice is strongest when the client roster is small but invoices still need to look professional. The free tier includes up to 5 clients, 1,000 invoices per year, multi-currency invoicing, branded templates, automated reminders, a client portal, time tracking, project-based billing, expense tracking, and integrations with Zoho CRM and Zoho Mail.
+Zoho's [current global plan page](https://www.zoho.com/invoice/pricing/) lists up to two users, three projects, and 500 invoices per year. It also includes templates, automated reminders, a client portal, time tracking, expense records, and integrations with other Zoho products.
 
-The 5-client cap is the practical ceiling. The 1,000-invoice yearly allowance is enough for many freelancers but restrictive for agencies, and full accounting lives in Zoho Books rather than this standalone invoicing product. For freelancers with a stable client list, those limits are reasonable; for a growing agency, they arrive quickly.
+The user, project, and annual invoice caps are the practical ceilings. Full accounting lives in Zoho Books rather than this standalone invoicing product.
 
 Zoho Invoice's client portal looks more professional than a basic invoice email. Clients can view invoice history, download documents, and pay online, which matters when they have accounts payable processes that require documentation. The adjustable reminders also reduce the awkward follow-up conversation around late payments.
 
 [Try Zoho Invoice free →](https://www.zoho.com/invoice)
 
----
 
 ### 3. Invoice Ninja: best free invoicing for project and time-based billing
 
 {{< verdict "Best for project billing" >}}
 
-Invoice Ninja is an open-source invoicing platform with a free hosted tier (up to 20 clients) and a self-hosting option for unlimited use. Strong on project-based and time-tracked billing.
+Invoice Ninja is an open-source invoicing platform with a free hosted tier for up to five clients and a self-hosting option.
 
-Invoice Ninja's hosted free plan covers up to 20 clients, while the self-hosted path can be unlimited. It includes unlimited invoices, quotes, and proposals; time tracking that links directly to invoices; expense tracking; project billing; recurring invoices; a client portal; and payment gateway integrations including Stripe, PayPal, WePay, and others.
+Invoice Ninja's [current hosted Free plan](https://invoiceninja.com/pricing-plans/) covers up to five clients and unlimited invoices. It includes recurring invoices, online payment gateways, projects, billable time, expenses, and a client portal.
 
-The hosted client limit is the hard ceiling, and some template customization sits behind paid tiers. Self-hosting removes the hosted client cap, but it requires a VPS plus ongoing updates and backups. Agencies, consultants, and developers who bill by the hour or project get the cleanest fit.
+The five-client hosted limit is the hard ceiling, and some template customization sits behind paid tiers. Self-hosting changes the maintenance model: the operator is responsible for hosting, updates, and backups.
 
 The time-tracking-to-invoice workflow is what separates Invoice Ninja from Wave and Zoho Invoice. If your invoices are built from tracked hours rather than fixed amounts, logging time inside Invoice Ninja and converting it directly to a line-item invoice is meaningfully faster than exporting from a separate time tracker and manually building an invoice.
 
 [Try Invoice Ninja free →](https://invoiceninja.com)
 
----
 
 ### 4. Square Invoices: best for service businesses taking card payments
 
 Square Invoices is Square's invoicing product and works with the company's other payment tools. The free plan covers invoices, estimates, and contracts with no monthly subscription.
 
-Square Invoices is built around service payments rather than bookkeeping. The free product includes unlimited invoices, estimates, and contracts; automated reminders; milestone payments; a customer directory; Square POS integration; digital contracts with e-signature; and recurring invoices.
+Square Invoices is built around service payments rather than bookkeeping. The [current Free plan](https://squareup.com/us/en/invoices) includes unlimited invoices, estimates, contracts, customers, and user accounts, plus project tracking and payment links.
 
-Payment processing uses Square's listed invoice-payment rate, and the product does not replace accounting software or time tracking. Multi-currency support is also limited. Cleaners, contractors, photographers, tutors, and other service businesses benefit most when in-person and remote card payments can run through the same Square account.
+Payment processing uses Square's listed invoice-payment rate, and the product does not replace accounting software or time tracking. Milestone-based payment schedules and advanced invoice customization require a paid plan.
 
-Square's main difference is its digital contract and e-signature flow. Sending a signed contract and an invoice in one workflow removes a step between proposal and payment, while milestone payments help on longer projects where clients prefer staged billing. Square's recognizable brand can also make individual clients more comfortable with payment than a less familiar platform.
+Square keeps estimates, contracts, invoices, and payment activity in one account. It fits a service business already using Square for point-of-sale or remote card payments.
 
 [Try Square Invoices free →](https://squareup.com/us/en/invoices)
 
----
 
 ### 5. PayPal Invoicing: best for clients who prefer PayPal
 
@@ -142,38 +136,35 @@ PayPal Invoicing is PayPal's built-in invoicing feature, available to any PayPal
 
 PayPal keeps the invoice workflow simple: unlimited invoices to unlimited clients, customizable templates, payment tracking and history, partial payment support, QR code payment links, and automatic reminders are included without a subscription.
 
-The trade-off is cost and depth. PayPal's listed transaction fee is higher than Square or Stripe, there are no accounting features, project or time-based billing is absent, and template customization is limited compared with Wave or Zoho Invoice. Freelancers whose clients already prefer PayPal, especially international clients in PayPal-heavy regions, have the least setup work.
+The trade-off is cost and depth. PayPal charges when an invoice is paid, and rates vary by payment method and country. Accounting and project time tracking are separate workflows.
 
-PayPal's primary advantage is client trust. Many clients, especially individuals and small businesses, are more comfortable paying a PayPal invoice than entering card details into an unfamiliar system. The invoicing feature is basic, but the payment process is familiar to both sides.
+PayPal states that there is [no fee to create or send an invoice](https://www.paypal.com/us/business/accept-payments/invoice); payment processing fees apply when a customer pays. It fits a seller whose customers already ask to pay through PayPal or Venmo.
 
 [Try PayPal Invoicing free →](https://www.paypal.com/us/business/invoicing)
 
----
 
 ### 6. Stripe Invoicing: best for technical and developer-led businesses
 
 Stripe Invoicing is Stripe's hosted invoicing product, built for developers and technical businesses already using Stripe for payments.
 
-Stripe Invoicing makes the most sense when invoices are part of a broader payment system. Manual one-off invoices are unlimited, and the free allocation includes 25 automated invoice emails per month before the listed automated-invoice fee applies. PDF invoices with branding, a customer portal, tax rate management, multi-currency support, and full API access are the key pieces.
+Stripe Invoicing makes the most sense when invoices are part of a broader payment system. Stripe's [current pricing](https://stripe.com/pricing) lists Starter at 0.4% per paid invoice, in addition to payment-processing fees. Hosted invoice pages, a customer portal, and API access are included.
 
-The product assumes Stripe familiarity. Automated subscription billing carries the listed fee, expense tracking and accounting are not included, and the interface is not designed for non-developers. Developers, SaaS businesses, and technical consultants already on Stripe get the cleanest fit because invoice and subscription billing stay in the same platform.
+The product assumes Stripe familiarity. Subscription billing uses a separate pricing model, while expense tracking and accounting are not included. It fits a business already building payment flows on Stripe.
 
-Stripe Invoicing is the only option here with a real API for custom billing workflows. If you need programmatic invoice generation, billing clients based on usage, integrating invoices into your own product dashboard, or creating custom payment schedules, Stripe's developer-first design handles this natively.
+Stripe exposes invoice creation and management through its API. That matters when invoices need to be generated from a product or internal system rather than entered manually.
 
 [Try Stripe Invoicing free →](https://stripe.com/invoicing)
 
----
 
 ## When free invoicing is enough and when to pay
 
-Free invoicing covers most solo freelancer needs. You do not need paid software if you have fewer than 20 regular clients, your business is service-based without inventory, you file as a sole trader or small LLC, and you do not have employees requiring payroll.
+A free invoicing plan can cover a solo freelancer who has simple taxes, no payroll, and a client count that fits the selected service. Payment processing still carries fees even when the software has no subscription.
 
 The free-plan cap that matters is rarely "number of invoices" by itself. A freelancer can send plenty of invoices and still be fine on free software if the client list is stable, taxes are simple, and payment processing fees are acceptable. A smaller business can outgrow free invoicing sooner if it needs multi-user approval, cleaner accountant access, detailed tax handling, recurring subscription billing, or exports that match a specific bookkeeping workflow.
 
-The case for paid invoicing software starts when your business scales past solo operation. FreshBooks' paid tiers add team collaboration and accountant access. QuickBooks becomes relevant when payroll, inventory, or multi-user access is a genuine requirement. For most freelancers billing 1 to 20 clients a month, the free options above cover everything today, and for the next three to five years of growth.
+Paid invoicing becomes relevant when the business needs more users, projects, automation, accountant access, inventory, or payroll. Compare those requirements against the current plan pages before moving client and tax records.
 
----
 
-## The invoice workflow to start with
+## Keep billing and bookkeeping connected
 
-Choose **Wave** for unlimited invoices, unlimited clients, and bookkeeping in the same free workflow. **Zoho Invoice** adds a client portal and automated reminders, while **Invoice Ninja** fits project-based and hourly billing. Check each hosted plan's client cap before migrating. The related guides cover [free accounting software](/business/free-accounting-software/), [QuickBooks alternatives](/business/quickbooks-alternatives/), [CRM tools](/business/free-crm-software/), [time tracking](/business/free-time-tracking-software/), and [spreadsheet alternatives](/business/free-spreadsheet-alternatives/).
+Choose **Wave** for unlimited invoice and bookkeeping records entered in one free workflow. **Zoho Invoice** adds a client portal and reminders within its user, project, and annual-invoice caps. **Invoice Ninja** fits project-based and hourly billing for up to five hosted clients. The related guides cover [free accounting software](/business/free-accounting-software/), [QuickBooks alternatives](/business/quickbooks-alternatives/), [CRM tools](/business/free-crm-software/), [time tracking](/business/free-time-tracking-software/), and [spreadsheet alternatives](/business/free-spreadsheet-alternatives/).

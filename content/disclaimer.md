@@ -1,14 +1,14 @@
 ---
-title: "Affiliate Disclaimer"
+title: "Affiliate disclaimer"
 description: "How Free Stack Finder labels affiliate links, earns commissions, and keeps commercial relationships separate from rankings."
 type: page
 ---
 
 <div class="static-page">
 
-# Affiliate Disclaimer
+# Affiliate disclaimer
 
-<p class="page-meta">Last updated: April 2026</p>
+<p class="page-meta">Last updated: September 2026</p>
 
 ## What affiliate links pay for
 

@@ -1,5 +1,5 @@
 ---
-title: "Free Business Software Alternatives"
+title: "Free business software alternatives"
 description: "Compare free alternatives to QuickBooks, Salesforce, Mailchimp, and other business tools for freelancers and small teams."
 ---
 

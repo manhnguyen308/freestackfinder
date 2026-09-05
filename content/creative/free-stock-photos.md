@@ -1,8 +1,8 @@
 ---
-title: "Best Free Stock Photo Sites in 2026: No Attribution, No License Fees"
-description: "Unsplash, Pexels, Pixabay, and Burst cover most needs royalty-free. Here's which free stock site has what you need, and which ones have hidden catches."
+title: "Free stock photo sites in 2026: licenses, attribution, and image choice"
+description: "Choose among Unsplash, Pexels, Pixabay, Burst, and other free photo libraries by license, attribution rules, and subject coverage."
 date: "2026-04-15"
-lastmod: "2026-04-15"
+lastmod: "2026-09-05"
 draft: false
 weight: 63
 slug: "free-stock-photos"
@@ -21,30 +21,26 @@ image: "/img/free-stock-photos.webp"
 author: "FreeStackFinder Team"
 ---
 
-## Choose by subject and license
+## Subject coverage and license terms come first
 
 Use **Unsplash** for editor-selected photography, **Pexels** when the same search also needs video, and **Pixabay** for vectors and illustrations beside photos. All three permit broad free use under their own licenses, but check the asset page when a recognizable person, logo, artwork, or property appears. Paid libraries become easier to justify when model releases, specialist imagery, or exclusivity matter.
 
----
 
-## Why free stock photos are good now
+## Where free libraries fall short
 
-Ten years ago, free stock meant blurry images of people shaking hands in front of white backgrounds. The platforms operating today at zero cost, Unsplash in particular, were built by designers and photographers who wanted to share quality work, and they attracted contributions from professionals who preferred wide distribution over licensing revenue.
+The main limits are specialist subject coverage, exclusivity, and documentation for people or property shown in an image. A copyright license lets you use the photo itself, but it does not automatically clear a visible trademark, artwork, private location, or person's likeness for every commercial context.
 
-The result is that Unsplash's library in 2026 contains work by photographers who have also sold images to Shutterstock and Getty. The best free stock is much better than it was five years ago, and for most digital use cases, blog posts, social media, website design, and marketing materials, free sites have closed much of the gap with paid libraries.
+Free libraries work well for blog headers, presentations, social posts, and general website imagery. Advertising, packaging, medical subjects, and other sensitive uses deserve a closer rights check. Unsplash explains this distinction in its [guide to releases and trademarks](https://help.unsplash.com/en/articles/2612329-releases-and-trademarks).
 
-The main limitations of free stock remain: niche or very specific imagery (medical procedures, regulated environments, specific product categories), guaranteed exclusivity, and model or property release documentation for sensitive commercial advertising. If those things matter for your use case, paid libraries remain the right choice. For everything else, start with the sites below.
 
----
-
-## The best free stock photo sites in 2026
+## Four free stock libraries compared
 
 ### 1. Unsplash: best overall for photography quality
 
-Unsplash is a free photo platform with editor-selected images. It was founded in 2013 and is now owned by Getty Images but operates under its own license. Photographers worldwide have contributed over 3 million photos.
+Unsplash is a photo platform with editor-selected images available under the Unsplash License. It is owned by Getty Images but continues to use its own license for the free library.
 
 Unsplash's free library gives you:
-- 3M+ high-resolution photos
+- A large library of high-resolution photos
 - No attribution required
 - Free for personal and commercial use
 - Download without registration
@@ -59,43 +55,39 @@ The licensing caveats are specific rather than hidden:
 
 Use Unsplash for blog headers, lifestyle imagery, architecture, nature, and business photography where style matters more than exclusivity. The practical mistake to avoid is using a recognizable person or private property in an ad campaign without checking release requirements first.
 
-Unsplash reviews its collections more carefully than most free stock sites, and its contribution process attracted serious photographers early. The homepage and editor-selected collections make it easier to find usable images quickly, which matters when finding the right image can take longer than writing the content it illustrates.
+The homepage and editor-selected collections provide another way to browse when a keyword search is too broad. Search by subject first, then check the individual image for recognizable people, brands, artwork, or private property.
 
 [Browse Unsplash →](https://unsplash.com)
 
----
 
 ### 2. Pexels: best for photos and video in one place
 
-Pexels is a free stock media platform with both photos and videos under the Pexels License: similar to CC0, free for all uses with no attribution required.
+Pexels provides photos and videos under its own content license. The license permits many personal and commercial uses without attribution, subject to its stated restrictions.
 
 Pexels gives free users:
-- 3M+ photos
-- 60,000+ videos, which Unsplash does not offer
+- Photos and video clips in one catalog
 - Pexels License: free for all personal and commercial use, no attribution required
 - Download without account (account adds collections and save features)
 - API access for developers
-- Editor-selected collections updated weekly
+- Editor-selected collections
 
 Its main limits are scope and saturation:
 - No vector files or illustrations
-- Smaller overall library than Pixabay
 - Popular images appear heavily across competitor sites over time
 
 Choose Pexels when the same campaign needs still photos and video clips. Social media teams producing Reels, TikTok posts, YouTube thumbnails, or quick landing-page visuals get more mileage from a single photo-and-video library than from bouncing between stock sites.
 
-The video library is Pexels' clearest difference. Unsplash has no video; Pixabay has video but less of it; Pexels has 60,000+ videos under the same permissive license as its photos. Search is reliable enough for repeat production work, though popular clips can become familiar across competing sites.
+The video library is Pexels' clearest difference from Unsplash. Photos and clips use the same site license, which makes it easier to keep the source and terms together for a mixed-media project.
 
 [Browse Pexels →](https://www.pexels.com)
 
----
 
 ### 3. Pixabay: best for the broadest media library
 
-Pixabay is a free media repository with photos, vector illustrations, clipart, videos, and music: all under the Pixabay License, which allows commercial use without attribution.
+Pixabay is a mixed-media repository with photos, vector illustrations, clipart, videos, and music under the Pixabay Content License.
 
 Pixabay is the broadest free-media option:
-- 4M+ free media files
+- Photos, illustrations, vectors, video, and audio
 - Photos, vector illustrations, clipart, videos, GIFs, and music
 - Pixabay License: commercial use, no attribution required
 - Download without account (registration enables larger file sizes)
@@ -108,18 +100,17 @@ The trade-off is consistency:
 
 Use Pixabay when a project needs more than photography: icons for a slide deck, illustrations for an email, background music for a short clip, or a mix of media types from one source.
 
-No other free platform offers photos, vectors, illustrations, videos, and music at scale simultaneously. For technical, abstract, or niche subject matter, Pixabay often has coverage that Unsplash and Pexels lack. The price of that breadth is more sorting, so inspect style and license details before publishing.
+Pixabay is useful when a project needs several media types from one source. Its breadth also means more sorting, so inspect the item page and license details before publishing.
 
 [Browse Pixabay →](https://pixabay.com)
 
----
 
 ### 4. Burst (by Shopify): best for e-commerce and product imagery
 
 Burst (by Shopify) is a free stock photo library operated by Shopify, specifically designed for e-commerce businesses and entrepreneurs. Photos are styled for product, lifestyle, and business marketing contexts.
 
-Burst's free library is smaller but more focused:
-- 10,000+ professional photos
+Burst's free library is focused on commerce:
+- High-resolution photos organized around product and business subjects
 - Free for all commercial use, no attribution required
 - E-commerce specific collections (fashion, food, tech, home goods, beauty, wellness)
 - Download without account
@@ -132,100 +123,48 @@ The limit is coverage:
 
 Use Burst for product pages, store banners, email campaigns, and small-business social posts. Its photos are staged to work as marketing imagery, not as general editorial photography.
 
-The e-commerce focus means Burst's photos look like they belong in a sales context, models with products, styled workspace setups, food photography, rather than the broad artistic photography that dominates Unsplash. For a Shopify store or direct-to-consumer brand, Burst often produces more usable marketing images per search than a general-purpose platform.
+The e-commerce focus includes models with products, styled workspaces, and food photography. Browse Burst before a general library when those are the subjects you need.
 
 [Browse Burst →](https://burst.shopify.com)
 
----
 
-### 5. Reshot: best for authentic and non-generic imagery
-
-Reshot is a free stock library focused on authentic, non-stock-looking photography: avoiding the posed, generic aesthetic common to traditional stock sites.
-
-Reshot's free collection includes:
-- 50,000+ photos
-- Free commercial use, no attribution required
-- Editor-selected collections focused on authentic and editorial-style imagery
-- Regular updates from new contributors
-
-The smaller catalog means more manual searching:
-- Smaller library than Unsplash or Pexels
-- No video content
-- Less developed search and category filtering
-
-Choose Reshot when staged stock photography would clash with an editorial or documentary style. Its library leans toward candid scenes and less formal composition.
-
-The problem with popular free stock sites is that widely downloaded images become recognizable across competing sites. A frequently used Unsplash photo that appears on ten other blogs in your niche makes your content look less original. Reshot's smaller, less-trafficked library gives you a better chance of finding an image that has not already saturated your category.
-
-[Browse Reshot →](https://www.reshot.com)
-
----
-
-### 6. ISO Republic: best for tech and creative subject matter
-
-ISO Republic is a free stock library with editor-selected images under CC0, focused on technology, design, creative tools, and lifestyle photography.
-
-ISO Republic focuses its free catalog on:
-- Tens of thousands of photos
-- CC0 license: fully public domain, no attribution required
-- Technology, design workspace, abstract, and lifestyle imagery
-- Regular updates and new additions
-
-The drawback is that it is narrower than the big general libraries:
-- Smaller overall library
-- Less subject diversity than Unsplash or Pexels
-- Basic interface with limited filtering
-
-Use ISO Republic for tech blogs, SaaS landing pages, developer tutorials, and creative agency sites where a general stock search returns the same MacBook-on-a-desk photo again and again.
-
-Its photos tend to have a clean, technical look that works for software landing pages, tech publications, and creative agency websites. For a developer writing a tutorial or a software founder building a marketing site, the library can return more relevant technology images than a general photo platform.
-
-[Browse ISO Republic →](https://isorepublic.com)
-
----
-
-## Quick comparison table
+## Library and media comparison
 
 | Site | Photos | Videos | Vectors | Attribution | Commercial | Best for |
 |------|--------|--------|---------|-------------|------------|----------|
-| Unsplash | 3M+ | ❌ No | ❌ No | Not required | ✅ Yes | Best overall quality |
-| Pexels | 3M+ | ✅ 60K+ | ❌ No | Not required | ✅ Yes | Photos and video together |
-| Pixabay | 4M+ | ✅ Yes | ✅ Yes | Not required | ✅ Yes | Broadest media types |
-| Burst | 10K+ | ❌ No | ❌ No | Not required | ✅ Yes | E-commerce imagery |
-| Reshot | 50K+ | ❌ No | ❌ No | Not required | ✅ Yes | Non-generic, authentic |
-| ISO Republic | 10K+ | ❌ No | ❌ No | Not required | ✅ Yes | Tech and creative |
+| Unsplash | ✅ Yes | ❌ No | ❌ No | Not required | ✅ Yes | Editor-selected photography |
+| Pexels | ✅ Yes | ✅ Yes | ❌ No | Not required | ✅ Yes | Photos and video together |
+| Pixabay | ✅ Yes | ✅ Yes | ✅ Yes | Not required | ✅ Yes | Mixed media types |
+| Burst | ✅ Yes | ❌ No | ❌ No | Not required | ✅ Yes | E-commerce imagery |
 
----
 
 ## Understanding free stock photo licenses
 
-All six sites above allow commercial use without attribution, but the license terms differ in ways worth knowing.
+All four sites above have terms that permit many commercial uses without required attribution, but the restrictions differ.
 
-**CC0 (Creative Commons Zero):** Effectively public domain. You can use, modify, redistribute, and sell derivatives. Pixabay, Pexels, and ISO Republic operate on CC0 or CC0-equivalent licenses: the widest possible permission.
+Site-specific licenses: Pexels and Pixabay use their own content licenses rather than applying CC0 to every current download. Both permit many commercial uses without attribution, but they restrict uses such as selling an unmodified copy, redistributing content through another stock library, or implying endorsement. Read the [Pexels license](https://www.pexels.com/license/) and [Pixabay license summary](https://pixabay.com/service/license-summary/) before using an image in merchandise, branding, or advertising.
 
-**Unsplash License:** Allows personal and commercial use, modification, and distribution. Two restrictions: you cannot aggregate Unsplash photos into a competing stock service, and you cannot use a photo to imply endorsement by the depicted person. For 99% of marketing and content use cases, these restrictions are irrelevant.
+Unsplash License: Unsplash permits free commercial and non-commercial use without attribution. It prohibits selling an image without significant modification and compiling images to reproduce a competing service. People, brands, artwork, and property shown in a photo can still carry separate rights, so check the [current Unsplash license](https://unsplash.com/license/) for the planned use.
 
-**Model and property releases:** None of the free sites guarantee model or property releases for every image. For advertising campaigns featuring recognizable individuals or private property prominently, paid stock services provide the release documentation. For blog, social, and website use, this is rarely required.
+Model and property releases: Do not assume a free download includes every permission needed for a recognizable person, private property, artwork, or trademark. Some paid libraries make release documentation easier to verify, but the planned use still determines which permissions are required.
 
 Before publishing client or paid campaign work, check the license page for the specific site and save a note of where the image came from. That small habit matters more than attribution: it gives you a record if a client, ad platform, or reviewer asks where the image rights came from later.
 
----
 
 ## When to use paid stock photography
 
-Free stock sites are sufficient for most digital content production. The cases where paid stock matters:
+Free stock sites cover many routine digital projects. Paid licensing becomes relevant in cases such as:
 
-- **Medical, legal, or editorial imagery**: specific procedures or news events where clearance documentation matters
-- **Guaranteed exclusivity**: brand campaigns where you need to ensure competitors cannot use the same image
-- **Volume licensing with indemnification**: enterprise marketing teams with legal liability requirements
-- **Niche specialist subjects**: specific machinery, regulated environments, or authentic demographics that free libraries lack depth on
+- Medical, legal, or editorial imagery: specific procedures or news events where clearance documentation matters
+- Exclusivity: brand campaigns where competitors must not use the same image
+- Licensing with indemnification: organizations whose legal review requires it
+- Specialist subjects: machinery, regulated environments, or demographics that the free catalogs do not cover well
 
-For standard blogging, social media, website design, and presentation work, the free sites above produce quality results without the subscription cost.
+For blog posts, social media, website design, and presentations, search the free sites first and review the chosen item's license before publishing.
 
----
 
-## The stock-photo shortlist
+## Start with the license, then choose the library
 
-Start with **Unsplash** for general photography and use **Pexels** when you also need video. Add **Pixabay** to your workflow for vectors, illustrations, or niche subjects. For e-commerce and product contexts, **Burst** produces more marketing-ready imagery than any general platform. These four sites together cover 95% of free stock media needs.
+Start with **Unsplash** for general photography and use **Pexels** when you also need video. Add **Pixabay** for vectors, illustrations, or niche subjects. **Burst** concentrates on commerce-oriented photos. Check the license attached to the chosen image before it moves into client work, advertising, merchandise, or a logo.
 
 For the design tools that turn these images into finished graphics, see our guides to [free Photoshop alternatives](/creative/photoshop-alternatives/), [free Illustrator alternatives](/creative/illustrator-alternatives/), and [free Canva alternatives](/creative/canva-alternatives/). For UI design and prototyping, see our guide to [free Figma alternatives](/creative/figma-alternatives/). And if you are already on Canva and weighing whether the free plan is enough, our [Canva Free vs Paid guide](/creative/canva-free-vs-paid/) breaks down where the upgrade pays for itself.

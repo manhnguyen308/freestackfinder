@@ -1,8 +1,8 @@
 ---
-title: "Start Here: Find the Right Free Tools for You"
+title: "Start here: find the right free tools for you"
 description: "Not sure where to start? Pick the situation that fits you and jump to the free tools that match your workflow."
 date: "2026-04-26"
-lastmod: "2026-04-26"
+lastmod: "2026-09-05"
 draft: false
 slug: "start-here"
 type: "page"
@@ -11,7 +11,7 @@ author: "FreeStackFinder Team"
 
 <div class="static-page">
 
-# Start Here
+# Start here
 
 <p class="page-meta">Every guide on this site focuses on usable free plans, practical limits, and clear tradeoffs. Pick the situation below that best describes you.</p>
 

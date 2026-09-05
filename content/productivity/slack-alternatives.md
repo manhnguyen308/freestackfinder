@@ -1,8 +1,8 @@
 ---
-title: "Best Free Slack Alternatives in 2026: Team Chat Without the 90-Day Limit"
-description: "Compare Discord, Teams, Google Chat, Mattermost, and Rocket.Chat for free team chat, message history, and small-team workflows."
+title: "Free Slack alternatives in 2026: team chat without a 90-day history limit"
+description: "Choose among Discord, Teams, Google Chat, Mattermost, and Rocket.Chat by message history, hosting, and team workflow."
 date: "2026-03-23"
-lastmod: "2026-05-16"
+lastmod: "2026-09-05"
 draft: false
 weight: 95
 slug: "slack-alternatives"
@@ -16,135 +16,125 @@ image: "/img/slack-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 
-## Start with message history
+## Message history is the first constraint
 
-Has Slack's free plan eaten your team's message history? The 90-day rolling deletion is the single biggest reason small teams, small businesses, and freelancers start looking for an alternative, and it is the lens this guide is written through.
+Slack Free exposes only the most recent 90 days of messages and files. Content older than one year is deleted from a free workspace, so teams that need a durable conversation archive must either pay, export what Slack permits, or move elsewhere.
 
-For most teams, **Discord** is the best free Slack alternative: unlimited message history, unlimited integrations, free video and voice calls, and a channel structure that feels familiar enough for everyday work. If you already use Microsoft or Google apps, **Teams free** and **Google Chat** are the more natural drop-in replacements. Slack's paid plans are worth keeping only if you depend heavily on third-party app integrations or enterprise compliance features: for everyday team communication, the free alternatives below cover the job completely.
+**Discord** fits informal teams that want persistent channels and voice rooms without Slack's 90-day visibility window. **Microsoft Teams Free** and **Google Chat** make more sense when files and accounts already live in those ecosystems. Choose **Mattermost** or **Rocket.Chat** only when someone can operate a self-hosted service. Slack's paid plans remain relevant for established app workflows, Slack Connect relationships, and managed compliance features.
 
----
 
-The rest of this guide walks through five free alternatives that handle that core team-chat job without the 90-day cap. It also covers the practical tradeoffs, including interface changes, file size limits, app connections, and ongoing maintenance, so you can pick the one that fits your team rather than the one with the longest feature list.
+The five alternatives below differ most in account model, administration, file sharing, and hosting responsibility. Check those constraints before moving an archive or inviting clients.
 
-## Why teams look for a free alternative to Slack
+## Slack's 90-day window changes the archive
 
-Slack's free plan was much more useful before it restricted message history to 90 days in 2022. Before that change, many small teams lived on the free plan indefinitely. Now, the 90-day limit means that conversations, decisions, and shared files disappear from view on a rolling basis, so the team no longer has a complete searchable record.
+On [Slack's current free plan](https://slack.com/help/articles/27204752526611-Feature-limitations-on-the-free-version-of-Slack), conversations and files older than 90 days are hidden from view. Data older than one year is deleted, so upgrading later will not recover the oldest material.
 
-The other limitation is integrations. Slack free allows only 10 active integrations, which forces teams to choose between the tools they connect. For any team using GitHub, Google Drive, Jira, and a few other services simultaneously, 10 slots run out quickly.
+Slack Free also permits up to ten third-party or custom app installations. Count the workspace's existing connections before treating that cap as the reason to migrate.
 
-The commercial reality is also straightforward: for a team of 10 people, Slack Pro costs $80 per month. That is a meaningful recurring cost for a small business or startup that primarily needs a place to send messages and share files: both of which can be done for free with the right tool.
+Slack Pro charges per active user, so the total changes with team size and billing terms. Compare the current price with the cost of migration, retraining, archive handling, and any server maintenance required by a self-hosted alternative.
 
----
 
-## The best free Slack alternatives in 2026
+## Five alternatives to Slack's free plan
 
-### 1. Discord: best overall free Slack alternative for most teams
+### 1. Discord: best for informal teams and communities
 
-Discord is a voice, video, and text communication platform originally built for gaming communities, now widely adopted by remote teams, startups, and creator businesses.
+Discord is a voice, video, and text platform built around communities and private groups rather than managed workplace tenants.
 
-Discord keeps message history, integrations, channels, and voice calls available without Slack's 90-day history limit. It also includes threads, forum channels, bots, file sharing, screen sharing, and clients for desktop and mobile platforms.
+Discord does not impose Slack's 90-day visibility window on ordinary server messages. It includes channels, threads, forum channels, bots, file sharing, screen sharing, voice rooms, and desktop and mobile clients.
 
-The tradeoffs are smaller but real. Video quality is capped at 720p (1080p requires Nitro), file uploads are limited to 10MB per file on free, and some server customization features require Nitro. Discord calls its spaces servers rather than workspaces and has a more casual structure. A team that sets up channels and roles carefully gives up less than the unfamiliar terminology first suggests.
+The tradeoffs concern administration and workplace fit. Some upload, streaming, and customization features require Nitro, while enterprise identity, compliance, and retention controls are not Discord's focus. Discord calls its spaces servers rather than workspaces and uses a community-oriented permission model.
 
-A natural fit for startups, remote teams, developer teams, creative agencies, and any small team that wants unlimited message history and integrations without a monthly subscription.
+A natural fit for creator groups, open-source projects, clubs, and small teams whose work does not require managed retention or enterprise compliance controls.
 
-**Setting up Discord for a work team:** The biggest practical hurdle is that Discord's default interface looks like a gaming platform, which can make onboarding harder for colleagues who have not used it before. A few setup decisions help: name the server after your company or project rather than leaving a default name, create channels that mirror your existing Slack channel structure (#general, #projects, #random), and disable the server's public discoverability so it is invite-only. These changes make the interface easier to follow. The free plan has a 10MB file upload limit, so teams that regularly share large design files or video clips will hit it. For those workflows, a shared Google Drive folder linked from Discord channels is the common workaround.
+For a private work group, disable public discovery, assign administrative roles carefully, and create only the channels the team will use. Store large or business-critical files in a managed file service and link them from Discord so access and retention do not depend on chat attachments.
 
 For teams also looking for dedicated meeting tools for more formal client calls, see our [free Zoom alternatives guide](/video/zoom-alternatives/).
 
 [Try Discord free →](https://discord.com)
 
----
 
 ### 2. Microsoft Teams free: best for teams using Microsoft apps
 
 Microsoft Teams free is Microsoft's workplace communication and collaboration platform with a free tier covering core messaging and meeting features.
 
-Compared with Slack's free plan, Teams free trades third-party integration breadth for native Microsoft 365 integration. The free experience includes unlimited group and 1:1 messages with full search history, group video calls up to 60 minutes with up to 100 participants, file sharing with cloud storage per user, screen sharing, background blur, integration with Microsoft 365 web apps, and clients for Windows, macOS, iOS, and Android.
+Compared with Slack Free, Teams Free trades third-party integration breadth for Microsoft account and file integration. It includes chat, group meetings, screen sharing, file sharing, and desktop and mobile clients. Confirm the current participant and meeting-duration caps on the [Teams Free page](https://www.microsoft.com/microsoft-teams/free) before scheduling a workshop or large event.
 
-The constraints to plan around: a 60-minute group call time limit (fine for standups and client check-ins, awkward for workshops or long reviews), meeting recordings sit behind a Microsoft 365 subscription, advanced admin controls and compliance features are paid-only, and the experience is thinner than full Teams inside a Microsoft 365 organization.
+The constraints to plan around include group-call duration, participant limits, recording access, storage, and administrative controls. The free product is also different from the managed Teams experience included with some business subscriptions.
 
 Teams free is the most natural Slack replacement for organizations that already rely on Microsoft tools. Its persistent channels, OneDrive file sharing, and links to Office web apps keep chat and shared work in one place. If your team already stores files in OneDrive and keeps meetings short, Teams is efficient; if the chat tool needs to be lightweight and independent from Microsoft accounts, Discord or Google Chat will feel easier.
 
 [Use Microsoft Teams free →](https://www.microsoft.com/microsoft-teams/free)
 
----
 
 ### 3. Google Chat: best for teams already using Google Workspace
 
 Google Chat is Google's team messaging platform, integrated with Gmail, Google Drive, Google Meet, and the rest of the Workspace suite.
 
-Unlike Slack, Google Chat requires no adoption effort for Google Workspace users: it is already embedded inside Gmail and accessible from any browser, mobile device, or the Gmail web app. The free experience covers unlimited direct and group messages with searchable history, Spaces (persistent channels for team topics), and integration with Google Drive, Docs, Sheets, and Meet.
+Google Chat is embedded in Gmail and is also available through its own web and mobile apps. Personal Google Accounts can create collaboration spaces, while paid Workspace accounts add organization-managed features. Message retention depends on whether history is enabled and, for work or school accounts, the administrator's policy; Google's [history documentation](https://support.google.com/chat/answer/7664687) explains the difference.
 
-The compromise compared with Slack or Teams is breadth: fewer third-party integrations, less feature-rich automation for bots and workflows, more limited guest access for external collaborators, and a deliberately simpler interface that is less suited to complex team workflows.
+Compared with Slack, Chat has fewer third-party workflow integrations and different rules for external members. Check the [account-type comparison](https://support.google.com/chat/answer/9291345) before assuming a feature available to a Workspace organization also exists on a personal account.
 
 The natural choice for teams already using Gmail and Google Workspace, where Chat feels like an extension of existing workflows rather than a new tool to adopt. If your team lives in Gmail, Google Drive, and Google Docs, Chat is already embedded in those interfaces. You can start a conversation from a shared Google Doc, jump to a Meet call, and store files in Drive without opening a separate app. For teams that do not need deep third-party integrations, that convenience outweighs what Chat lacks compared to Slack.
 
 [Use Google Chat free →](https://chat.google.com)
 
----
 
-### 4. Mattermost free tier: best open-source option for teams who want data control
+### 4. Mattermost Team Edition: self-hosted chat for small groups
 
-Mattermost is an open-source messaging platform modelled closely on Slack, available as a cloud-hosted free tier or a self-hosted installation on your own server.
+Mattermost Team Edition is an open-source, self-hosted messaging platform. It is intended for small teams, hobbyists, or personal use rather than a managed cloud replacement for Slack.
 
-Compared with Slack, Mattermost is the closest thing to a self-hosted equivalent that exists. The interface is familiar to Slack users, channels, threads, reactions, and full-text search all work in a similar way, and apps cover Windows, macOS, Linux, iOS, and Android. On a self-hosted deployment you get unlimited message history, channels, direct messages, threads, file sharing, incoming webhooks, basic integrations, and full data ownership because your messages never leave your infrastructure.
+Team Edition provides channels, direct messages, threads, file sharing, and clients for major desktop and mobile platforms. The [current edition documentation](https://docs.mattermost.com/product-overview/editions-and-offerings.html) describes it as a free self-hosted option for fewer than 250 activated users when single sign-on is not required.
 
-The constraints divide cleanly. The cloud-hosted free tier has feature limitations. Advanced admin features and compliance tools require a paid Enterprise plan. The integration marketplace is smaller than Slack's. Self-hosting itself requires technical setup, server costs, and ongoing maintenance.
+The organization supplies the server, database, storage, updates, monitoring, and backups. Single sign-on, advanced access controls, compliance features, and vendor support belong to other Mattermost offerings. Mattermost Entry is a separate limited-use evaluation tier and should not be treated as an unrestricted production plan.
 
-The natural audience is developer teams, companies with data-residency requirements, and organizations prepared to run their own communication server. Mattermost uses Slack-like channels, threads, reactions, and search. When you self-host it, the message data stays on infrastructure your organization controls, which is the reason to accept the maintenance work.
+Choose Team Edition when a small group wants local control and has someone responsible for the deployment. Hosting it yourself keeps the message store on infrastructure you select, but it also makes availability and recovery your responsibility.
 
 [Try Mattermost free →](https://mattermost.com)
 
----
 
-### 5. Rocket.Chat free: best self-hosted option with the most features
+### 5. Rocket.Chat Starter or Community: limited self-hosted options
 
-Rocket.Chat is an open-source team communication platform with many features, available as a cloud-hosted service or self-hosted installation.
+Rocket.Chat offers two free self-hosted entry points with different limits: Starter and Community.
 
-Unlike Slack's tightly scoped free tier, Rocket.Chat's self-hosted deployment is the most feature-complete free team communication tool available. On a self-hosted install you get unlimited users and message history, channels, direct messages, discussions, threads, video conferencing via Jitsi integration, hundreds of app integrations covering most major development, project management, and productivity tools, an end-to-end encryption option, and mobile and desktop apps across all platforms.
+The [current plan documentation](https://docs.rocket.chat/our-plans) limits Starter to 50 users and describes Community as core messaging for up to 100 concurrent users. Community supports video calls through Jitsi or BigBlueButton and has limited app integrations. Rocket.Chat says Community is intended for hobbyist, educational, or small non-production deployments.
 
-The tradeoffs are higher operational cost. The cloud-hosted free tier is limited to 1,000 messages per month. Advanced compliance and audit features sit behind paid plans. Self-hosting requires server setup, ongoing maintenance, and more configuration work than the other options in this list.
+Both options require server setup and ongoing maintenance. Starter exposes more premium capabilities within usage limits; Community provides a narrower open-source feature set. Neither should be presented as a free managed cloud workspace.
 
-The natural fit: technical teams that want many features on a self-hosted deployment, organizations that need end-to-end encryption, and teams that have outgrown Mattermost's feature set. Compared with Mattermost, Rocket.Chat requires more setup but includes more features at zero software cost. Its integration library covers most major development, project management, and productivity tools, and end-to-end encryption is available for sensitive conversations. That setup tradeoff makes sense for teams with the technical staff to manage it.
+Choose Rocket.Chat only after matching the user count and feature needs to one of those free editions. A production team that needs support, compliance controls, high availability, or broader integrations should price a commercial plan instead of assuming Community will cover the workload.
 
 [Try Rocket.Chat free →](https://rocket.chat)
 
----
 
-## Quick comparison table
+## Hosting and history comparison
 
 | Tool | Message history | Integrations | Video calls | Best for |
 |------|----------------|--------------|-------------|----------|
-| Discord | ✅ Unlimited | ✅ Unlimited | ✅ Unlimited | Most teams: best overall |
-| Microsoft Teams | ✅ Unlimited | ✅ Good | ⚠️ 60 min groups | Microsoft 365 users |
-| Google Chat | ✅ Unlimited | ⚠️ Limited | ✅ Via Meet | Google Workspace users |
-| Mattermost | ✅ Unlimited (self-hosted) | ✅ Good | ⚠️ Via plugin | Data control, devs |
-| Rocket.Chat | ✅ Unlimited (self-hosted) | ✅ Many | ✅ Built-in | Many features, technical teams |
+| Discord | No 90-day visibility window | Bots and webhooks | Voice and video rooms | Informal groups |
+| Microsoft Teams | Retained in the account | Microsoft-centered | Group calls with plan limits | Microsoft users |
+| Google Chat | Controlled by history settings | Google-centered | Via Google Meet | Google users |
+| Mattermost Team Edition | Controlled by the host | Basic integrations | Calls depend on edition and setup | Small self-hosted groups |
+| Rocket.Chat Starter / Community | Controlled by the host | Plan-dependent | Supported providers vary by edition | Limited self-hosted deployments |
 | Slack free | ⚠️ 90 days only | ⚠️ 10 max | ⚠️ Limited | Existing Slack users only |
 
----
 
 ## Common mistakes when switching from Slack
 
-**Migrating channels but not habits.** The most common reason a Slack alternative fails within a team is that the tool moves but the norms do not. If Slack's culture was that every question went to a team-wide channel and everyone expected a fast reply, that expectation does not automatically transfer to Discord or Teams. The first week of a new tool is the time to set clear expectations about response time, which channels are for which topics, and whether the team's old Slack archive is still accessible for reference. Without that reset conversation, the new tool quickly feels disorganised.
+Migrating channels but not habits. Decide which channels own which topics, what response times are expected, and where the old Slack archive remains available. Copying every channel without those decisions carries the same clutter into the new service.
 
-**Choosing self-hosted without accounting for maintenance.** Mattermost and Rocket.Chat look attractive at zero software cost, but "free" here means free to license, not free to run. A self-hosted deployment requires a server (which has a monthly cost), someone to handle updates and backups, and a plan for what happens when the server goes down outside office hours. For a small team without technical staff, that ongoing maintenance is likely to cost more than a Slack subscription. Self-hosting is the right call for organizations with data residency requirements or a dedicated IT team. For others, it trades one monthly bill for a different kind of ongoing cost.
+Choosing self-hosted without accounting for maintenance. Mattermost and Rocket.Chat require compute, storage, updates, backups, monitoring, and an owner for outages. Include that work in the comparison with a hosted subscription.
 
-**Switching during a high-pressure period.** A new communication tool creates migration work: channels need owners, notifications need adjustment, and some people will fall back to email. Schedule the move outside a product launch or client deadline, and keep the old archive available until the team can find prior decisions in the new system.
+Switching during a high-pressure period. A new communication tool creates migration work: channels need owners, notifications need adjustment, and some people will fall back to email. Schedule the move outside a product launch or client deadline, and keep the old archive available until the team can find prior decisions in the new system.
 
----
 
 ## When Slack's paid history is worth it
 
-Slack Pro and Business+ make the most sense for larger teams that use many of Slack's app connections. Slack has the largest marketplace of third-party app integrations of any team communication tool: if your team depends on Salesforce, ServiceNow, or complex custom workflow automations built on Slack's API, the switching cost to a free alternative can outweigh the subscription cost.
+Slack Pro and Business+ make sense when the workspace depends on integrations or custom workflows that would need to be rebuilt elsewhere. Inventory those connections and their owners before choosing a replacement.
 
 Enterprise compliance requirements are the other strong argument for Slack paid. Data retention policies, eDiscovery, audit logs, and SSO integrations are available on Slack's Business+ and Enterprise Grid plans at a level that free tools cannot always match with the same reliability and support guarantees.
 
 For organizations where Slack is deeply embedded in customer support workflows, using Slack Connect to communicate with external clients and vendors, the network effect of staying on Slack makes sense. Asking external contacts to switch to Discord or Mattermost adds work that may cost more in relationship management than the subscription saves.
 
----
 
-## The team-chat choice
+## Keep Slack only when its integrations justify the limit
 
-For most small teams and startups, **Discord** removes Slack's history cap while keeping integrations and video calls free. **Google Chat** and **Microsoft Teams Free** fit teams already using those companies' apps. Choose **Mattermost self-hosted** when data must remain on infrastructure you control. Slack Pro earns its fee when deep third-party integrations or enterprise compliance requirements outweigh the switching cost. For scheduling and shared documents, pair the chat tool with a [free calendar app](/productivity/free-calendar-app/) and a [free Microsoft Office alternative](/productivity/microsoft-office-alternatives/).
+Choose **Discord** for an informal group that does not need managed workplace controls. **Google Chat** and **Microsoft Teams Free** fit teams already using those companies' accounts and files. Choose a self-hosted option only when someone owns its operation and recovery. Keep Slack when its integrations, external relationships, or paid administrative controls cost less than moving. For scheduling and shared documents, pair the chat tool with a [free calendar app](/productivity/free-calendar-app/) and a [free Microsoft Office alternative](/productivity/microsoft-office-alternatives/).

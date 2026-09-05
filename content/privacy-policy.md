@@ -1,14 +1,14 @@
 ---
-title: "Privacy Policy"
+title: "Privacy policy"
 description: "Read how Free Stack Finder handles privacy, including cookies, analytics, affiliate links, data collection, and your rights."
 type: page
 ---
 
 <div class="static-page">
 
-# Privacy Policy
+# Privacy policy
 
-<p class="page-meta">Last updated: April 2026 · Effective date: April 2026</p>
+<p class="page-meta">Last updated: September 2026 · Effective date: April 2026</p>
 
 This Privacy Policy explains how Free Stack Finder ("we," "us," or "our"), operated at freestackfinder.com, collects, uses, and protects information when you visit our website.
 
@@ -83,11 +83,11 @@ Our site links to external websites, including the software tools we review. We 
 
 Depending on your location, you may have the following rights regarding your personal data:
 
-- **Access:** Request a copy of the personal data we hold about you
-- **Correction:** Request correction of inaccurate data
-- **Deletion:** Request that we delete your personal data
-- **Objection:** Object to how we process your data
-- **Portability:** Request transfer of your data in a readable format
+- Access: Request a copy of the personal data we hold about you
+- Correction: Request correction of inaccurate data
+- Deletion: Request that we delete your personal data
+- Objection: Object to how we process your data
+- Portability: Request transfer of your data in a readable format
 
 To exercise any of these rights, please contact us via our [contact page](/contact/).
 

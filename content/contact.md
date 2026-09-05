@@ -1,5 +1,5 @@
 ---
-title: "Contact Us"
+title: "Contact us"
 description: "Get in touch with the Free Stack Finder team. Report outdated info, suggest a tool, or just say hello."
 type: page
 ---
@@ -8,7 +8,7 @@ type: page
 
 # Contact
 
-<p class="page-meta">Last updated: April 2026</p>
+<p class="page-meta">Last updated: September 2026</p>
 
 ## Ways to reach us
 

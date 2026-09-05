@@ -1,5 +1,5 @@
 ---
-title: "Free Productivity Software Alternatives"
+title: "Free productivity software alternatives"
 description: "Free alternatives to Microsoft Office, Notion, Grammarly, Slack, and more, compared by free-plan limits and workflow fit."
 ---
 

@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-08-12
-**Current day:** 79a
+**Last updated:** 2026-09-05
+**Current day:** 80a
 
 ## Current state
 
@@ -12,6 +12,19 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-09-05 - Sitewide humanizer and current-plan audit completed
+
+- Rule sources: followed `CLAUDE.md` and `website-content-humanizer.md`, plus the repository workflow and publication-gate documentation.
+- Scope: reviewed all 64 reader-visible Markdown content pages, including all 50 published articles, six section hubs, the homepage, and the start, trust, contact, policy, terms, search, and 404 copy. The audit covered front matter, openings, headings, comparison tables, recommendation blocks, limitations, calls to action, related links, and closing decisions.
+- Humanizer cleanup: removed article-body divider repetition, prohibited dash punctuation, smart typography, repeated bold-label blocks, generic conclusion headings, formulaic "best fit" and "tradeoff to know" sections, unsupported superlatives, artificial setup-time claims, and promotional filler. Headings use sentence case, and repeated H2 headings are reduced to the necessary legal heading "11. Contact" across the privacy and terms pages.
+- Fact integrity: checked volatile plan limits and product claims against current official pages where the copy needed correction. Updates include project management, accounting and invoicing, scheduling, analytics, website builders, note-taking, AI and email tools, video meetings and recording, cloud storage, password managers, VPNs, and Mac video editors. Time-limited trials are identified as trials rather than ongoing free plans.
+- Security and licensing corrections: replaced the Raivo OTP recommendation with Ente Auth using current product, repository, and export documentation; narrowed absolute open-source continuity claims; linked Greenbone, Nmap, Lynis, and Nikto descriptions to current project documentation; and corrected the Adobe Fonts handoff explanation so it reflects desktop-app and recipient-license rules.
+- Freshness: changed existing article `lastmod` values to `2026-09-05` after the substantive review. No first-hand testing, benchmark, screenshot, user reaction, setup time, or performance result was invented.
+- Preservation: the article count remains 50. No page, route, slug, alias, image, layout, config, ad setting, affiliate destination, redirect, schema rule, or homepage weight was intentionally added, removed, or changed.
+- Validation: `python3 scripts/run_quality_checks.py --with-counts` passed 3/3 with 50 articles, 0 front-matter errors, 0 broken internal links, all 50 feature images present, and only the 3 documented possible image orphans. The no-argument publish checklist printed cleanly. Hugo Extended 0.160.1 built a fresh `public/` directory with 476 pages, 21 paginator pages, 210 aliases, and no errors or warnings. Rendered scans found 0 prohibited dashes or smart quotes, raw shortcodes, citation artifacts, stale audit strings, generic humanizer phrases, or ad scripts; the search index, Start Here page, all six hubs, and the revised 2FA article are present.
 
 ---
 
