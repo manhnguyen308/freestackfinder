@@ -2,7 +2,7 @@
 title: "Free font websites in 2026: downloads without watermarks"
 description: "Find fonts for websites, documents, and commercial design while checking each site's license terms, formats, and download process."
 date: "2026-04-18"
-lastmod: "2026-09-05"
+lastmod: "2026-08-29"
 draft: false
 weight: 60
 slug: "free-font-websites"

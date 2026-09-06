@@ -2,7 +2,7 @@
 title: "Free Figma alternatives in 2026: UI design without a subscription"
 description: "Choose a Figma alternative for UI design, prototyping, collaboration, local files, or an open-source workflow."
 date: "2026-04-17"
-lastmod: "2026-09-05"
+lastmod: "2026-08-07"
 draft: false
 weight: 55
 slug: "figma-alternatives"

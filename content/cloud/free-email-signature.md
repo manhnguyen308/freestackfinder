@@ -2,7 +2,7 @@
 title: "Free email signature makers for Gmail, Outlook, and Apple Mail"
 description: "Choose a free signature maker by mail-client compatibility, branding, hosted images, editing needs, and provider attribution."
 date: "2026-04-30"
-lastmod: "2026-09-05"
+lastmod: "2026-09-01"
 draft: false
 weight: 65
 slug: "free-email-signature"

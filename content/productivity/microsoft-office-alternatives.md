@@ -1,7 +1,7 @@
 ---
 title: "Free Microsoft Office alternatives in 2026: no subscription needed"
 date: "2026-04-07"
-lastmod: "2026-09-05"
+lastmod: "2026-07-28"
 description: "Free Microsoft Office alternatives for Word, Excel, and PowerPoint: Google Docs for collaboration, LibreOffice offline, OnlyOffice for .docx fidelity."
 slug: "microsoft-office-alternatives"
 categories: ["Productivity"]

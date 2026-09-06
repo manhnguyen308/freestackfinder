@@ -2,7 +2,7 @@
 title: "Free Adobe Illustrator alternatives in 2026: vector design without a subscription"
 description: "Choose among Inkscape, Vectr, LibreOffice Draw, SVG-edit, and Canva for illustration, diagrams, browser editing, and SVG work."
 date: "2026-04-03"
-lastmod: "2026-09-05"
+lastmod: "2026-07-26"
 draft: false
 weight: 40
 slug: "illustrator-alternatives"

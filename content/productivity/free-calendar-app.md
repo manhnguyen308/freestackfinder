@@ -2,7 +2,7 @@
 title: "Free calendar apps in 2026: personal and team scheduling"
 description: "Choose a free calendar for personal planning, work scheduling, booking, privacy, or coordination across a team."
 date: "2026-04-22"
-lastmod: "2026-09-05"
+lastmod: "2026-07-30"
 draft: false
 weight: 74
 slug: "free-calendar-app"

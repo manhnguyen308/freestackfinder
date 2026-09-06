@@ -2,7 +2,7 @@
 title: "Free note-taking apps in 2026: match the app to the way you capture notes"
 description: "Find a free note-taking app for quick capture, private notes, Markdown writing, handwriting, or a structured workspace."
 date: "2026-04-14"
-lastmod: "2026-09-05"
+lastmod: "2026-08-09"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"

@@ -2,7 +2,7 @@
 title: "Free CRM software in 2026: four plans for small teams"
 description: "HubSpot, Zoho CRM, Freshsales, and Bitrix24 compared by user caps, contact limits, and the workflows their free plans actually support."
 date: "2026-04-02"
-lastmod: "2026-09-05"
+lastmod: "2026-08-19"
 draft: false
 weight: 37
 slug: "free-crm-software"

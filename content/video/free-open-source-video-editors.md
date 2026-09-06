@@ -2,7 +2,7 @@
 title: "Open-source video editors in 2026: five practical options"
 description: "Choose an open-source video editor by timeline workflow, format support, hardware demands, operating system, and project fit."
 date: "2026-05-07"
-lastmod: "2026-09-05"
+lastmod: "2026-07-24"
 draft: false
 weight: 65
 slug: "free-open-source-video-editors"

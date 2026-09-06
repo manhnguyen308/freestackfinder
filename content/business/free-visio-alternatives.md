@@ -2,7 +2,7 @@
 title: "Free Microsoft Visio alternatives in 2026"
 description: "diagrams.net, Lucidchart, Miro, and Whimsical compared for file compatibility, collaboration, board limits, and diagram type."
 date: "2026-04-25"
-lastmod: "2026-09-05"
+lastmod: "2026-08-02"
 draft: false
 weight: 52
 slug: "free-visio-alternatives"

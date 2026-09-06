@@ -2,7 +2,7 @@
 title: "Free project management software in 2026: which plan fits your team"
 description: "Trello, Asana, Notion, ClickUp, and Linear compared by collaborators, active work limits, storage, and project view."
 date: "2026-04-05"
-lastmod: "2026-09-05"
+lastmod: "2026-08-18"
 draft: false
 weight: 72
 slug: "free-project-management-software"

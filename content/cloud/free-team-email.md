@@ -2,7 +2,7 @@
 title: "Free team email in 2026: custom domains and shared access"
 description: "Zoho Mail is the main no-cost custom-domain option for eligible small teams; other tools cover delegation, privacy, or chat-style collaboration."
 date: "2026-05-01"
-lastmod: "2026-09-05"
+lastmod: "2026-08-22"
 draft: false
 weight: 62
 slug: "free-team-email"

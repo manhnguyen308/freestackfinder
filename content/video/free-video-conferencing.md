@@ -2,7 +2,7 @@
 title: "Free video conferencing in 2026: limits and guest access"
 description: "Choose a free meeting tool for remote teams, client calls, or classrooms by call length, participant cap, account rules, and moderation."
 date: "2026-05-05"
-lastmod: "2026-09-05"
+lastmod: "2026-09-03"
 draft: false
 weight: 32
 slug: "free-video-conferencing"

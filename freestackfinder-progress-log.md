@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-09-05
-**Current day:** 80a
+**Last updated:** 2026-09-06
+**Current day:** 81a
 
 ## Current state
 
@@ -12,6 +12,16 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### 2026-09-06 - Staggered article lastmod maintenance completed
+
+- Audit date: 2026-09-06.
+- Scope: reviewed all 50 article front matter blocks and the latest content-audit diff. All 50 articles qualified because that audit made factual, current-plan, comparison, recommendation, or substantial readability changes.
+- Result: 49 article `lastmod` values changed. The remaining qualifying article already had its assigned `2026-09-05` value and was left unchanged. Dates are unique and staggered from `2026-09-06` back to `2026-07-19`; no duplicate date had to be preserved.
+- Safeguards: no publication date changed, no `lastmod` predates publication or the pre-audit freshness baseline, no future date was assigned, and no title, description, slug, URL, alias, weight, affiliate link, image, or article body changed.
+- Validation: `git diff --check` passed; the protected-field and body invariant check passed for all 50 articles; `python3 scripts/run_quality_checks.py --with-counts --with-stale` passed 3/3 with 50 articles, 0 front matter errors, 0 broken internal links, all 50 feature images present, 0 stale articles, and only the 3 documented possible image orphans; `python3 scripts/publish_checklist.py` printed cleanly; Hugo Extended 0.160.1 built to a temporary destination with 476 pages, 21 paginator pages, 210 aliases, and no errors or warnings.
 
 ---
 

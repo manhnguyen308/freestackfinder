@@ -2,7 +2,7 @@
 title: "Free Grammarly alternatives in 2026: grammar and writing tools"
 description: "See where LanguageTool, ProWritingAid, Hemingway Editor, and Google Docs fit for grammar, style, and readability checks."
 date: "2026-03-20"
-lastmod: "2026-09-05"
+lastmod: "2026-07-29"
 draft: false
 weight: 55
 slug: "grammarly-alternatives"

@@ -2,7 +2,7 @@
 title: "Free social media scheduling tools in 2026"
 description: "Buffer, Later, Metricool, and Meta Business Suite compared by channel access, queue limits, analytics, and collaboration."
 date: "2026-04-24"
-lastmod: "2026-09-05"
+lastmod: "2026-08-17"
 draft: false
 weight: 55
 slug: "free-social-media-scheduling"

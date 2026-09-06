@@ -2,7 +2,7 @@
 title: "Free QuickBooks alternatives in 2026 for freelancers"
 description: "Wave, Zoho Books, Invoice Ninja, GnuCash, and spreadsheets compared by bookkeeping depth, billing, bank feeds, and accountant handoff."
 date: "2026-03-18"
-lastmod: "2026-09-05"
+lastmod: "2026-08-12"
 draft: false
 weight: 50
 slug: "quickbooks-alternatives"

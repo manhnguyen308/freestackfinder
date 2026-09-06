@@ -2,7 +2,7 @@
 title: "Dropbox alternatives with more free storage in 2026"
 description: "Find a Dropbox alternative for larger storage, document collaboration, Windows integration, or end-to-end encrypted files."
 date: "2026-04-08"
-lastmod: "2026-09-05"
+lastmod: "2026-08-25"
 draft: false
 weight: 35
 slug: "dropbox-alternatives"

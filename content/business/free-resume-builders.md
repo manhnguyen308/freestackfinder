@@ -2,7 +2,7 @@
 title: "Free resume builders in 2026 with PDF downloads"
 description: "Canva, Google Docs, Indeed, and Resume.com compared by PDF access, formatting control, account requirements, and application workflow."
 date: "2026-04-23"
-lastmod: "2026-09-05"
+lastmod: "2026-07-22"
 draft: false
 weight: 58
 slug: "free-resume-builders"

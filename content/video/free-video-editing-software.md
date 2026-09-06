@@ -2,7 +2,7 @@
 title: "Free video editing software in 2026: five capable editors"
 description: "Choose a free video editor by format support, watermark policy, learning curve, hardware demands, and intended output."
 date: "2026-03-17"
-lastmod: "2026-09-05"
+lastmod: "2026-07-23"
 draft: false
 weight: 65
 slug: "free-video-editing-software"

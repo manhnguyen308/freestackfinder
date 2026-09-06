@@ -2,7 +2,7 @@
 title: "Free antivirus software in 2026: built-in and third-party options"
 description: "Find free antivirus for Windows or Mac by comparing real-time protection, manual scanning, platform support, and current plan limits."
 date: "2026-04-09"
-lastmod: "2026-09-05"
+lastmod: "2026-09-04"
 draft: false
 weight: 38
 slug: "free-antivirus-software"

@@ -2,7 +2,7 @@
 title: "Free security audit tools in 2026 by audit target"
 description: "Find a free security audit tool for web applications, networks, Linux hosts, TLS, or HTTP headers, with scope and setup limits explained."
 date: "2026-05-04"
-lastmod: "2026-09-05"
+lastmod: "2026-08-30"
 draft: false
 weight: 45
 slug: "free-security-audit-tools"

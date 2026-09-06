@@ -2,7 +2,7 @@
 title: "Free accounting software for freelancers and small businesses in 2026"
 description: "Wave suits simple cloud bookkeeping, while Zoho Books, Akaunting, Manager, and GnuCash cover different tax, hosting, and offline needs."
 date: "2026-04-24"
-lastmod: "2026-09-05"
+lastmod: "2026-08-14"
 draft: false
 weight: 74
 slug: "free-accounting-software"

@@ -2,7 +2,7 @@
 title: "Free VPNs in 2026: what each plan limits"
 description: "Compare Proton VPN, Windscribe, and TunnelBear by data allowance, server choice, device support, and published security evidence."
 date: "2026-04-04"
-lastmod: "2026-09-05"
+lastmod: "2026-08-24"
 draft: false
 weight: 36
 slug: "free-vpn"

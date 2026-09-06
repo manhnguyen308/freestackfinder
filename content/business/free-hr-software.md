@@ -2,7 +2,7 @@
 title: "Free HR software in 2026: tools for small teams"
 description: "Compare Zoho People, OrangeHRM, Homebase, and simpler HR records by team size, hosting needs, and current free-plan limits."
 date: "2026-04-28"
-lastmod: "2026-09-05"
+lastmod: "2026-07-20"
 draft: false
 weight: 39
 slug: "free-hr-software"

@@ -2,7 +2,7 @@
 title: "Free writing tools in 2026: drafting and editing without paying"
 description: "Pick a free writing tool for drafting, editing, research, or marketing copy by its usage limits and place in your workflow."
 date: "2026-04-20"
-lastmod: "2026-09-05"
+lastmod: "2026-08-05"
 draft: false
 weight: 74
 slug: "free-ai-writing-tools"

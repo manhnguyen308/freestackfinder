@@ -2,7 +2,7 @@
 title: "Free Zoom alternatives in 2026 for longer group calls"
 description: "Choose a Zoom alternative for longer meetings, account-free guest access, Microsoft collaboration, persistent rooms, or community calls."
 date: "2026-03-21"
-lastmod: "2026-09-05"
+lastmod: "2026-09-02"
 draft: false
 weight: 58
 slug: "zoom-alternatives"

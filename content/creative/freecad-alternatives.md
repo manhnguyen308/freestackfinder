@@ -2,7 +2,7 @@
 title: "Free FreeCAD alternatives in 2026: 3D CAD for different workflows"
 description: "Choose a FreeCAD alternative for mechanical design, browser CAD, simple 3D printing, scripted models, or 2D drafting."
 date: "2026-05-08"
-lastmod: "2026-09-05"
+lastmod: "2026-08-20"
 draft: false
 weight: 36
 slug: "freecad-alternatives"

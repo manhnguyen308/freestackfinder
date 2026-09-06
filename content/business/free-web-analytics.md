@@ -2,7 +2,7 @@
 title: "Free web analytics tools in 2026 for small sites"
 description: "GA4, Search Console, Clarity, Umami, and Matomo compared for traffic, search, behavior, privacy, and data ownership."
 date: "2026-04-26"
-lastmod: "2026-09-05"
+lastmod: "2026-08-03"
 draft: false
 weight: 40
 slug: "free-web-analytics"

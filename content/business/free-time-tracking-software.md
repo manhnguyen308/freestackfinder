@@ -2,7 +2,7 @@
 title: "Free time tracking software in 2026 for billable work"
 description: "Clockify, Toggl Track, RescueTime, TimeCamp, and Harvest compared by user caps, reporting, invoicing, and free-plan limits."
 date: "2026-04-16"
-lastmod: "2026-09-05"
+lastmod: "2026-08-11"
 draft: false
 weight: 65
 slug: "free-time-tracking-software"

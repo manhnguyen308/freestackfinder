@@ -2,7 +2,7 @@
 title: "Free invoicing software in 2026: six options for freelancers"
 description: "Wave, Zoho Invoice, Invoice Ninja, Square, PayPal, and Stripe compared by client limits, invoice caps, bookkeeping, and payment fees."
 date: "2026-04-13"
-lastmod: "2026-09-05"
+lastmod: "2026-08-13"
 draft: false
 weight: 74
 slug: "free-invoicing-software"

@@ -2,7 +2,7 @@
 title: "Free Canva alternatives in 2026: social posts and presentations"
 description: "Choose among Adobe Express, Photopea, Pixlr, Microsoft Designer, and Picsart by templates, exports, editing control, and team needs."
 date: "2026-03-19"
-lastmod: "2026-09-05"
+lastmod: "2026-07-31"
 draft: false
 weight: 85
 slug: "canva-alternatives"

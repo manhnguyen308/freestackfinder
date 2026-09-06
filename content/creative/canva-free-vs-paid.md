@@ -2,7 +2,7 @@
 title: "Canva Free vs Pro in 2026: when the upgrade makes sense"
 description: "See which asset, export, brand, and team-workflow limits separate Canva Free from Canva Pro before paying for an upgrade."
 date: "2026-05-09"
-lastmod: "2026-09-05"
+lastmod: "2026-08-01"
 draft: false
 weight: 34
 slug: "canva-free-vs-paid"

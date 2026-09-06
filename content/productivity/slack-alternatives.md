@@ -2,7 +2,7 @@
 title: "Free Slack alternatives in 2026: team chat without a 90-day history limit"
 description: "Choose among Discord, Teams, Google Chat, Mattermost, and Rocket.Chat by message history, hosting, and team workflow."
 date: "2026-03-23"
-lastmod: "2026-09-05"
+lastmod: "2026-07-27"
 draft: false
 weight: 95
 slug: "slack-alternatives"

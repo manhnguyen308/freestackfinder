@@ -2,7 +2,7 @@
 title: "Free Mac video editors in 2026: options by workflow"
 description: "Choose among iMovie, DaVinci Resolve, CapCut, Kdenlive, and Shotcut by project complexity, hardware, and output."
 date: "2026-05-06"
-lastmod: "2026-09-05"
+lastmod: "2026-08-31"
 draft: false
 weight: 68
 slug: "free-video-editing-mac"

@@ -2,7 +2,7 @@
 title: "Free AI email tools for drafting and replies in 2026"
 description: "Find an AI email assistant for inline suggestions, longer drafts, thread summaries, or deliberate editing outside your inbox."
 date: "2026-04-29"
-lastmod: "2026-09-05"
+lastmod: "2026-08-15"
 draft: false
 weight: 60
 slug: "free-ai-email-tools"

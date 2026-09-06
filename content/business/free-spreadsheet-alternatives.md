@@ -2,7 +2,7 @@
 title: "Free spreadsheet alternatives in 2026: Excel without a subscription"
 description: "Google Sheets, LibreOffice Calc, Zoho Sheet, and OnlyOffice compared for collaboration, offline work, and Excel file compatibility."
 date: "2026-04-23"
-lastmod: "2026-09-05"
+lastmod: "2026-07-21"
 draft: false
 weight: 74
 slug: "free-spreadsheet-alternatives"

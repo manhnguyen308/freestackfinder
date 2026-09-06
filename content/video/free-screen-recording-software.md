@@ -2,7 +2,7 @@
 title: "Free screen recording software in 2026: limits and use cases"
 description: "Choose a screen recorder by recording length, watermark policy, sharing workflow, operating system, and editing needs."
 date: "2026-04-11"
-lastmod: "2026-09-05"
+lastmod: "2026-08-16"
 draft: false
 weight: 62
 slug: "free-screen-recording-software"

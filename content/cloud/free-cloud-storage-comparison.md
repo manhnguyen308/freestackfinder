@@ -2,7 +2,7 @@
 title: "Free cloud storage in 2026: space, privacy, and sync"
 description: "Choose free cloud storage by usable space, shared quotas, upload limits, transfer caps, privacy, and everyday workflow."
 date: "2026-03-16"
-lastmod: "2026-09-05"
+lastmod: "2026-08-26"
 draft: false
 weight: 75
 slug: "free-cloud-storage-comparison"

@@ -2,7 +2,7 @@
 title: "Free two-factor authentication apps in 2026"
 description: "Find a free authenticator for Android or iPhone by comparing recovery, encrypted backups, device support, and migration limits."
 date: "2026-04-10"
-lastmod: "2026-09-05"
+lastmod: "2026-09-06"
 draft: false
 weight: 76
 slug: "best-free-2fa-apps"

@@ -2,7 +2,7 @@
 title: "Free stock photo sites in 2026: licenses, attribution, and image choice"
 description: "Choose among Unsplash, Pexels, Pixabay, Burst, and other free photo libraries by license, attribution rules, and subject coverage."
 date: "2026-04-15"
-lastmod: "2026-09-05"
+lastmod: "2026-08-28"
 draft: false
 weight: 63
 slug: "free-stock-photos"

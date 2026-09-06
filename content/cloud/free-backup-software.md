@@ -2,7 +2,7 @@
 title: "Free backup software for local and cloud copies in 2026"
 description: "Build a no-cost backup plan with scheduled local copies, encrypted offsite storage, and recovery options suited to your devices."
 date: "2026-04-12"
-lastmod: "2026-09-05"
+lastmod: "2026-08-23"
 draft: false
 weight: 58
 slug: "free-backup-software"

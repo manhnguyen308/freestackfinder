@@ -2,7 +2,7 @@
 title: "Free website builders in 2026: where each plan stops"
 description: "Wix, Google Sites, WordPress.com, Carrd, and Canva Websites compared by free address, storage, site format, and upgrade pressure."
 date: "2026-04-27"
-lastmod: "2026-09-05"
+lastmod: "2026-08-04"
 draft: false
 weight: 45
 slug: "free-website-builders"

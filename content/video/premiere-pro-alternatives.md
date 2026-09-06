@@ -2,7 +2,7 @@
 title: "Free Adobe Premiere Pro alternatives in 2026"
 description: "Choose a Premiere Pro alternative by timeline workflow, color tools, captions, format support, and project complexity."
 date: "2026-03-25"
-lastmod: "2026-09-05"
+lastmod: "2026-08-27"
 draft: false
 weight: 52
 slug: "premiere-pro-alternatives"

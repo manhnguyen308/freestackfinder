@@ -2,7 +2,7 @@
 title: "Free email services in 2026: privacy, storage, and access"
 description: "Choose Gmail, Proton Mail, Outlook, Yahoo, Zoho Mail, or Tuta by privacy model, storage, app support, and custom-domain needs."
 date: "2026-04-06"
-lastmod: "2026-09-05"
+lastmod: "2026-08-21"
 draft: false
 weight: 68
 slug: "free-email-service"

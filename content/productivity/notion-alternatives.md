@@ -2,7 +2,7 @@
 title: "Free Notion alternatives in 2026: offline notes and wiki options"
 description: "Choose among Obsidian, Logseq, Anytype, Coda, and Joplin by local storage, collaboration, sync, and workspace structure."
 date: "2026-03-26"
-lastmod: "2026-09-05"
+lastmod: "2026-08-08"
 draft: false
 weight: 70
 slug: "notion-alternatives"

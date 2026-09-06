@@ -2,7 +2,7 @@
 title: "Free password managers in 2026: sync, sharing, and recovery"
 description: "Find a free password manager by comparing device sync, local vaults, sharing, recovery, passkeys, and current plan limits."
 date: "2026-03-27"
-lastmod: "2026-09-05"
+lastmod: "2026-08-10"
 draft: false
 weight: 80
 slug: "free-password-managers"

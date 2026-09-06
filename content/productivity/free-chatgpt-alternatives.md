@@ -2,7 +2,7 @@
 title: "Free ChatGPT alternatives in 2026: research, drafting, and coding options"
 description: "Choose a free ChatGPT alternative for research, drafting, coding help, or everyday questions by its access limits and strengths."
 date: "2026-04-21"
-lastmod: "2026-09-05"
+lastmod: "2026-08-06"
 draft: false
 weight: 74
 slug: "free-chatgpt-alternatives"
