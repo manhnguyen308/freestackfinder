@@ -1,6 +1,6 @@
 ---
 name: website-content-humanizer
-description: Write, review, and revise public website copy so it is specific, useful, evidence-based, and free of common AI-writing patterns. Use for articles, comparison pages, homepage and hub copy, trust pages, headings, metadata, calls to action, navigation labels, empty states, and other reader-visible text. Preserve facts and editorial intent, never invent first-hand experience, and run the full publication gate before delivery.
+description: Write, review, and revise public website copy so it is specific, useful, evidence-based, and free of common AI-writing patterns. Use for articles, comparison pages, homepage and hub copy, trust pages, headings, metadata, calls to action, navigation labels, empty states, and other reader-visible text. Can also audit a draft for AI-writing patterns without rewriting it. Preserve facts and editorial intent, never invent first-hand experience, and run the full publication gate before delivery.
 ---
 
 # Website content humanizer
@@ -10,6 +10,12 @@ description: Write, review, and revise public website copy so it is specific, us
 Write like a careful editor with a real reader and a clear decision in mind. Remove formulaic language, inflated claims, vendor-style praise, repetitive structures, and pasted chatbot artifacts. Keep the facts, recommendations, limits, links, and editorial intent intact.
 
 Human writing is not a synonym swap or a detector score. It shows judgment, uses concrete evidence, and knows what the reader needs next.
+
+## Two modes
+
+**Edit (default).** The task is to fix or write copy. Make the minimum effective change under the rules below, then run the publication gate and report what changed.
+
+**Detect.** The task is to check whether copy reads as AI, audit it, scan it, or flag problems without rewriting. Name each pattern from this skill that appears, quote the offending line, and give the fix in a few words. Do not rewrite the draft, do not assign a score, and do not guess whether a machine wrote it. AI detectors guess; named patterns are evidence the user can verify and act on. Offer to run the edit afterward.
 
 ## Governing priorities
 
@@ -45,6 +51,8 @@ Never improve style by weakening accuracy. Never add a detail merely because it 
 
 - Use no em dash, en dash, or double hyphen as sentence punctuation. Replace it with a period, comma, colon, parentheses, or a rewritten sentence.
 - Use sentence case for headings.
+- Use sentence case after a colon unless grammar, a proper noun, a title, or code requires otherwise.
+- Use a colon for a list, a label, or a quote. Do not use one to stage a dramatic reveal.
 - Use straight quotes and apostrophes in source files for consistency.
 - Keep paragraphs readable. Most should contain 2 to 4 sentences, but vary them when the thought needs a different shape.
 - Use bullets and tables only when comparison or scanning is easier than prose.
@@ -69,6 +77,8 @@ If an author voice sample exists, match its vocabulary, sentence rhythm, punctua
 
 Without a voice sample, use calm editorial prose: direct, practical, slightly skeptical, and free of hype. Do not make it artificially casual.
 
+If the audience, the page's job, or the available evidence is genuinely unclear, ask one specific question before drafting. Ask what the reader should be able to decide after reading, or which source supports the claim in question. Do not guess and do not fill the gap with invented detail.
+
 ## Write useful copy before removing tells
 
 ### Lead with the answer
@@ -84,10 +94,19 @@ Avoid openings such as:
 - "In this article, we will explore..."
 - "Let's dive in."
 - "Here is what you need to know."
+- "Here is the thing."
+- "Let me be clear."
+- "The uncomfortable truth is..."
+- "The reality is..." or "The truth is..."
+- "In the world of..." or "In the age of..."
 - A series of rhetorical questions
 - A curiosity hook that withholds the subject
 
+These openers are just as weak mid-page as they are at the top. Cut them wherever they appear and state the point.
+
 For a comparison page, give the practical answer early. State who should choose the leading option, who should skip it, and which limit changes the decision.
+
+Front-load where it helps the reader, not everywhere by reflex. If every section and every paragraph opens with its own conclusion and then backfills, the page reads like a template. A section may build toward its point when the setup carries real context or tension.
 
 ### Prefer specifics over praise
 
@@ -102,6 +121,24 @@ Better:
 > The free plan supports shared files, comments, and two editors. It does not include approval workflows or granular permissions.
 
 If the source does not support a number or feature, do not invent one. Write the narrower claim.
+
+Use the portability test. If a sentence could move unchanged to another tool, company, or page, it is probably filler. Cut it, or replace it with a limit, number, mechanism, consequence, or judgment specific to this subject.
+
+### Open it up without dumbing it down
+
+Simplifying means removing what makes the copy hard to read: jargon, tangled clauses, abstract nouns, and buried subjects. It does not mean removing substance, nuance, or precision. A shorter page that has lost the qualifying detail is a worse page.
+
+Protect the specific fact in both directions. Do not invent a number to replace a vague claim, and do not smooth a supported number into generic importance.
+
+Weak:
+
+> The tool significantly improves review turnaround.
+
+Better:
+
+> The free plan caps review turnaround at ten files per batch.
+
+Keep the accurate qualifier when the evidence is partial. "The documentation lists 5 GB for free accounts, though it does not say whether shared files count toward it" beats both a flat assertion and a vague hedge.
 
 ### Explain the tradeoff
 
@@ -235,19 +272,36 @@ Rewrite or remove:
 
 Name the source and its finding, or narrow the sentence to what is known.
 
+### False insight and reader instruction
+
+These flatter the writer as the lone expert or tell the reader how to react instead of giving them something to react to.
+
+Rewrite or remove:
+
+- Faux-insight setups: "what most people get wrong," "here is what nobody tells you," "the part everyone misses," "the step most guides skip," "what the vendor will not tell you." Cut the setup and let the claim stand on its own. "The part everyone misses: exports are capped" becomes "Exports are capped at ten files."
+- Interpretive metadiscourse: "that last part matters more than it sounds," "the key point is," "as you can see," "this distinction matters," "and that is the important bit." If the point is already clear, delete the aside. If it is not, replace the aside with the limit or consequence that makes it clear.
+- Manufactured contrarianism: framing an ordinary published limit as a secret, a myth, or a trap.
+- Hype reactions: "this is huge," "this changes everything," "a total game changer," "this is the one."
+- Redundant restatement: "in other words," "put simply," "essentially," "that is to say," when the previous sentence already landed.
+
 ### Formulaic sentence shapes
 
 Watch for:
 
 - Negative parallelism: "not just X, but Y" or "It is not X. It is Y."
+- Negative listing: "Not a spreadsheet. Not a database. A workspace." State the last item and drop the rest.
 - Rule-of-three by reflex
 - Stacked abstract nouns such as "innovation, passion, and excellence"
 - Present-participle tails: ", highlighting," ", underscoring," ", showcasing," ", ensuring," or ", reflecting"
 - False ranges: "from X to Y" when X and Y are not endpoints on one scale
 - Copula avoidance: "serves as," "stands as," "boasts," or "features" when "is" or "has" is clearer
+- Buried verbs: "made a decision" for "decided," "provides support for" for "supports," "performs an analysis of" for "analyzes," "has the ability to" for "can"
 - Tailing negations: clipped endings such as "no guessing" or "no wasted motion"
 - Self-posed transitions: "Why? Because..."
 - Declarative reveals: "The answer? X."
+- Colon reveals: a noun phrase, a colon, then a dramatic payoff. "The catch: exports are capped." Rewrite as a plain sentence: "Exports are capped at ten files per batch."
+- Rhetorical setups: "What if I told you," "Think about it:," "Plot twist:," "Here is where it gets interesting"
+- Dramatic closure fragments: "That is it. That is the whole feature."
 - Adverb-stacked pivots: "X matters. Y matters. But that is not the point."
 - Stat-bomb openings with several disconnected numbers
 - Label-colon frameworks invented only to package ordinary observations
@@ -267,6 +321,10 @@ Cut or simplify:
 - "when it comes to"
 - "at the end of the day"
 - "in terms of" when the sentence works without it
+- "with regard to" and "with respect to" to "about" or "for"
+- "going forward" and "moving forward"
+- "needless to say" and "as we all know"
+- "the reality is," "the truth is," and "the fact of the matter is"
 - "moreover," "furthermore," "additionally," "nevertheless," and "that said" when paragraph order already shows the relationship
 - "could potentially possibly" and other stacked qualifiers
 - "in other words," "put simply," "essentially," and "that is to say" when they repeat the previous sentence
@@ -276,11 +334,13 @@ Cut or simplify:
 
 These words are signals, not automatic proof. Rewrite the sentence when the word replaces a concrete fact or appears in a cluster.
 
-High-signal: delve; tapestry, when figurative; testament, when figurative; underscore, as a verb; leverage, as a verb; multifaceted; realm; interplay; "in today's landscape"; "it is worth noting"; "it is important to note."
+High-signal: delve; tapestry, when figurative; testament, when figurative; beacon, when figurative; underscore, as a verb; leverage, as a verb; harness, as a verb; embark; multifaceted; realm; interplay; paradigm shift; ever-evolving; supercharge; "in today's landscape"; "it is worth noting"; "it is important to note."
 
-Density signals: crucial; pivotal; vibrant; robust; seamless; foster; enhance; showcase; notable or notably; garner; bolster; utilize; groundbreaking; transformative; holistic; comprehensive; dynamic; scalable; optimize; maximize; empower; streamline; unlock; cutting-edge; best-in-class; future-proof; game-changer.
+Density signals: crucial; pivotal; vibrant; robust; seamless; foster; facilitate; enhance; elevate; showcase; notable or notably; garner; bolster; utilize; groundbreaking; transformative; holistic; comprehensive; meticulous; intricate; paramount; dynamic; scalable; optimize; maximize; empower; streamline; unlock; cutting-edge; best-in-class; future-proof; game-changer.
 
 Context-only words: key; important; significant; various; effective; valuable; powerful; essential; actually; genuinely; honest; polished; capable.
+
+Empty intensifiers: just; simply; literally; truly; really; very; fundamentally; inherently; inevitably; importantly; crucially; undoubtedly; certainly. Delete them unless the word carries a real contrast, a measured degree, or an accurate limit. "Setup is simply a matter of signing in" becomes "Setup requires an account."
 
 Do not replace these mechanically. Replace the vague claim around them with the limit, action, or tradeoff the reader needs.
 
@@ -301,7 +361,7 @@ Fix:
 - Lists where prose would be easier to follow
 - Tables that merely repeat surrounding paragraphs
 - Perfectly balanced pros and cons with no editorial decision
-- A standalone mic-drop sentence or hype fragment as the ending
+- A standalone mic-drop sentence or hype fragment as the ending. Delete the fake-profound kicker; do not rewrite it into a better metaphor or preserve its rhythm. End on the clearest concrete sentence already in the draft, or add a plain takeaway or next action.
 - A sudden shift in spelling, register, sentence quality, or punctuation
 - Diff-anchored prose that narrates what changed instead of describing the current state
 
@@ -391,6 +451,8 @@ If any answer is unsafe, narrow or remove the claim.
 ### 6. Run the pattern check
 
 Search for watched phrases, dash characters, repeated headings, repeated paragraph openings, unsupported first-person claims, placeholders, citation artifacts, and suspiciously identical blocks across pages.
+
+Also scan for the shapes a word list will not catch: a noun phrase followed by a colon and a payoff, "not X, it is Y" constructions, faux-insight setups, sentences telling the reader which point matters, and closing lines that turn the page into an aphorism.
 
 Treat automated scans as a safety net. A clean word scan does not catch generic blandness, weak judgment, repeated structure, or invented specificity.
 
