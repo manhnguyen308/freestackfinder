@@ -1,0 +1,24 @@
+{{/* Original local screenshots only. Read dimensions from the file to reserve layout space. */}}
+{{- $src := strings.TrimSpace (.Get "src" | default "") -}}
+{{- $alt := strings.TrimSpace (.Get "alt" | default "") -}}
+{{- $caption := strings.TrimSpace (.Get "caption" | default "") -}}
+{{- if or (not $src) (not $alt) -}}
+  {{- errorf "screenshot shortcode requires non-empty src and alt parameters at %s" .Position -}}
+{{- else if or (not (findRE `^/img/screenshots/[^/]+/[^/]+$` $src)) (ne (path.Clean $src) $src) -}}
+  {{- errorf "screenshot shortcode src must be /img/screenshots/<slug>/<filename> at %s: %q" .Position $src -}}
+{{- else -}}
+  {{- $file := printf "static%s" $src -}}
+  {{- if not (fileExists $file) -}}
+    {{- errorf "screenshot shortcode file does not exist at %s: %s" .Position $file -}}
+  {{- else -}}
+    {{- $dimensions := images.Config $file -}}
+<figure class="article-screenshot">
+  <a class="article-screenshot-link" href="{{ $src | relURL }}" aria-label="View full-size screenshot: {{ $alt }}">
+    <img src="{{ $src | relURL }}" alt="{{ $alt }}" width="{{ $dimensions.Width }}" height="{{ $dimensions.Height }}" loading="lazy" decoding="async">
+  </a>
+  {{- with $caption }}
+  <figcaption>{{ . }}</figcaption>
+  {{- end }}
+</figure>
+  {{- end -}}
+{{- end -}}

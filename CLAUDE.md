@@ -93,6 +93,15 @@ All three QA checks must pass (0 failures) before committing.
 - Month 6 target: re-apply to Impact.com and other direct affiliate programs using real traffic data
 
 ## Repo structure reference
+
+### Article screenshots
+
+- Store real user-supplied product screenshots in `static/img/screenshots/<post-slug>/`, with one folder per post. The Microsoft Office alternatives evidence uses `static/img/screenshots/office-alternatives/`.
+- Use descriptive filenames, such as `onlyoffice-tracked-changes.png`, rather than `screenshot1.png` or `image2.png`.
+- Do not create empty screenshot folders for other posts. Do not use generated substitutes for product evidence.
+- Use the `screenshot` shortcode with a local `src`, specific `alt` text, and an optional factual `caption`. It reads the original image dimensions and links to the full-size image.
+- First-hand wording is permitted only when the supplied evidence supports it. The Office comparison's September 2026 evidence is scoped to `content/productivity/microsoft-office-alternatives.md`; it does not authorize testing claims elsewhere.
+
 ```text
 content/       business/ cloud/ creative/ productivity/ security/ video/
 layouts/       index.html · _default/list.html · _default/single.html

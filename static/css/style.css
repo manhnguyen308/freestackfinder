@@ -631,6 +631,33 @@ button { font-family: inherit; cursor: pointer; }
   margin: 32px 0;
 }
 
+/* Original screenshots retain their natural size when narrower than the reading column. */
+.article-screenshot { margin: 24px 0; max-width: 100%; }
+.article-screenshot-link {
+  display: block;
+  width: fit-content;
+  max-width: 100%;
+  border-radius: var(--radius);
+  cursor: zoom-in;
+}
+.article-screenshot-link:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 3px;
+}
+.article-screenshot img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
+.article-screenshot figcaption {
+  margin-top: 8px;
+  color: var(--text-muted);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
 /* Tables - mobile scrollable */
 .article-content .table-wrap { overflow-x: auto; margin: 24px 0; -webkit-overflow-scrolling: touch; }
 .article-content table {
@@ -1630,6 +1657,7 @@ mark {
   font-size: 14.5px;
   line-height: 1.5;
 }
+.article-content .compare-table { min-width: 0; }
 .compare-table thead th {
   text-align: left;
   font-size: 11px;

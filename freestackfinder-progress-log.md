@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-09-06
-**Current day:** 81a
+**Last updated:** 2026-09-20
+**Current day:** 82a
 
 ## Current state
 
@@ -12,6 +12,23 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+
+---
+
+### Day 82a - Microsoft Office alternatives first-hand screenshot integration completed
+
+- Date: 2026-09-20. Path A first-hand differentiation for `content/productivity/microsoft-office-alternatives.md` only.
+- Evidence: individually verified all 14 supplied screenshots in `static/img/screenshots/office-alternatives/` and added the originals to version control. The September 2026 check month is supported by the supplied files' timestamps and visible review dates. All originals remain unchanged; none exceeds 400 KB, so no optimization was needed.
+- Screenshots inserted: `gdocs-tracked-changes.png`, `gdocs-shared-storage.png`, `gdocs-export-docx.png`, `onlyoffice-docx-fidelity.png`, `onlyoffice-tracked-changes.png`, `onlyoffice-interface.png`, `libreoffice-docx-fidelity.png`, `libreoffice-tracked-changes.png`, `libreoffice-keep-format-dialog.png`, `libreoffice-start-center.png`, `wps-ads-in-interface.png`, `wps-upsell-prompt.png`, and `wps-cloud-storage-cap.png`.
+- Evidence selection: `gdocs-docx-fidelity.png` shows the Docs home screen and was left out of the article. The open-document Google Docs review screenshot supports the same-document Google Docs / OnlyOffice / LibreOffice comparison instead.
+- Article additions: a short methodology note, a comparison of visible font appearance, nested lists and review display, and 13 screenshots beside the relevant claims. Captions distinguish visible results from unverified saving, reopening, field updates, and fidelity against Word.
+- Copy corrections: narrowed OnlyOffice's broad fidelity and superiority claims; replaced vague Google Docs and LibreOffice compatibility wording with visible observations; qualified the recommendation about a perfectly formatted Word file. WPS evidence describes its own subscription promotions and the sign-in screen's visible 1 GB free-access storage offer, dated September 2026, without claiming a verified signed-in account quota.
+- Implementation: added `layouts/shortcodes/screenshot.html` with required source and alt text, actual image dimensions, lazy loading, async decoding, optional captions, and links to the full-size originals. Added matching responsive CSS and corrected the comparison table's minimum width so the evidence remains readable on narrow screens. Documented the screenshot folder convention in `CLAUDE.md`.
+- Testing scope: first-hand claims are scoped ONLY to this article and supplied evidence set. No testing language was extended to other articles. No performance, setup, benchmark, export-result, or WPS document-compatibility result was introduced.
+- Preservation: 50 articles; only the target article body changed. Only its `lastmod` changed in front matter, from `2026-07-28` to `2026-09-20`. Publication date, title, description, slug, aliases, weight, image, original links, affiliate destinations, and ad settings remain unchanged.
+- Validation: quality checks passed 3/3 with 50 articles, no front matter errors, no broken internal links, no missing feature images, and no stale articles. The no-argument publish checklist printed successfully. The Windows `python3` alias was unavailable, so the scripts ran with installed Python 3.12. Hugo Extended 0.160.1 built to a temporary destination with 476 pages, 21 paginator pages, 210 aliases, and no errors or warnings. Browser checks passed at widths 320, 360, 390, 768, and 1280 pixels: all 13 figures, captions, alt texts, lazy/async attributes, original dimensions, asset links, and internal destinations verified; no image overflow, distortion, clipped comparison tables, page overflow, or ad scripts. Humanizer and independent evidence reviews passed. Screenshot hashes and all 773 existing `public/` file hashes are unchanged.
+- Non-blocking checker notice: alongside the three known possible orphan assets, the feature-image checker lists the `screenshots` directory because it scans only top-level image references. All 13 article screenshot references were separately verified against the built files.
+- Final diff review: `git diff --check` passed. Source changes are limited to the target article, screenshot shortcode, stylesheet, `CLAUDE.md`, and this log, plus the unchanged supplied screenshot assets. No unrelated article content changed.
 
 ---
 
