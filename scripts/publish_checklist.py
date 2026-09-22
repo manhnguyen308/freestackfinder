@@ -110,7 +110,7 @@ def check_article(silo: str, slug: str) -> tuple[list, list]:
     if RE_IMAGE_PATH.match(img_val):
         passed.append(f"image field format valid: {img_val}")
         # Derive filename from the image path value
-        img_filename = img_val.strip('"').lstrip("/img/")
+        img_filename = img_val.strip('"').removeprefix("/img/")
         img_path = REPO_ROOT / "static" / "img" / img_filename
         if img_path.exists():
             size_kb = img_path.stat().st_size / 1024

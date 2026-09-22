@@ -1,126 +1,101 @@
 #!/usr/bin/env python3
 """
-Feature image generator: Best Free Figma Alternatives in 2026
-Output : static/img/figma-alternatives.webp  (1200×630 px)
+Feature image generator: Free Figma alternatives in 2026
+Output : static/img/figma-alternatives.webp  (1200x630 px)
 Silo   : Creative   Accent: #f97316
+
+Plan limits come from content/creative/figma-alternatives.md. The left panel
+is a generic wireframe and makes no product claim.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from PIL import Image, ImageDraw
 from image_helpers import (
-    W, H, BG, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM,
-    LEFT_W, CONTENT_H, INNER_PAD,
-    font, rrect, draw_circle, truncate,
-    draw_chrome, draw_featured_card, draw_grid, draw_bar, img_out,
+    Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, TEXT_MID, LINE,
+    card_window, card_featured, card_grid, card_bar, mix,
 )
 
-ACCENT = "#f97316"   # Creative silo — orange
+ACCENT = "#f97316"   # Creative silo, orange
 
-img  = Image.new("RGB", (W, H), BG)
-draw = ImageDraw.Draw(img)
+c = Canvas()
 
-# ── LEFT PANEL — mock Figma-style UI design canvas ──────────────────────────
-draw.rectangle([0, 0, LEFT_W, CONTENT_H], fill=WIN_BG)
-draw_chrome(draw, "UI Design — Penpot")
+# ── LEFT PANEL: layers list beside a landing-page wireframe ───────────────────
+x0, y0, x1, y1 = card_window(c, "Penpot: landing page")
 
-SIDE  = 20
-CTX_W = LEFT_W - SIDE * 2
-
-# Layer panel header
-draw.text((SIDE, 44), "Layers", fill=TEXT_DIM, font=font(11, bold=True))
-
-# Layer items
+SIDE_R = x0 + 132
+c.text(x0, y0, "LAYERS", 12, TEXT_DIM, "semibold")
 layers = [
-    ("Frame", "Header",    ACCENT),
-    ("Text",  "Hero Title", "#ffffff"),
-    ("Rect",  "CTA Button", "#22c55e"),
-    ("Image", "Hero Image", "#3b82f6"),
-    ("Frame", "Nav Bar",    "#8b5cf6"),
-    ("Group", "Card Grid",  "#f59e0b"),
+    (ACCENT,    "Nav bar"),
+    ("#e5e7eb", "Hero title"),
+    ("#22c55e", "CTA button"),
+    ("#3b82f6", "Hero image"),
+    ("#8b5cf6", "Card grid"),
+    ("#eab308", "Footer"),
 ]
-ly = 62
-for kind, name, col in layers:
-    rrect(draw, SIDE, ly, LEFT_W - SIDE, ly + 28, 4, CARD_BG)
-    draw.rectangle([SIDE + 4, ly + 6, SIDE + 16, ly + 22], fill=col + "44", outline=col)
-    draw.text((SIDE + 24, ly + 6),
-              truncate(draw, f"{kind}: {name}", font(10), CTX_W - 40),
-              fill=TEXT_W, font=font(10))
-    ly += 34
+ly = y0 + 26
+for i, (col, name) in enumerate(layers):
+    if i == 2:
+        c.rect(x0 - 6, ly - 4, SIDE_R - 8, ly + 30, mix(ACCENT, WIN_BG, 0.82), r=6)
+    c.rect(x0, ly + 6, x0 + 14, ly + 20, col, r=3)
+    c.fit_text(x0 + 24, ly + 13, name, 14, SIDE_R - x0 - 36, TEXT_MID, anchor="lm")
+    ly += 42
 
-# Mock canvas area below layers — simple wireframe sketch
-canvas_y = ly + 10
-canvas_h = CONTENT_H - canvas_y - 50
-canvas_w = CTX_W
-cx, cy = SIDE, canvas_y
+# Frame
+fx0, fy0, fx1, fy1 = SIDE_R + 4, y0 - 4, x1, y1
+c.rect(fx0, fy0, fx1, fy1, CARD_BG, r=8)
+c.rect(fx0 + 14, fy0 + 14, fx0 + 60, fy0 + 26, ACCENT, r=3)
+for k in range(3):
+    c.rect(fx1 - 30 - k * 34, fy0 + 16, fx1 - 12 - k * 34, fy0 + 24, "#3a3f52", r=3)
+c.line([(fx0, fy0 + 40), (fx1, fy0 + 40)], LINE)
 
-# Canvas background
-rrect(draw, cx, cy, cx + canvas_w, cy + canvas_h, 6, CARD_BG)
+# Hero copy and button (left half), image placeholder (right half)
+hx = fx0 + 16
+c.rect(hx, fy0 + 62, hx + 150, fy0 + 76, "#e5e7eb", r=4)
+c.rect(hx, fy0 + 84, hx + 120, fy0 + 98, "#e5e7eb", r=4)
+c.rect(hx, fy0 + 110, hx + 130, fy0 + 118, "#4a4f66", r=3)
+c.rect(hx, fy0 + 126, hx + 104, fy0 + 134, "#4a4f66", r=3)
+c.rect(hx, fy0 + 150, hx + 84, fy0 + 176, "#22c55e", r=6)
+# Selection outline around the button
+c.rect(hx - 4, fy0 + 146, hx + 88, fy0 + 180, None, r=8, outline="#60a5fa", width=2)
+for sx, sy in [(hx - 4, fy0 + 146), (hx + 88, fy0 + 146), (hx - 4, fy0 + 180), (hx + 88, fy0 + 180)]:
+    c.rect(sx - 3, sy - 3, sx + 3, sy + 3, "#ffffff")
 
-# Nav bar wireframe
-rrect(draw, cx + 8, cy + 8, cx + canvas_w - 8, cy + 28, 3, "#1e2130")
-draw.rectangle([cx + 14, cy + 14, cx + 50, cy + 22], fill=ACCENT + "66")
-for bx in range(0, 4):
-    draw.rectangle([cx + canvas_w - 80 + bx * 18, cy + 14,
-                     cx + canvas_w - 66 + bx * 18, cy + 22], fill="#4b556388")
+ix0, iy0, ix1, iy1 = fx0 + 196, fy0 + 58, fx1 - 16, fy0 + 180
+c.rect(ix0, iy0, ix1, iy1, "#262b3b", r=6)
+c.line([(ix0 + 6, iy0 + 6), (ix1 - 6, iy1 - 6)], "#3a4058", 2)
+c.line([(ix0 + 6, iy1 - 6), (ix1 - 6, iy0 + 6)], "#3a4058", 2)
 
-# Hero area wireframe
-rrect(draw, cx + 8, cy + 34, cx + canvas_w // 2 - 2, cy + canvas_h - 8, 3, "#1e2130")
-draw.rectangle([cx + 16, cy + 44, cx + 140, cy + 54], fill="#ffffff22")
-draw.rectangle([cx + 16, cy + 60, cx + 120, cy + 66], fill="#ffffff11")
-rrect(draw, cx + 16, cy + 74, cx + 80, cy + 88, 3, ACCENT + "88")
+# Card grid row
+cw = (fx1 - fx0 - 16 * 2 - 12 * 2) / 3
+for k in range(3):
+    cx0 = fx0 + 16 + k * (cw + 12)
+    c.rect(cx0, fy0 + 200, cx0 + cw, fy1 - 16, "#232736", r=6)
+    c.rect(cx0 + 10, fy0 + 212, cx0 + 40, fy0 + 242, "#8b5cf6", r=6)
+    c.rect(cx0 + 10, fy0 + 254, cx0 + cw - 16, fy0 + 262, "#4a4f66", r=3)
+    c.rect(cx0 + 10, fy0 + 270, cx0 + cw - 34, fy0 + 278, "#3a3f52", r=3)
 
-# Image placeholder wireframe
-rrect(draw, cx + canvas_w // 2 + 2, cy + 34, cx + canvas_w - 8, cy + canvas_h - 8, 3, "#1e2130")
-# Cross lines for image placeholder
-img_x0 = cx + canvas_w // 2 + 2
-img_y0 = cy + 34
-img_x1 = cx + canvas_w - 8
-img_y1 = cy + canvas_h - 8
-draw.line([(img_x0 + 4, img_y0 + 4), (img_x1 - 4, img_y1 - 4)], fill="#4b556344", width=1)
-draw.line([(img_x1 - 4, img_y0 + 4), (img_x0 + 4, img_y1 - 4)], fill="#4b556344", width=1)
-
-# Properties panel label at bottom
-stat_y = CONTENT_H - 42
-stats = [("Frames", "6"), ("Components", "12"), ("Fonts", "2")]
-stat_x = SIDE
-for label, val in stats:
-    rrect(draw, stat_x, stat_y, stat_x + 126, stat_y + 34, 6, CARD_BG)
-    draw.text((stat_x + 8, stat_y + 4),
-              truncate(draw, label, font(9), 110),
-              fill=TEXT_DIM, font=font(9))
-    draw.text((stat_x + 8, stat_y + 18),
-              truncate(draw, val, font(12, bold=True), 110),
-              fill=TEXT_W, font=font(12, bold=True))
-    stat_x += 134
-
-# ── RIGHT PANEL ─────────────────────────────────────────────────────────────
-draw_featured_card(
-    draw, ACCENT,
-    initials    = "Pp",
-    name        = "Penpot",
-    tagline     = "Best free Figma alternative overall",
-    line1       = "Unlimited users · unlimited projects",
-    line2       = "Open-source · self-hosted option",
-    badge       = "✓ 100% free — no paid tier exists",
-    license_note= "Open-source (MPL 2.0) — free forever",
+# ── RIGHT PANEL ───────────────────────────────────────────────────────────────
+card_featured(
+    c, ACCENT,
+    initials = "Pp",
+    name     = "Penpot",
+    tagline  = "Best for open files and self-hosting",
+    note     = "Hosted free plan for up to eight team members, "
+               "or self-host the open-source edition",
 )
 
-draw_grid(draw, ACCENT, [
-    ("#42a5f5", "Lu", "Lunacy",      "Free desktop app · built-in assets"),
-    ("#7c3aed", "Pl", "Plasmic",     "Visual design → React code"),
-    ("#10b981", "QU", "Quant UX",    "Prototyping + usability testing"),
-    ("#0acf83", "Fi", "Figma Free",  "3 team files · industry standard"),
+card_grid(c, [
+    ("#3b82f6", "Lu", "Lunacy",        "Desktop app with local files, ten free cloud documents"),
+    ("#8b5cf6", "Pl", "Plasmic",       "Visual builds that export React code"),
+    ("#22c55e", "QU", "Quant UX",      "Prototypes with built-in usability tests"),
+    ("#ec4899", "Fi", "Figma Starter", "Three collaborative files, three pages each"),
 ])
 
-# ── BOTTOM BAR ──────────────────────────────────────────────────────────────
-draw_bar(
-    draw, ACCENT,
-    title    = "Best Free Figma Alternatives in 2026",
+# ── BOTTOM BAR ────────────────────────────────────────────────────────────────
+card_bar(
+    c, ACCENT,
+    title    = "Free Figma alternatives in 2026",
     subtitle = "Penpot  ·  Lunacy  ·  Plasmic  ·  Quant UX  ·  Figma Starter",
 )
 
-# ── Save ────────────────────────────────────────────────────────────────────
-out = img_out("figma-alternatives.webp")
-img.save(out, "WEBP", quality=82, method=4)
-print(f"Saved: {out}")
+c.save("figma-alternatives.webp")

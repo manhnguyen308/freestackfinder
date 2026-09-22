@@ -214,3 +214,195 @@ def img_out(filename):
     img_dir = os.path.normpath(os.path.join(here, "..", "..", "static", "img"))
     os.makedirs(img_dir, exist_ok=True)
     return os.path.join(img_dir, filename)
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+# Card-legible layout
+#
+# The layout above uses 10 to 13 px text, which shrinks to 3 or 4 px when the
+# image is shown as a ~350 px wide article card. The helpers below keep the same
+# visual language (dark UI panel, featured card, 2x2 grid, accent bar) with
+# larger type, fewer lines, and a 56 px safe margin on every side.
+#
+# Drawing happens at SS times the final size and is downsampled, so circles,
+# rounded corners, and text edges come out anti-aliased.
+# ══════════════════════════════════════════════════════════════════════════════
+from PIL import Image, ImageDraw
+
+SS       = 2                  # supersampling factor
+M        = 56                 # outer safe margin
+TOP      = 40
+BAR2_Y   = 486                # accent bar top
+
+WIN_X0, WIN_Y0, WIN_X1, WIN_Y1 = M, TOP, 560, 446
+RX0, RX1 = 592, W - M         # right column, 552 wide
+FEAT2_Y0, FEAT2_Y1 = TOP, 190
+CELL2_W  = (RX1 - RX0 - 16) // 2   # 268
+CELL2_H  = 112
+GRID2_Y  = 206
+
+LINE     = "#262a38"          # hairlines and dividers
+TEXT_MID = "#b4b9cc"
+GOOD     = "#22c55e"
+WARN     = "#eab308"
+BAD      = "#ef4444"
+INK      = "#101116"          # text on the accent bar
+
+
+def ui_font(size, weight="regular"):
+    """Segoe UI when available (regular, semibold, bold), else the font() fallback."""
+    files = {
+        "regular":  "C:/Windows/Fonts/segoeui.ttf",
+        "semibold": "C:/Windows/Fonts/seguisb.ttf",
+        "bold":     "C:/Windows/Fonts/segoeuib.ttf",
+    }
+    p = files.get(weight, files["regular"])
+    if os.path.exists(p):
+        try:
+            return ImageFont.truetype(p, size)
+        except Exception:
+            pass
+    return font(size, bold=(weight != "regular"))
+
+
+class Canvas:
+    """1200x630 surface. All coordinates and sizes are given at final scale."""
+
+    def __init__(self, bg=BG):
+        self.img  = Image.new("RGB", (W * SS, H * SS), bg)
+        self.draw = ImageDraw.Draw(self.img)
+
+    def _f(self, size, weight):
+        return ui_font(int(round(size * SS)), weight)
+
+    def rect(self, x0, y0, x1, y1, fill, r=0, outline=None, width=1):
+        box = [x0 * SS, y0 * SS, x1 * SS, y1 * SS]
+        if r:
+            self.draw.rounded_rectangle(box, r * SS, fill=fill,
+                                        outline=outline, width=width * SS)
+        else:
+            self.draw.rectangle(box, fill=fill, outline=outline, width=width * SS)
+
+    def circle(self, cx, cy, r, fill, outline=None, width=1):
+        self.draw.ellipse([(cx - r) * SS, (cy - r) * SS, (cx + r) * SS, (cy + r) * SS],
+                          fill=fill, outline=outline, width=width * SS)
+
+    def line(self, pts, fill, width=1):
+        self.draw.line([(x * SS, y * SS) for x, y in pts], fill=fill, width=width * SS)
+
+    def poly(self, pts, fill):
+        self.draw.polygon([(x * SS, y * SS) for x, y in pts], fill=fill)
+
+    def text_w(self, text, size, weight="regular"):
+        bb = self.draw.textbbox((0, 0), text, font=self._f(size, weight))
+        return (bb[2] - bb[0]) / SS
+
+    def text(self, x, y, text, size, fill, weight="regular", anchor="la"):
+        self.draw.text((x * SS, y * SS), text, fill=fill,
+                       font=self._f(size, weight), anchor=anchor)
+
+    def fit_size(self, text, size, max_w, weight="regular", min_size=11):
+        """Largest size <= size at which text fits max_w."""
+        while size > min_size and self.text_w(text, size, weight) > max_w:
+            size -= 0.5
+        return size
+
+    def fit_text(self, x, y, text, size, max_w, fill, weight="regular", anchor="la"):
+        """Draw text shrunk to fit max_w. Returns the size used."""
+        s = self.fit_size(text, size, max_w, weight)
+        self.text(x, y, text, s, fill, weight, anchor)
+        return s
+
+    def wrap(self, text, size, max_w, weight="regular"):
+        lines, buf = [], []
+        for word in text.split():
+            test = " ".join(buf + [word])
+            if not buf or self.text_w(test, size, weight) <= max_w:
+                buf.append(word)
+            else:
+                lines.append(" ".join(buf))
+                buf = [word]
+        if buf:
+            lines.append(" ".join(buf))
+        return lines
+
+    def para(self, x, y, text, size, max_w, fill, weight="regular",
+             max_lines=2, leading=1.3):
+        """Wrapped text, shrunk until it fits in max_lines. Returns the next y."""
+        while size > 11 and (
+                len(self.wrap(text, size, max_w, weight)) > max_lines
+                or any(self.text_w(ln, size, weight) > max_w
+                       for ln in self.wrap(text, size, max_w, weight))):
+            size -= 0.5
+        for ln in self.wrap(text, size, max_w, weight):
+            self.text(x, y, ln, size, fill, weight)
+            y += size * leading
+        return y
+
+    def pill(self, x, y, text, size, fg, bg, pad_x=10, h=None, anchor="left"):
+        """Rounded label. anchor='right' puts the right edge at x. Returns width."""
+        w = self.text_w(text, size, "semibold") + pad_x * 2
+        h = h or size * 1.9
+        x0 = x - w if anchor == "right" else x
+        self.rect(x0, y, x0 + w, y + h, bg, r=h / 2)
+        self.text(x0 + w / 2, y + h / 2, text, size, fg, "semibold", anchor="mm")
+        return w
+
+    def save(self, filename, quality=86):
+        out = img_out(filename)
+        small = self.img.resize((W, H), Image.LANCZOS)
+        small.save(out, "WEBP", quality=quality, method=6)
+        print(f"Saved: {out} ({os.path.getsize(out) / 1024:.1f} KB)")
+        return out
+
+
+def mix(hex_a, hex_b, t):
+    """Blend two #rrggbb colours; t=0 gives a, t=1 gives b."""
+    a = [int(hex_a[i:i + 2], 16) for i in (1, 3, 5)]
+    b = [int(hex_b[i:i + 2], 16) for i in (1, 3, 5)]
+    return "#" + "".join(f"{round(a[i] + (b[i] - a[i]) * t):02x}" for i in range(3))
+
+
+def initials_badge(c, cx, cy, r, color, initials, text_color="#ffffff"):
+    c.circle(cx, cy, r, color)
+    c.text(cx, cy, initials, r * 0.72, text_color, "bold", anchor="mm")
+
+
+def card_window(c, title, x0=WIN_X0, y0=WIN_Y0, x1=WIN_X1, y1=WIN_Y1):
+    """Dark app window with traffic-light chrome. Returns the content box."""
+    c.rect(x0, y0, x1, y1, WIN_BG, r=14, outline=LINE)
+    for i, col in enumerate(["#ff5f57", "#febc2e", "#28c840"]):
+        c.circle(x0 + 24 + i * 20, y0 + 22, 6, col)
+    c.fit_text(x0 + 96, y0 + 22, title, 15, x1 - x0 - 116, TEXT_DIM, anchor="lm")
+    c.line([(x0 + 1, y0 + 44), (x1 - 1, y0 + 44)], LINE)
+    return x0 + 20, y0 + 60, x1 - 20, y1 - 18
+
+
+def card_featured(c, accent, initials, name, tagline, note):
+    x0, y0, x1, y1 = RX0, FEAT2_Y0, RX1, FEAT2_Y1
+    c.rect(x0, y0, x1, y1, CARD_BG, r=14, outline=mix(accent, CARD_BG, 0.55))
+    c.rect(x0, y0 + 18, x0 + 5, y1 - 18, accent, r=2)
+    initials_badge(c, x0 + 60, y0 + 62, 36, accent, initials, INK)
+    tx = x0 + 114
+    avail = x1 - tx - 22
+    c.fit_text(tx, y0 + 20, name, 30, avail, TEXT_W, "bold")
+    c.fit_text(tx, y0 + 64, tagline, 19, avail, accent, "semibold")
+    c.para(tx, y0 + 96, note, 16, avail, TEXT_MID, max_lines=2)
+
+
+def card_grid(c, items):
+    """items: four (colour, initials, name, note) tuples."""
+    for i, (col, initials, name, note) in enumerate(items):
+        x = RX0 + (i % 2) * (CELL2_W + 16)
+        y = GRID2_Y + (i // 2) * (CELL2_H + 16)
+        c.rect(x, y, x + CELL2_W, y + CELL2_H, CARD_BG, r=12)
+        initials_badge(c, x + 36, y + 34, 20, col, initials)
+        c.fit_text(x + 66, y + 34, name, 20, CELL2_W - 66 - 16, TEXT_W, "bold", anchor="lm")
+        c.para(x + 18, y + 60, note, 15, CELL2_W - 36, TEXT_DIM, max_lines=2)
+
+
+def card_bar(c, accent, title, subtitle):
+    c.rect(0, BAR2_Y, W, H, accent)
+    c.text(M, BAR2_Y + 18, "FREESTACKFINDER.COM", 14, mix(INK, accent, 0.25), "bold")
+    c.fit_text(M, BAR2_Y + 36, title, 40, W - M * 2, INK, "bold")
+    c.fit_text(M, BAR2_Y + 96, subtitle, 19, W - M * 2, mix(INK, accent, 0.15), "semibold")

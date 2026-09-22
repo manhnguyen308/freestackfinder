@@ -1,110 +1,79 @@
 #!/usr/bin/env python3
 """
-Feature image generator: Best Free Font Websites in 2026
-Output : static/img/free-font-websites.webp  (1200×630 px)
+Feature image generator: Free font websites in 2026
+Output : static/img/free-font-websites.webp  (1200x630 px)
 Silo   : Creative   Accent: #f97316
+
+License models and delivery methods come from the comparison table in
+content/creative/free-font-websites.md. The article gives no catalog sizes,
+so the image shows none.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from PIL import Image, ImageDraw
 from image_helpers import (
-    W, H, BG, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM,
-    LEFT_W, CONTENT_H, INNER_PAD,
-    font, rrect, draw_circle, truncate,
-    draw_chrome, draw_featured_card, draw_grid, draw_bar, img_out,
+    Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, TEXT_MID, GOOD, WARN,
+    card_window, card_featured, card_grid, card_bar, mix,
 )
 
-ACCENT = "#f97316"   # Creative silo — orange
+ACCENT = "#f97316"   # Creative silo, orange
+BLUE   = "#60a5fa"
 
-img  = Image.new("RGB", (W, H), BG)
-draw = ImageDraw.Draw(img)
+c = Canvas()
 
-# ── LEFT PANEL — mock font browser UI ───────────────────────────────────────
-draw.rectangle([0, 0, LEFT_W, CONTENT_H], fill=WIN_BG)
-draw_chrome(draw, "Google Fonts — Browse")
+# ── LEFT PANEL: type specimen, then license model per site ────────────────────
+x0, y0, x1, y1 = card_window(c, "Font sources by license")
 
-SIDE  = 20
-CTX_W = LEFT_W - SIDE * 2
+c.rect(x0, y0, x1, y0 + 86, CARD_BG, r=10)
+c.text(x0 + 20, y0 + 43, "Aa", 54, ACCENT, "bold", anchor="lm")
+c.text(x0 + 110, y0 + 18, "PREVIEW", 12, TEXT_DIM, "semibold")
+c.fit_text(x0 + 110, y0 + 38, "Check the license before the style",
+           19, x1 - x0 - 130, TEXT_W, "semibold")
 
-# Search bar mock
-rrect(draw, SIDE, 44, LEFT_W - SIDE, 66, 4, CARD_BG)
-draw.text((SIDE + 10, 50), "Search fonts...", fill=TEXT_DIM, font=font(10))
+COL_LIC, COL_DEL = x0 + 160, x0 + 336
+hy = y0 + 104
+c.text(x0, hy, "SITE", 13, TEXT_DIM, "semibold")
+c.text(COL_LIC, hy, "LICENSE", 13, TEXT_DIM, "semibold")
+c.text(COL_DEL, hy, "DELIVERY", 13, TEXT_DIM, "semibold")
 
-# Filter pills
-pills = ["Serif", "Sans-serif", "Monospace", "Display"]
-px = SIDE
-for p in pills:
-    pw = len(p) * 7 + 16
-    rrect(draw, px, 72, px + pw, 90, 6, CARD_BG)
-    draw.text((px + 8, 75), p, fill=TEXT_DIM, font=font(9))
-    px += pw + 6
-
-# Font list items
-fonts_list = [
-    ("Roboto",       "Sans-serif  · 12 styles",  ACCENT),
-    ("Open Sans",    "Sans-serif  · 10 styles",  "#fb923c"),
-    ("Lato",         "Sans-serif  · 18 styles",  "#fbbf24"),
-    ("Playfair",     "Serif  · 6 styles",        "#a3e635"),
-    ("Inter",        "Sans-serif  · 18 styles",  "#38bdf8"),
-    ("Merriweather", "Serif  · 4 styles",        "#c084fc"),
+rows = [
+    ("Google Fonts",  ("Open source", GOOD),      "CDN, download"),
+    ("Font Squirrel", ("Commercial focus", BLUE), "Download"),
+    ("DaFont",        ("Mixed", WARN),            "Download"),
+    ("Fontsource",    ("Open source", GOOD),      "npm"),
+    ("1001 Fonts",    ("Mixed", WARN),            "Download"),
 ]
-fy = 98
-for name, meta, col in fonts_list:
-    rrect(draw, SIDE, fy, LEFT_W - SIDE, fy + 34, 4, CARD_BG)
-    draw_circle(draw, SIDE + 16, fy + 17, 10, col)
-    draw.text((SIDE + 4, fy + 10),
-              name[0].upper(),
-              fill="#ffffff", font=font(9, bold=True))
-    draw.text((SIDE + 32, fy + 5),
-              truncate(draw, name, font(11, bold=True), CTX_W - 50),
-              fill=TEXT_W, font=font(11, bold=True))
-    draw.text((SIDE + 32, fy + 20),
-              truncate(draw, meta, font(9), CTX_W - 50),
-              fill=TEXT_DIM, font=font(9))
-    fy += 40
 
-# Stats row
-stat_y = CONTENT_H - 42
-stats = [("Families", "1,400+"), ("Styles", "20,000+"), ("OFL License", "All free")]
-stat_x = SIDE
-for label, val in stats:
-    rrect(draw, stat_x, stat_y, stat_x + 118, stat_y + 34, 6, CARD_BG)
-    draw.text((stat_x + 8, stat_y + 4),
-              truncate(draw, label, font(9), 104),
-              fill=TEXT_DIM, font=font(9))
-    draw.text((stat_x + 8, stat_y + 18),
-              truncate(draw, val, font(11, bold=True), 104),
-              fill=TEXT_W, font=font(11, bold=True))
-    stat_x += 126
+ry, RH = hy + 24, 42
+for site, (lic, col), delivery in rows:
+    c.rect(x0, ry, x1, ry + RH - 6, CARD_BG, r=8)
+    mid = ry + (RH - 6) / 2
+    c.fit_text(x0 + 14, mid, site, 16, COL_LIC - x0 - 22, TEXT_W, "semibold", anchor="lm")
+    c.pill(COL_LIC - 2, mid - 12, lic, 12.5, col, mix(col, WIN_BG, 0.78), h=24)
+    c.fit_text(COL_DEL, mid, delivery, 14, x1 - COL_DEL - 10, TEXT_MID, anchor="lm")
+    ry += RH
 
-# ── RIGHT PANEL ─────────────────────────────────────────────────────────────
-draw_featured_card(
-    draw, ACCENT,
-    initials     = "Gf",
-    name         = "Google Fonts",
-    tagline      = "Best overall free font library",
-    line1        = "1,400+ families · open-source licensed",
-    line2        = "CDN embed or self-host download",
-    badge        = "✓ 100% free — no account required",
-    license_note = "SIL Open Font License — commercial use OK",
+# ── RIGHT PANEL ───────────────────────────────────────────────────────────────
+card_featured(
+    c, ACCENT,
+    initials = "GF",
+    name     = "Google Fonts",
+    tagline  = "Best overall free font library",
+    note     = "Open-source licenses across the catalog, with CDN embedding or download",
 )
 
-draw_grid(draw, ACCENT, [
-    ("#22c55e", "FS", "Font Squirrel", "Curated · commercial-use vetted"),
-    ("#f43f5e", "Da", "DaFont",        "90k+ fonts · check license"),
-    ("#6366f1", "Fo", "Fontsource",    "npm self-host · GDPR-friendly"),
-    ("#eab308", "1k", "1001 Fonts",    "45k+ · clear license labels"),
+card_grid(c, [
+    ("#22c55e", "FS", "Font Squirrel", "Commercial-use focus. Still read each license"),
+    ("#ec4899", "Da", "DaFont",        "Mixed licenses, many for personal use only"),
+    ("#3b82f6", "Fo", "Fontsource",    "npm packages for self-hosting open-source fonts"),
+    ("#eab308", "1F", "1001 Fonts",    "Per-font license labels on a mixed catalog"),
 ])
 
-# ── BOTTOM BAR ──────────────────────────────────────────────────────────────
-draw_bar(
-    draw, ACCENT,
-    title    = "Best Free Font Websites in 2026",
+# ── BOTTOM BAR ────────────────────────────────────────────────────────────────
+card_bar(
+    c, ACCENT,
+    title    = "Free font websites in 2026",
     subtitle = "Google Fonts  ·  Font Squirrel  ·  DaFont  ·  Fontsource  ·  1001 Fonts",
 )
 
-# ── Save ────────────────────────────────────────────────────────────────────
-out = img_out("free-font-websites.webp")
-img.save(out, "WEBP", quality=82, method=4)
-print(f"Saved: {out}")
+c.save("free-font-websites.webp")

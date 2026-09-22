@@ -1,93 +1,71 @@
 #!/usr/bin/env python3
 """
-Feature image generator: Best Free FreeCAD Alternatives in 2026
-Output : static/img/freecad-alternatives.webp  (1200×630 px)
+Feature image generator: Free FreeCAD alternatives in 2026
+Output : static/img/freecad-alternatives.webp  (1200x630 px)
 Silo   : Creative   Accent: #f97316
+
+Privacy and offline values come from the comparison table in
+content/creative/freecad-alternatives.md.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from PIL import Image, ImageDraw
 from image_helpers import (
-    W, H, BG, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM,
-    LEFT_W, CONTENT_H, INNER_PAD,
-    font, rrect, draw_circle, truncate,
-    draw_chrome, draw_featured_card, draw_grid, draw_bar, img_out,
+    Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, GOOD, WARN, BAD,
+    card_window, card_featured, card_grid, card_bar, mix,
 )
 
-ACCENT = "#f97316"   # Creative silo — orange
+ACCENT = "#f97316"   # Creative silo, orange
 
-img  = Image.new("RGB", (W, H), BG)
-draw = ImageDraw.Draw(img)
+c = Canvas()
 
-# ── LEFT PANEL — free CAD comparison panel ──────────────────────────────────
-draw.rectangle([0, 0, LEFT_W, CONTENT_H], fill=WIN_BG)
-draw_chrome(draw, "Free CAD — 2026 Comparison")
+# ── LEFT PANEL: private projects and offline use per tool ─────────────────────
+x0, y0, x1, y1 = card_window(c, "Private files and offline use")
 
-SIDE  = 20
-CTX_W = LEFT_W - SIDE * 2
+COL_PRIV, COL_OFF = 318, 436
+c.text(x0, y0, "TOOL", 13, TEXT_DIM, "semibold")
+c.text(COL_PRIV, y0, "PRIVATE", 13, TEXT_DIM, "semibold")
+c.text(COL_OFF, y0, "OFFLINE", 13, TEXT_DIM, "semibold")
 
-draw.text((SIDE, 44), "Tool & licensing model", fill=TEXT_DIM, font=font(11, bold=True))
-
-tools = [
-    (ACCENT,    "Onshape Free",   "Browser CAD · public projects · hobby",  "Best free pro CAD"),
-    ("#22c55e", "Fusion 360",     "Personal use · private projects · CAM",  "Home makers"),
-    ("#3b82f6", "Tinkercad",      "Primitive shapes · STL · beginners",      "Fastest start"),
-    ("#8b5cf6", "SolveSpace",     "Parametric · GPL · lightweight",          "Open-source pick"),
-    ("#ef4444", "OpenSCAD",       "Code-driven CAD · GPL · parametric",      "Programmers"),
+rows = [
+    ("Onshape Free", ("Public", BAD), ("No", BAD)),
+    ("Fusion 360",   ("Yes", GOOD),   ("Partly", WARN)),
+    ("Tinkercad",    ("Yes", GOOD),   ("No", BAD)),
+    ("SolveSpace",   ("Yes", GOOD),   ("Yes", GOOD)),
+    ("OpenSCAD",     ("Yes", GOOD),   ("Yes", GOOD)),
+    ("LibreCAD",     ("Yes", GOOD),   ("Yes", GOOD)),
 ]
 
-row_y = 64
-for col, label, value, status in tools:
-    rrect(draw, SIDE, row_y, LEFT_W - SIDE, row_y + 36, 5, CARD_BG)
-    draw.rectangle([SIDE, row_y, SIDE + 4, row_y + 36], fill=col)
-    draw.text((SIDE + 12, row_y + 4),  label,  fill=TEXT_DIM, font=font(10))
-    draw.text((SIDE + 12, row_y + 18), value,  fill=TEXT_W,   font=font(12, bold=True))
-    draw.text((LEFT_W - SIDE - 100, row_y + 12),
-              truncate(draw, status, font(9), 96),
-              fill=col, font=font(9, bold=True))
-    row_y += 43
+ry, RH = y0 + 30, 50
+for label, (p_txt, p_col), (o_txt, o_col) in rows:
+    c.rect(x0, ry, x1, ry + RH - 8, CARD_BG, r=8)
+    c.fit_text(x0 + 16, ry + (RH - 8) / 2, label, 17, COL_PRIV - x0 - 28,
+               TEXT_W, "semibold", anchor="lm")
+    for cx, txt, col in [(COL_PRIV, p_txt, p_col), (COL_OFF, o_txt, o_col)]:
+        c.pill(cx - 2, ry + 8, txt, 13, col, mix(col, WIN_BG, 0.78), h=26)
+    ry += RH
 
-stats = [("Tools compared", "6"), ("Cost", "Free tiers"), ("Use", "Hobby & maker")]
-stat_x = SIDE
-stat_y = CONTENT_H - 48
-for label, val in stats:
-    rrect(draw, stat_x, stat_y, stat_x + 130, stat_y + 36, 6, CARD_BG)
-    draw.text((stat_x + 8, stat_y + 4),
-              truncate(draw, label, font(9), 114),
-              fill=TEXT_DIM, font=font(9))
-    draw.text((stat_x + 8, stat_y + 18),
-              truncate(draw, val, font(12, bold=True), 114),
-              fill=TEXT_W, font=font(12, bold=True))
-    stat_x += 138
-
-# ── RIGHT PANEL ─────────────────────────────────────────────────────────────
-draw_featured_card(
-    draw, ACCENT,
-    initials    = "On",
-    name        = "Onshape Free",
-    tagline     = "Best free parametric CAD overall",
-    line1       = "Browser-based · version history · collab",
-    line2       = "Public projects only · hobby license",
-    badge       = "Pro-grade CAD with no install",
-    license_note= "Free hobby plan — public documents only",
+# ── RIGHT PANEL ───────────────────────────────────────────────────────────────
+card_featured(
+    c, ACCENT,
+    initials = "On",
+    name     = "Onshape Free",
+    tagline  = "Best free parametric CAD overall",
+    note     = "Runs in a browser. Every document on the free plan is public",
 )
 
-draw_grid(draw, ACCENT, [
-    ("#22c55e", "F3", "Fusion 360",   "Personal use · CAD + CAM · private files"),
-    ("#3b82f6", "Tk", "Tinkercad",    "Primitive shapes · STL export · beginners"),
-    ("#8b5cf6", "SS", "SolveSpace",   "GPL · lightweight · parametric · offline"),
-    ("#ef4444", "Os", "OpenSCAD",     "Code-driven · GPL · parametric variants"),
+card_grid(c, [
+    ("#3b82f6", "F",  "Fusion 360",  "Private projects and CAM, ten editable documents"),
+    ("#22c55e", "Tk", "Tinkercad",   "Primitive shapes for quick 3D prints"),
+    ("#8b5cf6", "SS", "SolveSpace",  "Lightweight parametric CAD, GPL, works offline"),
+    ("#06b6d4", "OS", "OpenSCAD",    "Models written as code, GPL licensed"),
 ])
 
-# ── BOTTOM BAR ──────────────────────────────────────────────────────────────
-draw_bar(
-    draw, ACCENT,
-    title    = "Best Free FreeCAD Alternatives in 2026",
+# ── BOTTOM BAR ────────────────────────────────────────────────────────────────
+card_bar(
+    c, ACCENT,
+    title    = "Free FreeCAD alternatives in 2026",
     subtitle = "Onshape  ·  Fusion 360  ·  Tinkercad  ·  SolveSpace  ·  OpenSCAD  ·  LibreCAD",
 )
 
-# ── Save ────────────────────────────────────────────────────────────────────
-out = img_out("freecad-alternatives.webp")
-img.save(out, "WEBP", quality=82, method=4)
-print(f"Saved: {out}")
+c.save("freecad-alternatives.webp")

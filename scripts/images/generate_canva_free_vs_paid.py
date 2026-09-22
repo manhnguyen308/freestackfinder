@@ -1,100 +1,73 @@
 #!/usr/bin/env python3
 """
-Feature image generator: Canva Free vs Paid (2026)
-Output : static/img/canva-free-vs-paid.webp  (1200×630 px)
+Feature image generator: Canva Free vs Pro in 2026
+Output : static/img/canva-free-vs-paid.webp  (1200x630 px)
 Silo   : Creative   Accent: #f97316
+
+Every label is taken from content/creative/canva-free-vs-paid.md. The article
+avoids exact quotas because Canva changes them, so the image does too.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
-from PIL import Image, ImageDraw
 from image_helpers import (
-    W, H, BG, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM,
-    LEFT_W, CONTENT_H,
-    font, rrect, truncate,
-    draw_chrome, draw_featured_card, draw_grid, draw_bar, img_out,
+    Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, GOOD, WARN, BAD,
+    card_window, card_featured, card_grid, card_bar, mix,
 )
 
-ACCENT = "#f97316"   # Creative silo — orange
-PAID_COL = "#22c55e"
-FREE_COL = "#3b82f6"
+ACCENT = "#f97316"   # Creative silo, orange
+NEUTRAL = "#8a8fa8"
 
-img  = Image.new("RGB", (W, H), BG)
-draw = ImageDraw.Draw(img)
+c = Canvas()
 
-# ── LEFT PANEL — Free vs Paid feature comparison ───────────────────────────
-draw.rectangle([0, 0, LEFT_W, CONTENT_H], fill=WIN_BG)
-draw_chrome(draw, "Canva Free vs Pro — 2026")
+# ── LEFT PANEL: the article's comparison table, reduced to status pills ───────
+x0, y0, x1, y1 = card_window(c, "Canva plans compared")
 
-SIDE  = 20
-
-# Column headers
-draw.text((SIDE, 44), "Feature", fill=TEXT_DIM, font=font(11, bold=True))
-draw.text((SIDE + 200, 44), "Free", fill=FREE_COL, font=font(11, bold=True))
-draw.text((SIDE + 290, 44), "Pro", fill=PAID_COL, font=font(11, bold=True))
+COL_FREE, COL_PRO = 318, 436
+c.text(x0, y0, "FEATURE", 13, TEXT_DIM, "semibold")
+c.text(COL_FREE, y0, "FREE", 13, TEXT_DIM, "semibold")
+c.text(COL_PRO, y0, "PRO", 13, ACCENT, "semibold")
 
 rows = [
-    ("Templates",          "Many",      "All"),
-    ("Background remover", "Limited",   "Unlimited"),
-    ("Brand kits",         "1 basic",   "Multiple"),
-    ("Magic Resize",       "—",         "Yes"),
-    ("Storage",            "5 GB",      "1 TB"),
-    ("Scheduler",          "—",         "Yes"),
-    ("Team folders",       "Limited",   "Yes"),
+    ("Templates",          ("Free set", NEUTRAL), ("Full", GOOD)),
+    ("Background remover", ("Limited", WARN),     ("Included", GOOD)),
+    ("Magic Resize",       ("No", BAD),           ("Included", GOOD)),
+    ("Brand controls",     ("Basic", WARN),       ("Deeper", GOOD)),
+    ("Content Planner",    ("No", BAD),           ("Included", GOOD)),
+    ("Team workflow",      ("Sharing", NEUTRAL),  ("Roles", GOOD)),
 ]
 
-row_y = 64
-for feature, free_v, paid_v in rows:
-    rrect(draw, SIDE, row_y, LEFT_W - SIDE, row_y + 36, 5, CARD_BG)
-    draw.rectangle([SIDE, row_y, SIDE + 4, row_y + 36], fill=ACCENT)
-    draw.text((SIDE + 12, row_y + 11), truncate(draw, feature, font(12, bold=True), 170),
-              fill=TEXT_W, font=font(12, bold=True))
-    draw.text((SIDE + 200, row_y + 11), truncate(draw, free_v, font(11), 80),
-              fill=TEXT_DIM, font=font(11))
-    draw.text((SIDE + 290, row_y + 11), truncate(draw, paid_v, font(11, bold=True), 130),
-              fill=PAID_COL, font=font(11, bold=True))
-    row_y += 43
+ry, RH = y0 + 30, 50
+for label, (free_txt, free_col), (pro_txt, pro_col) in rows:
+    c.rect(x0, ry, x1, ry + RH - 8, CARD_BG, r=8)
+    c.fit_text(x0 + 16, ry + (RH - 8) / 2, label, 17, COL_FREE - x0 - 28,
+               TEXT_W, "semibold", anchor="lm")
+    for cx, txt, col in [(COL_FREE, free_txt, free_col), (COL_PRO, pro_txt, pro_col)]:
+        c.pill(cx - 2, ry + 8, txt, 13, col, mix(col, WIN_BG, 0.78), h=26)
+    ry += RH
 
-stats = [("Tiers", "2"), ("Question", "Worth it?"), ("Use", "Solo & teams")]
-stat_x = SIDE
-stat_y = CONTENT_H - 48
-for label, val in stats:
-    rrect(draw, stat_x, stat_y, stat_x + 130, stat_y + 36, 6, CARD_BG)
-    draw.text((stat_x + 8, stat_y + 4),
-              truncate(draw, label, font(9), 114),
-              fill=TEXT_DIM, font=font(9))
-    draw.text((stat_x + 8, stat_y + 18),
-              truncate(draw, val, font(12, bold=True), 114),
-              fill=TEXT_W, font=font(12, bold=True))
-    stat_x += 138
-
-# ── RIGHT PANEL ─────────────────────────────────────────────────────────────
-draw_featured_card(
-    draw, ACCENT,
-    initials    = "C",
-    name        = "Canva Free vs Pro",
-    tagline     = "Honest decision guide for 2026",
-    line1       = "Free covers casual creators and one-offs",
-    line2       = "Pro pays off for weekly, brand, team work",
-    badge       = "Match the tier to real volume",
-    license_note= "Free tier is generous · Pro removes friction",
+# ── RIGHT PANEL ───────────────────────────────────────────────────────────────
+card_featured(
+    c, ACCENT,
+    initials = "C",
+    name     = "Canva Free vs Pro",
+    tagline  = "Free covers occasional projects",
+    note     = "Pro pays off when background removal, brand settings, "
+               "or resizing repeat every week",
 )
 
-draw_grid(draw, ACCENT, [
-    (FREE_COL,  "Fr", "Stay Free",   "Casual users · students · one-offs"),
-    (PAID_COL,  "Pr", "Go Pro",      "Brand kits · resize · team workflows"),
-    ("#8b5cf6", "Bg", "Bg remover",  "Limited free · unlimited on Pro"),
-    ("#ef4444", "Tm", "Teams",       "Shared assets · folders · roles"),
+card_grid(c, [
+    ("#3b82f6", "F",  "Stay on Free",  "Casual creators, students, and occasional projects"),
+    ("#22c55e", "P",  "Consider Pro",  "Solo professionals, small businesses, and marketers"),
+    ("#8b5cf6", "MR", "Magic Resize",  "Not on Free. One design resized for each format"),
+    ("#ec4899", "T",  "Team work",     "Pro adds roles, comments, and shared brand assets"),
 ])
 
-# ── BOTTOM BAR ──────────────────────────────────────────────────────────────
-draw_bar(
-    draw, ACCENT,
-    title    = "Canva Free vs Paid in 2026",
-    subtitle = "Free plan limits  ·  Pro features  ·  Who should upgrade  ·  Common mistakes",
+# ── BOTTOM BAR ────────────────────────────────────────────────────────────────
+card_bar(
+    c, ACCENT,
+    title    = "Canva Free vs Pro in 2026",
+    subtitle = "Templates  ·  Background remover  ·  Magic Resize  ·  Brand kits  ·  Team roles",
 )
 
-# ── Save ────────────────────────────────────────────────────────────────────
-out = img_out("canva-free-vs-paid.webp")
-img.save(out, "WEBP", quality=82, method=4)
-print(f"Saved: {out}")
+c.save("canva-free-vs-paid.webp")
