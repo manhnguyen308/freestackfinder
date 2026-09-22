@@ -2,11 +2,15 @@
 title: "Free Photoshop alternatives in 2026: browser and desktop PSD editors"
 date: "2026-04-30"
 lastmod: "2026-07-25"
+draft: false
 description: "Compare Photopea, GIMP, Krita, and Pixlr for PSD editing, layers, illustration, and quick browser-based photo work."
 slug: "photoshop-alternatives"
 categories: ["Creative"]
 tags: ["photoshop alternatives", "free photo editor", "GIMP", "Photopea"]
-keywords: ["free photoshop alternative", "free photo editing software", "best free image editor"]
+keywords:
+  - "free photoshop alternative"
+  - "free photo editing software"
+  - "best free image editor"
 image: "/img/photoshop-alternatives.webp"
 author: "FreeStackFinder Team"
 weight: 60

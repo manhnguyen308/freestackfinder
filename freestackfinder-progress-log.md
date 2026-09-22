@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-09-20
-**Current day:** 82a
+**Last updated:** 2026-09-23
+**Current day:** 84b
 
 ## Current state
 
@@ -12,6 +12,39 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
+- Open image follow-up: four feature images are off-spec stock photos (`free-cloud-storage-comparison` 1200x800, `grammarly-alternatives` 1200x901, `microsoft-office-alternatives` 1200x800, `free-video-editing-software` 1200x800)
+
+---
+
+### Day 84b - Front matter draft field and keyword list corrected
+
+- Date: 2026-09-23.
+- Files inspected: `CLAUDE.md`, `docs/AGENT-WORKFLOW.md`, `docs/SKILL.md`, this log, `scripts/validate_front_matter.py`, and the front matter of all 50 articles (scanned for a missing `draft` field and inline `keywords` arrays).
+- Files changed: `content/creative/photoshop-alternatives.md`, `content/productivity/microsoft-office-alternatives.md`, this log.
+- What changed: added `draft: false` to both articles, the only two without the field, so `publish_checklist.py` passes for them. Converted the Photoshop article's inline `keywords` array to a block list, which the never-use rules in `CLAUDE.md` require. It was the only article with an inline keyword array. Inline `tags` arrays appear in 26 articles, the rules do not prohibit them, and they were left unchanged.
+- Preservation: no `date` or `lastmod` changed because no reader-visible content changed. The templates do not render `keywords`, and Hugo already treated a missing `draft` as published, so the rendered output is unchanged.
+- Tracker correction: backfilled Day 83a below from the commit record. That run changed the repository but had no log entry.
+- Validation: `git diff --check` passed. `python scripts/run_quality_checks.py --with-counts` passed 3/3 with 50 articles. `publish_checklist.py` passed 7/7 for both articles. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings.
+
+---
+
+### Day 84a - Creative feature images rebuilt and card crop fixed
+
+- Date: 2026-09-23. Commit `3f451bc`.
+- Problem: article cards cropped images to 16:9 while every feature image is 1200x630, which cut off the left edge of each title bar sitewide. On the Creative hub, the Photoshop and Canva alternatives images were off-spec stock photos (1200x800 and 1200x1500). Font, Figma, and stock photo images rendered missing-glyph boxes and clipped circles. The Illustrator image hid text orange on orange and let a row overflow. Several images made claims their articles do not: Pexels as CC0, Reshot and Gravit Designer listed, Penpot with no paid tier, catalog counts, and Canva storage quotas.
+- Files changed: `static/css/style.css` (`.card-image` ratio 1200 / 630), `layouts/partials/article-card.html` (img width and height 1200x630), `scripts/images/image_helpers.py` (card-legible layout: larger type, 56 px safe margin, supersampled shapes), eight Creative generators (three new: Photoshop, Illustrator, and Canva alternatives), eight Creative images in `static/img/`, and `scripts/publish_checklist.py`.
+- Image text: every label is taken from its article. Titles use sentence case with no dash punctuation. All images are 1200x630 WebP, 40 to 48 KB.
+- Script fix: `publish_checklist.py` used `lstrip("/img/")`, which strips a character set, so slugs starting with i, m, or g failed the image check. It now uses `removeprefix`.
+- Validation: quality checks passed 3/3 with 50 articles. `publish_checklist.py` passed for all eight Creative articles apart from the Photoshop `draft` field, which was fixed in Day 84b. `hugo --minify` built with no errors. Local browser check: all eight Creative cards render at 1200x630 with complete title bars, and the homepage shows no broken images. `git diff --check` passed for the commit.
+- Follow-up: the four off-spec stock photos listed in Current state.
+
+---
+
+### Day 83a - Free password managers feature image rebuilt
+
+- Date: 2026-09-22. Commit `f4c3ad6`. Logged retroactively on Day 84b from the commit record.
+- What changed: rebuilt `static/img/free-password-managers.webp` (34.3 KB, 1200x630) and added `scripts/images/generate_free_password_managers.py`. The image no longer shows Dashlane as a current free option, because the article states its free plan ended on 16 September 2025. The LastPass note now matches the article's wording. Tool initials, title overlap, chip overflow, and the accent color (now Security violet) were corrected.
+- Validation: quality checks passed 3/3.
 
 ---
 
