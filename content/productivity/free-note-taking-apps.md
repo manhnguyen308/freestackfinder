@@ -2,7 +2,7 @@
 title: "Free note-taking apps in 2026: match the app to the way you capture notes"
 description: "Find a free note-taking app for quick capture, private notes, Markdown writing, handwriting, or a structured workspace."
 date: "2026-04-14"
-lastmod: "2026-08-09"
+lastmod: "2026-09-12"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"
@@ -29,7 +29,7 @@ Pick by the first action you take. **Google Keep** is built for quick capture in
 
 ## Fast capture can matter more than a large feature list
 
-Notion, Coda, and Obsidian can store far more than a quick note, but they also ask the user to build a system. Meeting notes, lists, drafts, and reading highlights often need faster capture instead.
+Notion, Superhuman Docs (formerly Coda), and Obsidian can store far more than a quick note, but they also ask the user to build a system. Meeting notes, lists, drafts, and reading highlights often need faster capture instead.
 
 For long-term note-taking, an app needs to open quickly, sync reliably, and stay out of the way. The apps in this list are all free, not time-limited trials or "free up to X notes."
 

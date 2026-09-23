@@ -22,7 +22,7 @@ c = Canvas()
 panel_table(c, ACCENT, "Storage and privacy by inbox",
     ["Service", "Free storage", "Encrypted"],
     [
-        ("Gmail",       [("15GB shared", GOOD),   ("No", BAD)]),
+        ("Gmail",       [("Up to 15GB", GOOD),   ("No", BAD)]),
         ("Proton Mail", [("1GB", WARN),           ("Yes", GOOD)]),
         ("Outlook.com", [("15GB", GOOD),          ("No", BAD)]),
         ("Zoho Mail",   [("5GB a user", NEUTRAL), ("No", BAD)]),
@@ -34,7 +34,7 @@ card_featured(
     initials = "Gm",
     name     = "Gmail",
     tagline  = "Best free email for most people",
-    note     = "15GB of shared storage and close ties to Docs, Drive, and Calendar",
+    note     = "Up to 15GB of shared storage and close ties to Docs, Drive, and Calendar",
 )
 
 card_grid(c, [

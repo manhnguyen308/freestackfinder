@@ -2,7 +2,7 @@
 title: "Free spreadsheet alternatives in 2026: Excel without a subscription"
 description: "Google Sheets, LibreOffice Calc, Zoho Sheet, and OnlyOffice compared for collaboration, offline work, and Excel file compatibility."
 date: "2026-04-23"
-lastmod: "2026-07-21"
+lastmod: "2026-09-13"
 draft: false
 weight: 74
 slug: "free-spreadsheet-alternatives"
@@ -46,7 +46,7 @@ Collaboration is the other dividing line. If three people edit the same tracker,
 Google Sheets is Google's browser-based spreadsheet application. It is available to personal Google Accounts and stores files in the account's shared Drive allowance.
 
 Google Sheets covers the everyday spreadsheet work most people do:
-- Spreadsheets stored in the [15 GB allowance shared by Drive, Gmail, and Photos](https://support.google.com/googleone/answer/9004014)
+- Spreadsheets stored in the [allowance of up to 15 GB shared by Drive, Gmail, and Photos](https://support.google.com/googleone/answer/9004014)
 - Full formula library including XLOOKUP, ARRAYFORMULA, LAMBDA, and QUERY functions
 - Pivot tables, charts, and conditional formatting
 - Real-time collaboration: multiple users editing simultaneously with live cursors
@@ -59,7 +59,7 @@ The limits show up with offline work and heavy Excel files:
 - Offline use requires enabling offline mode manually in Chrome: less direct than a desktop app
 - Large or formula-heavy workbooks can strain a browser, so test a representative copy before migrating
 - Some advanced Excel features (Power Query, Power Pivot, complex VBA macros) do not transfer
-- 15GB storage limit is shared with Gmail and Google Photos
+- The storage limit of up to 15GB is shared with Gmail and Google Photos, and accounts created since March 9, 2026 stay at 5GB until a phone number is verified
 
 Use Sheets for shared budgets, client trackers, content calendars, lightweight dashboards, and any spreadsheet that more than one person needs to update. It is also the natural choice for anyone already using Gmail, Google Drive, or Google Docs.
 

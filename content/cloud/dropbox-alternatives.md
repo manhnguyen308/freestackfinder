@@ -2,7 +2,7 @@
 title: "Dropbox alternatives with more free storage in 2026"
 description: "Find a Dropbox alternative for larger storage, document collaboration, Windows integration, or end-to-end encrypted files."
 date: "2026-04-08"
-lastmod: "2026-08-25"
+lastmod: "2026-09-21"
 draft: false
 weight: 35
 slug: "dropbox-alternatives"
@@ -20,14 +20,14 @@ author: "FreeStackFinder Team"
 
 ## Your storage job determines the alternative
 
-Dropbox Basic includes [2GB of storage](https://help.dropbox.com/plans/dropbox-basic). **MEGA** lists 20GB and client-side encryption, while a Google Account includes 15GB shared across Drive, Gmail, and Photos. **OneDrive** includes 5GB and integrates with Windows, and **Proton Drive** lists up to 5GB with end-to-end encryption. The official plan links beside each product below support those current limits. For a broader comparison, see our [free cloud storage guide](/cloud/free-cloud-storage-comparison/).
+Dropbox Basic includes [2GB of storage](https://help.dropbox.com/plans/dropbox-basic-faq). **MEGA** lists 20GB and client-side encryption, while a Google Account includes up to 15GB shared across Drive, Gmail, and Photos. **OneDrive** includes 5GB and integrates with Windows, and **Proton Drive** lists up to 5GB with end-to-end encryption. The official plan links beside each product below support those current limits. For a broader comparison, see our [free cloud storage guide](/cloud/free-cloud-storage-comparison/).
 
 Before picking by storage size alone, separate three different jobs: **sync** keeps a folder identical across devices; **storage** parks files in the cloud; **backup** keeps multiple historical copies you can restore from after a mistake or ransomware event. Every tool below handles sync and storage well: none of them are real backup tools. If you delete a file locally and it syncs, the cloud copy is gone too. Keep that distinction in mind as you read the tradeoffs.
 
 
 ## A 2 GB sync folder fills quickly
 
-Dropbox's desktop client keeps a familiar sync folder across devices, but the [Basic plan's 2GB allowance](https://help.dropbox.com/plans/dropbox-basic) leaves little room for photos or active media projects. Referral bonuses may expand an individual account, but they are not part of the base allowance and should not drive a comparison.
+Dropbox's desktop client keeps a familiar sync folder across devices, but the [Basic plan's 2GB allowance](https://help.dropbox.com/plans/dropbox-basic-faq) leaves little room for photos or active media projects. Referral bonuses may expand an individual account, but they are not part of the base allowance and should not drive a comparison.
 
 Dropbox still handles desktop sync, shareable links, and version history well. The problem is the 2GB free allowance. A phone backup or one active media project can consume it, so the alternatives below trade Dropbox's familiar client for more space, stronger privacy, or closer ties to an office suite.
 
@@ -43,15 +43,15 @@ Free accounts use a variable transfer quota, so MEGA is less predictable for pub
 
 ### 2. Google Drive: best for productivity and collaboration
 
-Google's cloud storage and productivity suite is included with every Google Account. The [15GB allocation is shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014).
+Google's cloud storage and productivity suite is included with every Google Account. Accounts get [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). Accounts created since March 9, 2026 start with 5GB and unlock the other 10GB after phone-number verification.
 
-Google Drive competes less on raw storage than on what comes with the account. The 15GB pool sits beside Docs, Sheets, Slides, Forms, desktop sync, mobile apps, and search across file contents. Pick it when shared documents matter more than encrypted storage. If you need help choosing Office tools that work alongside Drive, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
+Google Drive competes less on raw storage than on what comes with the account. That shared pool sits beside Docs, Sheets, Slides, Forms, desktop sync, mobile apps, and search across file contents. Pick it when shared documents matter more than encrypted storage. If you need help choosing Office tools that work alongside Drive, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
 The tradeoffs sit on the privacy and accounting side. Drive does not provide personal end-to-end encryption for ordinary files, and the shared storage pool means an established inbox or photo library can leave much less than 15GB for Drive.
 
-A natural pick for: anyone already using Gmail (the 15GB is shared anyway), users who want cloud storage alongside productivity tools, and teams that collaborate in documents more than they sync raw files.
+A natural pick for: anyone already using Gmail (the storage pool is shared anyway), users who want cloud storage alongside productivity tools, and teams that collaborate in documents more than they sync raw files.
 
-Check the account's storage dashboard before migrating. Gmail, Google Photos, and Drive all draw from the same 15GB pool, so the usable space depends on what is already stored there.
+Check the account's storage dashboard before migrating. Gmail, Google Photos, and Drive all draw from the same pool, so the usable space depends on what is already stored there.
 
 [Try Google Drive Free →](https://drive.google.com)
 
@@ -62,7 +62,7 @@ Microsoft's cloud storage service is integrated with supported Windows versions.
 
 OneDrive is included with many supported Windows installations and integrates with File Explorer, although it can be removed, disabled, or absent on a managed device. Signing in with a Microsoft account can activate the 5GB sync folder. You also get iOS and Android apps, web access through Microsoft 365 for the web, shareable links, and version history. The workflow is familiar to Dropbox users, but selective sync and organization differ.
 
-OneDrive Free provides 5GB, compared with Google Drive's 15GB and MEGA's 20GB. Full desktop Office apps and advanced collaboration controls require a paid Microsoft 365 plan. OneDrive offers more room than Dropbox Basic, but a collection that is already growing past 2GB may soon outgrow 5GB as well.
+OneDrive Free provides 5GB, compared with Google Drive's maximum of 15GB and MEGA's 20GB. Full desktop Office apps and advanced collaboration controls require a paid Microsoft 365 plan. OneDrive offers more room than Dropbox Basic, but a collection that is already growing past 2GB may soon outgrow 5GB as well.
 
 The zero-setup advantage makes most sense for Windows-first users with a modest file footprint who value not adding another sync client to their machine.
 
@@ -100,11 +100,11 @@ A natural fit for small businesses whose cloud storage use is primarily document
 | Service | Free storage | Desktop sync | E2E encryption | Best for |
 |---------|-------------|-------------|----------------|---------|
 | [MEGA](https://mega.io/pricing) | 20GB | Yes | Yes | Larger encrypted storage |
-| [Google Drive](https://support.google.com/googleone/answer/9004014) | 15GB shared | Yes | No | Productivity and collaboration |
+| [Google Drive](https://support.google.com/googleone/answer/9004014) | Up to 15GB shared | Yes | No | Productivity and collaboration |
 | [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans) | 5GB | Built into Windows | No | Windows file sync |
 | [Box Free](https://www.box.com/pricing/individual) | 10GB | Yes | No | Business documents |
 | [Proton Drive](https://proton.me/drive/pricing) | Up to 5GB | Yes | Yes | Privacy-first storage |
-| [Dropbox Basic](https://help.dropbox.com/plans/dropbox-basic) | 2GB | Yes | No | Existing Dropbox workflows |
+| [Dropbox Basic](https://help.dropbox.com/plans/dropbox-basic-faq) | 2GB | Yes | No | Existing Dropbox workflows |
 
 
 ## Common mistakes when choosing free cloud storage

@@ -2,7 +2,7 @@
 title: "Free backup software for local and cloud copies in 2026"
 description: "Build a no-cost backup plan with scheduled local copies, encrypted offsite storage, and recovery options suited to your devices."
 date: "2026-04-12"
-lastmod: "2026-08-23"
+lastmod: "2026-09-14"
 draft: false
 weight: 58
 slug: "free-backup-software"
@@ -55,7 +55,7 @@ For the cloud destinations that pair best with backup tools, see our [free cloud
 
 ### 1. Google Drive: best free offsite copy for documents and active folders
 
-Google Drive for desktop can synchronize selected folders and send photos and videos to a Google account. The account includes [15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014), so check existing usage before choosing folders.
+Google Drive for desktop can synchronize selected folders and send photos and videos to a Google account. The account includes [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014), and accounts created since March 9, 2026 stay at 5GB until a phone number is verified. Check existing usage before choosing folders.
 
 This is useful for current documents that need browser and mobile access. It is not a full-system backup, and synchronized deletions or overwrites need to be caught inside Google's current recovery window. Use a separate backup job when retention is important.
 

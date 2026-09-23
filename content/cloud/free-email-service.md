@@ -2,7 +2,7 @@
 title: "Free email services in 2026: privacy, storage, and access"
 description: "Choose Gmail, Proton Mail, Outlook, Yahoo, Zoho Mail, or Tuta by privacy model, storage, app support, and custom-domain needs."
 date: "2026-04-06"
-lastmod: "2026-08-21"
+lastmod: "2026-09-18"
 draft: false
 weight: 68
 slug: "free-email-service"
@@ -31,7 +31,7 @@ All free email services let you send and receive email. The real differences are
 
 Privacy differs by provider. Google says [Gmail does not scan or read messages to show ads](https://support.google.com/mail/answer/10434152); optional smart features can use email content when enabled. Microsoft similarly says it [does not use personal email content to target ads](https://support.microsoft.com/en-US/Outlook/about-ads-in-outlook). Proton Mail and Tuta protect mail stored in their systems with zero-access encryption and provide end-to-end encryption in supported exchanges.
 
-Storage allocations are not directly comparable. A Google Account includes [15GB shared across Gmail, Drive, and Photos](https://support.google.com/googleone/answer/9004014), while [Proton Mail Free lists up to 1GB for mail](https://proton.me/mail/pricing). Existing files and attachments can substantially reduce the space available in a shared pool.
+Storage allocations are not directly comparable. A Google Account includes [up to 15GB shared across Gmail, Drive, and Photos](https://support.google.com/googleone/answer/9004014), while [Proton Mail Free lists up to 1GB for mail](https://proton.me/mail/pricing). Existing files and attachments can substantially reduce the space available in a shared pool.
 
 Gmail connects directly with Docs, Sheets, Calendar, and Meet. That integration is useful when those tools already form the rest of your workflow.
 
@@ -48,11 +48,11 @@ There is also a personal-versus-business split. A personal inbox can focus on co
 
 Gmail is Google's free email service and is included with a Google Account.
 
-The account's [15GB allocation is shared across Gmail, Google Drive, and Google Photos](https://support.google.com/googleone/answer/9004014). Gmail also includes mobile apps, message search, labels and filters, Google Meet integration, offline access, two-step verification, and close ties to Docs, Sheets, Calendar, and Drive.
+The account's [allocation of up to 15GB is shared across Gmail, Google Drive, and Google Photos](https://support.google.com/googleone/answer/9004014). Accounts created since March 9, 2026 start with 5GB and unlock the other 10GB after phone-number verification. Gmail also includes mobile apps, message search, labels and filters, Google Meet integration, offline access, two-step verification, and close ties to Docs, Sheets, Calendar, and Drive.
 
 The privacy and business limits are the trade-off. Optional smart features can use mail content to personalize features when enabled, but [Google says it does not scan or read Gmail messages to show ads](https://support.google.com/mail/answer/10434152). Storage is shared with Drive and Photos, custom-domain email requires a paid Workspace plan, and ordinary Gmail messages are not end-to-end encrypted by default.
 
-Gmail fits users who want 15GB of shared storage, mature mobile apps, strong search, and direct integration with Docs and Drive. Those conveniences make it the easiest default in this list if Google's data model is acceptable.
+Gmail fits users who want up to 15GB of shared storage, mature mobile apps, strong search, and direct integration with Docs and Drive. Those conveniences make it the easiest default in this list if Google's data model is acceptable.
 
 [Get Gmail free →](https://gmail.com)
 
@@ -113,7 +113,7 @@ Tuta fits people who want encrypted subject lines and an encrypted calendar on t
 
 | Service | Free storage | Custom domain | E2E encrypted | Best for |
 |---------|-------------|--------------|--------------|---------|
-| Gmail | 15GB (shared) | ❌ Paid only | ❌ No | Most users: best overall |
+| Gmail | Up to 15GB (shared) | ❌ Paid only | ❌ No | Most users: best overall |
 | Proton Mail | 1GB | ❌ Paid only | ✅ Yes | Privacy-first users |
 | Outlook.com | 15GB | ❌ Paid only | ❌ No | Microsoft app users |
 | Zoho Mail | 5GB per user, up to 5 users | ✅ Selected regions | ❌ No | Small business custom domain |
@@ -145,7 +145,7 @@ Aliases are another reason to think ahead. A single personal address is easy unt
 
 ## Choose convenience, privacy, or domains
 
-Choose **Gmail** for 15GB of shared storage and direct integration with Docs and Drive. Choose **Proton Mail** when end-to-end encryption matters more than storage. Among the providers compared here, **Zoho Mail** supports a custom domain on its free plan for a small business. Those three choices cover convenience, privacy, and business identity without pretending one provider wins every category.
+Choose **Gmail** for up to 15GB of shared storage and direct integration with Docs and Drive. Choose **Proton Mail** when end-to-end encryption matters more than storage. Among the providers compared here, **Zoho Mail** supports a custom domain on its free plan for a small business. Those three choices cover convenience, privacy, and business identity without pretending one provider wins every category.
 
 See the [free email signature maker guide](/cloud/free-email-signature/) for tools that generate reusable HTML signatures without design software.
 

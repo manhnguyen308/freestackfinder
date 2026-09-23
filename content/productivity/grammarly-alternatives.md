@@ -2,7 +2,7 @@
 title: "Free Grammarly alternatives in 2026: grammar and writing tools"
 description: "See where LanguageTool, ProWritingAid, Hemingway Editor, and Google Docs fit for grammar, style, and readability checks."
 date: "2026-03-20"
-lastmod: "2026-07-29"
+lastmod: "2026-09-15"
 draft: false
 weight: 55
 slug: "grammarly-alternatives"
@@ -95,7 +95,7 @@ What you can do for free:
 
 Where the paywall sits:
 - No grammar or spelling checking
-- The desktop app (which adds Word and Google Docs export) requires a one-time purchase
+- The [desktop app](https://hemingwayapp.com/desktop), which adds offline editing and Word export, requires a one-time purchase
 - No browser extension: you must paste text into the Hemingway web editor
 
 Hemingway fits a final readability pass on prose that needs shorter sentences and less clutter. It does not replace a grammar checker.

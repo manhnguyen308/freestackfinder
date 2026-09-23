@@ -1,8 +1,8 @@
 ---
 title: "Free Notion alternatives in 2026: offline notes and wiki options"
-description: "Choose among Obsidian, Logseq, Anytype, Coda, and Joplin by local storage, collaboration, sync, and workspace structure."
+description: "Choose among Obsidian, Logseq, Anytype, Superhuman Docs (formerly Coda), and Joplin by local storage, collaboration, sync, and workspace structure."
 date: "2026-03-26"
-lastmod: "2026-08-08"
+lastmod: "2026-09-19"
 draft: false
 weight: 70
 slug: "notion-alternatives"
@@ -108,16 +108,16 @@ Anytype uses a block editor, database views, and page hierarchy while storing da
 [Try Anytype free →](https://anytype.io)
 
 
-### 4. Coda free tier: best Notion replacement for document-centric teams
+### 4. Superhuman Docs free tier: best Notion replacement for document-centric teams
 
-Coda is a cloud document platform that combines documents, spreadsheets, and databases. Its free tier gives document-focused teams more room than Notion in several areas.
+Superhuman Docs is a cloud document platform that combines documents, spreadsheets, and databases. It was called Coda until July 2026, when Superhuman [renamed the product](https://help.superhuman.com/hc/en-us/articles/46210093285773-What-s-changing-Coda-becomes-Superhuman-Docs) and kept existing docs and plans in place. Its free tier gives document-focused teams more room than Notion in several areas.
 
 What you get for free:
 - Personal docs have no page or object limit
 - Tables, views, and basic automation
 - Doc sharing and collaboration
-- Coda AI features (limited on free)
-- Available in browser and as a mobile app
+- A free trial of Docs AI, which is in beta
+- Available in the browser, on mobile, and in a Mac desktop app
 
 Where the free tier ends:
 - Shared free docs are limited to 50 objects and 1,000 table rows
@@ -127,9 +127,9 @@ Where the free tier ends:
 
 Strong fit for: Small teams who want a Notion-like tool for collaborative documents without hitting block limits, and users who primarily use Notion for documents and wikis rather than personal notes.
 
-Coda treats reports, wiki pages, and project briefs as documents first. Its tables sit inside those documents and behave more like spreadsheets than Notion databases. Personal documents have different limits from shared ones, so check Coda's [free doc limits](https://help.coda.io/hc/en-us/articles/39555760015757-Overview-Doc-limits) before moving a team workspace.
+Superhuman Docs treats reports, wiki pages, and project briefs as documents first. Its tables sit inside those documents and behave more like spreadsheets than Notion databases. Personal documents have different limits from shared ones, so check the [free doc limits](https://help.superhuman.com/hc/en-us/articles/46210176318477-Overview-Doc-limits) before moving a team workspace.
 
-[Try Coda free →](https://coda.io)
+[Try Superhuman Docs free →](https://superhuman.com/docs)
 
 
 ### 5. Joplin: best free open-source note-taking for Evernote and Notion refugees
@@ -164,7 +164,7 @@ Joplin occupies a different category from the other tools in this list. It is a 
 | Obsidian | Local files | ✅ Full | ⚠️ Limited | Personal knowledge base, writers |
 | Logseq | Local files | ✅ Full | ⚠️ Limited | Networked thinking, power users |
 | Anytype | Local + encrypted sync | ✅ Full | ✅ Yes | Notion-like interface, privacy |
-| Coda | Cloud | ❌ No | ✅ Strong | Team docs, wikis |
+| Superhuman Docs | Cloud | ❌ No | ✅ Strong | Team docs, wikis |
 | Joplin | Local + your cloud | ✅ Full | ⚠️ Limited | Simple note-taking, Evernote replacement |
 | Notion free | Cloud | ⚠️ Manual page downloads | ✅ Yes | Solo workspaces and guest sharing |
 

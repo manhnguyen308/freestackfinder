@@ -1,7 +1,7 @@
 ---
 title: "Free Microsoft Office alternatives in 2026: no subscription needed"
 date: "2026-04-07"
-lastmod: "2026-09-20"
+lastmod: "2026-09-22"
 draft: false
 description: "Free Microsoft Office alternatives for Word, Excel, and PowerPoint: Google Docs for collaboration, LibreOffice offline, OnlyOffice for .docx fidelity."
 slug: "microsoft-office-alternatives"
@@ -42,7 +42,7 @@ rows:
   - tool: Google Workspace
     best_for: Most people, collaborators
     free: Docs, Sheets, Slides free in a browser
-    limit: 15 GB storage shared across Google services
+    limit: Up to 15 GB storage shared across Google services
   - tool: LibreOffice
     best_for: Offline desktop users
     free: Full desktop suite, no limits
@@ -96,7 +96,7 @@ What you can do without paying:
 - Google Docs (Word equivalent): unlimited documents
 - Google Sheets (Excel equivalent): full formula support including VLOOKUP, XLOOKUP, pivot tables
 - Google Slides (PowerPoint equivalent)
-- Google Forms, Google Drive (15GB free storage)
+- Google Forms, Google Drive (up to 15GB free storage)
 - Real-time collaboration with multiple people simultaneously
 - Access from any browser, smartphone, or tablet
 - Works with .docx, .xlsx, and .pptx: can import and export Microsoft formats
@@ -105,7 +105,7 @@ What you can do without paying:
 The practical free-plan limit:
 - Missing Excel features such as Power Query and VBA, though ordinary formulas and charts are covered
 - No desktop app for Windows/Mac: browser-only (or mobile app)
-- 15GB storage is shared across Gmail, Drive, and Photos: can fill up
+- Up to 15GB of storage is shared across Gmail, Drive, and Photos, and accounts created since March 9, 2026 stay at 5GB until a phone number is verified
 
 {{< screenshot src="/img/screenshots/office-alternatives/gdocs-shared-storage.png" alt="Google Drive storage screen showing 40.2 MB of 15 GB used, with Drive and Gmail labels" caption="This account shows 40.2 MB of its 15 GB allowance used. Drive and Gmail are listed in the storage breakdown." >}}
 

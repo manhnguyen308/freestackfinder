@@ -2,7 +2,7 @@
 title: "Free password managers in 2026: sync, sharing, and recovery"
 description: "Find a free password manager by comparing device sync, local vaults, sharing, recovery, passkeys, and current plan limits."
 date: "2026-03-27"
-lastmod: "2026-08-10"
+lastmod: "2026-09-16"
 draft: false
 weight: 80
 slug: "free-password-managers"
@@ -109,7 +109,7 @@ NordPass fits users who mainly access passwords from one device and want guided 
 
 ## Dashlane no longer has a free plan
 
-Dashlane discontinued its Free plan on September 16, 2025. Existing free users could export their data after that date, but could no longer view, edit, or add vault items; Dashlane set September 16, 2026 as the export deadline. Read [Dashlane's transition notice](https://www.dashlane.com/blog/dashlane-free-ending) if you still have data in an old free account. Dashlane is therefore not ranked as a current free password manager.
+Dashlane discontinued its Free plan on September 16, 2025. Former free users could export their data after that date, but could no longer view, edit, or add vault items. Dashlane's [transition notice](https://www.dashlane.com/blog/dashlane-free-ending) gave them until September 16, 2026, now past, to upgrade or export to keep access. Dashlane is therefore not ranked as a current free password manager.
 
 ## A note on LastPass
 

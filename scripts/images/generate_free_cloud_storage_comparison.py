@@ -23,7 +23,7 @@ panel_table(c, ACCENT, "Free space and the limit behind it",
     ["Service", "Free space", "Watch for"],
     [
         ("MEGA",         [("20GB", GOOD),        ("Transfer caps", WARN)]),
-        ("Google Drive", [("15GB shared", GOOD), ("Shared quota", WARN)]),
+        ("Google Drive", [("Up to 15GB", GOOD), ("Shared quota", WARN)]),
         ("Box",          [("10GB", NEUTRAL),     ("250MB per file", WARN)]),
         ("OneDrive",     [("5GB", NEUTRAL),      ("Small allowance", WARN)]),
         ("Proton Drive", [("Up to 5GB", NEUTRAL), ("Fewer apps", WARN)]),
@@ -40,7 +40,7 @@ card_featured(
 
 card_grid(c, [
     ("#22c55e", "Me", "MEGA",         "20GB with a separate transfer allowance"),
-    ("#3b82f6", "GD", "Google Drive", "15GB shared with Gmail and Photos"),
+    ("#3b82f6", "GD", "Google Drive", "Up to 15GB shared with Gmail and Photos"),
     ("#ec4899", "Pr", "Proton Drive", "Up to 5GB, end-to-end encrypted"),
     ("#8b5cf6", "Bx", "Box",          "10GB with a 250MB upload cap per file"),
 ])

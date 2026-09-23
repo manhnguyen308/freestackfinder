@@ -5,9 +5,11 @@ Output : static/img/illustrator-alternatives.webp  (1200x630 px)
 Silo   : Creative   Accent: #f97316
 
 Tool list and export formats come from
-content/creative/illustrator-alternatives.md (Inkscape, Vectr, LibreOffice Draw,
-SVG-edit, Canva Free). The previous image showed Gravit Designer, which the
-article does not cover, and an Adobe-style "Ai" mark.
+content/creative/illustrator-alternatives.md (Inkscape, LibreOffice Draw,
+SVG-edit, Canva Free). Vectr was dropped after it moved to paid plans only; the
+fourth grid cell repeats the article's advice on when to keep Illustrator. The
+previous image showed Gravit Designer, which the article does not cover, and an
+Adobe-style "Ai" mark.
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -102,17 +104,17 @@ card_featured(
 )
 
 card_grid(c, [
-    ("#3b82f6", "Ve", "Vectr",            "Simple vector graphics in a browser"),
     ("#22c55e", "LD", "LibreOffice Draw", "Diagrams and page layouts"),
     ("#8b5cf6", "SE", "SVG-edit",         "Quick SVG edits with no account needed"),
     ("#ec4899", "Ca", "Canva Free",       "Templates with basic shapes only"),
+    ("#64748b", "Il", "Keep Illustrator", "When .ai handoffs or Adobe plugins matter"),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────
 card_bar(
     c, ACCENT,
     title    = "Free Adobe Illustrator alternatives in 2026",
-    subtitle = "Inkscape  ·  Vectr  ·  LibreOffice Draw  ·  SVG-edit  ·  Canva Free",
+    subtitle = "Inkscape  ·  LibreOffice Draw  ·  SVG-edit  ·  Canva Free",
 )
 
 c.save("illustrator-alternatives.webp")

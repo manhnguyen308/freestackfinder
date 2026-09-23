@@ -2,7 +2,7 @@
 title: "Free invoicing software in 2026: six options for freelancers"
 description: "Wave, Zoho Invoice, Invoice Ninja, Square, PayPal, and Stripe compared by client limits, invoice caps, bookkeeping, and payment fees."
 date: "2026-04-13"
-lastmod: "2026-08-13"
+lastmod: "2026-09-10"
 draft: false
 weight: 74
 slug: "free-invoicing-software"
@@ -140,7 +140,7 @@ The trade-off is cost and depth. PayPal charges when an invoice is paid, and rat
 
 PayPal states that there is [no fee to create or send an invoice](https://www.paypal.com/us/business/accept-payments/invoice); payment processing fees apply when a customer pays. It fits a seller whose customers already ask to pay through PayPal or Venmo.
 
-[Try PayPal Invoicing free →](https://www.paypal.com/us/business/invoicing)
+[Try PayPal Invoicing free →](https://www.paypal.com/us/business/accept-payments/invoice)
 
 
 ### 6. Stripe Invoicing: best for technical and developer-led businesses

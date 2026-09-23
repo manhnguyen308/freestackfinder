@@ -2,7 +2,7 @@
 title: "Free cloud storage in 2026: space, privacy, and sync"
 description: "Choose free cloud storage by usable space, shared quotas, upload limits, transfer caps, privacy, and everyday workflow."
 date: "2026-03-16"
-lastmod: "2026-08-26"
+lastmod: "2026-09-20"
 draft: false
 weight: 75
 slug: "free-cloud-storage-comparison"
@@ -22,7 +22,7 @@ Capacity matters, but it is only the first filter. A large archive, a shared doc
 
 ## Decide whether you need sync, collaboration, or privacy
 
-For capacity, MEGA lists 20GB. Google Drive combines its shared 15GB account allowance with Docs, Sheets, Slides, and live collaboration. Proton Drive lists up to 5GB with end-to-end encryption. The official plan sources appear below each profile.
+For capacity, MEGA lists 20GB. Google Drive combines a shared account allowance of up to 15GB with Docs, Sheets, Slides, and live collaboration. Proton Drive lists up to 5GB with end-to-end encryption. The official plan sources appear below each profile.
 
 Dropbox Basic lists only 2GB. It remains useful when an existing shared folder or client workflow matters more than capacity.
 
@@ -38,7 +38,7 @@ rows:
     best_for: A larger personal allowance
     limit: Transfer limits restrict heavy use
   - tool: Google Drive
-    free_storage: 15GB shared
+    free_storage: Up to 15GB shared
     best_for: Everyday work and collaboration
     limit: Shared across Drive, Gmail, and Photos
   - tool: Box
@@ -63,7 +63,7 @@ rows:
     limit: 2GB free allowance
 {{< /comparison-table >}}
 
-Limits checked September 5, 2026: [MEGA](https://mega.io/pricing), [Google storage](https://support.google.com/googleone/answer/9004014), [Box](https://www.box.com/pricing/individual), [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), [Proton Drive](https://proton.me/drive/pricing), [iCloud](https://www.apple.com/icloud/), and [Dropbox Basic](https://help.dropbox.com/plans/dropbox-basic).
+Limits checked September 5, 2026: [MEGA](https://mega.io/pricing), [Google storage](https://support.google.com/googleone/answer/9004014), [Box](https://www.box.com/pricing/individual), [OneDrive](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), [Proton Drive](https://proton.me/drive/pricing), [iCloud](https://www.apple.com/icloud/), and [Dropbox Basic](https://help.dropbox.com/plans/dropbox-basic-faq).
 
 
 ## Shared quotas change usable space
@@ -89,11 +89,11 @@ MEGA's [free plan lists 20GB](https://mega.io/pricing), with desktop and mobile 
 Use MEGA for a larger personal file store or secondary encrypted archive. Google Drive is a better fit when several people need to edit the same documents in a browser.
 
 
-### 2. Google Drive: 15GB shared with mail and photos
+### 2. Google Drive: up to 15GB shared with mail and photos
 
 Google Drive is Google's cloud storage tied to Gmail, Google Photos, and the free Docs/Sheets/Slides suite.
 
-A Google Account includes [15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). Browser, desktop, and mobile access come alongside Docs, Sheets, Slides, Forms, sharing, and live editing. The available Drive capacity may be much smaller on an established account because mail and photos use the same pool.
+A Google Account includes [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). Accounts created since March 9, 2026 start with 5GB and unlock the other 10GB after phone-number verification. Browser, desktop, and mobile access come alongside Docs, Sheets, Slides, Forms, sharing, and live editing. The available Drive capacity may be much smaller on an established account because mail and photos use the same pool.
 
 Choose it for shared documents and browser collaboration, not for end-to-end encrypted personal storage.
 
@@ -128,13 +128,13 @@ Because those jobs share one pool, a device backup or photo library can leave li
 
 ### 7. Dropbox: mature sync, weak free storage
 
-Dropbox is a mature sync service whose [Basic plan includes 2GB](https://help.dropbox.com/plans/dropbox-basic), desktop and mobile sync, and file sharing. Its version and deletion recovery window depends on the current plan terms.
+Dropbox is a mature sync service whose [Basic plan includes 2GB](https://help.dropbox.com/plans/dropbox-basic-faq), desktop and mobile sync, and file sharing. Its version and deletion recovery window depends on the current plan terms.
 
 That allowance makes Dropbox a secondary sync account rather than a primary free drive. Keep it when an existing shared folder or client workflow makes switching more disruptive than the storage limit.
 
 If you like Dropbox's workflow but not its free limits, see our full guide to [Dropbox alternatives](/cloud/dropbox-alternatives/).
 
-[Review Dropbox Basic](https://help.dropbox.com/plans/dropbox-basic)
+[Review Dropbox Basic](https://help.dropbox.com/plans/dropbox-basic-faq)
 
 
 ## When paid cloud storage becomes practical

@@ -2,7 +2,7 @@
 title: "Free email signature makers for Gmail, Outlook, and Apple Mail"
 description: "Choose a free signature maker by mail-client compatibility, branding, hosted images, editing needs, and provider attribution."
 date: "2026-04-30"
-lastmod: "2026-09-01"
+lastmod: "2026-09-09"
 draft: false
 weight: 65
 slug: "free-email-signature"
@@ -115,7 +115,7 @@ The main difference is the direct email client connection. Most free tools gener
 
 WiseStamp is one of the oldest and best-known email signature tools. WiseStamp has a larger template library than most alternatives and supports many social icons, custom fields, and promotional banners.
 
-WiseStamp [does not currently offer a permanent free version](https://support.wisestamp.com/hc/en-us/articles/30618621206429-WiseStamp-Plans-and-Upgrades). Its 14-day trial does not require a credit card and is intended for evaluating the templates, installation, and management workflow.
+WiseStamp [does not currently offer a permanent free version](https://www.wisestamp.com/pricing/). Its 14-day trial does not require a credit card and is intended for evaluating the templates, installation, and management workflow.
 
 Use the trial only when you are considering a paid WiseStamp plan. HubSpot or MySignature is a better match when an ongoing free signature is the requirement.
 

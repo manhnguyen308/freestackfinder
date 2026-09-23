@@ -21,7 +21,7 @@ ACCENT = "#6366f1"   # Productivity silo, indigo
 c = Canvas()
 
 x0, y0, x1, y1 = panel_list(c, "Office suites and their main limit", [
-    ("#3b82f6", "Google Workspace",   "Browser collaboration",        "15 GB shared",     WARN),
+    ("#3b82f6", "Google Workspace",   "Browser collaboration",        "Up to 15 GB",      WARN),
     ("#22c55e", "LibreOffice",        "Offline desktop files",        "No live co-editing", WARN),
     ("#06b6d4", "OnlyOffice Desktop", "Heavy .docx compatibility",    "Fewer add-ons",    WARN),
     ("#ef4444", "WPS Office",         "Office-like interface",        "Upsell prompts",   WARN),
@@ -36,7 +36,7 @@ card_featured(
     initials = "GD",
     name     = "Google Docs, Sheets, Slides",
     tagline  = "Best for collaboration",
-    note     = "Free in a browser, with 15 GB of storage shared across Google services",
+    note     = "Free in a browser, with up to 15 GB of storage shared across Google services",
 )
 
 card_grid(c, [

@@ -24,7 +24,7 @@ x0, y0, x1, y1 = card_window(c, "Free storage by service")
 
 rows = [
     ("MEGA",          20, "20GB",             "#22c55e"),
-    ("Google Drive",  15, "15GB shared",      "#3b82f6"),
+    ("Google Drive",  15, "Up to 15GB shared", "#3b82f6"),
     ("Box Free",      10, "10GB",             "#8b5cf6"),
     ("OneDrive",       5, "5GB",              "#eab308"),
     ("Proton Drive",   5, "Up to 5GB",        "#ec4899"),
@@ -52,7 +52,7 @@ card_featured(
 )
 
 card_grid(c, [
-    ("#3b82f6", "GD", "Google Drive", "15GB shared across Drive, Gmail, and Photos"),
+    ("#3b82f6", "GD", "Google Drive", "Up to 15GB shared across Drive, Gmail, and Photos"),
     ("#eab308", "OD", "OneDrive",     "5GB with sync built into Windows"),
     ("#ec4899", "Pr", "Proton Drive", "Up to 5GB, end-to-end encrypted"),
     ("#8b5cf6", "Bx", "Box Free",     "10GB for business documents"),

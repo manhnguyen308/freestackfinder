@@ -2,7 +2,7 @@
 title: "Free Microsoft Visio alternatives in 2026"
 description: "diagrams.net, Lucidchart, Miro, and Whimsical compared for file compatibility, collaboration, board limits, and diagram type."
 date: "2026-04-25"
-lastmod: "2026-08-02"
+lastmod: "2026-09-11"
 draft: false
 weight: 52
 slug: "free-visio-alternatives"
@@ -23,7 +23,7 @@ image: "/img/free-visio-alternatives.webp"
 author: "FreeStackFinder Team"
 ---
 
-Microsoft Visio is paid diagramming software with web and desktop plan options. A small team that needs standard flowcharts or network diagrams may not need its Microsoft 365 administration and Visio file workflow. Check [Microsoft's current Visio plans](https://www.microsoft.com/microsoft-365/visio/compare-visio-options) when price or desktop access determines the choice.
+Microsoft Visio is paid diagramming software with web and desktop plan options. A small team that needs standard flowcharts or network diagrams may not need its Microsoft 365 administration and Visio file workflow. Check [Microsoft's current Visio plans](https://www.microsoft.com/microsoft-365/visio/visio-plans-and-pricing) when price or desktop access determines the choice.
 
 Free diagramming tools now cover flowcharts, org charts, network diagrams, and entity relationship diagrams. The tradeoffs are document limits, storage caps, smaller template libraries, and weaker Visio file compatibility. Those limits matter more than the feature count for a team that exchanges diagrams with Visio users.
 

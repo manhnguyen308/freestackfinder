@@ -2,7 +2,7 @@
 title: "Free PDF editors in 2026: edit and sign without paying"
 description: "Most people pay for PDF software they barely use. PDFgear, Sejda, and PDF24 cover editing, signing, and merging for free. Here's what each one does."
 date: "2026-04-22"
-lastmod: "2026-07-19"
+lastmod: "2026-09-17"
 draft: false
 weight: 62
 slug: "free-pdf-editor-alternatives"
@@ -83,7 +83,7 @@ What the free tier handles:
 Where the free tier stops:
 - Some advanced AI-powered features are gated behind an account
 - The mobile app has fewer features than the desktop version
-- No cloud sync or web access: desktop install only
+- Full editing needs the desktop app; PDFgear's [browser tools](https://www.pdfgear.com/online-tools/) cover simpler one-off tasks
 
 The natural audience: People who regularly handle contracts, invoices, or forms and want a desktop editor without an Acrobat subscription.
 
@@ -174,7 +174,7 @@ For users who already have LibreOffice (see our [free spreadsheet alternatives g
 
 ### 5. Xodo: best for annotation and signing on mobile
 
-Xodo is a PDF annotation, form-filling, and signing tool available on Android, iOS, Windows, and in the browser. Focused on reviewing and signing workflows rather than content editing.
+Xodo is a PDF annotation, form-filling, and signing tool. Its free [Xodo PDF Reader](https://xodo.com/pdf-studio/free-pdf-reader) runs on Windows, macOS, Linux, iOS, and Android, and it focuses on reviewing and signing workflows rather than content editing.
 
 What the free tier handles:
 - Highlight, underline, strikethrough, and comment on PDFs
@@ -186,6 +186,7 @@ What the free tier handles:
 Where the free tier stops:
 - Limited text editing beyond adding annotations, not designed for editing existing PDF body text
 - Cloud sync requires account creation
+- The browser tools allow [one free action per day](https://xodo.com/pricing); unlimited web use requires a paid plan
 - Some advanced features require paid upgrade
 
 The natural audience: Users who primarily read, annotate, and sign PDFs rather than edit their content: common workflows for students reviewing documents, professionals signing contracts, and teams reviewing drafts.

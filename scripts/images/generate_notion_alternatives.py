@@ -5,7 +5,8 @@ Output : static/img/notion-alternatives.webp  (1200x630 px)
 Silo   : Productivity   Accent: #6366f1
 
 Storage and offline values come from the comparison table in
-content/productivity/notion-alternatives.md.
+content/productivity/notion-alternatives.md. Coda appears under its current name,
+Superhuman Docs (renamed July 2026).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ panel_table(c, ACCENT, "Where your notes live",
         ("Obsidian",    [("Local files", GOOD),   ("Full", GOOD)]),
         ("Logseq",      [("Local files", GOOD),   ("Full", GOOD)]),
         ("Anytype",     [("Local, sync", GOOD),   ("Full", GOOD)]),
-        ("Coda",        [("Cloud", NEUTRAL),      ("No", BAD)]),
+        ("Superhuman Docs", [("Cloud", NEUTRAL),  ("No", BAD)]),
         ("Joplin",      [("Your cloud", GOOD),    ("Full", GOOD)]),
         ("Notion free", [("Cloud", NEUTRAL),      ("Downloads", WARN)]),
     ])
@@ -41,14 +42,14 @@ card_featured(
 card_grid(c, [
     ("#22c55e", "Lq", "Logseq",  "Open-source outliner for linked notes"),
     ("#3b82f6", "Ay", "Anytype", "Block editor closer to Notion, encrypted sync"),
-    ("#ec4899", "Co", "Coda",    "Docs and wikis for document-centric teams"),
+    ("#ec4899", "SD", "Superhuman Docs", "Formerly Coda, docs and wikis for teams"),
     ("#06b6d4", "Jo", "Joplin",  "Open-source notes synced to your own cloud"),
 ])
 
 card_bar(
     c, ACCENT,
     title    = "Free Notion alternatives in 2026",
-    subtitle = "Obsidian  ·  Logseq  ·  Anytype  ·  Coda  ·  Joplin",
+    subtitle = "Obsidian  ·  Logseq  ·  Anytype  ·  Superhuman Docs  ·  Joplin",
 )
 
 c.save("notion-alternatives.webp")
