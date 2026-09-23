@@ -246,6 +246,8 @@ TEXT_MID = "#b4b9cc"
 GOOD     = "#22c55e"
 WARN     = "#eab308"
 BAD      = "#ef4444"
+NEUTRAL  = "#8a8fa8"
+INFO     = "#60a5fa"
 INK      = "#101116"          # text on the accent bar
 
 
@@ -363,6 +365,33 @@ def mix(hex_a, hex_b, t):
     return "#" + "".join(f"{round(a[i] + (b[i] - a[i]) * t):02x}" for i in range(3))
 
 
+def _lum(hex_c):
+    def ch(v):
+        v /= 255
+        return v / 12.92 if v <= 0.03928 else ((v + 0.055) / 1.055) ** 2.4
+    r, g, b = (int(hex_c[i:i + 2], 16) for i in (1, 3, 5))
+    return 0.2126 * ch(r) + 0.7152 * ch(g) + 0.0722 * ch(b)
+
+
+def contrast(a, b):
+    la, lb = sorted((_lum(a), _lum(b)), reverse=True)
+    return (la + 0.05) / (lb + 0.05)
+
+
+def on_color(bg):
+    """INK or white, whichever reads better on bg."""
+    return INK if contrast(INK, bg) >= contrast("#ffffff", bg) else "#ffffff"
+
+
+def accent_text(accent, bg=CARD_BG):
+    """Accent lightened just enough to reach 4.5:1 on a dark card."""
+    col, t = accent, 0.0
+    while contrast(col, bg) < 4.5 and t < 1:
+        t += 0.05
+        col = mix(accent, "#ffffff", t)
+    return col
+
+
 def initials_badge(c, cx, cy, r, color, initials, text_color="#ffffff"):
     c.circle(cx, cy, r, color)
     c.text(cx, cy, initials, r * 0.72, text_color, "bold", anchor="mm")
@@ -382,11 +411,11 @@ def card_featured(c, accent, initials, name, tagline, note):
     x0, y0, x1, y1 = RX0, FEAT2_Y0, RX1, FEAT2_Y1
     c.rect(x0, y0, x1, y1, CARD_BG, r=14, outline=mix(accent, CARD_BG, 0.55))
     c.rect(x0, y0 + 18, x0 + 5, y1 - 18, accent, r=2)
-    initials_badge(c, x0 + 60, y0 + 62, 36, accent, initials, INK)
+    initials_badge(c, x0 + 60, y0 + 62, 36, accent, initials, on_color(accent))
     tx = x0 + 114
     avail = x1 - tx - 22
     c.fit_text(tx, y0 + 20, name, 30, avail, TEXT_W, "bold")
-    c.fit_text(tx, y0 + 64, tagline, 19, avail, accent, "semibold")
+    c.fit_text(tx, y0 + 64, tagline, 19, avail, accent_text(accent), "semibold")
     c.para(tx, y0 + 96, note, 16, avail, TEXT_MID, max_lines=2)
 
 
@@ -402,7 +431,91 @@ def card_grid(c, items):
 
 
 def card_bar(c, accent, title, subtitle):
+    fg = on_color(accent)
     c.rect(0, BAR2_Y, W, H, accent)
-    c.text(M, BAR2_Y + 18, "FREESTACKFINDER.COM", 14, mix(INK, accent, 0.25), "bold")
-    c.fit_text(M, BAR2_Y + 36, title, 40, W - M * 2, INK, "bold")
-    c.fit_text(M, BAR2_Y + 96, subtitle, 19, W - M * 2, mix(INK, accent, 0.15), "semibold")
+    c.text(M, BAR2_Y + 18, "FREESTACKFINDER.COM", 14, mix(fg, accent, 0.25), "bold")
+    c.fit_text(M, BAR2_Y + 36, title, 40, W - M * 2, fg, "bold")
+    c.fit_text(M, BAR2_Y + 96, subtitle, 19, W - M * 2, mix(fg, accent, 0.15), "semibold")
+
+
+# ── Reusable left panels ──────────────────────────────────────────────────────
+def pill_colors(col):
+    return col, mix(col, WIN_BG, 0.78)
+
+
+def panel_table(c, accent, title, headers, rows, first_w=None):
+    """Window with a header row and up to six rows of status pills.
+
+    headers — column labels; the first is the row label column.
+    rows    — (label, [(text, colour), ...]) with one pill per extra column.
+    """
+    x0, y0, x1, y1 = card_window(c, title)
+    n = len(headers) - 1
+    first_w = first_w or (240 if n == 2 else 200 if n == 3 else 260)
+    col_w = (x1 - x0 - first_w) / n
+    cols = [x0 + first_w + k * col_w for k in range(n)]
+    c.fit_text(x0, y0, headers[0].upper(), 13, first_w - 12, TEXT_DIM, "semibold")
+    for k, h in enumerate(headers[1:]):
+        c.fit_text(cols[k], y0, h.upper(), 13, col_w - 8,
+                   accent_text(accent, WIN_BG) if k == n - 1 and h.lower() in ("pro", "paid") else TEXT_DIM,
+                   "semibold")
+    count = len(rows)
+    rh = min(62, (y1 - (y0 + 30)) / count)
+    ry = y0 + 30
+    for label, cells in rows:
+        c.rect(x0, ry, x1, ry + rh - 8, CARD_BG, r=8)
+        mid = ry + (rh - 8) / 2
+        c.fit_text(x0 + 16, mid, label, 17, first_w - 28, TEXT_W, "semibold", anchor="lm")
+        for k, (txt, col) in enumerate(cells):
+            fg, bg = pill_colors(col)
+            size = c.fit_size(txt, 13, col_w - 28, "semibold")
+            c.pill(cols[k] - 2, mid - 13, txt, size, fg, bg, h=26)
+        ry += rh
+    return x0, y0, x1, y1
+
+
+def note_card(c, accent, x0, y0, x1, y1, label, text):
+    """Card with an accent strip, a small label, and one or two lines of text."""
+    c.rect(x0, y0, x1, y1, CARD_BG, r=10)
+    c.rect(x0, y0 + 12, x0 + 4, y1 - 12, accent_text(accent), r=2)
+    if y1 - y0 >= 80:
+        c.text(x0 + 20, y0 + 16, label.upper(), 12, TEXT_DIM, "semibold")
+        c.para(x0 + 20, y0 + 38, text, 18, x1 - x0 - 40, TEXT_W, "semibold", max_lines=2)
+    else:
+        c.fit_text(x0 + 20, (y0 + y1) / 2, text, 17, x1 - x0 - 40, TEXT_W, "semibold", anchor="lm")
+
+
+def table_bottom(y0, count, y1):
+    """y just below the last row panel_table drew."""
+    rh = min(62, (y1 - (y0 + 30)) / count)
+    return y0 + 30 + rh * count - 8
+
+
+def panel_list(c, title, rows, section=None):
+    """Window with up to six rows: colour strip, name, note, optional pill.
+
+    rows — (colour, name, note, pill_text or None, pill_colour or None)
+    """
+    x0, y0, x1, y1 = card_window(c, title)
+    ry = y0
+    if section:
+        c.text(x0, y0, section.upper(), 13, TEXT_DIM, "semibold")
+        ry = y0 + 28
+    count = len(rows)
+    rh = min(62, (y1 - ry + 8) / count)
+    for col, name, note, ptxt, pcol in rows:
+        c.rect(x0, ry, x1, ry + rh - 8, CARD_BG, r=8)
+        c.rect(x0, ry + 10, x0 + 4, ry + rh - 18, col, r=2)
+        right = x1 - 14
+        if ptxt:
+            fg, bg = pill_colors(pcol)
+            w = c.pill(right, ry + (rh - 8) / 2 - 13, ptxt, 12.5, fg, bg, h=26, anchor="right")
+            right -= w + 12
+        avail = right - (x0 + 18)
+        if note and rh >= 52:
+            c.fit_text(x0 + 18, ry + (rh - 8) / 2 - 10, name, 16.5, avail, TEXT_W, "semibold", anchor="lm")
+            c.fit_text(x0 + 18, ry + (rh - 8) / 2 + 12, note, 13.5, avail, TEXT_DIM, anchor="lm")
+        else:
+            c.fit_text(x0 + 18, ry + (rh - 8) / 2, name, 16.5, avail, TEXT_W, "semibold", anchor="lm")
+        ry += rh
+    return x0, y0, x1, y1

@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-23
-**Current day:** 84b
+**Current day:** 84c
 
 ## Current state
 
@@ -12,7 +12,21 @@
 - GSC (2026-04-28): 4,640 impressions · 13 clicks · avg position 51.7 · CTR 0.3% over the last 3 months
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
-- Open image follow-up: four feature images are off-spec stock photos (`free-cloud-storage-comparison` 1200x800, `grammarly-alternatives` 1200x901, `microsoft-office-alternatives` 1200x800, `free-video-editing-software` 1200x800)
+- Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
+
+---
+
+### Day 84c - Feature images rebuilt for the remaining 42 articles
+
+- Date: 2026-09-23.
+- Files inspected: `CLAUDE.md`, `docs/IMAGE-GUIDELINES.md`, the headings, comparison tables, and opening decision paragraphs of all 42 non-Creative articles, and the existing generator scripts before replacing them.
+- Problem: the 42 non-Creative thumbnails used the old layout, with 10 to 13 px text that shrinks to about 3 px on an article card, Title Case titles, and dash punctuation. Four were off-spec stock photos (`free-cloud-storage-comparison` 1200x800, `grammarly-alternatives` 1200x901, `microsoft-office-alternatives` 1200x800, `free-video-editing-software` 1200x800). Seventeen articles had no generator script.
+- Files changed: `scripts/images/image_helpers.py`, 25 rewritten and 17 new generators in `scripts/images/`, 42 images in `static/img/`, and this log.
+- Helper changes: bar and badge text now pick dark or white by contrast (white on the Productivity indigo), accent taglines lighten until they reach 4.5:1 on the dark card, and new `panel_table`, `panel_list`, `note_card`, and `table_bottom` helpers build the left panel from article data. Creative output is byte-identical after the change.
+- Image content: every tool name, limit, count, and verdict is taken from the article's own headings or comparison table. Tagline wording follows the article's section verdicts. No model versions or catalog counts the articles do not state. Titles use sentence case with no dash punctuation. Cloud images use the cyan accent throughout. The Office image mentions the same-DOCX check, which is that article's own September 2026 evidence. No image carries a call to action for Canva or Grammarly.
+- Left panels vary by topic: status tables, ranked lists, bar charts (Zoom call limits, Dropbox free storage), and generic mock-ups with no product claims (video timeline, calendar week, Kanban board, flowchart, team chat).
+- Output: all 42 images are 1200x630 WebP, 37 to 55 KB.
+- Validation: every image was reviewed at full size, and each hub was checked in the browser. `git diff --check` passed. `python scripts/run_quality_checks.py --with-counts` passed 3/3 with 50 articles. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings. A local server served every card on all six hubs at 1200x630 with none broken. A string scan of the 42 generators found no dash punctuation.
 
 ---
 
