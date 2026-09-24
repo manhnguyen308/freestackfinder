@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85a
+**Current day:** 85b
 
 ## Current state
 
@@ -15,6 +15,17 @@
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+
+---
+
+### Day 85b - Dropbox alternatives feature image matched to the screenshots
+
+- Date: 2026-09-24. Scoped to the `dropbox-alternatives` feature image and its generator, `scripts/images/generate_dropbox_alternatives.py`. No article text changed.
+- Check: compared every figure in `static/img/dropbox-alternatives.webp` with the Day 85a screenshots. MEGA 20GB, Google Drive up to 15GB shared, Box 10GB, and Dropbox Basic 2GB matched.
+- Mismatch fixed: Proton Drive was drawn as a 5GB bar labeled "Up to 5GB", but the new account showed 0.00 GB of 2 GB. The bar now fills to 2GB with a faded extension to 5GB, labeled "2GB, up to 5GB" to match the article table. The card reads "2GB, up to 5GB after setup, end-to-end encrypted".
+- Partial mismatch fixed: OneDrive read "5GB", but its storage screen counts Outlook attachments in the same 5GB. The bar now reads "5GB shared", and the card reads "5GB shared with Outlook, sync built into Windows".
+- Open items: `free-cloud-storage-comparison` still says "Up to 5GB" for Proton Drive and plain "5GB" for OneDrive in both its article text and its feature image. That page has no first-hand evidence, so any correction there should use sourced wording without testing language. `static/img/Google-docs.png` (committed in `478367e`) is unreferenced and sits outside the screenshot folder convention; it awaits a placement decision. The Google 15GB new-account question from Day 85a is still open.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. `publish_checklist.py cloud dropbox-alternatives` passed 7/7. The feature image is 1200x630 WebP at 45.8 KB. `hugo --minify` (0.159.2) built 476 pages with no errors, and the built `public/img/dropbox-alternatives.webp` matches the regenerated file.
 
 ---
 
