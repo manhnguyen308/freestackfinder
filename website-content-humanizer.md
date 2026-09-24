@@ -217,7 +217,7 @@ Card descriptions:
 - Do not open by repeating the title. The card already shows it directly above the description.
 - Do not use announcement or chatbot phrasing ("Here's what each one does," "This guide covers") or an unsourced majority claim ("Most people pay for...").
 - Lead with a fact specific to the page and pass the portability test: if the sentence still works after swapping in another category's noun, rewrite it.
-- Before saving, read the other descriptions in the same silo. No two should share an opening word or sentence shape.
+- Before saving, read the other descriptions in the same silo. No two should share an opening word or sentence shape, and no sentence should repeat a phrase or claim from a neighboring card, in any position. If two cards make the same point about the same tool, keep it on the card where that tool is the lead and give the other card a different fact.
 - `scripts/validate_front_matter.py` warns on each of these patterns. A clean run does not prove a description is good, but a warning means it repeats a retired formula.
 
 Article openings:

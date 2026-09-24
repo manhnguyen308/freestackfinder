@@ -1,6 +1,6 @@
 ---
 title: "Free Adobe Premiere Pro alternatives in 2026"
-description: "Resolve replaces Premiere's editing and color work for solo editors. After Effects Dynamic Link has no free equivalent, and CapCut suits short social edits."
+description: "Resolve replaces Premiere's editing and color work for solo editors. Nothing free replaces After Effects Dynamic Link, so editors who rely on it should stay."
 date: "2026-03-25"
 lastmod: "2026-08-27"
 draft: false

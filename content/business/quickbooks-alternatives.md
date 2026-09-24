@@ -1,6 +1,6 @@
 ---
 title: "Free QuickBooks alternatives in 2026 for freelancers"
-description: "QuickBooks still earns its fee for payroll and inventory. A solo service business can keep books and invoices in Wave's free Starter plan instead."
+description: "QuickBooks still earns its fee for payroll and inventory. Without those, a solo business can leave once its accountant accepts a standard export."
 date: "2026-03-18"
 lastmod: "2026-08-12"
 draft: false

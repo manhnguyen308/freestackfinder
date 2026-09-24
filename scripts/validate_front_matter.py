@@ -19,12 +19,14 @@ when a description repeats one of the retired card formulas:
   - announcement or chatbot phrasing ("Here's what...", "This guide...")
   - an unsourced majority claim ("Most people...")
   - an opening that repeats the title the card already shows
+  - a sentence that nearly repeats one on another card in the same silo
 See "Sitewide sameness" in website-content-humanizer.md.
 """
 
 import re
 import sys
 from datetime import datetime, timezone
+from itertools import combinations
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -61,6 +63,17 @@ RE_DESC_FILLER = re.compile(
 )
 RE_VAGUE_MAJORITY = re.compile(
     r"\b(?:most|many) (?:people|users|readers|teams|businesses|creators)\b", re.IGNORECASE
+)
+
+# Near-duplicate sentences between cards in the same silo
+NEAR_DUP_RUN_CONTENT_WORDS = 3   # a shared run with this many content words repeats a phrase
+NEAR_DUP_OVERLAP = 0.4           # share of content words two sentences have in common (Jaccard)
+NEAR_DUP_MIN_CONTENT_WORDS = 4   # shorter sentences are too small to compare by overlap
+STOPWORDS = frozenset(
+    "a an the and or but nor of to in on at for with by from as is are was were be been it its "
+    "this that these those than then so if no not can each every one only more most all any "
+    "your you their there here into up out over per via while which who what when where how "
+    "just also still both between".split()
 )
 
 
@@ -174,6 +187,57 @@ def opening_list(desc):
             return ", ".join(names + [segments[end]])
         return None
     return None
+
+
+def sentence_tokens(sentence):
+    return [t.strip(".'") for t in re.findall(r"[a-z0-9][a-z0-9.'+-]*", sentence.lower())]
+
+
+def content_words(tokens):
+    return {t for t in tokens if t not in STOPWORDS and len(t) > 1}
+
+
+def shared_run(a, b):
+    """Longest run of consecutive tokens common to a and b, ranked by content words."""
+    best, best_score = [], (0, 0)
+    prev = [0] * (len(b) + 1)
+    for i in range(1, len(a) + 1):
+        cur = [0] * (len(b) + 1)
+        for j in range(1, len(b) + 1):
+            if a[i - 1] == b[j - 1]:
+                cur[j] = prev[j - 1] + 1
+                run = a[i - cur[j]:i]
+                score = (len(content_words(run)), cur[j])
+                if score > best_score:
+                    best, best_score = run, score
+        prev = cur
+    return best
+
+
+def near_duplicate(sentences_a, sentences_b):
+    """Compare every sentence of one card with every sentence of another.
+
+    Returns (shared phrase or None, sentence from a, sentence from b), or None.
+    """
+    for x in sentences_a:
+        for y in sentences_b:
+            tx, ty = sentence_tokens(x), sentence_tokens(y)
+            run = shared_run(tx, ty)
+            if len(content_words(run)) >= NEAR_DUP_RUN_CONTENT_WORDS:
+                return " ".join(run), x, y
+            cx, cy = content_words(tx), content_words(ty)
+            if min(len(cx), len(cy)) >= NEAR_DUP_MIN_CONTENT_WORDS and \
+                    len(cx & cy) / len(cx | cy) >= NEAR_DUP_OVERLAP:
+                return None, x, y
+    return None
+
+
+def near_duplicate_warning(match, other, silo):
+    phrase, _, theirs = match
+    if phrase:
+        return f'description: shares "{phrase}" with {other} in {silo}/ — neighboring cards should not repeat a phrase'
+    short = theirs if len(theirs) <= 70 else theirs[:67].rstrip() + "..."
+    return f'description: nearly repeats a sentence in {other} ("{short}") in {silo}/ — rewrite one of them'
 
 
 def description_formula_warnings(desc, title):
@@ -327,15 +391,29 @@ def main():
         # Group the silo's descriptions by first word; cards in one hub sit side by side
         opener_of = {}
         opener_groups = {}
+        sentences_of = {}
         for md_path in articles:
             try:
                 fields = parse_front_matter(md_path.read_text(encoding="utf-8"))
             except OSError:
                 continue
-            word = description_first_word(clean_description(fields))
+            desc = clean_description(fields)
+            word = description_first_word(desc)
             if word:
                 opener_of[md_path] = word
                 opener_groups.setdefault(word, []).append(md_path)
+                sentences_of[md_path] = sentences(desc)
+
+        # Sentences repeated between cards in the same silo
+        neighbor_warnings = {}
+        for a, b in combinations(sentences_of, 2):
+            match = near_duplicate(sentences_of[a], sentences_of[b])
+            if match:
+                phrase, mine, theirs = match
+                neighbor_warnings.setdefault(a, []).append(near_duplicate_warning(match, b.name, silo))
+                neighbor_warnings.setdefault(b, []).append(
+                    near_duplicate_warning((phrase, theirs, mine), a.name, silo)
+                )
 
         for md_path in articles:
             total_files += 1
@@ -347,6 +425,7 @@ def main():
                 warnings.append(
                     f'description: opens with "{word}", same as {", ".join(peers)} in {silo}/ — vary the first word within a silo'
                 )
+            warnings.extend(neighbor_warnings.get(md_path, []))
 
             # Duplicate slug detection
             text = md_path.read_text(encoding="utf-8")

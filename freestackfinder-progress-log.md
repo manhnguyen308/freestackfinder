@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85l
+**Current day:** 85m
 
 ## Current state
 
@@ -17,6 +17,17 @@
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
+
+---
+
+### Day 85m - Validator flags near-duplicate sentences between neighboring cards
+
+- Date: 2026-09-24. Scoped to `scripts/validate_front_matter.py`, 3 front matter descriptions, the "Sitewide sameness" rules in `website-content-humanizer.md`, and the validator row in `FEATURE-STRATEGY.md`. No article body, date, image, or template changed.
+- Check added, warning-only: every sentence of each description is compared with every sentence of the other descriptions in the same silo, since those cards sit side by side on a hub page. A pair is flagged when the sentences share a run of consecutive words containing 3 or more content words (stopwords excluded), or when 40% or more of their content words overlap and each sentence has at least 4. The comparison covers all sentence positions, because the clearest repeat on the site paired one card's second sentence with another card's first.
+- Thresholds were set by measuring every same-silo pair on current content. Stock phrases such as "on your own server" (2 content words) and shared facts such as "stops at five" stay below the line; the next-highest overlap after the flagged pairs was 27%.
+- Content fixed: the check found 3 pairs on current content, all introduced in Day 85h. Canva alternatives repeated the Photoshop card's "Photopea opens PSD files in a browser", so its second sentence now covers Picsart and Microsoft Designer. QuickBooks alternatives paraphrased the accounting card's "Wave's Starter plan keeps books and invoices free", so it now ends on the accountant's export, which the article gives as the deciding step. Premiere Pro alternatives repeated "CapCut suits short..." from the video editing card, so it now finishes the After Effects Dynamic Link point. `lastmod` is unchanged on all three because no plan information changed.
+- Validation: current content shows 0 errors and 0 warnings, and `run_quality_checks.py --with-counts` passes 3/3 with 50 articles. Seven sentence pairs behave as expected, including the Jitsi Meet pair from Day 85h drafting and the two stock-phrase pairs that should pass. Against the pre-rewrite content (commit a95a973), the validator now flags all 50 articles with 140 warnings, 6 of them near-duplicates. `git diff --check` passed.
+- Not covered: cards in different silos, which can still sit together in the homepage "Latest comparisons" grid and related-guide lists, and sentences that make the same point in entirely different words.
 
 ---
 
