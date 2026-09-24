@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85h
+**Current day:** 85i
 
 ## Current state
 
@@ -13,10 +13,21 @@
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
-- Product icons: real icons replace the initials circles in all 7 Video images (Day 85g), all 9 Productivity images (85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 25 images, in Business, Security, and Cloud, still use initials
+- Product icons: real icons replace the initials circles in all 13 Business images (Day 85i), all 7 Video images (85g), all 9 Productivity images (85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 12 images, in Security and Cloud, still use initials
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`; check new descriptions against the rest of their silo before publishing
+
+---
+
+### Day 85i - Business feature images use real product icons
+
+- Date: 2026-09-24. Scoped to the 13 Business feature images, their generators, and `scripts/images/logos/`. No article text changed.
+- Icons: 51 product icons added to `scripts/images/logos/`, with every source recorded in `logos/SOURCES.md`. 23 are official site icons, 21 come from the apps' Google Play listings at 256px (the WPS Office precedent), and 7 are Wikimedia Commons PNG renders (Google Sheets, LibreOffice Calc, draw.io, Visio, Search Console, Google Sites, WordPress). Notion, Canva, Google Docs, and ONLYOFFICE reuse existing files.
+- Why Google Play: Commons has few business software icons, and several sites block scripted requests (Freshworks, Asana's brand CDN, Indeed, Lucidchart) or serve only a small or wordmark icon (Square at 57px, Toggl's wordmark). Miro's Commons file is the wordmark only. Clarity uses its site icon because the Play icon carries a beta badge.
+- Icon choices: Umami, Invoice Ninja, and OrangeHRM sit on white tiles, because their black marks or dark text disappear on the dark cards. Search Console is cropped from its Commons logo lockup. Google Sheets and Google Sites use the newer of the two 2026 icons on Commons.
+- Non-product cards: "Paid CRM" and "Paid exports" use the drawn price tag from Day 85e. "Keep Visio" and "QuickBooks" use their product icons.
+- Validation: every image was reviewed at full size, and both Business hub pages were checked in the browser, with all 13 images loading at 1200px. `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles; the feature image check lists 5 possible orphan images, all from before this change. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings, and nothing from `scripts/images/logos/` reached the build. The 13 images are 1200x630 WebP at 38 to 48 KB.
 
 ---
 

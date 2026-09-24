@@ -6,13 +6,14 @@ Silo   : Business   Accent: #10b981
 
 Employee limits and self-service values come from the comparison table in
 content/business/free-hr-software.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -32,16 +33,17 @@ panel_table(c, ACCENT, "Team limits and self-service",
 card_featured(
     c, ACCENT,
     initials = "ZP",
+    logo     = logo_path("zoho-people.png"),
     name     = "Zoho People",
     tagline  = "Best cloud HR records on a free plan",
     note     = "Leave, employee records, and self-service for teams of up to five",
 )
 
 card_grid(c, [
-    ("#3b82f6", "OH", "OrangeHRM CE",  "Open-source HR system you host yourself"),
-    ("#eab308", "Hb", "Homebase",      "Scheduling and time tracking for one location"),
-    ("#06b6d4", "Bx", "Bitrix24",      "HR tools inside a wider workspace"),
-    ("#22c55e", "GS", "Google Sheets", "Manual records when nothing else fits"),
+    ("#3b82f6", "OH", "OrangeHRM CE",  "Open-source HR system you host yourself", logo_path("orangehrm.png")),
+    ("#eab308", "Hb", "Homebase",      "Scheduling and time tracking for one location", logo_path("homebase.png")),
+    ("#06b6d4", "Bx", "Bitrix24",      "HR tools inside a wider workspace", logo_path("bitrix24.png")),
+    ("#22c55e", "GS", "Google Sheets", "Manual records when nothing else fits", logo_path("google-sheets.png")),
 ])
 
 card_bar(

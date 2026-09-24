@@ -6,13 +6,14 @@ Silo   : Business   Accent: #10b981
 
 Document caps come from content/business/free-visio-alternatives.md.
 The flowchart is a generic mock-up with no product claims.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, TEXT_W, TEXT_DIM,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -71,16 +72,17 @@ arrow(cx - 88, dy, cx - 110, dy)
 card_featured(
     c, ACCENT,
     initials = "dr",
+    logo     = logo_path("drawio.png"),
     name     = "draw.io (diagrams.net)",
     tagline  = "Best overall free Visio alternative",
     note     = "Unlimited diagrams and every shape library, in the cloud or on desktop",
 )
 
 card_grid(c, [
-    ("#f97316", "Lu", "Lucidchart Free", "Guided cloud editor, 3 editable documents"),
-    ("#eab308", "Mi", "Miro Free",       "Whiteboard diagrams, 3 editable boards"),
-    ("#8b5cf6", "Wh", "Whimsical Free",  "Wireframes and flowcharts, 50 objects a month"),
-    ("#3b82f6", "Vi", "Keep Visio",      "When the Visio file format decides the job"),
+    ("#f97316", "Lu", "Lucidchart Free", "Guided cloud editor, 3 editable documents", logo_path("lucidchart.png")),
+    ("#eab308", "Mi", "Miro Free",       "Whiteboard diagrams, 3 editable boards", logo_path("miro.png")),
+    ("#8b5cf6", "Wh", "Whimsical Free",  "Wireframes and flowcharts, 50 objects a month", logo_path("whimsical.png")),
+    ("#3b82f6", "Vi", "Keep Visio",      "When the Visio file format decides the job", logo_path("visio.png")),
 ])
 
 card_bar(

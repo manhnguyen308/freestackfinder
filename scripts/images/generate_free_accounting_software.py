@@ -5,13 +5,14 @@ Output : static/img/free-accounting-software.webp  (1200x630 px)
 Silo   : Business   Accent: #10b981
 
 Tool facts come from content/business/free-accounting-software.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, INFO,
-    panel_list, card_featured, card_grid, card_bar,
+    panel_list, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -29,16 +30,17 @@ panel_list(c, "Where the books live", [
 card_featured(
     c, ACCENT,
     initials = "Wa",
+    logo     = logo_path("wave.png"),
     name     = "Wave",
     tagline  = "Best overall for freelancers",
     note     = "Invoices and bookkeeping free. Bank imports and receipt capture need Pro",
 )
 
 card_grid(c, [
-    ("#ef4444", "ZB", "Zoho Books", "For Zoho users, with regional revenue caps"),
-    ("#3b82f6", "Ak", "Akaunting",  "Open source, needs a PHP and MySQL server"),
-    ("#eab308", "Mg", "Manager",    "Offline desktop books for a single user"),
-    ("#8b5cf6", "Gn", "GnuCash",    "Double-entry for disciplined sole proprietors"),
+    ("#ef4444", "ZB", "Zoho Books", "For Zoho users, with regional revenue caps", logo_path("zoho-books.png")),
+    ("#3b82f6", "Ak", "Akaunting",  "Open source, needs a PHP and MySQL server", logo_path("akaunting.png")),
+    ("#eab308", "Mg", "Manager",    "Offline desktop books for a single user", logo_path("manager.png")),
+    ("#8b5cf6", "Gn", "GnuCash",    "Double-entry for disciplined sole proprietors", logo_path("gnucash.png")),
 ])
 
 card_bar(

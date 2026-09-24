@@ -97,3 +97,54 @@ Source files for feature image generators. They are not served by the site. Each
 | `imovie.png` | iMovie icon from its App Store page, https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/15/d8/5e15d8d4-a82b-e0b3-5c82-9a8728c1a6ff/Placeholder.mill/256x256bb.png, trimmed |
 | `davinci-resolve.png` | Wikimedia Commons, "DaVinci Resolve 17 logo.svg" (public domain), 330px PNG render, trimmed |
 | `capcut.png` | Wikimedia Commons, "Capcut-icon.svg" (public domain), 330px PNG render, trimmed |
+| `wave.png` | Wave site icon, https://cdn.prod.website-files.com/62446230dcb514b828a6e237/627e0a14ff7686635f162d06_favicon-large.png, trimmed |
+| `zoho-books.png` | Zoho Books icon from its Google Play listing (com.zoho.books), 256px, corners rounded |
+| `akaunting.png` | Akaunting site icon, https://assets.akaunting.com/site/img/logo/akaunting-logo.ico, 128px frame, trimmed |
+| `manager.png` | Manager site icon, https://www.manager.io/apple-touch-icon.png, trimmed |
+| `gnucash.png` | GnuCash site icon, https://www.gnucash.org/apple-touch-icon.png, trimmed |
+| `hubspot.png` | HubSpot site icon, https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png, corners rounded |
+| `zoho-crm.png` | Zoho CRM icon from its Google Play listing (com.zoho.crm), 256px, corners rounded |
+| `freshsales.png` | Freshsales icon from its Google Play listing (com.freshdesk.freshsales.mobile), 256px, corners rounded |
+| `bitrix24.png` | Bitrix24 site icon, https://www.bitrix24.vn/apple-touch-icon.png, trimmed |
+| `zoho-people.png` | Zoho People icon from its Google Play listing (com.zoho.people), 256px, corners rounded |
+| `orangehrm.png` | OrangeHRM site icon, https://orangehrm.com/public/_resources/themes/orangehrm/dist/images/favicon.ico, 128px frame, placed on a white tile |
+| `homebase.png` | Homebase site icon, https://www.joinhomebase.com/apple-icon.png?apple-icon.1aec_pj_rl-hb.png, trimmed |
+| `google-sheets.png` | Wikimedia Commons, "Google Sheets icon (August 2026).svg" (public domain), 330px PNG render, trimmed. The newer of the two 2026 versions on Commons |
+| `zoho-invoice.png` | Zoho Invoice icon from its Google Play listing (com.zoho.invoice), 256px, corners rounded |
+| `invoice-ninja.png` | Invoice Ninja site icon, https://invoiceninja.com/wp-content/uploads/2026/04/cropped-logo-small-1-192x192.png, placed on a white tile |
+| `square.png` | Square Invoices icon from its Google Play listing (com.squareup.invoicesapp), 256px. The site icon is only 57px |
+| `stripe.png` | Stripe site icon, https://images.stripeassets.com/fzn2n1nzq965/4vVgZi0ZMoEzOhkcv7EVwK/8cce6fdcf2733b2ec8e99548908847ed/favicon.png?w=180&h=180, trimmed |
+| `trello.png` | Trello icon from its Google Play listing (com.trello), 256px, corners rounded |
+| `asana.png` | Asana icon from its Google Play listing (com.asana.app), 256px, corners rounded |
+| `clickup.png` | ClickUp site icon, https://clickup.com/favicons/apple-touch-icon.png, trimmed |
+| `linear.png` | Linear site icon, https://linear.app/static/apple-touch-icon.png?v=2, corners rounded |
+| `indeed.png` | Indeed Job Search icon from its Google Play listing (com.indeed.android.jobsearch), 256px, corners rounded |
+| `resume-com.png` | Resume.com site icon, https://www.resume.com/icons/icon-256x256.png?v=033a15a4e785a3c5e8f31334745c6724, trimmed |
+| `buffer.png` | Buffer site icon, https://buffer.com/icons/apple-touch-icon.png, corners rounded |
+| `metricool.png` | Metricool icon from its Google Play listing (com.ionicframework.metricool185346), 256px, corners rounded |
+| `later.png` | Later icon from its Google Play listing (me.latergram.latergramme), 256px, corners rounded |
+| `meta-business-suite.png` | Meta Business Suite icon from its Google Play listing (com.facebook.pages.app), 256px, corners rounded |
+| `hootsuite.png` | Hootsuite site icon, https://www.hootsuite.com/images/apple-touch-icon.png, corners rounded |
+| `libreoffice-calc.png` | Wikimedia Commons, "LibreOffice 7.5 Calc Icon.svg" (MPL 2.0), 330px PNG render, trimmed |
+| `zoho-sheet.png` | Zoho Sheet icon from its Google Play listing (com.zoho.sheet.android), 256px, corners rounded |
+| `airtable.png` | Airtable icon from its Google Play listing (com.formagrid.airtable), 256px, corners rounded |
+| `clockify.png` | Clockify site icon, https://clockify.me/apple-touch-icon.png, trimmed |
+| `toggl-track.png` | Toggl Track icon from its Google Play listing (com.toggl.giskard), 256px, corners rounded. The site icon is the wordmark |
+| `rescuetime.png` | RescueTime site icon, https://www.rescuetime.com/apple-touch-icon.png, corners rounded |
+| `timecamp.png` | TimeCamp site icon, https://www.timecamp.com/apple-touch-icon.png, corners rounded |
+| `harvest.png` | Harvest icon from its Google Play listing (com.harvestapp), 256px, corners rounded |
+| `drawio.png` | Wikimedia Commons, "Diagrams.net Logo.svg" (public domain), 330px PNG render, trimmed |
+| `lucidchart.png` | Lucidchart icon from its Google Play listing (com.lucidchart.android.chart), 256px, corners rounded |
+| `miro.png` | Miro icon from its Google Play listing (com.realtimeboard), 256px, corners rounded. The Commons file is the wordmark only |
+| `whimsical.png` | Whimsical site icon, https://whimsical.com/_astro/logo-mark@45x32@2x.rwTPIj1T.webp, converted from WebP |
+| `visio.png` | Wikimedia Commons, "Microsoft Office Visio (2019).svg" (public domain), 330px PNG render, trimmed |
+| `google-analytics.png` | Google Analytics icon from its Google Play listing (com.google.android.apps.giant), 256px, trimmed |
+| `search-console.png` | Wikimedia Commons, "Google Search Console Logo 2025.svg" (public domain), 1280px PNG render, cropped to the icon |
+| `clarity.png` | Microsoft Clarity site icon, https://claritystatic.azureedge.net/images/logo.ico, 256px frame, trimmed. The Play icon carries a beta badge |
+| `umami.png` | Umami site icon, https://umami.is/apple-touch-icon.png, placed on a white tile |
+| `matomo.png` | Matomo site icon, https://m-img.org/spai/q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2026/04/favicon-matomo-2026-450x450.png, corners rounded, served as WebP and converted |
+| `wix.png` | Wix icon from its Google Play listing (com.wix.admin), 256px, trimmed |
+| `google-sites.png` | Wikimedia Commons, "Google Sites icon (July 2026).svg" (public domain), 330px PNG render, trimmed. The newer of the two 2026 versions on Commons |
+| `wordpress.png` | Wikimedia Commons, "WordPress blue logo.svg" (GPL), 330px PNG render, trimmed |
+| `carrd.png` | Carrd site icon, https://carrd.com/apple-touch-icon.png, corners rounded |
+| `quickbooks.png` | Intuit QuickBooks icon from its Google Play listing (com.intuit.quickbooks), 256px, corners rounded |

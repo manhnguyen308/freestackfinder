@@ -6,13 +6,14 @@ Silo   : Business   Accent: #10b981
 
 Free-plan and bank-sync values come from the comparison table in
 content/business/quickbooks-alternatives.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -33,16 +34,17 @@ panel_table(c, ACCENT, "Free plans and bank sync",
 card_featured(
     c, ACCENT,
     initials = "Wa",
+    logo     = logo_path("wave.png"),
     name     = "Wave",
     tagline  = "Bookkeeping and invoices for a solo business",
     note     = "Unlimited invoicing on the free plan. Bank sync automation is paid",
 )
 
 card_grid(c, [
-    ("#ef4444", "ZB", "Zoho Books",    "For freelancers already on Zoho tools"),
-    ("#3b82f6", "IN", "Invoice Ninja", "Project billing for a small client list"),
-    ("#8b5cf6", "Gn", "GnuCash",       "Free desktop accounting for offline users"),
-    ("#22c55e", "QB", "QuickBooks",    "Keep it for payroll, inventory, or staff"),
+    ("#ef4444", "ZB", "Zoho Books",    "For freelancers already on Zoho tools", logo_path("zoho-books.png")),
+    ("#3b82f6", "IN", "Invoice Ninja", "Project billing for a small client list", logo_path("invoice-ninja.png")),
+    ("#8b5cf6", "Gn", "GnuCash",       "Free desktop accounting for offline users", logo_path("gnucash.png")),
+    ("#22c55e", "QB", "QuickBooks",    "Keep it for payroll, inventory, or staff", logo_path("quickbooks.png")),
 ])
 
 card_bar(

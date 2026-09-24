@@ -6,12 +6,13 @@ Silo   : Business   Accent: #10b981
 
 The situation-to-tool mapping comes from content/business/free-resume-builders.md.
 Canva's affiliate program is under review: the image carries no call to action.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
-    Canvas, panel_list, card_featured, card_grid, card_bar,
+    Canvas, panel_list, card_featured, card_grid, card_bar, logo_path, glyph,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -29,16 +30,17 @@ panel_list(c, "Match the builder to the application", [
 card_featured(
     c, ACCENT,
     initials = "Ca",
+    logo     = logo_path("canva.png"),
     name     = "Canva",
     tagline  = "Best free resume builder for most people",
     note     = "Free PDF and PNG downloads. Designed layouts can reduce ATS parsing accuracy",
 )
 
 card_grid(c, [
-    ("#3b82f6", "GD", "Google Docs",  "ATS-friendly resumes with full control"),
-    ("#06b6d4", "In", "Indeed",       "Build and apply directly on Indeed"),
-    ("#eab308", "Re", "Resume.com",   "Guided builder with a free download"),
-    ("#ef4444", "!",  "Paid exports", "Some builders charge for the final download"),
+    ("#3b82f6", "GD", "Google Docs",  "ATS-friendly resumes with full control", logo_path("google-docs.png")),
+    ("#06b6d4", "In", "Indeed",       "Build and apply directly on Indeed", logo_path("indeed.png")),
+    ("#eab308", "Re", "Resume.com",   "Guided builder with a free download", logo_path("resume-com.png")),
+    ("#ef4444", "!",  "Paid exports", "Some builders charge for the final download", glyph("tag", "#ef4444")),
 ])
 
 card_bar(

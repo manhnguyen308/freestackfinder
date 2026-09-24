@@ -6,13 +6,14 @@ Silo   : Business   Accent: #10b981
 
 User caps and invoicing come from the comparison table in
 content/business/free-time-tracking-software.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -32,16 +33,17 @@ panel_table(c, ACCENT, "User caps and billing",
 card_featured(
     c, ACCENT,
     initials = "Cl",
+    logo     = logo_path("clockify.png"),
     name     = "Clockify",
     tagline  = "Shared tracking for up to five users",
     note     = "Shared projects and timers for a small team, with unlimited projects",
 )
 
 card_grid(c, [
-    ("#ec4899", "Tg", "Toggl Track",     "Quick browser timer for individuals"),
-    ("#3b82f6", "RT", "RescueTime Lite", "Automatic background tracking on desktop"),
-    ("#eab308", "TC", "TimeCamp",        "Unlimited users, top-level projects only"),
-    ("#f97316", "Hv", "Harvest",         "Solo invoicing, one seat and two projects"),
+    ("#ec4899", "Tg", "Toggl Track",     "Quick browser timer for individuals", logo_path("toggl-track.png")),
+    ("#3b82f6", "RT", "RescueTime Lite", "Automatic background tracking on desktop", logo_path("rescuetime.png")),
+    ("#eab308", "TC", "TimeCamp",        "Unlimited users, top-level projects only", logo_path("timecamp.png")),
+    ("#f97316", "Hv", "Harvest",         "Solo invoicing, one seat and two projects", logo_path("harvest.png")),
 ])
 
 card_bar(

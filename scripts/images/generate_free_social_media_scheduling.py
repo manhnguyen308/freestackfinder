@@ -6,13 +6,14 @@ Silo   : Business   Accent: #10b981
 
 Channel and queue limits come from
 content/business/free-social-media-scheduling.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, NEUTRAL,
-    panel_table, note_card, table_bottom, card_featured, card_grid, card_bar,
+    panel_table, note_card, table_bottom, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -34,16 +35,17 @@ note_card(c, ACCENT, x0, table_bottom(y0, 4, y1) + 14, x1, y1, "Agencies",
 card_featured(
     c, ACCENT,
     initials = "Bu",
+    logo     = logo_path("buffer.png"),
     name     = "Buffer",
     tagline  = "Best overall for small teams",
     note     = "Three channels, ten queued posts on each, and basic analytics",
 )
 
 card_grid(c, [
-    ("#3b82f6", "Mc", "Metricool",           "Scheduling plus 30 days of analytics"),
-    ("#ec4899", "La", "Later",               "Visual Instagram and TikTok planning"),
-    ("#06b6d4", "Me", "Meta Business Suite", "Native Facebook and Instagram scheduling"),
-    ("#64748b", "Hs", "Hootsuite",           "No longer the default free plan"),
+    ("#3b82f6", "Mc", "Metricool",           "Scheduling plus 30 days of analytics", logo_path("metricool.png")),
+    ("#ec4899", "La", "Later",               "Visual Instagram and TikTok planning", logo_path("later.png")),
+    ("#06b6d4", "Me", "Meta Business Suite", "Native Facebook and Instagram scheduling", logo_path("meta-business-suite.png")),
+    ("#64748b", "Hs", "Hootsuite",           "No longer the default free plan", logo_path("hootsuite.png")),
 ])
 
 card_bar(

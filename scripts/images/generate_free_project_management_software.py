@@ -6,13 +6,14 @@ Silo   : Business   Accent: #10b981
 
 Plan caps come from content/business/free-project-management-software.md.
 The Kanban board is a generic mock-up with no product claims.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_DIM,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#10b981"   # Business silo, emerald
@@ -50,16 +51,17 @@ for i, (name, count, cards) in enumerate(cols):
 card_featured(
     c, ACCENT,
     initials = "Tr",
+    logo     = logo_path("trello.png"),
     name     = "Trello Free",
     tagline  = "Kanban boards for up to ten collaborators",
     note     = "Unlimited cards and Power-Ups, capped at 10 boards",
 )
 
 card_grid(c, [
-    ("#ef4444", "As", "Asana Personal", "List, board, and calendar for two users"),
-    ("#64748b", "N",  "Notion Free",    "Tasks with docs, 10 guests, 7-day history"),
-    ("#8b5cf6", "CU", "ClickUp Free",   "Unlimited members, 60MB of storage"),
-    ("#3b82f6", "Li", "Linear Free",    "Two teams and 250 issues for developers"),
+    ("#ef4444", "As", "Asana Personal", "List, board, and calendar for two users", logo_path("asana.png")),
+    ("#64748b", "N",  "Notion Free",    "Tasks with docs, 10 guests, 7-day history", logo_path("notion.png")),
+    ("#8b5cf6", "CU", "ClickUp Free",   "Unlimited members, 60MB of storage", logo_path("clickup.png")),
+    ("#3b82f6", "Li", "Linear Free",    "Two teams and 250 issues for developers", logo_path("linear.png")),
 ])
 
 card_bar(
