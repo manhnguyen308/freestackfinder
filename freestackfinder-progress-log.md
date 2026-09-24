@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85m
+**Current day:** 85n
 
 ## Current state
 
@@ -13,10 +13,19 @@
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
-- Product icons: real icons replace the initials circles in all 6 Security images (Day 85l), all 13 Business images (85i), all 7 Video images (85g), all 9 Productivity images (85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 6 images, all in Cloud, still use initials
+- Product icons: all 50 feature images use real product icons instead of initials circles (Days 85c to 85n). Drawn glyphs from `image_helpers.glyph` appear only on cards that are not a single product or have no icon of their own. The 182 icon files in `scripts/images/logos/` each have a source row in `logos/SOURCES.md`; any new generator card should add its icon and source row the same way
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
+
+---
+
+### Day 85n - Cloud feature images use real product icons
+
+- Date: 2026-09-24. Scoped to the 6 Cloud feature images that still used initials (Dropbox alternatives was done on Day 85c), their generators, `image_helpers.py`, and `scripts/images/logos/`. No article text changed. With this entry all 50 feature images use real product icons.
+- Icons: 15 product icons added to `scripts/images/logos/`, with every source recorded in `logos/SOURCES.md`. 9 are official site icons, 5 are Wikimedia Commons renders (Gmail, iCloud, Outlook, Zoho Mail, and Proton Mail cropped from its logo lockup), and Boomerang comes from its Google Play listing because the site icon is a 512-byte WebP. MEGA, Google Drive, Proton Drive, Box, ChatGPT, and HubSpot reuse existing files, and "Gmail delegates" uses the Gmail icon.
+- Drawn glyphs: `image_helpers.py` gains `cloud` for the storage comparison's featured card ("Capacity, sharing, or privacy"), which is not a product, and `signature`, a fountain-pen nib, for Signature Maker, which serves no icon of its own. Newoldstamp serves only a 32px favicon, which is enough for a grid card.
+- Validation: every image was reviewed at full size, and the Cloud hub was checked in the browser, with all 7 images loading at 1200px. `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles and 0 front matter warnings. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings, and nothing from `scripts/images/logos/` reached the build. The 6 images are 1200x630 WebP at 40 to 54 KB.
 
 ---
 

@@ -5,13 +5,14 @@ Output : static/img/free-team-email.webp  (1200x630 px)
 Silo   : Cloud   Accent: #06b6d4
 
 Account and domain limits come from content/cloud/free-team-email.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#06b6d4"   # Cloud silo, cyan
@@ -31,16 +32,17 @@ panel_table(c, ACCENT, "Accounts and custom domains",
 card_featured(
     c, ACCENT,
     initials = "Zo",
+    logo     = logo_path("zoho-mail.png"),
     name     = "Zoho Mail",
     tagline  = "Up to five custom-domain users",
     note     = "Business email on your own domain where the free plan is available",
 )
 
 card_grid(c, [
-    ("#8b5cf6", "Sp", "Spike",           "Three addresses on a spike.team domain"),
-    ("#3b82f6", "Pm", "Proton Mail",     "Separate encrypted account for each person"),
-    ("#22c55e", "Tu", "Tuta",            "Private accounts for a small group"),
-    ("#ef4444", "Gm", "Gmail delegates", "One account shared with up to 10 delegates"),
+    ("#8b5cf6", "Sp", "Spike",           "Three addresses on a spike.team domain", logo_path("spike.png")),
+    ("#3b82f6", "Pm", "Proton Mail",     "Separate encrypted account for each person", logo_path("proton-mail.png")),
+    ("#22c55e", "Tu", "Tuta",            "Private accounts for a small group", logo_path("tuta.png")),
+    ("#ef4444", "Gm", "Gmail delegates", "One account shared with up to 10 delegates", logo_path("gmail.png")),
 ])
 
 card_bar(

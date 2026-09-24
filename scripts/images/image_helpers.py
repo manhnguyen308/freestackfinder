@@ -415,7 +415,7 @@ def glyph(kind, color):
     """Drawn icon for a card that is not a product (a plan, a rule, a paid option).
 
     Returns a callable for the `logo` slot: white glyph on a `color` circle.
-    kinds: check, crown, resize, team, tag, lock, alert.
+    kinds: check, crown, resize, team, tag, lock, alert, cloud, signature.
     """
     def draw(c, cx, cy, r):
         c.circle(cx, cy, r, color)
@@ -464,6 +464,21 @@ def glyph(kind, color):
                     (cx - .56 * s, cy + .42 * s)], w)
             c.rect(cx - .06 * s, cy - .20 * s, cx + .06 * s, cy + .14 * s, color, r=.03 * s)
             c.circle(cx, cy + .27 * s, .065 * s, color)
+        elif kind == "cloud":
+            x = cx - .03 * s
+            c.circle(x - .22 * s, cy + .06 * s, .22 * s, w)
+            c.circle(x + .05 * s, cy - .12 * s, .30 * s, w)
+            c.circle(x + .30 * s, cy + .08 * s, .20 * s, w)
+            c.rect(x - .22 * s, cy + .06 * s, x + .30 * s, cy + .28 * s, w)
+        elif kind == "signature":
+            import math
+            # fountain-pen nib, tip pointing down-left
+            ang = math.radians(45)
+            rot = lambda x, y: (cx + (x * math.cos(ang) - y * math.sin(ang)) * s,
+                                cy + (x * math.sin(ang) + y * math.cos(ang)) * s)
+            c.poly([rot(x, y) for x, y in [(-.26, -.46), (.26, -.46), (.26, -.06), (0, .50), (-.26, -.06)]], w)
+            c.line([rot(0, .48), rot(0, .02)], color, max(2, round(lw * .5)))
+            c.circle(*rot(0, -.04), .075 * s, color)
     return draw
 
 

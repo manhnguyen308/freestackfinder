@@ -6,13 +6,14 @@ Silo   : Cloud   Accent: #06b6d4
 
 The three-layer plan and tool limits come from
 content/cloud/free-backup-software.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, INFO,
-    panel_list, note_card, card_featured, card_grid, card_bar,
+    panel_list, note_card, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#06b6d4"   # Cloud silo, cyan
@@ -31,16 +32,17 @@ note_card(c, ACCENT, x0, y0 + 28 + 3 * 62 + 6, x1, y1, "Before relying on it",
 card_featured(
     c, ACCENT,
     initials = "Du",
+    logo     = logo_path("duplicati.png"),
     name     = "Duplicati",
     tagline  = "Best free scheduled encrypted backup",
     note     = "Real backup software, with more setup and a rougher restore workflow",
 )
 
 card_grid(c, [
-    ("#3b82f6", "GD", "Google Drive",  "Offsite copy for documents. Sync is not backup"),
-    ("#ef4444", "BB", "Backblaze",     "Paid unlimited backup for large datasets"),
-    ("#64748b", "iC", "iCloud Backup", "Built in for Apple users, 5GB free"),
-    ("#8b5cf6", "Dc", "Duplicacy",     "Self-managed backup for NAS and power users"),
+    ("#3b82f6", "GD", "Google Drive",  "Offsite copy for documents. Sync is not backup", logo_path("google-drive.png")),
+    ("#ef4444", "BB", "Backblaze",     "Paid unlimited backup for large datasets", logo_path("backblaze.png")),
+    ("#64748b", "iC", "iCloud Backup", "Built in for Apple users, 5GB free", logo_path("icloud.png")),
+    ("#8b5cf6", "Dc", "Duplicacy",     "Self-managed backup for NAS and power users", logo_path("duplicacy.png")),
 ])
 
 card_bar(

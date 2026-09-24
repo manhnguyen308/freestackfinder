@@ -6,13 +6,14 @@ Silo   : Cloud   Accent: #06b6d4
 
 Drafting depth and free-use limits come from the comparison table in
 content/cloud/free-ai-email-tools.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#06b6d4"   # Cloud silo, cyan
@@ -32,16 +33,17 @@ panel_table(c, ACCENT, "Drafting help and free limits",
 card_featured(
     c, ACCENT,
     initials = "Gm",
+    logo     = logo_path("gmail.png"),
     name     = "Gmail Smart Compose",
     tagline  = "Start with the tool in your inbox",
     note     = "Predictive text and short replies inside Gmail, with no usage cap",
 )
 
 card_grid(c, [
-    ("#3b82f6", "CA", "Compose AI",   "Full drafts in Gmail or Outlook, monthly credits"),
-    ("#22c55e", "GP", "ChatGPT free", "Longer drafts from pasted context"),
-    ("#eab308", "Bo", "Boomerang",    "Email quality scoring for Gmail"),
-    ("#8b5cf6", "Sp", "Spike",        "Standalone email app with limited queries"),
+    ("#3b82f6", "CA", "Compose AI",   "Full drafts in Gmail or Outlook, monthly credits", logo_path("compose-ai.png")),
+    ("#22c55e", "GP", "ChatGPT free", "Longer drafts from pasted context", logo_path("chatgpt.png")),
+    ("#eab308", "Bo", "Boomerang",    "Email quality scoring for Gmail", logo_path("boomerang.png")),
+    ("#8b5cf6", "Sp", "Spike",        "Standalone email app with limited queries", logo_path("spike.png")),
 ])
 
 card_bar(

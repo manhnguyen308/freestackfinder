@@ -6,13 +6,14 @@ Silo   : Cloud   Accent: #06b6d4
 
 Replaces a 1200x800 stock photo. Storage and limits come from
 content/cloud/free-cloud-storage-comparison.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path, glyph,
 )
 
 ACCENT = "#06b6d4"   # Cloud silo, cyan
@@ -33,16 +34,17 @@ panel_table(c, ACCENT, "Free space and the limit behind it",
 card_featured(
     c, ACCENT,
     initials = "GB",
+    logo     = glyph("cloud", "#06b6d4"),
     name     = "Capacity, sharing, or privacy",
     tagline  = "Pick the job before the gigabytes",
     note     = "MEGA for space, Google Drive for collaboration, Proton Drive for encryption",
 )
 
 card_grid(c, [
-    ("#22c55e", "Me", "MEGA",         "20GB with a separate transfer allowance"),
-    ("#3b82f6", "GD", "Google Drive", "Up to 15GB shared with Gmail and Photos"),
-    ("#ec4899", "Pr", "Proton Drive", "Up to 5GB, end-to-end encrypted"),
-    ("#8b5cf6", "Bx", "Box",          "10GB with a 250MB upload cap per file"),
+    ("#22c55e", "Me", "MEGA",         "20GB with a separate transfer allowance", logo_path("mega.png")),
+    ("#3b82f6", "GD", "Google Drive", "Up to 15GB shared with Gmail and Photos", logo_path("google-drive.png")),
+    ("#ec4899", "Pr", "Proton Drive", "Up to 5GB, end-to-end encrypted", logo_path("proton-drive.png")),
+    ("#8b5cf6", "Bx", "Box",          "10GB with a 250MB upload cap per file", logo_path("box.png")),
 ])
 
 card_bar(

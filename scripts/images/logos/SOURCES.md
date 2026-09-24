@@ -171,3 +171,18 @@ Source files for feature image generators. They are not served by the site. Each
 | `proton-vpn.png` | Proton VPN site icon, https://protonvpn.com/favicons/apple-touch-icon.png, corners rounded |
 | `windscribe.png` | Windscribe icon from its Google Play listing (com.windscribe.vpn), 256px, corners rounded |
 | `tunnelbear.png` | TunnelBear icon from its Google Play listing (com.tunnelbear.android), 256px, corners rounded. The site icon is a grey wordmark letter |
+| `gmail.png` | Wikimedia Commons, "Gmail icon (2026).svg" (public domain), 330px PNG render, trimmed |
+| `compose-ai.png` | Compose AI site icon, https://www.compose.ai/compose_logo_128.png, trimmed |
+| `boomerang.png` | Boomerang Mail icon from its Google Play listing (com.baydin.boomerang), 256px, trimmed. The site icon is a 512-byte WebP |
+| `spike.png` | Spike site icon, https://spikesite-17132.kxcdn.com/wp-content/uploads/cropped-spike-icon-192x192.png |
+| `duplicati.png` | Duplicati site icon, https://framerusercontent.com/images/ZWHeS4PyfwvuYnww8N0zPxxyqs.png, corners rounded |
+| `backblaze.png` | Backblaze site icon, https://cdn.prod.website-files.com/63d32de856f6323a43a277f2/64b1ab4daf31e414a481b056_Webclip.png, trimmed |
+| `icloud.png` | Wikimedia Commons, "ICloud logo.svg" (public domain), 330px PNG render, trimmed |
+| `duplicacy.png` | Duplicacy site icon, https://duplicacy.com/img/duplicacy.png, trimmed |
+| `proton-mail.png` | Wikimedia Commons, "Proton Mail Logo 01.svg" (public domain), 1280px PNG render, cropped to the icon |
+| `outlook.png` | Wikimedia Commons, "Microsoft Outlook Icon (2025–present).svg" (public domain), 330px PNG render, trimmed |
+| `zoho-mail.png` | Wikimedia Commons, "Zoho Mail-256.png" (CC BY-SA 4.0), 256px original, trimmed |
+| `tuta.png` | Tuta site icon, https://tuta.com/favicon/logo-favicon-192.png |
+| `mysignature.png` | MySignature site icon, https://mysignature.io/apple-touch-icon.png, trimmed |
+| `wisestamp.png` | WiseStamp site icon, https://cdn-ildceij.nitrocdn.com/DRnNUxiqxHnxDRbzoFypjebKFRSlJIyA/assets/images/optimized/rev-371289d/www.wisestamp.com/wp-content/uploads/2025/08/cropped-Favicon-128-by-128-192x192.webp, converted from WebP and trimmed |
+| `newoldstamp.png` | Newoldstamp site icon, https://newoldstamp.com/favicon.ico, 32px (the largest the site serves) |
