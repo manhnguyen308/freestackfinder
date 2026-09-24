@@ -211,11 +211,14 @@ Readers never see one page alone. Hub pages, the homepage, search results, and r
 
 Card descriptions:
 
-- Do not open descriptions with the same verb across pages. "Choose a...", "Choose among...", "Find a free...", "Compare...", "See...", and "Pick..." were the site's old formula; do not use them to start a description.
-- Do not end a description with a list of four or five criteria, such as "by storage, sync, privacy, and workflow." Name the one limit, number, change, or tradeoff that decides this page.
-- Do not use "[Tool], [Tool], and [Tool] compared by [criteria]" as a stand-in for a different formula.
+- Do not open descriptions with the same verb across pages. "Choose a...", "Choose among...", "Find a free...", "Compare...", "See...", and "Pick..." were the site's old formula; do not start a description with them or with any other imperative, such as "Build..." or "Discover...".
+- Do not end a description with a list of criteria or uses, such as "by storage, sync, privacy, and workflow" or "for quick capture, private notes, or Markdown." Name the one limit, number, change, or tradeoff that decides this page.
+- Do not open with "[Tool], [Tool], and [Tool]..." or use "[Tool], [Tool], and [Tool] compared by [criteria]" as a stand-in for a different formula.
+- Do not open by repeating the title. The card already shows it directly above the description.
+- Do not use announcement or chatbot phrasing ("Here's what each one does," "This guide covers") or an unsourced majority claim ("Most people pay for...").
 - Lead with a fact specific to the page and pass the portability test: if the sentence still works after swapping in another category's noun, rewrite it.
 - Before saving, read the other descriptions in the same silo. No two should share an opening word or sentence shape.
+- `scripts/validate_front_matter.py` warns on each of these patterns. A clean run does not prove a description is good, but a warning means it repeats a retired formula.
 
 Article openings:
 

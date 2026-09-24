@@ -79,7 +79,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 | Stale content report | Day 54b | QA | `scripts/report_stale_content.py` — flags published articles with `lastmod` 183+ days old; `--with-stale` flag added to runner |
 | Pre-publish checklist | Day 55b | QA | `scripts/publish_checklist.py` — no-arg: prints 10-step checklist; with silo+slug: auto-verifies file, front matter, dates, image; exits non-zero on failures |
 | Site name signal pass | Day 55c | SEO | WebSite JSON-LD: added `alternateName`, fixed trailing slash on `url`; added Organization JSON-LD on homepage; added `application-name` meta, favicon links, and manifest link to `head.html`; `site.webmanifest` `name` corrected to "Free Stack Finder" |
-| Card-description sameness warnings | Day 85j | QA | `scripts/validate_front_matter.py` — warns on a first word shared within a silo, a Choose/Find/Compare/See/Pick opener, or a trailing "by X, Y, and Z" criteria list; warning-only |
+| Card-description sameness warnings | Day 85j | QA | `scripts/validate_front_matter.py` — warns on a first word shared within a silo, an imperative opener, a "[Tool], [Tool], and [Tool]" opener, a trailing criteria or use list, chatbot phrasing, an unsourced majority claim, or a title echo (widened Day 85k); warning-only |
 
 ---
 

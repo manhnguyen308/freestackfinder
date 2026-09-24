@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85j
+**Current day:** 85k
 
 ## Current state
 
@@ -17,6 +17,17 @@
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
+
+---
+
+### Day 85k - Validator catches the rest of the retired description formulas
+
+- Date: 2026-09-24. Scoped to `scripts/validate_front_matter.py`, the "Sitewide sameness" rules in `website-content-humanizer.md`, and the Day 85j row in `FEATURE-STRATEGY.md`. No content, template, or image changed.
+- Gap: the Day 85j checks missed 4 of the 50 pre-rewrite descriptions. Backup opened with "Build" and ended with a "with" list, team email ended "cover delegation, privacy, or chat-style collaboration", PDF editors used "Most people" and "Here's what each one does", and Office alternatives opened by repeating its title.
+- Checks added or widened, all warning-only: the imperative-opener list now includes Build, Get, Discover, Explore, Learn, Browse, Try, Use, Start, Check, Read, Meet, Save, and Switch; trailing lists now also count after "for", "with", and "cover(s)", trying every marker from the right so a "for" inside a list item cannot hide the "by" that starts it; a "[Tool], [Tool], and [Tool]..." opener is flagged when the leading items look like product names; announcement or chatbot phrasing ("here's what", "this guide", "let's") and unsourced majority claims ("most people", "many users") are flagged; and a description whose first three words repeat the title's first three words is flagged.
+- False positives found and fixed during testing: "lets" as a verb no longer matches "let's", and "Inkscape covers logos, icons, and SVG work" is not read as a tool list, because "icons" is not a product name.
+- Validation: current content shows 0 errors and 0 warnings; `run_quality_checks.py --with-counts` passes 3/3 with 50 articles. Against the pre-rewrite content (commit a95a973), the checks now flag all 50 articles with 134 warnings: 45 trailing lists, 35 imperative openers, 29 shared openers, 22 tool-list openers, and one each of filler, majority claim, and title echo. The run still reports a pass. Sixteen edge cases behave as expected, including the writing-tools card, the Illustrator card, and "Windscribe lets you pick...". `git diff --check` passed.
+- Still not covered: a formula that uses none of these words or shapes, and near-duplicate second sentences between neighboring cards. The possessive boundary from Day 85j remains ("Google" and "Google's" count as different first words).
 
 ---
 

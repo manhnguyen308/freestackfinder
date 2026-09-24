@@ -10,11 +10,16 @@ Usage:
 Scans articles under content/<silo>/ only (not utility pages).
 Exits with code 1 if errors are found, 0 if clean or warnings only.
 
-Descriptions double as card excerpts, so three sameness checks warn (never
-fail) when a description repeats a formula: a first word shared with another
-article in the same silo, a retired imperative opener, or a trailing
-"by X, Y, and Z" (or "compared for X, Y, and Z") criteria list. See "Sitewide sameness" in
-website-content-humanizer.md.
+Descriptions double as card excerpts, so sameness checks warn (never fail)
+when a description repeats one of the retired card formulas:
+  - a first word shared with another article in the same silo
+  - an imperative opener ("Choose...", "Find...", "Build...")
+  - a "[Tool], [Tool], and [Tool]..." list as the opening
+  - a trailing list of criteria or uses ("by X, Y, and Z", "for X, Y, or Z")
+  - announcement or chatbot phrasing ("Here's what...", "This guide...")
+  - an unsourced majority claim ("Most people...")
+  - an opening that repeats the title the card already shows
+See "Sitewide sameness" in website-content-humanizer.md.
 """
 
 import re
@@ -40,10 +45,23 @@ RE_IMAGE_PATH = re.compile(r'^"/img/[^"]+\.webp"$')
 BUILD_DATE = datetime.now(timezone.utc).date()
 
 # Card-description sameness (warnings only)
-RETIRED_DESC_OPENERS = {"Choose", "Find", "Compare", "See", "Pick"}
-CRITERIA_MARKERS = (" by ", " compared for ")   # "compared for" is the same formula worded differently
-CRITERIA_MIN_ITEMS = 3
-CRITERIA_MAX_ITEM_WORDS = 8   # criteria are noun phrases; anything longer is a clause
+IMPERATIVE_DESC_OPENERS = {
+    "Choose", "Find", "Compare", "See", "Pick", "Build", "Get", "Discover", "Explore",
+    "Learn", "Browse", "Try", "Use", "Start", "Check", "Read", "Meet", "Save", "Switch",
+}
+LIST_MARKERS = (" by ", " compared for ", " for ", " with ", " cover ", " covers ")
+LIST_MIN_ITEMS = 3
+LIST_MAX_ITEM_WORDS = 8        # criteria and uses are noun phrases; anything longer is a clause
+OPENING_LIST_MAX_WORDS = 4     # tool names at the start of a "[Tool], [Tool], and [Tool]" opener
+TITLE_ECHO_WORDS = 3
+RE_DESC_FILLER = re.compile(
+    r"\b(here'?s what|here is what|here are the|this guide|in this (?:guide|article|post)"
+    r"|we compare|everything you need|read on|find out|let['’]s)\b",
+    re.IGNORECASE,
+)
+RE_VAGUE_MAJORITY = re.compile(
+    r"\b(?:most|many) (?:people|users|readers|teams|businesses|creators)\b", re.IGNORECASE
+)
 
 
 def parse_front_matter(text):
@@ -101,27 +119,109 @@ def description_first_word(desc):
     return words[0].strip('.,;:!?"()').lower() if words else ""
 
 
-def criteria_tail(desc):
-    """Return the trailing 'by X, Y, and Z' list in the last sentence, or None."""
-    last_sentence = re.split(r'(?<=[.!?])\s+', desc.strip())[-1]
-    lowered = last_sentence.lower()
-    idx, marker = max((lowered.rfind(m), m) for m in CRITERIA_MARKERS)
-    if idx == -1:
-        return None
-    tail = last_sentence[idx + len(marker):].rstrip(" .!?")
-    items = [item.strip() for item in tail.split(",") if item.strip()]
-    # Without an Oxford comma, "sync and privacy" is still two items
+def sentences(desc):
+    return re.split(r'(?<=[.!?])\s+', desc.strip())
+
+
+def is_list(items, max_words):
+    """True when comma-separated items form one list of LIST_MIN_ITEMS or more."""
     count = len(items)
+    # Without an Oxford comma, "sync and privacy" is still two items
     if items and not re.match(r'(and|or)\s', items[-1]) and re.search(r'\s(and|or)\s', items[-1]):
         count += 1
-    if count < CRITERIA_MIN_ITEMS:
-        return None
+    if count < LIST_MIN_ITEMS:
+        return False
     # "and"/"or" before the final item means the list already ended and a clause follows
     if any(re.match(r'(and|or)\s', item) for item in items[:-1]):
+        return False
+    return all(len(re.sub(r'^(and|or)\s+', '', item).split()) <= max_words for item in items)
+
+
+def criteria_tail(desc):
+    """Return a trailing 'by X, Y, and Z' style list in the last sentence, or None."""
+    last_sentence = sentences(desc)[-1]
+    lowered = last_sentence.lower()
+    # Try every marker position from the right, so a "for" inside a list item
+    # does not hide the "by" that starts the list
+    positions = sorted(
+        ((m.start(), marker) for marker in LIST_MARKERS
+         for m in re.finditer(re.escape(marker), lowered)),
+        reverse=True,
+    )
+    for idx, marker in positions:
+        tail = last_sentence[idx + len(marker):].rstrip(" .!?")
+        items = [item.strip() for item in tail.split(",") if item.strip()]
+        if is_list(items, LIST_MAX_ITEM_WORDS):
+            return f"{marker.strip()} {tail}"
+    return None
+
+
+def looks_like_name(text):
+    """Product names start with a capital or digit, or read like a domain (diagrams.net)."""
+    first = text.split()[0] if text.split() else ""
+    return bool(first) and (first[0].isupper() or first[0].isdigit() or "." in first)
+
+
+def opening_list(desc):
+    """Return the '[Tool], [Tool], and [Tool]' run that opens the description, or None."""
+    segments = [s.strip() for s in sentences(desc)[0].split(",")]
+    for end in range(LIST_MIN_ITEMS - 1, len(segments)):
+        if not re.match(r'(and|or)\s+\S', segments[end]):
+            continue
+        names = segments[:end]
+        # "Inkscape covers logos, icons, and SVG work" lists objects, not tools
+        if all(1 <= len(n.split()) <= OPENING_LIST_MAX_WORDS and looks_like_name(n) for n in names):
+            return ", ".join(names + [segments[end]])
         return None
-    if any(len(re.sub(r'^(and|or)\s+', '', item).split()) > CRITERIA_MAX_ITEM_WORDS for item in items):
-        return None
-    return f"{marker.strip()} {tail}"
+    return None
+
+
+def description_formula_warnings(desc, title):
+    """Warnings for a single description that repeats a retired card formula."""
+    warnings = []
+    words = desc.split()
+    if not words:
+        return warnings
+
+    opener = words[0].strip('.,;:!?"()')
+    if opener in IMPERATIVE_DESC_OPENERS:
+        warnings.append(
+            f'description: starts with "{opener}", an imperative card opener — lead with a fact specific to this page'
+        )
+
+    run = opening_list(desc)
+    if run:
+        warnings.append(
+            f'description: opens with a list of tools ("{run}") — lead with the one fact that separates them'
+        )
+
+    tail = criteria_tail(desc)
+    if tail:
+        warnings.append(
+            f'description: ends with a criteria list ("{tail}") — name the one limit that decides this page'
+        )
+
+    filler = RE_DESC_FILLER.search(desc)
+    if filler:
+        warnings.append(
+            f'description: uses "{filler.group(0)}", announcement or chatbot phrasing — state the fact instead'
+        )
+
+    vague = RE_VAGUE_MAJORITY.search(desc)
+    if vague:
+        warnings.append(
+            f'description: claims something about "{vague.group(0)}" without a source — narrow it to what the page shows'
+        )
+
+    title_words = [w.strip('.,;:!?"()').lower() for w in str(title or "").strip('"').split()]
+    desc_words = [w.strip('.,;:!?"()').lower() for w in words]
+    if len(title_words) >= TITLE_ECHO_WORDS and desc_words[:TITLE_ECHO_WORDS] == title_words[:TITLE_ECHO_WORDS]:
+        echo = " ".join(words[:TITLE_ECHO_WORDS])
+        warnings.append(
+            f'description: repeats the title\'s opening ("{echo}") — the card already shows the title'
+        )
+
+    return warnings
 
 
 def check_file(path):
@@ -205,17 +305,7 @@ def check_file(path):
         elif len(desc_clean) > 165:
             warnings.append(f"description: long ({len(desc_clean)} chars) — aim for 150–160")
 
-        if desc_clean:
-            opener = desc_clean.split()[0].strip('.,;:!?"()')
-            if opener in RETIRED_DESC_OPENERS:
-                warnings.append(
-                    f'description: starts with "{opener}", the retired card formula — lead with a fact specific to this page'
-                )
-            tail = criteria_tail(desc_clean)
-            if tail:
-                warnings.append(
-                    f'description: ends with a criteria list ("{tail}") — name the one limit that decides this page'
-                )
+        warnings.extend(description_formula_warnings(desc_clean, fields.get("title")))
 
     return errors, warnings
 
