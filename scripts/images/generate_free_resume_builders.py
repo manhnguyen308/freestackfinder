@@ -40,7 +40,7 @@ card_grid(c, [
     ("#3b82f6", "GD", "Google Docs",  "ATS-friendly resumes with full control", logo_path("google-docs.png")),
     ("#06b6d4", "In", "Indeed",       "Build and apply directly on Indeed", logo_path("indeed.png")),
     ("#eab308", "Re", "Resume.com",   "Guided builder with a free download", logo_path("resume-com.png")),
-    ("#ef4444", "!",  "Paid exports", "Some builders charge for the final download", glyph("tag", "#ef4444")),
+    ("#ef4444", "!",  "Paid exports", "Some builders charge for the final download", glyph("coin", "#ef4444")),
 ])
 
 card_bar(

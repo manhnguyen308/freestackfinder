@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85n
+**Current day:** 85o
 
 ## Current state
 
@@ -17,6 +17,14 @@
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
+
+---
+
+### Day 85o - Paid-option cards use a dollar coin instead of a price tag
+
+- Date: 2026-09-24. Scoped to `image_helpers.py` and the 5 feature images with a paid-option card. No article text changed.
+- Change: at grid size the drawn price tag read like a pencil. `image_helpers.glyph` replaces the `tag` kind with `coin`, a white coin with an inner rim and a "$" in the card colour. It now marks "Paid stock" (free stock photos), "Paid CRM", "Paid exports" (resume builders), "Paid teams" (team password managers), and "Paid VPN".
+- Validation: the 5 cards were checked at 2x zoom, and the "$" reads clearly on every card colour. `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles and 0 front matter warnings. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings. The 5 images are 1200x630 WebP at 41 to 49 KB.
 
 ---
 

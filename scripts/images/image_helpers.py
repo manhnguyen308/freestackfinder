@@ -415,7 +415,7 @@ def glyph(kind, color):
     """Drawn icon for a card that is not a product (a plan, a rule, a paid option).
 
     Returns a callable for the `logo` slot: white glyph on a `color` circle.
-    kinds: check, crown, resize, team, tag, lock, alert, cloud, signature.
+    kinds: check, crown, resize, team, coin, lock, alert, cloud, signature.
     """
     def draw(c, cx, cy, r):
         c.circle(cx, cy, r, color)
@@ -441,15 +441,11 @@ def glyph(kind, color):
                 c.draw.chord([(cx + (dx - .30) * s) * SS, (cy + .04 * s) * SS,
                               (cx + (dx + .30) * s) * SS, (cy + .60 * s) * SS],
                              180, 360, fill=w)
-        elif kind == "tag":
-            import math
-            pts = [(-.55, 0), (-.25, -.30), (.52, -.30), (.52, .30), (-.25, .30)]
-            ang = math.radians(-45)
-            rot = [(cx + (x * math.cos(ang) - y * math.sin(ang)) * s,
-                    cy + (x * math.sin(ang) + y * math.cos(ang)) * s) for x, y in pts]
-            c.poly(rot, w)
-            hx, hy = -.22 * math.cos(ang), -.22 * math.sin(ang)
-            c.circle(cx + hx * s, cy + hy * s, .08 * s, color)
+        elif kind == "coin":
+            # dollar coin: white face, inner rim, and a "$" in the card colour
+            c.circle(cx, cy, .64 * s, w)
+            c.circle(cx, cy, .54 * s, None, outline=color, width=max(1, round(.05 * s)))
+            c.text(cx, cy + .03 * s, "$", 1.0 * s, color, "bold", anchor="mm")
         elif kind == "lock":
             c.draw.arc([(cx - .26 * s) * SS, (cy - .52 * s) * SS,
                         (cx + .26 * s) * SS, (cy + .04 * s) * SS],

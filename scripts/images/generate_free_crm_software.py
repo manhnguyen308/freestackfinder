@@ -44,7 +44,7 @@ card_grid(c, [
     ("#ef4444", "Zo", "Zoho CRM Free",   "Classic sales workflow for up to three users", logo_path("zoho-crm.png")),
     ("#3b82f6", "Fs", "Freshsales Free", "Visual pipeline with built-in email and phone", logo_path("freshsales.png")),
     ("#06b6d4", "Bx", "Bitrix24 Free",   "CRM plus tasks and chat, unclear user cap", logo_path("bitrix24.png")),
-    ("#64748b", "$",  "Paid CRM",        "When seats, records, or automation run out", glyph("tag", "#64748b")),
+    ("#64748b", "$",  "Paid CRM",        "When seats, records, or automation run out", glyph("coin", "#64748b")),
 ])
 
 card_bar(

@@ -46,7 +46,7 @@ card_grid(c, [
     ("#3b82f6", "VW", "Vaultwarden",  "Unofficial Bitwarden-compatible server", logo_path("vaultwarden.png")),
     ("#22c55e", "Pb", "Passbolt CE",  "Unlimited users, self-hosted only", logo_path("passbolt.png")),
     ("#06b6d4", "KP", "KeePassXC",    "Shared local file, no per-user controls", logo_path("keepassxc.png")),
-    ("#64748b", "$",  "Paid teams",   "When no one can maintain a server", glyph("tag", "#64748b")),
+    ("#64748b", "$",  "Paid teams",   "When no one can maintain a server", glyph("coin", "#64748b")),
 ])
 
 card_bar(

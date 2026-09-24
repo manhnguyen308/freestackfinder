@@ -108,7 +108,7 @@ card_grid(c, [
     ("#22c55e", "Pe", "Pexels",     "Photos and video clips in one library", logo_path("pexels.png")),
     ("#3b82f6", "Pi", "Pixabay",    "Photos, vectors, video, and music", logo_path("pixabay.png")),
     ("#8b5cf6", "Bu", "Burst",      "Product and e-commerce photos from Shopify", logo_path("shopify-burst.png")),
-    ("#64748b", "Pd", "Paid stock", "Worth it when releases or exclusivity matter", glyph("tag", "#64748b")),
+    ("#64748b", "Pd", "Paid stock", "Worth it when releases or exclusivity matter", glyph("coin", "#64748b")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

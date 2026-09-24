@@ -43,7 +43,7 @@ card_featured(
 card_grid(c, [
     ("#3b82f6", "Ws", "Windscribe", "More server choice, with a monthly data cap", logo_path("windscribe.png")),
     ("#eab308", "TB", "TunnelBear", "2 GB a month for short sessions", logo_path("tunnelbear.png")),
-    ("#22c55e", "$",  "Paid VPN",   "For streaming, P2P, or specific countries", glyph("tag", "#22c55e")),
+    ("#22c55e", "$",  "Paid VPN",   "For streaming, P2P, or specific countries", glyph("coin", "#22c55e")),
     ("#ef4444", "?",  "Unknown free VPNs", "Some show ads or collect more data than expected", glyph("alert", "#ef4444")),
 ])
 
