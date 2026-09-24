@@ -6,13 +6,14 @@ Silo   : Creative   Accent: #f97316
 
 Library facts come from content/creative/free-stock-photos.md, which compares
 Unsplash, Pexels, Pixabay, and Burst. Photo tiles are drawn shapes, not photos.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_DIM, TEXT_MID, GOOD, WARN,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path, glyph,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -97,16 +98,17 @@ for label, col in [("Commercial use", GOOD), ("No attribution", GOOD), ("Check p
 card_featured(
     c, ACCENT,
     initials = "U",
+    logo     = logo_path("unsplash.png"),
     name     = "Unsplash",
     tagline  = "Best overall for photography quality",
     note     = "No attribution required. Model releases are not guaranteed for every image",
 )
 
 card_grid(c, [
-    ("#22c55e", "Pe", "Pexels",     "Photos and video clips in one library"),
-    ("#3b82f6", "Pi", "Pixabay",    "Photos, vectors, video, and music"),
-    ("#8b5cf6", "Bu", "Burst",      "Product and e-commerce photos from Shopify"),
-    ("#64748b", "Pd", "Paid stock", "Worth it when releases or exclusivity matter"),
+    ("#22c55e", "Pe", "Pexels",     "Photos and video clips in one library", logo_path("pexels.png")),
+    ("#3b82f6", "Pi", "Pixabay",    "Photos, vectors, video, and music", logo_path("pixabay.png")),
+    ("#8b5cf6", "Bu", "Burst",      "Product and e-commerce photos from Shopify", logo_path("shopify-burst.png")),
+    ("#64748b", "Pd", "Paid stock", "Worth it when releases or exclusivity matter", glyph("tag", "#64748b")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

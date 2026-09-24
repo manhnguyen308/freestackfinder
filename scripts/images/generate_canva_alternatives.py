@@ -6,13 +6,14 @@ Silo   : Creative   Accent: #f97316
 
 Replaces a 1200x1500 portrait stock photo. Tool facts come from
 content/creative/canva-alternatives.md. Template thumbnails are drawn shapes.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_MID,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -100,16 +101,17 @@ story(col, top + cw * 9 / 16 + GAP, col + cw, bottom)
 card_featured(
     c, ACCENT,
     initials = "AE",
+    logo     = logo_path("adobe-express.png"),
     name     = "Adobe Express",
     tagline  = "Best overall free Canva alternative",
     note     = "Templates, basic photo and video tools, and limited storage on the free tier",
 )
 
 card_grid(c, [
-    ("#3b82f6", "Pp", "Photopea",           "Layers, masks, and PSD files in a browser"),
-    ("#22c55e", "MD", "Microsoft Designer", "AI-assisted first drafts with a Microsoft account"),
-    ("#8b5cf6", "Px", "Pixlr",              "Quick browser edits and photo cleanup"),
-    ("#ec4899", "Pi", "Picsart",            "Phone-first photo effects and social assets"),
+    ("#3b82f6", "Pp", "Photopea",           "Layers, masks, and PSD files in a browser", logo_path("photopea.png")),
+    ("#22c55e", "MD", "Microsoft Designer", "AI-assisted first drafts with a Microsoft account", logo_path("microsoft-designer.png")),
+    ("#8b5cf6", "Px", "Pixlr",              "Quick browser edits and photo cleanup", logo_path("pixlr.png")),
+    ("#ec4899", "Pi", "Picsart",            "Phone-first photo effects and social assets", logo_path("picsart.png")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

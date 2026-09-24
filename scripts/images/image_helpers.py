@@ -397,6 +397,11 @@ def initials_badge(c, cx, cy, r, color, initials, text_color="#ffffff"):
     c.text(cx, cy, initials, r * 0.72, text_color, "bold", anchor="mm")
 
 
+def logo_path(name):
+    """Path to a product icon in scripts/images/logos/ (sources in logos/SOURCES.md)."""
+    return os.path.join(os.path.dirname(os.path.abspath(__file__)), "logos", name)
+
+
 def logo_badge(c, cx, cy, max_w, max_h, path):
     """Product icon (transparent PNG) fitted inside max_w x max_h, centred on cx, cy."""
     icon = Image.open(path).convert("RGBA")
@@ -404,6 +409,48 @@ def logo_badge(c, cx, cy, max_w, max_h, path):
     w, h = round(icon.width * scale * SS), round(icon.height * scale * SS)
     icon = icon.resize((w, h), Image.LANCZOS)
     c.img.paste(icon, (round(cx * SS - w / 2), round(cy * SS - h / 2)), icon)
+
+
+def glyph(kind, color):
+    """Drawn icon for a card that is not a product (a plan, a rule, a paid option).
+
+    Returns a callable for the `logo` slot: white glyph on a `color` circle.
+    kinds: check, crown, resize, team, tag.
+    """
+    def draw(c, cx, cy, r):
+        c.circle(cx, cy, r, color)
+        w, s = "#ffffff", r
+        lw = max(2, round(s * 0.14))
+        if kind == "check":
+            c.line([(cx - .42 * s, cy + .02 * s), (cx - .12 * s, cy + .32 * s),
+                    (cx + .45 * s, cy - .30 * s)], w, lw)
+        elif kind == "crown":
+            c.poly([(cx - .55 * s, cy + .32 * s), (cx - .60 * s, cy - .32 * s),
+                    (cx - .26 * s, cy - .02 * s), (cx, cy - .48 * s),
+                    (cx + .26 * s, cy - .02 * s), (cx + .60 * s, cy - .32 * s),
+                    (cx + .55 * s, cy + .32 * s)], w)
+        elif kind == "resize":
+            a, b = (cx - .40 * s, cy + .40 * s), (cx + .40 * s, cy - .40 * s)
+            c.line([a, b], w, lw)
+            h = .30 * s
+            c.poly([(b[0], b[1]), (b[0] - h, b[1]), (b[0], b[1] + h)], w)
+            c.poly([(a[0], a[1]), (a[0] + h, a[1]), (a[0], a[1] - h)], w)
+        elif kind == "team":
+            for dx in (-.22, .22):
+                c.circle(cx + dx * s, cy - .20 * s, .16 * s, w)
+                c.draw.chord([(cx + (dx - .30) * s) * SS, (cy + .04 * s) * SS,
+                              (cx + (dx + .30) * s) * SS, (cy + .60 * s) * SS],
+                             180, 360, fill=w)
+        elif kind == "tag":
+            import math
+            pts = [(-.55, 0), (-.25, -.30), (.52, -.30), (.52, .30), (-.25, .30)]
+            ang = math.radians(-45)
+            rot = [(cx + (x * math.cos(ang) - y * math.sin(ang)) * s,
+                    cy + (x * math.sin(ang) + y * math.cos(ang)) * s) for x, y in pts]
+            c.poly(rot, w)
+            hx, hy = -.22 * math.cos(ang), -.22 * math.sin(ang)
+            c.circle(cx + hx * s, cy + hy * s, .08 * s, color)
+    return draw
 
 
 def badge(c, cx, cy, r, color, initials, logo=None, text_color="#ffffff"):

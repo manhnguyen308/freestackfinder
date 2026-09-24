@@ -6,13 +6,14 @@ Silo   : Creative   Accent: #f97316
 
 Plan limits come from content/creative/figma-alternatives.md. The left panel
 is a generic wireframe and makes no product claim.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, TEXT_MID, LINE,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -78,6 +79,7 @@ for k in range(3):
 card_featured(
     c, ACCENT,
     initials = "Pp",
+    logo     = logo_path("penpot.png"),
     name     = "Penpot",
     tagline  = "Best for open files and self-hosting",
     note     = "Hosted free plan for up to eight team members, "
@@ -85,10 +87,10 @@ card_featured(
 )
 
 card_grid(c, [
-    ("#3b82f6", "Lu", "Lunacy",        "Desktop app with local files, ten free cloud documents"),
-    ("#8b5cf6", "Pl", "Plasmic",       "Visual builds that export React code"),
-    ("#22c55e", "QU", "Quant UX",      "Prototypes with built-in usability tests"),
-    ("#ec4899", "Fi", "Figma Starter", "Three collaborative files, three pages each"),
+    ("#3b82f6", "Lu", "Lunacy",        "Desktop app with local files, ten free cloud documents", logo_path("lunacy.png")),
+    ("#8b5cf6", "Pl", "Plasmic",       "Visual builds that export React code", logo_path("plasmic.png")),
+    ("#22c55e", "QU", "Quant UX",      "Prototypes with built-in usability tests", logo_path("quant-ux.png")),
+    ("#ec4899", "Fi", "Figma Starter", "Three collaborative files, three pages each", logo_path("figma.png")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

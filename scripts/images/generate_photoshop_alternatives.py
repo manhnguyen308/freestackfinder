@@ -6,13 +6,14 @@ Silo   : Creative   Accent: #f97316
 
 Replaces a 1200x800 stock photo of Adobe app icons. Tool facts come from
 content/creative/photoshop-alternatives.md. The editor mock-up is generic.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, TEXT_MID, LINE,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -77,16 +78,17 @@ for name, swatch, selected in layers:
 card_featured(
     c, ACCENT,
     initials = "Pp",
+    logo     = logo_path("photopea.png"),
     name     = "Photopea",
     tagline  = "Best for PSD editing in a browser",
     note     = "Layers, masks, and PSD import and export. The free version shows ads",
 )
 
 card_grid(c, [
-    ("#3b82f6", "G",  "GIMP",           "Desktop editor with plugins and local files"),
-    ("#8b5cf6", "Kr", "Krita",          "Painting and illustration, PSD import and export"),
-    ("#22c55e", "Px", "Pixlr",          "Quick browser edits with a lighter learning curve"),
-    ("#64748b", "Ad", "Keep Photoshop", "For Adobe file handoffs and high-end print work"),
+    ("#3b82f6", "G",  "GIMP",           "Desktop editor with plugins and local files", logo_path("gimp.png")),
+    ("#8b5cf6", "Kr", "Krita",          "Painting and illustration, PSD import and export", logo_path("krita.png")),
+    ("#22c55e", "Px", "Pixlr",          "Quick browser edits with a lighter learning curve", logo_path("pixlr.png")),
+    ("#64748b", "Ad", "Keep Photoshop", "For Adobe file handoffs and high-end print work", logo_path("photoshop.png")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

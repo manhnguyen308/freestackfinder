@@ -10,13 +10,14 @@ SVG-edit, Canva Free). Vectr was dropped after it moved to paid plans only; the
 fourth grid cell repeats the article's advice on when to keep Illustrator. The
 previous image showed Gravit Designer, which the article does not cover, and an
 Adobe-style "Ai" mark.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_DIM, GOOD,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -98,16 +99,17 @@ for fmt in ["SVG", "PDF", "EPS", "PNG"]:
 card_featured(
     c, ACCENT,
     initials = "Ik",
+    logo     = logo_path("inkscape.png"),
     name     = "Inkscape",
     tagline  = "Best for open-source vector work",
     note     = "Paths, nodes, and boolean operations on Windows, macOS, and Linux",
 )
 
 card_grid(c, [
-    ("#22c55e", "LD", "LibreOffice Draw", "Diagrams and page layouts"),
-    ("#8b5cf6", "SE", "SVG-edit",         "Quick SVG edits with no account needed"),
-    ("#ec4899", "Ca", "Canva Free",       "Templates with basic shapes only"),
-    ("#64748b", "Il", "Keep Illustrator", "When .ai handoffs or Adobe plugins matter"),
+    ("#22c55e", "LD", "LibreOffice Draw", "Diagrams and page layouts", logo_path("libreoffice-draw.png")),
+    ("#8b5cf6", "SE", "SVG-edit",         "Quick SVG edits with no account needed", logo_path("svg-edit.png")),
+    ("#ec4899", "Ca", "Canva Free",       "Templates with basic shapes only", logo_path("canva.png")),
+    ("#64748b", "Il", "Keep Illustrator", "When .ai handoffs or Adobe plugins matter", logo_path("illustrator.png")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

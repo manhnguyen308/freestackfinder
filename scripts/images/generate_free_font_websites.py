@@ -7,13 +7,14 @@ Silo   : Creative   Accent: #f97316
 License models and delivery methods come from the comparison table in
 content/creative/free-font-websites.md. The article gives no catalog sizes,
 so the image shows none.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, TEXT_MID, GOOD, WARN,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -57,16 +58,17 @@ for site, (lic, col), delivery in rows:
 card_featured(
     c, ACCENT,
     initials = "GF",
+    logo     = logo_path("google-fonts.png"),
     name     = "Google Fonts",
     tagline  = "Best overall free font library",
     note     = "Open-source licenses across the catalog, with CDN embedding or download",
 )
 
 card_grid(c, [
-    ("#22c55e", "FS", "Font Squirrel", "Commercial-use focus. Still read each license"),
-    ("#ec4899", "Da", "DaFont",        "Mixed licenses, many for personal use only"),
-    ("#3b82f6", "Fo", "Fontsource",    "npm packages for self-hosting open-source fonts"),
-    ("#eab308", "1F", "1001 Fonts",    "Per-font license labels on a mixed catalog"),
+    ("#22c55e", "FS", "Font Squirrel", "Commercial-use focus. Still read each license", logo_path("font-squirrel.png")),
+    ("#ec4899", "Da", "DaFont",        "Mixed licenses, many for personal use only", logo_path("dafont.png")),
+    ("#3b82f6", "Fo", "Fontsource",    "npm packages for self-hosting open-source fonts", logo_path("fontsource.png")),
+    ("#eab308", "1F", "1001 Fonts",    "Per-font license labels on a mixed catalog", logo_path("1001-fonts.png")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

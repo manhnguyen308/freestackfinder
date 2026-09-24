@@ -6,13 +6,14 @@ Silo   : Creative   Accent: #f97316
 
 Privacy and offline values come from the comparison table in
 content/creative/freecad-alternatives.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, GOOD, WARN, BAD,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -49,16 +50,17 @@ for label, (p_txt, p_col), (o_txt, o_col) in rows:
 card_featured(
     c, ACCENT,
     initials = "On",
+    logo     = logo_path("onshape.png"),
     name     = "Onshape Free",
     tagline  = "Best free parametric CAD overall",
     note     = "Runs in a browser. Every document on the free plan is public",
 )
 
 card_grid(c, [
-    ("#3b82f6", "F",  "Fusion 360",  "Private projects and CAM, ten editable documents"),
-    ("#22c55e", "Tk", "Tinkercad",   "Primitive shapes for quick 3D prints"),
-    ("#8b5cf6", "SS", "SolveSpace",  "Lightweight parametric CAD, GPL, works offline"),
-    ("#06b6d4", "OS", "OpenSCAD",    "Models written as code, GPL licensed"),
+    ("#3b82f6", "F",  "Fusion 360",  "Private projects and CAM, ten editable documents", logo_path("fusion.png")),
+    ("#22c55e", "Tk", "Tinkercad",   "Primitive shapes for quick 3D prints", logo_path("tinkercad.png")),
+    ("#8b5cf6", "SS", "SolveSpace",  "Lightweight parametric CAD, GPL, works offline", logo_path("solvespace.png")),
+    ("#06b6d4", "OS", "OpenSCAD",    "Models written as code, GPL licensed", logo_path("openscad.png")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────

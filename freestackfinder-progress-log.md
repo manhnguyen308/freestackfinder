@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85d
+**Current day:** 85e
 
 ## Current state
 
@@ -13,8 +13,20 @@
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
+- Product icons: real icons replace the initials circles in all 8 Creative images (Day 85e), Dropbox alternatives (85c), and Office alternatives (85d). The other 40 images still use initials
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+
+---
+
+### Day 85e - Creative feature images use real product icons
+
+- Date: 2026-09-24. Scoped to the 8 Creative feature images, their generators, `image_helpers.py`, and `scripts/images/logos/`. No article text changed.
+- Icons: 32 product icons added to `scripts/images/logos/`, with every source recorded in `logos/SOURCES.md`. Sources are official site icons (Canva, Photopea, Microsoft Designer, Pixlr, Picsart, Figma, Google Fonts, Font Squirrel, DaFont, Fontsource, 1001 Fonts, Onshape, Tinkercad, Shopify for Burst), GitHub organization or repository icons (Plasmic, Quant UX, Pexels, SolveSpace), an icons8.com page icon (Lunacy), and Wikimedia Commons PNG renders (Adobe Express, Penpot, Unsplash, Pixabay, Autodesk Fusion, OpenSCAD, Inkscape, LibreOffice Draw, SVG-edit, GIMP, Krita, Photoshop, Illustrator).
+- Icon choices: Burst uses the Shopify bag because Burst's own site does. Fusion uses the current orange F cropped from the Autodesk Fusion lockup, not the older "FUS" icon. Krita uses the brush and color-wheel icon that krita.org serves as its favicon. Penpot and Unsplash are recolored white, and SolveSpace sits on a white tile, so their black marks stay visible on the dark cards. Pexels and Pixabay are white marks whose black tiles were made transparent.
+- Non-product cards: the four Canva Free vs Pro plan cards use drawn glyphs (check, crown, resize arrows, two people). The crown matches the article's note that Canva marks premium items with a crown. "Paid stock" uses a drawn price tag.
+- Helpers: `image_helpers.py` gains `logo_path` for files in `logos/` and `glyph` for drawn icons on non-product cards.
+- Validation: every image was reviewed at full size, and the Creative hub was checked at card size in the browser. `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings, and nothing from `scripts/images/logos/` reached the build. The 8 images are 1200x630 WebP at 40 to 48 KB.
 
 ---
 

@@ -6,13 +6,14 @@ Silo   : Creative   Accent: #f97316
 
 Every label is taken from content/creative/canva-free-vs-paid.md. The article
 avoids exact quotas because Canva changes them, so the image does too.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, GOOD, WARN, BAD,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path, glyph,
 )
 
 ACCENT = "#f97316"   # Creative silo, orange
@@ -54,13 +55,20 @@ card_featured(
     tagline  = "Free covers occasional projects",
     note     = "Pro pays off when background removal, brand settings, "
                "or resizing repeat every week",
+    logo     = logo_path("canva.png"),
 )
 
+# Plan cards are not products, so they get drawn glyphs. The crown is the
+# marker the article says Canva uses for premium items.
 card_grid(c, [
-    ("#3b82f6", "F",  "Stay on Free",  "Casual creators, students, and occasional projects"),
-    ("#22c55e", "P",  "Consider Pro",  "Solo professionals, small businesses, and marketers"),
-    ("#8b5cf6", "MR", "Magic Resize",  "Not on Free. One design resized for each format"),
-    ("#ec4899", "T",  "Team work",     "Pro adds roles, comments, and shared brand assets"),
+    ("#3b82f6", "F",  "Stay on Free",  "Casual creators, students, and occasional projects",
+     glyph("check", "#3b82f6")),
+    ("#22c55e", "P",  "Consider Pro",  "Solo professionals, small businesses, and marketers",
+     glyph("crown", "#f59e0b")),
+    ("#8b5cf6", "MR", "Magic Resize",  "Not on Free. One design resized for each format",
+     glyph("resize", "#8b5cf6")),
+    ("#ec4899", "T",  "Team work",     "Pro adds roles, comments, and shared brand assets",
+     glyph("team", "#ec4899")),
 ])
 
 # ── BOTTOM BAR ────────────────────────────────────────────────────────────────
