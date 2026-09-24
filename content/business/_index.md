@@ -1,16 +1,16 @@
 ---
 title: "Free business software alternatives"
-description: "Compare free alternatives to QuickBooks, Salesforce, Mailchimp, and other business tools for freelancers and small teams."
+description: "Freelancers and small teams can run CRM, invoicing, bookkeeping, and projects on free plans until a user, client, or record cap arrives."
 ---
 
-A small operation may need CRM, invoicing, project tracking, and bookkeeping without needing enterprise plans for any of them. These guides compare the free boundaries that matter first: users, records, automations, exports, and accountant or client handoff.
+A small operation may need CRM, invoicing, project tracking, and bookkeeping without needing enterprise plans for any of them. In most of these categories, the free plan runs out at a user count, a record cap, or the point where an accountant or client needs access.
 
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>
 <ul>
-<li><a href="/business/free-crm-software/">Free CRM Software</a>: if you manage client relationships and need a contact or pipeline tool</li>
-<li><a href="/business/free-invoicing-software/">Free Invoicing Software</a>: if you bill clients and want to send professional invoices without a subscription</li>
-<li><a href="/business/free-project-management-software/">Free Project Management</a>: if you need task boards, timelines, or team coordination</li>
-<li><a href="/business/free-accounting-software/">Free Accounting Software</a>: if you're replacing QuickBooks or Wave for bookkeeping and expense tracking</li>
+<li><a href="/business/free-crm-software/">Free CRM software</a>: contacts and a sales pipeline for up to two or three users</li>
+<li><a href="/business/free-invoicing-software/">Free invoicing software</a>: send and track client invoices without a monthly fee</li>
+<li><a href="/business/free-project-management-software/">Free project management</a>: task boards and team coordination within board and user caps</li>
+<li><a href="/business/free-accounting-software/">Free accounting software</a>: bookkeeping, expenses, and year-end reports without QuickBooks</li>
 </ul>
 </div>

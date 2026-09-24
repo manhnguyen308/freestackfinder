@@ -1,6 +1,6 @@
 ---
 title: "Free web analytics tools in 2026 for small sites"
-description: "GA4, Search Console, Clarity, Umami, and Matomo compared for traffic, search, behavior, privacy, and data ownership."
+description: "GA4 has no pageview cap but brings cookie consent work. Search Console covers Google Search only, and Umami or Matomo keep analytics data on your own server."
 date: "2026-04-26"
 lastmod: "2026-08-03"
 draft: false
@@ -25,13 +25,11 @@ image: "/img/free-web-analytics.webp"
 author: "FreeStackFinder Team"
 ---
 
-Free analytics tools differ in what they collect, how long they retain it, and who has to maintain the infrastructure. Those differences are more useful than a raw feature count.
-
-The tools below are compared for small websites, blogs, affiliate sites, and side projects. The focus is on what free gives you in practice: traffic volume, data retention, setup complexity, and privacy trade-offs.
+Free analytics tools differ in what they collect, how long they keep it, and who maintains the server. For a small website, blog, affiliate site, or side project, those differences decide how much consent work, historical reporting, and maintenance time the setup will need.
 
 ## Traffic, search, or behavior data
 
-**Google Analytics 4** covers traffic, acquisition, events, and conversions at no software cost, but it brings consent and privacy work in many regions. **Google Search Console** only covers Google Search performance, so use it beside analytics rather than as a substitute. **Microsoft Clarity** adds heatmaps and session recordings. Choose **Umami** for a lighter self-hosted setup, or **Matomo On-Premise** when deeper reporting is worth the extra server and maintenance work.
+**Google Analytics 4** covers traffic, acquisition, events, and conversions at no software cost, but it brings consent and privacy work in many regions. **Google Search Console** only covers Google Search performance, so use it beside analytics rather than as a substitute. **Microsoft Clarity** adds heatmaps and session recordings. **Umami** is the lighter self-hosted setup, and **Matomo On-Premise** suits deeper reporting when the extra server and maintenance work is acceptable.
 
 For a beginner setup, start with the question you need answered. Search visibility points to Search Console. Traffic sources and conversion events point to GA4. Layout confusion points to Clarity. Privacy-friendly dashboards point to Umami, and full self-hosted reporting depth points to Matomo if you can maintain it.
 
@@ -65,11 +63,9 @@ rows:
 {{< /comparison-table >}}
 
 
-## Traffic, search, and behavior data answer different questions
+## Why small sites end up with two or three tools
 
 Organic search has become harder to read. Zero-click results, AI-generated answers, and increased SERP features mean raw traffic numbers tell less of the story than they used to. But web analytics is still the primary way to answer questions that matter for a small site, which pages are landing pages, where visitors drop off, which sources convert, and whether a publishing push led to a measurable change in behavior.
-
-Major analytics platforms give small sites traffic, acquisition, page, and conversion reports without a subscription. The decision turns on data collection, retention, hosting, and compliance rather than feature count alone.
 
 For most small sites, the practical stack is two or three tools rather than one. Search Console tells you what Google searchers saw before they clicked. GA4 or Umami tells you what happened after visitors arrived. Clarity explains page-level behavior when the numbers alone do not show why users are stuck. Keeping those jobs separate makes setup easier and avoids expecting one free tool to answer every analytics question, especially on a new site with limited traffic and few conversions during the early launch stage.
 
@@ -97,40 +93,38 @@ Search Console is free search intelligence rather than whole-site analytics. It 
 
 The restriction is scope. Data is aggregated, low-volume queries may be grouped as "other," and there is no user-level or session-level view. It cannot explain direct, social, referral, or email traffic because it only covers Google Search.
 
-Search Console is useful beside GA4, Umami, or another analytics tool when Google Search matters. It provides Google-reported impressions and click-through rates at the query level.
-
 [Google Search Console →](https://search.google.com/search-console)
 
 
 ### Microsoft Clarity
 
-Clarity is a free behavior analytics tool from Microsoft. It supplements traffic reports with heatmaps, scroll depth, rage-click signals, and session recordings.
+Microsoft's Clarity shows how people use a page rather than how they found it.
 
 Clarity gives behavior data that traffic dashboards do not: heatmaps, session recordings, rage-click, dead-click, and excessive-scroll detection, basic funnel analysis, GA4 integration, and a dashboard with behavioral insights. Microsoft does not state a session or recording cap, and the product has remained free since launch.
 
 The limitation is that Clarity does not report acquisition sources, pageview counts by channel, or traditional conversion data in the way GA4 does. It is a companion to analytics, not a replacement. Session recordings may also auto-expire over time.
 
-Clarity fits sites that need to understand layout and UX performance without paying for Hotjar or FullStory. It pairs naturally with GA4 because you can move between session recordings and traffic data when diagnosing why a page underperforms.
+It suits sites that need to understand layout and UX problems without paying for Hotjar or FullStory, and it pairs naturally with GA4 because you can move between session recordings and traffic data when diagnosing why a page underperforms.
 
 [Microsoft Clarity →](https://clarity.microsoft.com)
 
 
 ### Umami (self-hosted)
 
-Umami is an open-source, privacy-focused analytics platform. It is cookieless by default, collects no personally identifiable information, and stores all data on your own server. The self-hosted version is free to run; there is also a paid Umami Cloud option for teams that do not want to manage infrastructure.
+Umami is open source and cookieless by default, collects no personally identifiable information, and stores all data on your own server. The self-hosted version is free to run; there is also a paid Umami Cloud option for teams that do not want to manage infrastructure.
 
 Umami's self-hosted free value is simple privacy-friendly traffic reporting: unlimited websites, unlimited pageviews, event tracking, referral and source data, real-time visitor view, multi-user access, custom domains, and no external data sharing.
 
 The cost is infrastructure. You need a server or hosting environment, and ongoing maintenance such as upgrades, backups, and uptime is your responsibility. Reporting depth is lighter than GA4, with no built-in funnel analysis or session recording.
 
-Umami fits developers and technically confident site owners who prioritize privacy compliance and do not want to use Google's infrastructure. Cookieless tracking may reduce consent-banner complexity depending on your legal context, and the interface is easier to read than GA4 for basic traffic patterns.
+Its audience is developers and technically confident site owners who prioritize privacy compliance and do not want to use Google's infrastructure. Cookieless tracking may reduce consent-banner complexity depending on your legal context, and the interface is easier to read than GA4 for basic traffic patterns.
 
 [Umami on GitHub →](https://github.com/umami-software/umami)
 
 
 ### Matomo On-Premise
 
-Matomo On-Premise is an open-source analytics platform that runs on your own server. Its free core includes traffic and visitor reports, goals, ecommerce tracking, Tag Manager, APIs, and raw-data access without a hosted-service data cap.
+Matomo is the heavier self-hosted option. Its free, open-source On-Premise core includes traffic and visitor reports, goals, ecommerce tracking, Tag Manager, APIs, and raw-data access without a hosted-service data cap.
 
 Some of Matomo Cloud's headline features are not part of the free On-Premise download. Funnels, cohorts, custom reports, and heatmaps with session recordings are sold as [premium On-Premise plugins](https://shop.matomo.org/product-category/plugins/). The distinction matters when comparing Matomo's core download with a managed Cloud package.
 
@@ -171,9 +165,7 @@ Product analytics versus website analytics: Tools like Mixpanel, Amplitude, and 
 
 ## Pair search data with one traffic tool
 
-For most small websites, **Google Analytics 4** and **Google Search Console** cover traffic sources, landing pages, queries, and conversions without a usage cap they are likely to hit. Add **Microsoft Clarity** for heatmaps and session recordings.
-
-If cookie consent or privacy requirements drive the decision, **Umami** self-hosted is the practical starting point. It is lighter to run than Matomo and carries no software fee when you already have hosting.
+**Google Search Console** belongs on any site that wants search traffic, because it is the only tool here that reports what Google searchers saw before they clicked. The second tool is a choice about consent and maintenance. **Google Analytics 4** gives the broadest free dashboard without a usage cap a small site is likely to hit, if you can manage cookie consent. **Umami** fits when privacy requirements come first, since it is lighter to run than Matomo and carries no software fee on hosting you already have. **Microsoft Clarity** is worth adding once real sessions would explain a page that underperforms.
 
 Matomo On-Premise is worth the effort if you need GA4-depth reporting without relying on Google infrastructure, and you have someone comfortable managing a PHP application long-term.
 

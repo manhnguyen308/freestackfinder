@@ -205,6 +205,35 @@ Do not game burstiness or perplexity scores. Do not add odd words, slang, jokes,
 - Use a comparison table only for exact mappings readers need to scan.
 - Close with a decision rule or boundary, not a summary of the introduction.
 
+### Sitewide sameness
+
+Readers never see one page alone. Hub pages, the homepage, search results, and related-guide lists show six to thirteen cards side by side, and each card excerpt is the page's front matter `description`. A shared formula that looks harmless on one page reads as bulk generation across a grid. Check every page against its neighbors, not only against itself.
+
+Card descriptions:
+
+- Do not open descriptions with the same verb across pages. "Choose a...", "Choose among...", "Find a free...", "Compare...", "See...", and "Pick..." were the site's old formula; do not use them to start a description.
+- Do not end a description with a list of four or five criteria, such as "by storage, sync, privacy, and workflow." Name the one limit, number, change, or tradeoff that decides this page.
+- Do not use "[Tool], [Tool], and [Tool] compared by [criteria]" as a stand-in for a different formula.
+- Lead with a fact specific to the page and pass the portability test: if the sentence still works after swapping in another category's noun, rewrite it.
+- Before saving, read the other descriptions in the same silo. No two should share an opening word or sentence shape.
+
+Article openings:
+
+- Give the answer early, but do not open with an imperative verdict such as "Choose **X** for..., **Y** fits...", "Use **X**...", "Start with **X**...", or "Pick **X**...". Open with the fact that drives the answer: the limit that sends people looking, the split between tool types, the change that made the old default wrong, or the number that decides it.
+- Do not open by announcing the page, such as "This guide covers..." or "The tools below are compared for...".
+- Do not put two intro headings with the same meaning back to back.
+
+Tool sections:
+
+- Do not open every tool section with a dictionary definition such as "X is a free, open-source..." Open with what separates the tool on this page: its limit, its file model, its audience, or its tradeoff. A definition is fine where the reader cannot follow without one, but not in every section.
+- Do not repeat one sentence frame in every section of a page, such as "Strong fit for:", "It fits...", or "The natural choice...". Fold the audience into prose, or drop the line when the paragraph already says it.
+- Label lines before bullet lists may stay when they help scanning. Do not reuse one exact label pair across several articles.
+
+Closings:
+
+- Do not close with the same imperative formula as the opening. The closing should add a decision rule, a boundary, or a next step that the opening did not state.
+- Across the site, closings should not share an opening verb any more than descriptions should.
+
 ### Homepage and hub pages
 
 - Describe the concrete job each collection helps a reader complete.
@@ -546,6 +575,9 @@ Do not deliver or publish until every answer is yes:
 - Are headings in sentence case and specific to the page?
 - Are paragraphs and sentences varied without forced fragments or slang?
 - Are repeated openings, labels, verdicts, and conclusions reduced across the site?
+- Does the description differ in opening word and shape from every other description in its silo, and does it name a fact specific to this page?
+- Does the first sentence of the article avoid the imperative verdict formula and the page announcement?
+- Do the tool sections open in different ways, rather than with one definition sentence each?
 - Are lists, tables, bold text, and colons used because they improve scanning?
 - Are there no chatbot phrases, placeholders, citation tokens, hidden instructions, or raw Markdown leaks?
 - Are links and citations real and still pointed at the intended targets?

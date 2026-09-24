@@ -1,6 +1,6 @@
 ---
 title: "Free team email in 2026: custom domains and shared access"
-description: "Zoho Mail is the main no-cost custom-domain option for eligible small teams; other tools cover delegation, privacy, or chat-style collaboration."
+description: "Zoho Mail's free plan gives up to five users a custom domain in selected regions. Without it, a free team inbox means spike.team addresses or Gmail delegation."
 date: "2026-05-01"
 lastmod: "2026-08-22"
 draft: false
@@ -27,20 +27,18 @@ Solo operators mostly need a professional address that takes little work to set 
 
 ## Custom-domain mail costs providers money
 
-Personal free email, Gmail, Outlook.com, Proton Mail, is one of the most competitive spaces on the internet. Providers give away generous personal accounts because they want the user base. Team email is different.
+Free personal accounts from Gmail, Outlook.com, and Proton Mail are easy to find. Team email is different.
 
 When a team needs a shared inbox, a custom domain (you<span aria-hidden="true">&#64;</span>yourcompany.com), or the ability for multiple people to send and receive from one address, that requirement usually moves it onto a paid business plan. Prices change by country and billing term, so compare the current business plans directly when free accounts no longer provide enough control.
 
 An ongoing free setup therefore means using an explicit small-team plan, adapting an individual inbox carefully, or accepting tight limits.
-
-The five paths below cover a hosted custom-domain plan, new team addresses, separate private accounts, and delegated access to one inbox.
 
 
 ## Five ways to give a team a shared address
 
 ### 1. Zoho Mail: up to five custom-domain users
 
-Zoho Mail is a business email service from the company behind Zoho CRM. Its [Forever Free plan](https://www.zoho.com/mail/zohomail-pricing.html) supports one custom domain, up to five users, and 5GB of mail storage per user. It includes web access, mobile apps, spam filtering, basic administration, and the free edition of Zoho Cliq.
+Zoho's [Forever Free plan](https://www.zoho.com/mail/zohomail-pricing.html) is the only one here built as business email, with one custom domain, up to five users, and 5GB of mail storage per user. It includes web access, mobile apps, spam filtering, basic administration, and the free edition of Zoho Cliq.
 
 The free plan is available only in selected data centers. It does not include IMAP, POP, ActiveSync, email routing, or advanced shared-inbox controls, so standard desktop mail clients require a paid plan. Adding a sixth user also moves every account in the organization to paid licensing.
 
@@ -56,18 +54,18 @@ It does not provide a custom domain or shared inbox on the free plan. A separate
 
 ### 3. Proton Mail Free: separate encrypted accounts
 
-Proton Mail is an encrypted email service based in Switzerland. The [free plan](https://proton.me/mail/pricing) lists one address and up to 1GB of mail storage, with web and mobile access, zero-access encryption for stored mail, and automatic end-to-end encryption between Proton users.
+Each Proton Mail [free account](https://proton.me/mail/pricing) is one person's encrypted inbox, with one address and up to 1GB of mail storage, with web and mobile access, zero-access encryption for stored mail, and automatic end-to-end encryption between Proton users.
 
 Free accounts have no custom domain, shared inbox, or organization administration. Standard IMAP access uses Proton Mail Bridge, which is a paid feature. Separate individual accounts can suit a privacy-conscious group, but they are not a substitute for a managed team plan.
 
-Proton Mail and Tuta both provide automatic end-to-end encryption within their own services. Proton's free plan works for individuals, but grouping free accounts does not create shared administration. Our [free email service guide](/cloud/free-email-service/) compares these personal providers.
+Our [free email service guide](/cloud/free-email-service/) compares Proton with the other personal providers.
 
 [Open Proton Mail's plans](https://proton.me/mail/pricing)
 
 
 ### 4. Tuta: separate private accounts for a small group
 
-Tuta is an open-source encrypted email service based in Germany. Its [free personal plan](https://tuta.com/pricing) lists one user, 1GB of storage, one calendar, web and mobile apps, and a Tuta address.
+Tuta's code is open source, and its [free personal plan](https://tuta.com/pricing) lists one user, 1GB of storage, one calendar, web and mobile apps, and a Tuta address.
 
 The free plan has no custom domain, shared inbox, or team administration. Tuta also does not support IMAP because its clients handle the service's encryption. It fits people who deliberately want separate private accounts; it does not create a shared business-email environment.
 
@@ -145,10 +143,6 @@ If you are considering storage alongside team email, the [free cloud storage com
 
 ## Zoho for domains, Gmail for delegation
 
-Zoho Mail is the first plan to check when up to five people need a custom domain and can use web or mobile access. Its regional availability and lack of third-party desktop-client access are the decisive constraints.
-
-Spike is a different proposition: it gives a three-person group new addresses on a `spike.team` domain and combines them with team channels. Proton Mail and Tuta suit separate privacy-focused inboxes, while Gmail delegation lets assistants work in one existing personal inbox.
-
-None of the free plans compared here provides a managed shared queue with thread assignment and response-time tracking. Budget for a paid plan when that workflow is required. Otherwise, Zoho Mail can cover up to five custom-domain users where its free plan is offered.
+None of the free plans compared here provides a managed shared queue with thread assignment and response-time tracking, so budget for a paid plan when that workflow is required. Plan for the growth point too. On **Zoho Mail**, adding a sixth user moves every account in the organization to paid licensing, not only the new one, and the lack of desktop-client access remains until then.
 
 Once your team email is set up, you can layer in free AI writing assistance: see our [best free AI email tools guide](/cloud/free-ai-email-tools/) for tools that draft replies, adjust tone, and summarize threads without a subscription.

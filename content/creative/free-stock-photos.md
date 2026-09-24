@@ -1,6 +1,6 @@
 ---
 title: "Free stock photo sites in 2026: licenses, attribution, and image choice"
-description: "Choose among Unsplash, Pexels, Pixabay, Burst, and other free photo libraries by license, attribution rules, and subject coverage."
+description: "None of these four photo libraries asks for attribution, but a free license still does not clear a visible logo, artwork, or recognizable person."
 date: "2026-04-15"
 lastmod: "2026-08-28"
 draft: false
@@ -23,7 +23,7 @@ author: "FreeStackFinder Team"
 
 ## Subject coverage and license terms come first
 
-Use **Unsplash** for editor-selected photography, **Pexels** when the same search also needs video, and **Pixabay** for vectors and illustrations beside photos. All three permit broad free use under their own licenses, but check the asset page when a recognizable person, logo, artwork, or property appears. Paid libraries become easier to justify when model releases, specialist imagery, or exclusivity matter.
+None of these four libraries requires attribution, and all of them permit broad commercial use under their own licenses. They differ in what else a search returns: **Unsplash** stays with editor-selected photography, **Pexels** adds video, **Pixabay** adds vectors, illustrations, and music, and **Burst** focuses on e-commerce shots. Check the asset page when a recognizable person, logo, artwork, or property appears. Paid libraries become easier to justify when model releases, specialist imagery, or exclusivity matter.
 
 
 ## Where free libraries fall short
@@ -37,7 +37,7 @@ Free libraries work well for blog headers, presentations, social posts, and gene
 
 ### 1. Unsplash: best overall for photography quality
 
-Unsplash is a photo platform with editor-selected images available under the Unsplash License. It is owned by Getty Images but continues to use its own license for the free library.
+Getty Images owns Unsplash, but the free library still uses its own Unsplash License, and its photos are editor-selected.
 
 Unsplash's free library gives you:
 - A large library of high-resolution photos
@@ -53,7 +53,7 @@ The licensing caveats are specific rather than hidden:
 - Cannot guarantee exclusivity: the same image may appear on competitor sites
 - Model releases are not guaranteed for every image
 
-Use Unsplash for blog headers, lifestyle imagery, architecture, nature, and business photography where style matters more than exclusivity. The practical mistake to avoid is using a recognizable person or private property in an ad campaign without checking release requirements first.
+It works well for blog headers, lifestyle imagery, architecture, nature, and business photography where style matters more than exclusivity. The practical mistake to avoid is using a recognizable person or private property in an ad campaign without checking release requirements first.
 
 The homepage and editor-selected collections provide another way to browse when a keyword search is too broad. Search by subject first, then check the individual image for recognizable people, brands, artwork, or private property.
 
@@ -75,7 +75,7 @@ Its main limits are scope and saturation:
 - No vector files or illustrations
 - Popular images appear heavily across competitor sites over time
 
-Choose Pexels when the same campaign needs still photos and video clips. Social media teams producing Reels, TikTok posts, YouTube thumbnails, or quick landing-page visuals get more mileage from a single photo-and-video library than from bouncing between stock sites.
+Pexels saves a second search when the same campaign needs still photos and video clips. Social media teams producing Reels, TikTok posts, YouTube thumbnails, or quick landing-page visuals get more mileage from a single photo-and-video library than from bouncing between stock sites.
 
 The video library is Pexels' clearest difference from Unsplash. Photos and clips use the same site license, which makes it easier to keep the source and terms together for a mixed-media project.
 
@@ -84,10 +84,9 @@ The video library is Pexels' clearest difference from Unsplash. Photos and clips
 
 ### 3. Pixabay: best for the broadest media library
 
-Pixabay is a mixed-media repository with photos, vector illustrations, clipart, videos, and music under the Pixabay Content License.
+Pixabay goes beyond photography to vector illustrations, clipart, videos, and music, all under the Pixabay Content License.
 
 Pixabay is the broadest free-media option:
-- Photos, illustrations, vectors, video, and audio
 - Photos, vector illustrations, clipart, videos, GIFs, and music
 - Pixabay License: commercial use, no attribution required
 - Download without account (registration enables larger file sizes)
@@ -98,16 +97,16 @@ The trade-off is consistency:
 - Some content is older and stylistically dated
 - Interface has more advertising than Unsplash or Pexels
 
-Use Pixabay when a project needs more than photography: icons for a slide deck, illustrations for an email, background music for a short clip, or a mix of media types from one source.
+That breadth helps when a project needs more than photography: icons for a slide deck, illustrations for an email, background music for a short clip, or a mix of media types from one source.
 
-Pixabay is useful when a project needs several media types from one source. Its breadth also means more sorting, so inspect the item page and license details before publishing.
+The same breadth means more sorting, so inspect the item page and license details before publishing.
 
 [Browse Pixabay →](https://pixabay.com)
 
 
 ### 4. Burst (by Shopify): best for e-commerce and product imagery
 
-Burst (by Shopify) is a free stock photo library operated by Shopify, specifically designed for e-commerce businesses and entrepreneurs. Photos are styled for product, lifestyle, and business marketing contexts.
+Shopify runs Burst for e-commerce businesses and entrepreneurs, so its photos are styled for product, lifestyle, and business marketing.
 
 Burst's free library is focused on commerce:
 - High-resolution photos organized around product and business subjects
@@ -121,7 +120,7 @@ The limit is coverage:
 - Narrow subject focus: general photography coverage is limited
 - No video content
 
-Use Burst for product pages, store banners, email campaigns, and small-business social posts. Its photos are staged to work as marketing imagery, not as general editorial photography.
+Product pages, store banners, email campaigns, and small-business social posts are its main use, since the photos are staged as marketing imagery rather than general editorial photography.
 
 The e-commerce focus includes models with products, styled workspaces, and food photography. Browse Burst before a general library when those are the subjects you need.
 
@@ -165,6 +164,6 @@ For blog posts, social media, website design, and presentations, search the free
 
 ## Start with the license, then choose the library
 
-Start with **Unsplash** for general photography and use **Pexels** when you also need video. Add **Pixabay** for vectors, illustrations, or niche subjects. **Burst** concentrates on commerce-oriented photos. Check the license attached to the chosen image before it moves into client work, advertising, merchandise, or a logo.
+Check the license attached to the chosen image before it moves into client work, advertising, merchandise, or a logo, and keep the source note with the project files. If none of these four libraries covers the subject, a paid library's specialist catalog is the next place to look.
 
 For the design tools that turn these images into finished graphics, see our guides to [free Photoshop alternatives](/creative/photoshop-alternatives/), [free Illustrator alternatives](/creative/illustrator-alternatives/), and [free Canva alternatives](/creative/canva-alternatives/). For UI design and prototyping, see our guide to [free Figma alternatives](/creative/figma-alternatives/). And if you are already on Canva and weighing whether the free plan is enough, our [Canva Free vs Paid guide](/creative/canva-free-vs-paid/) breaks down where the upgrade pays for itself.

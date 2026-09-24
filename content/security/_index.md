@@ -1,9 +1,9 @@
 ---
 title: "Free security and privacy software"
-description: "Compare free antivirus, VPN, password manager, and 2FA tools by plan limits, privacy model, and published security evidence."
+description: "Password managers, 2FA apps, VPNs, and antivirus with free plans, judged on published audits, lab results, and how you recover access after losing a device."
 ---
 
-Free security tools need a clear business model and limits you can verify. These guides compare published audit or lab information, device and data caps, recovery options, ads, and the point where a paid plan solves a real problem.
+Free security tools need a clear business model and limits you can verify. Published audits and lab results are the evidence to look for, and recovery matters as much as protection, because a lost phone or vault password should not lock you out for good.
 
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>

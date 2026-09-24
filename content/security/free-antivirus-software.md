@@ -1,6 +1,6 @@
 ---
 title: "Free antivirus software in 2026: built-in and third-party options"
-description: "Find free antivirus for Windows or Mac by comparing real-time protection, manual scanning, platform support, and current plan limits."
+description: "Windows Defender already runs real-time protection on Windows 10 and 11. Malwarebytes Free scans on demand only, and Avast carries a 2024 FTC privacy order."
 date: "2026-04-09"
 lastmod: "2026-09-04"
 draft: false
@@ -20,7 +20,7 @@ author: "FreeStackFinder Team"
 
 ## Begin with the protection already installed
 
-Start with **Windows Defender** on an up-to-date Windows 10 or 11 PC. It provides real-time protection without another subscription, and published results from AV-TEST and AV-Comparatives let you check how it performed in the latest test cycle. **Malwarebytes Free** adds an on-demand second opinion, but it does not replace real-time protection on its free tier. Mac users have a different set of built-in protections, covered below.
+An up-to-date Windows 10 or 11 PC already has real-time protection in **Windows Defender**, with no subscription, and published results from AV-TEST and AV-Comparatives let you check how it performed in the latest test cycle. **Malwarebytes Free** adds an on-demand second opinion, but it does not replace real-time protection on its free tier. Mac users have a different set of built-in protections, covered below.
 
 ## Built-in protection covers more than it used to
 
@@ -44,7 +44,7 @@ For an up-to-date personal Windows PC, leave Defender enabled unless another rea
 
 ### 2. Malwarebytes Free: best on-demand second-opinion scanner
 
-Malwarebytes Free is an on-demand cleanup tool for Windows and macOS. It scans for malware, spyware, adware, and potentially unwanted programs, but ongoing real-time protection requires a paid plan. Use it after suspicious behavior or as a second-opinion scan rather than installing it as a second real-time engine.
+Malwarebytes Free cleans up after the fact rather than guarding in real time. On Windows and macOS it scans for malware, spyware, adware, and potentially unwanted programs, but ongoing real-time protection requires a paid plan. Use it after suspicious behavior or as a second-opinion scan rather than installing it as a second real-time engine.
 
 Platform names need context here. Malwarebytes offers an Android malware scanner, while its iOS app focuses on ad blocking, malicious-site protection, and suspicious-text filtering. Apple does not allow an iOS app to scan the operating system or other apps for malware. Malwarebytes documents the distinction on its [free product page](https://www.malwarebytes.com/solutions/free-antivirus) and in its [iOS scanning explanation](https://help.malwarebytes.com/hc/en-us/articles/31589279802011-Scanning-for-malware-on-iOS-devices).
 
@@ -74,11 +74,11 @@ AVG shares Avast's corporate ownership and relevant privacy history. Between the
 
 ### 5. Bitdefender Antivirus Free: focused Windows protection
 
-Bitdefender Antivirus Free is a Windows-only product with real-time malware protection, basic ransomware protection, phishing defenses, and configurable scans. It has a normal application interface, and Bitdefender documents [custom scan scheduling](https://www.bitdefender.com/consumer/support/answer/2056/).
+Bitdefender's free edition only runs on Windows, where it provides real-time malware protection, basic ransomware protection, phishing defenses, and configurable scans. It has a normal application interface, and Bitdefender documents [custom scan scheduling](https://www.bitdefender.com/consumer/support/answer/2056/).
 
 The free edition leaves out the broader privacy and device-management tools in Bitdefender's paid suites. Its [current comparison](https://www.bitdefender.com/en-us/consumer/free-antivirus) labels the free product "basic protection, Windows only." Mac, Android, and iOS users need a different Bitdefender product or another option from this guide.
 
-Choose it when you want a focused third-party Windows antivirus and do not need a bundled VPN, cross-platform subscription, or advanced suite controls. Performance varies by device and test cycle, so this guide does not promise a particular memory or speed result.
+It suits someone who wants a focused third-party Windows antivirus without a bundled VPN, cross-platform subscription, or advanced suite controls. Performance varies by device and test cycle, so this guide does not promise a particular memory or speed result.
 
 [Download Bitdefender Free →](https://bitdefender.com)
 
@@ -102,9 +102,7 @@ On a current Windows 11 machine with updates enabled, a separate paid antivirus 
 
 A [free password manager](/security/free-password-managers/) addresses password reuse, which antivirus cannot fix. If you run a website or server, [free security audit tools](/security/free-security-audit-tools/) can check exposed ports and security headers outside an endpoint antivirus product's scope.
 
-## A paid suite can replace several separate subscriptions
-
-A paid security suite can make sense when you want a VPN, identity monitoring, support, or management across several devices under one subscription. Compare the exact platform coverage and renewal price before replacing free tools that already meet your needs.
+Compare the exact platform coverage and renewal price of any suite before replacing free tools that already meet your needs.
 
 <div class="affiliate-cta">
 <div class="affiliate-cta-content">
@@ -116,4 +114,4 @@ A paid security suite can make sense when you want a VPN, identity monitoring, s
 
 ## Use one real-time scanner
 
-Keep **Windows Defender** if Windows is current and you do not need a paid suite's extras. Add **Malwarebytes Free** for manual second-opinion scans after suspicious activity. On a Mac, start with Apple's built-in protections and add a separate scanner only when your risk or support needs justify it. Whatever you choose, recheck current lab results and product limits because both change.
+One real-time engine per computer is the rule this guide follows. On Windows that engine is **Windows Defender** unless a third-party product replaces it, and **Malwarebytes Free** stays a manual scan for suspicious moments. On a Mac, Apple's built-in layer comes first, with a separate scanner added only when your risk or support needs justify it. Lab results and free-plan limits both change between test cycles, so recheck them before switching.

@@ -1,8 +1,8 @@
 ---
 title: "Free HR software in 2026: tools for small teams"
-description: "Compare Zoho People, OrangeHRM, Homebase, and simpler HR records by team size, hosting needs, and current free-plan limits."
+description: "Zoho People's free HRIS stops at five employees. Past that point, OrangeHRM removes the cap for any team willing to run its own server."
 date: "2026-04-28"
-lastmod: "2026-07-20"
+lastmod: "2026-09-24"
 draft: false
 weight: 39
 slug: "free-hr-software"
@@ -26,9 +26,7 @@ image: "/img/free-hr-software.webp"
 author: "FreeStackFinder Team"
 ---
 
-Most HR software leads with a demo and a sales call. Free plans often stop at a short trial, a small employee cap, or a narrow feature set. This guide focuses on tools that handle a defined HR job at no cost and states where each limit appears.
-
-The tools below are compared for small businesses, solo founders hiring their first few employees, and small teams that need basic people operations, leave tracking, employee records, onboarding checklists, and scheduling, without committing to a recurring HR subscription.
+Most HR software leads with a demo and a sales call, and free plans often stop at a short trial, a small employee cap, or a narrow feature set. Each option below handles one defined HR job at no cost, for a founder's first hires or a small team, and each has a limit that shows up at a predictable point.
 
 
 ## Employee records or shift scheduling
@@ -55,9 +53,7 @@ If you're also evaluating broader tools for your business, see the guides on [fr
 
 ### 1. Zoho People
 
-Zoho People is a cloud-based HRIS from Zoho covering employee records, leave management, self-service portals, and basic onboarding workflows.
-
-Zoho People covers the first layer of employee administration:
+Zoho People's free plan is a working HRIS rather than a demo, as long as the team stays at five employees:
 - Up to 5 employees
 - Employee self-service (profile, documents, leave requests)
 - Leave and attendance management
@@ -70,18 +66,14 @@ The ceiling is clear:
 - Advanced workflows and automations
 - More than 5 employees
 
-Use Zoho People for a founder's first few hires, especially when employee records and leave requests need to move out of email or spreadsheets. It is not the right fit if payroll or performance reviews are the core requirement.
-
-Zoho People's free plan is a genuine HRIS rather than a demo. Leave management, employee records, and basic onboarding workflows are functional on the free tier. The 5-employee cap is a hard limit, so teams close to that threshold should plan the paid path before moving everything in.
+It suits a founder's first few hires, especially when employee records and leave requests need to move out of email or spreadsheets, but not a team whose core requirement is payroll or performance reviews. The 5-employee cap is a hard limit, so teams close to that threshold should plan the paid path before moving everything in.
 
 [Explore Zoho People](https://www.zoho.com/people/)
 
 
 ### 2. OrangeHRM Community Edition
 
-OrangeHRM Community Edition is an open-source HRIS that you self-host. The Community Edition covers employee records, leave management, time and attendance, performance reviews, and recruitment basics.
-
-OrangeHRM Community Edition gives self-hosted teams a full HRIS base:
+OrangeHRM removes the employee cap entirely, on the condition that you host it yourself. The open-source Community Edition gives self-hosted teams a full HRIS base:
 - Unlimited employees (self-hosted)
 - Employee information management
 - Leave and time-off tracking
@@ -95,18 +87,14 @@ The trade-off is ownership of the stack:
 - Support (community forums only; paid support is a separate offering)
 - Some advanced modules available only in the commercial editions
 
-Choose OrangeHRM if your team can manage a server and wants employee records, leave, time, recruitment, and performance modules without per-employee pricing.
-
-OrangeHRM removes the user cap entirely for self-hosted installs. For a business that can manage a PHP/MySQL stack, it is the most complete free HRIS here. The cost is hosting overhead and the absence of official support on the free tier.
+For a business that can manage a PHP/MySQL stack, it is the most complete free HRIS here, with records, leave, time, recruitment, and performance modules and no per-employee pricing. The cost is hosting overhead and the absence of official support on the free tier.
 
 [Explore OrangeHRM](https://www.orangehrm.com/)
 
 
 ### 3. Homebase
 
-Homebase is a scheduling, time tracking, and team communication tool designed for hourly and shift-based workforces. Not a full HRIS, but useful for the operational side of people management.
-
-Homebase is scheduling-first:
+Homebase answers a different question from the HRIS tools: who is working when. Its free plan is scheduling-first:
 - 1 location, unlimited employees
 - Employee scheduling
 - Time clock and time tracking
@@ -121,19 +109,14 @@ It is not a complete HRIS:
 - Advanced HR documents and compliance tools
 - PTO tracking with approval workflows (limited on free tier)
 
-Use Homebase for restaurants, retail, service businesses, or any team where the immediate pain is "who is working when" rather than formal HR records.
-
-Its free plan covers scheduling and time tracking for one location with no employee cap, which is broader than most free HR tools. It is not a substitute for an HRIS if employee records, documents, or leave workflows are the real problem.
+Restaurants, retail, and service businesses with hourly or shift-based staff get the most from it. The free plan covers scheduling and time tracking for one location with no employee cap, which is broader than most free HR tools, but it is not a substitute for an HRIS if employee records, documents, or leave workflows are the real problem.
 
 [Explore Homebase](https://joinhomebase.com/)
 
 
 ### 4. Bitrix24
 
-Bitrix24 is a broad free workspace that includes CRM, project management, communication, and a set of HR-adjacent features: employee directory, absence calendar, time tracking, and basic onboarding.
-
-Bitrix24 wraps basic HR tasks into a larger workspace:
-- Unlimited users
+Bitrix24's HR features come as part of a broader workspace that also covers CRM, project management, and communication:
 - Employee directory and profiles
 - Absence calendar (leave requests and approvals)
 - Time tracking
@@ -149,9 +132,9 @@ The HR layer is broad rather than deep:
 
 It fits teams that already use Bitrix24 for communication, CRM, or project management and want basic employee directories, absences, and documents in the same workspace.
 
-The free plan has no user cap, which is unusual. The trade-off is that the HR module is broader than deep: leave tracking works, but it is not as structured as a dedicated HRIS.
+Check the seat allowance inside the account before planning around it. Bitrix24's [main pricing page](https://www.bitrix24.com/prices/) describes Free as a one-to-two-user plan, while its [cloud-plan comparison](https://www.bitrix24.com/prices/compare_cloud_plans.php) lists unlimited users. The HR module is also broader than deep: leave tracking is included, but it is not as structured as a dedicated HRIS.
 
-For teams already using Bitrix24's [free CRM tools](/business/free-crm-software/), adding the HR module requires no extra setup.
+For teams already using Bitrix24's [free CRM tools](/business/free-crm-software/), the HR features sit in the same workspace.
 
 [Explore Bitrix24](https://www.bitrix24.com/)
 
@@ -160,11 +143,11 @@ For teams already using Bitrix24's [free CRM tools](/business/free-crm-software/
 
 Google Sheets and Excel for the web are spreadsheets rather than HR systems. They can still hold a basic employee directory, leave record, or onboarding checklist for a small team.
 
-The free plan is simply the spreadsheet tier you already have: Google Sheets and Microsoft Excel Online both cover rows, sharing, commenting, and basic automation.
+The free plan is the spreadsheet tier you already have: Google Sheets and Microsoft Excel Online both cover rows, sharing, commenting, and basic automation.
 
 What it lacks is the HR structure: leave request workflows, employee self-service, audit trails, permission controls on individual records, onboarding automation, and anything that a purpose-built HRIS provides.
 
-Use a spreadsheet only for solo operators or two-person teams that need a structured place to store employee details, track leave, or document onboarding and are not ready to adopt dedicated software.
+A spreadsheet is enough only for solo operators or two-person teams that need a structured place to store employee details, track leave, or document onboarding and are not ready to adopt dedicated software.
 
 The appeal is zero cost, zero setup, and familiarity. A well-structured spreadsheet covers basic leave tracking and employee records for very small operations. Once a team grows past three or four people, maintaining accuracy in a spreadsheet becomes a real risk.
 
@@ -178,7 +161,7 @@ For spreadsheet tool options beyond Google Sheets, see [free spreadsheet alterna
 | Zoho People | 5 | Yes | Yes | Basic | Checklists | Best cloud HRIS on free |
 | OrangeHRM CE | Unlimited (self-hosted) | Yes | Yes | Yes | Yes | Requires own server |
 | Homebase | Unlimited (1 location) | Limited | No | Yes | No | Scheduling-first |
-| Bitrix24 | Unlimited | Basic | Partial | Yes | Basic | HR as part of workspace |
+| Bitrix24 | Pricing pages disagree | Basic | Partial | Yes | Basic | HR as part of workspace |
 | Google Sheets | N/A | Manual | No | Manual | Manual | DIY only |
 
 
@@ -204,12 +187,7 @@ A note on compliance: HR software organizes records and workflows. It does not p
 
 ## Build around the missing HR workflow
 
-For most small teams, the choice is straightforward:
-
-- Under 5 employees in one location → start with **Zoho People** for a proper HRIS structure
-- Shift-based or hourly team → start with **Homebase** for scheduling and time tracking
-- Self-hosting is an option and you want no user cap → use **OrangeHRM Community Edition**
-- You already use Bitrix24 → activate its HR features rather than adding another tool
+The record that causes the most trouble today should decide the tool. Leave requests and employee files point to an HRIS, either **Zoho People** in the cloud or **OrangeHRM** on your own server. Shift swaps and timesheets point to **Homebase**, and a team already in Bitrix24 can try its HR features before adding another tool. Payroll sits outside all five free options, so price it separately whichever tool you choose.
 
 Google Sheets remains a valid starting point for very small operations, but it does not scale. The first time a leave dispute or a missing employment document becomes a real problem, a structured HRIS earns its setup time immediately.
 

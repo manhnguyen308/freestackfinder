@@ -1,6 +1,6 @@
 ---
 title: "Free two-factor authentication apps in 2026"
-description: "Find a free authenticator for Android or iPhone by comparing recovery, encrypted backups, device support, and migration limits."
+description: "Aegis keeps codes in an encrypted Android vault and Ente Auth syncs them to desktop. Authy has no token export, so leaving it means re-enrolling every account."
 date: "2026-04-10"
 lastmod: "2026-09-06"
 draft: false
@@ -46,37 +46,33 @@ Before migrating, save backup codes from every important service and confirm you
 
 ### 1. Aegis Authenticator: encrypted local vaults on Android
 
-Aegis Authenticator is a free, open-source TOTP authenticator for Android with an encrypted local vault, flexible backup options, and a clean interface.
+Aegis keeps codes in an encrypted vault on the Android phone and does not sync them to any account.
 
 [Aegis documents](https://github.com/beemdevelopment/aegis) TOTP and HOTP generation, an AES-256-GCM encrypted vault, password or biometric unlock, encrypted exports, automatic backups to a location you choose, and imports from supported app formats. Some direct app-data imports require a rooted Android device, so do not assume an Authy transfer will work.
 
 The limits are platform and convenience. Aegis is Android-only, has no desktop app, and does not silently cloud-sync your codes. You export an encrypted backup file and store it somewhere safe, which is a little more manual than account-based sync but gives you more control over recovery.
 
-Aegis fits Android users who want local control over an encrypted vault and backup file.
-
 [Download Aegis free →](https://getaegis.app)
 
 ### 2. Ente Auth: encrypted sync across mobile and desktop
 
-Ente Auth is a free, open-source authenticator with end-to-end encrypted sync across Android, iOS, desktop, and web apps.
+Ente Auth syncs the same end-to-end encrypted codes to Android, iOS, desktop, and web apps, and it is free and open source.
 
 The [Ente Auth product page](https://ente.com/auth/) documents end-to-end encrypted cloud backup and cross-platform sync. Ente also publishes its client and server code under the AGPL and lists the supported platforms in its [public repository](https://github.com/ente-io/ente).
 
 Account sync depends on Ente's service, so keep an independent recovery path. Its [export documentation](https://ente.com/help/auth/migration/export) covers password-encrypted exports, continuous local backups, and an offline mode for people who do not want account sync.
 
-Ente Auth fits people who want the same encrypted code set on a phone and computer. Aegis remains the simpler option when an Android-only local vault is the goal.
+Aegis remains the simpler option when an Android-only local vault is the goal.
 
 [Download Ente Auth free →](https://ente.com/auth/)
 
 ### 3. 2FAS: mobile apps with optional cloud backup
 
-2FAS is a free, open-source authenticator that works on both iOS and Android, with optional encrypted cloud backup and a browser extension for desktop use.
-
-2FAS covers Android and iOS with TOTP and HOTP code generation, optional cloud backup, browser extensions, no required 2FAS account for basic use, and open-source mobile apps.
+2FAS pairs its open-source Android and iOS apps with a browser extension, so fewer codes need copying from the phone to a desktop login. It generates TOTP and HOTP codes, needs no 2FAS account for basic use, and offers optional cloud backup.
 
 Backups use the cloud account already attached to the phone: iCloud on iOS and Google Drive on Android. Cross-platform moves require an exported backup file. [2FAS explains both paths](https://2fas.com/support/2fas-auth-mobile-app/how-to-use-sync-more-devices-with-2fas/). The browser extension must also be paired with the phone.
 
-2FAS fits mixed-device households and anyone who wants browser-integrated 2FA codes without paying. Its main difference is desktop convenience: if you spend all day logging into services from a browser, copying fewer codes from your phone matters.
+It suits mixed-device households and anyone who logs into services from a browser all day.
 
 [Download 2FAS free →](https://2fas.com)
 
@@ -88,13 +84,13 @@ Bitwarden TOTP is included because password-manager users may want codes beside 
 
 The trade-off is not price alone. TOTP requires the paid plan, Bitwarden is not a standalone 2FA app, and storing passwords plus 2FA codes in the same vault reduces the separation that makes a second factor valuable if the vault itself is compromised.
 
-It fits Premium users who value consolidation and understand the reduced separation. Bitwarden lists Premium at [$19.80 per year](https://bitwarden.com/pricing/). For higher-risk accounts, a separate authenticator or security key retains a distinct second factor.
+That trade suits Premium users who value consolidation and understand the reduced separation. Bitwarden lists Premium at [$19.80 per year](https://bitwarden.com/pricing/). For higher-risk accounts, a separate authenticator or security key retains a distinct second factor.
 
 [Get Bitwarden (free tier) →](https://bitwarden.com)
 
 ### 5. Authy: for existing mobile users
 
-Authy is Twilio's mobile authenticator for iOS and Android, with multi-device support between compatible mobile devices and optional encrypted backups.
+Authy, from Twilio, syncs between compatible iOS and Android devices with optional encrypted backups, but it now carries more caveats than the other apps here.
 
 Setup is tied to a phone number. Authy is closed-source, its cloud backup does not use your own storage provider, and its desktop apps are no longer supported.
 
@@ -137,7 +133,7 @@ Google Authenticator can store codes locally or sync them through a Google Accou
 
 ## Pair encrypted backups with offline recovery codes
 
-Start with primary email, the password manager, and financial accounts. **Aegis** fits an Android-only local vault, **Ente Auth** provides encrypted cross-device sync, and **2FAS** covers mobile devices with an optional browser bridge. Save recovery codes somewhere separate from the phone before moving the next account.
+Migrate in order of damage: primary email first, then the password manager and financial accounts, testing each login before moving the next. Save each service's recovery codes somewhere separate from the phone as you go, so a lost device mid-move does not lock out the accounts already transferred.
 
 For a password manager, primary email, financial account, or administrator login, consider a FIDO2 or WebAuthn security key. A physical key can resist common credential-relay phishing that captures TOTP codes, provided the service supports that authentication method. Keep a registered spare or another documented recovery path.
 

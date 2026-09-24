@@ -1,16 +1,16 @@
 ---
 title: "Free video and recording software alternatives"
-description: "Free alternatives to Adobe Premiere Pro, Final Cut Pro, Loom, Zoom, and other video tools: compared by free-plan limits and workflow fit."
+description: "Premiere Pro, Loom, and Zoom have free replacements with different catches, from Resolve's 8-bit footage limit to Google Meet's one-hour group calls."
 ---
 
-Editing, screen recording, and video calls fail for different reasons on free plans. These guides put export caps, watermarks, meeting limits, codec support, and hardware demands beside each recommendation.
+Editing, screen recording, and video calls fail for different reasons on free plans. DaVinci Resolve limits free footage to 8-bit formats, Loom stops recordings at five minutes, and Zoom Basic ends meetings at 40.
 
 <div class="hub-top-picks">
 <p class="hub-top-picks-label">Where to start</p>
 <ul>
-<li><a href="/video/free-video-editing-software/">Free Video Editing Software</a>: if you need a desktop editor for cutting, trimming, and exporting video</li>
-<li><a href="/video/free-screen-recording-software/">Free Screen Recorders</a>: if you need to record your screen for tutorials, demos, or documentation</li>
-<li><a href="/video/zoom-alternatives/">Free Zoom Alternatives</a>: if you need video calls without Zoom's time limits or paid tiers</li>
-<li><a href="/video/premiere-pro-alternatives/">Free Premiere Pro Alternatives</a>: if you're replacing Premiere with a deeper free timeline editor</li>
+<li><a href="/video/free-video-editing-software/">Free video editing software</a>: cutting and exporting on the desktop</li>
+<li><a href="/video/free-screen-recording-software/">Free screen recorders</a>: tutorials, demos, and quick bug reports</li>
+<li><a href="/video/zoom-alternatives/">Free Zoom alternatives</a>: calls that run past Zoom's 40-minute limit</li>
+<li><a href="/video/premiere-pro-alternatives/">Free Premiere Pro alternatives</a>: a full timeline editor without Adobe</li>
 </ul>
 </div>

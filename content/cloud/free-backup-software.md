@@ -1,6 +1,6 @@
 ---
 title: "Free backup software for local and cloud copies in 2026"
-description: "Build a no-cost backup plan with scheduled local copies, encrypted offsite storage, and recovery options suited to your devices."
+description: "Google Drive mirrors deletions along with files, so it is not a full backup. Duplicati adds scheduled encrypted copies, and iCloud includes only 5GB."
 date: "2026-04-12"
 lastmod: "2026-09-14"
 draft: false
@@ -28,7 +28,7 @@ Version history, a separate destination, and a tested restore determine which fa
 
 Google Drive can keep an offsite copy of documents and active folders, but it is sync-based protection rather than full backup software. Duplicati creates scheduled, encrypted backups to a destination you control. Once the dataset exceeds free cloud limits, Backblaze Personal Backup is a paid option for one computer. Apple users should enable iCloud Backup, then check whether its 5GB allocation can hold the device backup.
 
-Start by deciding whether you need simple file backup or full system backup. A synced folder can protect active documents from laptop failure, but it is weaker for accidental deletion, ransomware, and fast disaster recovery. A scheduled backup tool with a separate destination is more work, but it behaves more like real backup.
+Decide first whether you need file backup or full system backup, because fast full-system recovery is where free setups are weakest. A scheduled backup tool with a separate destination is more work than a synced folder, but it behaves more like real backup.
 
 
 ## Where a no-cost backup plan fits
@@ -62,7 +62,7 @@ This is useful for current documents that need browser and mobile access. It is 
 
 ### 2. Duplicati: best free backup software for scheduled encrypted backups
 
-Duplicati is a free, open-source application for scheduled, incremental backups. Its [project documentation](https://docs.duplicati.com/) covers AES-256 encryption, Windows, macOS and Linux support, and destinations that include local disks and cloud storage.
+Duplicati turns backup into a scheduled job rather than a mirror, running incremental backups to a destination you choose. The open-source project's [documentation](https://docs.duplicati.com/) covers AES-256 encryption, Windows, macOS and Linux support, and destinations that include local disks and cloud storage.
 
 Configuration and restores take more attention than simple file sync. Define the schedule, retention, destination credentials, and encryption passphrase deliberately, then test a restore. Keep the passphrase outside the backed-up computer because an encrypted backup cannot help if its only key is lost with the device.
 
@@ -76,16 +76,16 @@ It becomes relevant when a photo, video, or work archive will not fit a practica
 
 ### 4. iCloud Backup: best built-in backup for Apple users
 
-iCloud Backup is Apple's built-in backup layer for iPhone and iPad, while iCloud Drive synchronizes files across Apple devices. Apple [includes 5GB of iCloud storage](https://www.apple.com/icloud/), shared by backups, photos, files, and other synchronized data.
+On iPhone and iPad, iCloud Backup is already built in, while iCloud Drive handles file sync across Apple devices. Apple [includes 5GB of iCloud storage](https://www.apple.com/icloud/), shared by backups, photos, files, and other synchronized data.
 
 Enable the device backup, then inspect its estimated size. The free allocation may not fit even one device once photos and messages are included, and iCloud is not a complete Mac backup strategy. Pair it with Time Machine or another independent Mac backup.
 
 
 ### 5. Duplicacy: best for advanced users and NAS-oriented setups
 
-Duplicacy is a backup tool with deduplication and support for self-managed storage. Its [license page](https://duplicacy.com/buy.html) describes the command-line edition as free for personal use, while the graphical interface uses a commercial license after its trial.
+Duplicacy deduplicates backups and supports self-managed storage such as a NAS. Its [license page](https://duplicacy.com/buy.html) describes the command-line edition as free for personal use, while the graphical interface uses a commercial license after its trial.
 
-Choose it when repositories, command-line operation, and destination management are already familiar. Duplicati provides a more approachable browser interface for a first scheduled encrypted backup.
+It makes sense when repositories, command-line operation, and destination management are already familiar. Duplicati provides a more approachable browser interface for a first scheduled encrypted backup.
 
 
 ## Compare destinations, scheduling, and encryption
@@ -112,7 +112,7 @@ Each layer addresses a different failure. Test a restore from the scheduled job 
 
 ## Keep one local copy and one offsite copy
 
-Use **Google Drive** for a basic offsite copy of active documents and **Duplicati** for scheduled backup software. Move to **Backblaze** when the dataset no longer fits a practical free storage plan. On Apple devices, enable **iCloud Backup** even if a second service is needed later.
+Restore one file from each layer before trusting the setup. Delete a file you can live without, then bring it back from the **Google Drive** or **iCloud** copy, the **Duplicati** job, and the external drive in turn. The test shows which copy is current and how long a real recovery takes. Move to **Backblaze** when the dataset no longer fits a practical free storage plan.
 
 The cloud destination provides separation from the computer, while a local external drive shortens a large restore.
 

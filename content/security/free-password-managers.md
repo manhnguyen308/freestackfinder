@@ -1,6 +1,6 @@
 ---
 title: "Free password managers in 2026: sync, sharing, and recovery"
-description: "Find a free password manager by comparing device sync, local vaults, sharing, recovery, passkeys, and current plan limits."
+description: "Bitwarden Free syncs unlimited devices, while NordPass Free allows one active session at a time. Dashlane dropped its free plan in September 2025."
 date: "2026-03-27"
 lastmod: "2026-09-16"
 draft: false
@@ -49,21 +49,15 @@ rows:
 
 ## Sync and recovery are plan features
 
-LastPass restricted free accounts to one device type in 2021. Its 2022 security incident also resulted in an attacker obtaining backups that included encrypted vault data and some unencrypted account and website metadata. Those events are useful reminders to compare both plan limits and a provider's published security record.
-
 A password manager can generate and store a unique password for each site, reducing the damage caused when one site's credentials leak. It does not remove every account risk, so the vault still needs a strong master password, multi-factor authentication, and a recovery plan.
 
 Several free plans cover routine individual use. Bitwarden publishes its source code and links its [third-party security assessments](https://bitwarden.com/help/is-bitwarden-audited/). Paying is still reasonable when sharing, emergency access, file attachments, or support solves a real need.
-
-A password manager only helps accounts that have been moved into it. Start with email, banking, cloud storage, social accounts, and shopping accounts, then replace reused passwords gradually. Use the manager for new accounts as well; installing it without moving credentials changes very little.
 
 ## Four free vaults with different recovery models
 
 ### 1. Bitwarden: best free password manager for most users
 
-Bitwarden is an open-source, end-to-end encrypted password manager with unlimited storage across unlimited devices on the free tier, and an independently audited security model.
-
-Bitwarden's free tier is unusually broad: unlimited passwords, unlimited devices, end-to-end encryption, browser extensions for Chrome, Firefox, Safari, Edge, and more, desktop apps, mobile apps, secure notes, credit card and identity storage, a customizable password generator, and basic two-factor authentication support are all included.
+Bitwarden's free tier is unusually broad for an open-source, independently audited vault: unlimited passwords, unlimited devices, end-to-end encryption, browser extensions for Chrome, Firefox, Safari, Edge, and more, desktop apps, mobile apps, secure notes, credit card and identity storage, a customizable password generator, and basic two-factor authentication support are all included.
 
 The free account can use an authenticator app, email, or a FIDO2 WebAuthn credential, including a compatible hardware key, for two-step login. [Bitwarden lists FIDO2 WebAuthn as free for all users](https://bitwarden.com/help/setup-two-step-login/). Premium adds YubiKey OTP and Duo methods, the integrated Bitwarden TOTP generator, encrypted file attachments, emergency access, security reports, and file sharing through Bitwarden Send.
 
@@ -73,9 +67,7 @@ Bitwarden's unlimited-device policy avoids NordPass Free's one-active-session li
 
 ### 2. KeePassXC: best for users who want zero cloud dependency
 
-KeePassXC is a free, open-source password manager that stores an encrypted vault file on your computer and requires no cloud account.
-
-KeePassXC is completely free and open-source, with an AES-256 encrypted vault stored as a local `.kdbx` file. It requires no cloud account, registration, or internet connection, and still supports browser integration through KeePassXC-Browser, a fully configurable password generator, SSH key management, TOTP code generation, and desktop apps for Windows, macOS, and Linux.
+KeePassXC stores the vault as an AES-256 encrypted `.kdbx` file on your own computer. The open-source app requires no cloud account, registration, or internet connection, and still supports browser integration through KeePassXC-Browser, a fully configurable password generator, SSH key management, TOTP code generation, and desktop apps for Windows, macOS, and Linux.
 
 The sync model is the trade-off. There is no official mobile app, so mobile access depends on third-party apps such as KeePassDX on Android or Strongbox on iOS. Syncing means moving the vault file through cloud storage, USB, or your own server. That requires more setup than a hosted password manager.
 
@@ -84,8 +76,6 @@ KeePassXC fits people who want direct control over where the vault file is store
 [Download KeePassXC free →](https://keepassxc.org)
 
 ### 3. Proton Pass free tier: best for users already using Proton apps
-
-Proton Pass is Proton's password manager, built on the same privacy-first principles as ProtonMail and Proton Drive, with a generous free tier.
 
 Proton Pass Free includes unlimited logins and notes, unlimited devices, two vaults, passkey support, and ten hide-my-email aliases. Its [current plan comparison](https://proton.me/pass/pricing) puts the integrated TOTP authenticator, secure sharing, unlimited aliases, file attachments, and emergency access on paid plans.
 
@@ -96,8 +86,6 @@ The ten included aliases can keep a primary email address out of routine sign-up
 [Try Proton Pass free →](https://proton.me/pass)
 
 ### 4. NordPass Free: one active session
-
-NordPass is Nord Security's password manager, from the company behind NordVPN.
 
 NordPass gives free users unlimited password storage, end-to-end encryption, a password health checker, browser extensions, and mobile apps.
 
@@ -127,7 +115,7 @@ For most individual users, paying should not be the first security move. The big
 
 ## NordPass and NordVPN use the same account family
 
-NordPass is the password manager from the same company as NordVPN. It offers a competitive free tier with unlimited passwords on one active device. If you are already using or planning to use NordVPN, NordPass integrates within the same account: one subscription can cover VPN, password manager, and encrypted storage (NordLocker) together.
+If you already use or plan to use NordVPN, NordPass sits within the same Nord Security account, and one subscription can cover VPN, password manager, and encrypted storage (NordLocker) together. Its free tier stores unlimited passwords on one active device.
 
 <div class="affiliate-cta">
   <div class="affiliate-cta-content">
@@ -141,4 +129,4 @@ For protecting those accounts with a second factor beyond your password, see our
 
 ## Move email and banking accounts first
 
-**Bitwarden Free** is the default for individual users who need sync across devices. **KeePassXC** is the local-file choice, and **Proton Pass** fits people already using Proton services. Pay when sharing, business administration, integrated TOTP, emergency access, or attachments are missing. Whichever tool you pick, protect the password-manager account itself with 2FA; our [free authenticator apps guide](/security/best-free-2fa-apps/) covers that next step.
+Email accounts come first because they can reset most other logins, followed by banking and cloud storage. Social and shopping accounts can follow gradually. Installing a password manager without moving existing credentials changes very little, so replace reused passwords as you move each account rather than only saving new sign-ups.

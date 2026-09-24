@@ -1,61 +1,54 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
+title: "{{ replace .Name "-" " " | humanize }}"
 description: ""
+date: "{{ .Date | time.Format "2006-01-02" }}"
+lastmod: "{{ .Date | time.Format "2006-01-02" }}"
+draft: true
 categories: []
 tags: []
-keywords: []
+keywords:
+  - ""
 image: ""
 author: "FreeStackFinder Team"
-draft: true
 noindex: false
 ---
 
-## Quick verdict
+<!--
+Before writing, read "Sitewide sameness" in website-content-humanizer.md.
+The description is the card excerpt beside every other card in the silo:
+lead with a fact specific to this page, and do not start with
+Choose, Find, Compare, See, or Pick.
+-->
 
-<!-- One paragraph: who this is for, best free pick, and when the paid version is worth it. -->
+## [Page-specific heading about the deciding limit]
 
-## Why people look for a free alternative to [Paid Tool]
+<!-- Open with the fact that drives the answer (the limit, the split between tool types, or the change that made the old default wrong), then name the picks. Do not open with "Choose X for..." or "This guide covers...". -->
 
-<!-- 2–3 paragraphs: explain the cost problem, what users are losing, what they want. This context ranks well. -->
+## [Why people leave the paid tool, or what the free plans limit]
 
-## The best free alternatives to [Paid Tool]
+<!-- Two or three paragraphs on the cost problem and the limit readers hit first. -->
 
-<!-- Main section. Cover 3–5 tools in depth. -->
+## [Heading that names the tools or the split between them]
 
-### 1. [Tool Name] — best for [use case]
+### 1. [Tool name]: [what separates it]
 
-**What it is:** One sentence description.
+<!-- Open with what separates this tool on this page, not a definition. Cover the free plan, where it stops, and who it suits, in whatever order reads best. Do not give every tool section the same first sentence or labels. -->
 
-**Free plan includes:** List what's actually free.
+[Try [Tool name] free →](https://example.com)
 
-**What the free plan is missing:** Be honest.
+### 2. [Tool name]: [what separates it]
 
-**Who it's best for:** Specific audience.
+## [Comparison heading specific to the page]
 
-[Try [Tool Name] free →](https://example.com)
+| Tool | Platform | Free limit | Suits |
+|------|----------|------------|-------|
+| Tool 1 | | | |
+| Tool 2 | | | |
 
----
+## [When the paid plan is worth it]
 
-### 2. [Tool Name] — best for [use case]
+<!-- The specific point where paying costs less than the workaround. -->
 
-(repeat format)
+## [Closing heading that states the decision rule]
 
----
-
-## Quick comparison table
-
-| Tool | Platform | Free limit | Best for | Verdict |
-|------|----------|------------|----------|---------|
-| Tool 1 | Win/Mac/Linux | Unlimited | Power users | ✅ Recommended |
-| Tool 2 | Web | 5 projects | Beginners | ✅ Good |
-| Tool 3 | Win/Mac | Full free | Budget | ⚠️ Learning curve |
-
-## Who should still pay for [Paid Tool]?
-
-<!-- Honest section: when is the paid version genuinely worth it? This builds trust. -->
-
-## Our verdict
-
-<!-- Final 2–3 sentence wrap-up with a clear recommendation. -->
+<!-- Add a decision rule or boundary the opening did not already state. Do not repeat the opening's picks in the same imperative form. -->

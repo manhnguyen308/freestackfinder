@@ -1,6 +1,6 @@
 ---
 title: "Free video conferencing in 2026: limits and guest access"
-description: "Choose a free meeting tool for remote teams, client calls, or classrooms by call length, participant cap, account rules, and moderation."
+description: "Most free meeting plans cut group calls off within an hour. Jitsi Meet publishes no limit, and Discord keeps voice channels open for teams that never schedule."
 date: "2026-05-05"
 lastmod: "2026-09-03"
 draft: false
@@ -24,12 +24,12 @@ A free meeting tool works until one limit interrupts the call: duration, partici
 
 ## Call length and guest access decide the shortlist
 
-Use **Google Meet** for ordinary team and client calls. **Whereby** fits short calls with no more than four people, while **Jitsi Meet** lets guests join by link and can be self-hosted. Choose **Microsoft Teams Free** when Microsoft 365 is already part of the workflow. **Zoho Meeting** is aimed at structured sessions; **Discord** is better for persistent voice channels than scheduled meetings.
+Three of the six free plans here stop group calls at 60 minutes, Whereby stops at 30, and only Jitsi Meet and Discord publish no duration cap. **Google Meet** covers ordinary team and client calls within that hour, **Jitsi Meet** lets guests join by link and can be self-hosted, and **Microsoft Teams Free** fits when Microsoft 365 is already part of the workflow. **Whereby** suits short calls with no more than four people, **Zoho Meeting** is aimed at structured sessions, and **Discord** works better for persistent voice channels than scheduled meetings.
 
 
 ## What to look for before you choose
 
-Most free video conferencing tools advertise similar features, HD video, screen sharing, chat, but the differences are in the limits you will hit during real use:
+Most free video conferencing tools advertise similar features, such as HD video, screen sharing, and chat. They differ in the limits you hit during real use:
 
 - Time limits on group calls. A 40 to 60-minute cap is not a problem for a quick standup, but it will interrupt a team workshop, client discovery session, or online class. Know whether the free tier cuts off group calls.
 - Participant limit. Tools that cap group video at 25 or fewer participants are fine for small team standups but unsuitable for all-hands meetings or client webinars.
@@ -54,7 +54,7 @@ Most free video conferencing tools advertise similar features, HD video, screen 
 
 ### 1. Google Meet: the default choice for most users
 
-Google Meet is Google's browser-based meeting platform. A host needs a Google account. Guest access depends on the host's account type and meeting-access settings.
+Google Meet runs in the browser, so participants join without installing anything, but the host needs a Google account. Guest access depends on the host's account type and meeting-access settings.
 
 What you get on the free tier:
 - One-to-one calls up to 24 hours
@@ -70,18 +70,16 @@ Where the free tier falls short:
 - Breakout rooms, polls, and Q&A are paid features
 - Noise cancellation is limited on the free tier compared to Workspace plans
 
-Choose Google Meet if the team already uses Gmail, Google Calendar, or Google Classroom and group calls stay under 60 minutes. Guests can join from a browser link without installing an app.
-
-Google's [current Meet limits](https://support.google.com/meet/answer/13396001) allow 100 participants, 24 hours for a one-to-one meeting, and one hour for a meeting with three or more participants. That group-call limit is the main reason to look elsewhere.
+It fits teams already using Gmail, Google Calendar, or Google Classroom whose group calls stay under an hour. Google's [current Meet limits](https://support.google.com/meet/answer/13396001) confirm the one-hour cap for meetings with three or more participants, which is the main reason to look elsewhere.
 
 [Open Google Meet →](https://meet.google.com)
 
 
 ### 2. Jitsi Meet: link-based guests and a self-hosting option
 
-Jitsi Meet is an open-source video conferencing platform that runs in a browser and can also be self-hosted. On the public meet.jit.si service, the first participant must authenticate or wait for an authenticated moderator; later guests can join from the room link.
+Jitsi Meet is the one tool here that an organization can run on its own server, and its public meet.jit.si service works from a browser. On that public service, the first participant must authenticate or wait for an authenticated moderator; later guests can join from the room link.
 
-What you get on the free tier:
+On the public service:
 - No published duration limit on the public service
 - Guests can join by room link after a moderator starts the room
 - Screen sharing, hand raising, chat, and reactions
@@ -95,9 +93,7 @@ Practical limits to keep in mind:
 - No cloud recording on the public hosted service
 - Participants unfamiliar with Jitsi may need more guidance than they would with Google Meet or Teams
 
-Choose Jitsi when guests should be able to join from a link, or when a technical team wants to self-host the service. The [current start guide](https://jitsi.github.io/handbook/docs/user-guide/user-guide-start-a-jitsi-meeting/) explains the moderator authentication required on meet.jit.si.
-
-Jitsi's useful distinction is control: guests can join a hosted room by link, and an organization can run its own instance. Self-hosting also means taking responsibility for authentication, capacity, updates, and recording infrastructure.
+The [current start guide](https://jitsi.github.io/handbook/docs/user-guide/user-guide-start-a-jitsi-meeting/) explains the moderator authentication required on meet.jit.si. Running your own instance means taking responsibility for authentication, capacity, updates, and recording infrastructure.
 
 [Try Jitsi Meet →](https://meet.jit.si)
 
@@ -106,7 +102,7 @@ Jitsi's useful distinction is control: guests can join a hosted room by link, an
 
 Microsoft Teams combines chat, file sharing, and group video calls with Microsoft 365 integrations on its free tier.
 
-What you get on the free tier:
+Included in Teams Free:
 - Group video calls up to 60 minutes with up to 100 participants
 - Persistent team channels with unlimited chat history
 - File sharing with 5 GB of storage per user
@@ -114,15 +110,13 @@ What you get on the free tier:
 - Integration with Word, Excel, PowerPoint, and SharePoint for in-meeting document collaboration
 - Available on Windows, macOS, iOS, Android, and in-browser
 
-Where the free tier falls short:
+Where Teams Free falls short:
 - The 60-minute group call limit is longer than Zoom Basic's 40 minutes but still interrupts longer sessions
 - Meeting recording requires a Microsoft 365 Business subscription
 - IT admin controls, compliance features, and custom domains are locked behind paid plans
 - The interface includes a full business collaboration platform, so it is harder to use than a simple video calling tool for one-off meetings
 
-Choose Teams when OneDrive, Outlook, SharePoint, or Office documents are already part of the workflow and persistent chat channels need to sit beside calls.
-
-Microsoft's [current Teams Free page](https://www.microsoft.com/en-us/microsoft-teams/free-video-conferencing) lists 100 participants, 60-minute group meetings, and 5GB of storage per user. Choose it when persistent chat and Office app integration matter alongside calls.
+Microsoft's [current Teams Free page](https://www.microsoft.com/en-us/microsoft-teams/free-video-conferencing) lists 100 participants, 60-minute group meetings, and 5GB of storage per user. It earns its heavier interface when OneDrive, Outlook, SharePoint, or Office documents are already part of the workflow and persistent chat channels need to sit beside calls.
 
 [Use Microsoft Teams Free →](https://www.microsoft.com/microsoft-teams/free)
 
@@ -131,7 +125,7 @@ Microsoft's [current Teams Free page](https://www.microsoft.com/en-us/microsoft-
 
 Whereby provides a persistent browser-based meeting-room URL, so a solo host can reuse one address without scheduling each call.
 
-What you get on the free tier:
+The free room includes:
 - One permanent meeting room with a custom URL (e.g., whereby.com/yourname)
 - Up to 4 participants per call
 - No download required for participants: they join with one click
@@ -145,9 +139,7 @@ Limitations on the free plan:
 - Breakout rooms, custom branding beyond your URL, and room locking features are on paid plans
 - No direct calendar integration on the free tier
 
-Choose Whereby for short client calls that benefit from a reusable room URL. The [current Free plan](https://whereby.com/information/meetings/select-plan) is limited to one room, four participants, and 30 minutes.
-
-Whereby's permanent URL removes the need to generate a new link for each appointment. The short duration cap makes it a poor fit for workshops or calls that regularly run past half an hour.
+The [current Free plan](https://whereby.com/information/meetings/select-plan) is limited to one room, four participants, and 30 minutes. That suits short client calls that benefit from a reusable address and rules out workshops or calls that regularly run past half an hour.
 
 [Try Whereby free →](https://whereby.com)
 
@@ -156,7 +148,7 @@ Whereby's permanent URL removes the need to generate a new link for each appoint
 
 Zoho Meeting's free tier includes scheduled meetings, basic webinar registration, and presenter controls.
 
-What you get on the free tier:
+Included free:
 - Meetings up to 60 minutes with up to 100 participants
 - Built-in meeting scheduler with calendar integration (Google, Outlook)
 - Screen sharing, polls during meetings, and hand raising
@@ -170,9 +162,7 @@ Where it falls short:
 - Cloud recording is a paid feature
 - Hosts need a Zoho account, adding an onboarding step that Google Meet avoids
 
-Choose Zoho Meeting for structured calls or simple webinars with up to 20 attendees, especially when Zoho CRM or Zoho Projects is already in use.
-
-Zoho's [current free webinar page](https://www.zoho.com/webinar/free-webinar.html) lists a 60-minute session limit and up to 20 attendees. That makes it useful for a small scheduled presentation, while larger events and cloud recording require a paid plan.
+Zoho's [current free webinar page](https://www.zoho.com/webinar/free-webinar.html) lists a 60-minute session limit and up to 20 attendees, enough for a small scheduled presentation, especially when Zoho CRM or Zoho Projects is already in use. Larger events and cloud recording require a paid plan.
 
 [Try Zoho Meeting free →](https://www.zoho.com/meeting/)
 
@@ -181,7 +171,7 @@ Zoho's [current free webinar page](https://www.zoho.com/webinar/free-webinar.htm
 
 Discord combines voice, video, and text in persistent channels. Participants can join an available voice channel instead of scheduling a meeting link.
 
-What you get on the free tier:
+On the free plan:
 - Unlimited duration video calls with no time limits
 - Up to 25 simultaneous video participants per channel
 - Persistent text channels, file sharing, screen sharing, and reactions
@@ -194,9 +184,7 @@ The real limits:
 - No built-in meeting scheduling or calendar integration
 - The interface and server setup require more technical knowledge than a simple meeting link
 
-Choose Discord for creative collaborators, developer pairing, and small teams that use ongoing channels more often than scheduled client calls.
-
-Discord works differently: instead of "schedule a meeting," the pattern is "voice channels are always available, drop in when you need to talk." For teams that find the work of scheduling stand-ups and syncs disruptive, this changes how they communicate. It is a stronger fit for smaller, always-on teams than for organizations running formal client calls or structured presentations.
+Instead of scheduling a meeting, people drop into a voice channel that is always available. That suits creative collaborators, developer pairing, and small always-on teams better than organizations running formal client calls or structured presentations.
 
 [Use Discord free →](https://discord.com)
 
@@ -226,17 +214,7 @@ Do not upgrade because a paid plan lists more features. Upgrade when a recurring
 
 ## Pick by call length and audience
 
-If you only need one tool, start with **Google Meet**. It handles common browser-based calls without a separate desktop install for participants.
-
-Add **Jitsi Meet** when guests should join by link after an authenticated moderator starts the room, or when self-hosting is part of the requirement.
-
-Choose **Whereby** for a permanent room link when four participants and 30 minutes are enough.
-
-Use **Microsoft Teams Free** when persistent channels and Microsoft 365 integration matter. Otherwise, Google Meet is the simpler starting point.
-
-Consider **Zoho Meeting** for small webinar-style sessions that need scheduling and attendance data.
-
-Use **Discord** when your team communicates continuously and wants always-available voice channels rather than scheduled meeting links.
+The longest meeting you run every week matters more than the average one. If it ends inside an hour, **Google Meet** is the simplest default. If it regularly runs longer, **Jitsi Meet** avoids a hard cut-off, and a paid plan is worth pricing once recording matters too. The rest fill narrower gaps: Teams Free for Microsoft-based work, Whereby for a permanent room under 30 minutes, Zoho Meeting for small webinars, and Discord for always-on voice channels.
 
 For tracking tasks and managing the work your team discusses in those meetings, our [free project management software guide](/business/free-project-management-software/) covers the best no-cost options for remote teams.
 

@@ -1,6 +1,6 @@
 ---
 title: "Free VPNs in 2026: what each plan limits"
-description: "Compare Proton VPN, Windscribe, and TunnelBear by data allowance, server choice, device support, and published security evidence."
+description: "Proton VPN Free has no data cap but chooses the server for you. Windscribe lets you pick the country instead, within 10 GB a month."
 date: "2026-04-04"
 lastmod: "2026-08-24"
 draft: false
@@ -46,9 +46,9 @@ rows:
 {{< /comparison-table >}}
 
 
-## A free VPN still needs a funding model
+## Why an app-store rating is weak evidence
 
-A VPN requires servers, bandwidth, and ongoing maintenance. A provider can fund a free tier through paid subscriptions, advertising, or other commercial relationships. Its privacy policy and published security work therefore matter as much as the monthly allowance.
+A provider can fund a free tier through paid subscriptions, advertising, or other commercial relationships, so its privacy policy and published security work matter as much as the monthly allowance.
 
 A [CSIRO-led study of 283 Android VPN apps](https://research.csiro.au/isp/wp-content/uploads/sites/106/2016/08/paper-1.pdf) found third-party tracking libraries, sensitive permissions, insecure tunnelling, and traffic manipulation among the apps it examined. The study is old enough that it should not be used to judge today's version of a named app, but it explains why an app-store rating is weak evidence for a VPN.
 
@@ -56,7 +56,7 @@ The three services below publish clear free-plan limits and fund those plans thr
 
 For securing other aspects of your digital life alongside a VPN, see our [free password managers guide](/security/free-password-managers/) and [free antivirus software guide](/security/free-antivirus-software/) for the complete free security toolkit.
 
-Also remember what a VPN does not do. It does not make weak passwords safe, remove malware from a device, or stop a website from collecting data you willingly submit. A trustworthy free VPN can protect traffic on public Wi-Fi and mask your IP address, but it should sit alongside good passwords, software updates, and careful account security rather than replacing them entirely. Treat it as one layer, not the whole security stack or a shortcut around basic daily security hygiene for accounts.
+Also remember what a VPN does not do. It does not make weak passwords safe, remove malware from a device, or stop a website from collecting data you willingly submit. A trustworthy free VPN can protect traffic on public Wi-Fi and mask your IP address, but it should sit alongside good passwords, software updates, and careful account security rather than replacing them entirely. Treat it as one layer, not the whole security stack.
 
 
 ## Three free VPN plans worth comparing
@@ -71,7 +71,7 @@ The [free plan has no data limit](https://protonvpn.com/support/does-protonvpn-h
 
 Compared with paid plans, the limits are server choice, simultaneous connections, and specialist servers. Proton does not guarantee streaming access on its free servers, and features such as Secure Core and P2P servers require a paid plan.
 
-Proton VPN Free fits regular browsing on one device when a specific exit country is not required. Its lack of a data cap matters more than a long country list for that use.
+For regular browsing on one device, where a specific exit country does not matter, the missing data cap is worth more than a long country list.
 
 [Try ProtonVPN Free →](https://protonvpn.com)
 
@@ -80,13 +80,11 @@ Proton VPN Free fits regular browsing on one device when a specific exit country
 
 {{< verdict "Best for variety" >}}
 
-Windscribe is a Canadian VPN with a free tier that trades a monthly data allowance for selectable server locations.
-
-Compared with Proton VPN Free, Windscribe makes more sense if selecting a country matters more than unlimited data. Its [current free plan](https://windscribe.com/features/use-for-free) includes 2 GB per month without an email address or 10 GB after confirming one, servers in ten countries, browser extensions, the R.O.B.E.R.T. blocker, and connections across multiple devices.
+Windscribe's free tier lets you pick the country, which Proton's does not, in exchange for a monthly data cap. The Canadian service's [current free plan](https://windscribe.com/features/use-for-free) includes 2 GB per month without an email address or 10 GB after confirming one, servers in ten countries, browser extensions, the R.O.B.E.R.T. blocker, and connections across multiple devices.
 
 The monthly allowance is the main constraint. Video and large downloads can use it quickly, while paid plans add more locations and unlimited data. Windscribe publishes privacy and audit material, but readers should still check the scope and date of each report rather than treating the word "audited" as a permanent guarantee.
 
-Windscribe fits users who need to choose among its free countries and can work within a monthly data cap. Its browser extension also suits people who want to route browser traffic without enabling the device-wide connection.
+The browser extension also suits people who want to route browser traffic without enabling the device-wide connection.
 
 [Try Windscribe Free →](https://windscribe.com)
 
@@ -95,13 +93,13 @@ Windscribe fits users who need to choose among its free countries and can work w
 
 {{< verdict "Most transparent" >}}
 
-TunnelBear is a Canadian VPN with a 2 GB monthly free tier and a history of publishing independent security audits.
+TunnelBear pairs a small 2 GB monthly free tier with a long record of published independent security audits.
 
 The [current free plan](https://www.tunnelbear.com/pricing/) includes 2 GB of browsing per month and does not cap the number of installed devices. TunnelBear moved country selection to paid plans in late 2025, so a free account is no longer a way to choose among its full location list. The company also publishes its [annual audit updates](https://www.tunnelbear.com/blog/tunnelbear-completes-8th-annual-independent-security-audit/), including the issues found and their status.
 
 The 2 GB cap is the practical barrier. It is suitable for short browsing sessions, not an always-on connection or regular video. TunnelBear offers apps for Windows, macOS, iOS, and Android, but not a native Linux app.
 
-TunnelBear fits occasional use when a small allowance and automatic location are acceptable. Choose Proton VPN instead when the connection needs to remain on for longer periods.
+That makes it an occasional-use tool when a small allowance and automatic location are acceptable; Proton VPN suits a connection that needs to stay on longer.
 
 [Try Tunnelbear Free →](https://tunnelbear.com)
 
@@ -131,4 +129,4 @@ For the full free security stack alongside your VPN, see our [free 2FA authentic
 
 ## Use Proton VPN unless you need country selection
 
-Choose **Proton VPN Free** for unlimited browsing when automatic server assignment is acceptable. Choose **Windscribe Free** when you need a country from its free list and can stay within 2 GB or 10 GB per month. **TunnelBear Free** is limited to 2 GB and no longer includes country selection, so it fits short sessions rather than routine use. Move to a paid plan when streaming support, P2P servers, predictable locations, or several simultaneous connections are requirements.
+What the VPN is for matters more than the size of its allowance. Protection on public Wi-Fi needs a connection that stays on, which favors **Proton VPN Free** and its missing data cap. Reaching a site from a particular country needs a chosen location, which favors **Windscribe Free** as long as 2 GB or 10 GB a month covers it. Streaming, P2P, predictable locations, or several simultaneous connections point to a paid plan, because none of the three free tiers is built for them.

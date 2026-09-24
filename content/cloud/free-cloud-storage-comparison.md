@@ -1,6 +1,6 @@
 ---
 title: "Free cloud storage in 2026: space, privacy, and sync"
-description: "Choose free cloud storage by usable space, shared quotas, upload limits, transfer caps, privacy, and everyday workflow."
+description: "Google's 15GB is shared with Gmail and Photos, and iCloud's 5GB also holds device backups. MEGA lists 20GB, but downloads draw on a separate transfer allowance."
 date: "2026-03-16"
 lastmod: "2026-09-20"
 draft: false
@@ -16,9 +16,7 @@ image: "/img/free-cloud-storage-comparison.webp"
 author: "FreeStackFinder Team"
 ---
 
-Free cloud storage comparisons often overfocus on the headline number and under-explain transfer limits, shared quotas, upload caps, encryption, and collaboration.
-
-Capacity matters, but it is only the first filter. A large archive, a shared document workspace, and an encrypted folder require different services.
+Every free plan here comes with a condition the headline number hides. MEGA's 20GB has a separate transfer allowance, Google's 15GB is shared with Gmail and Photos, and Box's 10GB refuses any file over 250MB. A large archive, a shared document workspace, and an encrypted folder each need a different service.
 
 ## Decide whether you need sync, collaboration, or privacy
 
@@ -86,16 +84,14 @@ Compare the headline capacity with:
 
 MEGA's [free plan lists 20GB](https://mega.io/pricing), with desktop and mobile apps, browser access, file sharing, and client-side encryption. Its transfer allowance is separate from storage and varies, so repeated large downloads can stop before the storage itself is full.
 
-Use MEGA for a larger personal file store or secondary encrypted archive. Google Drive is a better fit when several people need to edit the same documents in a browser.
+That makes it a good larger personal file store or secondary encrypted archive. Google Drive is a better fit when several people need to edit the same documents in a browser.
 
 
 ### 2. Google Drive: up to 15GB shared with mail and photos
 
-Google Drive is Google's cloud storage tied to Gmail, Google Photos, and the free Docs/Sheets/Slides suite.
-
 A Google Account includes [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). Accounts created since March 9, 2026 start with 5GB and unlock the other 10GB after phone-number verification. Browser, desktop, and mobile access come alongside Docs, Sheets, Slides, Forms, sharing, and live editing. The available Drive capacity may be much smaller on an established account because mail and photos use the same pool.
 
-Choose it for shared documents and browser collaboration, not for end-to-end encrypted personal storage.
+It is built for shared documents and browser collaboration, not end-to-end encrypted personal storage.
 
 
 ### 3. Box: 10GB with a 250MB upload cap
@@ -107,7 +103,7 @@ The upload cap rules out many videos and large design files. Box instead fits pr
 
 ### 4. OneDrive: 5GB beside Office web apps
 
-OneDrive is Microsoft's cloud storage service and integrates with Windows and Microsoft 365 for the web. The [free plan lists 5GB](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), plus web access to Word, Excel, PowerPoint, and OneNote.
+OneDrive's [free plan lists 5GB](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), plus web access to Word, Excel, PowerPoint, and OneNote through Microsoft 365 for the web.
 
 Its File Explorer integration makes it convenient for active Windows documents, but 5GB is too small for a substantial photo or media library.
 
@@ -121,14 +117,14 @@ Its collaboration ecosystem is narrower than Google's, so it fits personal recor
 
 ### 6. iCloud: 5GB shared by Apple services
 
-iCloud is Apple's built-in storage and sync service for iPhone, iPad, and Mac. Apple [includes 5GB](https://www.apple.com/icloud/) for iCloud Drive, device backups, photos, and other synchronized data.
+Apple [includes 5GB](https://www.apple.com/icloud/) of iCloud storage for iCloud Drive, device backups, photos, and other synchronized data on iPhone, iPad, and Mac.
 
-Because those jobs share one pool, a device backup or photo library can leave little room for a general archive. Choose it for continuity across Apple devices, then check the storage breakdown before relying on it for files.
+Because those jobs share one pool, a device backup or photo library can leave little room for a general archive. It earns its place through continuity across Apple devices; check the storage breakdown before relying on it for files.
 
 
 ### 7. Dropbox: mature sync, weak free storage
 
-Dropbox is a mature sync service whose [Basic plan includes 2GB](https://help.dropbox.com/plans/dropbox-basic-faq), desktop and mobile sync, and file sharing. Its version and deletion recovery window depends on the current plan terms.
+Dropbox's sync client is mature, but its [Basic plan includes only 2GB](https://help.dropbox.com/plans/dropbox-basic-faq), alongside desktop and mobile sync and file sharing. Its version and deletion recovery window depends on the current plan terms.
 
 That allowance makes Dropbox a secondary sync account rather than a primary free drive. Keep it when an existing shared folder or client workflow makes switching more disruptive than the storage limit.
 
@@ -151,6 +147,6 @@ At that point, compare the current subscription price with the administrative co
 
 ## Choose capacity, collaboration, or encryption
 
-Use **MEGA** for the largest allowance in this comparison, **Google Drive** for collaborative documents, and **Proton Drive** for end-to-end encrypted personal files. Choose **Dropbox** only when its existing sync workflow outweighs the small free allowance.
+Check what already fills an account before counting its free space. Google's 15GB and Apple's 5GB are shared with mail, photos, or device backups, so an established account can have far less room than a new one. **MEGA** and **Box** are dedicated storage accounts, which makes their allowances easier to plan around as an archive, and **Proton Drive** is the smaller but encrypted option for sensitive files.
 
 If your main goal is backup rather than general file access, pair this guide with our roundup of the [best free backup software](/cloud/free-backup-software/). The best backup destination is not always the same as the best everyday cloud drive.

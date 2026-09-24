@@ -1,6 +1,6 @@
 ---
 title: "Free website builders in 2026: where each plan stops"
-description: "Wix, Google Sites, WordPress.com, Carrd, and Canva Websites compared by free address, storage, site format, and upgrade pressure."
+description: "Google Sites is the only builder here that connects your own domain with no builder fee. Wix, WordPress.com, Carrd, and Canva charge for a custom domain."
 date: "2026-04-27"
 lastmod: "2026-08-04"
 draft: false
@@ -18,11 +18,11 @@ image: "/img/free-website-builders.webp"
 author: "FreeStackFinder Team"
 ---
 
-Free website builders can publish a working page, but custom domains, site branding, forms, analytics, storage, and bandwidth often define the paid boundary. This guide covers ongoing free plans and excludes time-limited trials.
+Free website builders can publish a working page, but custom domains, site branding, forms, analytics, storage, and bandwidth often define the paid boundary. Only ongoing free plans are included here, not time-limited trials.
 
 ## A free URL is the first tradeoff
 
-Use **Google Sites** for a basic multi-page site without builder ads, accepting its limited layout control. **Wix** has a larger template and app catalog, but the free subdomain and Wix banner remain visible. **WordPress.com** fits blogs and scheduled publishing. **Carrd** fits a one-page portfolio or landing page. **Canva Websites** offers visual one-page and multi-page layouts on a Canva subdomain, with analytics and custom domains reserved for paid accounts.
+**Google Sites** publishes a basic multi-page site without builder ads, at the cost of limited layout control. **Wix** has a larger template and app catalog, but the free subdomain and Wix banner remain visible. **WordPress.com** fits blogs and scheduled publishing. **Carrd** fits a one-page portfolio or landing page. **Canva Websites** offers visual one-page and multi-page layouts on a Canva subdomain, with analytics and custom domains reserved for paid accounts.
 
 Portfolios and landing pages can tolerate a simple one-page builder longer than small business sites can tolerate an awkward URL. Blogs need publishing tools more than visual freedom. Local business sites usually need a custom domain, contact form, and analytics sooner than they need a huge template library.
 
@@ -58,8 +58,6 @@ rows:
 
 ## A free address works until the site represents a business
 
-A decade ago, building a website without coding skills meant choosing between clunky free hosts and expensive agencies. That gap has narrowed. Modern free website builders let a freelancer, a local business, or a creator get a credible web presence without spending money upfront.
-
 Branding and the web address define the main 2026 limits. Most free plans put the builder's name in the URL and add an ad or badge to the page. That can suit a proof of concept or personal project, but a client-facing site may need a custom domain and an unbranded page.
 
 The other common catch is storage and bandwidth. Tools that advertise "free" often cap how much traffic your site can handle before they throttle it or redirect visitors to an upgrade page. For a low-traffic project, this is irrelevant. For a business expecting consistent visitors, it matters.
@@ -78,30 +76,26 @@ Understanding what type of builder you need makes the decision clearer:
 
 {{< verdict "Most features free" >}}
 
-Wix is a hosted website builder with a drag-and-drop editor, an AI site generator, and a large app marketplace. The free plan gives access to the full editor and most of the template library.
+Wix gives free sites the full drag-and-drop editor, its AI site generator, most of the template library, and access to a large app marketplace.
 
 What you can build for free: Drag-and-drop and AI-assisted editing, templates, Wix App Market access, basic SEO settings, galleries, and contact forms. Wix currently lists up to 500MB of storage and [up to 1GB of bandwidth](https://support.wix.com/en/article/about-storage-and-bandwidth) for free sites.
 
 The practical limit: A custom domain, removal of the Wix banner, Google Analytics, and ecommerce transactions require payment. The bandwidth allowance also limits how much data the site can serve.
 
-Choose Wix for: Testing a portfolio, hobby site, or small-business layout before deciding whether its paid domain and branding controls are worth the cost.
-
-Upgrade pressure to know: Wix keeps its full drag-and-drop editor and a broad template library on the free plan. The forced Wix subdomain and in-site ads, rather than missing editing controls, are the reasons to upgrade.
+That makes it a good place to test a portfolio, hobby site, or small-business layout before deciding whether the paid domain and branding controls are worth the cost. The forced Wix subdomain and in-site ads, not missing editing controls, are the reasons to upgrade.
 
 
 ### 2. Google Sites: best when builder ads and fees are the dealbreakers
 
 {{< verdict "Best zero-cost option" >}}
 
-Google Sites is a free, browser-based site builder included with every Google account. It integrates directly with Google Drive, Docs, Sheets, Slides, Forms, Calendar, Maps, and YouTube.
+Every Google account includes Google Sites, and its strength is embedding the rest of Google's apps.
 
 What you can build for free: Multi-page sites with Google Drive, Docs, Sheets, Slides, Forms, Calendar, Maps, and YouTube embeds. Google Sites does not place a builder ad on the published page. You still pay separately for any domain you connect.
 
 Google Sites limits design flexibility. It has a fixed set of layouts and a small selection of themes, without free positioning, custom CSS, or third-party apps.
 
-Choose Google Sites for: An internal resource, school or club page, or basic information site that values Google embeds over custom layout control.
-
-Free-plan tradeoff: Google Sites does not add ads, and it can use a domain you already own without a paid builder plan. The template system is restrictive, and the result retains the recognizable Google Sites structure rather than a custom layout.
+It suits an internal resource, a school or club page, or a basic information site that values Google embeds over custom layout. Because there is no paid builder plan, a domain you already own connects without a builder fee. The template system is restrictive, and the result retains the recognizable Google Sites structure rather than a custom layout.
 
 If the organization already uses Google Workspace, start by checking whether embedded Sheets, Slides, and Forms cover the site requirement before adding another builder.
 
@@ -110,15 +104,13 @@ If the organization already uses Google Workspace, start by checking whether emb
 
 {{< verdict "Best for blogging" >}}
 
-WordPress.com is a hosted version of WordPress managed by Automattic. It is distinct from self-hosted WordPress.org, which requires your own hosting. The free plan is a stripped-down version of the platform.
+Automattic runs WordPress.com as hosted WordPress, separate from the self-hosted WordPress.org software that needs your own hosting. The free plan is a stripped-down version of it.
 
 What you can publish for free: Unlimited blog posts and pages, basic themes, Jetpack traffic statistics, a `yoursitename.wordpress.com` subdomain, 1GB storage.
 
 Where you may outgrow it: Custom domain, removal of WordPress.com ads on your pages, custom plugins (no plugin installation on free), advanced theme customization, and premium theme access. Ecommerce requires a paid plan.
 
-Choose WordPress.com for: A blog or publication that needs posts, pages, categories, tags, scheduling, and RSS more than custom design or plugins.
-
-WordPress.com Free is built for publishing. Categories, tags, scheduling, RSS, and basic SEO fields are available without paying, and the wider WordPress community provides plenty of documentation when the editor is unfamiliar.
+WordPress.com Free is built for publishing. A blog that needs categories, tags, scheduling, RSS, and basic SEO fields more than custom design or plugins gets them without paying, and the wider WordPress community provides plenty of documentation when the editor is unfamiliar.
 
 The main problems on the free plan are ads and the subdomain. If your site is for public professional use, the WordPress.com ads shown to visitors are a credibility problem. A paid Personal plan removes them and adds a custom domain.
 
@@ -127,15 +119,13 @@ The main problems on the free plan are ads and the subdomain. If your site is fo
 
 {{< verdict "Best one-pager" >}}
 
-Carrd is a minimal website builder designed for single-page portfolios, personal pages, link-in-bio pages, and landing pages.
+Carrd only builds single pages, for portfolios, personal pages, link-in-bio pages, and landing pages.
 
 What you can launch for free: Up to three sites hosted at a `carrd.co` subdomain, access to most templates, the full design editor, and basic embed support. No credit card required.
 
 The practical limit: Custom domain, form submissions (the contact form requires a paid plan for form handling), third-party integrations, and multi-page layouts. Each free site is a single scrollable page.
 
-Choose Carrd for: A one-page portfolio, link-in-bio page, event page, or temporary landing page that can use a `carrd.co` address.
-
-Free-plan tradeoff: Carrd's templates are geared toward focused one-page sites, but a custom domain requires payment. The `yourname.carrd.co` address can work for a temporary portfolio or profile; it is a poor fit for a business that needs its own domain.
+The `yourname.carrd.co` address works for a one-page portfolio, link-in-bio page, event page, or temporary landing page, but it is a poor fit for a business that needs its own domain.
 
 
 ### 5. Canva Websites: best for design-first creators
@@ -148,16 +138,14 @@ What you can publish for free: A site on a customizable `my.canva.site` subdomai
 
 The practical limit: Connecting a custom domain and using Website Insights require Canva Pro. Canva provides page titles and descriptions for basic search setup, but it does not offer the plugin, content-type, or custom-code depth of a general CMS. JavaScript support is also limited.
 
-Choose Canva Websites for: An event page, digital lookbook, visual resume, or temporary promotion designed in an existing Canva account.
-
-When to skip it: Choose another builder when the site needs a free custom-domain connection, built-in analytics on the free plan, custom JavaScript, a blog workflow, or deeper search controls.
+It works for an event page, digital lookbook, visual resume, or temporary promotion designed in an existing Canva account. Another builder is the better choice when the site needs a free custom-domain connection, built-in analytics on the free plan, custom JavaScript, a blog workflow, or deeper search controls.
 
 Canva can work for a portfolio, campaign, or small brochure site. A content-heavy business site will usually outgrow its publishing and integration controls before it outgrows the visual editor.
 
 
 ## When a free site stops being enough
 
-The free plans above are appropriate while you are testing an idea or have very low traffic and no professional audience. Here is when upgrading becomes the practical choice:
+The free plans above are appropriate while you are testing an idea or have very low traffic and no professional audience. These are the usual upgrade points:
 
 - A custom domain is becoming necessary for business cards, email signatures, or client proposals.
 
@@ -176,9 +164,9 @@ If you need a full free business software stack to go alongside your website, in
 
 ## Upgrade when the address or workflow matters
 
-Google Sites avoids builder ads and fees but restricts layout control. Wix offers a broad editor while keeping its banner and subdomain on free sites. WordPress.com handles recurring posts, Carrd handles a focused one-page presence, and Canva Websites handles visual sites on a Canva address.
+The address is harder to change than the builder. Pages can be rebuilt, but every business card, email signature, and search result that points at a builder subdomain goes stale when the address changes. If the site will ever represent a business, connect a custom domain from the start: **Google Sites** does that without a builder fee, and every other builder here charges for it.
 
-Each is a workable starting point for the right project. Reconsider the platform when the address, publishing workflow, analytics, or integrations become more important than staying on the free plan.
+Reconsider the platform when the address, publishing workflow, analytics, or integrations become more important than staying on the free plan.
 
 For sharing your work and reaching clients beyond your website, pairing with a free social media scheduling tool can extend your reach without adding cost. See our [free social media scheduling tools guide](/business/free-social-media-scheduling/).
 

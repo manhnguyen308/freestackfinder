@@ -117,7 +117,7 @@ grep -RIn "exact-term" content/business --include="*.md" | head -20
 ```yaml
 ---
 title: "Best Free [Tool] in 2026 — [Hook]"
-description: "150–160 chars. Lead with the surprising answer."
+description: "150–160 chars. Lead with a fact specific to this page. No Choose/Find/Compare/See/Pick opener, no criteria-list tail."
 date: "2026-MM-DD"
 lastmod: "2026-MM-DD"
 draft: false
@@ -145,14 +145,16 @@ Never use: `featured:` · `faqs:` · bare unquoted date values · inline keyword
 - Do not change existing article dates unless correcting a real error.
 
 ### Article structure
-1. Quick verdict
-2. Why this matters / why people are switching
-3. The best free tools in 2026
-4. Quick comparison table
-5. Decision guide / when to pay
-6. Our verdict
+1. Opening answer: the fact that drives the recommendation, then the picks
+2. Why people look for an alternative, or what the free plans limit
+3. The tools
+4. Comparison table
+5. When to pay
+6. Closing decision rule
 
-For each tool section include: what it is · free plan includes · what the free plan is missing · who it's best for · why it stands out · tool link
+Headings must be specific to the page; never use "Quick verdict", "Our verdict", or "Conclusion" as written headings.
+
+Each tool section should cover: what separates the tool · what the free plan includes · where it stops · who it suits · tool link. Cover those points, but do not give every section the same first sentence, labels, or order. The description, first sentence, tool-section openers, and closing must not repeat a formula used on other pages. See "Sitewide sameness" in `website-content-humanizer.md` before writing any of them.
 
 ### Internal linking
 - Add 2–5 relevant internal links per article

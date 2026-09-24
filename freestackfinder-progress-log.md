@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85g
+**Current day:** 85h
 
 ## Current state
 
@@ -16,6 +16,21 @@
 - Product icons: real icons replace the initials circles in all 7 Video images (Day 85g), all 9 Productivity images (85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 25 images, in Business, Security, and Cloud, still use initials
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+- Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`; check new descriptions against the rest of their silo before publishing
+
+---
+
+### Day 85h - Card descriptions and article openings no longer share one formula
+
+- Date: 2026-09-24. Scoped to reader-visible copy in all 50 articles, the 6 hub pages, and the homepage template, plus the editorial rules that produced the pattern. No article added or removed, and no slug, URL, alias, date, weight, image, affiliate link, or ranking changed.
+- Problem: nearly every card excerpt (front matter `description`) used one formula, "Choose among / Find a / Compare [tools] by [four or five criteria]." About 19 articles opened with the same imperative verdict ("Choose **X** for..."), about 35 closings restated it, and roughly 140 of 246 tool sections opened with a definition sentence ("X is a free, open-source..."). Several articles also repeated one label or sentence frame in every section ("Strong fit for:", "The natural audience:", "What the free version includes:").
+- Descriptions: all 50 rewritten to lead with one fact specific to the page, such as a limit, number, or plan change, taken only from that article. No two descriptions in a silo share an opening word, and the criteria-list tail and repeated tool triplets are gone. All sit at 131 to 160 characters.
+- Articles: imperative openings are down from about 19 to 0, and definition openers from about 140 to 12. Closings now add a decision rule or next step instead of repeating the opening picks. Duplicate intro paragraphs and headings were merged (Notion, Slack, Figma, calendar, spreadsheet, video editors), and per-section label templates were replaced with prose or section-specific labels (PDF editors, open-source video editors, website builders, time tracking, Notion, conferencing, Premiere Pro, and others).
+- Accuracy fixes found during the pass: the HR guide said Bitrix24's free plan has unlimited users, while the CRM guide documents that Bitrix24's own pricing pages disagree. The HR guide now matches, with both sources linked, and its `lastmod` moved to 2026-09-24 because plan information changed. Unsupported lines were removed or narrowed: a "20 seconds per resume" figure, Linear's "loyal following", Xodo form filling "reliably", HubSpot output that "pastes without cleanup", Lucidchart's "clean" editor, WiseStamp as "oldest and best-known", and the Office guide's claim that Sheets "handles most advanced functions now". Two comma splices were fixed in the project management and Grammarly guides. First-hand evidence in the Office and Dropbox guides is unchanged.
+- Hubs and homepage: 4 hub descriptions started "Compare free alternatives to..." and 2 ended with an identical phrase. All 6 now differ. Three hub intros that used "These guides compare...: [list]" now state concrete limits. The 16 "Where to start" items that began "if you..." were rewritten with sentence-case labels. The homepage hero no longer says "Compare" twice, and the three collection intros no longer all open with an imperative.
+- Rules updated: `website-content-humanizer.md` gains a "Sitewide sameness" section (descriptions, openings, tool sections, closings) and three publication-gate questions. `docs/SKILL.md` drops the "Quick verdict / Our verdict" structure and the fixed per-tool template. `archetypes/default.md` no longer prescribes "Quick verdict", "Our verdict", bold per-tool labels, an em dash, a Title Case title, an unquoted date, or an inline keyword array. `CLAUDE.md` gains a one-line rule pointing to the new section.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3 with 50 articles; front matter showed 0 errors and 0 warnings. `git diff --check` passed. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings. Added lines contain no em dashes, en dashes, or smart quotes. Card excerpts on all six hubs were read back from the running local server.
+- Follow-up: the scripted sameness checks used for this pass are not part of `run_quality_checks.py`. A warning-only check for repeated description openers within a silo would catch a regression at publish time.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "Free password managers for teams in 2026"
-description: "Find a free team password manager by comparing user limits, sharing, self-hosting, administration, recovery, and maintenance."
+description: "Bitwarden's free organization stops at two people. Beyond that, a free team vault means self-hosting Passbolt or Vaultwarden, or sharing one KeePassXC file."
 date: "2026-05-02"
 lastmod: "2026-09-05"
 draft: false
@@ -77,9 +77,7 @@ The hard limit is team size:
 - No SCIM provisioning or directory sync
 - No custom roles
 
-Use it for freelance partnerships, two co-founders sharing infrastructure credentials, a designer and developer on a shared project, or any two-person team that wants shared cloud access without setup complexity.
-
-For exactly two people, this is the simplest hosted free option. Create an organization, invite one member, and add shared collections. Both members keep personal Bitwarden vaults plus access to the shared vault. A third person forces the choice between self-hosting and a paid plan.
+For exactly two people, such as freelance partners, co-founders sharing infrastructure credentials, or a designer and developer on one project, this is the simplest hosted free option. Create an organization, invite one member, and add shared collections. Both members keep personal Bitwarden vaults plus access to the shared vault. A third person forces the choice between self-hosting and a paid plan.
 
 [Try Bitwarden Organizations free →](https://bitwarden.com)
 
@@ -99,15 +97,13 @@ The risk is project status and support:
 - Some edge features occasionally lag behind the official server on version compatibility
 - Still requires server access and Docker
 
-Use Vaultwarden when server resources are tight, the team is technical, and everyone understands that the project is unofficial. It is a poor fit for teams that need vendor support or a conservative compliance story.
-
-Vaultwarden suits technical teams that accept community support and can test updates when the Bitwarden client protocol changes. Review its [project documentation and security notes](https://github.com/dani-garcia/vaultwarden) before using it for business credentials.
+It makes sense when server resources are tight, the team is technical, and everyone accepts community support and can test updates when the Bitwarden client protocol changes. Teams that need vendor support or a conservative compliance story should look elsewhere. Review its [project documentation and security notes](https://github.com/dani-garcia/vaultwarden) before using it for business credentials.
 
 [Vaultwarden on GitHub →](https://github.com/dani-garcia/vaultwarden)
 
 ### 3. Passbolt Community Edition: purpose-built team sharing
 
-Passbolt Community Edition is an open-source password manager designed for shared credential management.
+Passbolt was built around shared credentials from the start, rather than adding team features to a personal vault.
 
 Passbolt Community Edition gives technical teams detailed sharing controls:
 - Unlimited users on the Community Edition
@@ -124,9 +120,7 @@ The setup burden is higher than Bitwarden:
 - Initial setup requires GPG key generation per user, which adds work for non-technical users
 - More setup work than Bitwarden's hosted apps
 
-It fits development teams, sysadmin teams, or IT departments that share many service credentials and need fine-grained access control. Teams where technical users can help others through GPG setup will have a smoother rollout.
-
-Passbolt can grant read, update, or ownership permissions on individual passwords and groups. That control is useful for technical teams, while its GPG setup creates more onboarding work than a hosted personal password manager. Passbolt's [Community Edition comparison](https://www.passbolt.com/pricing/pro) lists unlimited users, user and group management, role-based access control, browser extensions, a CLI, and an open API.
+Development, sysadmin, and IT teams that share many service credentials get the most from that per-password control, especially when technical users can walk others through GPG setup. Passbolt's [Community Edition comparison](https://www.passbolt.com/pricing/pro) lists unlimited users, user and group management, role-based access control, browser extensions, a CLI, and an open API.
 
 [Passbolt Community Edition →](https://www.passbolt.com/ce/docker)
 
@@ -147,7 +141,7 @@ The problem is access control:
 - Revoking access for a departed team member requires changing the master password and redistributing it
 - No audit log of who accessed what
 
-Use KeePassXC shared this way only for micro-teams of two or three people where one person edits the vault at a time: for example, a freelancer and virtual assistant sharing a handful of client portal credentials.
+This only works for micro-teams of two or three people where one person edits the vault at a time, such as a freelancer and a virtual assistant sharing a handful of client portal credentials.
 
 Its appeal is that there is no server, no account system, and no recurring payment. The model falls apart quickly as the team grows, credentials become more sensitive, or offboarding becomes a real concern. Treat it as a stopgap, not a long-term team security system.
 
@@ -196,11 +190,4 @@ For the rest of your team's security baseline, require [two-factor authenticatio
 
 ## Name a vault owner before onboarding
 
-The available free paths are:
-
-- Two people can use Bitwarden Free Organizations for hosted core sharing.
-- A technical team can self-host Vaultwarden if it accepts an unofficial Bitwarden-compatible server.
-- Passbolt Community Edition fits teams that want a supported open-source project built around shared access controls and can run its server.
-- A two- or three-person group with occasional sharing can use a KeePassXC file as a temporary arrangement, provided it understands the offboarding and conflict risks.
-
-If nobody can maintain a server, compare managed plans instead of leaving an unpatched vault online. For individual password management recommendations, start with our [free password managers guide](/security/free-password-managers/). Each member should keep personal credentials outside the shared organization, and the team should enable [2FA](/security/best-free-2fa-apps/) before adding production credentials.
+Pick the person responsible for the vault before the first credential goes in. That owner invites and removes members, rotates shared credentials after someone leaves, and, on a self-hosted server, keeps up with patches, backups, and restore tests. If nobody on the team can take that role for Vaultwarden or Passbolt, compare managed plans instead of leaving an unpatched vault online. For individual password management recommendations, start with our [free password managers guide](/security/free-password-managers/). Each member should keep personal credentials outside the shared organization, and the team should enable [2FA](/security/best-free-2fa-apps/) before adding production credentials.
