@@ -9,6 +9,12 @@ Usage:
 
 Scans articles under content/<silo>/ only (not utility pages).
 Exits with code 1 if errors are found, 0 if clean or warnings only.
+
+Descriptions double as card excerpts, so three sameness checks warn (never
+fail) when a description repeats a formula: a first word shared with another
+article in the same silo, a retired imperative opener, or a trailing
+"by X, Y, and Z" (or "compared for X, Y, and Z") criteria list. See "Sitewide sameness" in
+website-content-humanizer.md.
 """
 
 import re
@@ -32,6 +38,12 @@ RE_BARE_DATE = re.compile(r'^\d{4}-\d{2}-\d{2}$')
 RE_IMAGE_PATH = re.compile(r'^"/img/[^"]+\.webp"$')
 
 BUILD_DATE = datetime.now(timezone.utc).date()
+
+# Card-description sameness (warnings only)
+RETIRED_DESC_OPENERS = {"Choose", "Find", "Compare", "See", "Pick"}
+CRITERIA_MARKERS = (" by ", " compared for ")   # "compared for" is the same formula worded differently
+CRITERIA_MIN_ITEMS = 3
+CRITERIA_MAX_ITEM_WORDS = 8   # criteria are noun phrases; anything longer is a clause
 
 
 def parse_front_matter(text):
@@ -75,6 +87,41 @@ def parse_front_matter(text):
         fields[current_key] = list_buf[:]
 
     return fields
+
+
+def clean_description(fields):
+    """Return the description without surrounding quotes, or "" if absent."""
+    desc = fields.get("description") if fields else None
+    return str(desc).strip('"') if desc else ""
+
+
+def description_first_word(desc):
+    """First word, case-folded, without surrounding punctuation or quotes."""
+    words = desc.split()
+    return words[0].strip('.,;:!?"()').lower() if words else ""
+
+
+def criteria_tail(desc):
+    """Return the trailing 'by X, Y, and Z' list in the last sentence, or None."""
+    last_sentence = re.split(r'(?<=[.!?])\s+', desc.strip())[-1]
+    lowered = last_sentence.lower()
+    idx, marker = max((lowered.rfind(m), m) for m in CRITERIA_MARKERS)
+    if idx == -1:
+        return None
+    tail = last_sentence[idx + len(marker):].rstrip(" .!?")
+    items = [item.strip() for item in tail.split(",") if item.strip()]
+    # Without an Oxford comma, "sync and privacy" is still two items
+    count = len(items)
+    if items and not re.match(r'(and|or)\s', items[-1]) and re.search(r'\s(and|or)\s', items[-1]):
+        count += 1
+    if count < CRITERIA_MIN_ITEMS:
+        return None
+    # "and"/"or" before the final item means the list already ended and a clause follows
+    if any(re.match(r'(and|or)\s', item) for item in items[:-1]):
+        return None
+    if any(len(re.sub(r'^(and|or)\s+', '', item).split()) > CRITERIA_MAX_ITEM_WORDS for item in items):
+        return None
+    return f"{marker.strip()} {tail}"
 
 
 def check_file(path):
@@ -158,6 +205,18 @@ def check_file(path):
         elif len(desc_clean) > 165:
             warnings.append(f"description: long ({len(desc_clean)} chars) — aim for 150–160")
 
+        if desc_clean:
+            opener = desc_clean.split()[0].strip('.,;:!?"()')
+            if opener in RETIRED_DESC_OPENERS:
+                warnings.append(
+                    f'description: starts with "{opener}", the retired card formula — lead with a fact specific to this page'
+                )
+            tail = criteria_tail(desc_clean)
+            if tail:
+                warnings.append(
+                    f'description: ends with a criteria list ("{tail}") — name the one limit that decides this page'
+                )
+
     return errors, warnings
 
 
@@ -173,12 +232,31 @@ def main():
         if not silo_path.is_dir():
             continue
 
-        for md_path in sorted(silo_path.glob("*.md")):
-            if md_path.name == "_index.md":
-                continue
+        articles = [p for p in sorted(silo_path.glob("*.md")) if p.name != "_index.md"]
 
+        # Group the silo's descriptions by first word; cards in one hub sit side by side
+        opener_of = {}
+        opener_groups = {}
+        for md_path in articles:
+            try:
+                fields = parse_front_matter(md_path.read_text(encoding="utf-8"))
+            except OSError:
+                continue
+            word = description_first_word(clean_description(fields))
+            if word:
+                opener_of[md_path] = word
+                opener_groups.setdefault(word, []).append(md_path)
+
+        for md_path in articles:
             total_files += 1
             errors, warnings = check_file(md_path)
+
+            word = opener_of.get(md_path)
+            peers = [p.name for p in opener_groups.get(word, []) if p != md_path]
+            if peers:
+                warnings.append(
+                    f'description: opens with "{word}", same as {", ".join(peers)} in {silo}/ — vary the first word within a silo'
+                )
 
             # Duplicate slug detection
             text = md_path.read_text(encoding="utf-8")

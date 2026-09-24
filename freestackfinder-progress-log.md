@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85i
+**Current day:** 85j
 
 ## Current state
 
@@ -16,7 +16,17 @@
 - Product icons: real icons replace the initials circles in all 13 Business images (Day 85i), all 7 Video images (85g), all 9 Productivity images (85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 12 images, in Security and Cloud, still use initials
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
-- Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`; check new descriptions against the rest of their silo before publishing
+- Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
+
+---
+
+### Day 85j - Front matter validator warns on repeated card-description formulas
+
+- Date: 2026-09-24. Scoped to `scripts/validate_front_matter.py` and the archive table in `FEATURE-STRATEGY.md`. No content, template, or image changed.
+- Checks added, all warning-only: (1) two or more articles in the same silo whose descriptions start with the same first word, compared case-insensitively with surrounding punctuation stripped; (2) a description that starts with Choose, Find, Compare, See, or Pick; (3) a description whose last sentence ends in a criteria list of three or more items after "by" or "compared for". The 50 to 165 character length warnings are unchanged, and the script still exits non-zero only on errors.
+- Criteria-list rule: an "and" or "or" before the final item means the list has already ended and a clause follows, so "by tool, model, and demand, and every draft still needs editing" is not flagged. A list without an Oxford comma still counts its final "X and Y" as two items, and items longer than eight words are treated as clauses. "compared for" goes one step beyond the requested "by" because three pre-rewrite descriptions used it; a bare "for" is not matched.
+- Validation: on current content the validator reports 0 errors and 0 warnings, and `run_quality_checks.py --with-counts` passes 3/3 with 50 articles. Against the content as it stood before Day 85h (commit a95a973), the new checks raise 93 warnings across 46 of 50 articles (29 shared openers, 34 retired openers, 30 criteria tails), with the run still reporting a pass. Ten edge cases behave as expected, including the requested "by X, Y, Z, and W" form. `git diff --check` passed.
+- Not covered: other formulas from the old set, such as "Build a... with X, Y, and Z" or a closing "Here's what each one does", produce no warning. A first word followed by a possessive ("Google" and "Google's") counts as two different words, so the backup and cloud storage cards in Cloud are not reported as sharing an opener.
 
 ---
 
