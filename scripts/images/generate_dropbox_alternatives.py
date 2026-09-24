@@ -5,7 +5,8 @@ Output : static/img/dropbox-alternatives.webp  (1200x630 px)
 Silo   : Cloud   Accent: #06b6d4
 
 Free storage figures come from the comparison table in
-content/cloud/dropbox-alternatives.md.
+content/cloud/dropbox-alternatives.md. Product icons come from
+scripts/images/logos/ (sources listed in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -16,6 +17,11 @@ from image_helpers import (
 )
 
 ACCENT = "#06b6d4"   # Cloud silo, cyan
+LOGOS  = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logos")
+
+
+def logo(name):
+    return os.path.join(LOGOS, name)
 
 c = Canvas()
 
@@ -53,13 +59,18 @@ card_featured(
     name     = "MEGA",
     tagline  = "Best for maximum free storage",
     note     = "20GB with client-side encryption and desktop sync",
+    logo     = logo("mega.png"),
 )
 
 card_grid(c, [
-    ("#3b82f6", "GD", "Google Drive", "Up to 15GB shared across Drive, Gmail, and Photos"),
-    ("#eab308", "OD", "OneDrive",     "5GB shared with Outlook, sync built into Windows"),
-    ("#ec4899", "Pr", "Proton Drive", "2GB, up to 5GB after setup, end-to-end encrypted"),
-    ("#8b5cf6", "Bx", "Box Free",     "10GB for business documents"),
+    ("#3b82f6", "GD", "Google Drive", "Up to 15GB shared across Drive, Gmail, and Photos",
+     logo("google-drive.png")),
+    ("#eab308", "OD", "OneDrive",     "5GB shared with Outlook, sync built into Windows",
+     logo("onedrive.png")),
+    ("#ec4899", "Pr", "Proton Drive", "2GB, up to 5GB after setup, end-to-end encrypted",
+     logo("proton-drive.png")),
+    ("#8b5cf6", "Bx", "Box Free",     "10GB for business documents",
+     logo("box.png")),
 ])
 
 card_bar(

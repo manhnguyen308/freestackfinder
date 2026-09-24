@@ -65,7 +65,7 @@ Before marking image work done:
 - Left panel: dark mock UI
 - Right panel: featured card + 2×2 comparison cards
 - Bottom bar: solid accent color, title in bold white
-- Cards use circle helper with tool initials
+- Cards use circle helper with tool initials, or a real product icon passed as `logo` from `scripts/images/logos/` (record each icon's source in `logos/SOURCES.md`)
 
 ### Accent colors by silo
 | Silo | Color |

@@ -397,6 +397,23 @@ def initials_badge(c, cx, cy, r, color, initials, text_color="#ffffff"):
     c.text(cx, cy, initials, r * 0.72, text_color, "bold", anchor="mm")
 
 
+def logo_badge(c, cx, cy, max_w, max_h, path):
+    """Product icon (transparent PNG) fitted inside max_w x max_h, centred on cx, cy."""
+    icon = Image.open(path).convert("RGBA")
+    scale = min(max_w / icon.width, max_h / icon.height)
+    w, h = round(icon.width * scale * SS), round(icon.height * scale * SS)
+    icon = icon.resize((w, h), Image.LANCZOS)
+    c.img.paste(icon, (round(cx * SS - w / 2), round(cy * SS - h / 2)), icon)
+
+
+def badge(c, cx, cy, r, color, initials, logo=None, text_color="#ffffff"):
+    """Logo when a path is given, otherwise the initials circle."""
+    if logo:
+        logo_badge(c, cx, cy, r * 2.2, r * 2, logo)
+    else:
+        initials_badge(c, cx, cy, r, color, initials, text_color)
+
+
 def card_window(c, title, x0=WIN_X0, y0=WIN_Y0, x1=WIN_X1, y1=WIN_Y1):
     """Dark app window with traffic-light chrome. Returns the content box."""
     c.rect(x0, y0, x1, y1, WIN_BG, r=14, outline=LINE)
@@ -407,11 +424,11 @@ def card_window(c, title, x0=WIN_X0, y0=WIN_Y0, x1=WIN_X1, y1=WIN_Y1):
     return x0 + 20, y0 + 60, x1 - 20, y1 - 18
 
 
-def card_featured(c, accent, initials, name, tagline, note):
+def card_featured(c, accent, initials, name, tagline, note, logo=None):
     x0, y0, x1, y1 = RX0, FEAT2_Y0, RX1, FEAT2_Y1
     c.rect(x0, y0, x1, y1, CARD_BG, r=14, outline=mix(accent, CARD_BG, 0.55))
     c.rect(x0, y0 + 18, x0 + 5, y1 - 18, accent, r=2)
-    initials_badge(c, x0 + 60, y0 + 62, 36, accent, initials, on_color(accent))
+    badge(c, x0 + 60, y0 + 62, 36, accent, initials, logo, on_color(accent))
     tx = x0 + 114
     avail = x1 - tx - 22
     c.fit_text(tx, y0 + 20, name, 30, avail, TEXT_W, "bold")
@@ -420,12 +437,12 @@ def card_featured(c, accent, initials, name, tagline, note):
 
 
 def card_grid(c, items):
-    """items: four (colour, initials, name, note) tuples."""
-    for i, (col, initials, name, note) in enumerate(items):
+    """items: four (colour, initials, name, note[, logo path]) tuples."""
+    for i, (col, initials, name, note, *logo) in enumerate(items):
         x = RX0 + (i % 2) * (CELL2_W + 16)
         y = GRID2_Y + (i // 2) * (CELL2_H + 16)
         c.rect(x, y, x + CELL2_W, y + CELL2_H, CARD_BG, r=12)
-        initials_badge(c, x + 36, y + 34, 20, col, initials)
+        badge(c, x + 36, y + 34, 20, col, initials, logo[0] if logo else None)
         c.fit_text(x + 66, y + 34, name, 20, CELL2_W - 66 - 16, TEXT_W, "bold", anchor="lm")
         c.para(x + 18, y + 60, note, 15, CELL2_W - 36, TEXT_DIM, max_lines=2)
 

@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85b
+**Current day:** 85c
 
 ## Current state
 
@@ -15,6 +15,15 @@
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+
+---
+
+### Day 85c - Dropbox alternatives feature image uses real product icons
+
+- Date: 2026-09-24. The five initials circles (Me, GD, OD, Pr, Bx) in `static/img/dropbox-alternatives.webp` are replaced with the products' own icons. Figures and text are unchanged from Day 85b.
+- Icons: stored in `scripts/images/logos/` as generator source files, not served by the site. `mega.png` and `box.png` are the site icons from mega.io and box.com. `google-drive.png`, `onedrive.png`, and `proton-drive.png` are Wikimedia Commons PNG renders of the current icons; the Proton file is cropped from its logo to the folder icon. The Drive and Proton icons match those visible in the Day 85a screenshots. Sources are listed in `logos/SOURCES.md`.
+- Helpers: `image_helpers.py` gains `logo_badge` and `badge`. `card_featured` takes an optional `logo`, and `card_grid` accepts an optional fifth tuple item. Other generators keep the initials circles and were not regenerated. `docs/IMAGE-GUIDELINES.md` notes the logo option.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3. The feature image is 1200x630 WebP at 45.6 KB. `hugo --minify` built 476 pages with no errors, the built image matches the regenerated file, and nothing from `scripts/images/logos/` reaches `public/`.
 
 ---
 
