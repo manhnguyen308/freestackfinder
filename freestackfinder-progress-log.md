@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85c
+**Current day:** 85d
 
 ## Current state
 
@@ -15,6 +15,16 @@
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+
+---
+
+### Day 85d - Office alternatives feature image uses real product icons
+
+- Date: 2026-09-24. Scoped to `static/img/microsoft-office-alternatives.webp` and its generator. No article text changed.
+- Check: compared the thumbnail with the Day 82a screenshots and the article's comparison table. Google's "Up to 15 GB" matches `gdocs-shared-storage.png` (40.2 MB of 15 GB), WPS "Upsell prompts" matches `wps-upsell-prompt.png` and `wps-ads-in-interface.png`, and "One file opened in three editors" matches the Google Docs, LibreOffice, and ONLYOFFICE captures. No figure needed correcting.
+- Icons: the GD, LO, OO, and WP initials circles are replaced with the Google Docs, LibreOffice, ONLYOFFICE, and WPS Office icons, stored in `scripts/images/logos/` with sources in `logos/SOURCES.md`. The LibreOffice icon is the page icon in the `libreoffice-start-center.png` title bar. The "Same DOCX test" card is not a product, so it uses a plain document drawing from the generator instead of a downloaded icon.
+- Helpers: `badge` in `image_helpers.py` also accepts a drawing function in place of a logo path.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3. The feature image is 1200x630 WebP at 50.3 KB. `hugo --minify` built with no errors, and the built image matches the regenerated file.
 
 ---
 

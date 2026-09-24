@@ -407,8 +407,11 @@ def logo_badge(c, cx, cy, max_w, max_h, path):
 
 
 def badge(c, cx, cy, r, color, initials, logo=None, text_color="#ffffff"):
-    """Logo when a path is given, otherwise the initials circle."""
-    if logo:
+    """Logo when a path is given, a custom drawing when a function is given,
+    otherwise the initials circle."""
+    if callable(logo):
+        logo(c, cx, cy, r)
+    elif logo:
         logo_badge(c, cx, cy, r * 2.2, r * 2, logo)
     else:
         initials_badge(c, cx, cy, r, color, initials, text_color)
