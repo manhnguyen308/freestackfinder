@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-09-23
-**Current day:** 84d
+**Last updated:** 2026-09-24
+**Current day:** 85a
 
 ## Current state
 
@@ -14,6 +14,24 @@
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
+- First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+
+---
+
+### Day 85a - Dropbox alternatives first-hand screenshot integration completed
+
+- Date: 2026-09-24. Second Path A article, scoped to `content/cloud/dropbox-alternatives.md` only. Read `CLAUDE.md`, the humanizer standard, and the existing `screenshot` shortcode first; the shortcode and folder convention were reused unchanged.
+- Evidence: viewed all 15 supplied files in `static/img/screenshots/dropbox-alternatives/` before writing any caption. The largest is 49 KB, so none needed optimization. The Box storage capture was replaced by the supplier with a copy that hides the account ID.
+- Screenshots inserted (15), each after the claim it supports: `mega-20gb-storage.png`, `mega-share-options.png`, `mega-encryption-key-prompt.png`, `gdrive-fulltext-search.png`, `gdrive-desktop-sync.png`, `gdrive-shared-storage-split.png`, `onedrive-5gb-storage.png`, `onedrive-version-history.png`, `proton-drive-storage.png`, `proton-drive-first-10-mins-free-upload.png`, `proton-drive-secure-your-account.png`, `proton-drive-desktop-client.png`, `box-10gb-storage.png`, `box-250mb-upload-limit.png`, and `proton-drive-new-account-offer.png` (placed in the paid-storage section to avoid clustering in the Proton section).
+- Not supplied: `mega-sync-folder.png`, `mega-transfer-quota.png`, `onedrive-file-explorer-builtin.png`, `box-native-app-integration.png`. The claims those images would have supported keep their documented, non-first-hand wording.
+- Figures corrected by the fact-check: Proton Drive's new free account showed 2GB, not 5GB. The article now states 2GB as of September 2026, citing Proton's storage guide: 3GB more, for 5GB, after three setup tasks within 30 days (add a file or folder, create a shareable link, set up a recovery method). The intro and table read "2GB, up to 5GB". OneDrive's screen showed its 5GB shared with Outlook attachments, which Microsoft's storage FAQ confirms. The section and table now say so. MEGA's link settings mark expiry dates and passwords as Pro only, and a new sentence says so; no page had claimed these were free. MEGA 20GB, Google Drive 15GB, and Box 10GB matched their screenshots.
+- Hedges: Box's 250MB cap is now stated as confirmed by a rejected 357.5MB upload. Proton's hedge is replaced by the dated 2GB figure. The MEGA transfer-quota hedge stays, because no transfer screenshot was supplied.
+- New content from the extra Proton captures: the 10-minute welcome window in which uploads do not count toward the quota, the required recovery-phrase step at sign-up (paired with MEGA's recovery key), and the US$1 first-month Drive Plus offer renewing at US$4.99.
+- Methodology note: added "How we checked these free plans" after the 2 GB section. It covers new free accounts on MEGA, Google Drive, Proton Drive, and Box, an existing free Microsoft account for OneDrive, the recorded storage, the desktop client installs, and the 357.5MB Box upload, and it says the screenshots do not measure speed or transfer performance. A storage summary sentence under the comparison table lists each account's figure.
+- Testing scope: first-hand wording covers only the five services in this article and only what the screenshots or the supplier's account of the check support. No speed, timing, transfer, or benchmark figure was added. Testing language now appears in two articles only, this one and `microsoft-office-alternatives`.
+- Preservation: only `lastmod` changed in front matter (2026-09-21 to 2026-09-24). Title, description, slug, date, weight, image, headings of existing sections, and internal links are unchanged.
+- Open items: the supplier confirmed the Google account was new but not whether a phone number was verified; Google's help page says accounts created since March 9, 2026 start at 5GB until verification, so that sentence stays pending confirmation. `docs/AFFILIATE-TRACKER.md` still lists a NordVPN CTA on this page, but the CTA was removed on 2026-09-05 and was not restored. `free-cloud-storage-comparison` still describes OneDrive without the Outlook attachments caveat and Proton without the 2GB starting figure. The site header's search button overflows by about 50px at an 804px viewport on every page. The `CLAUDE.md` screenshot note still names only the Office article as having first-hand evidence.
+- Validation: `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. `publish_checklist.py cloud dropbox-alternatives` passed 7/7. Hugo Extended 0.160.1 (official zip, checksum verified) built 476 pages, 21 paginator pages, and 210 aliases with no errors or warnings. The built page has 15 `<figure class="article-screenshot">` elements, each with alt text, `loading="lazy"`, original width and height, and a source that resolves in the build output. At a 375px viewport, all 15 images load within 335px with no horizontal overflow, the comparison table scrolls inside its wrapper, and the console is clean. All nine internal article links still resolve.
 
 ---
 
