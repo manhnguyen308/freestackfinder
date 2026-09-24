@@ -7,13 +7,14 @@ Silo   : Productivity   Accent: #6366f1
 Storage and offline values come from the comparison table in
 content/productivity/notion-alternatives.md. Coda appears under its current name,
 Superhuman Docs (renamed July 2026).
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#6366f1"   # Productivity silo, indigo
@@ -34,16 +35,17 @@ panel_table(c, ACCENT, "Where your notes live",
 card_featured(
     c, ACCENT,
     initials = "Ob",
+    logo     = logo_path("obsidian.png"),
     name     = "Obsidian",
     tagline  = "Best for a personal knowledge base",
     note     = "Local Markdown files, offline access, and a large plugin library",
 )
 
 card_grid(c, [
-    ("#22c55e", "Lq", "Logseq",  "Open-source outliner for linked notes"),
-    ("#3b82f6", "Ay", "Anytype", "Block editor closer to Notion, encrypted sync"),
-    ("#ec4899", "SD", "Superhuman Docs", "Formerly Coda, docs and wikis for teams"),
-    ("#06b6d4", "Jo", "Joplin",  "Open-source notes synced to your own cloud"),
+    ("#22c55e", "Lq", "Logseq",  "Open-source outliner for linked notes", logo_path("logseq.png")),
+    ("#3b82f6", "Ay", "Anytype", "Block editor closer to Notion, encrypted sync", logo_path("anytype.png")),
+    ("#ec4899", "SD", "Superhuman Docs", "Formerly Coda, docs and wikis for teams", logo_path("superhuman.png")),
+    ("#06b6d4", "Jo", "Joplin",  "Open-source notes synced to your own cloud", logo_path("joplin.png")),
 ])
 
 card_bar(

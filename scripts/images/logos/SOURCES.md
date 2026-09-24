@@ -45,3 +45,38 @@ Source files for feature image generators. They are not served by the site. Each
 | `krita.png` | Wikimedia Commons, "Calligra Krita icon.svg" (LGPL), 330px PNG render, trimmed. Matches the krita.org favicon |
 | `photoshop.png` | Wikimedia Commons, "Adobe Photoshop CC icon.svg" (public domain), 330px PNG render, trimmed |
 | `illustrator.png` | Wikimedia Commons, "Adobe Illustrator CC icon.svg" (public domain), 330px PNG render, trimmed |
+| `chatgpt.png` | Wikimedia Commons, "ChatGPT logo.svg" (public domain), 330px PNG render, fourth corner rounded to match the other three |
+| `claude.png` | Wikimedia Commons, "Claude AI symbol.svg" (CC0), 330px PNG render, trimmed |
+| `microsoft-copilot.png` | Wikimedia Commons, "Microsoft-copilot-2026-seeklogo.svg" (public domain), 330px PNG render, trimmed |
+| `rytr.png` | Rytr site icon, https://rytr.me/icon.png, 32px (the largest the site serves), trimmed |
+| `google-gemini.png` | Wikimedia Commons, "Google Gemini icon 2025.svg" (public domain), 330px PNG render, trimmed |
+| `google-calendar.png` | Wikimedia Commons, "Google Calendar icon (2026).svg" (public domain), 330px PNG render, trimmed |
+| `notion-calendar.png` | Notion Calendar site icon, https://calendar.notion.so/notion-calendar-favicon@2x.png, 32px |
+| `apple-calendar.png` | Wikimedia Commons, "Apple Calendar (iOS).svg" (public domain), 330px PNG render, trimmed |
+| `proton-calendar.png` | Wikimedia Commons, "Proton Calendar Logo.svg", 1280px PNG render, cropped to the icon |
+| `zoho-calendar.png` | Zoho Calendar share image, https://www.zohowebstatic.com/sites/zweb/images/ogimage/calendar-logo.png, white background removed, cropped to the icon |
+| `perplexity.png` | Wikimedia Commons, "Perplexity AI logo.svg", 1280px PNG render, cropped to the icon, recolored white for dark cards |
+| `meta-ai.png` | Wikimedia Commons, "Meta AI Logo (2026).svg" (public domain), 330px PNG render, trimmed |
+| `google-keep.png` | Wikimedia Commons, "Google Keep Logo 05.2026.svg" (public domain), 330px PNG render, trimmed |
+| `apple-notes.png` | Wikimedia Commons, "Notes (iOS 26) app icon.png" (public domain), 330px render, trimmed |
+| `standard-notes.png` | Wikimedia Commons, "Standard Notes - Icon.png" (public domain), 330px render, corners rounded |
+| `simplenote.png` | Simplenote site icon, https://simplenote.com/wp-content/uploads/2020/07/cropped-icon_512x512.png?w=192, trimmed |
+| `notion.png` | Wikimedia Commons, "Notion-logo.svg" (public domain), 330px PNG render, trimmed |
+| `pdfgear.png` | Wikimedia Commons, "PDFgear-logo.png" (CC BY-SA 4.0), 330px render, corners rounded |
+| `pdf24.png` | Wikimedia Commons, "PDF24 Creator application logo 256x256.png" (CC BY 4.0), cropped to the sheep above the wordmark |
+| `sejda.png` | Sejda site icon, https://www.sejda.com/images/icon_128.png, trimmed |
+| `xodo.png` | Xodo site icon, https://cdn.xodo.com/21.39.0/public/favicon/favicon-xodo-96.png, trimmed |
+| `languagetool.png` | LanguageTool site icon, https://languagetool.org/images/favicons/android-chrome-192x192.png |
+| `prowritingaid.png` | ProWritingAid site icon, https://prowritingaid.com/android-icon-192x192.png |
+| `hemingway.png` | Hemingway Editor site icon, https://hemingwayapp.com/favicon.ico, 64px frame, placed on a white tile |
+| `grammarly.png` | Wikimedia Commons, "Grammarly logo 2024.svg", 1280px PNG render, cropped to the icon |
+| `obsidian.png` | Wikimedia Commons, "2023 Obsidian logo.svg" (CC BY 4.0), 330px PNG render, trimmed |
+| `logseq.png` | Logseq site icon, https://asset.logseq.com/static/img/logo.png, corners rounded |
+| `anytype.png` | Anytype site icon, https://anytype.io/apple-touch-icon.png, corners rounded |
+| `superhuman.png` | Superhuman site icon, https://superhumanstatic.com/super-funnel/main/public/images/v4/favicons/superhuman-apple-touch-icon.png, see-through figure filled white for dark cards. The Superhuman Docs page (formerly Coda) uses this icon |
+| `joplin.png` | Wikimedia Commons, "Joplin-icon.svg" (public domain), 330px PNG render, trimmed |
+| `discord.png` | Discord site icon, https://cdn.prod.website-files.com/6257adef93867e50d84d30e2/6266bc493fb42d4e27bb8393_847541504914fd33810e70a0ea73177e.ico, 256px frame |
+| `microsoft-teams.png` | Wikimedia Commons, "Microsoft Office Teams (2025–present).svg" (public domain), 330px PNG render, trimmed |
+| `google-chat.png` | Wikimedia Commons, "Google Chat Logo 05.2026.svg" (public domain), 330px PNG render, trimmed |
+| `mattermost.png` | Mattermost site icon, https://mattermost.com/wp-content/themes/mattermost-2021/frontend/dist/img/favicon/v2/apple-touch-icon.png |
+| `rocket-chat.png` | Wikimedia Commons, "Rocket.Chat Icon 2020.svg" (CC0), 330px PNG render, trimmed |

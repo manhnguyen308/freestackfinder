@@ -6,12 +6,13 @@ Silo   : Productivity   Accent: #6366f1
 
 Task-to-tool mapping and free limits come from
 content/productivity/free-pdf-editor-alternatives.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
-    Canvas, panel_list, card_featured, card_grid, card_bar,
+    Canvas, panel_list, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#6366f1"   # Productivity silo, indigo
@@ -29,16 +30,17 @@ panel_list(c, "Pick the tool by the edit", [
 card_featured(
     c, ACCENT,
     initials = "PG",
+    logo     = logo_path("pdfgear.png"),
     name     = "PDFgear",
     tagline  = "Best free desktop PDF editor",
     note     = "Text and layout edits with no watermark or page cap",
 )
 
 card_grid(c, [
-    ("#eab308", "24", "PDF24 Tools",      "Browser toolkit, no account required"),
-    ("#3b82f6", "Sj", "Sejda",            "3 tasks an hour, 200 pages per file"),
-    ("#22c55e", "LD", "LibreOffice Draw", "Offline editing for LibreOffice users"),
-    ("#ec4899", "Xo", "Xodo",             "Annotation and signing on mobile"),
+    ("#eab308", "24", "PDF24 Tools",      "Browser toolkit, no account required", logo_path("pdf24.png")),
+    ("#3b82f6", "Sj", "Sejda",            "3 tasks an hour, 200 pages per file", logo_path("sejda.png")),
+    ("#22c55e", "LD", "LibreOffice Draw", "Offline editing for LibreOffice users", logo_path("libreoffice-draw.png")),
+    ("#ec4899", "Xo", "Xodo",             "Annotation and signing on mobile", logo_path("xodo.png")),
 ])
 
 card_bar(

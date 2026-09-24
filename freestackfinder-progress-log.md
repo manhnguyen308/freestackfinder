@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85e
+**Current day:** 85f
 
 ## Current state
 
@@ -13,9 +13,18 @@
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
-- Product icons: real icons replace the initials circles in all 8 Creative images (Day 85e), Dropbox alternatives (85c), and Office alternatives (85d). The other 40 images still use initials
+- Product icons: real icons replace the initials circles in all 9 Productivity images (Day 85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 32 images, in Business, Security, Cloud, and Video, still use initials
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+
+---
+
+### Day 85f - Productivity feature images use real product icons
+
+- Date: 2026-09-24. Scoped to 8 Productivity feature images (writing tools, calendar apps, ChatGPT alternatives, note-taking apps, PDF editors, Grammarly, Notion, and Slack alternatives), their generators, and `scripts/images/logos/`. The Office alternatives image already had icons (Day 85d). No article text changed.
+- Icons: 35 product icons added to `scripts/images/logos/`, with every source recorded in `logos/SOURCES.md`. 21 are Wikimedia Commons PNG renders and 14 are official site icons (Rytr, Notion Calendar, Zoho Calendar, Simplenote, Sejda, Xodo, LanguageTool, ProWritingAid, Hemingway Editor, Logseq, Anytype, Superhuman, Discord, Mattermost). Google Docs and LibreOffice Draw reuse existing files.
+- Icon choices: Superhuman Docs uses the Superhuman icon because superhuman.com/docs now shows it, while coda.io still shows the older Coda icon. Its see-through figure is filled white so it stays visible on the dark cards. Perplexity is recolored white for the same reason, and the Hemingway "H" sits on a white tile. PDF24 is cropped to its sheep so the mark is legible at grid size. Proton Calendar, Perplexity, and Grammarly are cropped from Commons logo lockups, and Zoho Calendar from its share image. Rytr and Notion Calendar only serve 32px icons, which is enough for the grid cards.
+- Validation: every image was reviewed at full size, and the Productivity hub was checked at card size in the browser. `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings, and nothing from `scripts/images/logos/` reached the build. The 8 images are 1200x630 WebP at 40 to 46 KB.
 
 ---
 

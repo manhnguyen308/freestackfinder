@@ -6,13 +6,14 @@ Silo   : Productivity   Accent: #6366f1
 
 Encryption and platform values come from the comparison table in
 content/productivity/free-note-taking-apps.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#6366f1"   # Productivity silo, indigo
@@ -32,16 +33,17 @@ panel_table(c, ACCENT, "Capture, encryption, and platforms",
 card_featured(
     c, ACCENT,
     initials = "GK",
+    logo     = logo_path("google-keep.png"),
     name     = "Google Keep",
     tagline  = "Best for fast capture",
     note     = "Quick notes and lists inside a Google account",
 )
 
 card_grid(c, [
-    ("#eab308", "AN", "Apple Notes",    "Text, scans, handwriting, and sharing on Apple"),
-    ("#22c55e", "SN", "Standard Notes", "Encryption first, plain-text notes"),
-    ("#3b82f6", "Si", "Simplenote",     "Plain text and Markdown, nothing more"),
-    ("#64748b", "N",  "Notion free",    "Databases and project notes, with more setup"),
+    ("#eab308", "AN", "Apple Notes",    "Text, scans, handwriting, and sharing on Apple", logo_path("apple-notes.png")),
+    ("#22c55e", "SN", "Standard Notes", "Encryption first, plain-text notes", logo_path("standard-notes.png")),
+    ("#3b82f6", "Si", "Simplenote",     "Plain text and Markdown, nothing more", logo_path("simplenote.png")),
+    ("#64748b", "N",  "Notion free",    "Databases and project notes, with more setup", logo_path("notion.png")),
 ])
 
 card_bar(

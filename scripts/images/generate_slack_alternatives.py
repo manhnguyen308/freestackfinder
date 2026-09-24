@@ -7,13 +7,14 @@ Silo   : Productivity   Accent: #6366f1
 The 90-day history window and the alternatives come from
 content/productivity/slack-alternatives.md. The chat window is a generic
 mock-up; its only claim is the 90-day limit the article states.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, TEXT_MID, WARN, LINE,
-    card_window, card_featured, card_grid, card_bar, mix, accent_text,
+    card_window, card_featured, card_grid, card_bar, mix, accent_text, logo_path,
 )
 
 ACCENT = "#6366f1"   # Productivity silo, indigo
@@ -63,16 +64,17 @@ c.text(mx0 + 14, y1 - 19, "Message #design", 14, TEXT_DIM, anchor="lm")
 card_featured(
     c, ACCENT,
     initials = "Di",
+    logo     = logo_path("discord.png"),
     name     = "Discord",
     tagline  = "Best for informal teams",
     note     = "Persistent channels and voice rooms without a 90-day window",
 )
 
 card_grid(c, [
-    ("#3b82f6", "Te", "Teams Free",  "For teams using Microsoft apps"),
-    ("#22c55e", "GC", "Google Chat", "For teams already on Google Workspace"),
-    ("#06b6d4", "Mm", "Mattermost",  "Self-hosted chat for small groups"),
-    ("#ef4444", "RC", "Rocket.Chat", "Limited self-hosted options"),
+    ("#3b82f6", "Te", "Teams Free",  "For teams using Microsoft apps", logo_path("microsoft-teams.png")),
+    ("#22c55e", "GC", "Google Chat", "For teams already on Google Workspace", logo_path("google-chat.png")),
+    ("#06b6d4", "Mm", "Mattermost",  "Self-hosted chat for small groups", logo_path("mattermost.png")),
+    ("#ef4444", "RC", "Rocket.Chat", "Limited self-hosted options", logo_path("rocket-chat.png")),
 ])
 
 card_bar(

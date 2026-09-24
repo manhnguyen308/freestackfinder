@@ -6,13 +6,14 @@ Silo   : Productivity   Accent: #6366f1
 
 Tool strengths come from content/productivity/free-calendar-app.md.
 The week view is a generic mock-up with no product claims.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_W, TEXT_DIM, LINE,
-    card_window, card_featured, card_grid, card_bar, mix, accent_text,
+    card_window, card_featured, card_grid, card_bar, mix, accent_text, logo_path,
 )
 
 ACCENT = "#6366f1"   # Productivity silo, indigo
@@ -63,16 +64,17 @@ for d, a, b, col, label in events:
 card_featured(
     c, ACCENT,
     initials = "GC",
+    logo     = logo_path("google-calendar.png"),
     name     = "Google Calendar",
     tagline  = "Best for most users",
     note     = "Gmail adds events automatically, and it works across platforms",
 )
 
 card_grid(c, [
-    ("#64748b", "N",  "Notion Calendar", "Keyboard-led scheduling beside Notion"),
-    ("#3b82f6", "Ap", "Apple Calendar",  "Zero-setup iCloud sync on iPhone, iPad, and Mac"),
-    ("#8b5cf6", "Pr", "Proton Calendar", "End-to-end encrypted events"),
-    ("#ef4444", "Zo", "Zoho Calendar",   "Team scheduling linked to Zoho CRM"),
+    ("#64748b", "N",  "Notion Calendar", "Keyboard-led scheduling beside Notion", logo_path("notion-calendar.png")),
+    ("#3b82f6", "Ap", "Apple Calendar",  "Zero-setup iCloud sync on iPhone, iPad, and Mac", logo_path("apple-calendar.png")),
+    ("#8b5cf6", "Pr", "Proton Calendar", "End-to-end encrypted events", logo_path("proton-calendar.png")),
+    ("#ef4444", "Zo", "Zoho Calendar",   "Team scheduling linked to Zoho CRM", logo_path("zoho-calendar.png")),
 ])
 
 card_bar(
