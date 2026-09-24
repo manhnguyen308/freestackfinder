@@ -80,3 +80,20 @@ Source files for feature image generators. They are not served by the site. Each
 | `google-chat.png` | Wikimedia Commons, "Google Chat Logo 05.2026.svg" (public domain), 330px PNG render, trimmed |
 | `mattermost.png` | Mattermost site icon, https://mattermost.com/wp-content/themes/mattermost-2021/frontend/dist/img/favicon/v2/apple-touch-icon.png |
 | `rocket-chat.png` | Wikimedia Commons, "Rocket.Chat Icon 2020.svg" (CC0), 330px PNG render, trimmed |
+| `kdenlive.png` | Wikimedia Commons, "Kdenlive-logo.svg" (CC0), 330px PNG render, trimmed. Same design as the kdenlive.org icon |
+| `shotcut.png` | Shotcut app icon from its repository, https://raw.githubusercontent.com/mltframework/shotcut/master/icons/shotcut-logo-320x320.png, cropped above the wordmark |
+| `openshot.png` | Wikimedia Commons, "OpenShot logo (2016).svg" (GPLv3), 330px PNG render, trimmed |
+| `blender.png` | Wikimedia Commons, "Blender logo no text.svg" (public domain), 330px PNG render, trimmed |
+| `olive.png` | Wikimedia Commons, "Olive Video Editor Logo.png" (CC BY-SA 4.0), 330px render, trimmed |
+| `obs-studio.png` | Wikimedia Commons, "OBS Studio Logo.svg" (public domain), 330px PNG render, trimmed |
+| `sharex.png` | Wikimedia Commons, "ShareX Logo.png" (GPLv3), 256px original, trimmed |
+| `loom.png` | Loom site icon, https://cdn.loom.com/assets/favicons-loom/android-chrome-192x192.png, white background removed |
+| `screencastify.png` | Screencastify site icon, https://cdn.prod.website-files.com/639781d572293a44a8b20e90/63f3c434fc1240a0d42035b1_webclip.png, trimmed |
+| `clipchamp.png` | Wikimedia Commons, "Microsoft Clipchamp (2025–present).svg" (public domain), 330px PNG render, trimmed |
+| `google-meet.png` | Wikimedia Commons, "Google Meet icon (2026).svg" (public domain), 330px PNG render, trimmed |
+| `jitsi-meet.png` | Jitsi Meet site icon, https://meet.jit.si/images/apple-touch-icon.png, corners rounded |
+| `whereby.png` | Whereby site icon, https://framerusercontent.com/images/9DmRJHW8LmJuCFGTonMWHxWWzo.png, corners rounded |
+| `zoho-meeting.png` | Zoho Meeting share image, https://www.zohowebstatic.com/sites/zweb/images/ogimage/meeting-logo.png, white background removed, cropped to the icon |
+| `imovie.png` | iMovie icon from its App Store page, https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5e/15/d8/5e15d8d4-a82b-e0b3-5c82-9a8728c1a6ff/Placeholder.mill/256x256bb.png, trimmed |
+| `davinci-resolve.png` | Wikimedia Commons, "DaVinci Resolve 17 logo.svg" (public domain), 330px PNG render, trimmed |
+| `capcut.png` | Wikimedia Commons, "Capcut-icon.svg" (public domain), 330px PNG render, trimmed |

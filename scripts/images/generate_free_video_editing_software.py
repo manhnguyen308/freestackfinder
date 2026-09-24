@@ -6,13 +6,14 @@ Silo   : Video   Accent: #ef4444
 
 Replaces a 1200x800 stock photo. Tool facts come from
 content/video/free-video-editing-software.md. The timeline is a generic mock-up.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, WIN_BG, TEXT_DIM, LINE,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#ef4444"   # Video silo, red
@@ -68,16 +69,17 @@ c.poly([(px - 7, vy1 + 6), (px + 7, vy1 + 6), (px, vy1 + 14)], ACCENT)
 card_featured(
     c, ACCENT,
     initials = "DR",
+    logo     = logo_path("davinci-resolve.png"),
     name     = "DaVinci Resolve",
     tagline  = "Best for depth and professional growth",
     note     = "No watermark. The free version covers 8-bit formats up to 60fps at Ultra HD",
 )
 
 card_grid(c, [
-    ("#22c55e", "Cc", "CapCut Desktop", "Short social clips, watermark risk with stock assets"),
-    ("#3b82f6", "OS", "OpenShot",       "Drag and drop editing for a first project"),
-    ("#8b5cf6", "Kd", "Kdenlive",       "Open-source multi-track with proxy editing"),
-    ("#eab308", "Sc", "Shotcut",        "When file imports are the main problem"),
+    ("#22c55e", "Cc", "CapCut Desktop", "Short social clips, watermark risk with stock assets", logo_path("capcut.png")),
+    ("#3b82f6", "OS", "OpenShot",       "Drag and drop editing for a first project", logo_path("openshot.png")),
+    ("#8b5cf6", "Kd", "Kdenlive",       "Open-source multi-track with proxy editing", logo_path("kdenlive.png")),
+    ("#eab308", "Sc", "Shotcut",        "When file imports are the main problem", logo_path("shotcut.png")),
 ])
 
 card_bar(

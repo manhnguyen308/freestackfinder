@@ -6,13 +6,14 @@ Silo   : Video   Accent: #ef4444
 
 Call limits and participant counts come from the "Meeting limits at a glance"
 table in content/video/free-video-conferencing.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#ef4444"   # Video silo, red
@@ -33,16 +34,17 @@ panel_table(c, ACCENT, "Meeting limits at a glance",
 card_featured(
     c, ACCENT,
     initials = "GM",
+    logo     = logo_path("google-meet.png"),
     name     = "Google Meet",
     tagline  = "The default choice for most users",
     note     = "Browser group calls up to 60 minutes with 100 participants",
 )
 
 card_grid(c, [
-    ("#3b82f6", "Ji", "Jitsi Meet",   "Guests join by link, and you can self-host"),
-    ("#8b5cf6", "Te", "Teams Free",   "For groups already using Microsoft apps"),
-    ("#22c55e", "Wb", "Whereby",      "Permanent room for short calls of four"),
-    ("#eab308", "Zo", "Zoho Meeting", "Structured sessions and basic webinars"),
+    ("#3b82f6", "Ji", "Jitsi Meet",   "Guests join by link, and you can self-host", logo_path("jitsi-meet.png")),
+    ("#8b5cf6", "Te", "Teams Free",   "For groups already using Microsoft apps", logo_path("microsoft-teams.png")),
+    ("#22c55e", "Wb", "Whereby",      "Permanent room for short calls of four", logo_path("whereby.png")),
+    ("#eab308", "Zo", "Zoho Meeting", "Structured sessions and basic webinars", logo_path("zoho-meeting.png")),
 ])
 
 card_bar(

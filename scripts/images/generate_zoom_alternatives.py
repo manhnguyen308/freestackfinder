@@ -6,13 +6,14 @@ Silo   : Video   Accent: #ef4444
 
 Group-call limits come from the comparison table in
 content/video/zoom-alternatives.md. Jitsi and Discord publish no duration cap.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, CARD_BG, TEXT_W, TEXT_DIM, GOOD, WARN, BAD,
-    card_window, card_featured, card_grid, card_bar, mix,
+    card_window, card_featured, card_grid, card_bar, mix, logo_path,
 )
 
 ACCENT = "#ef4444"   # Video silo, red
@@ -46,16 +47,17 @@ for i, (name, minutes, label, col) in enumerate(rows):
 card_featured(
     c, ACCENT,
     initials = "GM",
+    logo     = logo_path("google-meet.png"),
     name     = "Google Meet",
     tagline  = "Best free video calling for most users",
     note     = "Browser calls: 24 hours one to one, 60 minutes for groups of up to 100",
 )
 
 card_grid(c, [
-    ("#3b82f6", "Ji", "Jitsi Meet", "Open source with link-based guest access"),
-    ("#8b5cf6", "Te", "Teams Free", "Best for users of Microsoft apps"),
-    ("#22c55e", "Di", "Discord",    "Informal teams and long-running calls"),
-    ("#eab308", "Wb", "Whereby",    "Reusable room for small client calls"),
+    ("#3b82f6", "Ji", "Jitsi Meet", "Open source with link-based guest access", logo_path("jitsi-meet.png")),
+    ("#8b5cf6", "Te", "Teams Free", "Best for users of Microsoft apps", logo_path("microsoft-teams.png")),
+    ("#22c55e", "Di", "Discord",    "Informal teams and long-running calls", logo_path("discord.png")),
+    ("#eab308", "Wb", "Whereby",    "Reusable room for small client calls", logo_path("whereby.png")),
 ])
 
 card_bar(

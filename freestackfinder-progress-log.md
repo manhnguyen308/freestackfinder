@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85f
+**Current day:** 85g
 
 ## Current state
 
@@ -13,9 +13,18 @@
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
-- Product icons: real icons replace the initials circles in all 9 Productivity images (Day 85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 32 images, in Business, Security, Cloud, and Video, still use initials
+- Product icons: real icons replace the initials circles in all 7 Video images (Day 85g), all 9 Productivity images (85f, Office in 85d), all 8 Creative images (85e), and Dropbox alternatives (85c). The other 25 images, in Business, Security, and Cloud, still use initials
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+
+---
+
+### Day 85g - Video feature images use real product icons
+
+- Date: 2026-09-24. Scoped to the 7 Video feature images, their generators, and `scripts/images/logos/`. No article text changed.
+- Icons: 17 product icons added to `scripts/images/logos/`, with every source recorded in `logos/SOURCES.md`. 10 are Wikimedia Commons PNG renders (Kdenlive, OpenShot, Blender, Olive, OBS Studio, ShareX, Clipchamp, Google Meet, DaVinci Resolve, CapCut), 5 are official site icons or share images (Loom, Screencastify, Jitsi Meet, Whereby, Zoho Meeting), Shotcut comes from its GitHub repository, and iMovie comes from its App Store page. Teams and Discord reuse the Day 85f files.
+- Icon choices: iMovie uses the current star icon from the App Store, because Commons only has an older filmstrip icon. Shotcut uses the 320px app icon from its repository, cropped above the wordmark, because shotcut.org only serves a 16px favicon. Olive uses the green Commons icon, because the dark branch on olivevideoeditor.org would disappear on the dark cards. Loom's white frame was removed, and Zoho Meeting was cropped from its share image.
+- Validation: every image was reviewed at full size, and the Video hub was checked at card size in the browser. `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings, and nothing from `scripts/images/logos/` reached the build. The 7 images are 1200x630 WebP at 42 to 51 KB.
 
 ---
 

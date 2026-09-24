@@ -6,13 +6,14 @@ Silo   : Video   Accent: #ef4444
 
 Use cases and caveats come from the comparison table in
 content/video/premiere-pro-alternatives.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, WARN,
-    panel_list, card_featured, card_grid, card_bar,
+    panel_list, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#ef4444"   # Video silo, red
@@ -30,16 +31,17 @@ panel_list(c, "What each editor replaces", [
 card_featured(
     c, ACCENT,
     initials = "DR",
+    logo     = logo_path("davinci-resolve.png"),
     name     = "DaVinci Resolve",
     tagline  = "Best overall for serious solo editors",
     note     = "Editing, color, and audio in one app. The free version has real format limits",
 )
 
 card_grid(c, [
-    ("#22c55e", "Cc", "CapCut Desktop", "For social-first Premiere users"),
-    ("#8b5cf6", "Kd", "Kdenlive",       "Open-source timeline for former Premiere users"),
-    ("#06b6d4", "OS", "OpenShot",       "If your Premiere use was always light"),
-    ("#eab308", "Sc", "Shotcut",        "A format rescue option"),
+    ("#22c55e", "Cc", "CapCut Desktop", "For social-first Premiere users", logo_path("capcut.png")),
+    ("#8b5cf6", "Kd", "Kdenlive",       "Open-source timeline for former Premiere users", logo_path("kdenlive.png")),
+    ("#06b6d4", "OS", "OpenShot",       "If your Premiere use was always light", logo_path("openshot.png")),
+    ("#eab308", "Sc", "Shotcut",        "A format rescue option", logo_path("shotcut.png")),
 ])
 
 card_bar(
