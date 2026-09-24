@@ -218,6 +218,7 @@ Card descriptions:
 - Do not use announcement or chatbot phrasing ("Here's what each one does," "This guide covers") or an unsourced majority claim ("Most people pay for...").
 - Lead with a fact specific to the page and pass the portability test: if the sentence still works after swapping in another category's noun, rewrite it.
 - Before saving, read the other descriptions in the same silo. No two should share an opening word or sentence shape, and no sentence should repeat a phrase or claim from a neighboring card, in any position. If two cards make the same point about the same tool, keep it on the card where that tool is the lead and give the other card a different fact.
+- The same rules apply to card copy written outside front matter: the homepage collections and tenets, the Start Here cards, the hub "Where to start" items, and each hub description, which prints directly above that hub's intro paragraph. Cards from different silos also meet, in the homepage Featured and Latest grids and in search results, so a phrase should not repeat anywhere on the site.
 - `scripts/validate_front_matter.py` warns on each of these patterns. A clean run does not prove a description is good, but a warning means it repeats a retired formula.
 
 Article openings:

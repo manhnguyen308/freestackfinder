@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-24
-**Current day:** 85o
+**Current day:** 85p
 
 ## Current state
 
@@ -17,6 +17,16 @@
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
+
+---
+
+### Day 85p - Sameness checks cover every place cards appear together
+
+- Date: 2026-09-24. Scoped to `scripts/validate_front_matter.py`, the "Sitewide sameness" rules in `website-content-humanizer.md`, the validator row in `FEATURE-STRATEGY.md`, and the card copy the widened checks flagged: 2 article descriptions, 4 hub descriptions, 2 Security "Where to start" items, 6 Start Here intros, and 3 homepage strings in `layouts/index.html`. No article body, date, image, or ranking changed.
+- Areas now checked: hub grids and "More from" sections (same silo, as before); the homepage Featured grid (top 6 by weight) and Latest list (top 6 by date) for shared first words, emulating the sort in `layouts/index.html`; cards from different silos for near-duplicate sentences, since search results and the homepage can place any two together; and hand-written card copy (homepage collections and tenets, Start Here cards, hub "Where to start" items) with the same formula, first-word, and near-duplicate checks as descriptions. Each hub description is also checked for formulas and compared with the intro paragraph printed directly below it. The sidebar "Read next" list shows titles only, and no `/all` page exists, so neither needs a check.
+- Found and fixed (24 warnings): the accounting and Figma cards shared "can run on your own server" and the project management and team password manager cards shared "stops at two people", across silos. The homepage Office collection opened with a list of apps, and two tenets started with "We". All six Start Here intros predated the rework: four started with "Free", one was the retired "Compare... by their free limits" formula, and three opened with a tool list or ended in a use list. Four hub descriptions from Day 85h opened with a list of tools, and two Security hub items started with "compare". While editing Start Here, its 24 link labels moved to sentence case to match the hubs.
+- Validation: current content shows 0 errors and 0 warnings across 50 articles, 37 hand-written cards, and 6 hub descriptions; `run_quality_checks.py --with-counts` passes 3/3. A planted-problem copy of the site produced each expected warning (cross-silo phrase, Featured grid, Latest list, hub description against its intro, Start Here first word) with no double reporting, 9 warnings in total. Five sentence-pair tests still pass. The pre-rewrite snapshot (a95a973) now raises 193 warnings across 57 files. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings. `git diff --check` passed.
+- Limits: the homepage grids are computed from front matter rather than the build, so a weight or date tie could order cards differently from Hugo. The homepage "Browse by software type" cards list tool names by design and are not checked. A repeat that uses entirely different words still passes.
 
 ---
 

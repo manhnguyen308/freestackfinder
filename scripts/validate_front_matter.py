@@ -7,7 +7,9 @@ Run before publishing batches to catch common front matter mistakes.
 Usage:
     python scripts/validate_front_matter.py
 
-Scans articles under content/<silo>/ only (not utility pages).
+Scans articles under content/<silo>/ (not utility pages), plus the card copy
+that renders beside them: hub descriptions and "Where to start" boxes, the
+homepage collections and tenets, and the Start Here cards.
 Exits with code 1 if errors are found, 0 if clean or warnings only.
 
 Descriptions double as card excerpts, so sameness checks warn (never fail)
@@ -23,6 +25,7 @@ when a description repeats one of the retired card formulas:
 See "Sitewide sameness" in website-content-humanizer.md.
 """
 
+import html
 import re
 import sys
 from datetime import datetime, timezone
@@ -75,6 +78,17 @@ STOPWORDS = frozenset(
     "your you their there here into up out over per via while which who what when where how "
     "just also still both between".split()
 )
+
+# Other places where cards render side by side
+HOME_TEMPLATE = REPO_ROOT / "layouts" / "index.html"
+START_HERE = CONTENT_DIR / "start-here.md"
+HOME_GRID_SIZE = 6   # "first 6" in the Featured and Latest sections of layouts/index.html
+RE_HOME_COLLECTION = re.compile(r'"title"\s+"([^"]+)"\s+"intro"\s+"([^"]+)"')
+RE_HOME_TENET = re.compile(r'<strong>([^<]+)</strong><p>([^<]+)</p>')
+RE_START_HERE_CARD = re.compile(
+    r'<p class="collection-title">([^<]+)</p>\s*<p class="collection-intro">([^<]+)</p>'
+)
+RE_HUB_PICK = re.compile(r'<li><a href="[^"]+">([^<]+)</a>:\s*([^<]+)</li>')
 
 
 def parse_front_matter(text):
@@ -232,12 +246,149 @@ def near_duplicate(sentences_a, sentences_b):
     return None
 
 
-def near_duplicate_warning(match, other, silo):
-    phrase, _, theirs = match
-    if phrase:
-        return f'description: shares "{phrase}" with {other} in {silo}/ — neighboring cards should not repeat a phrase'
-    short = theirs if len(theirs) <= 70 else theirs[:67].rstrip() + "..."
-    return f'description: nearly repeats a sentence in {other} ("{short}") in {silo}/ — rewrite one of them'
+def group_warnings(cards, where, first_word=True, near_dup=True, pair_ok=None):
+    """Sameness warnings for cards that render side by side, keyed by source path.
+
+    Each card is a dict with path, ref (how other warnings name it), prefix
+    (how its own warnings start), and text.
+    """
+    found = {}
+
+    if first_word:
+        by_word = {}
+        for card in cards:
+            word = description_first_word(card["text"])
+            if word:
+                by_word.setdefault(word, []).append(card)
+        for word, group in by_word.items():
+            for card in group:
+                peers = [c["ref"] for c in group if c is not card]
+                if peers:
+                    found.setdefault(card["path"], []).append(
+                        f'{card["prefix"]} opens with "{word}", same as {", ".join(peers)} {where} — vary the first word'
+                    )
+
+    if near_dup:
+        for a, b in combinations(cards, 2):
+            if pair_ok and not pair_ok(a, b):
+                continue
+            match = near_duplicate(sentences(a["text"]), sentences(b["text"]))
+            if not match:
+                continue
+            phrase, sentence_a, sentence_b = match
+            for card, other, theirs in ((a, b, sentence_b), (b, a, sentence_a)):
+                if phrase:
+                    msg = f'shares "{phrase}" with {other["ref"]} {where} — cards shown together should not repeat a phrase'
+                else:
+                    short = theirs if len(theirs) <= 70 else theirs[:67].rstrip() + "..."
+                    msg = f'nearly repeats a sentence in {other["ref"]} ("{short}") {where} — rewrite one of them'
+                found.setdefault(card["path"], []).append(f'{card["prefix"]} {msg}')
+
+    return found
+
+
+def article_card(path, silo, fields):
+    weight = str(fields.get("weight") or "0").strip('"')
+    return {
+        "path": path, "ref": path.name, "prefix": "description:", "silo": silo,
+        "text": clean_description(fields),
+        "title": str(fields.get("title") or "").strip('"'),
+        "date": str(fields.get("date") or "").strip('"'),
+        "weight": float(weight) if re.fullmatch(r'-?\d+(\.\d+)?', weight) else 0.0,
+        "draft": str(fields.get("draft", "false")).strip('"').lower() == "true",
+    }
+
+
+def homepage_grids(articles):
+    """Approximate the homepage Featured (weight) and Latest (date) grids.
+
+    Mirrors layouts/index.html: Hugo's default order breaks ties (weight
+    ascending, date descending, title), then ByParam "weight" or ByDate,
+    reversed, first HOME_GRID_SIZE.
+    """
+    def date_ordinal(a):
+        try:
+            return datetime.strptime(a["date"], "%Y-%m-%d").date().toordinal()
+        except ValueError:
+            return 0
+
+    live = [a for a in articles if not a["draft"] and 0 < date_ordinal(a) <= BUILD_DATE.toordinal()]
+    default = sorted(live, key=lambda a: (a["weight"], -date_ordinal(a), a["title"].lower()))
+    featured = sorted((a for a in default if a["weight"] > 0), key=lambda a: a["weight"])[::-1]
+    latest = sorted(default, key=date_ordinal)[::-1]
+    return [
+        ("in the homepage Featured grid", featured[:HOME_GRID_SIZE]),
+        ("in the homepage Latest list", latest[:HOME_GRID_SIZE]),
+    ]
+
+
+def copy_card(path, title, text):
+    title, text = html.unescape(title).strip(), html.unescape(text).strip()
+    return {"path": path, "ref": f'"{title}"', "prefix": f'card "{title}":', "title": title, "text": text}
+
+
+def handwritten_groups():
+    """Card copy written directly into templates and pages rather than front matter."""
+    groups = []
+
+    try:
+        home = HOME_TEMPLATE.read_text(encoding="utf-8")
+    except OSError:
+        home = ""
+    collections = [copy_card(HOME_TEMPLATE, t, i) for t, i in RE_HOME_COLLECTION.findall(home)]
+    start = home.find("tenets-grid")
+    tenet_block = home[start:home.find("</section>", start)] if start != -1 else ""
+    tenets = [copy_card(HOME_TEMPLATE, t, p) for t, p in RE_HOME_TENET.findall(tenet_block)]
+    groups += [("in the homepage collections", collections), ("in the homepage tenets strip", tenets)]
+
+    try:
+        start_here = START_HERE.read_text(encoding="utf-8")
+    except OSError:
+        start_here = ""
+    groups.append(("on the Start Here page",
+                   [copy_card(START_HERE, t, i) for t, i in RE_START_HERE_CARD.findall(start_here)]))
+
+    for silo in SILOS:
+        hub = CONTENT_DIR / silo / "_index.md"
+        try:
+            picks = RE_HUB_PICK.findall(hub.read_text(encoding="utf-8"))
+        except OSError:
+            continue
+        groups.append((f'in the {silo} hub\'s "Where to start" box', [copy_card(hub, t, i) for t, i in picks]))
+
+    return [(where, cards) for where, cards in groups if cards]
+
+
+def copy_formula_warnings(card):
+    """Run the single-description checks on hand-written card copy."""
+    text = card["text"][:1].upper() + card["text"][1:]   # list items start lowercase
+    return [w.replace("description:", card["prefix"], 1)
+            for w in description_formula_warnings(text, card["title"])]
+
+
+def hub_description_warnings():
+    """Formula checks on each hub description, plus the intro paragraph printed right below it."""
+    found = {}
+    for silo in SILOS:
+        hub = CONTENT_DIR / silo / "_index.md"
+        try:
+            text = hub.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        fields = parse_front_matter(text) or {}
+        desc = clean_description(fields)
+        ws = description_formula_warnings(desc, str(fields.get("title") or "").strip('"'))
+
+        body = text.split("---", 2)[2] if text.count("---") >= 2 else ""
+        intro = html.unescape(body.split("<div", 1)[0]).strip()
+        match = near_duplicate(sentences(desc), sentences(intro)) if desc and intro else None
+        if match:
+            phrase, _, theirs = match
+            detail = f'shares "{phrase}" with' if phrase else f'nearly repeats ("{theirs[:67]}...") in'
+            ws.append(f"description: {detail} the intro paragraph shown right below it — rewrite one of them")
+        if ws:
+            found[hub] = ws
+    return found
 
 
 def description_formula_warnings(desc, title):
@@ -375,57 +526,21 @@ def check_file(path):
 
 
 def main():
-    total_files = 0
-    total_errors = 0
-    total_warnings = 0
-    files_with_issues = 0
+    results = {}   # path -> [errors, warnings], in print order
     seen_slugs = {}
+    articles = []
+    total_files = 0
 
     for silo in SILOS:
         silo_path = CONTENT_DIR / silo
         if not silo_path.is_dir():
             continue
 
-        articles = [p for p in sorted(silo_path.glob("*.md")) if p.name != "_index.md"]
-
-        # Group the silo's descriptions by first word; cards in one hub sit side by side
-        opener_of = {}
-        opener_groups = {}
-        sentences_of = {}
-        for md_path in articles:
-            try:
-                fields = parse_front_matter(md_path.read_text(encoding="utf-8"))
-            except OSError:
+        for md_path in sorted(silo_path.glob("*.md")):
+            if md_path.name == "_index.md":
                 continue
-            desc = clean_description(fields)
-            word = description_first_word(desc)
-            if word:
-                opener_of[md_path] = word
-                opener_groups.setdefault(word, []).append(md_path)
-                sentences_of[md_path] = sentences(desc)
 
-        # Sentences repeated between cards in the same silo
-        neighbor_warnings = {}
-        for a, b in combinations(sentences_of, 2):
-            match = near_duplicate(sentences_of[a], sentences_of[b])
-            if match:
-                phrase, mine, theirs = match
-                neighbor_warnings.setdefault(a, []).append(near_duplicate_warning(match, b.name, silo))
-                neighbor_warnings.setdefault(b, []).append(
-                    near_duplicate_warning((phrase, theirs, mine), a.name, silo)
-                )
-
-        for md_path in articles:
-            total_files += 1
             errors, warnings = check_file(md_path)
-
-            word = opener_of.get(md_path)
-            peers = [p.name for p in opener_groups.get(word, []) if p != md_path]
-            if peers:
-                warnings.append(
-                    f'description: opens with "{word}", same as {", ".join(peers)} in {silo}/ — vary the first word within a silo'
-                )
-            warnings.extend(neighbor_warnings.get(md_path, []))
 
             # Duplicate slug detection
             text = md_path.read_text(encoding="utf-8")
@@ -437,20 +552,49 @@ def main():
                 else:
                     seen_slugs[slug] = md_path
 
-            if errors or warnings:
-                files_with_issues += 1
-                rel = md_path.relative_to(REPO_ROOT)
-                print(f"\n{rel}")
-                for e in errors:
-                    print(f"  ERROR   {e}")
-                for w in warnings:
-                    print(f"  WARN    {w}")
+            results[md_path] = [errors, warnings]
+            total_files += 1
+            fields = parse_front_matter(text)
+            if fields:
+                articles.append(article_card(md_path, silo, fields))
 
-            total_errors += len(errors)
-            total_warnings += len(warnings)
+    def add(found):
+        for path, ws in found.items():
+            results.setdefault(path, [[], []])[1].extend(ws)
+
+    # Cards that render side by side. Hub grids and "More from" sections are
+    # one silo; the homepage mixes silos; search results can pair any two.
+    for silo in SILOS:
+        add(group_warnings([a for a in articles if a["silo"] == silo], f"on the {silo} hub"))
+    for where, grid in homepage_grids(articles):
+        add(group_warnings(grid, where, near_dup=False))   # repeats are caught by the passes around it
+    add(group_warnings(articles, "across silos (search results, homepage grids)", first_word=False,
+                       pair_ok=lambda a, b: a["silo"] != b["silo"]))
+
+    # Card copy written outside article front matter
+    copy_cards = 0
+    for where, cards in handwritten_groups():
+        copy_cards += len(cards)
+        for card in cards:
+            add({card["path"]: copy_formula_warnings(card)})
+        add(group_warnings(cards, where))
+    add(hub_description_warnings())
+
+    total_errors = total_warnings = files_with_issues = 0
+    for path, (errors, warnings) in results.items():
+        if errors or warnings:
+            files_with_issues += 1
+            print(f"\n{path.relative_to(REPO_ROOT)}")
+            for e in errors:
+                print(f"  ERROR   {e}")
+            for w in warnings:
+                print(f"  WARN    {w}")
+        total_errors += len(errors)
+        total_warnings += len(warnings)
 
     print(f"\n{'─' * 52}")
     print(f"Checked : {total_files} articles across {len(SILOS)} silos")
+    print(f"Cards   : {copy_cards} hand-written cards and {len(SILOS)} hub descriptions")
     print(f"Errors  : {total_errors}")
     print(f"Warnings: {total_warnings}")
     print(f"Files   : {files_with_issues} with issues")

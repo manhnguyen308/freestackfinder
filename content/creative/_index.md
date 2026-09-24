@@ -1,6 +1,6 @@
 ---
 title: "Free creative and design software alternatives"
-description: "Photopea, Inkscape, and Penpot cover much of Photoshop, Illustrator, and Figma for free, while font and stock photo licenses still need checking."
+description: "Creative Cloud and Canva Pro are hard to justify for occasional design work. Free editors, font libraries, and photo sites cover most of it within their licenses."
 ---
 
 Photo editing, vector work, template design, fonts, and stock assets each have a different catch on free plans. For most of them it is the export: a missing format, a watermark, or a license that stops at personal use.

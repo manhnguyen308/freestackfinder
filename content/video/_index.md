@@ -1,6 +1,6 @@
 ---
 title: "Free video and recording software alternatives"
-description: "Premiere Pro, Loom, and Zoom have free replacements with different catches, from Resolve's 8-bit footage limit to Google Meet's one-hour group calls."
+description: "Solo editors, course makers, and remote teams can drop Premiere Pro, Loom, and Zoom subscriptions when their work fits inside a free plan's limits."
 ---
 
 Editing, screen recording, and video calls fail for different reasons on free plans. DaVinci Resolve limits free footage to 8-bit formats, Loom stops recordings at five minutes, and Zoom Basic ends meetings at 40.
