@@ -6,12 +6,13 @@ Silo   : Security   Accent: #8b5cf6
 
 Every claim rendered here is taken from content/security/free-password-managers.md.
 Dashlane appears only as an excluded option, matching the article.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
-    Canvas, panel_list, card_featured, card_grid, card_bar,
+    Canvas, panel_list, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#8b5cf6"   # Security silo, violet
@@ -30,16 +31,17 @@ panel_list(c, "Vault: move these accounts first", [
 card_featured(
     c, ACCENT,
     initials = "BW",
+    logo     = logo_path("bitwarden.png"),
     name     = "Bitwarden",
     tagline  = "Best free option for most people",
     note     = "Unlimited passwords and devices. Premium adds TOTP and emergency access",
 )
 
 card_grid(c, [
-    ("#3b82f6", "KP", "KeePassXC",   "Local vault file with no cloud account"),
-    ("#22c55e", "PP", "Proton Pass", "Unlimited logins and devices, 10 email aliases"),
-    ("#06b6d4", "NP", "NordPass",    "Unlimited passwords, one active device"),
-    ("#ef4444", "DL", "Dashlane",    "Free plan ended in September 2025"),
+    ("#3b82f6", "KP", "KeePassXC",   "Local vault file with no cloud account", logo_path("keepassxc.png")),
+    ("#22c55e", "PP", "Proton Pass", "Unlimited logins and devices, 10 email aliases", logo_path("proton-pass.png")),
+    ("#06b6d4", "NP", "NordPass",    "Unlimited passwords, one active device", logo_path("nordpass.png")),
+    ("#ef4444", "DL", "Dashlane",    "Free plan ended in September 2025", logo_path("dashlane.png")),
 ])
 
 card_bar(

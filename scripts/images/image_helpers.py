@@ -415,7 +415,7 @@ def glyph(kind, color):
     """Drawn icon for a card that is not a product (a plan, a rule, a paid option).
 
     Returns a callable for the `logo` slot: white glyph on a `color` circle.
-    kinds: check, crown, resize, team, tag.
+    kinds: check, crown, resize, team, tag, lock, alert.
     """
     def draw(c, cx, cy, r):
         c.circle(cx, cy, r, color)
@@ -450,6 +450,20 @@ def glyph(kind, color):
             c.poly(rot, w)
             hx, hy = -.22 * math.cos(ang), -.22 * math.sin(ang)
             c.circle(cx + hx * s, cy + hy * s, .08 * s, color)
+        elif kind == "lock":
+            c.draw.arc([(cx - .26 * s) * SS, (cy - .52 * s) * SS,
+                        (cx + .26 * s) * SS, (cy + .04 * s) * SS],
+                       180, 360, fill=w, width=round(lw * SS))
+            for dx in (-.26 + lw / s / 2, .26 - lw / s / 2):
+                c.line([(cx + dx * s, cy - .25 * s), (cx + dx * s, cy - .02 * s)], w, lw)
+            c.rect(cx - .40 * s, cy - .06 * s, cx + .40 * s, cy + .46 * s, w, r=.08 * s)
+            c.circle(cx, cy + .14 * s, .08 * s, color)
+            c.rect(cx - .035 * s, cy + .16 * s, cx + .035 * s, cy + .32 * s, color)
+        elif kind == "alert":
+            c.poly([(cx, cy - .52 * s), (cx + .56 * s, cy + .42 * s),
+                    (cx - .56 * s, cy + .42 * s)], w)
+            c.rect(cx - .06 * s, cy - .20 * s, cx + .06 * s, cy + .14 * s, color, r=.03 * s)
+            c.circle(cx, cy + .27 * s, .065 * s, color)
     return draw
 
 

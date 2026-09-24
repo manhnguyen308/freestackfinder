@@ -5,13 +5,14 @@ Output : static/img/best-free-2fa-apps.webp  (1200x630 px)
 Silo   : Security   Accent: #8b5cf6
 
 Platforms and backup models come from content/security/best-free-2fa-apps.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD, NEUTRAL,
-    panel_table, card_featured, card_grid, card_bar,
+    panel_table, card_featured, card_grid, card_bar, logo_path,
 )
 
 ACCENT = "#8b5cf6"   # Security silo, violet
@@ -32,16 +33,17 @@ panel_table(c, ACCENT, "Authenticators compared",
 card_featured(
     c, ACCENT,
     initials = "Ae",
+    logo     = logo_path("aegis.png"),
     name     = "Aegis Authenticator",
     tagline  = "Encrypted local vault on Android",
     note     = "Encrypted backups and exports decide what happens when a phone is lost",
 )
 
 card_grid(c, [
-    ("#3b82f6", "En", "Ente Auth",      "Encrypted sync across mobile, desktop, and web"),
-    ("#22c55e", "2F", "2FAS",           "iOS and Android with optional cloud backup"),
-    ("#06b6d4", "BW", "Bitwarden TOTP", "Codes beside passwords with Premium"),
-    ("#64748b", "Au", "Authy",          "For existing mobile users, not open source"),
+    ("#3b82f6", "En", "Ente Auth",      "Encrypted sync across mobile, desktop, and web", logo_path("ente-auth.png")),
+    ("#22c55e", "2F", "2FAS",           "iOS and Android with optional cloud backup", logo_path("2fas.png")),
+    ("#06b6d4", "BW", "Bitwarden TOTP", "Codes beside passwords with Premium", logo_path("bitwarden.png")),
+    ("#64748b", "Au", "Authy",          "For existing mobile users, not open source", logo_path("authy.png")),
 ])
 
 card_bar(

@@ -5,13 +5,14 @@ Output : static/img/free-vpn.webp  (1200x630 px)
 Silo   : Security   Accent: #8b5cf6
 
 Data caps and country selection come from content/security/free-vpn.md.
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, GOOD, WARN, BAD,
-    panel_table, note_card, table_bottom, card_featured, card_grid, card_bar,
+    panel_table, note_card, table_bottom, card_featured, card_grid, card_bar, logo_path, glyph,
 )
 
 ACCENT = "#8b5cf6"   # Security silo, violet
@@ -33,16 +34,17 @@ note_card(c, ACCENT, x0, table_bottom(y0, 3, y1) + 14, x1, y1, "Before you insta
 card_featured(
     c, ACCENT,
     initials = "Pr",
+    logo     = logo_path("proton-vpn.png"),
     name     = "Proton VPN Free",
     tagline  = "Best overall free VPN",
     note     = "Unlimited data, open-source apps, and published third-party audits",
 )
 
 card_grid(c, [
-    ("#3b82f6", "Ws", "Windscribe", "More server choice, with a monthly data cap"),
-    ("#eab308", "TB", "TunnelBear", "2 GB a month for short sessions"),
-    ("#22c55e", "$",  "Paid VPN",   "For streaming, P2P, or specific countries"),
-    ("#ef4444", "?",  "Unknown free VPNs", "Some show ads or collect more data than expected"),
+    ("#3b82f6", "Ws", "Windscribe", "More server choice, with a monthly data cap", logo_path("windscribe.png")),
+    ("#eab308", "TB", "TunnelBear", "2 GB a month for short sessions", logo_path("tunnelbear.png")),
+    ("#22c55e", "$",  "Paid VPN",   "For streaming, P2P, or specific countries", glyph("tag", "#22c55e")),
+    ("#ef4444", "?",  "Unknown free VPNs", "Some show ads or collect more data than expected", glyph("alert", "#ef4444")),
 ])
 
 card_bar(

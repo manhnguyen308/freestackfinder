@@ -148,3 +148,26 @@ Source files for feature image generators. They are not served by the site. Each
 | `wordpress.png` | Wikimedia Commons, "WordPress blue logo.svg" (GPL), 330px PNG render, trimmed |
 | `carrd.png` | Carrd site icon, https://carrd.com/apple-touch-icon.png, corners rounded |
 | `quickbooks.png` | Intuit QuickBooks icon from its Google Play listing (com.intuit.quickbooks), 256px, corners rounded |
+| `aegis.png` | Aegis Authenticator site icon, https://getaegis.app/assets/static/icon.zQelnL_w.png, trimmed |
+| `ente-auth.png` | Ente Auth site icon, https://ente.com/assets/auth-favicon.png, corners rounded |
+| `2fas.png` | 2FAS site icon, https://2fas.com/assets/apple-touch-icon-180x180.png, white background removed |
+| `bitwarden.png` | Bitwarden site icon, https://bitwarden.com/icons/icon-256x256.png |
+| `authy.png` | Twilio Authy icon from its Google Play listing (com.authy.authy), 256px, trimmed. authy.com now shows the Twilio icon |
+| `windows-defender.png` | Wikimedia Commons, "Microsoft Defender 2020 Fluent Design icon.png" (public domain), 330px render, trimmed. The same shield as the Windows Security app |
+| `malwarebytes.png` | Malwarebytes icon from its Google Play listing (org.malwarebytes.antimalware), 256px, corners rounded. The site touch icon is a placeholder |
+| `avast.png` | Wikimedia Commons, "Avast logo 2021.svg" (public domain), 1280px PNG render, cropped to the icon. The Play icon carries a promotional banner |
+| `avg.png` | AVG site icon, https://static2.avg.com/10004986/web/i/favicons/apple-touch-avg-192x192.png |
+| `bitdefender.png` | Bitdefender site icon, https://www.bitdefender.com/content/dam/bitdefender/favicon/android-icon-192x192.png, trimmed |
+| `keepassxc.png` | Wikimedia Commons, "KeePassXC.svg" (CC0), 330px PNG render, trimmed |
+| `proton-pass.png` | Wikimedia Commons, "Proton Pass Logo.svg", 1280px PNG render, dark background removed, cropped to the icon |
+| `nordpass.png` | NordPass site icon, https://nordpass.com/next/favicon/apple-touch-icon.png, trimmed |
+| `dashlane.png` | Dashlane icon from its Google Play listing (com.dashlane), 256px, corners rounded |
+| `vaultwarden.png` | Vaultwarden GitHub organization avatar, https://github.com/vaultwarden.png, corners rounded |
+| `passbolt.png` | Passbolt GitHub organization avatar, https://github.com/passbolt.png, trimmed |
+| `owasp-zap.png` | ZAP GitHub organization avatar, https://github.com/zaproxy.png, trimmed |
+| `nmap.png` | Nmap GitHub organization avatar, https://github.com/nmap.png, corners rounded |
+| `lynis.png` | CISOfy GitHub organization avatar, https://github.com/CISOfy.png, trimmed. Lynis has no separate logo; its page on cisofy.com shows the CISOfy logo |
+| `greenbone.png` | Greenbone site icon, https://www.greenbone.net/wp-content/uploads/greenbone-symbol-2025.png, trimmed |
+| `proton-vpn.png` | Proton VPN site icon, https://protonvpn.com/favicons/apple-touch-icon.png, corners rounded |
+| `windscribe.png` | Windscribe icon from its Google Play listing (com.windscribe.vpn), 256px, corners rounded |
+| `tunnelbear.png` | TunnelBear icon from its Google Play listing (com.tunnelbear.android), 256px, corners rounded. The site icon is a grey wordmark letter |

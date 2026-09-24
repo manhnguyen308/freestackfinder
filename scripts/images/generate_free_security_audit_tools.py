@@ -6,13 +6,14 @@ Silo   : Security   Accent: #8b5cf6
 
 Audit targets come from content/security/free-security-audit-tools.md,
 which closes with "Run browser checks first, then scoped scans".
+Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from image_helpers import (
     Canvas, INFO, WARN,
-    panel_list, card_featured, card_grid, card_bar,
+    panel_list, card_featured, card_grid, card_bar, logo_path, glyph,
 )
 
 ACCENT = "#8b5cf6"   # Security silo, violet
@@ -31,16 +32,17 @@ panel_list(c, "Pick the tool by audit target", [
 card_featured(
     c, ACCENT,
     initials = "SL",
+    logo     = glyph("lock", "#22c55e"),
     name     = "SSL Labs and SecurityHeaders",
     tagline  = "Run browser checks first",
     note     = "Free website checks for TLS and security headers before any scoped scan",
 )
 
 card_grid(c, [
-    ("#3b82f6", "ZP", "OWASP ZAP",    "Web application scanning, no feature cap"),
-    ("#ec4899", "Nm", "Nmap",         "Network and port discovery, open source"),
-    ("#eab308", "Ly", "Lynis",        "Local audit for Linux and Unix hardening"),
-    ("#ef4444", "GB", "Greenbone CE", "Structured scanning across several hosts"),
+    ("#3b82f6", "ZP", "OWASP ZAP",    "Web application scanning, no feature cap", logo_path("owasp-zap.png")),
+    ("#ec4899", "Nm", "Nmap",         "Network and port discovery, open source", logo_path("nmap.png")),
+    ("#eab308", "Ly", "Lynis",        "Local audit for Linux and Unix hardening", logo_path("lynis.png")),
+    ("#ef4444", "GB", "Greenbone CE", "Structured scanning across several hosts", logo_path("greenbone.png")),
 ])
 
 card_bar(
