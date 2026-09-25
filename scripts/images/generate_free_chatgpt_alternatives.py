@@ -28,7 +28,7 @@ panel_table(c, ACCENT, "Free limits and key strengths",
         ("Microsoft Copilot", [("Microsoft-set", NEUTRAL), ("Web answers", INFO)]),
         ("Google Gemini",     [("Daily, varies", WARN),   ("Google apps", INFO)]),
         ("Perplexity",        [("5 Pro a day", WARN),     ("Citations", INFO)]),
-        ("Meta AI",           [("Regional", WARN),        ("Social apps", INFO)]),
+        ("Grok",              [("Unpublished", WARN),    ("X search", INFO)]),
     ])
 
 card_featured(
@@ -44,13 +44,13 @@ card_grid(c, [
     ("#3b82f6", "Co", "Microsoft Copilot", "Web-grounded answers inside Microsoft apps", logo_path("microsoft-copilot.png")),
     ("#eab308", "Ge", "Google Gemini",     "Search and Workspace fit for Google users", logo_path("google-gemini.png")),
     ("#06b6d4", "Pe", "Perplexity",        "Cited sources, 5 Pro Searches a day", logo_path("perplexity.png")),
-    ("#ec4899", "Me", "Meta AI",           "Quick answers inside social apps", logo_path("meta-ai.png")),
+    ("#64748b", "Gr", "Grok",              "Live search of X posts and the web", logo_path("grok.png")),
 ])
 
 card_bar(
     c, ACCENT,
     title    = "Free ChatGPT alternatives in 2026",
-    subtitle = "Claude  ·  Microsoft Copilot  ·  Google Gemini  ·  Perplexity  ·  Meta AI",
+    subtitle = "Claude  ·  Microsoft Copilot  ·  Google Gemini  ·  Perplexity  ·  Grok",
 )
 
 c.save("free-chatgpt-alternatives.webp")

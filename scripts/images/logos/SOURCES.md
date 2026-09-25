@@ -57,6 +57,7 @@ Source files for feature image generators. They are not served by the site. Each
 | `zoho-calendar.png` | Zoho Calendar share image, https://www.zohowebstatic.com/sites/zweb/images/ogimage/calendar-logo.png, white background removed, cropped to the icon |
 | `perplexity.png` | Wikimedia Commons, "Perplexity AI logo.svg", 1280px PNG render, cropped to the icon, recolored white for dark cards |
 | `meta-ai.png` | Wikimedia Commons, "Meta AI Logo (2026).svg" (public domain), 330px PNG render, trimmed |
+| `grok.png` | Wikimedia Commons, "Grok-feb-2025-logo.svg" (public domain), 1280px PNG render, cropped to the mark, recolored white for dark cards |
 | `google-keep.png` | Wikimedia Commons, "Google Keep Logo 05.2026.svg" (public domain), 330px PNG render, trimmed |
 | `apple-notes.png` | Wikimedia Commons, "Notes (iOS 26) app icon.png" (public domain), 330px render, trimmed |
 | `standard-notes.png` | Wikimedia Commons, "Standard Notes - Icon.png" (public domain), 330px render, corners rounded |

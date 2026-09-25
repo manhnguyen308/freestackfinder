@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-09-25
-**Current day:** 86d
+**Last updated:** 2026-09-26
+**Current day:** 87a
 
 ## Current state
 
@@ -13,13 +13,22 @@
 - Next content: planned 50-article slate complete; further publishing should be GSC-led refreshes or net-new clusters
 - Next feature: see `FEATURE-STRATEGY.md` Phases 5–9; next Phase 9 candidate is orphan-image cleanup listing
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
-- Product icons: all 50 feature images use real product icons instead of initials circles (Days 85c to 85n). Drawn glyphs from `image_helpers.glyph` appear only on cards that are not a single product or have no icon of their own. The 182 icon files in `scripts/images/logos/` each have a source row in `logos/SOURCES.md`; any new generator card should add its icon and source row the same way
+- Product icons: all 50 feature images use real product icons instead of initials circles (Days 85c to 85n). Drawn glyphs from `image_helpers.glyph` appear only on cards that are not a single product or have no icon of their own. The 183 icon files in `scripts/images/logos/` each have a source row in `logos/SOURCES.md`; any new generator card should add its icon and source row the same way
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 
 ---
+
+### Day 87a - Grok replaces Meta AI in the ChatGPT alternatives guide
+
+- Date: 2026-09-26. Scoped to `content/productivity/free-chatgpt-alternatives.md`, its image generator, a new `scripts/images/logos/grok.png`, and its row in `logos/SOURCES.md`.
+- Article: Meta AI's section (5th) is replaced by Grok, with matching changes to the intro sentence, the comparison table row, and the closing decision rule. The section covers real-time web and X search (limited on the free plan), voice mode, Grok Imagine images with a permanent watermark, file uploads up to 150 MB per file, and connectors for Gmail, Google Calendar, Google Drive, Outlook, OneDrive, and Teams. The limits listed are Expert mode and video generation on SuperGrok only, no published free message cap, and the no-training commitment on Business and Enterprise only. Added the keyword "grok free plan" and set `lastmod` to 2026-09-25, the UTC build date, because the validator rejects the local date as future.
+- Sources: xAI's pricing page and plan comparison table (x.ai/pricing, read 2026-09-26), the Grok FAQ (docs.x.ai/grok/faq, updated 2026-08-27), the Grok overview (docs.x.ai/grok/overview), and the connectors page (docs.x.ai/grok/connectors, which says connectors are available to all Grok users). grok.com/plans returned a bot-verification page and was not used. Third-party claims that free image generation or the free plan itself had ended conflicted with xAI's own table and were not used.
+- Image: the Meta AI card and table row became Grok ("Unpublished" limit, "X search" strength). The icon is the mark cropped from Wikimedia Commons "Grok-feb-2025-logo.svg" (public domain) and recolored white. The regenerated image is 1200x630 WebP at 45 KB. `meta-ai.png` is now unused and stays in `logos/` with its source row.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3 with 50 articles and 0 warnings. Hugo built to a temporary destination with no errors; the rendered page has the Grok section and a `tool-cta-btn` link to grok.com, with no "Meta AI" text left. No dash or curly-quote characters in the article. `git diff --check` passed.
+- Guardrails: no affiliate link added, no first-hand testing language, and no URL or slug change.
 
 ### Day 86d - Tool links render as CTA buttons
 
