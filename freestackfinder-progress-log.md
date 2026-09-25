@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-25
-**Current day:** 86c
+**Current day:** 86d
 
 ## Current state
 
@@ -20,6 +20,14 @@
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 
 ---
+
+### Day 86d - Tool links render as CTA buttons
+
+- Date: 2026-09-25. Scoped to `layouts/_default/single.html`, `static/css/style.css`, and the design-system note. No article text changed.
+- Change: a paragraph that holds only one external link, the "Try X free →" or "Download X free →" line that ends most tool sections, now renders as a button instead of a plain text link. `single.html` runs one `replaceRE` over the rendered content, adds `tool-cta` and `tool-cta-btn` classes, drops a trailing `→` or `->` from the link text, and adds an inline SVG arrow. The button opens in a new tab with `rel="noopener"` and a screen-reader note, matching the affiliate buttons. Inline links, internal links, and the raw-HTML affiliate buttons are untouched.
+- Style: `--primary-bg` fill, `--primary` border, and `--primary-dark` text, filling solid teal on hover, 44px tall, and full width below 640px. It stays tinted so the solid affiliate button remains the strongest action on pages that have one. The generic `↗` external-link marker is suppressed on these buttons.
+- Coverage: 192 links on 43 articles, which is every standalone external link in `content/`. The 23 links written with `->` now look the same as the `→` ones. Seven articles have no standalone tool link and so show no button: `free-website-builders`, `free-ai-email-tools`, `free-backup-software`, `free-email-signature`, `canva-free-vs-paid`, `free-security-audit-tools`, and `free-video-editing-mac`.
+- Validation: Hugo 0.159.2 built to a temporary destination with no errors; the output has 192 `tool-cta-btn` links on 43 pages, no arrow left in any button label, and no change to `affiliate-cta-btn` markup. Checked in the browser at 1100px and 375px, including the hover state. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. `git diff --check` passed.
 
 ### Day 86c - New site icon: the stacked F
 

@@ -79,8 +79,13 @@
     {{ partial "review-block.html" . }}
 
     <!-- Article content -->
+    {{/* A paragraph that holds only one external link, such as "[Try Obsidian free →](https://obsidian.md)",
+         renders as a tool CTA button. A trailing "→" or "->" in the link text is replaced by the icon. */}}
+    {{ $ctaIcon := `<svg class="tool-cta-icon" aria-hidden="true" focusable="false" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>` }}
+    {{ $ctaButton := printf `<p class="tool-cta"><a class="tool-cta-btn" href="${1}" target="_blank" rel="noopener">${2}%s<span class="sr-only"> (opens in a new tab)</span></a></p>` $ctaIcon }}
+    {{ $content := replaceRE `<p><a href="(https?://[^"]+)">([^<]+?)(?:\s*(?:→|-&gt;))?</a></p>` $ctaButton .Content }}
     <div class="article-content" itemprop="articleBody">
-      {{ .Content }}
+      {{ $content | safeHTML }}
     </div>
 
     <!-- Author box -->

@@ -122,6 +122,8 @@ These differ from the handoff spec's `/how-we-test/`, `/disclosure/`, `/privacy/
 </div>
 ```
 
+**Tool CTA button:** Each tool section ends with a Markdown link on its own line, such as `[Download Obsidian free →](https://obsidian.md)`. `layouts/_default/single.html` turns any paragraph that holds only one external link into `<p class="tool-cta"><a class="tool-cta-btn">`, drops a trailing `→` or `->` from the text, adds an arrow icon, and opens the link in a new tab. Style: `--primary-bg` fill, `--primary` border, `--primary-dark` text, solid `--primary` on hover, 44px tall, full width below 640px. Keep it tinted so the solid affiliate button stays the strongest action. To keep a link inline, put it inside a sentence; to skip the button for a standalone link, give it a title (`[text](url "title")`).
+
 **Hover states:** Cards lift `translateY(-3px)` + shadow bump + border darken. `transition: all 0.15–0.2s ease`.
 
 **No dark mode. No glass. No blur. No gradients** except the barely-perceptible hero (`#F8FAFC → #E8F7F5`).
@@ -134,7 +136,7 @@ These differ from the handoff spec's `/how-we-test/`, `/disclosure/`, `/privacy/
 2. Quick verdict (`.verdict.good` box)
 3. Comparison table (`.compare-wrap`)
 4. "Why people look for alternatives"
-5. Numbered tool sections: What it is · Free version · What's limited · Best for · Try link
+5. Numbered tool sections: What it is · Free version · What's limited · Best for · Try link (a standalone Markdown link, rendered as a tool CTA button)
 6. Inline `.verdict` callouts
 7. "Who should still pay?" (`.pay-box`)
 8. "Our final recommendation"

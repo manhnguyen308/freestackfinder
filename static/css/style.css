@@ -1188,6 +1188,59 @@ button { font-family: inherit; cursor: pointer; }
   }
 }
 
+/* ── Tool CTA button ─────────────────────────────────────────────────────── */
+/* single.html adds these classes to a paragraph that holds only one external
+   link. Tinted rather than solid, so the affiliate button stays the strongest
+   action on the page. */
+.article-content .tool-cta { margin: 4px 0 28px; }
+
+.article-content a.tool-cta-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 20px;
+  background: var(--primary-bg);
+  color: var(--primary-dark);
+  border: 1.5px solid var(--primary);
+  border-radius: var(--radius);
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.article-content a.tool-cta-btn:hover {
+  background: var(--primary);
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+}
+
+.article-content a.tool-cta-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* The icon replaces the generic external-link marker */
+.article-content .tool-cta a.tool-cta-btn::after { content: none; }
+
+.tool-cta-icon {
+  flex-shrink: 0;
+  transition: transform 0.15s ease;
+}
+
+.tool-cta-btn:hover .tool-cta-icon { transform: translateX(3px); }
+
+@media (max-width: 640px) {
+  .article-content a.tool-cta-btn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
 /* 25. Responsive - Mobile
    =========================================== */
 @media (max-width: 768px) {

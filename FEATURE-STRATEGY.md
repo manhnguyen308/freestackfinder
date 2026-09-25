@@ -80,6 +80,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 | Pre-publish checklist | Day 55b | QA | `scripts/publish_checklist.py` — no-arg: prints 10-step checklist; with silo+slug: auto-verifies file, front matter, dates, image; exits non-zero on failures |
 | Site name signal pass | Day 55c | SEO | WebSite JSON-LD: added `alternateName`, fixed trailing slash on `url`; added Organization JSON-LD on homepage; added `application-name` meta, favicon links, and manifest link to `head.html`; `site.webmanifest` `name` corrected to "Free Stack Finder" |
 | Card-description sameness warnings | Day 85j | QA | `scripts/validate_front_matter.py` — warns on a first word shared within a silo, an imperative opener, a "[Tool], [Tool], and [Tool]" opener, a trailing criteria or use list, chatbot phrasing, an unsourced majority claim, a title echo (widened Day 85k), or a sentence that nearly repeats a neighboring card (same silo Day 85m; homepage grids, cross-silo, Start Here, hub boxes, and hub intros Day 85p); warning-only |
+| Tool CTA buttons | Day 86d | UX | `layouts/_default/single.html` renders any paragraph that holds only one external link as a tinted teal button (`.tool-cta-btn`), replacing a trailing `→` or `->` with an arrow icon; opens in a new tab. Covers 192 links on 43 articles with no content edits. Solid teal stays with the affiliate button |
 
 ---
 
