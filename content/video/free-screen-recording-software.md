@@ -29,7 +29,7 @@ Tutorials and product demos usually need recording length, export quality, and w
 
 Loom combines recording, cloud hosting, and a shareable viewer link in one workflow, while OBS Studio saves local files and requires a separate sharing step. Loom's [current Starter plan](https://www.loom.com/pricing) allows 25 videos per person and five minutes per screen recording.
 
-OBS Studio and ShareX can record to local files without a service-imposed duration cap. Clipchamp is a simpler browser and Windows option, but each screen or webcam recording is limited to 30 minutes. For editing recorded footage after capture, see our [free video editing software guide](/video/free-video-editing-software/) for editors that work with OBS output files.
+OBS Studio and ShareX can record to local files without a service-imposed duration cap. Clipchamp is a simpler browser and Windows option, but each screen or webcam recording is limited to 30 minutes. Editors that open OBS output files are compared in the [free video editing software guide](/video/free-video-editing-software/).
 
 
 ## Five recorders for different capture jobs
@@ -64,8 +64,8 @@ It suits local, watermark-free recording for tutorials, product demos, and anyth
 
 ShareX turns capture into a keyboard shortcut on Windows: record or screenshot, annotate, and upload in one step.
 
-What you can capture for free:
-- Unlimited screen recording: no watermarks, no time limits
+Free and open-source, it includes:
+- Screen recording without watermarks or time limits
 - Screenshot capture with instant annotation tools (arrows, text, blur, highlight)
 - Scrolling capture for long web pages
 - GIF recording
@@ -74,8 +74,8 @@ What you can capture for free:
 - Hotkey customization for every function
 - Workflow automation: capture, annotate, and upload in one keystroke
 
-The practical limit:
-- Windows-only: no macOS or Linux support
+Where ShareX asks more of you:
+- Windows only, with no macOS or Linux version
 - Interface is complex: the breadth of features makes it harder to learn than simpler tools
 - No built-in cloud hosting with a shareable viewer link
 
@@ -88,7 +88,7 @@ The open-source tool is excessive for basic recording, but it can replace separa
 
 Loom hosts every recording and hands back a shareable link as soon as you stop, which is the part OBS and ShareX leave to you.
 
-What you can share for free:
+Loom's free plan allows:
 - Recordings up to 5 minutes in length
 - Up to 25 videos in total storage
 - Automatic shareable link generated after recording
@@ -97,11 +97,10 @@ What you can share for free:
 - Chrome extension and desktop app available
 - Basic transcript (AI-generated, accuracy varies)
 
-The practical limit:
-- 5-minute recording limit: hard cap, cannot be extended on free
-- 25 video storage limit: oldest videos must be deleted to make room
-- No custom branding or viewer customization on free
-- Download of recordings requires paid plan on some configurations
+Free-plan caps:
+- Older videos must be deleted once the 25-video limit is reached
+- No custom branding or viewer customization
+- Downloading recordings requires a paid plan in some configurations
 - Drawing tools during recording require paid
 
 A Loom link opens in a browser, plays immediately, and allows the recipient to comment and react without downloading anything. Short asynchronous updates, design feedback, and brief product walkthroughs fit inside the five-minute cap; anything longer belongs in OBS.
@@ -136,7 +135,7 @@ For lessons or feedback distributed through Google Classroom or Drive, the path 
 
 Clipchamp comes with Windows 11 and puts a screen recorder inside a basic video editor, so a capture can be trimmed without switching apps.
 
-What Windows gives you for free:
+Clipchamp's free plan covers:
 - Screen and webcam recordings up to 30 minutes per clip
 - Webcam recording
 - Basic video editing: cut, trim, text overlay, transitions

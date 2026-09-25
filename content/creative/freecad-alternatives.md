@@ -65,8 +65,8 @@ What you get without paying:
 The main limitation:
 
 - All documents are public. Onshape states this on its [free-plan page](https://www.onshape.com/en/products/free), so do not use the plan for proprietary or confidential designs.
-- The free plan is licensed for non-commercial use. Selling parts you designed on the free plan is a license violation, not a technical block.
-- No offline mode at all. If your internet is slow or unreliable, this is a hard blocker.
+- The free plan is licensed for non-commercial use. Selling parts designed on it violates the license even though nothing in the software stops it.
+- There is no offline mode, which rules the plan out on a slow or unreliable connection.
 - Some advanced FeatureScript and PCB integration features are paid-only.
 
 It suits hobbyists, students, open-source hardware projects, and Chromebook users who accept public documents and a non-commercial license. The public-document rule excludes private client work, gifts, competition entries, and unreleased product ideas.
@@ -231,17 +231,17 @@ Part complexity. Tinkercad fits a simple printable object built from primitive s
 Vendor policy risk. Fusion 360 Personal has been narrowed multiple times over the past five years. FreeCAD, SolveSpace, OpenSCAD, and LibreCAD do not depend on a commercial vendor continuing the same free license terms.
 
 
-## Common mistakes when switching from FreeCAD
+## Where switching CAD tools costs time
 
-Treating Tinkercad like a parametric tool. Tinkercad's grouping is destructive: once you group a hole into a solid, you cannot easily edit the hole's depth without ungrouping and rebuilding upstream changes. If you need to iterate dimensions, use a parametric tool from the start.
+Tinkercad's grouping is destructive: once you group a hole into a solid, you cannot easily edit the hole's depth without ungrouping and rebuilding upstream changes. If you need to iterate dimensions, use a parametric tool from the start.
 
-Using Onshape for proprietary work. It is easy to forget the documents-are-public rule when the editor looks identical to paid CAD. Anything you do not want to share publicly belongs in Fusion 360 Personal, FreeCAD, or SolveSpace, not Onshape Free.
+Onshape's public-documents rule is easy to forget when the editor looks like paid CAD. Anything you do not want to share publicly belongs in Fusion 360 Personal, FreeCAD, or SolveSpace instead of Onshape Free.
 
-Crossing the Fusion 360 active-document threshold and losing time to reactivation. Once you have more than ten projects in your Autodesk cloud, you will spend small chunks of time activating and deactivating files instead of designing. Plan to archive completed projects as STEP files outside the cloud, or accept that more than ten in-flight projects means it is time to evaluate Onshape or FreeCAD.
+Past ten active projects in the Autodesk cloud, Fusion 360 Personal users spend small chunks of time activating and deactivating files instead of designing. Plan to archive completed projects as STEP files outside the cloud, or accept that more than ten in-flight projects means it is time to evaluate Onshape or FreeCAD.
 
-Choosing OpenSCAD for a one-off bracket. OpenSCAD suits parametric variants and version-controlled designs, but it is slow going when the job is to draw a bracket once and print it.
+OpenSCAD suits parametric variants and version-controlled designs, but it is slow going when the job is to draw a bracket once and print it.
 
-Expecting a 1:1 file format round-trip. STEP files transfer geometry between these tools, but feature history almost never survives the trip. If you start a part in Fusion and later move it to FreeCAD, expect to rebuild the feature tree. Pick the tool in which you can finish the project.
+STEP files transfer geometry between these tools, but feature history almost never survives the trip. A part started in Fusion and moved to FreeCAD needs its feature tree rebuilt, so pick the tool in which you can finish the project.
 
 
 ## Switching from FreeCAD to a browser-based CAD
@@ -257,7 +257,7 @@ For users moving from Fusion 360 to FreeCAD, often because of license uncertaint
 
 FreeCAD remains the right answer when you already know its workbench system or need several engineering modules under one LGPL license. It covers parametric modeling, technical drawings, sheet metal, architecture, FEA, CAM, and rendering in one application. A project that depends on Assembly4, A2plus, the Path workbench, or the FEM workbench has no direct free replacement in this list.
 
-For users in those situations, the right move is usually to keep using FreeCAD and supplement it with a faster tool for one-off tasks: Tinkercad for quick prints, LibreCAD for 2D-only jobs, OpenSCAD for parametric variants. Mixing tools is normal in CAD work.
+For users in those situations, the right move is usually to keep using FreeCAD and supplement it with a faster tool for one-off tasks: Tinkercad for quick prints, LibreCAD for 2D-only jobs, OpenSCAD for parametric variants.
 
 
 ## Public cloud CAD, private desktop CAD, or open source
@@ -268,4 +268,4 @@ None of the open-source options replaces FreeCAD's full breadth, but **SolveSpac
 
 Use **Tinkercad** for a first printable part when speed matters more than a parametric feature history.
 
-For more free creative tools that complement CAD work, vector design for logos and labels, image editing for documentation, and stock photography for renders, see our guides to [free Adobe Illustrator alternatives](/creative/illustrator-alternatives/), [free Photoshop alternatives](/creative/photoshop-alternatives/), and the [best free stock photo sites in 2026](/creative/free-stock-photos/). For UI design adjacent to product CAD work, see our guide to [free Figma alternatives](/creative/figma-alternatives/).
+Labels and logos for a part are vector work, compared in the [free Illustrator alternatives guide](/creative/illustrator-alternatives/). Documentation images and render backdrops come from the [free Photoshop alternatives](/creative/photoshop-alternatives/) and the [free stock photo sites](/creative/free-stock-photos/).

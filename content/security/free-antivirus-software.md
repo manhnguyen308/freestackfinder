@@ -28,7 +28,7 @@ Windows Defender still carries an old reputation as a placeholder. Current prote
 
 AV-TEST scores antivirus products across protection, performance, and usability, while AV-Comparatives publishes separate real-world protection and performance reports. Results change between cycles. Check the current reports if a lab score is central to your decision rather than relying on an undated claim in a roundup.
 
-Paid suites increasingly sell bundles: VPN access, password management, identity monitoring, family controls, and support. Pay for one when you need that bundle or central management. If malware scanning is the only requirement, compare the current lab results and feature list before assuming the subscription improves protection. For account security, see our [free password managers guide](/security/free-password-managers/).
+Paid suites increasingly sell bundles: VPN access, password management, identity monitoring, family controls, and support. Pay for one when you need that bundle or central management. If malware scanning is the only requirement, compare the current lab results and feature list before assuming the subscription improves protection.
 
 ## Four free protection options by platform
 
@@ -98,7 +98,7 @@ macOS faces a different mix of threats from Windows. Apple's XProtect, Gatekeepe
 
 ## When paid antivirus makes sense
 
-On a current Windows 11 machine with updates enabled, a separate paid antivirus is usually unnecessary for basic malware protection. Paid suites become useful for VPN access, identity monitoring, family controls, support, or multi-device administration. If none of those solve a problem you have, compare current lab reports before replacing Defender. For files stored online, see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).
+On a current Windows 11 machine with updates enabled, a separate paid antivirus is usually unnecessary for basic malware protection. Paid suites become useful for VPN access, identity monitoring, family controls, support, or multi-device administration. If none of those solve a problem you have, compare current lab reports before replacing Defender.
 
 A [free password manager](/security/free-password-managers/) addresses password reuse, which antivirus cannot fix. If you run a website or server, [free security audit tools](/security/free-security-audit-tools/) can check exposed ports and security headers outside an endpoint antivirus product's scope.
 

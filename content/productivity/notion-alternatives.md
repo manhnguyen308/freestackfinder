@@ -51,7 +51,7 @@ Where the free tier ends:
 
 Those files open in ordinary text editors and remain accessible without an Obsidian account. Backlinks and graph view add a way to inspect connections between those files, while Notion keeps its workspace data inside a hosted service. Obsidian publishes current add-on prices and storage limits on its [pricing page](https://obsidian.md/pricing). Writers, researchers, developers, and students who want their notes as files and no subscription get the most from it.
 
-For productivity tools that pair well with Obsidian, also see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for document editing options.
+Formatted documents for other people, such as letters or reports in Word format, are easier to produce in a suite from the [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
 [Download Obsidian free →](https://obsidian.md)
 
@@ -172,4 +172,4 @@ Paid AI features can also reduce tab switching for documentation-heavy teams by 
 
 Migration effort is the practical tiebreaker. Pages exported from Notion as Markdown carry over to the Markdown-based tools, but databases, permissions, templates, and linked views have to be rebuilt by hand wherever you go. A workspace of personal pages moves cheaply, and **Obsidian** is the clearest home for it because the notes stay ordinary files you control. A workspace built on shared databases and defined processes is where paying for Notion usually costs less than the rebuild. Storage alone does not justify the upgrade.
 
-For a lighter note-capture tool, see our [free note-taking apps guide](/productivity/free-note-taking-apps/) for Google Keep, Standard Notes, and Simplenote. Our [free writing tools guide](/productivity/free-ai-writing-tools/) covers drafting and editing, while the [free calendar apps guide](/productivity/free-calendar-app/) compares Notion Calendar with standalone schedulers.
+Quick capture is a different job, handled by Google Keep, Standard Notes, and Simplenote in the [free note-taking apps guide](/productivity/free-note-taking-apps/). Our [free writing tools guide](/productivity/free-ai-writing-tools/) covers drafting and editing, while the [free calendar apps guide](/productivity/free-calendar-app/) compares Notion Calendar with standalone schedulers.

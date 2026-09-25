@@ -1,6 +1,6 @@
 ---
 title: "About Free Stack Finder"
-description: "Learn why Free Stack Finder exists, how we evaluate free software plans, and how our guides help people compare practical no-cost tools."
+description: "How Free Stack Finder checks free software plans, handles corrections, and labels affiliate links."
 type: page
 ---
 
@@ -20,9 +20,9 @@ Free Stack Finder exists to make those boundaries easier to compare.
 
 ## What we do
 
-We focus on tools with usable free plans, then compare them by the limits readers usually discover too late: exports, watermarks, storage, seats, usage caps, platform support, and upgrade pressure.
+We focus on tools with usable free plans, then compare them by the limits that decide whether a plan works: exports, watermarks, storage, seats, usage caps, platform support, and upgrade pressure.
 
-When a free tool is a good alternative, we explain why. When it is too limited, too narrow, or missing something critical, we say that too.
+Each guide says when a free tool can replace the paid one and names what is missing when it cannot.
 
 ## How we evaluate software
 
@@ -48,7 +48,7 @@ Some articles on this site contain affiliate links: links to paid tools that we 
 
 Affiliate links never influence our recommendations. If a free tool is better for most users, we'll say so, even if the paid alternative pays a higher commission.
 
-You can read our full [affiliate disclaimer here](/disclaimer/).
+The full [affiliate disclaimer](/disclaimer/) lists the programs we participate in.
 
 ## Who these guides are for
 

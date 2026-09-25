@@ -101,7 +101,7 @@ The lack of inbox integration adds a manual checkpoint: you decide what to paste
 
 Boomerang scores a message instead of writing it. The Gmail extension adds scheduling, follow-up reminders, and a quality checker called Respondable. Before you send, its meter estimates response likelihood from basic writing factors.
 
-Boomerang's free value is not full drafting; it is quality feedback:
+Boomerang's free tier covers:
 - 10 message credits per month for Boomerang scheduling and follow-up features
 - Respondable AI writing assistant active on every email you compose (not subject to the 10-credit cap)
 - Basic Respondable feedback on every email you compose
@@ -184,8 +184,6 @@ AI email tools that connect to your inbox via OAuth, including Compose AI, Boome
 - GDPR implications for European businesses. Tools that process EU personal data through US-based AI infrastructure require reviewing data transfer mechanisms and DPA agreements.
 
 Boomerang says basic Respondable analysis runs in the browser, while its advanced machine-learning measurements send message data to its servers. Compose AI and Spike process content to generate drafts or summaries. For confidential client information, legal correspondence, or financial data, follow the account owner's security policy and only share content that is approved for that service.
-
-For a secure email foundation before adding AI features, see our [best free email service comparison](/cloud/free-email-service/) and our [best free team email guide](/cloud/free-team-email/).
 
 
 ## When the free tier runs out

@@ -97,8 +97,6 @@ Flowcharts, org charts, network diagrams, architecture sketches, ERDs, and anyth
 
 There is no paid tier, document cap, watermark, or expiring trial. The interface takes some time to learn, but the feature range is broad enough for most practical Visio use cases.
 
-For teams that use draw.io alongside project management tools, see our [free project management software guide](/business/free-project-management-software/) for tools that handle the work attached to those diagrams.
-
 [Try draw.io →](https://app.diagrams.net/)
 
 
@@ -194,14 +192,14 @@ Team already using Miro: Lean on Miro's built-in flowcharting before switching t
 Free diagramming tools tend to hit their limits in one of three situations:
 
 - your team outgrows document or board caps and starts losing work to the limit
-- you need advanced shape libraries (AWS, Azure, GCP, BPMN, UML) that are gated on paid tiers
+- you need advanced shape libraries (AWS, Azure, GCP, BPMN, UML) that need a paid tier
 - you need version history, admin controls, and audit logs for compliance or governance
 
-draw.io sidesteps document caps and paid shape-library gates. Lucidchart and Miro limit active documents or boards, while Whimsical limits the new objects and blocks created each month.
+draw.io has no document cap and no paid shape libraries. Lucidchart and Miro limit active documents or boards, while Whimsical limits the new objects and blocks created each month.
 
 
 ## Let the exchange format decide
 
 The file you exchange most often is the tiebreaker. Teams that trade `.vsdx` files with Visio users need an editor that imports them, which points to **draw.io**, tested first with one representative file. Teams that only share PNG or PDF exports can choose on collaboration instead, where Lucidchart's three documents and Miro's three boards are the limits to plan around.
 
-For teams managing the workflows that their diagrams document, pair your diagramming tool with a [free project management tool](/business/free-project-management-software/) or a [free CRM](/business/free-crm-software/): diagrams often sit at the process layer, while the actual work happens in a project or customer management layer above it. If your diagrams feed into presentations or reports, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for the document and presentation tools that work alongside a diagramming workflow.
+A diagram documents a process, while the work itself runs in a [project management tool](/business/free-project-management-software/) or a [CRM](/business/free-crm-software/). Diagrams exported for slides and reports end up in an office suite, compared in the [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).

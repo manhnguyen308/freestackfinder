@@ -139,15 +139,15 @@ Consider staying with iMovie when the workflow looks like this:
 The common mistake is downloading DaVinci Resolve because it sounds more professional, spending a week navigating an unfamiliar interface, and then going back to iMovie for the actual project. If iMovie does the job, there is no reason to switch.
 
 
-## Common mistakes when picking a free Mac video editor
+## Checks before settling on a Mac editor
 
-- Ignoring hardware requirements. DaVinci Resolve asks more from the GPU and memory than iMovie. Choose for the Mac and footage you own, and use proxies when playback calls for them.
+- DaVinci Resolve asks more from the GPU and memory than iMovie, so choose for the Mac and footage you own, and use proxies when playback calls for them.
 
-- Treating compatibility as proof of fit. Test a clip from the actual camera, then render a short sample with the effects and captions you expect to use.
+- An editor that opens your files may still struggle with them. Test a clip from the actual camera, then render a short sample with the effects and captions you expect to use.
 
-- Skipping the codec check. Verify the exact codec, bit depth, frame rate, and container before a deadline, especially when evaluating Resolve Free against Studio.
+- Verify the exact codec, bit depth, frame rate, and container before a deadline, especially when evaluating Resolve Free against Studio.
 
-- Counting a trial as a free plan. Final Cut Pro, Adobe Premiere Pro, and Camtasia may offer evaluation periods, but none is an ongoing free editor.
+- Final Cut Pro, Adobe Premiere Pro, and Camtasia may offer evaluation periods, but none is an ongoing free editor.
 
 
 ## Switching to Mac from a Windows video editing workflow
@@ -167,4 +167,4 @@ Project files from Premiere, Vegas, and Windows Movie Maker do not import direct
 
 Stay in **iMovie** until a specific project needs something it lacks, such as multicamera switching, detailed color, or advanced audio, and then move that project to **DaVinci Resolve**. Switching for a missing feature, rather than because a bigger editor sounds more professional, avoids a week of relearning for a project iMovie could have finished. On older or lower-RAM Macs, try Resolve's proxy media before deciding the hardware is too slow.
 
-For a broader look at free editors across all platforms, see our [guide to the best free video editing software in 2026](/video/free-video-editing-software/). If you are coming specifically from Adobe's suite, the [Premiere Pro alternatives guide](/video/premiere-pro-alternatives/) covers that transition in detail. For recording your screen or camera before you edit, the [free screen recording software guide](/video/free-screen-recording-software/) covers the capture side of the workflow.
+The same editors on Windows and Linux appear in the [free video editing software guide](/video/free-video-editing-software/), which also covers CapCut and OpenShot. Screen or camera capture before the edit is covered in the [free screen recording software guide](/video/free-screen-recording-software/).

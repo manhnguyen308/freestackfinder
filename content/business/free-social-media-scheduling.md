@@ -192,7 +192,7 @@ For most small businesses and solo creators, a free social media scheduling tool
 
 For small teams managing their own social presence, Buffer or Metricool on the free plan covers the common workflow: plan, schedule, publish, and review basic performance. Scale to paid only when the free plan's limits become a real bottleneck, not in anticipation of one.
 
-Social media scheduling pairs naturally with other content creation and marketing tools. For writing and polishing post copy, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for grammar and clarity tools that work in any editor. For visual assets to use in social posts, see our [free Canva alternatives guide](/creative/canva-alternatives/). If your social strategy supports a broader business operation, our [free CRM software guide](/business/free-crm-software/) and [free project management tools guide](/business/free-project-management-software/) cover the adjacent workflow tools.
+Post copy and post images come from different tools: grammar checkers in the [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) and template editors in the [free Canva alternatives guide](/creative/canva-alternatives/). When posts feed a sales pipeline or a content calendar, the [free CRM software](/business/free-crm-software/) and [free project management](/business/free-project-management-software/) guides cover those tools.
 
 
 ## Keep the queue small until collaboration matters

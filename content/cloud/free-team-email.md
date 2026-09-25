@@ -27,9 +27,7 @@ Solo operators mostly need a professional address that takes little work to set 
 
 ## Custom-domain mail costs providers money
 
-Free personal accounts from Gmail, Outlook.com, and Proton Mail are easy to find. Team email is different.
-
-When a team needs a shared inbox, a custom domain (you<span aria-hidden="true">&#64;</span>yourcompany.com), or the ability for multiple people to send and receive from one address, that requirement usually moves it onto a paid business plan. Prices change by country and billing term, so compare the current business plans directly when free accounts no longer provide enough control.
+Free personal accounts from Gmail, Outlook.com, and Proton Mail are easy to find. When a team needs a shared inbox, a custom domain (you<span aria-hidden="true">&#64;</span>yourcompany.com), or the ability for multiple people to send and receive from one address, that requirement usually moves it onto a paid business plan. Prices change by country and billing term, so compare the current business plans directly when free accounts no longer provide enough control.
 
 An ongoing free setup therefore means using an explicit small-team plan, adapting an individual inbox carefully, or accepting tight limits.
 
@@ -136,7 +134,7 @@ Free team email can work for up to five people with basic needs. A paid plan bec
 
 At that stage, Zoho Workplace (paid) or Google Workspace is a simpler option than trying to extend free tools beyond their design limits.
 
-For personal use, see our [free email service guide](/cloud/free-email-service/) for Gmail, Proton Mail, and Zoho Mail compared by privacy and storage. The [free email signature maker guide](/cloud/free-email-signature/) covers no-cost HTML signature tools.
+Matching signatures for the whole team come from the [free email signature makers](/cloud/free-email-signature/).
 
 If you are considering storage alongside team email, the [free cloud storage comparison](/cloud/free-cloud-storage-comparison/) lists current allowances and sync tradeoffs.
 
@@ -145,4 +143,4 @@ If you are considering storage alongside team email, the [free cloud storage com
 
 None of the free plans compared here provides a managed shared queue with thread assignment and response-time tracking, so budget for a paid plan when that workflow is required. Plan for the growth point too. On **Zoho Mail**, adding a sixth user moves every account in the organization to paid licensing, not only the new one, and the lack of desktop-client access remains until then.
 
-Once your team email is set up, you can layer in free AI writing assistance: see our [best free AI email tools guide](/cloud/free-ai-email-tools/) for tools that draft replies, adjust tone, and summarize threads without a subscription.
+Drafting and reply tools that work on top of a shared inbox are compared in the [free AI email tools guide](/cloud/free-ai-email-tools/).

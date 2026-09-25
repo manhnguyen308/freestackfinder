@@ -35,7 +35,7 @@ Gmail connects directly with Docs, Sheets, Calendar, and Meet. That integration 
 
 Custom-domain support matters when the address appears on proposals, invoices, or a business website. Zoho Mail offers it on a restricted free plan in selected regions; a standard free Gmail account does not.
 
-For storing files alongside your email, see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/) for current allowances and encryption tradeoffs.
+Attachments that outgrow the inbox can move to cloud storage, compared by allowance and encryption in the [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).
 
 There is also a personal-versus-business split. A personal inbox can focus on convenience, search, and mobile notifications. A business inbox needs to survive staff changes and keep account ownership clear. Gmail emphasizes integrations and search, while Zoho Mail's restricted free plan adds custom-domain support in eligible regions.
 
@@ -44,7 +44,7 @@ There is also a personal-versus-business split. A personal inbox can focus on co
 
 ### 1. Gmail: best free email for most people
 
-Gmail comes with every Google Account, and the account's [allocation of up to 15GB is shared across Gmail, Google Drive, and Google Photos](https://support.google.com/googleone/answer/9004014). Accounts created since March 9, 2026 start with 5GB and unlock the other 10GB after phone-number verification. Gmail also includes mobile apps, message search, labels and filters, Google Meet integration, offline access, two-step verification, and close ties to Docs, Sheets, Calendar, and Drive.
+Gmail comes with every Google Account, and the account's [allocation of up to 15GB is shared across Gmail, Google Drive, and Google Photos](https://support.google.com/googleone/answer/9004014). A Gmail address created since March 9, 2026 has 5GB until a phone number is verified. Gmail also includes mobile apps, message search, labels and filters, Google Meet integration, offline access, two-step verification, and close ties to Docs, Sheets, Calendar, and Drive.
 
 The privacy and business limits are the trade-off. Optional smart features can use mail content to personalize features when enabled, but [Google says it does not scan or read Gmail messages to show ads](https://support.google.com/mail/answer/10434152). Storage is shared with Drive and Photos, custom-domain email requires a paid Workspace plan, and ordinary Gmail messages are not end-to-end encrypted by default.
 
@@ -61,7 +61,7 @@ The [current Proton Mail plan comparison](https://proton.me/mail/pricing) lists 
 
 The limits are practical: 1GB can fill quickly for an attachment-heavy inbox, additional addresses and custom domains require paid plans, and automatic end-to-end encryption does not apply to every outside recipient.
 
-The audience is privacy-conscious users who want email content protected from advertising use and potential legal disclosure. Its design is different from Gmail's because Proton stores mail in encrypted form that only your key can decrypt. For users who keep an inbox lean or reserve Proton for sensitive communication, the 1GB limit can be enough. For password management from the same company, see our [free password managers guide](/security/free-password-managers/).
+The audience is privacy-conscious users who want email content protected from advertising use and potential legal disclosure. Its design is different from Gmail's because Proton stores mail in encrypted form that only your key can decrypt. For users who keep an inbox lean or reserve Proton for sensitive communication, the 1GB limit can be enough. Proton Pass, from the same company, is covered in the [free password managers guide](/security/free-password-managers/).
 
 [Get Proton Mail free →](https://proton.me/mail)
 
@@ -85,7 +85,7 @@ Zoho's [current Mail pricing table](https://www.zoho.com/mail/zohomail-pricing.h
 
 The ceiling is business growth and client access. A sixth user requires a paid plan, and anyone who needs a desktop mail client through IMAP or POP must upgrade. Availability also depends on the data center serving the account, so confirm that the free plan appears on Zoho's regional pricing page before moving a domain.
 
-It is aimed at freelancers, solopreneurs, and very small businesses that need <code>you<span aria-hidden="true">&#64;</span>yourcompany.com</code> without paying for Google Workspace or Microsoft 365. Paired with Zoho's free CRM tier (see our [free CRM software guide](/business/free-crm-software/)), it gives a small business professional email and customer management at no monthly cost.
+It is aimed at freelancers, solopreneurs, and very small businesses that need <code>you<span aria-hidden="true">&#64;</span>yourcompany.com</code> without paying for Google Workspace or Microsoft 365. Paired with Zoho's free [CRM tier](/business/free-crm-software/), it gives a small business professional email and customer management at no monthly cost.
 
 [Get Zoho Mail free →](https://zoho.com/mail)
 
@@ -122,7 +122,7 @@ Which model fits depends on what you store in your inbox and who you are comfort
 
 The work of moving later includes updating account logins, forwarding old messages, checking which services still use the old address, and rebuilding filters or labels. Leaving Proton Mail or Tuta may also change the encryption workflow. Moving a custom-domain address is easier when you own the domain, although aliases, team addresses, and client-facing signatures still need to be updated. The largest storage allowance is rarely the only constraint.
 
-Aliases are another reason to think ahead. A single personal address is easy until newsletters, account logins, client contacts, and public website forms all point to the same inbox. Providers that support aliases or custom-domain routing give you cleaner separation. Providers that do not may still be excellent for daily mail, but you will need a separate plan for privacy aliases or business identity later if your inbox becomes public-facing. Plan for that before the address spreads across forms, clients, and old account profiles you forgot existed.
+Aliases are another reason to think ahead. A single personal address is easy until newsletters, account logins, client contacts, and public website forms all point to the same inbox. Providers that support aliases or custom-domain routing give you cleaner separation. Those that do not can still handle daily mail well, but you will need a separate plan for privacy aliases or business identity later if your inbox becomes public-facing. Plan for that before the address spreads across forms, clients, and old account profiles you forgot existed.
 
 
 <div class="affiliate-cta">
@@ -137,8 +137,4 @@ Aliases are another reason to think ahead. A single personal address is easy unt
 
 Because moving an address later means updating logins, contacts, and forwarding, choose for the inbox you expect to have in a few years rather than the one you have today. Years of attachments favor **Gmail** or Outlook.com. Medical, legal, or client records favor **Proton Mail** or Tuta. An address clients will see favors a custom domain, which **Zoho Mail** provides at no cost for up to five users in eligible regions.
 
-See the [free email signature maker guide](/cloud/free-email-signature/) for tools that generate reusable HTML signatures without design software.
-
-If you need email for a small team, with shared access or multiple user accounts on one domain, see our [free team email guide](/cloud/free-team-email/) for what the free options cover in 2026.
-
-To speed up your daily email workflow with AI drafting and smart replies, our [best free AI email tools guide](/cloud/free-ai-email-tools/) covers what works on a free plan without installing anything you don't need.
+Shared inboxes and several users on one domain are covered in the [free team email guide](/cloud/free-team-email/). A reusable HTML signature comes from the [free email signature makers](/cloud/free-email-signature/), and drafting help, starting with Gmail's built-in Smart Compose, from the [free AI email tools guide](/cloud/free-ai-email-tools/).

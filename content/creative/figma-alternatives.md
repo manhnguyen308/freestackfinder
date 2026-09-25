@@ -173,13 +173,13 @@ Figma has a large plugin and Community file ecosystem. Designers building a port
 
 Free design tools can cover UI layout, components, basic prototyping, and asset export. Paid tiers become relevant for larger teams, longer history, advanced developer handoff, centralized administration, SSO, or audit logs.
 
-For individual work, test Penpot and Figma Starter with a representative design and export. The design tools pair with free assets: see our guide to [free stock photo sites in 2026](/creative/free-stock-photos/) for photography and our [free Canva alternatives](/creative/canva-alternatives/) for template-based graphics alongside UI work.
+For individual work, test Penpot and Figma Starter with a representative design and export. Photos and template graphics for a mockup come from the [free stock photo sites](/creative/free-stock-photos/) and the [free Canva alternatives](/creative/canva-alternatives/).
 
-For vector illustration work that goes beyond UI components, logos, icons, and custom graphics, see our guide to [free Illustrator alternatives](/creative/illustrator-alternatives/).
+Logos, icons, and custom illustration beyond UI components belong in a vector editor from the [free Illustrator alternatives guide](/creative/illustrator-alternatives/).
 
 
 ## Penpot for open workflows, Figma for ecosystem fit
 
 The people you exchange files with should settle this. If clients and developers already work in Figma, Starter plus exported assets may take less effort than moving everyone. If the team controls its own files, **Penpot** removes the per-seat question, hosted for up to eight members or self-hosted on your own infrastructure.
 
-For typography in your UI work, see our guide to the [best free font websites in 2026](/creative/free-font-websites/) for open-source typefaces you can embed or self-host. For product designers who also work on physical hardware or 3D-printed enclosures, our guide to [free FreeCAD alternatives](/creative/freecad-alternatives/) covers parametric CAD options that pair with UI design work.
+Open-source typefaces that can be embedded or self-hosted are listed in the [free font websites guide](/creative/free-font-websites/). Designers whose products include hardware or 3D-printed enclosures will find parametric modelers in the [free FreeCAD alternatives guide](/creative/freecad-alternatives/).

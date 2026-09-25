@@ -86,7 +86,7 @@ Zoho CRM Free uses the conventional structure of leads, contacts, accounts, deal
 
 A fourth user, stronger automation, analytics, and forecasting require a paid edition. That clean seat boundary makes the migration decision easier to anticipate.
 
-If invoicing is part of your client workflow, see our guide to [free invoicing software](/business/free-invoicing-software/). For teams that manage delivery after a deal closes, Zoho Projects and other no-cost task tools are covered in our [free project management software guide](/business/free-project-management-software/).
+The steps after a closed deal, invoicing and project delivery, are compared in the [free invoicing software guide](/business/free-invoicing-software/) and the [free project management software guide](/business/free-project-management-software/).
 
 [Try Zoho CRM Free ->](https://www.zoho.com/crm/zohocrm-pricing.html)
 
@@ -126,4 +126,4 @@ Reaching one of those limits does not make the initial choice a mistake. It mean
 
 Moving customer records is the expensive part of switching, so count the people who will touch the pipeline over the next year before importing anything. If that number stays at two, HubSpot's free tier holds. At three, Zoho or Freshsales does. Beyond that, only a Bitrix24 allowance confirmed inside the account, or a paid plan, avoids a second migration.
 
-For protecting all the customer data you store in a CRM, see our guide to the [best free password managers](/security/free-password-managers/). If your sales process depends on billable hours, pair your CRM with a [free time tracking tool](/business/free-time-tracking-software/) before those hours turn into invoices. For managing the social media side of customer acquisition, see our [free social media scheduling tools guide](/business/free-social-media-scheduling/): a scheduling tool often sits alongside a CRM in a small-business marketing workflow.
+Customer records deserve a strong login, so the CRM account belongs in one of the [free password managers](/security/free-password-managers/). Billable hours can run through a [free time tracking tool](/business/free-time-tracking-software/) before they turn into invoices, and the marketing side of the pipeline has its own [free social media scheduling guide](/business/free-social-media-scheduling/).

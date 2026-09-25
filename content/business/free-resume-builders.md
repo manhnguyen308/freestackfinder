@@ -113,7 +113,7 @@ The limits are mostly about design and guidance:
 - No guided content suggestions or bullet point writing prompts
 - Design customization requires manual formatting rather than drag-and-drop
 
-That plainness suits large employers, corporations, government roles, recruiters, and any application funnel where an ATS is likely to read your file before a person does. A clean, single-column Google Docs resume exported to PDF is one of the safest formats for parsing. It is also the right choice if you already use Google Workspace and want your resume beside your other documents: see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) for the broader picture of document tools.
+That plainness suits large employers, corporations, government roles, recruiters, and any application funnel where an ATS is likely to read your file before a person does. A clean, single-column Google Docs resume exported to PDF is one of the safest formats for parsing. It also keeps the resume beside your other Google documents; the [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/) compares Docs with the other free suites.
 
 The Google Docs file stays portable. You can download it as PDF or Word, edit it without returning to a proprietary resume platform, and keep a version history for role-specific copies.
 
@@ -161,7 +161,7 @@ The trade-offs show up in template choice and upgrade pressure:
 
 The writing, not the layout, is what Resume.com helps with: a first resume, a return after a work gap, a career change, or a job history that needs help turning responsibilities into concise bullet points. The guided approach is more useful than a blank document for people who find resume writing difficult.
 
-The pre-written suggestions are not a finished resume, but they are a useful starting point for the hardest part: writing bullet points. Rewrite them with your own numbers, outcomes, and specifics. For refining bullet point language and tone further, pairing Resume.com with a grammar and writing tool is practical: see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for options that work across any editor.
+The pre-written suggestions are not a finished resume, but they are a useful starting point for the hardest part: writing bullet points. Rewrite them with your own numbers, outcomes, and specifics. A grammar checker from the [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) can then tighten the wording in whichever editor holds the final draft.
 
 [Visit Resume.com](https://www.resume.com/)
 
@@ -200,28 +200,25 @@ A free tool covers a conventional one- or two-page resume. Consider a paid optio
 
 For most job seekers, Canva or Google Docs covers the requirement at no cost. A resume depends on relevant experience, clear wording, and accurate specifics more than template design.
 
-For job seekers who also handle their own invoicing or client billing as freelancers, see our [free invoicing software guide](/business/free-invoicing-software/) for no-cost tools that pair well with a freelance job search workflow. If you are tracking job applications across multiple roles, a simple [free spreadsheet](/business/free-spreadsheet-alternatives/) or [CRM tool](/business/free-crm-software/) is often more useful than a dedicated job tracker app.
+Freelancers who bill clients between roles can compare no-cost billing tools in the [free invoicing software guide](/business/free-invoicing-software/), and a simple [free spreadsheet](/business/free-spreadsheet-alternatives/) or [CRM](/business/free-crm-software/) can track applications across several roles.
 
 
 ## Practical tradeoffs to weigh before you pick one
 
-Compare these tradeoffs before choosing a builder:
-
-- Export format. A real PDF export is non-negotiable. Some tools only export PNG or share a public link on the free tier, which is awkward to attach to applications. Confirm a clean PDF export exists before you invest time building inside a tool.
-- Watermark risk. A handful of free resume tools add a small watermark or footer credit on the free PDF. Canva, Google Docs, Indeed Resume Builder, and Resume.com do not. Check any tool outside this list before finalising a document.
-- Template quality. Visual quality varies widely. Canva leads on template variety; Google Docs offers a small set of conservative layouts; guided builders sit in between. If your target industry prioritizes clarity over design, a plain layout is an advantage, not a limitation.
-- Privacy and account signup. Most free tools require an account. Indeed makes your resume searchable to recruiters by default: adjust your visibility setting if you do not want that. Avoid pasting personal details into any tool that requires a credit card "for verification" on the free tier; that pattern is a paywall in disguise.
-- ATS readability. Multi-column layouts, sidebars, icons, embedded text boxes, and decorative fonts can confuse strict applicant tracking systems. A clean single-column layout exported to PDF is the safest format for large employers. If you are not sure whether the company uses an ATS, assume yes.
-- Editing flexibility. A guided builder is faster for a first resume but harder to customize for unusual career paths. A document editor like Google Docs is slower upfront but lets you place every element exactly where you want it: useful for career switchers and people with non-linear experience.
+- A real PDF export comes first. Some tools only export PNG or share a public link on the free tier, which is awkward to attach to applications, so confirm a clean PDF export before building inside a tool.
+- Canva, Google Docs, Indeed Resume Builder, and Resume.com leave the free PDF without a watermark. A handful of other free resume tools add a small watermark or footer credit, so check any tool outside this list before finalising a document.
+- Canva has the widest template variety, Google Docs a small set of conservative layouts, and guided builders sit in between. A plain layout suits industries that value clarity over design.
+- Most free tools require an account, and Indeed makes resumes searchable to recruiters by default unless you change the visibility setting. Treat a free tier that asks for a credit card "for verification" as a paid product, and keep personal details out of it.
+- Multi-column layouts, sidebars, icons, embedded text boxes, photo headshots, and decorative fonts can confuse strict applicant tracking systems. A clean single-column PDF is the safest format for large employers, corporate recruiters, and roles posted on major job boards, and the safer assumption when you do not know whether the company uses an ATS.
+- A guided builder is faster for a first resume but harder to customize for unusual career paths. A document editor such as Google Docs is slower upfront but places every element exactly where you want it, which helps career switchers and people with non-linear experience.
 
 
-## Common mistakes to avoid
+## Checks before the resume goes out
 
-- Choosing design over readability. A heavily designed template can look impressive in the preview and still parse badly in an ATS. Lead with clarity; treat design as the finish, not the foundation.
-- Using graphics-heavy templates for ATS roles. Icons next to skills, photo headshots, two-column layouts with sidebars, and decorative fonts are common reasons a resume parses incorrectly. If you are applying to a large employer, a corporate recruiter, or any role posted on a major job board, default to a clean single-column layout.
-- Forgetting to export a clean PDF. Download the final resume as a PDF and open it on a different device before submitting. Confirm that fonts render correctly, no template-credit footer appears, and links are clickable.
-- Relying on generated phrasing. Template-generated bullet points stay generic until you add a verified outcome, metric, or detail from your own work. Rewrite every suggestion before submitting it.
-- Mismatched dates and details. Free builders sometimes auto-fill placeholder values that survive into the final export. Proofread every date, job title, and company name in the exported PDF; the builder preview is not the final check.
+- A heavily designed template can look good in the preview and still parse badly in an ATS, so settle the content and structure before the styling.
+- Download the final resume as a PDF and open it on a different device before submitting. Confirm that fonts render correctly, no template-credit footer appears, and links are clickable.
+- Template-generated bullet points stay generic until you add a verified outcome, metric, or detail from your own work, so rewrite every suggestion before submitting it.
+- Free builders sometimes auto-fill placeholder values that survive into the final export. Proofread every date, job title, and company name in the exported PDF rather than the builder preview.
 
 
 ## Match the builder to the application

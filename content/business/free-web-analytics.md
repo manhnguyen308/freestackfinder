@@ -87,9 +87,9 @@ GA4 fits a site that needs traffic, acquisition, and conversion data in one inte
 
 ### Google Search Console
 
-Search Console is not a general-purpose analytics tool: it does not track pageviews, sessions, referrals, or time on page. It reports Google Search queries, impressions, clicks, average position, indexing, and crawl issues. Use it beside GA4, Umami, or another traffic analytics tool.
+Search Console does not track pageviews, sessions, referrals, or time on page. It reports Google Search queries, impressions, clicks, average position, indexing, and crawl issues. Use it beside GA4, Umami, or another traffic analytics tool.
 
-Search Console is free search intelligence rather than whole-site analytics. It gives query-level clicks, impressions, CTR, and average position for up to 16 months; page-level search performance; index coverage; crawl error reporting; Core Web Vitals field data; and structured data or rich-result validation.
+Its reports cover query-level clicks, impressions, CTR, and average position for up to 16 months; page-level search performance; index coverage; crawl error reporting; Core Web Vitals field data; and structured data or rich-result validation.
 
 The restriction is scope. Data is aggregated, low-volume queries may be grouped as "other," and there is no user-level or session-level view. It cannot explain direct, social, referral, or email traffic because it only covers Google Search.
 
@@ -128,7 +128,7 @@ Matomo is the heavier self-hosted option. Its free, open-source On-Premise core 
 
 Some of Matomo Cloud's headline features are not part of the free On-Premise download. Funnels, cohorts, custom reports, and heatmaps with session recordings are sold as [premium On-Premise plugins](https://shop.matomo.org/product-category/plugins/). The distinction matters when comparing Matomo's core download with a managed Cloud package.
 
-The setup is more involved than Umami. Matomo requires PHP, a MySQL or MariaDB database, and a server sized for the site's traffic. It also leaves updates, backups, security, and database maintenance to the site owner.
+The setup is more involved than Umami. Matomo requires PHP, a MySQL or MariaDB database, and a server sized for the site's traffic. It also leaves updates, backups, security, and database maintenance to the site owner, and the [free security audit tools](/security/free-security-audit-tools/) can check that server's open ports and security headers.
 
 Matomo fits teams that need detailed reporting and full data sovereignty and have someone comfortable maintaining it. Check whether each required report is in the open-source core or a paid plugin before choosing it over GA4 or Umami.
 
@@ -169,4 +169,4 @@ Product analytics versus website analytics: Tools like Mixpanel, Amplitude, and 
 
 Matomo On-Premise is worth the effort if you need GA4-depth reporting without relying on Google infrastructure, and you have someone comfortable managing a PHP application long-term.
 
-For more tools to run a lean, free-plan-based website operation, see the guides on [free website builders](/business/free-website-builders/), [free project management software](/business/free-project-management-software/), and [free CRM software](/business/free-crm-software/).
+The site builder can decide this before any analytics tool does. The [free website builders guide](/business/free-website-builders/) notes that Wix needs an upgraded site for Google Analytics and Canva keeps Website Insights for Pro.

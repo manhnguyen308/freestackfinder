@@ -43,7 +43,7 @@ What you can use for free:
 - A free text-length allowance for grammar checks, with the exact cap varying by product surface and current plan terms
 - Basic style suggestions
 
-The practical limit:
+Where the free tier stops:
 - Advanced phrasing suggestions and synonym recommendations (Premium)
 - Longer text checks without splitting usually require Premium
 - AI-powered paraphrasing tool
@@ -60,7 +60,7 @@ Long documents are where the free tier pinches. The free text-length allowance i
 
 ProWritingAid reads a draft for structure as well as grammar, with separate reports for style, readability, and sentence construction.
 
-What you can do for free:
+The free web editor covers:
 - Grammar and spelling checks
 - Style and readability reports
 - Up to 500 words checked per session on the free web editor
@@ -116,7 +116,7 @@ Where it falls short:
 - No readability scoring
 - Suggestions are less detailed than dedicated writing tools
 
-A Docs-first writer may not need another extension for ordinary emails and business documents, and the built-in checks require no additional account. If you are considering leaving Microsoft Word, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
+A Docs-first writer may not need another extension for ordinary emails and business documents, and the built-in checks require no additional account. Writers moving off Microsoft Word entirely can compare Docs with LibreOffice and OnlyOffice in the [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
 [Use Google Docs free →](https://docs.google.com)
 
@@ -160,4 +160,4 @@ The plagiarism checker bundled with Pro is relevant to students, researchers, an
 
 One always-on checker covers most writing, with the others pulled in only when a draft calls for them. **LanguageTool** is the obvious always-on choice; ProWritingAid and Hemingway earn their extra step on long or important pieces. Grammarly Pro starts to pay off when rewrites, tone adjustment, and plagiarism checks would otherwise mean running one document through three separate tools.
 
-The writing process usually starts before editing, in notes and drafts. If you are still looking for the right note-taking tool to capture ideas before you polish them, see our [best free note-taking apps guide](/productivity/free-note-taking-apps/). If you are using AI to generate first drafts before editing them, see our [best free AI writing tools guide](/productivity/free-ai-writing-tools/). A grammar checker is still useful as a final pass before you publish or send important work. For a broader comparison of AI chat tools including Gemini and Perplexity, see our [free ChatGPT alternatives guide](/productivity/free-chatgpt-alternatives/). If you are polishing a resume or cover letter specifically, see our [free resume builders guide](/business/free-resume-builders/) for the tools that pair well with a grammar checker during a job search.
+Drafts usually start earlier, in a [note-taking app](/productivity/free-note-taking-apps/) or a [free AI writing tool](/productivity/free-ai-writing-tools/), and the grammar checker is the last pass before anything is published or sent. Job seekers can run a resume through any checker here after building it with a tool from the [free resume builders guide](/business/free-resume-builders/).

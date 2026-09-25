@@ -24,13 +24,9 @@ That commission helps fund the site and does not change the price paid by the re
 
 ## What this means for our recommendations
 
-**Affiliate relationships do not determine our recommendations.**
+Commission rates do not decide rankings. A free tool that fits the reader's need better is recommended even when it earns nothing, and a paid tool is recommended only when its limits or features fit the stated use case better than the free options.
 
-If a free tool is the better fit, we recommend it even when that recommendation earns no commission.
-
-We may decline to feature tools when the product does not fit the reader need, even if an affiliate program exists. Our comparison process and recommendations are independent.
-
-We recommend a paid tool only when its limits or features fit the stated use case better than the free options, not because of its commission rate.
+A tool with an affiliate program is still left out when it does not fit the reader's need.
 
 ## Programs we participate in
 

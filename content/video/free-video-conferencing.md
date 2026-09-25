@@ -31,11 +31,11 @@ Three of the six free plans here stop group calls at 60 minutes, Whereby stops a
 
 Most free video conferencing tools advertise similar features, such as HD video, screen sharing, and chat. They differ in the limits you hit during real use:
 
-- Time limits on group calls. A 40 to 60-minute cap is not a problem for a quick standup, but it will interrupt a team workshop, client discovery session, or online class. Know whether the free tier cuts off group calls.
-- Participant limit. Tools that cap group video at 25 or fewer participants are fine for small team standups but unsuitable for all-hands meetings or client webinars.
-- Account and download requirements. If participants need to sign up or install an app just to join your call, expect drop-off and support requests before every meeting.
-- Recording. Most free plans in this comparison do not include cloud recording. If you need to share call recordings with absent team members, factor this in.
-- Scheduling and calendar integration. Tools that generate calendar invites automatically reduce the manual overhead of scheduling recurring meetings.
+- A 40 to 60-minute cap on group calls is fine for a quick standup but will interrupt a team workshop, client discovery session, or online class.
+- Tools that cap group video at 25 or fewer participants suit small standups and fall short for all-hands meetings or client webinars.
+- If participants need to sign up or install an app to join, expect drop-off and support requests before every meeting.
+- Most free plans in this comparison do not include cloud recording, which matters when absent team members need to watch later.
+- Automatic calendar invites cut the manual work of scheduling recurring meetings.
 
 
 ## Meeting limits at a glance
@@ -148,7 +148,7 @@ The [current Free plan](https://whereby.com/information/meetings/select-plan) is
 
 Zoho Meeting's free tier includes scheduled meetings, basic webinar registration, and presenter controls.
 
-Included free:
+On the free plan:
 - Meetings up to 60 minutes with up to 100 participants
 - Built-in meeting scheduler with calendar integration (Google, Outlook)
 - Screen sharing, polls during meetings, and hand raising
@@ -156,18 +156,18 @@ Included free:
 - Meeting analytics and attendance reports
 - Available in-browser and as desktop/mobile apps
 
-Where it falls short:
-- 60-minute meeting time limit applies, same as Google Meet and Teams
-- Webinar attendee cap is 20 on the free plan: paid plans are needed for larger audiences
+Where Zoho Meeting stops:
+- The 60-minute cap matches Google Meet and Teams
+- Webinars above 20 attendees need a paid plan
 - Cloud recording is a paid feature
-- Hosts need a Zoho account, adding an onboarding step that Google Meet avoids
+- Hosts need a Zoho account, an onboarding step Google Meet avoids
 
 Zoho's [current free webinar page](https://www.zoho.com/webinar/free-webinar.html) lists a 60-minute session limit and up to 20 attendees, enough for a small scheduled presentation, especially when Zoho CRM or Zoho Projects is already in use. Larger events and cloud recording require a paid plan.
 
 [Try Zoho Meeting free →](https://www.zoho.com/meeting/)
 
 
-### 6. Discord: for teams that want channels, not calendars
+### 6. Discord: always-open voice channels for teams
 
 Discord combines voice, video, and text in persistent channels. Participants can join an available voice channel instead of scheduling a meeting link.
 
@@ -189,15 +189,15 @@ Instead of scheduling a meeting, people drop into a voice channel that is always
 [Use Discord free →](https://discord.com)
 
 
-## Common mistakes teams make with free conferencing plans
+## Checks before a team standardizes on one tool
 
-Defaulting to Zoom without checking the limit. Zoom's Basic plan limits almost all hosted meetings to 40 minutes. Google Meet extends a meeting with three or more participants to 60 minutes, while Whereby's Free plan stops at 30 minutes. Compare the actual meeting format in our [free Zoom alternatives guide](/video/zoom-alternatives/) before switching.
+Zoom's Basic plan limits almost all hosted meetings to 40 minutes. Google Meet extends a meeting with three or more participants to 60 minutes, while Whereby's Free plan stops at 30 minutes. The [free Zoom alternatives guide](/video/zoom-alternatives/) compares those limits against the meetings that hit them.
 
-Not testing the join experience before standardizing. The host's experience of setting up a call is only half the equation. Account rules vary with the host and meeting settings, so run one guest join from a private browser before committing a team or client group.
+A guest's join steps can differ from what the host sees. Account rules vary with the host and meeting settings, so run one guest join from a private browser before committing a team or client group.
 
-Assuming recording is always included. The hosted free plans in this comparison do not provide the same cloud-recording workflow as their paid tiers. If you need to record calls for async sharing or client documentation, factor that into the choice early. A separate local recorder can work alongside a meeting tool; see our [free screen recording software guide](/video/free-screen-recording-software/).
+The hosted free plans in this comparison do not provide the same cloud-recording workflow as their paid tiers. If you need to record calls for async sharing or client documentation, factor that into the choice early. A local recorder from the [free screen recording software guide](/video/free-screen-recording-software/) can fill that gap alongside the meeting tool.
 
-Using one tool for every meeting type. A weekly 10-person team standup, a 40-person client demo, and a persistent developer communication channel have different requirements. Teams that force all three into the same platform often end up with a tool that is mediocre at all three. Google Meet for structured calls, Discord for async team communication, and Zoho Meeting for webinar-style demos is a reasonable free-tier combination.
+A weekly 10-person team standup, a 40-person client demo, and a persistent developer communication channel have different requirements. Teams that force all three into the same platform often end up with a tool that is mediocre at all three. Google Meet for structured calls, Discord for async team communication, and Zoho Meeting for webinar-style demos is a reasonable free-tier combination.
 
 
 ## When meeting limits justify paying
@@ -216,7 +216,7 @@ Do not upgrade because a paid plan lists more features. Upgrade when a recurring
 
 The longest meeting you run every week matters more than the average one. If it ends inside an hour, **Google Meet** is the simplest default. If it regularly runs longer, **Jitsi Meet** avoids a hard cut-off, and a paid plan is worth pricing once recording matters too. The rest fill narrower gaps: Teams Free for Microsoft-based work, Whereby for a permanent room under 30 minutes, Zoho Meeting for small webinars, and Discord for always-on voice channels.
 
-For tracking tasks and managing the work your team discusses in those meetings, our [free project management software guide](/business/free-project-management-software/) covers the best no-cost options for remote teams.
+Action items from those calls need somewhere to live after the meeting ends, and the [free project management software guide](/business/free-project-management-software/) compares free task boards for remote teams.
 
 
 <details>

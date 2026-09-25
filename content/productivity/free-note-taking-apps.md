@@ -33,7 +33,7 @@ Notion, Superhuman Docs (formerly Coda), and Obsidian can store far more than a 
 
 For long-term note-taking, an app needs to open quickly, sync reliably, and stay out of the way. The apps in this list are all free, not time-limited trials or "free up to X notes."
 
-The easiest way to choose is by the first action you take most often. If you capture thoughts while walking, pick the fastest mobile widget. If you scan documents or write by hand, choose the app built into your tablet or phone. If notes become a knowledge base, choose structure over speed.
+The easiest way to choose is by the first action you take most often. Capturing thoughts while walking calls for the fastest mobile widget, scanning documents or writing by hand points to the app built into your tablet or phone, and notes that grow into a knowledge base need structure more than speed.
 
 
 ## Five free note-taking approaches
@@ -160,7 +160,7 @@ The cost is setup time and a few free-tier limits:
 
 Notion earns that setup when notes need to become a wiki, reading log, project tracker, or lightweight database. For fast capture it is the wrong tool; opening a workspace and choosing a template is too much overhead for a grocery list or a fleeting idea.
 
-For a full comparison of Notion alternatives including Obsidian, Logseq, and self-hosted options, see our [free Notion alternatives guide](/productivity/notion-alternatives/).
+Obsidian, Logseq, and self-hosted workspaces are compared against Notion in the [free Notion alternatives guide](/productivity/notion-alternatives/).
 
 [Try Notion free →](https://www.notion.com/pricing)
 
@@ -178,10 +178,10 @@ For a full comparison of Notion alternatives including Obsidian, Logseq, and sel
 
 ## From notes to a draft
 
-Note-taking is usually the first draft: capturing raw ideas before refining them into emails, documents, or blog posts. Once your thoughts are captured, tools like LanguageTool and ProWritingAid can help improve the grammar and clarity of that writing at no cost. If you work with writing professionally, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for the tools that handle the editing step. If those notes turn into longer reports, spreadsheets, or presentations, pair them with our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/). If your notes often become PDFs for sharing or distribution, see our [free PDF editor alternatives guide](/productivity/free-pdf-editor-alternatives/) for editing, annotating, and signing without a subscription.
+Notes often become something else: an email, a report, a blog post. LanguageTool and ProWritingAid check the grammar of that writing at no cost, and the [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) compares them with other editors. Reports, spreadsheets, and slides built from notes belong in a suite from the [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/), and notes shared as PDFs can be annotated and signed with the tools in the [free PDF editor guide](/productivity/free-pdf-editor-alternatives/).
 
 ## Keep for capture, Standard Notes for privacy
 
 A week of ordinary capture, such as shopping lists and meeting notes, shows whether an app fits. If getting a note in feels slow, better organization later will not make up for it. **Google Keep** and **Apple Notes** are built for that moment on the devices they belong to. **Standard Notes** and **Simplenote** trade rich formatting for encryption or plain Markdown, and Notion works best behind a capture app rather than in place of one.
 
-The [free AI writing tools guide](/productivity/free-ai-writing-tools/) compares tools that can turn rough notes into a draft. For reminders and time planning, see the [free calendar apps guide](/productivity/free-calendar-app/).
+The [free AI writing tools guide](/productivity/free-ai-writing-tools/) compares tools that can turn rough notes into a draft. Dated reminders work better in a calendar, compared in the [free calendar apps guide](/productivity/free-calendar-app/).

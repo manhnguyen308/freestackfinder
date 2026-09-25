@@ -78,11 +78,11 @@ Understanding what type of builder you need makes the decision clearer:
 
 Wix gives free sites the full drag-and-drop editor, its AI site generator, most of the template library, and access to a large app marketplace.
 
-What you can build for free: Drag-and-drop and AI-assisted editing, templates, Wix App Market access, basic SEO settings, galleries, and contact forms. Wix currently lists up to 500MB of storage and [up to 1GB of bandwidth](https://support.wix.com/en/article/about-storage-and-bandwidth) for free sites.
+Basic SEO settings, galleries, and contact forms are included too, and Wix currently lists up to 500MB of storage and [up to 1GB of bandwidth](https://support.wix.com/en/article/about-storage-and-bandwidth) for free sites.
 
-The practical limit: A custom domain, removal of the Wix banner, Google Analytics, and ecommerce transactions require payment. The bandwidth allowance also limits how much data the site can serve.
+A custom domain, removal of the Wix banner, Google Analytics, and ecommerce transactions require payment, and the bandwidth allowance caps how much data the site can serve.
 
-That makes it a good place to test a portfolio, hobby site, or small-business layout before deciding whether the paid domain and branding controls are worth the cost. The forced Wix subdomain and in-site ads, not missing editing controls, are the reasons to upgrade.
+That makes it a good place to test a portfolio, hobby site, or small-business layout before deciding whether the paid domain and branding controls are worth the cost. The forced Wix subdomain and in-site ads are the usual reasons to upgrade, since the free plan already has the full editor.
 
 
 ### 2. Google Sites: best when builder ads and fees are the dealbreakers
@@ -91,11 +91,11 @@ That makes it a good place to test a portfolio, hobby site, or small-business la
 
 Every Google account includes Google Sites, and its strength is embedding the rest of Google's apps.
 
-What you can build for free: Multi-page sites with Google Drive, Docs, Sheets, Slides, Forms, Calendar, Maps, and YouTube embeds. Google Sites does not place a builder ad on the published page. You still pay separately for any domain you connect.
+Free sites can have multiple pages with Google Drive, Docs, Sheets, Slides, Forms, Calendar, Maps, and YouTube embeds, and Google Sites does not place a builder ad on the published page. Any domain you connect is still paid for separately.
 
 Google Sites limits design flexibility. It has a fixed set of layouts and a small selection of themes, without free positioning, custom CSS, or third-party apps.
 
-It suits an internal resource, a school or club page, or a basic information site that values Google embeds over custom layout. Because there is no paid builder plan, a domain you already own connects without a builder fee. The template system is restrictive, and the result retains the recognizable Google Sites structure rather than a custom layout.
+It suits an internal resource, a school or club page, or a basic information site that values Google embeds over custom layout. Because there is no paid builder plan, a domain you already own connects without a builder fee. Published pages keep the recognizable Google Sites structure.
 
 If the organization already uses Google Workspace, start by checking whether embedded Sheets, Slides, and Forms cover the site requirement before adding another builder.
 
@@ -106,9 +106,9 @@ If the organization already uses Google Workspace, start by checking whether emb
 
 Automattic runs WordPress.com as hosted WordPress, separate from the self-hosted WordPress.org software that needs your own hosting. The free plan is a stripped-down version of it.
 
-What you can publish for free: Unlimited blog posts and pages, basic themes, Jetpack traffic statistics, a `yoursitename.wordpress.com` subdomain, 1GB storage.
+The free plan allows unlimited blog posts and pages, basic themes, Jetpack traffic statistics, a `yoursitename.wordpress.com` subdomain, and 1GB of storage.
 
-Where you may outgrow it: Custom domain, removal of WordPress.com ads on your pages, custom plugins (no plugin installation on free), advanced theme customization, and premium theme access. Ecommerce requires a paid plan.
+A custom domain, ad-free pages, plugin installation, advanced theme customization, premium themes, and ecommerce all need a paid plan.
 
 WordPress.com Free is built for publishing. A blog that needs categories, tags, scheduling, RSS, and basic SEO fields more than custom design or plugins gets them without paying, and the wider WordPress community provides plenty of documentation when the editor is unfamiliar.
 
@@ -121,9 +121,9 @@ The main problems on the free plan are ads and the subdomain. If your site is fo
 
 Carrd only builds single pages, for portfolios, personal pages, link-in-bio pages, and landing pages.
 
-What you can launch for free: Up to three sites hosted at a `carrd.co` subdomain, access to most templates, the full design editor, and basic embed support. No credit card required.
+A free account can publish up to three sites at a `carrd.co` subdomain with most templates, the full design editor, and basic embeds, and signing up needs no credit card.
 
-The practical limit: Custom domain, form submissions (the contact form requires a paid plan for form handling), third-party integrations, and multi-page layouts. Each free site is a single scrollable page.
+Custom domains, form handling for the contact form, and third-party integrations need a paid plan, and each free site stays a single scrollable page.
 
 The `yourname.carrd.co` address works for a one-page portfolio, link-in-bio page, event page, or temporary landing page, but it is a poor fit for a business that needs its own domain.
 
@@ -132,11 +132,11 @@ The `yourname.carrd.co` address works for a one-page portfolio, link-in-bio page
 
 {{< verdict "Best for Canva users" >}}
 
-Canva Websites turns a Canva layout into a responsive site. It remains a visual publisher rather than a traditional content-management system, but it now supports both one-page and multi-page sites.
+Canva Websites turns a Canva layout into a responsive site, and it remains a visual publisher rather than a traditional content-management system.
 
-What you can publish for free: A site on a customizable `my.canva.site` subdomain. [Canva Websites supports multi-page layouts](https://www.canva.com/website-builder/drag-and-drop/) with shared navigation as well as single-scroll landing pages.
+Free sites publish to a customizable `my.canva.site` subdomain, and [Canva Websites supports multi-page layouts](https://www.canva.com/website-builder/drag-and-drop/) with shared navigation as well as single-scroll landing pages.
 
-The practical limit: Connecting a custom domain and using Website Insights require Canva Pro. Canva provides page titles and descriptions for basic search setup, but it does not offer the plugin, content-type, or custom-code depth of a general CMS. JavaScript support is also limited.
+Connecting a custom domain and using Website Insights require Canva Pro. Canva provides page titles and descriptions for basic search setup, but it does not offer the plugin, content-type, or custom-code depth of a general CMS. JavaScript support is also limited.
 
 It works for an event page, digital lookbook, visual resume, or temporary promotion designed in an existing Canva account. Another builder is the better choice when the site needs a free custom-domain connection, built-in analytics on the free plan, custom JavaScript, a blog workflow, or deeper search controls.
 
@@ -159,7 +159,7 @@ The free plans above are appropriate while you are testing an idea or have very 
 
 - Analytics need to inform business decisions. Wix requires an upgraded site for Google Analytics, and Canva reserves Website Insights for Pro.
 
-If you need a full free business software stack to go alongside your website, including contacts, invoicing, and project management, see our guides to [free CRM software](/business/free-crm-software/) and [free invoicing software](/business/free-invoicing-software/).
+A site that takes enquiries also needs somewhere to keep contacts and send invoices; the [free CRM software](/business/free-crm-software/) and [free invoicing software](/business/free-invoicing-software/) guides cover both.
 
 
 ## Upgrade when the address or workflow matters
@@ -168,6 +168,4 @@ The address is harder to change than the builder. Pages can be rebuilt, but ever
 
 Reconsider the platform when the address, publishing workflow, analytics, or integrations become more important than staying on the free plan.
 
-For sharing your work and reaching clients beyond your website, pairing with a free social media scheduling tool can extend your reach without adding cost. See our [free social media scheduling tools guide](/business/free-social-media-scheduling/).
-
-For document editing and file storage beside the website, see the [free Microsoft Office alternatives](/productivity/microsoft-office-alternatives/) and [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).
+New pages are easier to share with a posting queue from the [free social media scheduling guide](/business/free-social-media-scheduling/), and the drafts and images behind the site can live in any plan from the [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).

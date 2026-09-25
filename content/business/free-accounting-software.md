@@ -74,7 +74,7 @@ Free plans usually cap something: bank connections, users, revenue, report depth
 - **Invoicing tools** only generate and send invoices. They often label themselves "free accounting" but do not keep a real ledger. Square Invoices, PayPal Invoicing, and some standalone free invoice makers fall in this category: useful, but not accounting software.
 - **Spreadsheets used as accounting systems** can handle simple record keeping, but they do not enforce double-entry, reconcile automatically, or produce a balance sheet without a carefully built model. The risk grows with transaction volume and every additional person editing the file.
 
-If what you need is invoicing only, our [free invoicing software guide](/business/free-invoicing-software/) is the better starting point. If what you need is the spreadsheet layer alongside your books, our [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/) covers that. This guide focuses specifically on tools that maintain a proper ledger.
+Invoicing on its own has a separate [free invoicing software guide](/business/free-invoicing-software/), and spreadsheets kept beside the books are compared in the [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/). Every tool below keeps a proper ledger.
 
 
 ## How to avoid choosing the wrong free accounting tool
@@ -83,7 +83,7 @@ Start with the handoff point. If an accountant will review your books once a yea
 
 Next, check how transactions enter the system. Live bank feeds are convenient, but they are often paid or region-dependent. Manual imports are workable when you have a few dozen transactions a month; they become a chore when you have daily sales, multiple cards, or lots of small expenses. That is where a paid QuickBooks or Xero setup may become less about features and more about saving bookkeeping time.
 
-Finally, separate collaboration from accounting quality. A single-user desktop tool can keep excellent books but still be the wrong fit if an assistant, partner, or accountant needs regular access. A cloud tool can feel modern but still be the wrong fit if its free tier caps revenue, users, reports, or bank feeds in a way your business will hit quickly.
+Finally, separate collaboration from accounting quality. A single-user desktop tool can keep accurate books but still be the wrong fit if an assistant, partner, or accountant needs regular access. A cloud tool can feel modern but still be the wrong fit if its free tier caps revenue, users, reports, or bank feeds in a way your business will hit quickly.
 
 Support and documentation matter because free tools often assume you already understand reconciliation, charts of accounts, and cash versus accrual accounting. Wave or Zoho Books can be the better choice if their onboarding helps you keep the books current. Extra control in Manager or GnuCash is wasted when the ledger only gets opened at tax time.
 
@@ -101,7 +101,7 @@ The trade-offs are the places larger businesses usually care about first. Live b
 
 Wave fits freelancers, consultants, contractors, and sole proprietors who can enter or upload transaction data themselves. It keeps invoicing and bookkeeping together without a monthly subscription, but Pro is the practical step up when automated imports and receipt capture would save meaningful time.
 
-For invoicing-specific comparisons, including Wave against Zoho Invoice and Invoice Ninja, see our [free invoicing software guide](/business/free-invoicing-software/). For a deeper comparison of Wave against QuickBooks for freelancers, see our [free QuickBooks alternatives guide](/business/quickbooks-alternatives/).
+Wave's invoicing is set against Zoho Invoice and Invoice Ninja in the [free invoicing software guide](/business/free-invoicing-software/), and against QuickBooks in the [free QuickBooks alternatives guide](/business/quickbooks-alternatives/).
 
 [Use Wave free →](https://www.waveapps.com)
 
@@ -116,7 +116,7 @@ The thresholds and feature mix vary by country, so use the local pricing page ra
 
 Zoho Books fits sole proprietors and microbusinesses already using Zoho. Its advantage is the connection between CRM records, invoices, expenses, vendors, and the ledger. Skip it if the regional revenue cap is close enough that another migration is likely soon.
 
-For connected Zoho tools already published here, see our [free CRM software guide](/business/free-crm-software/) and [free invoicing software guide](/business/free-invoicing-software/).
+Zoho CRM, the source of those customer records, is profiled in the [free CRM software guide](/business/free-crm-software/).
 
 [Try Zoho Books free →](https://www.zoho.com/books/)
 
@@ -189,4 +189,4 @@ Whatever the ledger, the year-end export is what the accountant sees. A cloud to
 
 Pay when payroll, inventory, daily bank feeds, or multi-user accountant access removes enough manual work to justify the fee. Until then, a free ledger that produces clean reports is enough.
 
-If invoicing is the only piece you need, continue with the [free invoicing software guide](/business/free-invoicing-software/). The [free QuickBooks alternatives guide](/business/quickbooks-alternatives/) is framed around migration, while the [spreadsheet](/business/free-spreadsheet-alternatives/) and [time tracking](/business/free-time-tracking-software/) guides cover the records that feed the books.
+The records that feed the books, a budget sheet or a log of billable hours, are covered in the [spreadsheet](/business/free-spreadsheet-alternatives/) and [time tracking](/business/free-time-tracking-software/) guides.

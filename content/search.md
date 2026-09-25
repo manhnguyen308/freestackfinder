@@ -1,6 +1,6 @@
 ---
 title: "Search"
-description: "Search Free Stack Finder guides by software category, tool name, or use case to find practical free-plan comparisons faster."
+description: "A search box over every Free Stack Finder guide and the tools each one covers."
 noindex: true
 layout: "search"
 sitemap:

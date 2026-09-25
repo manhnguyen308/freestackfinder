@@ -52,16 +52,13 @@ In the free version:
 - Fusion effects workflow
 - No watermark exports
 
-Limits to test:
-- The free tier is strong, but not limitless
-- Blackmagic currently positions it around virtually all 8-bit formats up to 60fps in Ultra HD
-- Studio adds more effects, AI tools, and broader support for higher-end footage
+Blackmagic positions free Resolve around 8-bit formats up to 60fps in Ultra HD. Resolve Studio, the paid version, adds broader support for higher-end footage along with more effects and AI tools.
 
 It suits solo editors replacing Premiere for YouTube, freelance, documentary, education, and small production work without a monthly Adobe subscription.
 
 The learning curve is real because Resolve is not a Premiere clone. If representative footage imports and exports correctly and the team can absorb the interface change, it can replace much of a solo Premiere workflow.
 
-For a broader ranking of free editors beyond the Premiere question, see our [free video editing software guide](/video/free-video-editing-software/).
+Readers who never used Premiere will find a broader ranking in the [free video editing software guide](/video/free-video-editing-software/).
 
 [Download DaVinci Resolve free ->](https://www.blackmagicdesign.com/products/davinciresolve/)
 
@@ -76,10 +73,7 @@ The free desktop app covers:
 - Easy desktop and mobile workflow
 - Directly useful tools for TikTok, Reels, and Shorts style editing
 
-Watermarks and limits:
-- CapCut's own help pages now make clear that watermark behavior depends on how you build and export
-- Standard edits are often clean, but templates, stock assets, or a default outro can add a watermark or attribution requirement
-- It is not a true replacement for long-form editorial work
+According to CapCut's help pages, a watermark depends on how the video is built and exported. Plain edits usually export clean, while templates, stock assets, or a default outro can add a watermark or an attribution requirement.
 
 Creators who mainly cut short social videos may not need everything Premiere offers, and for them a faster short-form editor is the real replacement. Long-form professional handoff, plugin workflows, and complex post-production are beyond it.
 
@@ -187,8 +181,4 @@ If you are editing solo and delivering standard web video, those reasons usually
 
 Leave Premiere between projects rather than in the middle of one. Finish active work where it started, then run the next project in **DaVinci Resolve** or **Kdenlive** from import to delivery, which shows whether the formats, exports, and interface hold up under a real deadline.
 
-If you need to capture tutorials, demos, or talking-head footage before editing, pair these tools with our guide to [free screen recording software](/video/free-screen-recording-software/).
-
-Mac users switching from Premiere will also find platform-specific guidance, including iMovie as a starting point, Apple Silicon performance notes, and macOS codec considerations, in our [free video editing software for Mac guide](/video/free-video-editing-mac/).
-
-If open-source licensing and source availability are priorities, our guide to [free open-source video editors](/video/free-open-source-video-editors/) covers Kdenlive, Shotcut, OpenShot, and Blender VSE in depth.
+Tutorials and demos usually start in a recorder, compared in the [free screen recording software guide](/video/free-screen-recording-software/). Mac users leaving Premiere can start with iMovie, covered with Apple Silicon and codec notes in the [free video editing software for Mac guide](/video/free-video-editing-mac/), while Kdenlive, Shotcut, OpenShot, and Blender VSE get fuller profiles in the [free open-source video editors guide](/video/free-open-source-video-editors/).

@@ -7,7 +7,7 @@ enableGitInfo = false
 summarylength = 40
 
 [params]
-  description = "Find the best free alternatives to paid software. We compare free-plan limits, practical tradeoffs, and when the paid version is worth it."
+  description = "Comparisons of free design, office, business, cloud, security, and video software, with the limit that ends each free plan."
   author = "FreeStackFinder Team"
   tagline = "Stop paying for software you don't have to."
   email = "contact@freestackfinder.com"

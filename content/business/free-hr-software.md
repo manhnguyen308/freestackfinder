@@ -46,7 +46,7 @@ Free HR software does not replace employment law advice or a proper HR function 
 
 The first decision is which HR problem is painful. Employee records point toward an HRIS. Shift scheduling points toward Homebase. Payroll should be evaluated separately. A spreadsheet can work for two people, but it becomes fragile when leave approvals, documents, and onboarding tasks all depend on one manual file.
 
-If you're also evaluating broader tools for your business, see the guides on [free project management software](/business/free-project-management-software/) and [free time tracking software](/business/free-time-tracking-software/).
+Shift schedules and task lists overlap with this guide, and the [free time tracking software](/business/free-time-tracking-software/) and [free project management software](/business/free-project-management-software/) guides compare those tools directly.
 
 
 ## Five ways to manage a small team's records
@@ -191,4 +191,4 @@ The record that causes the most trouble today should decide the tool. Leave requ
 
 Google Sheets remains a valid starting point for very small operations, but it does not scale. The first time a leave dispute or a missing employment document becomes a real problem, a structured HRIS earns its setup time immediately.
 
-If you are evaluating tools alongside HR software, see the guides on [free invoicing software](/business/free-invoicing-software/) and [free accounting software](/business/free-accounting-software/).
+Bookkeeping tools that sell payroll as a paid add-on, Wave among them, are compared in the [free accounting software guide](/business/free-accounting-software/). Client billing is covered in the [free invoicing software guide](/business/free-invoicing-software/).

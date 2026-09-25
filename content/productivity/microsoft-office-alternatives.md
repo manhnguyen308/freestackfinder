@@ -115,7 +115,7 @@ Google Docs, Sheets, and Slides cover everyday browser-based documents and live 
 
 [Use Google Workspace free →](https://workspace.google.com)
 
-For team messaging alongside Google Workspace, see our [free Slack alternatives guide](/productivity/slack-alternatives/) for the best free options to replace Slack. If you mostly need a lightweight place to capture research, meeting notes, or class notes, our [free note-taking apps guide](/productivity/free-note-taking-apps/) may be a better starting point than a full office suite.
+Team chat beside these documents is compared in the [free Slack alternatives guide](/productivity/slack-alternatives/). For research, meeting notes, or class notes, a [free note-taking app](/productivity/free-note-taking-apps/) may be a better starting point than a full office suite.
 
 
 ### 2. Best offline suite: LibreOffice
@@ -137,7 +137,7 @@ Where to be careful:
 - Check .docx fonts and spacing: our sample looked different across the three editors
 - Interface looks dated compared to modern alternatives
 - Real-time co-editing is limited, although online versions exist
-- Less intuitive for new users coming from Microsoft Office's ribbon interface
+- Menus differ from Microsoft Office's ribbon, which slows new users at first
 
 Writer displayed the table, nested list, and wrapped image in our test DOCX. The nested bullets had more space between them than in the Google Docs and OnlyOffice views, and the font sample appeared serif. These visible differences are a reason to check the layout of your own files before sending them.
 
@@ -172,7 +172,7 @@ What's included (free desktop version):
 
 Where it can feel limited:
 - Free desktop version has some limits on cloud collaboration
-- Less well-known so community resources are smaller than LibreOffice
+- A smaller community than LibreOffice, so fewer tutorials and forum answers
 - The online/cloud version has a more limited free tier
 
 If your work regularly involves tracked changes, review comments, or specific table formatting, compare the same files in OnlyOffice and LibreOffice. In our review view, OnlyOffice showed the reviewer comment in a left-hand panel and a popup identifying the deleted word "recommended." Google Docs also displayed both replacement suggestions and the comment, so this sample does not show that OnlyOffice handles review features better.
@@ -204,21 +204,21 @@ Subscription offers may also appear as a separate upgrade prompt. The captured o
 
 Who should skip WPS: Anyone handling client contracts, financial records, or sensitive business documents should weigh the privacy considerations before using WPS's cloud sync features. For offline document editing only, without syncing to WPS's cloud, the privacy concern is more contained, but if that describes your use, LibreOffice does the same job without the tradeoffs.
 
-## Common mistakes when switching from Microsoft Office
+## Where Office switches go wrong
 
 Office alternatives most often break down at file exchange, specialized Excel features, or an overlooked Outlook workflow. Check those dependencies before moving active work.
 
-Switching everything at once. Keep the existing suite available while you test low-stakes, representative documents in the alternative. Move deadline-sensitive work only after fonts, tracked changes, formulas, and exports have survived that round trip.
+Keep the existing suite available while you test low-stakes, representative documents in the alternative. Move deadline-sensitive work only after fonts, tracked changes, formulas, and exports have survived that round trip.
 
-Sending .odt files to Office users. LibreOffice's native format is .odt; recipients on locked-down corporate machines may not open it cleanly. Save as .docx when the reader uses Microsoft Office, then check the exported file in Office or Google Docs for formatting shifts.
+LibreOffice saves .odt files by default, and recipients on locked-down corporate machines may not open them cleanly. Save as .docx when the reader uses Microsoft Office, then check the exported file in Office or Google Docs for formatting shifts.
 
 {{< screenshot src="/img/screenshots/office-alternatives/libreoffice-keep-format-dialog.png" alt="LibreOffice Non-standard file format warning with choices to use ODF or Word DOCX format" caption="LibreOffice warns that some formatting or content may not save in the selected DOCX format, then offers ODF or Word format. The warning alone does not show that anything was lost." >}}
 
-Assuming Google Sheets matches every Excel workflow. Power Query, Power Pivot, and complex VBA macros either do not exist in Sheets or require a different approach. If the work depends on one of those features, test that exact workflow before canceling the subscription.
+Power Query, Power Pivot, and complex VBA macros either do not exist in Google Sheets or require a different approach. If the work depends on one of those features, test that exact workflow before canceling the subscription.
 
-Trusting the auto-converter on heavily formatted documents. Multi-column layouts, embedded equations, mail-merge templates, and long documents with custom styles are more likely to change during conversion. Test legacy files that depend on specific fonts or Microsoft-only field codes instead of assuming the preview proves compatibility.
+Multi-column layouts, embedded equations, mail-merge templates, and long documents with custom styles are more likely to change during conversion. Test legacy files that depend on specific fonts or Microsoft-only field codes instead of assuming the preview proves compatibility.
 
-Forgetting about Outlook. Office's calendar and inbox are tightly woven into a lot of small-business workflows. Replacing Word and Excel is the easy part: replacing Outlook usually means moving to Gmail or Proton Mail and adjusting how meeting invitations and shared calendars work. Plan that move separately.
+Outlook is easy to leave out of the plan. Office's calendar and inbox are tightly woven into many small-business workflows, and replacing Outlook usually means moving to Gmail or Proton Mail and adjusting how meeting invitations and shared calendars work. Plan that move separately.
 
 ## When Microsoft 365 is worth paying for
 
@@ -237,4 +237,4 @@ You should keep Microsoft 365 if you:
 - Small businesses: personal Google apps cover basic documents, but custom-domain email and managed organization controls require a paid Google Workspace plan.
 - Power Excel users: Keep Microsoft 365 if the work depends on Power Query, Power Pivot, or VBA. Ordinary formulas and charts are covered in Sheets.
 
-For writing specifically, see our [free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for grammar and style tools that pair well with any free office suite. If you primarily need a free spreadsheet tool rather than a full office suite, see our [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/) for a deeper comparison of Google Sheets, LibreOffice Calc, and other Excel replacements. If your document work regularly involves PDFs, editing, signing, or compressing, see our [free PDF editor alternatives guide](/productivity/free-pdf-editor-alternatives/) for the best no-cost tools, including LibreOffice Draw. For scheduling work around documents and team deadlines, our [free calendar apps guide](/productivity/free-calendar-app/) covers the best no-cost calendar tools.
+Grammar and style checkers that work inside these suites are compared in the [free Grammarly alternatives guide](/productivity/grammarly-alternatives/). Spreadsheet-only work gets a deeper look at Google Sheets, LibreOffice Calc, and Zoho Sheet in the [free spreadsheet alternatives guide](/business/free-spreadsheet-alternatives/), and PDF editing, signing, and compression, including LibreOffice Draw, in the [free PDF editor guide](/productivity/free-pdf-editor-alternatives/).

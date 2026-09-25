@@ -107,7 +107,7 @@ LastPass is not ranked in this guide. Its Free plan has been limited to one devi
 
 Paid password manager plans make sense for families that need shared collections alongside private vaults. Bitwarden currently lists Families at [$47.88 per year for up to six users](https://bitwarden.com/pricing/). Compare the renewal price and account-recovery model before moving a household.
 
-Businesses also benefit from paid team password managers: shared vault access with role-based permissions, user onboarding and offboarding controls, and audit logs are all features that matter at team scale and are not available on free tiers. For the full breakdown of free and low-cost team options, see our [free password managers for teams guide](/security/free-password-managers-teams/).
+Businesses also benefit from paid team password managers: shared vault access with role-based permissions, user onboarding and offboarding controls, and audit logs are all features that matter at team scale and are not available on free tiers. Free and low-cost team options are compared in the [free password managers for teams guide](/security/free-password-managers-teams/).
 
 FIDO2 WebAuthn security keys work with Bitwarden Free. Premium is required for YubiKey OTP and Duo, which are separate two-step login methods, as well as the integrated TOTP generator. Bitwarden currently lists Premium at [$19.80 per year](https://bitwarden.com/pricing/).
 
@@ -125,7 +125,7 @@ If you already use or plan to use NordVPN, NordPass sits within the same Nord Se
   </div>
 </div>
 
-For protecting those accounts with a second factor beyond your password, see our [free 2FA authenticator apps guide](/security/best-free-2fa-apps/): enabling 2FA on your email and password manager itself is the most important next step after choosing a password manager.
+Once the vault is set up, turn on two-factor authentication for the email account and for the password manager itself. The [free 2FA authenticator apps guide](/security/best-free-2fa-apps/) compares the apps that generate those codes.
 
 ## Move email and banking accounts first
 

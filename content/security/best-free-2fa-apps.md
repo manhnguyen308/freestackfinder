@@ -30,7 +30,7 @@ Losing a phone can also mean losing every code stored only on that device. Recov
 
 Useful features include an encrypted local vault, an encrypted backup that you control, and source code that can be inspected. No single feature replaces saved recovery codes from the accounts themselves.
 
-For the password manager that stores the accounts your 2FA codes protect, see our [free password managers guide](/security/free-password-managers/). For the VPN that protects your connection when entering those codes on public networks, see our [free VPN guide](/security/free-vpn/).
+The first factor is the password itself, and the [free password managers guide](/security/free-password-managers/) compares where to keep a unique one for every account. A [free VPN](/security/free-vpn/) covers a different risk, traffic on public Wi-Fi.
 
 ## What matters before you migrate codes
 

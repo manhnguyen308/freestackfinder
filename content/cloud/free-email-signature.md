@@ -62,7 +62,7 @@ The ongoing free options are narrower than the signup buttons suggest. No-accoun
 
 Before choosing a tool, decide whether the signature is personal or part of a brand system. Individuals usually need clean HTML and a few links. Teams need consistency, image hosting, disclaimers, and a way to update everyone when a title, logo, or legal footer changes.
 
-If your email setup involves a custom domain, see our [free email service comparison](/cloud/free-email-service/) for providers that support custom domains on their free plan.
+Zoho Mail is the only service in the [free email service comparison](/cloud/free-email-service/) whose free plan takes a custom domain, and only in selected regions.
 
 
 ## Three ongoing options and two trials
@@ -178,4 +178,4 @@ Before adding a new signature to client mail, send a test message to a Gmail add
 
 For teams, no free tool handles centralized signature management at scale. That is one area where a paid plan earns its cost.
 
-If you are setting up a full communication stack, pair your signature with a solid [free email service](/cloud/free-email-service/) and consider [free cloud storage](/cloud/free-cloud-storage-comparison/) for sharing the files and assets your signature links to. For business users, a professional email signature pairs naturally with a good [free CRM](/business/free-crm-software/) to manage the contacts you are communicating with.
+The contacts a signature invites often end up in a [free CRM](/business/free-crm-software/), and the files it links to in [free cloud storage](/cloud/free-cloud-storage-comparison/).

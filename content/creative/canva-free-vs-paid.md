@@ -77,22 +77,22 @@ rows:
     paid: Solo professionals, small businesses, marketers, teams
 {{< /comparison-table >}}
 
-Canva regularly adjusts what is included on each tier, so treat any specific quota number as a moving target rather than a contract. The main difference has been consistent for years: free covers the canvas and most templates, while paid saves repeated work across many designs and assets.
+Canva regularly adjusts what is included on each tier, so treat any specific quota number as a moving target rather than a contract. For years, free has covered the canvas and most templates, while paid saves repeated work across many designs and assets.
 
 
 ## What Canva Free is good enough for
 
-Canva Free covers several common design jobs. The free plan is likely enough when your workflow looks like the examples below.
+The free plan fits jobs that are occasional, single-use, or still at the learning stage.
 
-One-off personal projects. Birthday invitations, a school-event poster, a community noticeboard flyer, holiday cards, or a class presentation can all start from free templates. Filter the asset search to free items before settling on a layout.
+Birthday invitations, a school-event poster, a community noticeboard flyer, holiday cards, or a class presentation can all start from free templates. Filter the asset search to free items before settling on a layout.
 
-Light social posting. An occasional Instagram post, LinkedIn graphic, or Facebook event banner does not require automated resizing or shared brand controls.
+Occasional social posts, such as an Instagram post, LinkedIn graphic, or Facebook event banner, do not require automated resizing or shared brand controls.
 
-Single-use professional documents. A resume, one-page proposal, report cover, or basic business card can be completed on the free plan when its template and assets are also free.
+A resume, one-page proposal, report cover, or basic business card can be completed on the free plan when its template and assets are also free.
 
-Learning the tool. Start free while learning the editor and building the first designs. Upgrade only after a paid feature becomes a repeated requirement.
+While you are still learning the editor, stay on the free plan and upgrade only after a paid feature becomes a repeated requirement.
 
-Light photo edits. Cropping, text overlays, basic filters, and fitting an image into a template are available without a Pro subscription. If background removal or AI editing is the reason you are considering Pro, check the current free allowance first because Canva has changed how these tools are packaged.
+Cropping, text overlays, basic filters, and fitting an image into a template are available without a Pro subscription. If background removal or AI editing is the reason you are considering Pro, check the current free allowance first because Canva has changed how these tools are packaged.
 
 Start with a complete free-plan export. It reveals whether the chosen template, assets, and output format are available before you commit to a subscription.
 
@@ -143,21 +143,19 @@ Consider upgrading if any of these descriptions match how you work now, not how 
 In each case, the relevant value is a repeated production step that the paid plan removes.
 
 
-## Common mistakes when deciding between Free and Paid
+## Upgrade reasons to check twice
 
-These mistakes come from treating the wrong feature as the deciding factor:
+A single premium template rarely justifies a recurring plan, so check whether a free layout can produce the same structure before subscribing.
 
-Mistake 1: Upgrading for one premium template. Check whether a free layout can produce the same structure before subscribing. A template used once rarely justifies a recurring plan.
+Before paying for storage, check which files consume the allowance. Raw video and high-resolution source photos may fit better in a separate service from the [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).
 
-Mistake 2: Upgrading only for storage. Check which files consume the allowance before paying. Raw video and high-resolution source photos may fit better in a separate storage service; see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/) for alternatives.
+If you remove a background once a month, check Canva's current free allowance and compare it with free alternatives for occasional jobs. The upgrade matters when background removal is a repeated task.
 
-Mistake 3: Upgrading because of one-off background removal. If you remove a background once a month, check Canva's current free allowance and compare it with free alternatives for occasional jobs. The upgrade only really matters when you do this repeatedly.
+Brand kits are easy to underestimate. Re-entering colors, fonts, and logos across recurring designs creates avoidable work, so compare that repeated setup with the current subscription price before deciding whether shared brand controls justify the upgrade.
 
-Mistake 4: Underestimating brand kits. Re-entering colors, fonts, and logos across recurring designs creates avoidable work. Compare that repeated setup with the current subscription price before deciding whether shared brand controls justify the upgrade.
+Premium elements are easy to miss until export. Filter to free elements early, or budget for paid assets instead of a full subscription if you need them rarely.
 
-Mistake 5: Ignoring premium elements until you commit. Some people design entire projects, fall in love with the result, and only at export realize half the elements are paywalled. The fix is small: filter to free elements early, or budget for paid assets instead of a full subscription if you only need them rarely.
-
-Mistake 6: Picking based on price alone. Compare the subscription with the time spent replacing premium assets, resizing designs, and applying brand settings by hand. Weekly design work may justify the plan; two projects a year usually will not.
+Compare the subscription with the time spent replacing premium assets, resizing designs, and applying brand settings by hand. Weekly design work may justify the plan; two projects a year usually will not.
 
 
 ## Practical examples by workflow
@@ -224,6 +222,4 @@ Before paying, complete one representative project with Canva Free and any exter
 
 Canva Free can handle occasional graphics with its included templates and assets. The paid plan changes access to assets, background removal, brand controls, resizing, storage, and publishing tools; it does not automatically improve the design decisions in a project.
 
-Canva Pro is worth paying for when design is part of your routine, not your hobby. If you publish weekly, run a small business, work with a team that needs shared brand assets, or repeatedly need background removal, brand kits, and resizing, the paid plan may save more time each month than it costs.
-
-Once you have picked your tier, the rest of your design stack matters more than any one tool. Pair Canva with our guides to [free Canva alternatives](/creative/canva-alternatives/), [free stock photo sites](/creative/free-stock-photos/), and [free font websites](/creative/free-font-websites/) for the assets that go into each design.
+Canva Pro is worth paying for when design is a regular part of the work. If you publish weekly, run a small business, work with a team that needs shared brand assets, or repeatedly need background removal, brand kits, and resizing, the paid plan may save more time each month than it costs.

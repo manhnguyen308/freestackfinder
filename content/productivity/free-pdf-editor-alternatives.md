@@ -81,11 +81,11 @@ What the free tier handles:
 - No page limits, no watermarks, no login required for basic use
 
 Where the free tier stops:
-- Some advanced AI-powered features are gated behind an account
+- Some advanced AI-powered features need an account
 - The mobile app has fewer features than the desktop version
 - Full editing needs the desktop app; PDFgear's [browser tools](https://www.pdfgear.com/online-tools/) cover simpler one-off tasks
 
-It suits people who regularly handle contracts, invoices, or forms and want a desktop editor without an Acrobat subscription. Most tools in this space either add watermarks, cap pages, or gate editing behind a paywall. PDFgear gives a complete editing experience on the free tier. The interface is clean and closer to Acrobat than most open-source alternatives.
+It suits people who regularly handle contracts, invoices, or forms and want a desktop editor without an Acrobat subscription. Many free PDF editors add watermarks, cap pages, or charge for editing. PDFgear's free tier has none of those limits for basic use, and its interface is closer to Acrobat than most open-source alternatives.
 
 [Visit PDFgear](https://www.pdfgear.com/)
 
@@ -105,8 +105,8 @@ Included without an account:
 - No account required to use any tool
 - Files are deleted from servers after processing
 
-Where it falls short:
-- Not designed for sustained text editing: tools are task-by-task, not a persistent editor session
+Where the web tools struggle:
+- Each tool handles one task at a time, so long text edits are awkward
 - Slower with large files and batches than a local desktop app
 - The PDF24 desktop app is also free but more limited than PDFgear in editing depth
 
@@ -212,7 +212,7 @@ Consider a paid tool when:
 
 For most freelancers, students, small businesses, and home users, PDFgear or PDF24 Tools cover the full range of common tasks at no cost.
 
-If your PDF needs overlap with general document creation, also see our guides on [free Microsoft Office alternatives](/productivity/microsoft-office-alternatives/) and [free note-taking apps](/productivity/free-note-taking-apps/): both cover document workflows that often sit alongside PDF work.
+Most PDFs start as a document or a set of notes, and the [free Microsoft Office alternatives](/productivity/microsoft-office-alternatives/) and [free note-taking apps](/productivity/free-note-taking-apps/) guides cover that earlier step.
 
 
 ## PDFgear for editing, PDF24 for quick browser tasks

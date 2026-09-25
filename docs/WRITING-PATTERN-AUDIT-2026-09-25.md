@@ -2,6 +2,8 @@
 
 Detect-mode audit of every reader-visible surface, run against `website-content-humanizer.md` (including the patterns merged from blader/humanizer on this date) and the public-content rules in `CLAUDE.md`. Findings name the pattern, quote the line, and give the fix in a few words. Nothing was rewritten. No score is given, and no finding says whether a machine wrote anything.
 
+Status: the strong tells and medium findings 1 to 13 were fixed in Day 86b (see `freestackfinder-progress-log.md`). Weak tells were left in place unless they sat beside a stronger one. Line numbers below refer to the copy as audited, before those fixes.
+
 ## Scope and method
 
 - Surfaces: 64 content files (50 articles, 6 hubs, homepage, Start Here, search, about, contact, disclaimer, privacy, terms), 19 templates in `layouts/`, `config.toml`, and the UI strings in `static/js/`.

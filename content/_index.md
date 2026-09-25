@@ -1,4 +1,4 @@
 ---
 title: "Free Stack Finder: find free software alternatives"
-description: "Find practical free software alternatives with clear free-plan tradeoffs and specific notes on when a paid version makes sense."
+description: "Free software comparisons for design, office work, business, cloud storage and email, security, and video, with the upgrade point for each."
 ---

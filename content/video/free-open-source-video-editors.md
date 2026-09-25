@@ -76,7 +76,7 @@ The full editor has no paid tier. It covers multi-track timeline editing, a broa
 
 The timeline model takes adjustment for anyone coming from Kdenlive or Premiere, and projects with many clips and tracks can be harder to manage than in Kdenlive. Color tools are limited, and auto-captions, motion tracking, and complex compositing are not included.
 
-It is worth keeping installed even alongside a different primary editor, because it handles stubborn imports from old camcorder formats, mixed sources, and uncommon devices. With standard HD or 4K footage from modern cameras, Kdenlive or OpenShot will be more intuitive, and Shotcut gives up ease of use without a matching benefit.
+It is worth keeping installed even alongside a different primary editor, because it handles stubborn imports from old camcorder formats, mixed sources, and uncommon devices. With standard HD or 4K footage from modern cameras, that import advantage matters less, and Kdenlive or OpenShot is the easier daily editor.
 
 [Download Shotcut free ->](https://shotcut.org)
 
@@ -118,37 +118,37 @@ It is worth installing for technically curious editors who want to evaluate open
 
 ## Who should skip open-source editors entirely
 
-Open-source editors are a good fit for a specific kind of user. They are not the right starting point for everyone.
+Four needs point away from the editors above.
 
-If you need serious color grading. DaVinci Resolve's free tier is proprietary, but its scopes and node-based grading go well beyond the tools listed here. If color work is central to the output, license type should not drive the choice.
+Serious color grading points to DaVinci Resolve. Its free tier is proprietary, but its scopes and node-based grading go well beyond the tools listed here, so license type should not drive the choice when color work is central to the output.
 
-If you create primarily short-form social content. CapCut is not open-source, but it combines auto-captions, templates, social-format presets, and platform-specific sizing in one workflow. The open-source editors here require more manual setup for those jobs. See our [free Premiere Pro alternatives guide](/video/premiere-pro-alternatives/) for a comparison that includes both open-source and proprietary options.
+Short-form social content points to CapCut. It is not open-source, but it combines auto-captions, templates, social-format presets, and platform-specific sizing in one workflow, where the open-source editors here need more manual setup. The [free Premiere Pro alternatives guide](/video/premiere-pro-alternatives/) compares open-source and proprietary options side by side.
 
-If you want a Mac-native editor. iMovie is a free App Store download for supported Macs and handles casual editing. DaVinci Resolve has an Apple Silicon build. Kdenlive works on Mac but follows a cross-platform interface. See the [free video editing software for Mac guide](/video/free-video-editing-mac/) for the platform-specific tradeoffs.
+Mac users who want a native editor can start with iMovie, a free App Store download for supported Macs that handles casual editing. DaVinci Resolve has an Apple Silicon build, and Kdenlive runs on Mac with a cross-platform interface. The [free video editing software for Mac guide](/video/free-video-editing-mac/) covers the platform-specific tradeoffs.
 
-If you need auto-captions or motion tracking. These features are not well-represented in the open-source editing space. CapCut and DaVinci Resolve are the practical options here.
+Auto-captions and motion tracking are thin in the open-source editing space, so CapCut and DaVinci Resolve are the practical options for them.
 
 
-## Common mistakes when choosing an open-source editor
+## Open-source editor assumptions to test
 
-Picking Kdenlive without checking the platform. Kdenlive publishes separate builds for Linux, Windows, and macOS, and platform-specific behavior can differ. Check the current requirements and test representative footage before moving a project.
+Kdenlive publishes separate builds for Linux, Windows, and macOS, and platform-specific behavior can differ. Check the current requirements and test representative footage before moving a project.
 
-Assuming open-source means outdated. Kdenlive and Blender both release regularly and have large contributor bases. OpenShot and Shotcut are actively maintained. The "open-source = abandonware" assumption does not apply here.
+Kdenlive and Blender both release regularly and have large contributor bases, and OpenShot and Shotcut are actively maintained.
 
-Using OpenShot for heavy projects. OpenShot is designed for a simpler editing workflow. Editors who need proxy workflows, advanced color tools, or long 4K timelines should test Kdenlive or another deeper editor with representative footage before moving the project.
+OpenShot is designed for a simpler editing workflow, so editors who need proxy workflows, advanced color tools, or long 4K timelines should test Kdenlive or another deeper editor with representative footage before moving the project.
 
-Treating Blender VSE as a general NLE recommendation. Blender's video editor is excellent within Blender workflows. It is not a general-purpose editor recommendation for people who do not already use Blender.
+Blender's video editor makes sense inside Blender workflows, but it is a poor general-purpose pick for people who do not already use Blender.
 
-Waiting for Olive to stabilize before learning another editor. Olive is worth following, but it is not yet at a point where it should be your primary tool. In the meantime, Kdenlive is the practical choice.
+Olive is worth following but not yet ready to be a primary tool, so learn Kdenlive rather than waiting for Olive to stabilize.
 
 
 ## Pairing with other free tools
 
-Most editing workflows need more than an editor. Open-source editors work well alongside free recording and capture tools. If you need to capture screen recordings, gameplay, or webcam footage before editing, see our guide to [free screen recording software](/video/free-screen-recording-software/): OBS Studio is itself open-source and pairs naturally with Kdenlive.
+Screen recordings, gameplay, and webcam footage often start in OBS Studio, which is itself open-source and pairs naturally with Kdenlive. The [free screen recording software guide](/video/free-screen-recording-software/) compares it with ShareX and other recorders.
 
 
 ## Kdenlive for depth, OpenShot for simpler timelines
 
 Install two rather than one. **Kdenlive** as the daily editor and **Shotcut** as the import fallback cover both the everyday edit and the stubborn file, and neither adds a watermark or a paid tier. **OpenShot** is the gentler start for a simple first project, Blender VSE belongs only in projects that already depend on Blender, and Olive is still one to watch rather than one to trust with the only copy of a project.
 
-For a comparison that also includes proprietary tools with free tiers, see our [free video editing software guide](/video/free-video-editing-software/) covering DaVinci Resolve and CapCut.
+DaVinci Resolve and CapCut, the proprietary free options mentioned above, are ranked against these editors in the [free video editing software guide](/video/free-video-editing-software/).

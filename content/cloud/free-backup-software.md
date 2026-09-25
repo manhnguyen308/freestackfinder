@@ -48,7 +48,7 @@ The setup becomes restrictive for:
 
 A small file collection can combine a sync service, a scheduled backup job, and a local drive instead of expecting one tool to cover every recovery path.
 
-For the cloud destinations that pair best with backup tools, see our [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).
+Cloud destinations for those jobs, with their usable space after shared quotas, are compared in the [free cloud storage comparison](/cloud/free-cloud-storage-comparison/).
 
 
 ## Five tools for local and offsite backups

@@ -54,13 +54,13 @@ rows:
 {{< /comparison-table >}}
 
 
-## Paid project plans often gate views and administration
+## Paid project plans hold back views and administration
 
 Project-management pricing mixes per-seat fees, minimum seat counts, and flat workspace charges. Before comparing subscription totals, list the functions the team uses: assigning tasks, tracking status, viewing a calendar, storing files, or reporting across projects. Trello, Asana, ClickUp, Notion, and Linear leave different subsets of that work on their free plans.
 
 Paid tiers add advanced automation, workload reporting, portfolio management, time tracking, and SSO. A free plan can still cover a small active project when its collaborator and storage caps fit the team.
 
-For free tools that complement project management, particularly for tracking income alongside your projects, see our [free QuickBooks alternatives guide](/business/quickbooks-alternatives/) for free accounting tools that work alongside any project management setup. If your projects start as sales opportunities before they become active work, our [free CRM software guide](/business/free-crm-software/) covers the tools that manage that earlier pipeline.
+Income from those projects is tracked in accounting software rather than a project tool, compared in the [free QuickBooks alternatives guide](/business/quickbooks-alternatives/). Work that starts as a sales lead belongs in a CRM first, and the [free CRM software guide](/business/free-crm-software/) covers that earlier pipeline.
 
 
 ## Five project systems with different caps
@@ -81,10 +81,10 @@ What you can do for free:
 - Mobile apps for iOS and Android
 - Unlimited Power-Ups per board
 
-The practical limit:
-- Limited to 10 boards: larger organizations running many simultaneous projects hit this cap
-- Timeline (Gantt), table, dashboard, and map views require the Premium plan
-- Advanced automation requires paid
+Held back for paid plans:
+- More than 10 boards per workspace
+- Timeline (Gantt), table, dashboard, and map views, which need Premium
+- Advanced automation
 
 Trello fits freelancers and small teams whose work maps naturally to a Kanban flow such as to do, in progress, and done. Creative projects, content pipelines, and client work can all use that structure.
 
@@ -209,4 +209,4 @@ For solo work, Notion Free handles tasks and notes together without a separate t
 
 Each free plan runs out in a different unit: boards in **Trello**, users in **Asana**, storage in **ClickUp**, and issues and teams in **Linear**. Estimate which unit your team will use up first, and favor the plan where that limit sits furthest away. Monday.com, Smartsheet, and Basecamp make more sense once automation, reporting, or compliance is a current requirement.
 
-Once your projects are organized, the next step is getting paid. See our guide to [free invoicing software in 2026](/business/free-invoicing-software/) for tools that close the billing loop without a subscription. For tracking the hours behind your projects, our [free time tracking software guide](/business/free-time-tracking-software/) covers the best options for teams and freelancers at no cost. If you are also replacing team chat and scheduling tools, pair this with our [free Slack alternatives guide](/productivity/slack-alternatives/) and [best free calendar apps guide](/productivity/free-calendar-app/). For documenting the workflows and processes your projects follow, see our [free Visio alternatives guide](/business/free-visio-alternatives/); draw.io in particular pairs well with any project management tool as a free diagramming layer. For managing people alongside your projects, see our [free HR software guide](/business/free-hr-software/) covering HRIS tools, leave tracking, and scheduling for small teams.
+Hours tracked against a project and the invoice that follows have their own guides: [free time tracking software](/business/free-time-tracking-software/) and [free invoicing software](/business/free-invoicing-software/). Team chat and process diagrams often sit beside the board, and the [free Slack alternatives](/productivity/slack-alternatives/) and [free Visio alternatives](/business/free-visio-alternatives/) guides compare those.

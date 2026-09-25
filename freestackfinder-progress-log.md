@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-25
-**Current day:** 86a
+**Current day:** 86b
 
 ## Current state
 
@@ -17,7 +17,20 @@
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
-- Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. No copy has been changed from it yet; its "Suggested order of work" is the next content task
+- Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
+
+---
+
+### Day 86b - Writing-pattern audit fixes
+
+- Date: 2026-09-25. Applied the Day 86a report in its suggested order across 52 articles and pages, 5 templates, and `config.toml`. No ranking, recommendation, price, plan limit, date, image, or affiliate link changed, and `lastmod` stayed as it was because no plan information or advice changed.
+- Strong tells: removed the Boomerang "not X; it is Y" contrast, the double "If what you need is..." paragraph in the accounting guide, and three one-line closers (team email, FreeCAD, security audit tools).
+- Internal links: rewrote every "For ..., see our", "If you ..., see our", and "See our" sentence (about a hundred) so the link sits on a claim about the other page. Long closing link runs were cut to the two or three most relevant guides, duplicate links to the same guide within a short span were removed, and each new pointer was checked against the target page. Two inaccurate pointers were dropped: the CRM guide no longer says the project management guide covers Zoho Projects, and the calendar guide no longer sends readers to the chat-assistant guide for calendar management. The web analytics guide gained a link to the security audit tools where it discusses maintaining a self-hosted Matomo server.
+- Sibling pages: reworded one side of each shared sentence or bullet list (conferencing and Zoom alternatives, video editing and Premiere alternatives, writing tools and chat assistants, accounting and QuickBooks alternatives, the Pixlr ad line, and the Google storage sentence on the Cloud pages). In-page repeats found on the way were merged: the Resolve 8-bit limit, CapCut watermark rules, Whereby's room limits, Harvest's seat limits, and TimeCamp's paid features.
+- Labels and lists: website builders now describe each plan in prose instead of five "What you can ... for free:" and three "The practical limit:" labels; time tracking, project management, Grammarly alternatives, PDF editors, conferencing, video editing, and screen recording use distinct label lines, and bullets no longer end in "requires paid". Fragment-label lists (a bare noun phrase followed by a period) became full sentences in conferencing, Canva alternatives, Canva Free vs Paid, FreeCAD, Photoshop, Office, Slack, Mac video, video editing, resume builders, and the open-source editors' "who should skip" section. The nine "Common mistakes..." headings became page-specific ones.
+- Other medium findings: figurative "gate" removed in seven places, unsupported praise ("excellent", "more intuitive", "less well-known") replaced with the actual difference, the Canva colon reveal rewritten, and runs of identical sentence openers broken up in Canva alternatives, VPN, and note-taking.
+- Site copy: the site, homepage, search, and about descriptions no longer open with an imperative. The positioning line that appeared in seven places now appears in full only on the about page; the footer, hub note, article review block, author fallback, and one homepage tenet ("Weaknesses stated") each say something different. The disclaimer states editorial independence once with its mechanism, and the about page drops the "discover too late" generalization, the parallel triad, and the "here" link text.
+- Validation: `run_quality_checks.py --with-counts` 3 passed with 0 validator warnings, `git diff --check` clean, no dash or curly-quote characters added, and a Hugo build rendered the new template strings on the homepage, hubs, and articles. A rescan of the writing patterns found no identical sentences shared between pages; the remaining strong and rule matches are the false positives already listed in the report.
 
 ---
 

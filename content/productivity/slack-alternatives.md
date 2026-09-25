@@ -44,7 +44,7 @@ It suits creator groups, open-source projects, clubs, and small teams whose work
 
 For a private work group, disable public discovery, assign administrative roles carefully, and create only the channels the team will use. Store large or business-critical files in a managed file service and link them from Discord so access and retention do not depend on chat attachments.
 
-For teams also looking for dedicated meeting tools for more formal client calls, see our [free Zoom alternatives guide](/video/zoom-alternatives/).
+Formal client calls fit a dedicated meeting tool better than a Discord voice channel, and the [free Zoom alternatives guide](/video/zoom-alternatives/) compares those.
 
 [Try Discord free →](https://discord.com)
 
@@ -109,13 +109,13 @@ Rocket.Chat only works once the user count and feature needs fit one of those fr
 | Slack free | ⚠️ 90 days only | ⚠️ 10 max | ⚠️ Limited | Existing Slack users only |
 
 
-## Common mistakes when switching from Slack
+## Where Slack migrations stall
 
-Migrating channels but not habits. Decide which channels own which topics, what response times are expected, and where the old Slack archive remains available. Copying every channel without those decisions carries the same clutter into the new service.
+Before copying channels, decide which channels own which topics, what response times are expected, and where the old Slack archive remains available. Copying every channel without those decisions carries the same clutter into the new service.
 
-Choosing self-hosted without accounting for maintenance. Mattermost and Rocket.Chat require compute, storage, updates, backups, monitoring, and an owner for outages. Include that work in the comparison with a hosted subscription.
+Self-hosted Mattermost and Rocket.Chat require compute, storage, updates, backups, monitoring, and an owner for outages. Include that work in the comparison with a hosted subscription.
 
-Switching during a high-pressure period. A new communication tool creates migration work: channels need owners, notifications need adjustment, and some people will fall back to email. Schedule the move outside a product launch or client deadline, and keep the old archive available until the team can find prior decisions in the new system.
+A new communication tool creates migration work: channels need owners, notifications need adjustment, and some people will fall back to email. Schedule the move outside a product launch or client deadline, and keep the old archive available until the team can find prior decisions in the new system.
 
 
 ## When Slack's paid history is worth it

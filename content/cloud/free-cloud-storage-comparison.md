@@ -128,7 +128,7 @@ Dropbox's sync client is mature, but its [Basic plan includes only 2GB](https://
 
 That allowance makes Dropbox a secondary sync account rather than a primary free drive. Keep it when an existing shared folder or client workflow makes switching more disruptive than the storage limit.
 
-If you like Dropbox's workflow but not its free limits, see our full guide to [Dropbox alternatives](/cloud/dropbox-alternatives/).
+Dropbox's workflow without its 2GB ceiling is the subject of the [Dropbox alternatives guide](/cloud/dropbox-alternatives/).
 
 [Review Dropbox Basic](https://help.dropbox.com/plans/dropbox-basic-faq)
 

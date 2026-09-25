@@ -24,7 +24,7 @@ author: "FreeStackFinder Team"
 
 ## Your existing accounts often decide the calendar
 
-**Google Calendar** adds events from Gmail and creates Meet links, **Apple Calendar** comes installed on iPhone, iPad, and Mac, and **Zoho Calendar** lives inside a Zoho account. The other two picks answer a different need: **Notion Calendar** puts keyboard-led scheduling beside Notion pages, and **Proton Calendar** encrypts event data. For tasks and notes beside the calendar, see our [free note-taking apps guide](/productivity/free-note-taking-apps/).
+**Google Calendar** adds events from Gmail and creates Meet links, **Apple Calendar** comes installed on iPhone, iPad, and Mac, and **Zoho Calendar** lives inside a Zoho account. The other two picks answer a different need: **Notion Calendar** puts keyboard-led scheduling beside Notion pages, and **Proton Calendar** encrypts event data. Tasks and notes that sit beside the calendar belong in one of the [free note-taking apps](/productivity/free-note-taking-apps/).
 
 
 ## Where your appointments start
@@ -79,7 +79,7 @@ The main constraint is that it is not a neutral standalone calendar:
 
 It fits professionals who already use Notion for notes, tasks, project pages, or planning docs. If a calendar block often points to a draft, task database, or project brief, Notion Calendar makes that link visible instead of leaving the event isolated.
 
-The keyboard-first interface supports creating and editing events without leaving the keyboard. Skip it if you mainly need family sharing, public booking pages, or Outlook-first coordination. For a deeper look at Notion's features, see our [free Notion alternatives guide](/productivity/notion-alternatives/), which includes Notion's own free tier.
+The keyboard-first interface supports creating and editing events without leaving the keyboard. Skip it if you mainly need family sharing, public booking pages, or Outlook-first coordination. Notion's own free tier is profiled in the [free Notion alternatives guide](/productivity/notion-alternatives/).
 
 [Use Notion Calendar free →](https://calendar.notion.so)
 
@@ -177,4 +177,4 @@ For personal use, test reminders on the phone or watch you carry before moving e
 
 The test from earlier settles most close calls: one recurring event, one shared calendar, one reminder, and one meeting link. If two calendars pass it, keep the one attached to the account where invitations already arrive. **Proton Calendar** is the exception worth an integration trade-off, for schedules whose event details need encryption.
 
-For most individual users, Google Calendar plus a [free note-taking app](/productivity/free-note-taking-apps/) covers the full planning workflow: events in the calendar, notes and tasks in a connected tool. If you are also using AI tools for scheduling and planning, see our [free ChatGPT alternatives guide](/productivity/free-chatgpt-alternatives/) for AI assistants that can help with calendar management and scheduling tasks. For team communication that pairs with any of these calendars, see our [free Slack alternatives guide](/productivity/slack-alternatives/).
+For most individual users, Google Calendar plus a notes app covers the planning workflow: events in the calendar, notes and tasks beside it.

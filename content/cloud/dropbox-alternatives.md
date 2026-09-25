@@ -20,7 +20,7 @@ author: "FreeStackFinder Team"
 
 ## Your storage job determines the alternative
 
-Dropbox Basic includes [2GB of storage](https://help.dropbox.com/plans/dropbox-basic-faq). **MEGA** lists 20GB and client-side encryption, while a Google Account includes up to 15GB shared across Drive, Gmail, and Photos. **OneDrive** includes 5GB and integrates with Windows, and **Proton Drive** starts free accounts at 2GB, rising to 5GB after a three-task setup checklist, with end-to-end encryption. The official plan links beside each product below support those current limits. For a broader comparison, see our [free cloud storage guide](/cloud/free-cloud-storage-comparison/).
+Dropbox Basic includes [2GB of storage](https://help.dropbox.com/plans/dropbox-basic-faq). **MEGA** lists 20GB and client-side encryption, while a Google Account includes up to 15GB shared across Drive, Gmail, and Photos. **OneDrive** includes 5GB and integrates with Windows, and **Proton Drive** starts free accounts at 2GB, rising to 5GB after a three-task setup checklist, with end-to-end encryption. The official plan links beside each product below support those current limits, and the [free cloud storage comparison](/cloud/free-cloud-storage-comparison/) adds iCloud to the list.
 
 Before picking by storage size alone, separate three different jobs: **sync** keeps a folder identical across devices; **storage** parks files in the cloud; **backup** keeps multiple historical copies you can restore from after a mistake or ransomware event. Every tool below handles sync and storage well: none of them are real backup tools. If you delete a file locally and it syncs, the cloud copy is gone too.
 
@@ -56,9 +56,9 @@ Free accounts use a variable transfer quota, so MEGA is less predictable for pub
 
 ### 2. Google Drive: best for productivity and collaboration
 
-Every Google Account gets [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). Accounts created since March 9, 2026 start with 5GB and unlock the other 10GB after phone-number verification.
+Every Google Account gets [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). A Google account created since March 9, 2026 is held at 5GB until its phone number is verified.
 
-Google Drive competes less on raw storage than on what comes with the account. That shared pool sits beside Docs, Sheets, Slides, Forms, desktop sync, mobile apps, and search across file contents. Pick it when shared documents matter more than encrypted storage. If you need help choosing Office tools that work alongside Drive, see our [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
+Google Drive competes less on raw storage than on what comes with the account. That shared pool sits beside Docs, Sheets, Slides, Forms, desktop sync, mobile apps, and search across file contents. Pick it when shared documents matter more than encrypted storage. Docs, Sheets, and Slides are compared with LibreOffice and OnlyOffice in the [free Microsoft Office alternatives guide](/productivity/microsoft-office-alternatives/).
 
 Drive search also matches text inside documents. When we searched our new account for a phrase from a test document's body, Drive returned that document.
 
@@ -108,7 +108,7 @@ Our new account also opened with a 10-minute countdown. Proton says files upload
 
 Compared with Dropbox, the main difference is the encryption model rather than capacity. Proton says file contents, filenames, and folder names are end-to-end encrypted. The same account can also access Proton Mail and Proton VPN, although each free product has its own limits.
 
-The tradeoffs are practical. Even after the setup tasks, 5GB is smaller than MEGA, Google Drive, or Box, and Proton's collaboration tools are narrower than Google Drive's. Both Proton Drive and MEGA describe end-to-end or client-side encryption, so compare their recovery models, sharing behavior, apps, and legal jurisdictions rather than treating encryption as a unique Proton feature. For account security alongside your cloud storage, see our [free password managers guide](/security/free-password-managers/) to protect your cloud access credentials.
+The tradeoffs are practical. Even after the setup tasks, 5GB is smaller than MEGA, Google Drive, or Box, and Proton's collaboration tools are narrower than Google Drive's. Both Proton Drive and MEGA describe end-to-end or client-side encryption, so compare their recovery models, sharing behavior, apps, and legal jurisdictions rather than treating encryption as a unique Proton feature. Keep the account password and any recovery key in a [free password manager](/security/free-password-managers/).
 
 MEGA asks you to export a recovery key. Proton's sign-up did not continue until we saved a recovery phrase, offered as a PDF download or as copied text.
 
@@ -156,7 +156,7 @@ It suits small businesses whose storage is mostly contracts, reports, and spread
 In September 2026, our new accounts reported 20GB on MEGA, 15GB on Google Drive, 2GB on Proton Drive before its setup tasks, and 10GB on Box. Our free Microsoft account reported 5GB, shared between OneDrive and Outlook attachments. Each storage screen appears in that service's section above.
 
 
-## Common mistakes when choosing free cloud storage
+## Checks before moving files to a free plan
 
 ### Storage numbers do not tell the whole story
 
@@ -164,7 +164,7 @@ Transfer limits, sync behavior, collaboration, and where files land on a device 
 
 ### Sync is not a backup by itself
 
-If you delete or overwrite a file and that change syncs, the cloud copy changes too. Recovery windows vary by provider and plan, so check the current retention policy before relying on it. A dedicated backup tool keeps independent copies according to a defined schedule and retention policy. See our [free backup software guide](/cloud/free-backup-software/) for that workflow.
+If you delete or overwrite a file and that change syncs, the cloud copy changes too. Recovery windows vary by provider and plan, so check the current retention policy before relying on it. A dedicated backup tool, compared in the [free backup software guide](/cloud/free-backup-software/), keeps independent copies according to a defined schedule and retention policy.
 
 ### Test the desktop client before migrating
 
@@ -189,4 +189,4 @@ Sign-up offers can make the first month look cheaper than the renewal. Proton of
 
 ## Choose space, collaboration, or encryption
 
-Rank space, collaboration, and privacy before choosing, because each service here leads on a different one. For space, **MEGA**'s 20GB comes with a variable transfer quota. For collaboration, **Google Drive** puts Docs beside the files, and **OneDrive** is already in File Explorer on Windows. For privacy, **Proton Drive** and MEGA both encrypt on the device, and the recovery key is the part to protect. Dropbox Free is hardest to justify when storage is the main requirement; its 2GB allowance is the smallest in this comparison. To use cloud storage as part of an automated backup plan, see our [free backup software guide](/cloud/free-backup-software/).
+Rank space, collaboration, and privacy before choosing, because each service here leads on a different one. For space, **MEGA**'s 20GB comes with a variable transfer quota. For collaboration, **Google Drive** puts Docs beside the files, and **OneDrive** is already in File Explorer on Windows. For privacy, **Proton Drive** and MEGA both encrypt on the device, and the recovery key is the part to protect. Dropbox Free is hardest to justify when storage is the main requirement; its 2GB allowance is the smallest in this comparison.

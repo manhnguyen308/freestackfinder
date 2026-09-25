@@ -35,12 +35,11 @@ The right replacement depends on the meeting pattern. A weekly client call needs
 ### 1. Google Meet: best free video calling for most users
 
 Anyone with a Google account can host on Meet's free tier, which covers many everyday calls:
-- One-to-one calls up to 24 hours
-- Group calls up to 60 minutes with up to 100 participants
-- Works entirely in the browser: no download required for host or participants
+- One-to-one calls up to 24 hours, against Zoom Basic's 40 minutes
+- Group calls of up to 100 people for 60 minutes, 20 minutes longer than Zoom Basic allows
+- The host and participants join from a browser without a download
 - Screen sharing, live captions, and background blur
 - Built-in chat and reactions during calls
-- Automatic meeting links when scheduling via Google Calendar
 
 The limits appear when meetings become more formal:
 - Cloud recording requires a Google Workspace paid plan
@@ -77,7 +76,7 @@ It fits spontaneous calls, privacy-conscious groups, developer teams, and meetin
 ### 3. Microsoft Teams free: best for users of Microsoft apps
 
 Teams Free gives Microsoft users more than a meeting room:
-- Group video calls up to 60 minutes with up to 100 participants
+- Group calls with the same 60-minute, 100-person ceiling as Meet
 - Unlimited chat and file sharing
 - Screen sharing and background blur
 - Integration with Microsoft 365 apps
@@ -109,7 +108,7 @@ It is less appropriate for formal meetings:
 - File upload size is limited on free accounts
 - Interface can feel unfamiliar to users coming from traditional meeting tools
 
-Instead of scheduling a meeting, people drop into a voice or video channel when they need to talk, the equivalent of walking over to someone's desk. That suits remote teams with an informal culture, creator communities, and study groups. Discord also works as a free Slack alternative for team messaging; see our [free Slack alternatives guide](/productivity/slack-alternatives/).
+Nobody schedules a Discord call; people drop into a voice or video channel when they need to talk, much like walking over to someone's desk. That suits remote teams with an informal culture, creator communities, and study groups. Discord's text channels also appear in the [free Slack alternatives guide](/productivity/slack-alternatives/) as a team chat option.
 
 [Use Discord free →](https://discord.com)
 
@@ -117,17 +116,12 @@ Instead of scheduling a meeting, people drop into a voice or video channel when 
 ### 5. Whereby: best browser-based option for client-facing calls
 
 Whereby gives you one permanent room URL, and its free plan is deliberately small:
-- One permanent meeting room with a custom URL (e.g. whereby.com/yourname)
-- Up to 4 participants per meeting
-- Meetings up to 30 minutes
-- No download required for participants: join with one click
+- One room with a custom URL, such as whereby.com/yourname
+- Up to 4 participants and 30 minutes per meeting
+- Participants join from a browser with one click
 - Screen sharing and in-meeting chat
 
-The limits are around meeting size and duration:
-- Limited to one meeting room on the free plan
-- Four participants and 30 minutes per meeting
-- Recording requires a paid plan
-- Breakout rooms and custom branding are paid features
+Recording, breakout rooms, and custom branding require a paid plan.
 
 A freelancer, consultant, coach, or small business owner can put that one link in a signature, invoice, or booking confirmation instead of generating a new link for every call. Confirm the four-person and 30-minute limits on [Whereby's plan page](https://whereby.com/information/meetings/select-plan) before putting the room into a client workflow.
 

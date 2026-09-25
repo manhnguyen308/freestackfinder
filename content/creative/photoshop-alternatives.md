@@ -39,7 +39,7 @@ rows:
     limit: Steeper learning curve; rougher non-destructive workflow
   - tool: Krita
     best_for: Digital painting and illustration
-    free: Excellent brush engine, animation tools, PSD support
+    free: Painting brush engine, animation tools, PSD support
     limit: Not built for photography-first retouching workflows
   - tool: Pixlr
     best_for: Quick browser edits and lighter tasks
@@ -123,7 +123,7 @@ It takes longer to learn than Photopea, whose layout follows Photoshop more clos
 Krita was built for painting rather than photo retouching, and that focus is its advantage.
 
 Inside the free desktop app:
-- Excellent brush engine
+- A brush engine built for digital painting
 - Layer-based workflow
 - PSD import and export
 - Animation tools
@@ -149,8 +149,8 @@ Inside the free browser editor:
 - Enough controls for basic photo cleanup and simple graphics
 
 Where you bump into the paywall:
-- Ads and upgrade prompts are part of the free experience
-- Some AI-heavy features and convenience features are gated behind paid tiers
+- Ads and upgrade prompts appear throughout the free version
+- Some AI-heavy and convenience features need a paid tier
 - PSD-heavy production work may expose compatibility limits
 
 It suits people who need to resize, clean up, annotate, or lightly retouch images without the heavier feel of GIMP, and it does not try to replace a full production suite.
@@ -162,13 +162,13 @@ It suits people who need to resize, clean up, annotate, or lightly retouch image
 
 The main switching problems come from assuming a one-to-one swap with Adobe. Check PSD behavior, plugins, generative tools, and file recovery before moving active work.
 
-PSDs with smart objects, smart filters, or live effects. GIMP and Photopea both open .psd files, but linked objects, smart filters, and live layer effects may not remain editable or render identically. Compare a representative file with the original before moving deadline-sensitive work.
+GIMP and Photopea both open .psd files, but smart objects, smart filters, and live layer effects may not remain editable or render identically. Compare a representative file with the original before moving deadline-sensitive work.
 
-CMYK and print-ready output. Photoshop has decades of color-managed CMYK behavior built in. GIMP supports CMYK only via plugins and exports, Photopea handles it but in a more limited way, and Krita is built around screen and illustration color rather than four-color print. If you deliver to a printer who insists on a CMYK PDF or TIFF with embedded ICC profiles, do a real test print before you trust the workflow on a paid job.
+For print-ready output, Photoshop has decades of color-managed CMYK behavior built in. GIMP supports CMYK only via plugins and exports, Photopea handles it but in a more limited way, and Krita is built around screen and illustration color rather than four-color print. If you deliver to a printer who insists on a CMYK PDF or TIFF with embedded ICC profiles, do a real test print before you trust the workflow on a paid job.
 
-Adobe Fonts and handoffs. Fonts activated through Creative Cloud can appear in [other desktop applications](https://helpx.adobe.com/fonts/web/introduction/add-fonts-desktop.html), but access still depends on an eligible Adobe subscription and the Creative Cloud desktop app. A client who needs to edit the file requires access through a subscription or a separate desktop license; Adobe does not permit packaging its font files for an unlicensed recipient. Embed permitted fonts in a PDF or outline text for a final handoff, and check substitutions when opening an editable file.
+Fonts activated through Creative Cloud can appear in [other desktop applications](https://helpx.adobe.com/fonts/web/introduction/add-fonts-desktop.html), but access still depends on an eligible Adobe subscription and the Creative Cloud desktop app. A client who needs to edit the file requires access through a subscription or a separate desktop license; Adobe does not permit packaging its font files for an unlicensed recipient. Embed permitted fonts in a PDF or outline text for a final handoff, and check substitutions when opening an editable file.
 
-The "I'll just use AI generative fill" assumption. Free tools have AI features, but they are not Photoshop's Generative Fill. Photopea's AI features are limited and often credit-gated; GIMP's plugin-based generative tools require a separate setup; Krita is brush-driven, not generative. If your current Photoshop habit involves generative fill on every retouch, that workflow does not move cleanly. Plan to use the clone stamp, healing brush, and content-aware fill the older way.
+Photoshop's Generative Fill has no direct free equivalent. Photopea's AI features are limited and often use credits, GIMP's plugin-based generative tools require a separate setup, and Krita is a brush-driven painting app. If your current Photoshop habit involves generative fill on every retouch, that workflow does not move cleanly. Plan to use the clone stamp, healing brush, and content-aware fill the older way.
 
 Action recordings and batch automation. Photoshop Actions, Image Processor scripts, and droplets do not carry over. GIMP uses different scripting systems, so existing batch processes need to be rebuilt and checked against representative files before migration.
 

@@ -54,9 +54,7 @@ A [CSIRO-led study of 283 Android VPN apps](https://research.csiro.au/isp/wp-con
 
 The three services below publish clear free-plan limits and fund those plans through paid products. That does not make any VPN risk-free. Check the provider's current privacy policy, audit scope, ownership, and support record before routing sensitive traffic through it.
 
-For securing other aspects of your digital life alongside a VPN, see our [free password managers guide](/security/free-password-managers/) and [free antivirus software guide](/security/free-antivirus-software/) for the complete free security toolkit.
-
-Also remember what a VPN does not do. It does not make weak passwords safe, remove malware from a device, or stop a website from collecting data you willingly submit. A trustworthy free VPN can protect traffic on public Wi-Fi and mask your IP address, but it should sit alongside good passwords, software updates, and careful account security rather than replacing them entirely. Treat it as one layer, not the whole security stack.
+A VPN does not make weak passwords safe, remove malware from a device, or stop a website from collecting data you willingly submit. A trustworthy free VPN can protect traffic on public Wi-Fi and mask your IP address, but it belongs beside a [password manager](/security/free-password-managers/), [antivirus protection](/security/free-antivirus-software/), and software updates rather than in place of them.
 
 
 ## Three free VPN plans worth comparing
@@ -112,7 +110,7 @@ Do not install a VPN solely because it ranks highly in an app store. Avoid provi
 
 A paid VPN makes sense for guaranteed streaming support, P2P servers, specific countries, or several simultaneous connections. Proton VPN Free's server-selection and connection limits are the most likely reasons to upgrade.
 
-Before upgrading, identify which free-tier limit you hit. If the problem is data, ProtonVPN Free may solve it better than another data-capped free service. If the problem is server location or speed, a paid plan is more likely to help. If the problem is privacy trust, avoid chasing the most generous free allowance and choose the provider with the clearest audit history and business model.
+Before upgrading, identify which free-tier limit you hit. A data cap may be solved by ProtonVPN Free rather than another data-capped service, while server location and speed are more likely to improve on a paid plan. When the doubt is about trust, pick the provider with the clearest audit history and business model over the most generous free allowance.
 
 <div class="affiliate-cta">
   <div class="affiliate-cta-content">
@@ -125,7 +123,7 @@ Before upgrading, identify which free-tier limit you hit. If the problem is data
 Proton VPN's paid tiers add selectable countries, more simultaneous connections, and supported streaming servers. That is the simplest upgrade path if you already use the free app and its server limits are the problem.
 
 
-For the full free security stack alongside your VPN, see our [free 2FA authenticator apps guide](/security/best-free-2fa-apps/): a VPN protects your connection while 2FA protects your accounts. If you manage a website or server, our [free security audit tools guide](/security/free-security-audit-tools/) covers how to find exposed ports and web vulnerabilities before attackers do.
+Two-factor codes protect the accounts a VPN cannot, and the [free 2FA authenticator apps guide](/security/best-free-2fa-apps/) compares how each app backs them up. Site owners can check their own exposed ports and web vulnerabilities with the [free security audit tools](/security/free-security-audit-tools/).
 
 ## Use Proton VPN unless you need country selection
 

@@ -142,7 +142,7 @@ Both tools are free and require no account. They only work on publicly accessibl
 
 ## Who should not rely on these tools alone
 
-Security audit tools surface findings, but they do not make security decisions. A scan result showing a CVE with a CVSS score of 7.5 could be a genuine critical issue or could be entirely mitigated by your network configuration. Interpreting scan output correctly still requires judgment.
+Security audit tools surface findings, but they do not make security decisions. A scan result showing a CVE with a CVSS score of 7.5 could be a genuine critical issue or could be entirely mitigated by your network configuration.
 
 For teams handling sensitive data, healthcare records, financial data, personal information at scale, tool-based self-auditing is a starting point, not a substitute for a professional penetration test or a formal compliance review. The tools above are well-suited to developers and small teams who want to close obvious gaps and build security hygiene into their workflow. They are not a replacement for a dedicated security engineer on systems where a breach would have serious consequences.
 

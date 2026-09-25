@@ -68,16 +68,12 @@ Long drafts are where Claude's free plan stands out. It can keep a whole documen
 
 Included on the free plan:
 - Access to Claude across web, mobile, and desktop
-- Long-context conversations for working with drafts and documents, subject to current free limits
-- File upload for document editing and summarisation
+- A whole draft kept in one conversation, within current free limits
+- Uploaded documents for editing and summarising
 - Strong instruction-following for tone, style, and length constraints
 - Web access on the free plan
 
-Where it throttles:
-- Usage limits: Claude free throttles after sustained use, and the limit depends on prompt length, attachments, current demand, and model choice
-- More model choice, higher usage, projects, and priority access are paid-plan advantages
-
-Its usage allowance varies with conversation length, attachments, demand, and model choice. Anthropic explains those variables in its [usage guidance](https://support.claude.com/en/articles/9797557-usage-limit-best-practices). Keep a [dedicated grammar tool](/productivity/grammarly-alternatives/) for the final language pass.
+Sustained use hits a throttle, and more model choice, higher usage, projects, and priority access sit on paid plans. The allowance varies with conversation length, attachments, demand, and model choice. Anthropic explains those variables in its [usage guidance](https://support.claude.com/en/articles/9797557-usage-limit-best-practices). Keep a [dedicated grammar tool](/productivity/grammarly-alternatives/) for the final language pass.
 
 [Use Claude free →](https://claude.ai)
 
@@ -95,7 +91,7 @@ Free on the web and in Edge:
 
 Paid-plan territory:
 - Deeper Microsoft 365 integration in desktop Word, Excel, PowerPoint, Outlook, and OneNote belongs to eligible paid plans
-- Free usage is subject to Microsoft's current credits, feature limits, and peak-time access
+- Credits, feature limits, and peak-time access rules cap free use
 - Paid plans get preferred access and higher usage
 
 Research-led drafts that need links back to current sources are its strongest use, especially inside Edge, Windows, Outlook on the web, or Microsoft 365 web apps. Desktop Office integration and higher usage sit behind eligible paid plans, so verify the current free credits before relying on it for a long session.
@@ -160,4 +156,4 @@ The other case for paid is integration. Eligible Microsoft 365 and Copilot plans
 
 Where a cap falls matters as much as how high it is. Rytr counts characters per month, Claude throttles by session, and ChatGPT and Gemini set separate limits for files, images, and models. Someone drafting a few pieces a week can stay inside all of them. Someone drafting every day will keep hitting one, and that tool's paid plan is the first one to price.
 
-Whatever tool you use to draft, clean the result before publishing. See our [best free Grammarly alternatives guide](/productivity/grammarly-alternatives/) for grammar and style checkers that pair well with AI-generated content. If you are organizing a writing project across multiple drafts and documents, see our [best free note-taking apps guide](/productivity/free-note-taking-apps/) to keep your research and ideas structured before they go into the AI. If you want to compare general-purpose AI assistants beyond dedicated writing tools, including Google Gemini and Perplexity, see our [free ChatGPT alternatives guide](/productivity/free-chatgpt-alternatives/).
+Every draft from these tools still needs an editing pass, and LanguageTool, ProWritingAid, and Hemingway are compared in the [free Grammarly alternatives guide](/productivity/grammarly-alternatives/). General chat assistants, including Gemini and Perplexity, are compared in the [free ChatGPT alternatives guide](/productivity/free-chatgpt-alternatives/).

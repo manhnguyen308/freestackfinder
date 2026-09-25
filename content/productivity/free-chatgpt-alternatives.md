@@ -58,7 +58,7 @@ The paid boundary is higher usage and persistent workspaces:
 - Free accounts can create up to five projects; paid plans allow more projects
 - More model choice, higher usage, and priority access are paid-plan advantages
 
-Heavy document work can use the variable session allowance quickly. Anthropic documents the [five-project free limit](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects). For a writing-focused comparison, see our [free writing tools guide](/productivity/free-ai-writing-tools/).
+Heavy document work can use the variable session allowance quickly. Anthropic documents the [five-project free limit](https://support.claude.com/en/articles/9519177-how-can-i-create-and-manage-projects).
 
 [Use Claude free →](https://claude.ai)
 
@@ -164,4 +164,4 @@ If your primary use is writing and editing, evaluate paid options against the to
 
 A practical free setup is ChatGPT plus one alternative chosen for the limit you hit most often. Long documents point to **Claude**, answers you need to verify point to **Perplexity**, and files that live in Google or Microsoft accounts point to **Gemini** or **Copilot**.
 
-Pay only when higher usage, file analysis, research, image, or voice features are part of regular work. For drafting-focused options, see our [free AI writing tools comparison](/productivity/free-ai-writing-tools/); for a final language check, see the [free Grammarly alternatives](/productivity/grammarly-alternatives/).
+Pay only when higher usage, file analysis, research, image, or voice features are part of regular work. Grammar checkers for the final pass on anything these tools draft are compared in the [free Grammarly alternatives guide](/productivity/grammarly-alternatives/).

@@ -163,11 +163,11 @@ Free fonts cover many commercial projects when their licenses permit the planned
 
 For web projects, Google Fonts or Fontsource can cover body text and headings without a font purchase. For print and brand identity work, choose on fit and license terms rather than assuming paid type is necessary.
 
-Good typography works alongside good visuals. See our guide to [free stock photo sites](/creative/free-stock-photos/) for photography resources and our [free Canva alternatives](/creative/canva-alternatives/) for quick graphic design that pairs naturally with custom font selections. For custom lettering and vector logo work, see our [free Illustrator alternatives](/creative/illustrator-alternatives/).
+Photos for a layout come from the [free stock photo sites](/creative/free-stock-photos/), and custom lettering or a vector logo from a tool in the [free Illustrator alternatives guide](/creative/illustrator-alternatives/).
 
 
 ## Open licenses first, mixed catalogs second
 
 The license check belongs at the moment a mockup becomes real work. Replacing a personal-use font in a finished logo or shipped app is harder than choosing an open-source family from **Google Fonts** or **Fontsource** at the start, which is why DaFont and 1001 Fonts work best for exploration.
 
-For design work beyond type, see our [free Figma alternatives](/creative/figma-alternatives/) for UI prototyping and our [free Canva alternatives](/creative/canva-alternatives/) for quick graphic design without the font hunt.
+Interface prototypes built around these fonts are covered in the [free Figma alternatives guide](/creative/figma-alternatives/), and quick template graphics in the [free Canva alternatives guide](/creative/canva-alternatives/).

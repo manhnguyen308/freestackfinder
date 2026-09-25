@@ -26,7 +26,7 @@ Who receives the finished file matters more than which editor draws it. If the a
 
 An Adobe subscription is hard to justify for occasional vector work. Before switching, separate the features you use from the file format your collaborators require. A free editor may cover paths and SVG export while still failing a workflow built around native `.ai` files, Adobe fonts, plugins, or Creative Cloud libraries.
 
-Inkscape has been in active development since 2003. Its current toolset covers SVG paths, nodes, boolean operations, typography, layers, and print-ready exports, which is enough for many logo, icon, and technical illustration workflows. It still differs from Illustrator in `.ai` compatibility, artboards, cloud collaboration, and some complex-file performance. For template-based work that sits beside vector editing, see our [free Canva alternatives guide](/creative/canva-alternatives/).
+Inkscape has been in active development since 2003. Its current toolset covers SVG paths, nodes, boolean operations, typography, layers, and print-ready exports, which is enough for many logo, icon, and technical illustration workflows. It still differs from Illustrator in `.ai` compatibility, artboards, cloud collaboration, and some complex-file performance. Template-based layouts are a different job, compared in the [free Canva alternatives guide](/creative/canva-alternatives/).
 
 
 ## Four ways to replace Illustrator
@@ -155,4 +155,4 @@ Inkscape covers the core path, node, typography, and export work needed for logo
 
 Ask the clients or printers you work with which formats they accept before cancelling Illustrator. If SVG, PDF, and PNG cover every handoff, **Inkscape** replaces the vector construction work at no cost. If even one regular client needs an editable `.ai` file, the subscription is still paying for that handoff, and the free tools become a supplement rather than a replacement.
 
-For imagery to complement your vector work, photography, textures, and backgrounds, see our guide to the [best free stock photo sites in 2026](/creative/free-stock-photos/). For typography in your designs, see our guide to the [best free font websites in 2026](/creative/free-font-websites/). For UI and interface design, see our guide to [free Figma alternatives](/creative/figma-alternatives/). For 3D and CAD work that pairs with vector technical drawings, see our guide to [free FreeCAD alternatives](/creative/freecad-alternatives/).
+Photos, textures, and backgrounds for vector layouts come from the [free stock photo sites](/creative/free-stock-photos/), and open-licensed typefaces from the [free font websites](/creative/free-font-websites/). Interface work moves to a tool from the [free Figma alternatives guide](/creative/figma-alternatives/), and technical drawings that grow into 3D parts to [FreeCAD or one of its alternatives](/creative/freecad-alternatives/).

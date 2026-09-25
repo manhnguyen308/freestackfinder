@@ -56,13 +56,13 @@ rows:
 
 This ranking focuses on published free-tier limits and workflow fit. Performance varies with hardware and source footage, so check an editor with a representative clip before moving a real project.
 
-Watermarks and conditional export rules. A clean export can depend on whether you used a stock asset, template, or default outro. CapCut can export plain edits without a watermark, but some template-led workflows can add one. Confirm the export path you plan to use before building a repeatable workflow around it.
+A clean export can depend on whether a stock asset, template, or default outro is in the project, so confirm the export path you plan to use before building a routine around it.
 
-Format and codec support. HEVC from an iPhone, AV1 from a webcam capture, 10-bit Log footage, and OBS recordings do not place the same demands on an editor. Blackmagic's published limits for free Resolve are especially relevant here: the free version is positioned around virtually all 8-bit formats up to UHD at 60fps.
+HEVC from an iPhone, AV1 from a webcam capture, 10-bit Log footage, and OBS recordings do not place the same demands on an editor. Free Resolve is positioned around 8-bit formats, so 10-bit footage is the case to test first.
 
-Learning overhead. OpenShot asks less of a first-time editor. Resolve offers much more depth, but learning its editing, color, audio, and effects pages takes time. That difference matters when the immediate job is a basic cut and export.
+OpenShot asks less of a first-time editor. Resolve offers much more depth, but learning its editing, color, audio, and effects pages takes time. That difference matters when the immediate job is a basic cut and export.
 
-Hardware requirements. Resolve is demanding compared with OpenShot or Shotcut. A free license does not help if the editor runs poorly on the computer you already own, so check current system requirements and use proxy media when the editor supports it.
+Resolve is demanding compared with OpenShot or Shotcut. A free license does not help if the editor runs poorly on the computer you already own, so check current system requirements and use proxy media when the editor supports it.
 
 Where the paid tier begins. Resolve Studio reserves several effects, AI features, and higher-end format support for paying users. This guide keeps those boundaries visible instead of treating the product's full feature list as part of the free version.
 
@@ -77,7 +77,7 @@ Review-aggregator scores and tutorial counts are not ranking factors here becaus
 
 Blackmagic Design puts editing, color, Fairlight audio, and Fusion effects into one project in Resolve, and the free version exports without a watermark.
 
-Included free:
+Free Resolve includes:
 - Full editing timeline
 - Strong color grading tools
 - Fairlight audio tools
@@ -85,13 +85,12 @@ Included free:
 - No watermark on exports
 
 What to watch for:
-- The free version is not unlimited in format support
 - Blackmagic currently positions the free tier around virtually all 8-bit formats up to 60fps in Ultra HD
 - Studio adds AI tools, more effects, and broader support for higher-end footage
 
 It suits long-form edits, detailed color work, multi-track audio, and projects that need room to grow. Skip it when the footage exceeds the free format limits or the computer cannot play the timeline reliably, because a deeper toolset does not compensate for an unusable edit.
 
-If you are specifically trying to replace Adobe's editor, see our full [Premiere Pro alternatives guide](/video/premiere-pro-alternatives/).
+Premiere users have a separate comparison built around moving projects out of Adobe in the [Premiere Pro alternatives guide](/video/premiere-pro-alternatives/).
 
 [Download DaVinci Resolve free ->](https://www.blackmagicdesign.com/products/davinciresolve/)
 
@@ -110,8 +109,7 @@ The free editor covers:
 - Easy short-form workflow
 
 Export caveats:
-- CapCut's help pages describe more conditional watermark rules than many older reviews suggest
-- Standard editing exports are usually clean, but templates, stock assets, or a default outro can add a watermark or attribution requirement
+- Plain edits export without a watermark, but templates, stock assets, or a default outro can add one or an attribution requirement
 - It is much weaker than Resolve for longer, more deliberate editing
 
 That layout suits TikTok, Reels, Shorts, talking-head clips, and template-led social output, while its long-form controls are thinner than Resolve's.
@@ -194,8 +192,4 @@ For some users, the better paid path is **DaVinci Resolve Studio**, which keeps 
 
 Choose for the longest project you expect to finish, not the first one. A basic cut in **OpenShot** is quick to learn, but a channel that will grow into color work and multi-track audio avoids a later migration by starting in **DaVinci Resolve**, provided the computer can play its timeline. Short social clips are the exception, where **CapCut**'s captions and templates matter more than depth.
 
-If you need to record before you edit, pair this list with our guide to [free screen recording software](/video/free-screen-recording-software/). OBS Studio records locally without a watermark, and Resolve can handle the edit when the recording format matches its free-tier limits.
-
-If you are on a Mac and want platform-specific guidance, including iMovie, Apple Silicon performance notes, and macOS codec considerations, see our [free video editing software for Mac guide](/video/free-video-editing-mac/).
-
-If you want tools with public source code and open licenses instead of vendor-controlled free tiers, see our dedicated guide to [free open-source video editors](/video/free-open-source-video-editors/).
+Footage recorded with OBS Studio, compared with other recorders in the [free screen recording software guide](/video/free-screen-recording-software/), carries no watermark, and Resolve can edit it when the format matches its free-tier limits. The [Mac editing guide](/video/free-video-editing-mac/) adds iMovie, Apple Silicon performance, and macOS codec notes, and the [open-source video editors guide](/video/free-open-source-video-editors/) covers the editors whose source code is public.
