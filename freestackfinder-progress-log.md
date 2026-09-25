@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-25
-**Current day:** 86b
+**Current day:** 86c
 
 ## Current state
 
@@ -18,6 +18,17 @@
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
+
+---
+
+### Day 86c - New site icon: the stacked F
+
+- Date: 2026-09-25. Scoped to the site icon files in `static/`, a new generator, and the icon links in `layouts/partials/head.html`. No article text changed.
+- Design: an F built from three separate blocks, a white stem, a white top arm, and a light teal (`#5EEAD4`) middle arm, on a rounded `--primary` teal tile. The blocks stand for the "stack" in the name. It replaces the plain white F on a square teal tile. Two other concepts, an F with a magnifier and stacked layers with a magnifier, were drafted and not chosen because their lenses blur at 16px.
+- Files: `scripts/images/generate_site_icon.py` draws every size on its own pixel grid and box-reduces from 4x, so edges land on whole pixels; blocks are square below 48px. It writes `favicon-16x16.png`, `favicon-32x32.png`, `favicon-96x96.png`, `android-chrome-192x192.png`, `android-chrome-512x512.png`, a full-square `apple-touch-icon.png` (iOS applies its own mask), and `favicon.ico`, which now carries 16, 32, and 48px frames instead of 16px only.
+- Head: `head.html` now links the 96px PNG, a multiple of 48px as Google Search prefers, and gives the Apple touch icon an explicit `sizes="180x180"`. `site.webmanifest` is unchanged; its two Android icons now carry the new design.
+- Validation: the 16px and 32px icons were checked pixel by pixel on light and dark tab backgrounds, and the ICO's 16px and 32px frames match the PNGs exactly. All 7 files and both manifest icons returned 200 with the expected sizes from the local server. `git diff --check` passed. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles and 0 front matter warnings. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings, with all icon files in the output.
+- Note: browsers and Google cache favicons, so the old icon can linger in open tabs and search results for a while after deploy.
 
 ---
 
