@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-09-24
-**Current day:** 85p
+**Last updated:** 2026-09-25
+**Current day:** 86a
 
 ## Current state
 
@@ -17,6 +17,17 @@
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); next is Business, then Creative, Security + Cloud, and Video
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
+- Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. No copy has been changed from it yet; its "Suggested order of work" is the next content task
+
+---
+
+### Day 86a - Pattern catalog merge and sitewide writing-pattern audit
+
+- Date: 2026-09-25. Scoped to `website-content-humanizer.md` and a new report, `docs/WRITING-PATTERN-AUDIT-2026-09-25.md`. No site copy, template, or front matter changed.
+- Catalog merge: read the MIT-licensed blader/humanizer pattern set (25 patterns in five groups) and compared it with the humanizer. Most patterns were already covered under other names. Added, in the site's own wording: a "Signal strength" section ranking patterns strong, medium, or weak alone, plus an always-fix tier for site rules; "arguing with no one" (defending objections nobody raised); "vague connection" ("associated with" standing in for a named relationship); one-line closers; extra sayings, sales words, and watch words (deep dive, align with, enduring, highlight as a verb, quietly, figurative gate and landscape); an exception for deliberate repetition; the rule that a previous version belongs only in change logs; overcorrection rules (a lost claim is an error; keep unusual detail, mixed judgments, and genuine asides); and a second post-rewrite check for lost claims and surviving strong tells. A "Sources" section credits the origin. One of the humanizer's own examples, which used an imperative closing, was corrected.
+- Audit method: Detect mode over 64 content files, 19 templates, `config.toml`, and the search UI strings. A pattern scan built from the merged catalog and the public-content rules in CLAUDE.md produced 159 candidates, each reviewed by hand. Sitewide measurements covered link-sentence openings, label reuse, sentences shared between pages, runs of identical openers, and short paragraph closers. Trust pages and template copy were read in full.
+- Result: site rules are clean (no dashes, curly quotes, leftover chat phrasing, placeholders, citation tokens, unsupported first-hand claims, or self-reference to how copy is produced). Five strong tells, two of them introduced in Day 85h (the team email pivot and a FreeCAD closer). Thirteen medium groups, led by the internal-link formula (67 "For ..., see our" and 26 "If you ..., see our" sentences), sibling pages sharing bullet lists (conferencing and Zoom share 10 sentences), label phrases reused across articles, label-fragment lists in about ten articles, and the same positioning line repeated in seven templates and pages. False positives and inactive template copy are listed in the report.
+- Follow-up: work through the report's "Suggested order of work", strong tells first. The scan script stayed in the working scratchpad and is not part of `scripts/`.
 
 ---
 

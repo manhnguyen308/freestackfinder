@@ -46,6 +46,8 @@ Never improve style by weakening accuracy. Never add a detail merely because it 
 - Preserve quoted text, code, product names, legal language, and source titles unless correction is explicitly requested.
 - Prefer local edits. Do not rebuild every page around one new template.
 - Leave strong, specific prose alone. A large diff is not evidence of a better edit.
+- A lost claim is an error, just as an invented one is. Cut a claim only when a pattern in this skill calls for cutting it, never because the sentence was hard to rewrite.
+- Keep what makes copy sound like a person chose it: an unusual specific detail, a mixed judgment, a dated reference that is still accurate, or a genuine aside. These are not tells.
 
 ### Enforce the website house style
 
@@ -276,17 +278,28 @@ Closings:
 
 Treat patterns as evidence in clusters. A watched word inside a quote, title, code block, product name, or example is not a style problem. The house-style dash rule remains mandatory even though one dash alone does not prove machine authorship.
 
+### Signal strength
+
+Patterns do not carry equal weight. Use this ranking to decide what to fix first and how to rank findings in Detect mode.
+
+- Strong, where one occurrence justifies an edit: "not X but Y" contrasts and other negative parallelism, one-line closers, sayings that sound deep, staged run-ups before an ordinary claim, and arguing with no one.
+- Medium, where the pattern matters when it recurs or sits beside other tells: forced triads, repeated openings, inflated significance, vague connection, present-participle tails, sales language, borrowed authority, copula avoidance, bold decoration, and decorative headings.
+- Weak alone, reported only as part of a cluster: stacked qualifiers, hyphenated compounds, passive voice, curly quotes, and a single watch-list word.
+- Always fixed regardless of strength, because they are site rules rather than evidence: dashes used as punctuation, chatbot or tool leakage, placeholders, and unsupported first-hand claims.
+
+Several tells together are the safeguard against false positives. One medium or weak tell in otherwise specific prose is usually a style choice.
+
 ### Inflated meaning and promotional tone
 
 Rewrite or remove:
 
-- Significance inflation: "stands as a testament," "plays a pivotal role," "marks a turning point," "underscores its importance," "leaves a lasting legacy"
+- Significance inflation: "stands as a testament," "plays a pivotal role," "marks a turning point," "underscores its importance," "leaves a lasting legacy," "an enduring legacy," "shaping the future of"
 - Symbolic gloss: ordinary facts said to "represent," "embody," "reflect," or "speak to" a broader theme
-- Brochure language: "breathtaking," "vibrant," "hidden gem," "nestled in," "rich tapestry," "world-class," "state-of-the-art"
+- Brochure language: "breathtaking," "stunning," "renowned," "vibrant," "hidden gem," "nestled in," "rich tapestry," "world-class," "state-of-the-art"
 - Notability name-dropping: lists of publications or awards without saying what any source reported
 - Generic positive endings: "the future looks bright," "exciting times lie ahead," "poised for growth"
-- Aphorism formulas: "X is the new Y," "the currency of," "where X meets Y," "not a tool but a mirror"
-- Persuasive-authority setups: "the real question is," "at its core," "what really matters," "the deeper issue"
+- Aphorism formulas and sayings that sound deep: "X is the new Y," "X is the Y of Z," "X becomes a trap," "the currency of," "the language of," "the architecture of," "where X meets Y," "not a tool but a mirror." Say the ordinary point plainly.
+- Persuasive-authority setups: "the real question is," "at its core," "what really matters," "the deeper issue," "the heart of the matter"
 
 ### Vague authority and unsupported certainty
 
@@ -302,6 +315,7 @@ Rewrite or remove:
 - "Several sources" when only one or two exist
 - Exact-looking facts that are not in the source
 - Knowledge-gap filler such as "likely," "appears to have," "maintains a low profile," or "prefers to stay out of the spotlight"
+- Vague connection: "associated with," "linked to," "tied to," or "connected to" standing in for a relationship the source names, such as owns, funds, built, or requires. Name the relationship. If the source does not give one, keep the vague wording rather than inventing a role.
 
 Name the source and its finding, or narrow the sentence to what is known.
 
@@ -314,6 +328,7 @@ Rewrite or remove:
 - Faux-insight setups: "what most people get wrong," "here is what nobody tells you," "the part everyone misses," "the step most guides skip," "what the vendor will not tell you." Cut the setup and let the claim stand on its own. "The part everyone misses: exports are capped" becomes "Exports are capped at ten files."
 - Interpretive metadiscourse: "that last part matters more than it sounds," "the key point is," "as you can see," "this distinction matters," "and that is the important bit." If the point is already clear, delete the aside. If it is not, replace the aside with the limit or consequence that makes it clear.
 - Manufactured contrarianism: framing an ordinary published limit as a secret, a myth, or a trap.
+- Arguing with no one: defending against an objection nobody raised, such as "This isn't mainly about price," "I'm not saying you should switch," "Don't get me wrong," or "You might think X, but." Remove the defense and make the claim. Keep an objection only when the page attributes it to someone or answers it in full, and a reader would actually weigh it. Several unrelated rejections in one passage make the pattern stronger.
 - Hype reactions: "this is huge," "this changes everything," "a total game changer," "this is the one."
 - Redundant restatement: "in other words," "put simply," "essentially," "that is to say," when the previous sentence already landed.
 
@@ -323,6 +338,7 @@ Watch for:
 
 - Negative parallelism: "not just X, but Y" or "It is not X. It is Y."
 - Negative listing: "Not a spreadsheet. Not a database. A workspace." State the last item and drop the rest.
+- One-line closers: a short final sentence that restates its paragraph for emphasis, such as "That is the real advantage." Cut it, or fold its fact into the sentence before. Several in a row, each on its own line, are a stronger signal.
 - Rule-of-three by reflex
 - Stacked abstract nouns such as "innovation, passion, and excellence"
 - Present-participle tails: ", highlighting," ", underscoring," ", showcasing," ", ensuring," or ", reflecting"
@@ -367,9 +383,9 @@ Cut or simplify:
 
 These words are signals, not automatic proof. Rewrite the sentence when the word replaces a concrete fact or appears in a cluster.
 
-High-signal: delve; tapestry, when figurative; testament, when figurative; beacon, when figurative; underscore, as a verb; leverage, as a verb; harness, as a verb; embark; multifaceted; realm; interplay; paradigm shift; ever-evolving; supercharge; "in today's landscape"; "it is worth noting"; "it is important to note."
+High-signal: delve; deep dive; tapestry, when figurative; testament, when figurative; beacon, when figurative; underscore, as a verb; leverage, as a verb; harness, as a verb; embark; multifaceted; realm; interplay; paradigm shift; ever-evolving; supercharge; "in today's landscape"; "it is worth noting"; "it is important to note."
 
-Density signals: crucial; pivotal; vibrant; robust; seamless; foster; facilitate; enhance; elevate; showcase; notable or notably; garner; bolster; utilize; groundbreaking; transformative; holistic; comprehensive; meticulous; intricate; paramount; dynamic; scalable; optimize; maximize; empower; streamline; unlock; cutting-edge; best-in-class; future-proof; game-changer.
+Density signals: crucial; pivotal; vibrant; robust, when figurative; seamless; foster; facilitate; enhance; elevate; showcase; highlight, as a verb; emphasize; align with; enduring; quietly, as in "quietly reshaping"; landscape, as an abstract noun; gate or gating, when figurative; notable or notably; garner; bolster; utilize; groundbreaking; transformative; holistic; comprehensive; meticulous; intricate; paramount; dynamic; scalable; optimize; maximize; empower; streamline; unlock; cutting-edge; best-in-class; future-proof; game-changer.
 
 Context-only words: key; important; significant; various; effective; valuable; powerful; essential; actually; genuinely; honest; polished; capable.
 
@@ -395,8 +411,9 @@ Fix:
 - Tables that merely repeat surrounding paragraphs
 - Perfectly balanced pros and cons with no editorial decision
 - A standalone mic-drop sentence or hype fragment as the ending. Delete the fake-profound kicker; do not rewrite it into a better metaphor or preserve its rhythm. End on the clearest concrete sentence already in the draft, or add a plain takeaway or next action.
+- Consecutive sentences or paragraphs that open the same way. Deliberate repetition for rhythm is fine; repetition by default is not.
 - A sudden shift in spelling, register, sentence quality, or punctuation
-- Diff-anchored prose that narrates what changed instead of describing the current state
+- Diff-anchored prose that narrates what changed instead of describing the current state. A previous version belongs only in change logs, release notes, and migration guides, not in page copy.
 
 ### Voice and agency tells
 
@@ -489,6 +506,8 @@ Also scan for the shapes a word list will not catch: a noun phrase followed by a
 
 Treat automated scans as a safety net. A clean word scan does not catch generic blandness, weak judgment, repeated structure, or invented specificity.
 
+After rewriting, compare the draft with the original twice: once for claims that disappeared, and once for strong tells that survived, especially "not X but Y" contrasts, one-line closers, dashes, and decorative bold.
+
 ### 7. Read the rendered copy
 
 Build the site when possible. Inspect the rendered homepage, representative articles, hubs, trust pages, metadata, and shared components. Templates can add copy that a Markdown-only audit misses.
@@ -549,7 +568,7 @@ Before:
 
 After:
 
-> Start with Acme if two collaborators and PDF export cover the job. Choose Beta when offline files matter more than browser collaboration.
+> Offline access is the tiebreaker. Acme's free plan covers two collaborators and PDF export in a browser, while Beta keeps working without a connection.
 
 ### Fragmented heading
 
@@ -590,3 +609,7 @@ Do not deliver or publish until every answer is yes:
 - Does the final text sound like an editor wrote it for this page, rather than a template for any page?
 
 If the copy is clean but hollow, it is not finished. Add supported substance or shorten it. Never fill the gap with invented experience.
+
+## Sources
+
+The signal-strength ranking, the "arguing with no one" and "vague connection" patterns, one-line closers, the added watch words, and the overcorrection rules are adapted from [blader/humanizer](https://github.com/blader/humanizer) (MIT license), which builds on Wikipedia's [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) guide. Everything here is written for this site's house style and takes precedence over the source where they differ.
