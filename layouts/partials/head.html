@@ -36,7 +36,14 @@
 <title>{{ $titleText }}</title>
 
 <meta name="description" content="{{ $pageDescription }}" />
-<link rel="canonical" href="{{ .Permalink }}" />
+{{/* Page 2 of a hub is its own page, so it gets its own canonical URL.
+     Same arguments as the .Paginate call in _default/list.html: the first call builds the pager for both. */}}
+{{ $canonical := .Permalink }}
+{{ if eq .Kind "section" }}
+  {{ $pager := .Paginate .Pages.ByDate.Reverse }}
+  {{ if gt $pager.PageNumber 1 }}{{ $canonical = $pager.URL | absURL }}{{ end }}
+{{ end }}
+<link rel="canonical" href="{{ $canonical }}" />
 
 <meta name="google-site-verification" content="40GNbBMk19voffo5CNkDz2qZEvYHqqoVJnrC1T2vZVM" />
 <meta name='impact-site-verification' value='4b442d04-79be-4d3d-a1ca-fec50e329f1c'>

@@ -34,7 +34,7 @@ type: page
   </a>
 </div>
 
-<p class="contact-direct" id="email-us-directly">Direct email: <a href="mailto:contact%40freestackfinder.com">contact<span aria-hidden="true">&#64;</span>freestackfinder.com</a></p>
+<p class="contact-direct">Direct email: <a href="mailto:contact%40freestackfinder.com">contact&#64;freestackfinder.com</a></p>
 
 <style>
 .contact-note { margin: 20px 0 12px; color: var(--muted, #475569); }

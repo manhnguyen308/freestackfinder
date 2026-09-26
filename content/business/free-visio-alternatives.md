@@ -125,7 +125,7 @@ That suits a small team that diagrams together in real time and only needs a few
 
 Treat the free plan as an evaluation path or a lightweight collaboration space, not as an unlimited Visio replacement.
 
-[Try Lucidchart Free →](https://www.lucidchart.com/pages/usecase/flowchart-software)
+[Try Lucidchart Free →](https://lucid.co/lucidchart)
 
 
 ### 3. Miro Free: best for collaborative whiteboard diagramming

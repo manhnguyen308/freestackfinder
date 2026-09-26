@@ -146,7 +146,7 @@ It pays off when Indeed is your main job board and speed matters more than prese
 
 For people applying mainly through Indeed, keeping the resume on the platform removes an upload from every application.
 
-[Visit Indeed Resume Builder](https://www.indeed.com/create-resume)
+[Visit Indeed Resume Builder](https://profile.indeed.com/resume)
 
 
 ### 4. Resume.com: best guided free builder

@@ -1,7 +1,6 @@
 baseURL = "https://freestackfinder.com/"
 languageCode = "en-us"
 title = "Free Stack Finder"
-paginate = 12
 enableRobotsTXT = true
 enableGitInfo = false
 summarylength = 40
@@ -41,6 +40,10 @@ summarylength = 40
   [[related.indices]]
     name = "keywords"
     weight = 50
+
+# Hugo 0.128+ ignores the old top-level "paginate" key, so the page size lives here
+[pagination]
+  pagerSize = 12
 
 [taxonomies]
   category = "categories"

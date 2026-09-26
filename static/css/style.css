@@ -498,6 +498,15 @@ button { font-family: inherit; cursor: pointer; }
   .article-layout {
     grid-template-columns: minmax(0, var(--article-w)) 280px;
   }
+  /* The sidebar is often taller than the window, so it scrolls on its own
+     instead of hiding its last section links below the fold. */
+  .article-sidebar {
+    position: sticky;
+    top: 80px;
+    max-height: calc(100vh - 96px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
 }
 
 /* 12. Breadcrumb
@@ -1371,6 +1380,21 @@ button { font-family: inherit; cursor: pointer; }
   padding: 0; margin: -1px; overflow: hidden;
   clip: rect(0,0,0,0); white-space: nowrap; border: 0;
 }
+
+/* Skip link: hidden until a keyboard user tabs to it */
+.skip-link {
+  position: absolute;
+  left: 12px;
+  top: -60px;
+  z-index: 300;
+  padding: 10px 16px;
+  border-radius: var(--radius);
+  background: var(--primary-fill);
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+.skip-link:focus { top: 12px; color: #fff; }
 
 /* Nav search icon */
 .nav-search-btn {

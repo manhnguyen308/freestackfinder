@@ -28,21 +28,43 @@
     return MONTHS[parseInt(parts[1], 10) - 1] + ' ' + parseInt(parts[2], 10) + ', ' + parts[0];
   }
 
+  // Split a query into words so "vpn free" matches "Free VPN" as well as "free vpn"
+  function terms(query) {
+    return norm(query).split(/\s+/).filter(Boolean);
+  }
+
+  // Marks every place a query word appears. Matching runs on the raw text and
+  // each piece is escaped afterwards, so a mark can never land inside an entity.
   function highlight(text, query) {
-    if (!query) return escapeHtml(text);
-    var safe = escapeHtml(text);
-    var safeQ = escapeHtml(query);
-    var idx = norm(safe).indexOf(norm(safeQ));
-    if (idx === -1) return safe;
-    return safe.slice(0, idx) +
-      '<mark>' + safe.slice(idx, idx + safeQ.length) + '</mark>' +
-      safe.slice(idx + safeQ.length);
+    text = text || '';
+    var words = terms(query);
+    if (!words.length) return escapeHtml(text);
+    var lower = norm(text);
+    var marked = new Array(text.length);
+    words.forEach(function (w) {
+      var from = 0, idx;
+      while ((idx = lower.indexOf(w, from)) !== -1) {
+        for (var i = idx; i < idx + w.length; i++) marked[i] = true;
+        from = idx + w.length;
+      }
+    });
+    var out = '', i = 0;
+    while (i < text.length) {
+      var j = i;
+      while (j < text.length && !!marked[j] === !!marked[i]) j++;
+      var piece = escapeHtml(text.slice(i, j));
+      out += marked[i] ? '<mark>' + piece + '</mark>' : piece;
+      i = j;
+    }
+    return out;
   }
 
   function render(results, query) {
     var q = (query || '').trim();
     if (!q && !activeFilter) {
-      resultsEl.innerHTML = '<p class="search-prompt">Type above to search all ' + allPages.length + ' guides.</p>';
+      // The index also holds About, Contact, and the legal pages, which are not guides
+      var guideCount = allPages.filter(function (p) { return p.category; }).length;
+      resultsEl.innerHTML = '<p class="search-prompt">Type above to search all ' + guideCount + ' guides.</p>';
       return;
     }
     if (!results.length) {
@@ -66,9 +88,10 @@
   }
 
   function runSearch() {
-    var q = norm(input.value);
+    var words = terms(input.value);
     var filtered = allPages.filter(function (p) {
-      var matchQ = !q || norm(p.title).indexOf(q) !== -1 || norm(p.description).indexOf(q) !== -1;
+      var haystack = norm([p.title, p.description, p.category].join(' '));
+      var matchQ = words.every(function (w) { return haystack.indexOf(w) !== -1; });
       var matchF = !activeFilter || norm(p.category) === norm(activeFilter);
       return matchQ && matchF;
     });

@@ -59,7 +59,7 @@ The limits mostly show up when you use it as a business scheduling system:
 
 It fits personal calendars, school schedules, family calendars, and small-team coordination where shared calendars and invitations matter more than formal admin controls.
 
-Google can add supported reservations and tickets from Gmail to Calendar when the account's smart-feature settings allow it. Personal accounts can also create one booking page, as described in Google's [appointment-schedule documentation](https://support.google.com/calendar/answer/190998?hl=en). Pair the calendar with a [free note-taking app](/productivity/free-note-taking-apps/) when meetings need longer notes.
+Google can add supported reservations and tickets from Gmail to Calendar when the account's smart-feature settings allow it. Personal accounts can also create one booking page, as described in Google's [appointment-schedule documentation](https://support.google.com/calendar/answer/11608416?hl=en). Pair the calendar with a [free note-taking app](/productivity/free-note-taking-apps/) when meetings need longer notes.
 
 [Use Google Calendar free →](https://calendar.google.com)
 

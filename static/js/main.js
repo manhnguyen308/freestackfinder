@@ -66,13 +66,6 @@
     }
   }
 
-  // Sticky sidebar for article pages
-  var sidebar = document.querySelector('.article-sidebar');
-  if (sidebar && window.innerWidth >= 960) {
-    sidebar.style.position = 'sticky';
-    sidebar.style.top = '80px';
-  }
-
   // Add table wrappers for horizontal scroll on mobile
   var articleContent = document.querySelector('.article-content');
   if (articleContent) {
@@ -106,6 +99,8 @@
   // Highlight active TOC link on scroll
   var headings = document.querySelectorAll('.article-content h2, .article-content h3');
   var tocLinksAll = document.querySelectorAll('.toc-widget a');
+  var sidebar = document.querySelector('.article-sidebar');
+  var lastActiveLink = null;
   if (headings.length && tocLinksAll.length) {
     window.addEventListener('scroll', function () {
       var scrollY = window.scrollY + 100;
@@ -121,6 +116,15 @@
           if (activeLink) {
             activeLink.style.color = 'var(--primary)';
             activeLink.style.fontWeight = '600';
+            // When the sticky sidebar scrolls on its own, keep the current section in view
+            if (activeLink !== lastActiveLink && sidebar && sidebar.scrollHeight > sidebar.clientHeight) {
+              var linkBox = activeLink.getBoundingClientRect();
+              var sidebarBox = sidebar.getBoundingClientRect();
+              if (linkBox.top < sidebarBox.top || linkBox.bottom > sidebarBox.bottom) {
+                sidebar.scrollTop += linkBox.top - sidebarBox.top - sidebarBox.height / 3;
+              }
+            }
+            lastActiveLink = activeLink;
           }
         }
       }
