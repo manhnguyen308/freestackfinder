@@ -82,12 +82,16 @@ Compare the headline capacity with:
 
 ### 1. MEGA: 20GB with a separate transfer allowance
 
+{{< rating 4 >}}
+
 MEGA's [free plan lists 20GB](https://mega.io/pricing), with desktop and mobile apps, browser access, file sharing, and client-side encryption. Its transfer allowance is separate from storage and varies, so repeated large downloads can stop before the storage itself is full.
 
 That makes it a good larger personal file store or secondary encrypted archive. Google Drive is a better fit when several people need to edit the same documents in a browser.
 
 
 ### 2. Google Drive: up to 15GB shared with mail and photos
+
+{{< rating 3.5 >}}
 
 A Google Account includes [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). Accounts created since March 9, 2026 start with 5GB and unlock the other 10GB after phone-number verification. Browser, desktop, and mobile access come alongside Docs, Sheets, Slides, Forms, sharing, and live editing. The available Drive capacity may be much smaller on an established account because mail and photos use the same pool.
 
@@ -96,12 +100,16 @@ It is built for shared documents and browser collaboration, not end-to-end encry
 
 ### 3. Box: 10GB with a 250MB upload cap
 
+{{< rating 3.5 >}}
+
 Box comes from a business-document background. Its [free individual plan lists 10GB of storage and a 250MB upload limit](https://www.box.com/pricing/individual), alongside shared links and basic e-signing.
 
 The upload cap rules out many videos and large design files. Box instead fits proposals, PDFs, presentations, and smaller client documents that benefit from controlled sharing.
 
 
 ### 4. OneDrive: 5GB beside Office web apps
+
+{{< rating 3 >}}
 
 OneDrive's [free plan lists 5GB](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), plus web access to Word, Excel, PowerPoint, and OneNote through Microsoft 365 for the web. Microsoft's [storage FAQ](https://support.microsoft.com/en-us/onedrive/microsoft-storage-faqs) says the same 5GB also holds Outlook.com attachments.
 
@@ -110,6 +118,8 @@ Its File Explorer integration makes it convenient for active Windows documents, 
 
 ### 5. Proton Drive: up to 5GB with end-to-end encryption
 
+{{< rating 3 >}}
+
 Proton Drive's [free plan lists up to 5GB](https://proton.me/drive/pricing), end-to-end encrypted storage, sharing, and online document editing. New accounts start at 2GB, and Proton's [storage guide](https://proton.me/support/more-storage-proton-drive) adds the other 3GB once the owner uploads a file, creates a share link, and sets up a recovery method within 30 days. It protects filenames and folder names as well as file contents.
 
 Its collaboration ecosystem is narrower than Google's, so it fits personal records and sensitive documents better than a busy team workspace.
@@ -117,12 +127,16 @@ Its collaboration ecosystem is narrower than Google's, so it fits personal recor
 
 ### 6. iCloud: 5GB shared by Apple services
 
+{{< rating 2.5 >}}
+
 Apple [includes 5GB](https://www.apple.com/icloud/) of iCloud storage for iCloud Drive, device backups, photos, and other synchronized data on iPhone, iPad, and Mac.
 
 Because those jobs share one pool, a device backup or photo library can leave little room for a general archive. It earns its place through continuity across Apple devices; check the storage breakdown before relying on it for files.
 
 
 ### 7. Dropbox: mature sync, weak free storage
+
+{{< rating 2 >}}
 
 Dropbox's sync client is mature, but its [Basic plan includes only 2GB](https://help.dropbox.com/plans/dropbox-basic-faq), alongside desktop and mobile sync and file sharing. Its version and deletion recovery window depends on the current plan terms.
 

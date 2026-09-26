@@ -42,6 +42,8 @@ The main limits are message or character caps, file handling, model access, and 
 
 ### 1. ChatGPT free
 
+{{< rating 4.5 >}}
+
 ChatGPT's free plan is a general-purpose drafter. Blog drafts, emails, social copy, cover letters, and document revision all fit, which is more range than a template-led tool offers.
 
 What's free:
@@ -64,6 +66,8 @@ OpenAI currently describes everyday text chats as unlimited subject to abuse saf
 
 ### 2. Claude free (Anthropic)
 
+{{< rating 3.5 >}}
+
 Long drafts are where Claude's free plan stands out. It can keep a whole document in context while following instructions about tone, formatting, or reading level, which suits essays, reports, scripts, and proposals that need structural editing across the full draft.
 
 Included on the free plan:
@@ -79,6 +83,8 @@ Sustained use hits a throttle, and more model choice, higher usage, projects, an
 
 
 ### 3. Microsoft Copilot
+
+{{< rating 4 >}}
 
 Copilot pairs writing help with web search, and it is free on the web, in Edge, and through Microsoft apps.
 
@@ -101,6 +107,8 @@ Research-led drafts that need links back to current sources are its strongest us
 
 ### 4. Rytr
 
+{{< rating 2.5 >}}
+
 Rytr works from templates rather than open chat. You pick a use case, a tone, and a few context fields, and it generates emails, product descriptions, social posts, blog outlines, or marketing copy.
 
 Free each month:
@@ -122,6 +130,8 @@ That structure helps with cold emails, AIDA copy, and product descriptions, but 
 
 
 ### 5. Google Gemini
+
+{{< rating 4 >}}
 
 Gemini's free access runs through its web and mobile apps, where free accounts can use Google's current Flash and Pro models at standard limits. Canvas, file analysis, connected apps, and image generation are available where the account and region support them. A 32,000-token context window applies to accounts without a Google AI plan.
 

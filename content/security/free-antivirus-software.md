@@ -34,6 +34,8 @@ Paid suites increasingly sell bundles: VPN access, password management, identity
 
 ### 1. Microsoft Defender Antivirus: built into Windows
 
+{{< rating 5 >}}
+
 Microsoft Defender Antivirus provides the primary malware protection in Windows 10 and 11. It runs through the Windows Security app alongside Windows Firewall, SmartScreen, and optional controlled folder access. Microsoft's [Windows Security documentation](https://support.microsoft.com/en-US/Windows/Security/Windows-Security/stay-protected-with-the-windows-security-app) explains which component handles each job.
 
 The built-in stack provides real-time and manual malware scans, cloud-delivered protection, firewall controls, reputation checks, and an offline scan. It does not bundle a consumer VPN or password manager. Some controls, including ransomware folder protection, must be configured rather than assumed to be active.
@@ -43,6 +45,8 @@ Published lab results change between test cycles. Use the current [AV-TEST Windo
 For an up-to-date personal Windows PC, leave Defender enabled unless another real-time antivirus replaces it. Security intelligence and engine updates arrive through Windows Update, so an unsupported or unpatched Windows installation changes this recommendation.
 
 ### 2. Malwarebytes Free: best on-demand second-opinion scanner
+
+{{< rating 2.5 >}}
 
 Malwarebytes Free cleans up after the fact rather than guarding in real time. On Windows and macOS it scans for malware, spyware, adware, and potentially unwanted programs, but ongoing real-time protection requires a paid plan. Use it after suspicious behavior or as a second-opinion scan rather than installing it as a second real-time engine.
 
@@ -54,6 +58,8 @@ This option fits Windows or Mac users who want a manual cleanup scan alongside t
 
 ### 3. Avast Free Antivirus: feature-rich but with privacy trade-offs worth knowing
 
+{{< rating 4 >}}
+
 Avast Free Antivirus offers real-time file, behavior, web, and mail shields. Current Windows versions also include core firewall functionality and ransomware protection; advanced firewall controls and other suite features remain paid. Avast's [feature documentation](https://support.avast.com/en-eu/article/avast-one-antivirus-free-and-paid-features-faqs/) is the reliable place to check which controls are included in the installed product.
 
 Privacy history is the reason it sits below Defender here. In 2024, the US Federal Trade Commission [finalized an order](https://www.ftc.gov/news-events/news/press-releases/2024/06/ftc-finalizes-order-avast-banning-it-selling-or-licensing-web-browsing-data-advertising-requiring-it) that barred Avast from selling or licensing browsing data for advertising and required a $16.5 million payment. Readers should review current telemetry and privacy settings rather than treating an antivirus label as a privacy guarantee.
@@ -64,6 +70,8 @@ Choose Avast when its extra web and network controls solve a specific need and y
 
 ### 4. AVG AntiVirus Free: same engine as Avast, different interface
 
+{{< rating 4 >}}
+
 AVG AntiVirus Free is owned by the same parent company as Avast (Gen Digital) and uses the same underlying antivirus engine. The main differences are the interface, bundled features, and branding.
 
 The free app includes real-time malware detection, core shields, Smart Scan, and ransomware protection. AVG's [current feature FAQ](https://support.avg.com/SupportArticleView?urlname=AVG-Antivirus-FAQ) separates those features from paid firewall and advanced email controls. Avoid relying on old comparisons that put all ransomware protection behind a subscription.
@@ -73,6 +81,8 @@ AVG shares Avast's corporate ownership and relevant privacy history. Between the
 [Download AVG Free →](https://avg.com)
 
 ### 5. Bitdefender Antivirus Free: focused Windows protection
+
+{{< rating 4 >}}
 
 Bitdefender's free edition only runs on Windows, where it provides real-time malware protection, basic ransomware protection, phishing defenses, and configurable scans. It has a normal application interface, and Bitdefender documents [custom scan scheduling](https://www.bitdefender.com/consumer/support/answer/2056/).
 

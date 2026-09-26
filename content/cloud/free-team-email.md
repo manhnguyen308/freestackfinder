@@ -36,6 +36,8 @@ An ongoing free setup therefore means using an explicit small-team plan, adaptin
 
 ### 1. Zoho Mail: up to five custom-domain users
 
+{{< rating 3.5 >}}
+
 Zoho's [Forever Free plan](https://www.zoho.com/mail/zohomail-pricing.html) is the only one here built as business email, with one custom domain, up to five users, and 5GB of mail storage per user. It includes web access, mobile apps, spam filtering, basic administration, and the free edition of Zoho Cliq.
 
 The free plan is available only in selected data centers. It does not include IMAP, POP, ActiveSync, email routing, or advanced shared-inbox controls, so standard desktop mail clients require a paid plan. Adding a sixth user also moves every account in the organization to paid licensing.
@@ -45,12 +47,16 @@ Zoho fits a freelancer or small organization that needs a professional domain an
 
 ### 2. Spike: three addresses on a team domain
 
+{{< rating 2.5 >}}
+
 Spike presents email as threaded conversations and combines it with channels, notes, tasks, and calls. The [free Teamspace plan](https://www.spikenow.com/pricing/) currently supports up to three members, gives each member an address on a `spike.team` domain, provides 15GB per member, and limits search history to 60 days.
 
 It does not provide a custom domain or shared inbox on the free plan. A separate free Email App can connect one existing mailbox, but that does not turn the mailbox into a managed team account. Spike therefore fits a three-person group willing to use `spike.team` addresses, not a business trying to share an existing support address.
 
 
 ### 3. Proton Mail Free: separate encrypted accounts
+
+{{< rating 2 >}}
 
 Each Proton Mail [free account](https://proton.me/mail/pricing) is one person's encrypted inbox, with one address and up to 1GB of mail storage, with web and mobile access, zero-access encryption for stored mail, and automatic end-to-end encryption between Proton users.
 
@@ -63,12 +69,16 @@ Our [free email service guide](/cloud/free-email-service/) compares Proton with 
 
 ### 4. Tuta: separate private accounts for a small group
 
+{{< rating 2 >}}
+
 Tuta's code is open source, and its [free personal plan](https://tuta.com/pricing) lists one user, 1GB of storage, one calendar, web and mobile apps, and a Tuta address.
 
 The free plan has no custom domain, shared inbox, or team administration. Tuta also does not support IMAP because its clients handle the service's encryption. It fits people who deliberately want separate private accounts; it does not create a shared business-email environment.
 
 
 ### 5. Gmail delegate access: shared access to one account
+
+{{< rating 2.5 >}}
 
 Gmail delegation lets other people read, send, and delete messages in the account without sharing its password. Google's [delegation documentation](https://support.google.com/mail/answer/138350) allows up to ten delegates on a personal Gmail account and notes that the delegate's address appears when they send mail.
 

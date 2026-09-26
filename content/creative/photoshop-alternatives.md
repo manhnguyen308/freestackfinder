@@ -74,6 +74,8 @@ That usually leads to one of four paths:
 
 {{< verdict "Best overall" >}}
 
+{{< rating 4.5 >}}
+
 Photopea follows the same broad model as Photoshop, with layers, adjustment logic, and a familiar layout, and it opens and exports PSD files.
 
 What you can do without paying:
@@ -96,6 +98,8 @@ It fits occasional browser edits, Chromebook use, and PSD files received from cl
 ### 2. GIMP: best free desktop alternative
 
 {{< verdict "Best desktop option" >}}
+
+{{< rating 4.5 >}}
 
 GIMP runs locally on Windows, macOS, and Linux, so it is not tied to a browser session.
 
@@ -120,6 +124,8 @@ It takes longer to learn than Photopea, whose layout follows Photoshop more clos
 
 {{< verdict "Best for illustration" >}}
 
+{{< rating 4 >}}
+
 Krita was built for painting rather than photo retouching, and that focus is its advantage.
 
 Inside the free desktop app:
@@ -140,6 +146,8 @@ Illustrators, comic artists, concept artists, and anyone who uses Photoshop more
 
 
 ### 4. Pixlr: best for quick browser editing with a lighter learning curve
+
+{{< rating 3.5 >}}
 
 Pixlr is a browser-based editing suite that sits between casual design tools and deeper editors like Photopea.
 

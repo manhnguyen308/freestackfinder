@@ -74,6 +74,8 @@ For most small sites, the practical stack is two or three tools rather than one.
 
 ### Google Analytics 4
 
+{{< rating 5 >}}
+
 GA4 is Google's current analytics platform, and the free version has no pageview cap, no seat limit on reporting, and no hard data retention wall for standard reports. The standard data retention window for event data is set to two months by default but can be changed to fourteen months in the admin settings: do this immediately after setup if you want longer historical comparison.
 
 GA4's free value is breadth: unlimited traffic, acquisition, engagement, and conversion tracking; up to 500 distinct event types per property; Looker Studio integration; Search Console integration; and basic audience and funnel reports. It is the broadest free dashboard for understanding where visitors come from and what they do after they arrive.
@@ -87,6 +89,8 @@ GA4 fits a site that needs traffic, acquisition, and conversion data in one inte
 
 ### Google Search Console
 
+{{< rating 5 >}}
+
 Search Console does not track pageviews, sessions, referrals, or time on page. It reports Google Search queries, impressions, clicks, average position, indexing, and crawl issues. Use it beside GA4, Umami, or another traffic analytics tool.
 
 Its reports cover query-level clicks, impressions, CTR, and average position for up to 16 months; page-level search performance; index coverage; crawl error reporting; Core Web Vitals field data; and structured data or rich-result validation.
@@ -97,6 +101,8 @@ The restriction is scope. Data is aggregated, low-volume queries may be grouped 
 
 
 ### Microsoft Clarity
+
+{{< rating 4.5 >}}
 
 Microsoft's Clarity shows how people use a page rather than how they found it.
 
@@ -111,6 +117,8 @@ It suits sites that need to understand layout and UX problems without paying for
 
 ### Umami (self-hosted)
 
+{{< rating 4.5 >}}
+
 Umami is open source and cookieless by default, collects no personally identifiable information, and stores all data on your own server. The self-hosted version is free to run, and [Umami Cloud](https://umami.is/pricing) hosts it for teams that do not want to manage infrastructure, with a free Hobby tier for one website and 100,000 events a month.
 
 Umami's self-hosted free value is simple privacy-friendly traffic reporting: unlimited websites, unlimited pageviews, event tracking, referral and source data, real-time visitor view, multi-user access, custom domains, and no external data sharing.
@@ -123,6 +131,8 @@ Its audience is developers and technically confident site owners who prioritize 
 
 
 ### Matomo On-Premise
+
+{{< rating 4 >}}
 
 Matomo is the heavier self-hosted option. Its free, open-source On-Premise core includes traffic and visitor reports, goals, ecommerce tracking, Tag Manager, APIs, and raw-data access without a hosted-service data cap.
 

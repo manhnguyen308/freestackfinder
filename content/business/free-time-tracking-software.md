@@ -40,6 +40,8 @@ Those charges matter less when a freelancer invoices elsewhere or a small team n
 
 ### 1. Clockify: shared tracking for up to five users
 
+{{< rating 4 >}}
+
 Clockify, from Cake.com, gives up to five users unlimited tracking and projects, according to its [current free-plan documentation](https://clockify.me/help/administration/subscription-plans).
 
 What you can track for free:
@@ -67,6 +69,8 @@ It fits freelancers and teams of up to five that need shared time logs across pr
 
 ### 2. Toggl Track: best for individuals who want the cleanest interface
 
+{{< rating 4 >}}
+
 Toggl Track centers its workflow on a one-click timer across web, desktop, mobile, and browser extensions. Its free plan covers individuals and teams of up to five people.
 
 The free plan covers:
@@ -90,6 +94,8 @@ Its browser extension can detect the app or website in use and suggest a matchin
 
 ### 3. RescueTime Lite: best for automatic background time tracking
 
+{{< rating 3 >}}
+
 RescueTime Lite never asks you to start a timer. The free desktop tier records time spent in apps and websites on its own; RescueTime's iOS app requires a paid plan.
 
 The Lite tier records and reports:
@@ -112,6 +118,8 @@ It can show time split between focused work, email, and browsing, which makes it
 
 ### 4. TimeCamp: unlimited users and top-level projects
 
+{{< rating 3.5 >}}
+
 TimeCamp is the only tracker here with no user cap on its free plan. Its [current plan comparison](https://www.timecamp.com/pricing/) includes unlimited users, unlimited top-level projects, manual entry, automatic tracking, and weekly timesheets on Free.
 
 On the Free plan:
@@ -127,6 +135,8 @@ Free projects stop at one level, though. Tasks, invoicing and billable time, bud
 
 
 ### 5. Harvest: best free plan for solo freelancers with built-in invoicing
+
+{{< rating 2.5 >}}
 
 Harvest is the one tracker here that turns entries into invoices and takes client payments on the free plan, but the free tier stops at one seat and two active projects.
 

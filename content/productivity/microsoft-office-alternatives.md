@@ -88,6 +88,8 @@ The sentence used for the font sample names Liberation Serif, but its text alone
 
 {{< verdict "Best overall" >}}
 
+{{< rating 4.5 >}}
+
 A free Google account includes:
 - Google Docs (Word equivalent): unlimited documents
 - Google Sheets (Excel equivalent): full formula support including VLOOKUP, XLOOKUP, pivot tables
@@ -121,6 +123,8 @@ Team chat beside these documents is compared in the [free Slack alternatives gui
 ### 2. Best offline suite: LibreOffice
 
 {{< verdict "Best for offline use" >}}
+
+{{< rating 5 >}}
 
 LibreOffice has no subscription and no premium tier. The open-source desktop suite includes Writer (Word), Calc (Excel), Impress (PowerPoint), Draw, Base (database), and Math, and runs on Windows, macOS, and Linux.
 
@@ -156,6 +160,8 @@ For unrestricted offline documents, spreadsheets, and presentations, LibreOffice
 
 {{< verdict "Compare for .docx work" >}}
 
+{{< rating 4.5 >}}
+
 OnlyOffice is worth comparing when `.docx` compatibility is the priority. Its editors use Microsoft Office formats as their primary file types, but complex fonts, tables, formatting, and tracked changes still need checking with representative documents.
 
 In our test DOCX, OnlyOffice displayed the table's dark header and full-width final row, the nested list, and text beside the image. The font sample appeared serif over two lines, while the nested bullets were larger round dots than those in the other two views.
@@ -183,6 +189,8 @@ If your work regularly involves tracked changes, review comments, or specific ta
 
 
 ### 4. WPS Office: familiar layout with subscription offers
+
+{{< rating 3 >}}
 
 WPS Office follows Microsoft's ribbon layout and opens common Office formats. The home-screen screenshot shows WPS subscription promotions in the welcome area and a recommendations panel, with a Sign In option at the top.
 

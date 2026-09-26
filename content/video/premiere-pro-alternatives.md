@@ -43,6 +43,8 @@ That means a free alternative does not need to be "better than Premiere" in the 
 
 ### 1. DaVinci Resolve: best overall replacement for serious solo editors
 
+{{< rating 4.5 >}}
+
 Resolve replaces Premiere's editing and finishing in one application, with color, Fairlight audio, and Fusion effects beside the timeline.
 
 In the free version:
@@ -65,6 +67,8 @@ Readers who never used Premiere will find a broader ranking in the [free video e
 
 ### 2. CapCut Desktop: best replacement for social-first Premiere users
 
+{{< rating 3.5 >}}
+
 CapCut replaces a different kind of Premiere use: short social videos where speed, captions, and templates matter more than editorial control.
 
 The free desktop app covers:
@@ -81,6 +85,8 @@ Creators who mainly cut short social videos may not need everything Premiere off
 
 
 ### 3. Kdenlive: best open-source timeline for former Premiere users
+
+{{< rating 4.5 >}}
 
 Kdenlive's timeline is the closest of these to what a Premiere user already knows, because it avoids Resolve's page-based structure.
 
@@ -102,6 +108,8 @@ It suits editors who want a traditional multi-track timeline and open-source lic
 
 ### 4. OpenShot: best if your Premiere usage was always light
 
+{{< rating 3.5 >}}
+
 If Premiere was always more than the work required, OpenShot covers cuts, titles, transitions, and straightforward exports with far less to learn.
 
 The basics it covers:
@@ -121,6 +129,8 @@ For a casual editor, a simpler tool can be the right replacement rather than a d
 
 
 ### 5. Shotcut: best as a format rescue option
+
+{{< rating 4 >}}
 
 Shotcut is the rescue option for footage that other free editors refuse to import cleanly.
 

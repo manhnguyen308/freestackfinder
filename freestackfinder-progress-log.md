@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87d
+**Current day:** 87e
 
 ## Current state
 
@@ -16,11 +16,24 @@
 - Product icons: all 50 feature images use real product icons instead of initials circles (Days 85c to 85n). Drawn glyphs from `image_helpers.glyph` appear only on cards that are not a single product or have no icon of their own. The 183 icon files in `scripts/images/logos/` each have a source row in `logos/SOURCES.md`; any new generator card should add its icon and source row the same way
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); all 50 articles had their paid plans and free limits rechecked 2026-09-26 (Day 87c); next rotation is Business, then Creative, Security + Cloud, and Video
 - Paid-plan tables: every article now has a table of each tool's paid step, price, and what it adds (Days 87b and 87c). Prices are US figures read in September 2026. Canva, Wix, LanguageTool, CapCut, Adobe, and Box rows carry a note that local prices and tax differ by country (Day 87d); MEGA, Matomo, Joplin, and Tuta are priced in euros. Recheck these with the freshness rotation, because they go stale fastest
+- Star ratings: every rated tool section carries a free plan score of 1 to 5 stars (Day 87e), 238 in all. The rubric is public on `/about/#star-ratings`; each score and its reason is in `docs/RATINGS.md`, which the freshness rotation and new articles must keep in step
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 
 ---
+
+### Day 87e - Free plan star ratings on every tool section
+
+- Date: 2026-09-26. Scoped to a new `rating` shortcode, its CSS, the About page, the article editorial note, all 50 articles, the publish checklist, and project docs. No title, description, slug, image, ranking, affiliate link, CTA, or `lastmod` changed; every article already carries 2026-09-26 from Day 87c.
+- Feature: `layouts/shortcodes/rating.html` renders an uppercase "Free plan" label, five 18px inline SVG stars with half-star support, the score as "4.5/5", and a "How we rate" link to the rubric. Screen readers get "Free plan rating: 4.5 out of 5". Stars are `--primary` teal on `--border-dark`, because amber is reserved for the affiliate button. The shortcode fails the build on any score outside 1 to 5 in half steps.
+- Rubric: a new "How the star ratings work" section on `/about/#star-ratings` defines the five levels. The stars score the free plan only, against the page's job, from published limits, and paid tiers or affiliate commissions do not raise them. The article editorial note now reads "Rankings and star ratings are based on published free-tier limits and workflow fit."
+- Ratings: 238 across all 50 articles, one under each numbered tool heading (under the verdict badge where there is one), plus the unnumbered tool sections in `free-web-analytics`, `free-security-audit-tools`, and `free-video-editing-mac`, and one Canva Free score in `canva-free-vs-paid`. Spread: 20 at 5, 38 at 4.5, 60 at 4, 47 at 3.5, 37 at 3, 18 at 2.5, 14 at 2, 4 at 1 (FreshBooks trial, Bitwarden TOTP, WiseStamp, Newoldstamp). Backblaze, the backup page's paid option, and tools in "a note on" sections are not rated. A tool scores differently across pages only when the job differs, such as Notion for solo notes (4) versus team projects (3). NordPass, an active affiliate program, scores 2.5 for its one-session limit.
+- Records: `docs/RATINGS.md` holds the rubric, the rules, and a table per article with each score and the limit behind it. `publish_checklist.py` now fails a numbered tool section without a rating unless its heading calls it a paid option. `SKILL.md`, `DESIGN-SYSTEM.md`, `FRESHNESS-CHECKS.md`, the archetype, and the `CLAUDE.md` reading table point to it, and `FEATURE-STRATEGY.md` lists the feature.
+- Structured data: no Review or AggregateRating JSON-LD was added. Google's review snippet rules require a rating about one specific item, not items in a list, so marking up list pages would risk a manual action.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. Hugo 0.159.2 built to a temporary destination with no errors or warnings; the output has 238 rating blocks on 50 pages and the `star-ratings` anchor on the About page. Checked in the local preview at desktop width and at 375px, where the rating stays on one line and the page has no horizontal scroll. `publish_checklist.py` passes on four sampled articles and fails a test copy with one rating removed. No dash or curly-quote characters were added, and `git diff --check` passed.
+- Guardrails: no first-hand testing language, no affiliate link or CTA change, Canva and Grammarly remain editorial only.
+- Follow-up: when a freshness check changes a free limit, update that tool's score and its row in `docs/RATINGS.md` in the same change.
 
 ### Day 87d - US prices and location notes for region-priced tools
 

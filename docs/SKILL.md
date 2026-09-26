@@ -156,6 +156,8 @@ Headings must be specific to the page; never use "Quick verdict", "Our verdict",
 
 Each tool section should cover: what separates the tool · what the free plan includes · where it stops · who it suits · tool link. Cover those points, but do not give every section the same first sentence, labels, or order. The description, first sentence, tool-section openers, and closing must not repeat a formula used on other pages. See "Sitewide sameness" in `website-content-humanizer.md` before writing any of them.
 
+Put a free plan rating, `{{< rating 4 >}}` on its own line, under every tool heading (under the `verdict` badge when there is one). Score it with the rubric in `docs/RATINGS.md`, from the limits the section states, and add the tool's row and reason to that file. `publish_checklist.py` fails a tool section without one.
+
 ### Internal linking
 - Add 2–5 relevant internal links per article
 - Use descriptive anchors; never "click here"

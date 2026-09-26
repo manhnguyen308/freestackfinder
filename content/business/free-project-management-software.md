@@ -69,6 +69,8 @@ Income from those projects is tracked in accounting software rather than a proje
 
 {{< verdict "Best overall" >}}
 
+{{< rating 3.5 >}}
+
 Atlassian's Trello puts everything on Kanban boards. Its [current plan page](https://trello.com/en/pricing) lists unlimited cards and Power-Ups, up to 10 boards, and up to 10 collaborators per workspace.
 
 What you can do for free:
@@ -97,6 +99,8 @@ A basic board needs little setup because Trello shows the core workflow as colum
 
 {{< verdict "Best for structured teams" >}}
 
+{{< rating 3 >}}
+
 Asana's [Personal plan](https://asana.com/pricing) supports one or two users with list, board, and calendar views.
 
 Included for up to two users:
@@ -123,6 +127,8 @@ Asana Personal offers more ways to view work than Trello Free, but its two-user 
 
 
 ### 3. Notion Free: best for combining tasks with documentation
+
+{{< rating 3 >}}
 
 Notion Free keeps project tasks in the same workspace as notes, wikis, and databases, so one tool can stand in for both a project tracker and a team knowledge base.
 
@@ -152,6 +158,8 @@ Notion needs more setup than a dedicated board in Trello or Asana, but it can ke
 
 {{< verdict "Best all-in-one free tier" >}}
 
+{{< rating 3.5 >}}
+
 ClickUp's [Free Forever plan](https://clickup.com/pricing) includes unlimited tasks and members, collaborative Docs, and list, board, and calendar views. Several advanced features appear only as limited trial uses.
 
 On the Free Forever plan:
@@ -174,6 +182,8 @@ The 60MB storage cap arrives quickly if people attach media or design files, so 
 
 
 ### 5. Linear Free: best for software development teams
+
+{{< rating 3 >}}
 
 Linear is built for software teams tracking issues rather than general tasks. Its [current Free plan](https://linear.app/pricing) allows unlimited members but caps the workspace at two teams and 250 issues.
 

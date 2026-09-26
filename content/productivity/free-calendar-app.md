@@ -42,6 +42,8 @@ Do not choose a calendar only by its visual layout. Before moving everything, cr
 
 ### 1. Google Calendar
 
+{{< rating 5 >}}
+
 Google Calendar's free account covers the core scheduling jobs most people need:
 - Events, multiple calendars, and recurring schedules
 - Gmail integration: automatically adds events from booking confirmations, flight receipts, and reservations
@@ -64,6 +66,8 @@ Google can add supported reservations and tickets from Gmail to Calendar when th
 
 ### 2. Notion Calendar
 
+{{< rating 4 >}}
+
 Notion Calendar began as Cron, a calendar app Notion acquired in 2022. It is free with a Notion account and includes:
 - Day, week, and month calendar views
 - Google Calendar sync: displays your existing Google Calendar events
@@ -85,6 +89,8 @@ The keyboard-first interface supports creating and editing events without leavin
 
 
 ### 3. Apple Calendar
+
+{{< rating 4.5 >}}
 
 Apple Calendar comes installed on iPhone, iPad, Mac, and Apple Watch and syncs through iCloud, so there is nothing to buy:
 - Events across multiple calendars
@@ -109,6 +115,8 @@ Shared iCloud calendars cover basic family or small-group coordination without a
 
 ### 4. Proton Calendar
 
+{{< rating 3.5 >}}
+
 Proton, the company behind Proton Mail, encrypts every event in Proton Calendar end to end. The free tier is built around that:
 - End-to-end encrypted events: Proton cannot read your calendar data
 - Proton Mail integration for a fully encrypted email + calendar combination
@@ -130,6 +138,8 @@ The free plan currently permits three personal calendars, according to Proton's 
 
 
 ### 5. Zoho Calendar
+
+{{< rating 4.5 >}}
 
 Zoho Calendar is free with any Zoho account and covers the small-team basics:
 - Multiple calendars with color-coding

@@ -34,6 +34,8 @@ Grammar checks, clarity flags, and word-choice suggestions are all available in 
 
 ### 1. LanguageTool: best for multilingual writers and everyday grammar checking
 
+{{< rating 4 >}}
+
 LanguageTool checks more than 30 languages from one open-source extension, which also runs as a desktop app and web editor.
 
 What you can use for free:
@@ -58,6 +60,8 @@ Long documents are where the free tier pinches. The free text-length allowance i
 
 ### 2. ProWritingAid: best for long-form writers who want structural feedback
 
+{{< rating 2.5 >}}
+
 ProWritingAid reads a draft for structure as well as grammar, with separate reports for style, readability, and sentence construction.
 
 The free web editor covers:
@@ -80,6 +84,8 @@ Its reports cover repeated sentence openings, passive voice, readability, and ov
 
 ### 3. Hemingway Editor: best for improving readability and cutting clutter
 
+{{< rating 3.5 >}}
+
 Hemingway Editor ignores grammar and grades readability instead. Paste a draft into the web editor and it highlights hard-to-read sentences, passive voice, adverbs, and complex phrasing.
 
 Free in the browser:
@@ -100,6 +106,8 @@ The color coding separates complex words, very hard sentences, hard sentences, a
 
 
 ### 4. Google Docs built-in tools: best for writers already using Google Docs
+
+{{< rating 3.5 >}}
 
 Anyone with a free Google account already has a grammar checker and Smart Compose inside Google Docs.
 

@@ -61,6 +61,8 @@ The practical decision goes beyond price. A team must safely handle onboarding, 
 
 ### 1. Bitwarden Free Organizations: best cloud-hosted free option
 
+{{< rating 2.5 >}}
+
 Bitwarden's cloud product includes a free Organization tier that allows two members to share credential collections without a credit card.
 
 Bitwarden's [organization quick start](https://bitwarden.com/help/getting-started-organizations/) confirms secure sharing for two users. The free tier includes:
@@ -83,6 +85,8 @@ For exactly two people, such as freelance partners, co-founders sharing infrastr
 
 ### 2. Vaultwarden: Bitwarden-compatible self-hosting
 
+{{< rating 4 >}}
+
 Vaultwarden is an unofficial implementation of the Bitwarden server API written in Rust. It works with official Bitwarden clients, but Bitwarden does not develop or support it.
 
 Vaultwarden keeps the Bitwarden-compatible workflow lighter:
@@ -102,6 +106,8 @@ It makes sense when server resources are tight, the team is technical, and every
 [Vaultwarden on GitHub →](https://github.com/dani-garcia/vaultwarden)
 
 ### 3. Passbolt Community Edition: purpose-built team sharing
+
+{{< rating 3.5 >}}
 
 Passbolt was built around shared credentials from the start, rather than adding team features to a personal vault.
 
@@ -125,6 +131,8 @@ Development, sysadmin, and IT teams that share many service credentials get the 
 [Passbolt Community Edition →](https://www.passbolt.com/ce/docker)
 
 ### 4. KeePassXC shared vault: manual file sharing
+
+{{< rating 2 >}}
 
 A KeePassXC shared vault uses a single vault file stored in shared cloud storage (Google Drive, Dropbox, Nextcloud) as a basic team password setup. The vault is a single encrypted file; anyone with the master password can open it.
 

@@ -57,6 +57,8 @@ These licensing traits remove a subscription boundary, but support, documentatio
 
 ### 1. Kdenlive: best overall open-source NLE
 
+{{< rating 4.5 >}}
+
 Kdenlive is the KDE project's video editor and has been in development since the early 2000s. It uses the MLT multimedia framework for processing and supports proxy clips, which is useful when full-resolution footage is too heavy for the editing machine.
 
 There is no paid tier. The full editor includes a proper multi-track timeline, proxy clip support for smoother 4K editing on mid-range hardware, a reasonable color correction toolset with scopes, audio mixing, keyframe animation, basic title creation, and a good range of built-in effects. The export dialog supports custom encoding profiles through FFmpeg.
@@ -69,6 +71,8 @@ Linux users get a professional-feeling editor without any commercial software, W
 
 
 ### 2. Shotcut: best for format and codec compatibility
+
+{{< rating 4 >}}
 
 Shotcut shares Kdenlive's MLT framework but earns its place through format flexibility: older camcorder files and mixed-source footage often need less preparation before import.
 
@@ -83,6 +87,8 @@ It is worth keeping installed even alongside a different primary editor, because
 
 ### 3. OpenShot: best for beginners
 
+{{< rating 3.5 >}}
+
 OpenShot has existed since 2008 and remains the simplest fully open-source editor available. Its clean three-panel layout and drag-and-drop clip management provide enough features for basic finished videos without giving a first-time editor too many controls.
 
 The full editor includes drag-and-drop timeline editing, basic transitions and effects, a title editor with 3D title animations (generated via an optional Blender integration), audio waveform visualization, cross-platform support, and basic export options.
@@ -93,6 +99,8 @@ It suits first-time editors who want a simple place to learn, teachers and stude
 
 
 ### 4. Blender Video Sequence Editor: best for Blender users
+
+{{< rating 3.5 >}}
 
 Blender is primarily a 3D creation suite for modeling, rigging, animation, rendering, and compositing, and its Video Sequence Editor (VSE) is the built-in video editing module. The VSE is not a standalone editor competing with Kdenlive; it is a tool for Blender users who need to cut together footage, add motion graphics from Blender's scene system, and export a finished video without leaving the application.
 
@@ -106,6 +114,8 @@ It fits 3D animators, motion graphics artists, and VFX-adjacent work where Blend
 
 
 ### 5. Olive Video Editor: worth tracking, not yet production-ready
+
+{{< rating 2 >}}
 
 Olive is an open-source node-based video editor that has been in development since 2018. It aims to offer a modern NLE interface combined with a node compositor: similar in concept to DaVinci Resolve's Fusion, but fully open-source.
 

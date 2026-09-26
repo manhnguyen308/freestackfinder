@@ -41,6 +41,8 @@ For this September 2026 check, we created new free accounts on MEGA, Google Driv
 
 ### 1. MEGA: best for maximum free storage and privacy
 
+{{< rating 4 >}}
+
 MEGA gives the largest free allowance here. The New Zealand service's [plan comparison](https://mega.io/pricing) lists 20GB on the free plan, and its [security overview](https://mega.io/security) describes client-side, user-controlled encryption. Desktop clients are available for Windows, macOS, and Linux, with mobile and browser access as well.
 
 {{< screenshot src="/img/screenshots/dropbox-alternatives/mega-20gb-storage.png" alt="MEGA free account storage panel showing 0 B of 20 GB used and an Unlock bonus storage link" caption="Our new MEGA account showed 0 B of 20 GB used in September 2026. The bonus storage link is separate from that base allowance." >}}
@@ -55,6 +57,8 @@ Free accounts use a variable transfer quota, so MEGA is less predictable for pub
 
 
 ### 2. Google Drive: best for productivity and collaboration
+
+{{< rating 3.5 >}}
 
 Every Google Account gets [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014). A Google account created since March 9, 2026 is held at 5GB until its phone number is verified.
 
@@ -81,6 +85,8 @@ Check the account's storage dashboard before migrating. Gmail, Google Photos, an
 
 ### 3. OneDrive: best for Windows users who want zero-setup sync
 
+{{< rating 3 >}}
+
 OneDrive's main advantage is that it ships with supported Windows versions. Its [free plan currently lists 5GB](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), and Microsoft's [storage FAQ](https://support.microsoft.com/en-us/onedrive/microsoft-storage-faqs) says that same allowance also holds Outlook.com attachments.
 
 {{< screenshot src="/img/screenshots/dropbox-alternatives/onedrive-5gb-storage.png" alt="Microsoft storage summary showing 3.6 GB of 5 GB used across Outlook attachments and OneDrive" caption="Our free Microsoft account showed 3.6 GB of 5 GB used, with Outlook attachments and OneDrive files counted in the same total." >}}
@@ -97,6 +103,8 @@ The zero-setup advantage makes most sense for Windows-first users with a modest 
 
 
 ### 4. Proton Drive: best for privacy-first cloud storage
+
+{{< rating 3 >}}
 
 As of September 2026, a new Proton Drive Free account starts with 2GB of end-to-end encrypted storage, which is what our new account showed. Proton's [storage guide](https://proton.me/support/more-storage-proton-drive) adds 3GB, for 5GB in total, when the owner completes three setup tasks within 30 days of sign-up: add a file or folder, create a shareable link, and set up a recovery method. The [Drive plan comparison](https://proton.me/drive/pricing) lists that 5GB maximum.
 
@@ -124,6 +132,8 @@ It works best as a privacy-first secondary store rather than a primary sync fold
 
 
 ### 5. Box Free: best for business document workflows
+
+{{< rating 3.5 >}}
 
 Box offers a [10GB free personal plan with a 250MB upload limit](https://www.box.com/pricing/individual), and its sharing controls are aimed at business documents.
 

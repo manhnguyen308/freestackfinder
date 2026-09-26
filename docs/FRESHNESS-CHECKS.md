@@ -26,6 +26,7 @@ Before keeping a precise claim, confirm:
 - Free plan still has the stated feature.
 - Usage, storage, export, upload, transfer, message, or seat limit is still current.
 - Paid-plan comparison is still accurate.
+- The tool's star rating still fits its free limits; update the score and its row in `docs/RATINGS.md` together.
 - "Unlimited" is qualified by fair-use, platform, region, or plan caveats when relevant.
 - Model names are still available in the product surface being discussed.
 - Pricing is region-aware or clearly framed as a current US list price.

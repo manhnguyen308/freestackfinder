@@ -36,6 +36,8 @@ OBS Studio and ShareX can record to local files without a service-imposed durati
 
 ### 1. OBS Studio: local recording without a service cap
 
+{{< rating 5 >}}
+
 OBS Studio was built for live streaming as well as recording, which is why it exposes more controls than a quick-capture tool. The open-source app runs on Windows, macOS, and Linux.
 
 What you can record for free:
@@ -62,6 +64,8 @@ It suits local, watermark-free recording for tutorials, product demos, and anyth
 
 ### 2. ShareX: best free screen recorder for Windows power users
 
+{{< rating 4.5 >}}
+
 ShareX turns capture into a keyboard shortcut on Windows: record or screenshot, annotate, and upload in one step.
 
 Free and open-source, it includes:
@@ -85,6 +89,8 @@ The open-source tool is excessive for basic recording, but it can replace separa
 
 
 ### 3. Loom Free: best for quick shareable recordings under 5 minutes
+
+{{< rating 2 >}}
 
 Loom hosts every recording and hands back a shareable link as soon as you stop, which is the part OBS and ShareX leave to you.
 
@@ -110,6 +116,8 @@ A Loom link opens in a browser, plays immediately, and allows the recipient to c
 
 ### 4. Screencastify: ten browser recordings on the free plan
 
+{{< rating 2 >}}
+
 Screencastify is a browser-based recorder aimed in part at educators. Its [current Free plan](https://www.screencastify.com/pricing) allows up to ten videos, each up to 30 minutes.
 
 What Chrome records for free:
@@ -132,6 +140,8 @@ For lessons or feedback distributed through Google Classroom or Drive, the path 
 
 
 ### 5. Clipchamp: recording and basic edits in one project
+
+{{< rating 4 >}}
 
 Clipchamp comes with Windows 11 and puts a screen recorder inside a basic video editor, so a capture can be trimmed without switching apps.
 

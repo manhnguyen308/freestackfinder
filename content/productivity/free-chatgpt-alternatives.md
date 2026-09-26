@@ -45,6 +45,8 @@ People supplement ChatGPT when they want citations attached to search results, c
 
 ### 1. Claude free (Anthropic)
 
+{{< rating 3.5 >}}
+
 Claude is the one to try when a task comes with conditions and exceptions that have to stay consistent across a long document.
 
 Claude's free access includes:
@@ -67,6 +69,8 @@ Heavy document work can use the variable session allowance quickly. Anthropic do
 
 ### 2. Microsoft Copilot
 
+{{< rating 4 >}}
+
 Microsoft offers Copilot on the web, in Edge, and through Microsoft apps without a separate subscription:
 - Free web and app access for general questions, writing, brainstorming, summarising, and image creation
 - Web-grounded answers for current information
@@ -84,6 +88,8 @@ Copilot fits people who already use Edge, Windows, Outlook, or Office web apps. 
 
 
 ### 3. Google Gemini
+
+{{< rating 4 >}}
 
 What Gemini offers a free account depends on the account and region, but it can include:
 - General access to Gemini's fast model for everyday prompts
@@ -106,6 +112,8 @@ Gemini fits accounts that already use Gmail, Docs, Drive, and Android. Connectio
 
 ### 4. Perplexity AI
 
+{{< rating 4 >}}
+
 Perplexity attaches source links to every answer by combining generated text with real-time web search.
 
 Perplexity's free search service provides:
@@ -126,6 +134,8 @@ Perplexity fits research that needs links back to source pages. Its citations ma
 
 
 ### 5. Grok (xAI)
+
+{{< rating 3.5 >}}
 
 Grok's search covers posts on X as well as web pages, which helps with a story that is still developing and has little written about it yet. It runs at grok.com, in the iOS and Android apps, and inside X.
 

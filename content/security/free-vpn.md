@@ -63,6 +63,8 @@ A VPN does not make weak passwords safe, remove malware from a device, or stop a
 
 {{< verdict "Best overall" >}}
 
+{{< rating 4 >}}
+
 Proton VPN comes from the same Swiss company as Proton Mail and Proton Drive. Its free plan has no data allowance, and Proton publishes its apps' source code and third-party audit reports.
 
 The [free plan has no data limit](https://protonvpn.com/support/does-protonvpn-have-bandwidth-limit). Its free servers are currently distributed across ten countries, but the app initially chooses the fastest available server. A manual change sends you to another randomly selected country and can trigger a cooldown, as described in Proton's [free-server documentation](https://protonvpn.com/support/change-server-free-plan).
@@ -78,6 +80,8 @@ For regular browsing on one device, where a specific exit country does not matte
 
 {{< verdict "Best for variety" >}}
 
+{{< rating 3.5 >}}
+
 Windscribe's free tier lets you pick the country, which Proton's does not, in exchange for a monthly data cap. The Canadian service's [current free plan](https://windscribe.com/features/use-for-free) includes 2 GB per month without an email address or 10 GB after confirming one, servers in ten countries, browser extensions, the R.O.B.E.R.T. blocker, and connections across multiple devices.
 
 The monthly allowance is the main constraint. Video and large downloads can use it quickly, while paid plans add more locations and unlimited data. Windscribe publishes privacy and audit material, but readers should still check the scope and date of each report rather than treating the word "audited" as a permanent guarantee.
@@ -90,6 +94,8 @@ The browser extension also suits people who want to route browser traffic withou
 ### 3. TunnelBear Free: 2 GB for short sessions
 
 {{< verdict "Most transparent" >}}
+
+{{< rating 2 >}}
 
 TunnelBear pairs a small 2 GB monthly free tier with a long record of published independent security audits.
 

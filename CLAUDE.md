@@ -37,6 +37,7 @@ For token-saving with filters and compresses command outputs before they reach y
 | Image generation | `docs/IMAGE-GUIDELINES.md` |
 | Affiliate / monetization | `docs/AFFILIATE-GUIDELINES.md` |
 | Visual design / CSS / tokens | `docs/DESIGN-SYSTEM.md` |
+| Tool star ratings | `docs/RATINGS.md` |
 | Build / deployment setup | `README.md` + `docs/BUILD-VALIDATION.md` |
 
 Do not load every doc for every task. Load only what the current task requires.

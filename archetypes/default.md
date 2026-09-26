@@ -34,6 +34,8 @@ Choose, Find, Compare, See, or Pick.
 
 <!-- Open with what separates this tool on this page, not a definition. Cover the free plan, where it stops, and who it suits, in whatever order reads best. Do not give every tool section the same first sentence or labels. -->
 
+<!-- Under each tool heading, add the free plan rating shortcode ("rating" with a score from 1 to 5 in half steps) and record the reason in docs/RATINGS.md. -->
+
 [Try [Tool name] free →](https://example.com)
 
 ### 2. [Tool name]: [what separates it]

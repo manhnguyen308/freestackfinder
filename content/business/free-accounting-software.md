@@ -93,6 +93,8 @@ Support and documentation matter because free tools often assume you already und
 
 {{< verdict "Best overall" >}}
 
+{{< rating 4 >}}
+
 Wave's Starter plan has no monthly subscription. The company earns its revenue from payment processing, payroll, and the optional Pro tier instead, which is why the free plan can cover invoices and books for freelancers, sole proprietors, and very small businesses.
 
 Compared with QuickBooks, Wave makes more sense for a solo service business that needs books and invoices but not payroll, inventory, or a multi-user finance department. [Wave's current pricing page](https://www.waveapps.com/pricing) lists unlimited estimates, invoices, bills, and bookkeeping records on Starter. Automatic bank transaction imports and receipt capture sit on Pro or a paid add-on, so they should not be treated as part of the free workflow.
@@ -110,6 +112,8 @@ Wave's invoicing is set against Zoho Invoice and Invoice Ninja in the [free invo
 
 {{< verdict "Best for Zoho users" >}}
 
+{{< rating 3.5 >}}
+
 Zoho Books keeps its free tier for businesses below a revenue threshold, and it makes more sense than Wave if you already use Zoho CRM, Zoho Invoice, Zoho Expense, or Zoho Mail and want bookkeeping in the same suite. On the [US Zoho Books pricing page](https://www.zoho.com/us/books/pricing/), the free plan is available while annual revenue stays at or below $50,000. It allows one user plus one accountant and up to 1,000 invoices and 1,000 expenses per year. It includes bank reconciliation, but live bank feeds start on Standard.
 
 The thresholds and feature mix vary by country, so use the local pricing page rather than assuming the US limits apply everywhere. The interface is also denser than Wave's because there is more product surface to learn.
@@ -124,6 +128,8 @@ Zoho CRM, the source of those customer records, is profiled in the [free CRM sof
 ### 3. Akaunting: best free open-source cloud or self-hosted accounting
 
 {{< verdict "Best open source" >}}
+
+{{< rating 2.5 >}}
 
 Akaunting runs either on your own server or in Akaunting's cloud environment. [Akaunting describes its on-premise Standard edition](https://akaunting.com/) as free and open source, with an app marketplace for optional extensions.
 
@@ -140,6 +146,8 @@ Akaunting fits technically comfortable small business owners, developers, and ag
 
 {{< verdict "Best offline option" >}}
 
+{{< rating 5 >}}
+
 Manager's free Desktop Edition runs on Windows, macOS, and Linux. The same software also comes as a Server Edition for your own server and as a hosted [Cloud Edition](https://www.manager.cloud/), which is the paid option; confirm the current split on [Manager's official site](https://www.manager.io/) before adopting it.
 
 Compared with cloud accounting products, Manager makes more sense when offline control is the requirement. The free desktop edition handles full double-entry accounting for unlimited businesses and transactions, invoices, quotes, bills, purchase orders, credit notes, bank reconciliation, cash-basis or accrual-basis reporting, profit and loss, balance sheet, general ledger, trial balance reports, inventory, fixed assets, payroll modules, and the same product experience on Windows, macOS, and Linux.
@@ -154,6 +162,8 @@ Manager fits sole proprietors, very small businesses, and bookkeepers managing m
 ### 5. GnuCash: best free accounting software for disciplined sole proprietors
 
 {{< verdict "Best for sole proprietors" >}}
+
+{{< rating 4.5 >}}
 
 GnuCash has been around long enough to feel like a traditional accounting package, and it still runs on Windows, macOS, and Linux. Its [official site](https://www.gnucash.org/) provides the desktop downloads and documentation.
 

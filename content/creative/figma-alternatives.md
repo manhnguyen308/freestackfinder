@@ -37,6 +37,8 @@ The alternatives differ more by deployment and output than by visual similarity 
 
 ### 1. Penpot: best for open files and self-hosting
 
+{{< rating 4.5 >}}
+
 Penpot, developed by Kaleidos, runs in the browser either on Penpot's hosted service or on a server you manage.
 
 Penpot's hosted and self-hosted options include:
@@ -64,6 +66,8 @@ It suits teams that need self-hosting, portable SVG-native files, or no per-seat
 
 ### 2. Lunacy: best free desktop design app for Windows
 
+{{< rating 4 >}}
+
 Lunacy, from Icons8, is a desktop app rather than a browser tool, and it ships with icons, photos, and illustrations from the Icons8 library built in.
 
 Lunacy's free desktop app includes:
@@ -86,6 +90,8 @@ It suits solo designers and freelancers who want local files without a browser d
 
 
 ### 3. Plasmic: best for visual prototyping that generates real code
+
+{{< rating 3.5 >}}
 
 Plasmic's output is code. The visual page builder exports production-ready React, Next.js, and Gatsby projects instead of a design file.
 
@@ -111,6 +117,8 @@ That suits developers and designer-developers whose marketing pages and app inte
 
 ### 4. Quant UX: prototyping with usability analysis
 
+{{< rating 3.5 >}}
+
 Quant UX measures how people use a prototype, with built-in user flow testing, heatmaps, and task analysis in a free, open-source tool.
 
 Quant UX includes:
@@ -133,6 +141,8 @@ Figma needs a plugin or a separate service such as Maze for that work, so Quant 
 
 
 ### 5. Figma (Starter plan): best free plan from an established platform
+
+{{< rating 3 >}}
 
 Figma's Starter plan covers personal drafts and limited team collaboration. It remains the simplest choice when collaborators already use Figma and a few shared files cover the work.
 

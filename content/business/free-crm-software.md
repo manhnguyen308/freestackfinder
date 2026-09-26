@@ -71,6 +71,8 @@ All four handle that baseline. They differ in how many people can use them, how 
 
 ### 1. HubSpot CRM Free for solopreneurs and two-person teams
 
+{{< rating 3.5 >}}
+
 HubSpot CRM Free puts contacts, deals, tasks, meeting scheduling, and basic outreach in one account. [HubSpot's current CRM pricing](https://www.hubspot.com/pricing/crm?tier=starter) caps the free tier at two users and 1,000 contacts. Those limits make it a useful starter CRM for a solo service business or two-person team, not a permanent free home for a growing sales department.
 
 Paid plans add seats and the deeper automation and reporting needed to run a more controlled sales process. Starting free still makes sense when two people can own the pipeline and the contact count leaves room.
@@ -81,6 +83,8 @@ For the accounting side of the same workflow, pair it with one of our [free Quic
 
 
 ### 2. Zoho CRM Free for a three-person team
+
+{{< rating 3.5 >}}
 
 Zoho CRM Free uses the conventional structure of leads, contacts, accounts, deals, tasks, events, calls, and documents. [Zoho's pricing comparison](https://www.zoho.com/en-us/crm/zohocrm-pricing.html) lists the free edition for up to three users and includes mobile apps. It suits a small team that wants standard sales records more than a streamlined interface.
 
@@ -93,6 +97,8 @@ The steps after a closed deal, invoicing and project delivery, are compared in t
 
 ### 3. Freshsales Free for a visual pipeline
 
+{{< rating 3 >}}
+
 Freshsales combines Kanban views for contacts, accounts, and deals with communication tools beside the pipeline. The [Freshsales plan comparison](https://www.freshworks.com/crm/pricing-compare/) lists its free plan for up to three users. Choose it over Zoho when moving deals between visible stages matters more than having a traditional module-heavy CRM.
 
 More seats and stronger automation and forecasting sit on paid plans. Use the free edition as a focused workspace for a team of up to three people. Freshworks' main [pricing page](https://www.freshworks.com/crm/pricing/) now shows only the paid plans and a 21-day trial, while the comparison page still lists Free, so confirm the free plan is offered at sign-up.
@@ -101,6 +107,8 @@ More seats and stronger automation and forecasting sit on paid plans. Use the fr
 
 
 ### 4. Bitrix24 Free for a broad workspace with an unclear seat limit
+
+{{< rating 3 >}}
 
 Bitrix24 bundles basic CRM with tasks, calendars, chat, and video in one workspace. Its current public plan information is inconsistent: the [main pricing page](https://www.bitrix24.com/prices/) describes Free as a one-to-two-user plan with 5 GB, while the [cloud-plan comparison](https://www.bitrix24.com/prices/compare_cloud_plans.php) lists unlimited users and 5 GB. That conflict makes the account's checkout or upgrade screen the final authority.
 

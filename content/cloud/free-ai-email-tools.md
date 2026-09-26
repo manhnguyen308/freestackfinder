@@ -41,6 +41,8 @@ Where the draft is created, what context the tool can read, and whether sensitiv
 
 ### 1. Gmail Smart Compose and Smart Reply: best built-in free AI for most people
 
+{{< rating 3.5 >}}
+
 Smart Compose predicts the rest of your sentence as you type. Smart Reply generates three short response options at the top of any email you open.
 
 Gmail's built-in features are free because they are part of Gmail itself:
@@ -60,6 +62,8 @@ It covers quicker replies, sentence completions, and light phrasing help, not th
 
 
 ### 2. Compose AI: best free extension for full AI-drafted email
+
+{{< rating 2.5 >}}
 
 Compose AI works inside the compose box rather than beside it. The Chrome and Edge extension adds writing features to Gmail, Outlook, and most web-based text inputs, and you can ask it to write a full email from a prompt, rephrase a selection, adjust the tone, or continue from where you left off.
 
@@ -81,6 +85,8 @@ Writing inside the compose window, rather than generating in ChatGPT and pasting
 
 ### 3. ChatGPT free tier: longer drafts with manual context
 
+{{< rating 4 >}}
+
 ChatGPT drafts and revises messages from instructions supplied in a separate chat, which covers flexible drafting:
 - Access to the models and tools currently included on the Free plan
 - Drafts, rewrites, tone adjustment, subject line options, follow-up emails, and cold outreach templates
@@ -98,6 +104,8 @@ The lack of inbox integration adds a manual checkpoint: you decide what to paste
 
 
 ### 4. Boomerang for Gmail: best free AI email quality scorer
+
+{{< rating 2.5 >}}
 
 Boomerang scores a message instead of writing it. The Gmail extension adds scheduling, follow-up reminders, and a quality checker called Respondable. Before you send, its meter estimates response likelihood from basic writing factors.
 
@@ -119,6 +127,8 @@ Respondable's basic meter is not charged against the ten monthly scheduling cred
 
 
 ### 5. Spike: best free dedicated AI email app
+
+{{< rating 2 >}}
 
 Spike replaces the email client itself, on web, desktop, iOS, and Android, with a chat-like interface and a built-in writing assistant that drafts replies, summarizes threads, and adjusts tone.
 

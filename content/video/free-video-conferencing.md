@@ -54,6 +54,8 @@ Most free video conferencing tools advertise similar features, such as HD video,
 
 ### 1. Google Meet: the default choice for most users
 
+{{< rating 4 >}}
+
 Google Meet runs in the browser, so participants join without installing anything, but the host needs a Google account. Guest access depends on the host's account type and meeting-access settings.
 
 What you get on the free tier:
@@ -76,6 +78,8 @@ It fits teams already using Gmail, Google Calendar, or Google Classroom whose gr
 
 
 ### 2. Jitsi Meet: link-based guests and a self-hosting option
+
+{{< rating 4 >}}
 
 Jitsi Meet is the one tool here that an organization can run on its own server, and its public meet.jit.si service works from a browser. On that public service, the first participant must authenticate or wait for an authenticated moderator; later guests can join from the room link.
 
@@ -100,6 +104,8 @@ The [current start guide](https://jitsi.github.io/handbook/docs/user-guide/user-
 
 ### 3. Microsoft Teams Free: a collaboration platform that also does video calls
 
+{{< rating 4 >}}
+
 Microsoft Teams combines chat, file sharing, and group video calls with Microsoft 365 integrations on its free tier.
 
 Included in Teams Free:
@@ -122,6 +128,8 @@ Microsoft's [current Teams Free page](https://www.microsoft.com/en-us/microsoft-
 
 
 ### 4. Whereby: a permanent room for short calls
+
+{{< rating 2 >}}
 
 Whereby provides a persistent browser-based meeting-room URL, so a solo host can reuse one address without scheduling each call.
 
@@ -146,6 +154,8 @@ The [current Free plan](https://whereby.com/information/meetings/select-plan) is
 
 ### 5. Zoho Meeting: structured sessions and basic webinar support
 
+{{< rating 4 >}}
+
 Zoho Meeting's free tier includes scheduled meetings, basic webinar registration, and presenter controls.
 
 On the free plan:
@@ -168,6 +178,8 @@ Zoho's [current free webinar page](https://www.zoho.com/webinar/free-webinar.htm
 
 
 ### 6. Discord: always-open voice channels for teams
+
+{{< rating 4 >}}
 
 Discord combines voice, video, and text in persistent channels. Participants can join an available voice channel instead of scheduling a meeting link.
 

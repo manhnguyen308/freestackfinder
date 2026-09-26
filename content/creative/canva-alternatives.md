@@ -78,6 +78,8 @@ A few things matter more than a tool's template count when you compare it agains
 
 {{< verdict "Best overall" >}}
 
+{{< rating 4 >}}
+
 Adobe's browser and mobile design app handles social posts, flyers, presentations, short video, and light photo editing. The free tier includes templates, basic photo, video, and document tools, common export formats, a selection of Adobe Stock assets, and limited storage. Check the [current Adobe Express plan page](https://www.adobe.com/express/pricing.html) if storage, scheduling, or generative credits determine the decision.
 
 The gaps compared to Canva Pro are intentional. The deeper brand-management tools, bulk resize, stronger publishing controls, the full premium asset library, and unlimited access to Adobe's more advanced AI and editing features all sit on paid plans. Adobe Express does not offer as many paid tools as Canva, but the free version fits solo creators, students, and small businesses making social graphics, flyers, simple promos, and presentation visuals.
@@ -88,6 +90,8 @@ The gaps compared to Canva Pro are intentional. The deeper brand-management tool
 ### 2. Photopea: best for layer-based image editing
 
 {{< verdict "Best for image editing" >}}
+
+{{< rating 3.5 >}}
 
 Photopea goes much deeper into image editing than Canva-style template tools, with layers, masks, and PSD support in the browser. The free experience includes PSD import and export, strong text and transform tools, and fast browser access with no install, at the cost of in-page ads and a steeper learning curve if you have never used a layered editor before.
 
@@ -102,6 +106,8 @@ If that sounds like your workflow, our full [free Photoshop alternatives guide](
 
 {{< verdict "Best for AI drafts" >}}
 
+{{< rating 3.5 >}}
+
 Microsoft Designer is free with a Microsoft account, and its free experience leans on AI-assisted image and design generation (within current usage limits), with background blur and removal, crop, text, and resize tools, and social-media-friendly layouts.
 
 It helps most when generating a starting layout is more useful than building one from scratch. Manual layout control is lighter than in Canva or Adobe Express, and Microsoft can change AI credits or feature availability with its plan structure. It fits Microsoft account holders who want a draft they can refine, not a full vector or page-layout editor.
@@ -113,6 +119,8 @@ It helps most when generating a starting layout is more useful than building one
 
 {{< verdict "Best browser fallback" >}}
 
+{{< rating 3.5 >}}
+
 Pixlr sits between the two camps, with light design tools and stronger photo editing than most template-first apps, all in the browser. The free version gives you browser-based editing, fast photo cleanup tools, simple layouts, templates, text effects, and enough depth for thumbnails, banners, and quick promo graphics.
 
 The free version shows ads and upgrade prompts, which paid tiers reduce while adding more AI tools, but Pixlr still does not bring its tools together as well as Adobe Express. It suits a job that moves between layout and image cleanup in one browser tab.
@@ -123,6 +131,8 @@ The free version shows ads and upgrade prompts, which paid tiers reduce while ad
 ### 5. Picsart: best for mobile-first creators
 
 {{< verdict "Best for mobile" >}}
+
+{{< rating 3 >}}
 
 Picsart is built for work that starts and ends on a phone: photo effects, collages, stickers, and social assets. Desktop-first tools offer more control but a less direct mobile workflow.
 

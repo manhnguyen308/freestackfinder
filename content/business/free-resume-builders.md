@@ -71,6 +71,8 @@ The tools below either let you download for free or offer genuine value without 
 
 {{< verdict "Best overall" >}}
 
+{{< rating 4.5 >}}
+
 Canva is a design tool first, so its templates offer more layout control than dedicated resume builders. That helps with freelance, creative, and direct applications. Use a simpler single-column document for strict ATS screening.
 
 On the free plan, the useful pieces are:
@@ -98,6 +100,8 @@ Canva ranks first because its free plan exports the finished PDF immediately, wi
 
 {{< verdict "Best for ATS compatibility" >}}
 
+{{< rating 4.5 >}}
+
 Google Docs is the plainest option here, and that is exactly why it works. It gives you a normal document editor, a few built-in resume templates, and full control over spacing, headings, bullet points, and export format.
 
 Its free setup covers the practical resume workflow:
@@ -122,6 +126,8 @@ The Google Docs file stays portable. You can download it as PDF or Word, edit it
 
 ### 3. Indeed Resume Builder: best for active Indeed applicants
 
+{{< rating 4 >}}
+
 Indeed Resume Builder is less about design and more about application speed. It creates a structured resume inside the Indeed platform, then lets you attach that resume directly to job applications.
 
 The free workflow includes:
@@ -144,6 +150,8 @@ For people applying mainly through Indeed, keeping the resume on the platform re
 
 
 ### 4. Resume.com: best guided free builder
+
+{{< rating 3.5 >}}
 
 Resume.com is a guided builder for turning a blank page into a structured draft with sections and bullet prompts. It does not offer the layout control of Canva or Google Docs.
 

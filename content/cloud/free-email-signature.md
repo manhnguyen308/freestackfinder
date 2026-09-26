@@ -69,6 +69,8 @@ Zoho Mail is the only service in the [free email service comparison](/cloud/free
 
 ### 1. HubSpot Email Signature Generator: quick setup without an account
 
+{{< rating 4.5 >}}
+
 HubSpot's generator walks through your contact details and a template choice, then hands back HTML ready to copy.
 
 HubSpot's generator is built for quick one-off setup:
@@ -88,6 +90,8 @@ That suits one personal signature for Gmail, Outlook, Apple Mail, or a similar c
 
 
 ### 2. MySignature: best for saved signatures with Gmail and Outlook integration
+
+{{< rating 3 >}}
 
 MySignature connects directly to Gmail and Outlook through add-ons, and its free plan saves one signature that you can update and reinstall without regenerating from scratch.
 
@@ -109,12 +113,16 @@ Most free tools generate HTML you paste by hand, while MySignature pushes an upd
 
 ### 3. WiseStamp: a 14-day trial
 
+{{< rating 1 >}}
+
 WiseStamp supports many social icons, custom fields, and promotional banners, but it [does not currently offer a permanent free version](https://www.wisestamp.com/pricing/). Its 14-day trial does not require a credit card and is intended for evaluating the templates, installation, and management workflow.
 
 Use the trial only when you are considering a paid WiseStamp plan. HubSpot or MySignature is a better match when an ongoing free signature is the requirement.
 
 
 ### 4. Newoldstamp: evaluation before a paid team plan
+
+{{< rating 1 >}}
 
 Newoldstamp's templates lean toward contemporary, minimal styles suited to agencies, creatives, and tech roles.
 
@@ -124,6 +132,8 @@ That makes Newoldstamp relevant to a team comparing central deployment, analytic
 
 
 ### 5. Signature Maker: simplest completely free option
+
+{{< rating 4 >}}
 
 Signature Maker is the barest option here: a browser form that returns HTML with no account and no branding.
 

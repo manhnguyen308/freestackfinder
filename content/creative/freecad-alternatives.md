@@ -49,6 +49,8 @@ FreeCAD can be excessive for a one-off STL made from basic shapes.
 
 ### 1. Onshape (free hobbyist plan): best free parametric CAD overall
 
+{{< rating 3.5 >}}
+
 Onshape runs full parametric CAD in the browser, with sketches, a feature tree, assemblies, and version history on the free hobbyist plan. Every free document is public.
 
 What you get without paying:
@@ -75,6 +77,8 @@ It suits hobbyists, students, open-source hardware projects, and Chromebook user
 
 
 ### 2. Autodesk Fusion 360 (Personal Use license): best free desktop CAD with private projects
+
+{{< rating 3.5 >}}
 
 Autodesk offers its commercial CAD/CAM/CAE platform free to hobbyists and home-based makers through the Personal Use license, as a desktop app for Windows and Mac with cloud sync.
 
@@ -103,6 +107,8 @@ Autodesk can change Personal-plan features and eligibility. Keep exchange-format
 
 ### 3. Tinkercad: best for simple models built from primitive shapes
 
+{{< rating 3 >}}
+
 Tinkercad, also from Autodesk, builds models in the browser by adding, subtracting, and grouping primitive shapes.
 
 Included free:
@@ -130,6 +136,8 @@ It fits replacement parts such as a drawer pull or knob, simple enclosures, name
 
 ### 4. SolveSpace: best lightweight free open-source parametric CAD
 
+{{< rating 3.5 >}}
+
 SolveSpace does less than FreeCAD on purpose. The open-source tool handles parametric 2D and 3D CAD for constrained mechanical parts and assemblies.
 
 What it covers:
@@ -154,6 +162,8 @@ It gives up FreeCAD's range of workbenches and the cloud collaboration in Fusion
 
 
 ### 5. OpenSCAD: best free CAD for users who would rather code than sketch
+
+{{< rating 4 >}}
 
 OpenSCAD compiles a text script into a 3D model instead of an interactive drawing, so every dimension can be a variable.
 
@@ -180,6 +190,8 @@ Because the design is text, source control diffs stay readable, and one script c
 
 
 ### 6. LibreCAD: best free 2D drafting tool
+
+{{< rating 3.5 >}}
 
 LibreCAD drops 3D entirely and concentrates on drafting: floor plans, mechanical drawings, schematics, and technical illustration.
 

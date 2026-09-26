@@ -79,6 +79,8 @@ There are legitimate reasons to stay on Visio: your organization uses SharePoint
 
 {{< verdict "Best overall" >}}
 
+{{< rating 5 >}}
+
 draw.io is the closest free replacement for Visio because it covers both simple business diagrams and technical shape libraries. The open-source tool runs in a browser, as a desktop app for Windows, Mac, and Linux, and inside Confluence, Jira, Notion, and Google Workspace.
 
 Its free feature list is unusually broad:
@@ -101,6 +103,8 @@ There is no paid tier, document cap, watermark, or expiring trial. The interface
 
 
 ### 2. Lucidchart Free: best for cloud-based team collaboration
+
+{{< rating 2 >}}
 
 Lucidchart puts collaboration first, with presence indicators, comments, and simultaneous editing that are easier to find than in draw.io. The free tier is capped, though.
 
@@ -126,6 +130,8 @@ Treat the free plan as an evaluation path or a lightweight collaboration space, 
 
 ### 3. Miro Free: best for collaborative whiteboard diagramming
 
+{{< rating 2.5 >}}
+
 Miro starts from a whiteboard rather than a diagram canvas, so its strength is live group work: flowcharts, mind maps, planning, brainstorming, and workshops. It is not built for detailed technical diagramming or Visio file exchange.
 
 The free workspace includes:
@@ -148,6 +154,8 @@ If your team already uses it for workshops or planning, its diagramming features
 
 
 ### 4. Whimsical Free: best for wireframes and flowcharts
+
+{{< rating 2.5 >}}
 
 Whimsical trades range for speed. It is narrower than draw.io but easier for non-technical users who need a clean flowchart or wireframe quickly.
 

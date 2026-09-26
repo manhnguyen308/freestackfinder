@@ -124,6 +124,8 @@ These differ from the handoff spec's `/how-we-test/`, `/disclosure/`, `/privacy/
 
 **Tool CTA button:** Each tool section ends with a Markdown link on its own line, such as `[Download Obsidian free →](https://obsidian.md)`. `layouts/_default/single.html` turns any paragraph that holds only one external link into `<p class="tool-cta"><a class="tool-cta-btn">`, drops a trailing `→` or `->` from the text, adds an arrow icon, and opens the link in a new tab. Style: `--primary-bg` fill, `--primary` border, `--primary-dark` text, solid `--primary` on hover, 44px tall, full width below 640px. Keep it tinted so the solid affiliate button stays the strongest action. To keep a link inline, put it inside a sentence; to skip the button for a standalone link, give it a title (`[text](url "title")`).
 
+**Free plan star rating:** `{{< rating 4.5 >}}` on its own line under a tool heading renders `<div class="tool-rating">`: an uppercase "Free plan" label, five 18px inline SVG stars (half stars use a left-half polygon), the score as "4.5/5", and a muted "How we rate" link to `/about/#star-ratings`. Filled stars use `--primary` and empty ones `--border-dark`; stars stay teal because amber is reserved for the affiliate button. Screen readers get "Free plan rating: 4.5 out of 5" and the SVGs are hidden. The shortcode fails the build on any score outside 1 to 5 in half steps. Scores and their reasons live in `docs/RATINGS.md`.
+
 **Hover states:** Cards lift `translateY(-3px)` + shadow bump + border darken. `transition: all 0.15–0.2s ease`.
 
 **No dark mode. No glass. No blur. No gradients** except the barely-perceptible hero (`#F8FAFC → #E8F7F5`).

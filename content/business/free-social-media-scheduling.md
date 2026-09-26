@@ -69,6 +69,8 @@ None of the four is a general replacement for every account. The constraint to c
 
 {{< verdict "Best overall" >}}
 
+{{< rating 3 >}}
+
 Buffer publishes from a queue: you set posting times, and posts fill them in order. Its [Free plan](https://buffer.com/pricing) supports three channels, ten queued posts per channel, one user, and basic analytics.
 
 The no-cost plan gives you:
@@ -95,6 +97,8 @@ The free plan suits one person managing a handful of channels who mainly needs p
 
 {{< verdict "Best for analytics" >}}
 
+{{< rating 3 >}}
+
 Metricool is the only tool here whose free plan treats analytics as seriously as scheduling. It covers one brand across multiple platforms with a monthly post allowance, so it is better for measuring performance than for running many separate client accounts.
 
 The [free tier](https://metricool.com/pricing/) covers:
@@ -119,6 +123,8 @@ The free plan is less suitable when LinkedIn, X, or frequent publishing is centr
 
 ### 3. Later: visual planning with an account-specific allowance
 
+{{< rating 2.5 >}}
+
 Later plans posts on a visual drag-and-drop calendar rather than a queue. It started with Instagram and now covers TikTok, Pinterest, Facebook, X, and LinkedIn, but its real strength is still visual planning for image and video-heavy accounts.
 
 The [current Free plan](https://help.later.com/hc/en-us/articles/360059362253-Choose-a-Later-Social-Plan) includes limited scheduling, a calendar that shows two weeks into the past and future, a customizable Link in Bio page, and introductory analytics. Later tells users to check the Subscription screen for their exact allowance.
@@ -137,6 +143,8 @@ If you think in grids, thumbnails, and campaign sequences rather than timestamps
 
 
 ### 4. Meta Business Suite: native tools for Facebook and Instagram
+
+{{< rating 4 >}}
 
 Meta Business Suite only covers Facebook and Instagram, but for those two it is Meta's own tool, with publishing and inbox features that carry no separate software subscription.
 

@@ -76,6 +76,8 @@ That setup work is still worth doing carefully. Import or create your core clien
 
 {{< verdict "Best overall" >}}
 
+{{< rating 4 >}}
+
 Wave Starter puts no cap on invoice or bookkeeping volume. Its [current plan page](https://www.waveapps.com/pricing) lists unlimited estimates, invoices, bills, and bookkeeping records, plus optional payment processing.
 
 The limits show up around automation. Automatic bank imports and categorization, automatic payment reminders, and digital receipt capture require Pro or an add-on. Card payments carry transaction fees, payroll is separate, and built-in time tracking is not part of the workflow.
@@ -88,6 +90,8 @@ Wave Starter fits a solo operator willing to enter bookkeeping records manually.
 ### 2. Zoho Invoice: best free invoicing with a client portal
 
 {{< verdict "Best for client portal" >}}
+
+{{< rating 3.5 >}}
 
 Zoho Invoice is separate from Zoho Books. It only handles invoicing, and it keeps an ongoing free tier.
 
@@ -104,6 +108,8 @@ The client portal gives clients more than a basic invoice email. They can view i
 
 {{< verdict "Best for project billing" >}}
 
+{{< rating 3 >}}
+
 Invoice Ninja is open source, so it can run on your own server as well as on its hosted plan. The [current hosted Free plan](https://invoiceninja.com/pricing-plans/) covers up to five clients and unlimited invoices. It includes recurring invoices, online payment gateways, projects, billable time, expenses, and a client portal.
 
 The five-client hosted limit is the hard ceiling, and some template customization sits behind paid tiers. Self-hosting changes the maintenance model: the operator is responsible for hosting, updates, and backups.
@@ -114,6 +120,8 @@ The time-tracking-to-invoice workflow is what separates Invoice Ninja from Wave 
 
 
 ### 4. Square Invoices: best for service businesses taking card payments
+
+{{< rating 4 >}}
 
 Square Invoices is built around service payments rather than bookkeeping, and it connects to Square's other payment tools. The [current Free plan](https://squareup.com/us/en/invoices) includes unlimited invoices, estimates, contracts, customers, and user accounts, plus project tracking and payment links.
 
@@ -126,6 +134,8 @@ Square keeps estimates, contracts, invoices, and payment activity in one account
 
 ### 5. PayPal Invoicing: best for clients who prefer PayPal
 
+{{< rating 4 >}}
+
 Any PayPal Business account can send invoices at no subscription cost, and the workflow stays simple: unlimited invoices to unlimited clients, customizable templates, payment tracking and history, partial payment support, QR code payment links, and automatic reminders are included without a subscription.
 
 The trade-off is cost and depth. PayPal charges when an invoice is paid, and rates vary by payment method and country. Accounting and project time tracking are separate workflows.
@@ -136,6 +146,8 @@ PayPal states that there is [no fee to create or send an invoice](https://www.pa
 
 
 ### 6. Stripe Invoicing: best for technical and developer-led businesses
+
+{{< rating 3 >}}
 
 Stripe Invoicing makes the most sense for a technical business that already takes payments through Stripe and wants invoices inside that system. Stripe's [current pricing](https://stripe.com/pricing) lists Starter at 0.4% per paid invoice, in addition to payment-processing fees. Hosted invoice pages, a customer portal, and API access are included.
 

@@ -76,6 +76,8 @@ Understanding what type of builder you need makes the decision clearer:
 
 {{< verdict "Most features free" >}}
 
+{{< rating 3 >}}
+
 Wix gives free sites the full drag-and-drop editor, its AI site generator, most of the template library, and access to a large app marketplace.
 
 Basic SEO settings, galleries, and contact forms are included too, and Wix currently lists up to 500MB of storage and [up to 1GB of bandwidth](https://support.wix.com/en/article/about-storage-and-bandwidth) for free sites.
@@ -88,6 +90,8 @@ That makes it a good place to test a portfolio, hobby site, or small-business la
 ### 2. Google Sites: best when builder ads and fees are the dealbreakers
 
 {{< verdict "Best zero-cost option" >}}
+
+{{< rating 4 >}}
 
 Every Google account includes Google Sites, and its strength is embedding the rest of Google's apps.
 
@@ -104,6 +108,8 @@ If the organization already uses Google Workspace, start by checking whether emb
 
 {{< verdict "Best for blogging" >}}
 
+{{< rating 3 >}}
+
 Automattic runs WordPress.com as hosted WordPress, separate from the self-hosted WordPress.org software that needs your own hosting. The free plan is a stripped-down version of it.
 
 The free plan allows unlimited blog posts and pages, basic themes, Jetpack traffic statistics, a `yoursitename.wordpress.com` subdomain, and 1GB of storage.
@@ -119,6 +125,8 @@ The main problems on the free plan are ads and the subdomain. If your site is fo
 
 {{< verdict "Best one-pager" >}}
 
+{{< rating 3 >}}
+
 Carrd only builds single pages, for portfolios, personal pages, link-in-bio pages, and landing pages.
 
 A free account can publish up to three sites at a `carrd.co` subdomain with most templates, the full design editor, and basic embeds, and signing up needs no credit card.
@@ -131,6 +139,8 @@ The `yourname.carrd.co` address works for a one-page portfolio, link-in-bio page
 ### 5. Canva Websites: best for design-first creators
 
 {{< verdict "Best for Canva users" >}}
+
+{{< rating 3 >}}
 
 Canva Websites turns a Canva layout into a responsive site, and it remains a visual publisher rather than a traditional content-management system.
 

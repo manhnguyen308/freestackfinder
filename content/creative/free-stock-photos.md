@@ -37,6 +37,8 @@ Free libraries work well for blog headers, presentations, social posts, and gene
 
 ### 1. Unsplash: best overall for photography quality
 
+{{< rating 5 >}}
+
 Getty Images owns Unsplash, but the free library still uses its own Unsplash License, and its photos are editor-selected.
 
 Unsplash's free library gives you:
@@ -62,6 +64,8 @@ The homepage and editor-selected collections provide another way to browse when 
 
 ### 2. Pexels: best for photos and video in one place
 
+{{< rating 5 >}}
+
 Pexels provides photos and videos under its own content license. The license permits many personal and commercial uses without attribution, subject to its stated restrictions.
 
 Pexels gives free users:
@@ -84,6 +88,8 @@ The video library is Pexels' clearest difference from Unsplash. Photos and clips
 
 ### 3. Pixabay: best for the broadest media library
 
+{{< rating 4.5 >}}
+
 Pixabay goes beyond photography to vector illustrations, clipart, videos, and music, all under the Pixabay Content License.
 
 Pixabay is the broadest free-media option:
@@ -105,6 +111,8 @@ The same breadth means more sorting, so inspect the item page and license detail
 
 
 ### 4. Burst (by Shopify): best for e-commerce and product imagery
+
+{{< rating 4 >}}
 
 Shopify runs Burst for e-commerce businesses and entrepreneurs, so its photos are styled for product, lifestyle, and business marketing.
 

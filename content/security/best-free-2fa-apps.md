@@ -46,6 +46,8 @@ Before migrating, save backup codes from every important service and confirm you
 
 ### 1. Aegis Authenticator: encrypted local vaults on Android
 
+{{< rating 4.5 >}}
+
 Aegis keeps codes in an encrypted vault on the Android phone and does not sync them to any account.
 
 [Aegis documents](https://github.com/beemdevelopment/aegis) TOTP and HOTP generation, an AES-256-GCM encrypted vault, password or biometric unlock, encrypted exports, automatic backups to a location you choose, and imports from supported app formats. Some direct app-data imports require a rooted Android device, so do not assume an Authy transfer will work.
@@ -55,6 +57,8 @@ The limits are platform and convenience. Aegis is Android-only, has no desktop a
 [Download Aegis free →](https://getaegis.app)
 
 ### 2. Ente Auth: encrypted sync across mobile and desktop
+
+{{< rating 5 >}}
 
 Ente Auth syncs the same end-to-end encrypted codes to Android, iOS, desktop, and web apps, and it is free and open source.
 
@@ -68,6 +72,8 @@ Aegis remains the simpler option when an Android-only local vault is the goal.
 
 ### 3. 2FAS: mobile apps with optional cloud backup
 
+{{< rating 4.5 >}}
+
 2FAS pairs its open-source Android and iOS apps with a browser extension, so fewer codes need copying from the phone to a desktop login. It generates TOTP and HOTP codes, needs no 2FAS account for basic use, and offers optional cloud backup.
 
 Backups use the cloud account already attached to the phone: iCloud on iOS and Google Drive on Android. Cross-platform moves require an exported backup file. [2FAS explains both paths](https://2fas.com/support/2fas-auth-mobile-app/how-to-use-sync-more-devices-with-2fas/). The browser extension must also be paired with the phone.
@@ -77,6 +83,8 @@ It suits mixed-device households and anyone who logs into services from a browse
 [Download 2FAS free →](https://2fas.com)
 
 ### 4. Bitwarden TOTP: best if you already use Bitwarden
+
+{{< rating 1 >}}
 
 Bitwarden's integrated TOTP generator is a Premium feature worth considering if you already use Bitwarden as your password manager.
 
@@ -89,6 +97,8 @@ That trade suits Premium users who value consolidation and understand the reduce
 [Get Bitwarden (free tier) →](https://bitwarden.com)
 
 ### 5. Authy: for existing mobile users
+
+{{< rating 3 >}}
 
 Authy, from Twilio, syncs between compatible iOS and Android devices with optional encrypted backups, but it now carries more caveats than the other apps here.
 

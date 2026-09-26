@@ -33,6 +33,8 @@ Inkscape has been in active development since 2003. Its current toolset covers S
 
 ### 1. Best for open-source vector work: Inkscape
 
+{{< rating 5 >}}
+
 What you get without paying:
 - Full SVG editing with Bezier curves, nodes, and paths
 - Boolean operations (union, difference, intersection, exclusion)
@@ -58,6 +60,8 @@ Node editing, Bezier paths, boolean operations, extensions, and local files take
 
 ### 2. LibreOffice Draw: best for diagrams and page layouts
 
+{{< rating 3 >}}
+
 LibreOffice Draw comes with the LibreOffice suite, and it is built for diagrams, page layouts, and mixed text-and-shape documents rather than detailed illustration.
 
 What it covers:
@@ -80,6 +84,8 @@ Flowcharts, technical diagrams, posters, and documents that combine text with ve
 
 ### 3. SVG-edit: best for quick browser-based SVG editing
 
+{{< rating 2.5 >}}
+
 SVG-edit runs entirely in the browser with no server-side component, so there is no account to create and no file uploaded anywhere.
 
 Inside the free version:
@@ -101,6 +107,8 @@ The open-source editor also works offline. It suits developers who occasionally 
 
 
 ### 4. Canva free tier: best for non-designers who want vector-adjacent results
+
+{{< rating 2 >}}
 
 Canva starts from templates, with basic vector shape tools added alongside its large template library.
 

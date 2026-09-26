@@ -25,6 +25,9 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 REQUIRED_FIELDS = ["title", "description", "date", "lastmod", "slug", "categories", "image"]
 RE_QUOTED_DATE = re.compile(r'^"(\d{4}-\d{2}-\d{2})"$')
 RE_IMAGE_PATH   = re.compile(r'^"/img/[^"]+\.webp"$')
+RE_HEADING      = re.compile(r"^(#{2,4}) ")
+RE_TOOL_HEADING = re.compile(r"^#{2,3} \d+\. ")
+RE_RATING       = re.compile(r"^\{\{< rating [1-5](\.[05])? >\}\}$")
 BUILD_DATE = datetime.now(timezone.utc).date()
 
 MANUAL_STEPS = [
@@ -123,6 +126,29 @@ def check_article(silo: str, slug: str) -> tuple[list, list]:
     else:
         failed.append(f"image field format invalid (expected \"/img/<name>.webp\", got: {img_val!r})")
 
+    # Free plan star ratings: one under every numbered tool heading (see docs/RATINGS.md)
+    lines = content_path.read_text(encoding="utf-8").splitlines()
+    rating_count = sum(1 for line in lines if RE_RATING.match(line.strip()))
+    unrated = []
+    for i, line in enumerate(lines):
+        if not RE_TOOL_HEADING.match(line) or "paid" in line.lower():
+            continue
+        level = len(RE_HEADING.match(line).group(1))
+        section = []
+        for following in lines[i + 1:]:
+            h = RE_HEADING.match(following)
+            if h and len(h.group(1)) <= level:
+                break
+            section.append(following.strip())
+        if not any(RE_RATING.match(s) for s in section):
+            unrated.append(line.lstrip("# ").split(":")[0])
+    if unrated:
+        failed.append(f"Tool sections without a {{{{< rating >}}}} line: {'; '.join(unrated)}")
+    elif rating_count:
+        passed.append(f"Free plan ratings present: {rating_count}")
+    else:
+        failed.append("No {{< rating >}} lines found; add one under each tool heading (docs/RATINGS.md)")
+
     return passed, failed
 
 
@@ -136,6 +162,7 @@ def print_full_checklist() -> None:
         "draft: false",
         "date and lastmod: today's date, quoted YYYY-MM-DD, not in the future",
         "image: points to static/img/<slug>.webp which exists and is under 200 KB",
+        "Ratings: a {{< rating X >}} line under every tool heading, with reasons added to docs/RATINGS.md",
         "Internal links: 2–5 contextual links from new article to existing cluster articles",
         "Backlinks: 1–2 related existing articles updated to link back to the new article",
         "QA: python3 scripts/run_quality_checks.py --with-counts passes 3/3",

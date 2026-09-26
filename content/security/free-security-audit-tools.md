@@ -69,6 +69,8 @@ The tools suit freelancers, solo developers, and small teams who run their own w
 
 ## OWASP ZAP: web application scanning
 
+{{< rating 5 >}}
+
 OWASP ZAP tests the application rather than the server. The open-source scanner can proxy browser traffic, crawl an application, passively inspect requests and responses, and actively test a target for common vulnerability classes.
 
 There is no paid ZAP scanner tier. The project documents desktop use, Docker packages, an API, and an [Automation Framework](https://www.zaproxy.org/docs/automate/automation-framework/) for repeatable scans.
@@ -76,6 +78,8 @@ There is no paid ZAP scanner tier. The project documents desktop use, Docker pac
 Coverage depends on authentication, crawl configuration, JavaScript behavior, and the rules installed. Treat findings as leads to reproduce, not proof that every alert is exploitable. ZAP is useful in a developer workflow or CI pipeline, but it is not appropriate for a third-party site you do not have explicit permission to test.
 
 ## Nmap: network and port discovery
+
+{{< rating 5 >}}
 
 Nmap shows what is reachable on a network: hosts, open ports, services, and detectable operating-system or service versions.
 
@@ -92,6 +96,8 @@ Shared-hosting terms may prohibit scanning even when you control a site on the a
 
 ## Lynis: Linux and Unix system hardening
 
+{{< rating 4.5 >}}
+
 Lynis works from inside the machine. The open-source auditor runs on Linux, macOS, and other Unix-based systems, checks available system components, and produces warnings, suggestions, and a hardening score. Its [official overview](https://cisofy.com/lynis/) explains that tests run opportunistically according to the tools and components found on the system.
 
 A typical Lynis audit checks filesystem permissions, authentication configuration, SSH settings, installed software and package versions, logging and auditing configuration, network settings, and a range of OS-level security parameters. Each finding is categorized as a warning, suggestion, or informational note, with a brief explanation of why it matters.
@@ -107,6 +113,8 @@ Lynis checks against a hardening baseline, so a fresh system may produce a long 
 
 ## Nikto: quick web server scan
 
+{{< rating 5 >}}
+
 Nikto is a command-line web server scanner with plugins for headers, outdated server software, exposed files, and other configuration checks. Its [current plugin documentation](https://github.com/sullo/nikto/wiki/Plugin-list) shows the checks included in the standard and optional plugin sets.
 
 The typical use case is a quick sanity check before deploying a new site or after a server reconfiguration. Nikto is not a replacement for OWASP ZAP (which does application-level scanning), but it is faster for catching server-level issues like directory listing enabled, outdated Apache/Nginx versions, or missing security headers.
@@ -120,6 +128,8 @@ Use Nikto for server-configuration checks and ZAP for application behavior; neit
 
 ## Greenbone Community Edition: structured vulnerability scanning
 
+{{< rating 4 >}}
+
 Greenbone Community Edition, also known through the OpenVAS scanner, is a vulnerability-management stack with a community feed. It runs as several services, provides a web interface for targets and scans, and produces findings grouped by severity.
 
 Greenbone requires a supported host, enough memory for its services, and an initial vulnerability-feed synchronization before the first useful scan. Feed download time varies with the installation and network, and the server needs ongoing updates and maintenance.
@@ -130,6 +140,8 @@ Greenbone fits recurring, multi-host scanning when someone can maintain the scan
 
 
 ## SSL Labs and SecurityHeaders.com: quick website checks
+
+{{< rating 5 >}}
 
 These two web-based tools are not scanners in the traditional sense: they test a live public website from an external vantage point and do not require any installation.
 

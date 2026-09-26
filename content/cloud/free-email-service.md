@@ -44,6 +44,8 @@ There is also a personal-versus-business split. A personal inbox can focus on co
 
 ### 1. Gmail: best free email for most people
 
+{{< rating 4.5 >}}
+
 Gmail comes with every Google Account, and the account's [allocation of up to 15GB is shared across Gmail, Google Drive, and Google Photos](https://support.google.com/googleone/answer/9004014). A Gmail address created since March 9, 2026 has 5GB until a phone number is verified. Gmail also includes mobile apps, message search, labels and filters, Google Meet integration, offline access, two-step verification, and close ties to Docs, Sheets, Calendar, and Drive.
 
 The privacy and business limits are the trade-off. Optional smart features can use mail content to personalize features when enabled, but [Google says it does not scan or read Gmail messages to show ads](https://support.google.com/mail/answer/10434152). Storage is shared with Drive and Photos, custom-domain email requires a paid Workspace plan, and ordinary Gmail messages are not end-to-end encrypted by default.
@@ -54,6 +56,8 @@ If Google's data model is acceptable, mature mobile apps, strong search, and dir
 
 
 ### 2. Proton Mail: best free email for privacy
+
+{{< rating 3 >}}
 
 Proton Mail, based in Switzerland, stores mail with zero-access encryption, and its free plan lists up to 1GB of mail storage. End-to-end encryption is available for messages between Proton users and password-protected messages sent outside Proton.
 
@@ -68,6 +72,8 @@ The audience is privacy-conscious users who want email content protected from ad
 
 ### 3. Outlook.com: best free email for Microsoft app users
 
+{{< rating 4 >}}
+
 Microsoft's [Outlook.com storage documentation](https://support.microsoft.com/en-us/office/storage-limits-in-outlook-com-7ac99134-69e5-4619-ac0b-2d313bba5e9e) lists 15GB of mailbox storage for free accounts, separate from 5GB of Microsoft cloud storage. The service also includes web and mobile apps, Calendar, OneDrive and web Office integration, Focused Inbox, spam filtering, and inbox rules.
 
 Microsoft says it [does not use personal email content to target ads](https://support.microsoft.com/en-US/Outlook/about-ads-in-outlook). However, Outlook.com does show advertising on free accounts, custom-domain mail requires a paid business service, and ordinary messages are not end-to-end encrypted.
@@ -78,6 +84,8 @@ It suits Windows users, Microsoft 365 subscribers, and OneDrive users who want e
 
 
 ### 4. Zoho Mail: best free email for a custom domain
+
+{{< rating 3.5 >}}
 
 Zoho Mail is the only free option here that puts your own domain in the address, for up to five users in selected data centers.
 
@@ -91,6 +99,8 @@ It is aimed at freelancers, solopreneurs, and very small businesses that need <c
 
 
 ### 5. Tuta: encrypted subject lines and calendar
+
+{{< rating 3 >}}
 
 Tuta, formerly Tutanota, encrypts subject lines and calendar entries as well as messages. The German service's [plan page](https://tuta.com/pricing) lists 1GB of storage for a free personal account. It includes encrypted mail between Tuta users, encrypted subject lines, an encrypted calendar, web and mobile apps, and one Tuta address.
 

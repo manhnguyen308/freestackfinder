@@ -75,6 +75,8 @@ Review-aggregator scores and tutorial counts are not ranking factors here becaus
 
 {{< verdict "Best for depth" >}}
 
+{{< rating 4.5 >}}
+
 Blackmagic Design puts editing, color, Fairlight audio, and Fusion effects into one project in Resolve, and the free version exports without a watermark.
 
 Free Resolve includes:
@@ -99,6 +101,8 @@ Premiere users have a separate comparison built around moving projects out of Ad
 
 {{< verdict "Best for social content" >}}
 
+{{< rating 3.5 >}}
+
 CapCut, from ByteDance, puts captions, social presets, effects, and short-form templates close to the timeline.
 
 The free editor covers:
@@ -121,6 +125,8 @@ That layout suits TikTok, Reels, Shorts, talking-head clips, and template-led so
 
 {{< verdict "Best for beginners" >}}
 
+{{< rating 3.5 >}}
+
 OpenShot exposes fewer controls than Resolve or Kdenlive, which shortens the learning path for basic cuts, titles, music, and exports.
 
 Included in the open-source app:
@@ -139,6 +145,8 @@ It is enough for a first edit built from cuts, titles, music, transitions, and a
 
 
 ### 4. Kdenlive: best open-source middle ground
+
+{{< rating 4.5 >}}
 
 Kdenlive gives more control than OpenShot without Resolve's page-based structure, through a multi-track timeline and proxy workflows.
 
@@ -159,6 +167,8 @@ Linux users get the most from it. On Windows, the interface and setup require mo
 
 
 ### 5. Shotcut: best when file imports are the main problem
+
+{{< rating 4 >}}
 
 Shotcut earns its place on imports, accepting older, mixed, or stubborn source formats that another editor will not load cleanly.
 

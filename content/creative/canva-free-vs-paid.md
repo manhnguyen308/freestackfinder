@@ -82,6 +82,8 @@ Canva regularly adjusts what is included on each tier, so treat any specific quo
 
 ## What Canva Free is good enough for
 
+{{< rating 4 >}}
+
 The free plan fits jobs that are occasional, single-use, or still at the learning stage.
 
 Birthday invitations, a school-event poster, a community noticeboard flyer, holiday cards, or a class presentation can all start from free templates. Filter the asset search to free items before settling on a layout.

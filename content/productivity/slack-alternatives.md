@@ -34,6 +34,8 @@ Slack Pro charges per active user, so the total changes with team size and billi
 
 ### 1. Discord: best for informal teams and communities
 
+{{< rating 4.5 >}}
+
 Discord was built for communities and private groups rather than managed workplace tenants.
 
 Discord does not impose Slack's 90-day visibility window on ordinary server messages. It includes channels, threads, forum channels, bots, file sharing, screen sharing, voice rooms, and desktop and mobile clients.
@@ -51,6 +53,8 @@ Formal client calls fit a dedicated meeting tool better than a Discord voice cha
 
 ### 2. Microsoft Teams free: best for teams using Microsoft apps
 
+{{< rating 4 >}}
+
 Compared with Slack Free, Teams Free trades third-party integration breadth for Microsoft account and file integration. It includes chat, group meetings, screen sharing, file sharing, and desktop and mobile clients. Confirm the current participant and meeting-duration caps on the [Teams Free page](https://www.microsoft.com/microsoft-teams/free) before scheduling a workshop or large event.
 
 The constraints to plan around include group-call duration, participant limits, recording access, storage, and administrative controls. The free product is also different from the managed Teams experience included with some business subscriptions.
@@ -62,6 +66,8 @@ Teams free is the most natural Slack replacement for organizations that already 
 
 ### 3. Google Chat: best for teams already using Google Workspace
 
+{{< rating 4 >}}
+
 Google Chat lives inside Gmail and also has its own web and mobile apps. Personal Google Accounts can create collaboration spaces, while paid Workspace accounts add organization-managed features. Message retention depends on whether history is enabled and, for work or school accounts, the administrator's policy; Google's [history documentation](https://support.google.com/chat/answer/7664687) explains the difference.
 
 Compared with Slack, Chat has fewer third-party workflow integrations and different rules for external members. Check the [account-type comparison](https://support.google.com/chat/answer/9291345) before assuming a feature available to a Workspace organization also exists on a personal account.
@@ -72,6 +78,8 @@ For a team that already works in Gmail, Drive, and Docs, Chat is an extension of
 
 
 ### 4. Mattermost Team Edition: self-hosted chat for small groups
+
+{{< rating 4 >}}
 
 Mattermost Team Edition runs on your own server. The open-source edition is intended for small teams, hobbyists, or personal use rather than a managed cloud replacement for Slack.
 
@@ -85,6 +93,8 @@ Team Edition makes sense when a small group wants local control and has someone 
 
 
 ### 5. Rocket.Chat Starter or Community: limited self-hosted options
+
+{{< rating 3 >}}
 
 Rocket.Chat offers two free self-hosted entry points with different limits: Starter and Community.
 

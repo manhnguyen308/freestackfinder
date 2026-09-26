@@ -53,6 +53,8 @@ Shift schedules and task lists overlap with this guide, and the [free time track
 
 ### 1. Zoho People
 
+{{< rating 3 >}}
+
 Zoho People's [free edition](https://www.zoho.com/people/zohopeople-pricing.html) is a working employee database rather than a demo, as long as the team stays at five users:
 - Up to 5 users
 - Employee records and profiles
@@ -72,6 +74,8 @@ It suits a founder's first few hires, especially when employee records and leave
 
 
 ### 2. OrangeHRM Starter
+
+{{< rating 4 >}}
 
 OrangeHRM removes the employee cap entirely, on the condition that you host it yourself. Starter, the open-source edition formerly called Community Edition, gives self-hosted teams a full HRIS base:
 - Unlimited employees (self-hosted)
@@ -94,6 +98,8 @@ For a business that can manage a PHP/MySQL stack, it is the most complete free H
 
 ### 3. Homebase
 
+{{< rating 3 >}}
+
 Homebase answers a different question from the HRIS tools: who is working when. Its free Basic plan is scheduling-first:
 - 1 location with up to 10 employees
 - Basic employee scheduling
@@ -113,6 +119,8 @@ Restaurants, retail, and service businesses with hourly or shift-based staff get
 
 
 ### 4. Bitrix24
+
+{{< rating 3 >}}
 
 Bitrix24's HR features come as part of a broader workspace that also covers CRM, project management, and communication:
 - Employee directory and profiles
@@ -138,6 +146,8 @@ For teams already using Bitrix24's [free CRM tools](/business/free-crm-software/
 
 
 ### 5. Google Sheets (or Excel Online)
+
+{{< rating 2 >}}
 
 Google Sheets and Excel for the web are spreadsheets rather than HR systems. They can still hold a basic employee directory, leave record, or onboarding checklist for a small team.
 

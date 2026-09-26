@@ -40,6 +40,8 @@ The easiest way to choose is by the first action you take most often. Capturing 
 
 ### 1. Google Keep: best for fast capture and Google app users
 
+{{< rating 4.5 >}}
+
 Keep's color-coded cards are built for notes that are short and temporary, with reminders, labels, and direct Google Docs export. The free app gives you:
 - Unlimited notes
 - Notes, lists, voice memos, and image notes
@@ -65,6 +67,8 @@ The Android widget supports one-tap voice or text capture without digging throug
 
 
 ### 2. Apple Notes: best for iPhone and Mac users
+
+{{< rating 4 >}}
 
 Apple Notes gives Apple users a full notes system without installing anything:
 - Unlimited notes with iCloud sync (requires iCloud storage: 5GB free)
@@ -92,6 +96,8 @@ The document scanner can capture a receipt or whiteboard, and Apple Notes can se
 
 ### 3. Standard Notes: encrypted plain-text notes
 
+{{< rating 3 >}}
+
 Standard Notes encrypts note contents end to end and publishes its client code. The free tier is narrow but serious:
 - Unlimited notes and tags
 - End-to-end encryption for note contents
@@ -114,6 +120,8 @@ Use the export tools and keep a backup if long-term access matters; no hosted se
 
 
 ### 4. Simplenote: minimalist Markdown with note-level collaboration
+
+{{< rating 4.5 >}}
 
 Automattic, the company behind WordPress.com, makes Simplenote and charges nothing for it. The feature set is intentionally small:
 - Unlimited notes
@@ -141,6 +149,8 @@ Version history distinguishes Simplenote from a basic synced text file because e
 
 
 ### 5. Notion free tier: databases and project notes with more setup
+
+{{< rating 4 >}}
 
 Notion's free tier includes enough structure to become a personal workspace, at the cost of more setup than a dedicated notes app:
 - Unlimited pages and blocks in a one-person workspace

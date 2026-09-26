@@ -34,6 +34,8 @@ The right replacement depends on the meeting pattern. A weekly client call needs
 
 ### 1. Google Meet: best free video calling for most users
 
+{{< rating 4 >}}
+
 Anyone with a Google account can host on Meet's free tier, which covers many everyday calls:
 - One-to-one calls up to 24 hours, against Zoom Basic's 40 minutes
 - Group calls of up to 100 people for 60 minutes, 20 minutes longer than Zoom Basic allows
@@ -52,6 +54,8 @@ It suits student calls, client check-ins, family calls, and small work meetings 
 
 
 ### 2. Jitsi Meet: open-source calls with link-based guest access
+
+{{< rating 4 >}}
 
 Jitsi runs in the browser, and because it is open source, a team can also host it on its own server. The public meet.jit.si service requires the first participant to authenticate or wait for a moderator; people joining afterward can use the room link as guests.
 
@@ -75,6 +79,8 @@ It fits spontaneous calls, privacy-conscious groups, developer teams, and meetin
 
 ### 3. Microsoft Teams free: best for users of Microsoft apps
 
+{{< rating 4 >}}
+
 Teams Free gives Microsoft users more than a meeting room:
 - Group calls with the same 60-minute, 100-person ceiling as Meet
 - Unlimited chat and file sharing
@@ -95,6 +101,8 @@ Persistent chat channels, file sharing, and Office app integration make the heav
 
 ### 4. Discord: best for informal teams and long-running calls
 
+{{< rating 4 >}}
+
 Discord's free tier is built for ongoing group spaces rather than scheduled meetings:
 - Persistent voice and video channels with no published duration cap
 - Up to 25 video participants per call
@@ -114,6 +122,8 @@ Nobody schedules a Discord call; people drop into a voice or video channel when 
 
 
 ### 5. Whereby: best browser-based option for client-facing calls
+
+{{< rating 2 >}}
 
 Whereby gives you one permanent room URL, and its free plan is deliberately small:
 - One room with a custom URL, such as whereby.com/yourname

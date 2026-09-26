@@ -1796,3 +1796,42 @@ mark {
   margin-bottom: 14px;
   line-height: 1.6;
 }
+
+/* 34. Free plan star ratings on tool sections
+   =========================================== */
+.article-content .tool-rating {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 10px;
+  margin: -2px 0 16px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: var(--text-muted);
+}
+.tool-rating-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.tool-rating-stars { display: inline-flex; gap: 1px; }
+.tool-rating-star { display: block; flex-shrink: 0; }
+.tool-rating-star .star-on { fill: var(--primary); }
+.tool-rating-star .star-off { fill: var(--border-dark); }
+.tool-rating-score {
+  font-weight: 700;
+  color: var(--text);
+  font-variant-numeric: tabular-nums;
+}
+.tool-rating-score [aria-hidden="true"] { font-weight: 400; color: var(--text-muted); }
+.article-content a.tool-rating-how {
+  font-size: 13px;
+  color: var(--text-muted);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.article-content a.tool-rating-how:hover { color: var(--primary); }
+@media print {
+  .tool-rating-how { display: none; }
+}

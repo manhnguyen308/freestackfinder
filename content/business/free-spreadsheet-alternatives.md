@@ -41,6 +41,8 @@ Collaboration is the other dividing line. If three people edit the same tracker,
 
 ### 1. Google Sheets: best overall free spreadsheet for most users
 
+{{< rating 4.5 >}}
+
 Any personal Google Account includes Sheets, with files stored in the account's shared Drive allowance. It covers the everyday spreadsheet work most people do:
 - Spreadsheets stored in the [allowance of up to 15 GB shared by Drive, Gmail, and Photos](https://support.google.com/googleone/answer/9004014)
 - Full formula library including XLOOKUP, ARRAYFORMULA, LAMBDA, and QUERY functions
@@ -68,6 +70,8 @@ Timelines and task assignments fit a project tool better than a sheet, and the [
 
 ### 2. LibreOffice Calc: best free offline desktop spreadsheet
 
+{{< rating 5 >}}
+
 Calc installs locally with the rest of the open-source LibreOffice suite on Windows, macOS, or Linux:
 - Completely free: no subscription, no trial period, no feature limits
 - Installed locally: no internet connection required
@@ -90,6 +94,8 @@ It suits people who work mainly offline, handle sensitive financial data they do
 
 
 ### 3. Zoho Sheet: best free spreadsheet inside a business workflow
+
+{{< rating 4 >}}
 
 Zoho Sheet works on its own or as part of Zoho Workplace, and free accounts get:
 - 5GB storage for free accounts
@@ -116,6 +122,8 @@ The [free CRM software](/business/free-crm-software/) and [free invoicing softwa
 
 ### 4. ONLYOFFICE Docs: best free collaborative spreadsheet for self-hosted or team setups
 
+{{< rating 3.5 >}}
+
 ONLYOFFICE is worth considering when Excel compatibility is the decision point. Its open-source spreadsheet editor runs on a free cloud tier or on your own server:
 - Cloud-hosted free tier with collaborative spreadsheet editing
 - Good support for preserving `.xlsx` formatting during routine edits
@@ -137,6 +145,8 @@ ONLYOFFICE emphasizes Microsoft format compatibility, but complex workbooks can 
 
 
 ### 5. Airtable free tier: best for spreadsheet-database hybrid workflows
+
+{{< rating 3 >}}
 
 Airtable looks like a spreadsheet but behaves like a small relational database, which suits structured data, content calendars, project tracking, and lightweight CRM work.
 

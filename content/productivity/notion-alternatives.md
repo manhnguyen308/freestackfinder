@@ -34,6 +34,8 @@ For users who want to switch, the main concerns are usually feature parity and m
 
 ### 1. Obsidian: best free Notion alternative for personal knowledge management
 
+{{< rating 4.5 >}}
+
 Obsidian needs no account for local notes. Every note is a plain Markdown file in a folder on your own computer.
 
 What you get for free:
@@ -57,6 +59,8 @@ Formatted documents for other people, such as letters or reports in Word format,
 
 
 ### 2. Logseq: best open-source outliner for networked note-taking
+
+{{< rating 4 >}}
 
 Where Obsidian works in pages, Logseq works in outlines. The open-source app stores notes as local Markdown or Org-mode files.
 
@@ -82,6 +86,8 @@ Each bullet is a block that can be referenced, tagged, and queried independently
 
 ### 3. Anytype: best privacy-first Notion alternative with a generous free tier
 
+{{< rating 4.5 >}}
+
 Of the local-first apps here, Anytype stays closest to Notion, with blocks, database views, and page hierarchy. Data stays on your device by default and is end-to-end encrypted.
 
 Without a paid membership:
@@ -104,6 +110,8 @@ Its published membership model keeps local storage and peer-to-peer sync availab
 
 ### 4. Superhuman Docs free tier: best Notion replacement for document-centric teams
 
+{{< rating 3.5 >}}
+
 Superhuman Docs is the one cloud-only option here, combining documents, spreadsheets, and databases. It was called Coda until July 2026, when Superhuman [renamed the product](https://help.superhuman.com/hc/en-us/articles/46210093285773-What-s-changing-Coda-becomes-Superhuman-Docs) and kept existing docs and plans in place. Its free tier gives document-focused teams more room than Notion in several areas.
 
 On the free tier:
@@ -125,6 +133,8 @@ Superhuman Docs treats reports, wiki pages, and project briefs as documents firs
 
 
 ### 5. Joplin: best free open-source note-taking for Evernote and Notion refugees
+
+{{< rating 3.5 >}}
 
 Joplin handles Markdown and rich formatting, and it syncs across devices through cloud storage you already use.
 

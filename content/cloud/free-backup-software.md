@@ -55,12 +55,16 @@ Cloud destinations for those jobs, with their usable space after shared quotas, 
 
 ### 1. Google Drive: best free offsite copy for documents and active folders
 
+{{< rating 3 >}}
+
 Google Drive for desktop can synchronize selected folders and send photos and videos to a Google account. The account includes [up to 15GB shared across Drive, Gmail, and Google Photos](https://support.google.com/googleone/answer/9004014), and accounts created since March 9, 2026 stay at 5GB until a phone number is verified. Check existing usage before choosing folders.
 
 This is useful for current documents that need browser and mobile access. It is not a full-system backup, and synchronized deletions or overwrites need to be caught inside Google's current recovery window. Use a separate backup job when retention is important.
 
 
 ### 2. Duplicati: best free backup software for scheduled encrypted backups
+
+{{< rating 5 >}}
 
 Duplicati turns backup into a scheduled job rather than a mirror, running incremental backups to a destination you choose. The open-source project's [documentation](https://docs.duplicati.com/) covers AES-256 encryption, Windows, macOS and Linux support, and destinations that include local disks and cloud storage.
 
@@ -76,12 +80,16 @@ It becomes relevant when a photo, video, or work archive will not fit a practica
 
 ### 4. iCloud Backup: best built-in backup for Apple users
 
+{{< rating 2.5 >}}
+
 On iPhone and iPad, iCloud Backup is already built in, while iCloud Drive handles file sync across Apple devices. Apple [includes 5GB of iCloud storage](https://www.apple.com/icloud/), shared by backups, photos, files, and other synchronized data.
 
 Enable the device backup, then inspect its estimated size. The free allocation may not fit even one device once photos and messages are included, and iCloud is not a complete Mac backup strategy. Pair it with Time Machine or another independent Mac backup.
 
 
 ### 5. Duplicacy: best for advanced users and NAS-oriented setups
+
+{{< rating 3.5 >}}
 
 Duplicacy deduplicates backups and supports self-managed storage such as a NAS. Its [license page](https://duplicacy.com/buy.html) describes the command-line edition as free for personal use, while the graphical interface uses a commercial license after its trial.
 

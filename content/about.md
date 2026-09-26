@@ -36,6 +36,18 @@ For every comparison, we review:
 
 The date on each guide shows when its recommendations or plan details were last materially revised. If you find outdated information, please send the page URL and the changed detail.
 
+## How the star ratings work {#star-ratings}
+
+Each free tool in a comparison carries a rating of one to five stars. The stars score the free plan only, measured against the job that page covers, so the same tool can score differently on two pages when the job changes.
+
+- 5 stars: the free version does the whole job, with no cap a typical user reaches.
+- 4 stars: it covers the job for one person or a small team, and limits appear only with heavier use, more people, or extras.
+- 3 stars: usable, but a published cap on storage, records, exports, users, or branding is likely to come up in regular use.
+- 2 stars: it covers part of the job, while core features are paid or the cap arrives quickly.
+- 1 star: free in name only, such as a short trial or output you cannot use.
+
+A half star sits between two levels. Ratings come from the same sources as the rest of each guide: vendor pricing pages, plan comparisons, and help documentation. They reflect published limits, not benchmark scores, and paid tiers or affiliate commissions do not raise them. When a free plan changes, the rating is revised along with the article.
+
 ## How we handle corrections and updates
 
 Software changes quickly. Free plans get tighter, pricing pages move, and features that were generous last quarter can become limited without much warning.

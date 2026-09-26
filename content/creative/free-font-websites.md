@@ -37,6 +37,8 @@ For client or brand work, keep a small record of where each font came from and w
 
 ### 1. Google Fonts: best overall free font library
 
+{{< rating 5 >}}
+
 Every family on Google Fonts carries an open-source license, and Google's [font FAQ](https://developers.google.com/fonts/faq) confirms that the fonts can be used commercially, in logos, and in print.
 
 Google Fonts gives designers and developers:
@@ -58,6 +60,8 @@ That clarity suits websites, app prototypes, pitch decks, and brand systems wher
 
 ### 2. Font Squirrel: best for commercial-use filtering
 
+{{< rating 4.5 >}}
+
 Font Squirrel does some of the license sorting for you. Its reviewed library focuses on fonts marked for commercial use, and its Webfont Generator converts appropriately licensed files to web formats.
 
 Font Squirrel is built around commercial clearance:
@@ -78,6 +82,8 @@ The catalog filters out obvious personal-use-only downloads, but it does not rep
 
 
 ### 3. DaFont: best for design exploration and personal projects
+
+{{< rating 3 >}}
 
 DaFont has the widest range of display and novelty typefaces here, but its community-uploaded catalog mixes permissions, including fonts limited to personal use.
 
@@ -103,6 +109,8 @@ The catalog is useful for narrow display styles such as vintage letterpress, ret
 
 ### 4. Fontsource: best for developers self-hosting open-source fonts
 
+{{< rating 4.5 >}}
+
 Fontsource packages Google Fonts and many other open-source families as individual npm packages, so developers can self-host web fonts without a third-party CDN request.
 
 Fontsource is for developers who want font files in the build:
@@ -124,6 +132,8 @@ Because font loading stays inside the application's own build, import only the r
 
 
 ### 5. 1001 Fonts: best for browsing a large mixed library
+
+{{< rating 3.5 >}}
 
 1001 Fonts labels each download by license category, such as "100% Free" or "Free for personal use," which speeds up a first pass through its mixed community catalog.
 

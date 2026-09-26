@@ -1,0 +1,32 @@
+{{/* Free plan star rating under a tool heading: {{< rating 4.5 >}}. Scores run from 1 to 5 in half steps.
+     The rubric lives on /about/#star-ratings and the reason for each score in docs/RATINGS.md. */}}
+{{- $raw := .Get 0 | default "" -}}
+{{- if not (findRE `^[1-5](\.[05])?$` (string $raw)) -}}
+  {{- errorf "rating shortcode at %s needs a score from 1 to 5 in half steps, got %q" .Position $raw -}}
+{{- else -}}
+  {{- $score := float $raw -}}
+  {{- if gt $score 5.0 -}}
+    {{- errorf "rating shortcode at %s needs a score from 1 to 5 in half steps, got %q" .Position $raw -}}
+  {{- end -}}
+  {{- $star := `12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26` -}}
+  {{- $leftHalf := `12 2 8.91 8.26 2 9.27 7 14.14 5.82 21.02 12 17.77` -}}
+<div class="tool-rating">
+  <span class="tool-rating-label">Free plan<span class="sr-only"> rating:</span></span>
+  <span class="tool-rating-stars" aria-hidden="true">
+    {{- range seq 5 -}}
+      {{- $i := float . -}}
+      <svg class="tool-rating-star" width="18" height="18" viewBox="0 0 24 24" focusable="false">
+        {{- if ge $score $i -}}
+        <polygon class="star-on" points="{{ $star }}"/>
+        {{- else if ge $score (sub $i 0.5) -}}
+        <polygon class="star-off" points="{{ $star }}"/><polygon class="star-on" points="{{ $leftHalf }}"/>
+        {{- else -}}
+        <polygon class="star-off" points="{{ $star }}"/>
+        {{- end -}}
+      </svg>
+    {{- end -}}
+  </span>
+  <span class="tool-rating-score">{{ printf "%.1f" $score }}<span aria-hidden="true">/5</span><span class="sr-only"> out of 5</span></span>
+  <a class="tool-rating-how" href="/about/#star-ratings">How we rate</a>
+</div>
+{{- end -}}

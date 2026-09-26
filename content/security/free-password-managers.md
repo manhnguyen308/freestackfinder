@@ -57,6 +57,8 @@ Several free plans cover routine individual use. Bitwarden publishes its source 
 
 ### 1. Bitwarden: best free password manager for most users
 
+{{< rating 4.5 >}}
+
 Bitwarden's free tier is unusually broad for an open-source, independently audited vault: unlimited passwords, unlimited devices, end-to-end encryption, browser extensions for Chrome, Firefox, Safari, Edge, and more, desktop apps, mobile apps, secure notes, credit card and identity storage, a customizable password generator, and basic two-factor authentication support are all included.
 
 The free account can use an authenticator app, email, or a FIDO2 WebAuthn credential, including a compatible hardware key, for two-step login. [Bitwarden lists FIDO2 WebAuthn as free for all users](https://bitwarden.com/help/setup-two-step-login/). Premium adds YubiKey OTP and Duo methods, the integrated Bitwarden TOTP generator, encrypted file attachments, emergency access, security reports, and file sharing through Bitwarden Send.
@@ -66,6 +68,8 @@ Bitwarden's unlimited-device policy avoids NordPass Free's one-active-session li
 [Try Bitwarden free →](https://bitwarden.com)
 
 ### 2. KeePassXC: best for users who want zero cloud dependency
+
+{{< rating 4.5 >}}
 
 KeePassXC stores the vault as an AES-256 encrypted `.kdbx` file on your own computer. The open-source app requires no cloud account, registration, or internet connection, and still supports browser integration through KeePassXC-Browser, a fully configurable password generator, SSH key management, TOTP code generation, and desktop apps for Windows, macOS, and Linux.
 
@@ -77,6 +81,8 @@ KeePassXC fits people who want direct control over where the vault file is store
 
 ### 3. Proton Pass free tier: best for users already using Proton apps
 
+{{< rating 4 >}}
+
 Proton Pass Free includes unlimited logins and notes, unlimited devices, two vaults, passkey support, and ten hide-my-email aliases. Its [current plan comparison](https://proton.me/pass/pricing) puts the integrated TOTP authenticator, secure sharing, unlimited aliases, file attachments, and emergency access on paid plans.
 
 The two-vault limit is enough to separate personal and work items, but it leaves little room for further organization. People who already use Proton Mail or Proton VPN can manage Pass under the same Proton account.
@@ -86,6 +92,8 @@ The ten included aliases can keep a primary email address out of routine sign-up
 [Try Proton Pass free →](https://proton.me/pass)
 
 ### 4. NordPass Free: one active session
+
+{{< rating 2.5 >}}
 
 NordPass gives free users unlimited password storage, end-to-end encryption, a password health checker, browser extensions, and mobile apps.
 

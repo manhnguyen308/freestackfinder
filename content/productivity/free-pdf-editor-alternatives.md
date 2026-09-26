@@ -66,6 +66,8 @@ rows:
 
 {{< verdict "Best overall" >}}
 
+{{< rating 5 >}}
+
 PDFgear covers text editing, annotations, form filling, signing, merging, splitting, compressing, and converting on Windows and Mac, with no watermark and no account for basic use.
 
 What the free tier handles:
@@ -94,6 +96,8 @@ It suits people who regularly handle contracts, invoices, or forms and want a de
 
 {{< verdict "Best for quick tasks" >}}
 
+{{< rating 4 >}}
+
 PDF24 Tools puts more than 25 PDF utilities in the browser, and none of them asks for an account.
 
 Included without an account:
@@ -119,6 +123,8 @@ It is built for the quick job: compressing a file before emailing it, merging tw
 
 {{< verdict "Good for occasional work" >}}
 
+{{< rating 3 >}}
+
 Sejda edits PDF text and fills forms in the browser, two tasks that many free web tools limit to annotations. It rations the free tier by the hour instead.
 
 Free within the hourly limit:
@@ -143,6 +149,8 @@ That allowance suits someone who handles PDFs a few times a week and wants a bro
 
 {{< verdict "Best offline option" >}}
 
+{{< rating 3.5 >}}
+
 LibreOffice Draw opens a PDF as an editable drawing, so text, images, and shapes can be changed like objects in a layout. It ships with LibreOffice, the [free Microsoft Office alternative](/productivity/microsoft-office-alternatives/) suite, and works entirely offline.
 
 What it can do with a PDF:
@@ -165,6 +173,8 @@ It makes sense for people who already have LibreOffice installed and occasionall
 
 
 ### 5. Xodo: best for annotation and signing on mobile
+
+{{< rating 3 >}}
 
 Xodo is built for marking up and signing rather than editing. Its free [Xodo PDF Reader](https://xodo.com/pdf-studio/free-pdf-reader) runs on Windows, macOS, Linux, iOS, and Android.
 

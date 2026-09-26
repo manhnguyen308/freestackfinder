@@ -46,6 +46,8 @@ Assess the business complexity before switching. Payroll, inventory, multiple fi
 
 ### 1. Wave: bookkeeping and invoices for a solo business
 
+{{< rating 4 >}}
+
 Wave is the closest free match for a freelancer's QuickBooks workflow, as long as you need a basic freelance accounting workflow without payroll, inventory, or multi-user finance controls. The [Starter plan](https://www.waveapps.com/pricing) covers unlimited estimates, invoices, bills, and bookkeeping records. Transactions can be entered manually, and online payments carry processing fees.
 
 The limits sit around automation and support. Automatic bank imports, transaction categorization, late-payment reminders, and receipt capture require Wave Pro or a paid receipt add-on. Payroll, bookkeeping help, and accountant support are also paid services.
@@ -56,6 +58,8 @@ Wave fits freelancers, consultants, and sole traders who invoice clients regular
 
 
 ### 2. Zoho Books free tier: best for freelancers already using Zoho tools
+
+{{< rating 3.5 >}}
 
 Zoho Books is free only below a revenue threshold. Its case against Wave is the link to Zoho CRM, Projects, and the other Zoho apps a small business may already use. The free tier includes up to 1,000 invoices per year, bank reconciliation and transaction import, basic expense tracking, a client portal for invoice viewing and payment, Zoho integrations, and automated payment reminders.
 
@@ -68,6 +72,8 @@ Zoho Books fits freelancers and small businesses already using Zoho CRM or other
 
 ### 3. Invoice Ninja: project billing for a small client list
 
+{{< rating 2.5 >}}
+
 Invoice Ninja is useful when the accounting need starts with project billing rather than a full bookkeeping suite. The [free hosted plan](https://invoiceninja.com/pricing-plans/) supports up to five clients and unlimited invoices. It also includes recurring invoices, projects, billable-time tracking, vendors, and expenses. A self-hosted edition is available separately for technical users.
 
 The hosted plan stops at five clients, and Invoice Ninja branding remains on free invoices. Bank sync, reconciliation, and financial reports are narrower than in Wave or Zoho Books.
@@ -79,6 +85,8 @@ Invoice Ninja fits freelancers who bill by the hour or track time against projec
 
 ### 4. GnuCash: best free desktop accounting for offline users
 
+{{< rating 4.5 >}}
+
 GnuCash runs on your own computer with no internet connection or cloud account, which makes it the opposite of QuickBooks Online. It includes full double-entry bookkeeping, income and expense tracking, invoicing and billing, tax reporting features, multi-currency support, Windows/macOS/Linux availability, and a completely free open-source model with no subscription or cloud account.
 
 The trade-off is extra work. There is no cloud sync or mobile access, the interface is dated compared with modern cloud tools, automatic bank connections are absent, and transactions usually need to be imported manually via CSV. Users unfamiliar with double-entry accounting also face a steeper learning curve.
@@ -89,6 +97,8 @@ The payoff is that financial data never sits on a third-party server. Its interf
 
 
 ### 5. FreshBooks free trial: evaluation only
+
+{{< rating 1 >}}
 
 FreshBooks has no permanent free plan. Its 30-day trial gives access to paid features, and everything after it requires a subscription, so it belongs on this list only as a way to evaluate a dedicated accounting tool before paying.
 

@@ -76,6 +76,8 @@ Final Cut Pro is not a permanent free option. Apple offers a trial and paid acce
 
 ### iMovie: Apple's free starter editor
 
+{{< rating 4 >}}
+
 iMovie is available at no charge from the Mac App Store. The current version includes a timeline, color controls, stabilization, speed adjustments, picture-in-picture, side-by-side layouts, green-screen compositing, and exports up to 4K on compatible Macs. Projects started on iPhone or iPad can be imported into the Mac timeline.
 
 The [current App Store release](https://apps.apple.com/us/app/imovie/id408981434?mt=12) requires macOS 15.6 or later, 4GB of memory, and 3.5GB of storage. Owners of older Macs should check whether a compatible earlier version is already associated with their Apple account.
@@ -84,6 +86,8 @@ It lacks a true multicamera editor, general-purpose motion tracking, user-contro
 
 
 ### DaVinci Resolve (free): professional editing at no cost
+
+{{< rating 4.5 >}}
 
 Blackmagic Design offers DaVinci Resolve as a free product rather than a time-limited trial. The free version includes the editing timeline, color grading, Fairlight audio, and Fusion visual effects, with no watermark and no trial expiration.
 
@@ -98,6 +102,8 @@ Test its workflow and performance before moving an active project out of iMovie.
 
 ### CapCut Desktop: fast social editor for Mac
 
+{{< rating 3.5 >}}
+
 CapCut, from ByteDance, is built for TikTok, Instagram Reels, and YouTube Shorts. The Mac version combines its template library and auto-caption tools with a multi-track timeline and Apple Silicon support.
 
 The free tier covers basic multi-track editing, auto-captions, speed ramping, sound effects, background removal, and access to the template library.
@@ -109,6 +115,8 @@ It suits short-form work that depends on templates and automatic captions more t
 
 ### Kdenlive: open-source multi-track editor
 
+{{< rating 4.5 >}}
+
 Kdenlive is a KDE project with a multi-track timeline, proxy clips, color scopes, audio tools, and an effects library. It is open-source and does not have a paid feature tier or export watermark.
 
 The [current download](https://kdenlive.org/en/download/) requires macOS 13 Ventura or newer and provides separate Apple Silicon and Intel builds. The interface follows Kdenlive's cross-platform conventions rather than Apple's editing conventions.
@@ -117,6 +125,8 @@ It suits editors who want an open-source multi-track timeline and proxy workflow
 
 
 ### Shotcut: format-first open-source editor
+
+{{< rating 4 >}}
 
 Shotcut is a cross-platform open-source editor built on FFmpeg, giving it broad input-format support. It provides Mac builds for both Intel and Apple Silicon.
 
