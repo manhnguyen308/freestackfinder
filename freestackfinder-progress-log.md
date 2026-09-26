@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87f
+**Current day:** 87g
 
 ## Current state
 
@@ -23,6 +23,15 @@
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 
 ---
+
+### Day 87g - Side gutter on category hub pages
+
+- Date: 2026-09-26. Scoped to one rule in `static/css/style.css` and this log. No template, content, URL, or affiliate change.
+- Bug: `list.html` and `404.html` wrap the page in `<div class="page-layout container">`. `.page-layout { padding: 36px 0 72px }` came after `.container { padding: 0 20px }` with the same specificity, so it zeroed the 20px side gutter. Below about 1140px, including every phone, hub headings, the "Where to start" box, and the article cards touched the window edge; on wider screens the hub content ran 20px wider than the header on each side.
+- Fix: `.page-layout` now sets only `padding-top: 36px` and `padding-bottom: 72px`, so `.container` keeps its side padding. Articles already used the same longhand pattern on `.article-layout`.
+- Other users of the class: only `404.html`. Its heading moves from 0 to 20px on phones, and its `.static-page` body from 20 to 40px, which matches the About and other trust pages, where `.static-page` also sits inside a `.container`. Nothing relied on the zero side padding.
+- Validation: measured in the local preview on `/productivity/`, `/business/`, `/business/page/2/`, and the 404 page. At 375px, 753px (tablet), and 1009px the heading, top-picks box, card grid, and pagination start 20px from each edge, level with the logo; at 1265px they align with the logo and header icons at 103px, where they were 20px outside before. Vertical padding stays 36px and 72px. No horizontal scroll at any width, and no console errors apart from the deliberate 404 visits. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles, and Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings. `git diff --check` passed.
+- Note: the 404 page still pairs a left-aligned header with a centered 720px body on wide screens. That layout predates this fix and was left alone.
 
 ### Day 87f - Light and dark theme toggle
 
