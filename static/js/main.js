@@ -66,6 +66,64 @@
     }
   }
 
+  // Header search. The nav icon is a link to /search/, so it still works without
+  // JavaScript; here it opens a search panel under the header instead. On the
+  // search page itself it moves focus to that page's search box.
+  var searchBtn = document.querySelector('.nav-search-btn');
+  var searchPanel = document.getElementById('header-search');
+  var pageSearchInput = document.getElementById('search-input');
+
+  if (searchBtn && pageSearchInput) {
+    searchBtn.addEventListener('click', function (e) {
+      e.preventDefault();
+      pageSearchInput.focus();
+      pageSearchInput.select();
+    });
+  } else if (searchBtn && searchPanel) {
+    var panelInput = searchPanel.querySelector('input');
+    var panelClose = searchPanel.querySelector('.header-search-close');
+
+    searchBtn.setAttribute('role', 'button');
+    searchBtn.setAttribute('aria-controls', 'header-search');
+    searchBtn.setAttribute('aria-expanded', 'false');
+
+    var setSearchOpen = function (open) {
+      searchPanel.hidden = !open;
+      searchBtn.setAttribute('aria-expanded', String(open));
+      if (open) panelInput.focus();
+    };
+
+    var toggleSearch = function (e) {
+      e.preventDefault();
+      setSearchOpen(searchPanel.hidden);
+    };
+
+    searchBtn.addEventListener('click', toggleSearch);
+    // A link only responds to Enter; a button also responds to Space
+    searchBtn.addEventListener('keydown', function (e) {
+      if (e.key === ' ') toggleSearch(e);
+    });
+
+    panelClose.addEventListener('click', function () {
+      setSearchOpen(false);
+      searchBtn.focus();
+    });
+
+    // Clicking elsewhere closes the panel; so does opening the mobile menu
+    document.addEventListener('click', function (e) {
+      if (!searchPanel.hidden && !searchPanel.contains(e.target) && !searchBtn.contains(e.target)) {
+        setSearchOpen(false);
+      }
+    });
+
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && !searchPanel.hidden) {
+        setSearchOpen(false);
+        searchBtn.focus();
+      }
+    });
+  }
+
   // Add table wrappers for horizontal scroll on mobile
   var articleContent = document.querySelector('.article-content');
   if (articleContent) {

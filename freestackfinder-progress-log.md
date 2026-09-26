@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87i
+**Current day:** 87j
 
 ## Current state
 
@@ -23,6 +23,14 @@
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 
 ---
+
+### Day 87j - Search panel from the header icon
+
+- Date: 2026-09-26. Scoped to `layouts/partials/nav.html`, `layouts/index.html`, `static/css/style.css`, `static/js/main.js`, `FEATURE-STRATEGY.md`, and this log. No article, URL, or affiliate change.
+- Change: the header search icon now opens a search panel that drops down under the header, with the field focused. Enter or the Search button opens `/search/?q=<keyword>`, and the search page fills its box with the same keyword. The panel closes on Escape (focus returns to the icon), on its close button, on a second click of the icon, or on a click outside it; opening the mobile menu closes it and opening it closes the menu. On `/search/` the icon moves focus to that page's own search box instead of opening a second one.
+- Fallback: the icon is still a link to `/search/`, and the panel starts `hidden`, so without JavaScript nothing changes. With JavaScript the link gets `role="button"`, `aria-controls`, and `aria-expanded`, and Space opens it like a button.
+- Style: the hero form's rules became a shared `.search-form` component in section 28, used by the hero and the panel; `.hero-search` now only sets width and margin. The panel sits under the header bar at `z-index: 199`, like the mobile menu, with a short fade-in that `prefers-reduced-motion` turns off. All colors are tokens, so dark mode needs no section 35 override. The 640px rule for the form moved below the base rules so it still wins.
+- Validation: in the local preview, the panel opened on an article and a hub page; "password manager" with the button opened `/search/?q=password+manager` (2 results), and "invoice" with Enter at 375px opened `/search/?q=invoice` (2 results). Escape, close button, outside click, toggle, Space, the mobile menu exchange, and the search-page focus case were each checked. No horizontal scroll at 375px, and the hero form still renders at the same size. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles. Hugo 0.159.2 `--minify` built with no errors, and the panel is in the home, article, and 404 output. `git diff --check` passed.
 
 ### Day 87i - Spread lastmod dates after the bulk paid-plan update
 

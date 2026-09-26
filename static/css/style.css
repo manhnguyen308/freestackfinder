@@ -174,62 +174,11 @@ button { font-family: inherit; cursor: pointer; }
   max-width: 640px;
   text-wrap: pretty;
 }
-/* Hero search: a plain GET form, so Enter opens /search/?q= and search.js reads it */
+/* Hero search: the shared .search-form (section 28) at hero width */
 .hero-search {
-  position: relative;
   max-width: 560px;
   margin: 24px auto 0;
-  text-align: left;
 }
-.hero-search-icon {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: var(--text-light);
-  pointer-events: none;
-}
-.hero-search input {
-  width: 100%;
-  min-height: 52px;
-  padding: 12px 108px 12px 46px;
-  font-size: 16px;
-  font-family: var(--font);
-  color: var(--text);
-  background: var(--bg);
-  border: 1.5px solid var(--border-dark);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
-  outline: none;
-  appearance: none;
-  -webkit-appearance: none;
-  transition: border-color 0.15s, box-shadow 0.15s;
-}
-.hero-search input::-webkit-search-decoration,
-.hero-search input::-webkit-search-cancel-button { display: none; }
-.hero-search input::placeholder { color: var(--text-light); }
-.hero-search input:hover { border-color: var(--text-light); }
-.hero-search input:focus {
-  border-color: var(--primary);
-  box-shadow: 0 0 0 3px var(--primary-bg);
-}
-.hero-search-btn {
-  position: absolute;
-  top: 6px;
-  right: 6px;
-  bottom: 6px;
-  padding: 0 18px;
-  font-family: var(--font);
-  font-size: 14px;
-  font-weight: 600;
-  color: #fff;
-  background: var(--primary-fill);
-  border: 0;
-  border-radius: var(--radius);
-  cursor: pointer;
-}
-.hero-search-btn:hover { background: var(--primary-fill-hover); }
-.hero-search-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
 .hero-cta-row {
   margin-top: 22px;
   display: flex;
@@ -1359,8 +1308,6 @@ button { font-family: inherit; cursor: pointer; }
     max-width: 280px;
     white-space: normal;
   }
-  .hero-search input { padding-right: 96px; }
-  .hero-search-btn { padding: 0 14px; }
   .tenets-item > div { min-width: 0; }
   .article-content table {
     display: block;
@@ -1504,6 +1451,118 @@ button { font-family: inherit; cursor: pointer; }
 .theme-icon-sun { display: none; }
 :root[data-theme="dark"] .theme-icon-sun { display: block; }
 :root[data-theme="dark"] .theme-icon-moon { display: none; }
+
+/* Search form used by the hero and the header panel. A plain GET form to
+   /search/, so Enter or the button opens /search/?q= and search.js reads it. */
+.search-form {
+  position: relative;
+  text-align: left;
+}
+.search-form-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-light);
+  pointer-events: none;
+}
+.search-form input {
+  width: 100%;
+  min-height: 52px;
+  padding: 12px 108px 12px 46px;
+  font-size: 16px;
+  font-family: var(--font);
+  color: var(--text);
+  background: var(--bg);
+  border: 1.5px solid var(--border-dark);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+.search-form input::-webkit-search-decoration,
+.search-form input::-webkit-search-cancel-button { display: none; }
+.search-form input::placeholder { color: var(--text-light); }
+.search-form input:hover { border-color: var(--text-light); }
+.search-form input:focus {
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px var(--primary-bg);
+}
+.search-form-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  padding: 0 18px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--primary-fill);
+  border: 0;
+  border-radius: var(--radius);
+  cursor: pointer;
+}
+.search-form-btn:hover { background: var(--primary-fill-hover); }
+.search-form-btn:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+@media (max-width: 640px) {
+  .search-form input { padding-right: 96px; }
+  .search-form-btn { padding: 0 14px; }
+}
+
+/* Header search panel: main.js opens it from the nav search icon.
+   Without JavaScript the icon stays a link to /search/. */
+.nav-search-btn[aria-expanded="true"] {
+  background: var(--bg-3);
+  color: var(--primary);
+}
+.header-search {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 199;
+  padding: 16px 0;
+  background: var(--bg);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  box-shadow: var(--shadow);
+  animation: header-search-in 0.16s ease-out;
+}
+.header-search[hidden] { display: none; }
+.header-search-inner {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  max-width: 720px;
+}
+.header-search .search-form { flex: 1; min-width: 0; }
+.header-search-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius);
+  background: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+.header-search-close:hover { background: var(--bg-3); color: var(--text); }
+.header-search-close:focus-visible { outline: 2px solid var(--primary); outline-offset: 2px; }
+@keyframes header-search-in {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .header-search { animation: none; }
+}
 
 /* Search page layout */
 .search-page {
