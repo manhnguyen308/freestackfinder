@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87a
+**Current day:** 87b
 
 ## Current state
 
@@ -20,6 +20,17 @@
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 
 ---
+
+### Day 87b - Paid plans section in the ChatGPT alternatives guide
+
+- Date: 2026-09-26. Scoped to `content/productivity/free-chatgpt-alternatives.md` and its feature image generator. `lastmod` is now 2026-09-26.
+- New section: "When to pay for ChatGPT" became "What paid plans add beyond higher limits", with a table of each service's main paid plan, what it adds over free, and the next tier. It covers ChatGPT Go, Plus, and Pro (GPT-6 Astra from Plus; GPT-6 Sol and Luna in ChatGPT Work and Codex for Plus and higher, not yet in regular chat; Pro at $100 for 5x or $200 for 20x Plus usage, with new $200 sign-ups paused since 2026-09-10), then coding tools (Claude Code, Codex, Jules), visual tools (Claude Design, Slides, Docs, Grok video, Gemini video from Google AI Plus), and a rule for picking one upgrade. The writing tools link moved into the new section's last paragraph.
+- Tool sections: each paid-limit list now names the plan, price, and paid-only features. Claude: Pro $20 ($17 a month yearly) with Claude Code, Claude Design, Slides, Docs, Research, and Opus; Max from $100 with priority access (the old text wrongly implied priority access on every paid plan). Copilot: Microsoft 365 Personal $9.99 and Premium $19.99. Gemini: free 32k context vs 128k on AI Plus ($4.99) and 1M on AI Pro ($19.99), Deep Think on Ultra from $99.99. Perplexity: Pro $17 and Max $167 a month billed yearly. Grok: SuperGrok $30. The ChatGPT free-plan paragraph now names GPT-5.6 Luna and GPT-5 Thinking Mini.
+- Corrected: Gemini limits are no longer daily. Google's limits page says they refresh every five hours up to a weekly cap (changed 2026-05-17), so the Gemini bullet, the comparison table row, and the image pill were updated.
+- Sources, all read 2026-09-26: chatgpt.com/pricing, OpenAI help articles on Plus, Go, and Pro tiers, the GPT-6 Sol and Luna launch post, claude.com/pricing, gemini.google/us/subscriptions, the Gemini Apps limits page, microsoft.com Copilot individual pricing, Perplexity's Pro page and help center, and x.ai/pricing. Prices are US list prices; ChatGPT Go's price varies by country and is not stated.
+- Image: the table's third column is now "Paid adds" (Claude Code, Office apps, 1M context, Model choice, Video), and each card note pairs the free strength with one paid feature. No prices or model versions appear in the image. 1200x630 WebP at 46 KB. The live image is served with a 4-hour browser cache, so earlier visitors can see the previous version until it expires.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3 with 0 warnings. Hugo built with no errors or warnings. In the local preview at 375px the page has no horizontal scroll, and the new table scrolls inside its own wrapper like the existing one. No dash or curly-quote characters in the article. `git diff --check` passed.
+- Guardrails: no affiliate link added, no first-hand testing language, and no URL or slug change. Description and title unchanged.
 
 ### Day 87a - Grok replaces Meta AI in the ChatGPT alternatives guide
 

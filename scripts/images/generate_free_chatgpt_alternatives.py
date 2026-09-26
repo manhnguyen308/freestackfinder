@@ -4,9 +4,10 @@ Feature image generator: Free ChatGPT alternatives in 2026
 Output : static/img/free-chatgpt-alternatives.webp  (1200x630 px)
 Silo   : Productivity   Accent: #6366f1
 
-Free limits and strengths come from the comparison table in
-content/productivity/free-chatgpt-alternatives.md. No model versions are
-named, because the article says limits and model access change often.
+Free limits come from the comparison table in
+content/productivity/free-chatgpt-alternatives.md, and the "Paid adds" column
+and card notes from its "What paid plans add" section. No model versions or
+prices are named, because the article says limits and model access change often.
 Product icons come from scripts/images/logos/ (sources in logos/SOURCES.md).
 """
 import sys, os
@@ -21,14 +22,14 @@ ACCENT = "#6366f1"   # Productivity silo, indigo
 
 c = Canvas()
 
-panel_table(c, ACCENT, "Free limits and key strengths",
-    ["Tool", "Free limit", "Strength"],
+panel_table(c, ACCENT, "Free limits and what paid plans add",
+    ["Tool", "Free limit", "Paid adds"],
     [
-        ("Claude free",       [("Session cap", WARN),     ("Long context", INFO)]),
-        ("Microsoft Copilot", [("Microsoft-set", NEUTRAL), ("Web answers", INFO)]),
-        ("Google Gemini",     [("Daily, varies", WARN),   ("Google apps", INFO)]),
-        ("Perplexity",        [("5 Pro a day", WARN),     ("Citations", INFO)]),
-        ("Grok",              [("Unpublished", WARN),    ("X search", INFO)]),
+        ("Claude free",       [("Session cap", WARN),     ("Claude Code", INFO)]),
+        ("Microsoft Copilot", [("Microsoft-set", NEUTRAL), ("Office apps", INFO)]),
+        ("Google Gemini",     [("5-hour, weekly", WARN),  ("1M context", INFO)]),
+        ("Perplexity",        [("5 Pro a day", WARN),     ("Model choice", INFO)]),
+        ("Grok",              [("Unpublished", WARN),    ("Video", INFO)]),
     ])
 
 card_featured(
@@ -37,14 +38,14 @@ card_featured(
     logo     = logo_path("claude.png"),
     name     = "Claude free",
     tagline  = "Best for long documents",
-    note     = "Strong long-context editing within a session-based usage cap",
+    note     = "Long-context editing on the free plan; Pro adds Claude Code and Claude Design",
 )
 
 card_grid(c, [
-    ("#3b82f6", "Co", "Microsoft Copilot", "Web-grounded answers inside Microsoft apps", logo_path("microsoft-copilot.png")),
-    ("#eab308", "Ge", "Google Gemini",     "Search and Workspace fit for Google users", logo_path("google-gemini.png")),
-    ("#06b6d4", "Pe", "Perplexity",        "Cited sources, 5 Pro Searches a day", logo_path("perplexity.png")),
-    ("#64748b", "Gr", "Grok",              "Live search of X posts and the web", logo_path("grok.png")),
+    ("#3b82f6", "Co", "Microsoft Copilot", "Web answers free; Office apps with Microsoft 365", logo_path("microsoft-copilot.png")),
+    ("#eab308", "Ge", "Google Gemini",     "Google apps fit; video from Google AI Plus", logo_path("google-gemini.png")),
+    ("#06b6d4", "Pe", "Perplexity",        "Cited sources; model choice on Pro", logo_path("perplexity.png")),
+    ("#64748b", "Gr", "Grok",              "Live X search free; video on SuperGrok", logo_path("grok.png")),
 ])
 
 card_bar(
