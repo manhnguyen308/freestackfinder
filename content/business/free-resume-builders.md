@@ -2,7 +2,7 @@
 title: "Free resume builders in 2026 with PDF downloads"
 description: "Zety lets you build a resume free, then charges to download it. Canva and Google Docs export a clean PDF at no cost, and so do Indeed and Resume.com."
 date: "2026-04-23"
-lastmod: "2026-09-13"
+lastmod: "2026-09-15"
 draft: false
 weight: 58
 slug: "free-resume-builders"

@@ -2,7 +2,7 @@
 title: "Free Adobe Illustrator alternatives in 2026: vector design without a subscription"
 description: "Inkscape covers logos, icons, and SVG work with no paid tier, but it cannot open native .ai files. SVG-edit handles quick browser edits without an account."
 date: "2026-04-03"
-lastmod: "2026-09-24"
+lastmod: "2026-09-23"
 draft: false
 weight: 40
 slug: "illustrator-alternatives"

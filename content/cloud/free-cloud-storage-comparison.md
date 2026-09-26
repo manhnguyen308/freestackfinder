@@ -2,7 +2,7 @@
 title: "Free cloud storage in 2026: space, privacy, and sync"
 description: "Google's 15GB is shared with Gmail and Photos, and iCloud's 5GB also holds device backups. MEGA lists 20GB, but downloads draw on a separate transfer allowance."
 date: "2026-03-16"
-lastmod: "2026-09-23"
+lastmod: "2026-09-20"
 draft: false
 weight: 75
 slug: "free-cloud-storage-comparison"

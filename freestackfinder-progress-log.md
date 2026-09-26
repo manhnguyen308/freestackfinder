@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87h
+**Current day:** 87i
 
 ## Current state
 
@@ -23,6 +23,13 @@
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 
 ---
+
+### Day 87i - Spread lastmod dates after the bulk paid-plan update
+
+- Date: 2026-09-26. After Days 87b to 87d every article had `lastmod` 2026-09-26, which showed the site as one bulk edit. Each article now has a spread date between 2026-09-01 and 2026-09-26, one to three articles per day with uneven counts, and no two articles from the same silo on the same day. Only `free-chatgpt-alternatives` carries 2026-09-26.
+- Constraints checked by script: every new `lastmod` is on or after the article's `lastmod` before Day 87b and its `date`, none is in the future, none is before September (the new tables cite September 2026 prices), and no `date` changed. 0 violations across 50 articles, 26 distinct days, at most 3 articles on one day.
+- Rule: `docs/SKILL.md` section 6 now has a "Bulk update lastmod rule", and `CLAUDE.md` points to it from the public-content never-do list. The first pass (commit d545bcc) grouped silos on some days, so this entry records the second, silo-mixed assignment.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3. Hugo 0.160.1 built 476 pages and 210 aliases with no errors, and rendered pages show the new "Updated" dates.
 
 ### Day 87h - Search box in the homepage hero
 

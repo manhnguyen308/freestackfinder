@@ -2,7 +2,7 @@
 title: "Free font websites in 2026: downloads without watermarks"
 description: "Google Fonts and Fontsource are fully open source. Font Squirrel filters for commercial use, while DaFont mixes in personal-use fonts that need a license check."
 date: "2026-04-18"
-lastmod: "2026-09-07"
+lastmod: "2026-09-09"
 draft: false
 weight: 60
 slug: "free-font-websites"

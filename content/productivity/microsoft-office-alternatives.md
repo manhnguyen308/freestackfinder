@@ -1,7 +1,7 @@
 ---
 title: "Free Microsoft Office alternatives in 2026: no subscription needed"
 date: "2026-04-07"
-lastmod: "2026-09-24"
+lastmod: "2026-09-25"
 draft: false
 description: "We opened one test .docx in Google Docs, OnlyOffice, and LibreOffice. Fonts, bullets, and review marks differed, so test your own files before cancelling."
 slug: "microsoft-office-alternatives"

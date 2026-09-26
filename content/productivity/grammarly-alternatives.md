@@ -2,7 +2,7 @@
 title: "Free Grammarly alternatives in 2026: grammar and writing tools"
 description: "Grammarly Free still checks grammar and shows tone. LanguageTool adds 30+ languages, and ProWritingAid runs style reports on 500 words at a time."
 date: "2026-03-20"
-lastmod: "2026-09-21"
+lastmod: "2026-09-18"
 draft: false
 weight: 55
 slug: "grammarly-alternatives"

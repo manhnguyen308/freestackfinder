@@ -2,7 +2,7 @@
 title: "Free spreadsheet alternatives in 2026: Excel without a subscription"
 description: "Workbooks built on VBA or Power Query should stay in Excel. Budgets and trackers move more easily, to Google Sheets online or LibreOffice Calc offline."
 date: "2026-04-23"
-lastmod: "2026-09-20"
+lastmod: "2026-09-22"
 draft: false
 weight: 74
 slug: "free-spreadsheet-alternatives"

@@ -2,7 +2,7 @@
 title: "Free email signature makers for Gmail, Outlook, and Apple Mail"
 description: "HubSpot's signature generator needs no account and adds no branding. MySignature saves one signature with a badge, and WiseStamp is now a 14-day trial."
 date: "2026-04-30"
-lastmod: "2026-09-17"
+lastmod: "2026-09-11"
 draft: false
 weight: 65
 slug: "free-email-signature"

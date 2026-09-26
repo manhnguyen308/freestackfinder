@@ -2,7 +2,7 @@
 title: "Free calendar apps in 2026: personal and team scheduling"
 description: "Google Calendar adds events from Gmail and Apple Calendar is already on your iPhone, so the account you use most usually decides. Proton encrypts every event."
 date: "2026-04-22"
-lastmod: "2026-09-05"
+lastmod: "2026-09-12"
 draft: false
 weight: 74
 slug: "free-calendar-app"

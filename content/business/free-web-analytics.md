@@ -2,7 +2,7 @@
 title: "Free web analytics tools in 2026 for small sites"
 description: "GA4 has no pageview cap but brings cookie consent work. Search Console covers Google Search only, and Umami or Matomo keep analytics data on your own server."
 date: "2026-04-26"
-lastmod: "2026-09-12"
+lastmod: "2026-09-17"
 draft: false
 weight: 40
 slug: "free-web-analytics"

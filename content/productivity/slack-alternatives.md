@@ -2,7 +2,7 @@
 title: "Free Slack alternatives in 2026: team chat without a 90-day history limit"
 description: "Slack Free hides messages after 90 days and deletes data after a year. Discord has no such window; Teams and Google Chat suit teams already on those accounts."
 date: "2026-03-23"
-lastmod: "2026-09-04"
+lastmod: "2026-09-05"
 draft: false
 weight: 95
 slug: "slack-alternatives"

@@ -2,7 +2,7 @@
 title: "Free video editing software in 2026: five capable editors"
 description: "DaVinci Resolve exports without a watermark but limits free footage to 8-bit, up to 60fps in Ultra HD. CapCut suits short clips, and OpenShot a first edit."
 date: "2026-03-17"
-lastmod: "2026-09-01"
+lastmod: "2026-09-15"
 draft: false
 weight: 65
 slug: "free-video-editing-software"

@@ -1,7 +1,7 @@
 ---
 title: "Free Photoshop alternatives in 2026: browser and desktop PSD editors"
 date: "2026-04-30"
-lastmod: "2026-09-06"
+lastmod: "2026-09-03"
 draft: false
 description: "Photopea opens PSD files in a browser with no install, which covers most occasional edits. GIMP takes over when you need plugins and offline files."
 slug: "photoshop-alternatives"

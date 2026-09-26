@@ -2,7 +2,7 @@
 title: "Free AI email tools for drafting and replies in 2026"
 description: "Gmail's Smart Compose needs no extension or credits. Every tool beyond it asks for more inbox access, from pasted text in ChatGPT to full OAuth for Compose AI."
 date: "2026-04-29"
-lastmod: "2026-09-10"
+lastmod: "2026-09-07"
 draft: false
 weight: 60
 slug: "free-ai-email-tools"

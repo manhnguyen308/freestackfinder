@@ -2,7 +2,7 @@
 title: "Free HR software in 2026: tools for small teams"
 description: "Zoho People's free HRIS stops at five employees. Past that point, OrangeHRM removes the cap for any team willing to run its own server."
 date: "2026-04-28"
-lastmod: "2026-09-25"
+lastmod: "2026-09-24"
 draft: false
 weight: 39
 slug: "free-hr-software"

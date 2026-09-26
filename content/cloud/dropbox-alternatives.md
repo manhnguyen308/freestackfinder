@@ -2,7 +2,7 @@
 title: "Dropbox alternatives with more free storage in 2026"
 description: "Dropbox Basic stops at 2GB. Our new free accounts showed 20GB on MEGA and 10GB on Box, where a 357.5MB upload was refused over the 250MB cap."
 date: "2026-04-08"
-lastmod: "2026-09-25"
+lastmod: "2026-09-24"
 draft: false
 weight: 35
 slug: "dropbox-alternatives"

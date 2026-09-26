@@ -2,7 +2,7 @@
 title: "Free Zoom alternatives in 2026 for longer group calls"
 description: "Zoom Basic stops meetings at 40 minutes, even one-to-one. Google Meet gives groups an hour in the browser and one-to-one calls a full day."
 date: "2026-03-21"
-lastmod: "2026-09-15"
+lastmod: "2026-09-12"
 draft: false
 weight: 58
 slug: "zoom-alternatives"

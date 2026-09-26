@@ -2,7 +2,7 @@
 title: "Free time tracking software in 2026 for billable work"
 description: "TimeCamp is the only free tracker here with no user cap. Clockify and Toggl stop at five users, and Harvest's free invoicing covers one seat and two projects."
 date: "2026-04-16"
-lastmod: "2026-09-12"
+lastmod: "2026-09-19"
 draft: false
 weight: 65
 slug: "free-time-tracking-software"

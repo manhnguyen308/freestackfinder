@@ -2,7 +2,7 @@
 title: "Free project management software in 2026: which plan fits your team"
 description: "Trello's free plan holds ten collaborators across ten boards. Asana Personal adds list and calendar views but allows only two users, so team size decides."
 date: "2026-04-05"
-lastmod: "2026-09-13"
+lastmod: "2026-09-10"
 draft: false
 weight: 72
 slug: "free-project-management-software"

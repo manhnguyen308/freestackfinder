@@ -2,7 +2,7 @@
 title: "Free website builders in 2026: where each plan stops"
 description: "Google Sites is the only builder here that connects your own domain with no builder fee. Wix, WordPress.com, Carrd, and Canva charge for a custom domain."
 date: "2026-04-27"
-lastmod: "2026-09-11"
+lastmod: "2026-09-03"
 draft: false
 weight: 45
 slug: "free-website-builders"
