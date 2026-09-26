@@ -14,6 +14,8 @@ CSS custom properties defined in `static/css/style.css`. Never rename — every 
 | `--primary-dark` | `#0D5C57` | Hover state for teal elements |
 | `--primary-light` | `#14B8A6` | Card hover border |
 | `--primary-bg` | `#E6F7F5` | Chip backgrounds, light teal fills |
+| `--primary-fill` | `#0F766E` | Solid teal behind white text: buttons, table heads, active chips, pagination, back-to-top |
+| `--primary-fill-hover` | `#0D5C57` | Hover for `--primary-fill` |
 | `--accent` | `#F59E0B` | Amber — one affiliate CTA button per article only |
 | `--accent-dark` | `#D97706` | Amber hover |
 | `--text` | `#1E293B` | Body text |
@@ -32,6 +34,28 @@ CSS custom properties defined in `static/css/style.css`. Never rename — every 
 | `--danger-bg` | `#FEF2F2` | Verdict avoid background |
 
 **Token name note:** Production tokens use longer names (`--primary`, `--text`, `--border`) rather than the short-form names in the handoff spec (`--p`, `--t`, `--bd`). Do not alias or rename — would break all selectors.
+
+**Fill vs. text teal:** Use `--primary` for teal text, links, borders, stars, and focus outlines. Use `--primary-fill` for any solid teal background that carries white text. In light mode they are the same color; in dark mode `--primary` turns bright for contrast on the dark page while `--primary-fill` stays brand teal so white text keeps 5.5:1 contrast.
+
+### Dark theme
+
+`html[data-theme="dark"]` swaps the tokens in section 35 of `style.css`. An inline script in `head.html` sets the attribute before first paint from the reader's saved choice (`localStorage` key `theme`), or from the system `prefers-color-scheme` setting when there is none. The dark rules sit inside `@media screen`, so printing always uses the light palette.
+
+| Token | Dark value |
+|---|---|
+| `--primary` | `#2DD4BF` |
+| `--primary-dark` | `#5EEAD4` (lighter, because it is the hover and tinted-text color) |
+| `--primary-light` | `#14B8A6` |
+| `--primary-bg` | `#0F2D30` |
+| `--primary-fill` / `--primary-fill-hover` | `#0F766E` / `#115E59` |
+| `--text` / `--text-muted` / `--text-light` | `#E2E8F0` / `#94A3B8` / `#7F8EA3` |
+| `--bg` / `--bg-2` / `--bg-3` | `#0F172A` / `#152033` / `#1E293B` |
+| `--border` / `--border-dark` | `#26334A` / `#3A4A63` |
+| `--success` / `--success-bg` | `#4ADE80` / `#0F2A1C` |
+| `--warning` / `--warning-bg` | `#FBBF24` / `#2A2110` |
+| `--danger` / `--danger-bg` | `#F87171` / `#2D1618` |
+
+Contrast on `--bg`: body text 14.5:1, muted text 7:1, teal links 9.6:1. `--accent` amber is unchanged, and the amber button keeps dark slate text in both themes. New components must use tokens rather than hex values; any color that cannot be a token needs a `:root[data-theme="dark"]` override in section 35.
 
 ---
 
@@ -90,7 +114,7 @@ Icon container: 44×44px circle (`border-radius: 50%`), background = matching ti
 
 ## Header and footer rules
 
-**Header:** Sticky, 64px height. Logo: `FreeStackFinder` wordmark, "Finder" in `var(--primary)` teal, 22px weight 800. Nav: one item per silo slug. Search: inline SVG icon button. Mobile: hamburger toggle.
+**Header:** Sticky, 64px height. Logo: `FreeStackFinder` wordmark, "Finder" in `var(--primary)` teal, 22px weight 800. Nav: one item per silo slug. Search: inline SVG icon button. Theme toggle: 36px icon button after search (`#theme-toggle`, `aria-pressed` for dark), showing a moon in light mode and a sun in dark mode; hidden when JavaScript is off. Mobile: hamburger toggle.
 
 **Footer:** 3-column dark-slate (`#0F172A`) grid. Columns: brand + tagline / categories / site links. Trust pill links row. Affiliate disclosure note with `/disclaimer/` link. All footer links must resolve to real Hugo routes — no `href="#"` placeholders.
 
@@ -128,7 +152,7 @@ These differ from the handoff spec's `/how-we-test/`, `/disclosure/`, `/privacy/
 
 **Hover states:** Cards lift `translateY(-3px)` + shadow bump + border darken. `transition: all 0.15–0.2s ease`.
 
-**No dark mode. No glass. No blur. No gradients** except the barely-perceptible hero (`#F8FAFC → #E8F7F5`).
+**Dark mode through tokens only** (see "Dark theme" above). **No glass. No blur. No gradients** except the barely-perceptible hero (`#F8FAFC → #E8F7F5`).
 
 ---
 

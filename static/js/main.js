@@ -31,6 +31,41 @@
     });
   }
 
+  // Light/dark theme toggle. head.html sets data-theme before first paint;
+  // this keeps the button state and the saved choice in step with it.
+  var themeToggle = document.getElementById('theme-toggle');
+  if (themeToggle) {
+    var root = document.documentElement;
+
+    var applyTheme = function (theme) {
+      var isDark = theme === 'dark';
+      root.setAttribute('data-theme', theme);
+      themeToggle.setAttribute('aria-pressed', String(isDark));
+      themeToggle.setAttribute('title', isDark ? 'Switch to light mode' : 'Switch to dark mode');
+    };
+
+    var savedTheme = function () {
+      try { return localStorage.getItem('theme'); } catch (e) { return null; }
+    };
+
+    applyTheme(root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light');
+
+    themeToggle.addEventListener('click', function () {
+      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+      applyTheme(next);
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+
+    // Follow system changes until the reader picks a theme
+    var darkQuery = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    if (darkQuery && darkQuery.addEventListener) {
+      darkQuery.addEventListener('change', function (e) {
+        var saved = savedTheme();
+        if (saved !== 'light' && saved !== 'dark') applyTheme(e.matches ? 'dark' : 'light');
+      });
+    }
+  }
+
   // Sticky sidebar for article pages
   var sidebar = document.querySelector('.article-sidebar');
   if (sidebar && window.innerWidth >= 960) {
@@ -84,7 +119,7 @@
         if (id) {
           var activeLink = document.querySelector('.toc-widget a[href="#' + id + '"]');
           if (activeLink) {
-            activeLink.style.color = '#0F766E';
+            activeLink.style.color = 'var(--primary)';
             activeLink.style.fontWeight = '600';
           }
         }

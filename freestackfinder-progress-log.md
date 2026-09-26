@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87e
+**Current day:** 87f
 
 ## Current state
 
@@ -20,8 +20,19 @@
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
+- Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 
 ---
+
+### Day 87f - Light and dark theme toggle
+
+- Date: 2026-09-26. Scoped to `layouts/partials/head.html`, `layouts/partials/nav.html`, `static/css/style.css`, `static/js/main.js`, `docs/DESIGN-SYSTEM.md`, `FEATURE-STRATEGY.md`, and this log. No article, front matter, URL, affiliate link, or CTA changed.
+- Feature: a 36px icon button in the header, after search, switches between light and dark. It shows a moon in light mode and a sun in dark mode, reports its state with `aria-pressed`, and is hidden when JavaScript is off. A first visit follows the system `prefers-color-scheme` setting and keeps following it until the reader clicks; the choice is then saved in `localStorage` under `theme`. An inline script in `head.html` sets `data-theme` on `<html>` before the stylesheet loads, so dark pages do not flash light on load.
+- CSS: dark values for every color token sit in a new section 35, inside `@media screen` so printed pages stay dark text on white. Two new tokens, `--primary-fill` and `--primary-fill-hover`, separate solid teal backgrounds under white text from teal text and links. In light mode they equal `--primary` and `--primary-dark`, so the light theme renders as before. Hardcoded white backgrounds on the tenets icons, pagination, and secondary button now use `--bg`. Category icon tints, legacy verdict and notice borders, the search focus ring, search highlights, code blocks, and the footer have dark overrides. The amber button keeps dark slate text in both themes. The TOC highlight in `main.js` uses `var(--primary)` instead of a hex value. `DESIGN-SYSTEM.md` no longer says "No dark mode" and lists the dark values.
+- Contrast in dark mode: body text 14.5:1, muted text 7:1, teal links 9.6:1, white on teal fills 5.5:1.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3 with 50 articles, run with UTF-8 console output because the Windows cp1252 console crashes the count report on its check mark. Hugo 0.159.2 built 476 pages to a temporary destination with no errors or warnings; the toggle is in the homepage, article, and 404 output. In the local preview, the homepage, a hub, the search page, and the password managers article render in dark mode with readable tables, ratings, tool buttons, and the NordPass CTA. Switching to light restores the original computed colors, the choice survives a reload, and at 375px the header fits search, toggle, and menu with no horizontal scroll. No console errors. `git diff --check` passed, and no dash or curly-quote characters were added.
+- Found while testing, not fixed here: hub pages have no side gutter below about 1140px, because `.page-layout { padding: 36px 0 72px }` overrides the `.container` side padding. Flagged as a separate fix.
+- Guardrails: the only new reader-visible text is the button's "Dark mode" label and its "Switch to dark mode" or "Switch to light mode" tooltip. AdSense slot markup untouched; no affiliate change.
 
 ### Day 87e - Free plan star ratings on every tool section
 

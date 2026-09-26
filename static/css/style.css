@@ -5,11 +5,17 @@
 
 /* 1. CSS Variables
    =========================================== */
+/* Dark theme values live in section 35 and override these on
+   html[data-theme="dark"], which head.html sets before first paint. */
 :root {
+  color-scheme: light;
   --primary: #0F766E;
   --primary-dark: #0D5C57;
   --primary-light: #14B8A6;
   --primary-bg: #E6F7F5;
+  /* Solid teal behind white text: buttons, table heads, active chips */
+  --primary-fill: #0F766E;
+  --primary-fill-hover: #0D5C57;
   --accent: #F59E0B;
   --accent-dark: #D97706;
   --text: #1E293B;
@@ -177,7 +183,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .hero-cta-row .btn-p {
   padding: 12px 22px;
-  background: var(--primary);
+  background: var(--primary-fill);
   color: #fff;
   border-radius: var(--radius);
   font-size: 14px;
@@ -189,7 +195,7 @@ button { font-family: inherit; cursor: pointer; }
   align-items: center;
   justify-content: center;
 }
-.hero-cta-row .btn-p:hover { background: var(--primary-dark); color: #fff; text-decoration: none; }
+.hero-cta-row .btn-p:hover { background: var(--primary-fill-hover); color: #fff; text-decoration: none; }
 .hero-cta-row .btn-g {
   padding: 12px 22px;
   background: transparent;
@@ -239,7 +245,7 @@ button { font-family: inherit; cursor: pointer; }
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  background: #fff;
+  background: var(--bg);
   border: 1px solid var(--border);
   color: var(--primary);
   display: flex;
@@ -395,7 +401,7 @@ button { font-family: inherit; cursor: pointer; }
   border-radius: 20px;
   text-decoration: none;
 }
-.card-category a:hover { background: var(--primary); color: white; }
+.card-category a:hover { background: var(--primary-fill); color: white; }
 .card-title { margin-bottom: 8px; }
 .card-title a {
   font-size: 17px;
@@ -428,7 +434,7 @@ button { font-family: inherit; cursor: pointer; }
    =========================================== */
 .trust-section {
   padding: 52px 0;
-  background: var(--primary);
+  background: var(--primary-fill);
   color: white;
 }
 .trust-grid {
@@ -526,7 +532,7 @@ button { font-family: inherit; cursor: pointer; }
   display: inline-block;
   text-decoration: none;
 }
-.article-category a:hover { background: var(--primary); color: white; }
+.article-category a:hover { background: var(--primary-fill); color: white; }
 .article-header h1 {
   font-size: clamp(24px, 4vw, 38px);
   font-weight: 800;
@@ -666,7 +672,7 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 15px;
   min-width: 400px;
 }
-.article-content table thead { background: var(--primary); color: white; }
+.article-content table thead { background: var(--primary-fill); color: white; }
 .article-content table th {
   padding: 12px 14px;
   text-align: left;
@@ -842,8 +848,8 @@ button { font-family: inherit; cursor: pointer; }
 
 /* CTA Widget */
 .cta-widget {
-  background: var(--primary);
-  border-color: var(--primary-dark);
+  background: var(--primary-fill);
+  border-color: var(--primary-fill-hover);
   color: white;
 }
 .cta-widget h4 { color: white; border-bottom-color: rgba(255,255,255,0.2); }
@@ -880,14 +886,15 @@ button { font-family: inherit; cursor: pointer; }
   line-height: 1;
 }
 .btn:hover { text-decoration: none; }
-.btn-primary { background: var(--accent); color: var(--text); }
-.btn-primary:hover { background: var(--accent-dark); color: var(--text); }
+/* Dark slate text stays on amber in both themes */
+.btn-primary { background: var(--accent); color: #1E293B; }
+.btn-primary:hover { background: var(--accent-dark); color: #1E293B; }
 .btn-secondary {
-  background: white;
+  background: var(--bg);
   color: var(--primary);
   border: 2px solid var(--primary);
 }
-.btn-secondary:hover { background: var(--primary); color: white; }
+.btn-secondary:hover { background: var(--primary-fill); border-color: var(--primary-fill); color: white; }
 .btn-full { display: block; width: 100%; text-align: center; }
 
 /* External link indicator */
@@ -911,7 +918,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 .author-avatar {
   width: 48px; height: 48px;
-  background: var(--primary);
+  background: var(--primary-fill);
   color: white;
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
@@ -1039,7 +1046,7 @@ button { font-family: inherit; cursor: pointer; }
   min-width: 40px;
   height: 40px;
   padding: 0 12px;
-  background: white;
+  background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   font-size: 14px;
@@ -1050,14 +1057,14 @@ button { font-family: inherit; cursor: pointer; }
   line-height: 1;
 }
 .pagination .page-link:hover {
-  background: var(--primary);
+  background: var(--primary-fill);
   color: white;
-  border-color: var(--primary);
+  border-color: var(--primary-fill);
 }
 .pagination .page-item.active .page-link {
-  background: var(--primary);
+  background: var(--primary-fill);
   color: white;
-  border-color: var(--primary);
+  border-color: var(--primary-fill);
 }
 .pagination .page-item.disabled .page-link {
   opacity: 0.4;
@@ -1164,7 +1171,7 @@ button { font-family: inherit; cursor: pointer; }
   display: inline-block;
   margin-top: 12px;
   padding: 9px 20px;
-  background: var(--primary);
+  background: var(--primary-fill);
   color: #ffffff !important;
   font-size: 13px;
   font-weight: 600;
@@ -1175,7 +1182,7 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .affiliate-cta-btn:hover {
-  background: var(--primary-dark);
+  background: var(--primary-fill-hover);
 }
 
 @media (max-width: 640px) {
@@ -1212,7 +1219,8 @@ button { font-family: inherit; cursor: pointer; }
 }
 
 .article-content a.tool-cta-btn:hover {
-  background: var(--primary);
+  background: var(--primary-fill);
+  border-color: var(--primary-fill);
   color: #ffffff;
   text-decoration: none;
   box-shadow: var(--shadow-sm);
@@ -1319,7 +1327,7 @@ button { font-family: inherit; cursor: pointer; }
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background: var(--primary);
+  background: var(--primary-fill);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -1339,12 +1347,12 @@ button { font-family: inherit; cursor: pointer; }
   transform: translateY(0);
 }
 #back-to-top:hover {
-  background: var(--primary-dark);
+  background: var(--primary-fill-hover);
 }
 #back-to-top:focus-visible {
   outline: 2px solid var(--primary);
   outline-offset: 3px;
-  background: var(--primary-dark);
+  background: var(--primary-fill-hover);
 }
 @media (max-width: 639px) {
   #back-to-top {
@@ -1382,6 +1390,36 @@ button { font-family: inherit; cursor: pointer; }
   color: var(--primary);
   text-decoration: none;
 }
+
+/* Light/dark theme toggle: shows the moon in light mode and the sun in dark.
+   Hidden until head.html sets data-theme, so it never shows without JS. */
+.theme-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  border-radius: var(--radius);
+  background: none;
+  color: var(--text-muted);
+  transition: background 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+.theme-toggle:hover {
+  background: var(--bg-3);
+  color: var(--primary);
+}
+.theme-toggle:focus-visible,
+.nav-search-btn:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+:root:not([data-theme]) .theme-toggle { display: none; }
+.theme-icon-sun { display: none; }
+:root[data-theme="dark"] .theme-icon-sun { display: block; }
+:root[data-theme="dark"] .theme-icon-moon { display: none; }
 
 /* Search page layout */
 .search-page {
@@ -1484,14 +1522,14 @@ button { font-family: inherit; cursor: pointer; }
   outline-offset: 2px;
 }
 .filter-btn.active {
-  background: var(--primary);
+  background: var(--primary-fill);
   color: #fff;
-  border-color: var(--primary);
+  border-color: var(--primary-fill);
   box-shadow: 0 1px 2px rgba(15,118,110,0.25);
 }
 .filter-btn.active:hover {
-  background: var(--primary-dark);
-  border-color: var(--primary-dark);
+  background: var(--primary-fill-hover);
+  border-color: var(--primary-fill-hover);
   color: #fff;
 }
 
@@ -1834,4 +1872,71 @@ mark {
 .article-content a.tool-rating-how:hover { color: var(--primary); }
 @media print {
   .tool-rating-how { display: none; }
+}
+
+/* 35. Dark theme
+   ===========================================
+   Applied when html[data-theme="dark"]. The inline script in head.html picks
+   the reader's saved choice, or the system setting when there is none.
+   Screen only, so printed pages keep dark text on white. */
+@media screen {
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --primary: #2DD4BF;
+    --primary-dark: #5EEAD4;
+    --primary-light: #14B8A6;
+    --primary-bg: #0F2D30;
+    --primary-fill: #0F766E;
+    --primary-fill-hover: #115E59;
+    --text: #E2E8F0;
+    --text-muted: #94A3B8;
+    --text-light: #7F8EA3;
+    --bg: #0F172A;
+    --bg-2: #152033;
+    --bg-3: #1E293B;
+    --border: #26334A;
+    --border-dark: #3A4A63;
+    --success: #4ADE80;
+    --success-bg: #0F2A1C;
+    --warning: #FBBF24;
+    --warning-bg: #2A2110;
+    --danger: #F87171;
+    --danger-bg: #2D1618;
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.30);
+    --shadow: 0 4px 12px rgba(0,0,0,0.35);
+    --shadow-lg: 0 8px 24px rgba(0,0,0,0.45);
+  }
+
+  /* Components with their own light-only colors */
+  :root[data-theme="dark"] .category-card:hover { background: var(--primary-bg); }
+  :root[data-theme="dark"] .category-card[data-cat="creative"]     .cat-icon { background: rgba(217,91,53,0.18);  color: #F08A68; }
+  :root[data-theme="dark"] .category-card[data-cat="productivity"] .cat-icon { background: rgba(42,148,97,0.20);  color: #4CC38A; }
+  :root[data-theme="dark"] .category-card[data-cat="video"]        .cat-icon { background: rgba(124,58,237,0.22); color: #A78BFA; }
+  :root[data-theme="dark"] .category-card[data-cat="business"]     .cat-icon { background: rgba(194,123,10,0.20); color: #F0B44A; }
+  :root[data-theme="dark"] .category-card[data-cat="security"]     .cat-icon { background: rgba(14,126,115,0.25); color: #2DD4BF; }
+  :root[data-theme="dark"] .category-card[data-cat="cloud"]        .cat-icon { background: rgba(29,111,186,0.25); color: #6AAEEA; }
+
+  :root[data-theme="dark"] .verdict-box.good { border-color: #14532D; }
+  :root[data-theme="dark"] .verdict-box.caution { border-color: #713F12; }
+  :root[data-theme="dark"] .verdict-box.avoid { border-color: #7F1D1D; }
+  :root[data-theme="dark"] .verdict-box.good { border-left-color: var(--success); }
+  :root[data-theme="dark"] .verdict-box.caution { border-left-color: var(--warning); }
+  :root[data-theme="dark"] .verdict-box.avoid { border-left-color: var(--danger); }
+
+  :root[data-theme="dark"] .notice-info { background: #0F1E3A; border-color: #1E3A8A; color: #BFDBFE; }
+  :root[data-theme="dark"] .notice-warning { border-color: #713F12; color: #FCD34D; }
+  :root[data-theme="dark"] .notice-success { border-color: #14532D; color: #86EFAC; }
+
+  :root[data-theme="dark"] .tool-badge.recommended { border-color: #14532D; }
+  :root[data-theme="dark"] .tool-badge.limited { border-color: #713F12; }
+  :root[data-theme="dark"] .tool-badge.good,
+  :root[data-theme="dark"] .verdict-badge { border-color: rgba(45,212,191,0.30); }
+
+  :root[data-theme="dark"] .article-content pre { background: #0A101E; border: 1px solid var(--border); }
+  :root[data-theme="dark"] #search-input:hover { border-color: #4B5B73; }
+  :root[data-theme="dark"] #search-input:focus { box-shadow: 0 0 0 3px rgba(45,212,191,0.22); }
+  :root[data-theme="dark"] mark { background: rgba(250,204,21,0.28); }
+
+  /* The footer is already dark; darken it a step so it separates from the page */
+  :root[data-theme="dark"] .site-footer { background: #0A101E; border-top: 1px solid var(--border); }
 }
