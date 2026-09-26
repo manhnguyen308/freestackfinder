@@ -2,7 +2,7 @@
 title: "Free CRM software in 2026: four plans for small teams"
 description: "HubSpot's free CRM stops at two users and 1,000 contacts. Zoho and Freshsales allow three, and Bitrix24's own pricing pages disagree on its seat limit."
 date: "2026-04-02"
-lastmod: "2026-08-19"
+lastmod: "2026-09-26"
 draft: false
 weight: 37
 slug: "free-crm-software"
@@ -95,7 +95,7 @@ The steps after a closed deal, invoicing and project delivery, are compared in t
 
 Freshsales combines Kanban views for contacts, accounts, and deals with communication tools beside the pipeline. The [Freshsales plan comparison](https://www.freshworks.com/crm/pricing-compare/) lists its free plan for up to three users. Choose it over Zoho when moving deals between visible stages matters more than having a traditional module-heavy CRM.
 
-More seats and stronger automation and forecasting sit on paid plans. Use the free edition as a focused workspace for a team of up to three people.
+More seats and stronger automation and forecasting sit on paid plans. Use the free edition as a focused workspace for a team of up to three people. Freshworks' main [pricing page](https://www.freshworks.com/crm/pricing/) now shows only the paid plans and a 21-day trial, while the comparison page still lists Free, so confirm the free plan is offered at sign-up.
 
 [Try Freshsales Free ->](https://www.freshworks.com/crm/pricing/)
 
@@ -120,6 +120,17 @@ Free CRM usually stops being enough for one of three reasons:
 - your business wants tighter process control across marketing, sales, and service
 
 Reaching one of those limits does not make the initial choice a mistake. It means the business now needs more than the starter tier was designed to handle. Choose around the current team and live pipeline, then budget for the specific automation or control that triggers an upgrade.
+
+The first paid plan is priced per seat on three of these CRMs and per organization on Bitrix24. Seat prices below are the US list rates HubSpot, Zoho, Freshworks, and Bitrix24 showed in September 2026:
+
+| CRM | Entry paid plan | Price | Beyond the free plan |
+|-----|-----------------|-------|------------------------|
+| HubSpot | Sales Hub Starter | $20 per seat a month at list price, with new-customer discounts from $7 | Users beyond two, contacts beyond 1,000, 500 HubSpot Credits a month |
+| Zoho CRM | Standard | $14 per user a month billed yearly | Mass email, built-in calling, multiple pipelines, sales forecasting, Gmail and Outlook integration |
+| Freshsales | Growth | $9 per user a month billed yearly | Users beyond three, email templates, custom fields, basic workflows |
+| Bitrix24 | Basic | $49 a month billed yearly, or $69 monthly, for five users | 24 GB of storage, sales pipelines, recurring deals, online payments, email and telephony integration |
+
+For five people, Zoho CRM Standard comes to $70 a month and Freshsales Growth to $45, both billed yearly, while Bitrix24 Basic covers the same five users for a flat $49. HubSpot Starter at its $20 list price would be $100, and its Professional tier lists $100 per seat plus a one-time $1,500 onboarding fee.
 
 
 ## Use the smallest CRM that covers the live pipeline

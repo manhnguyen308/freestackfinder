@@ -2,7 +2,7 @@
 title: "Free time tracking software in 2026 for billable work"
 description: "TimeCamp is the only free tracker here with no user cap. Clockify and Toggl stop at five users, and Harvest's free invoicing covers one seat and two projects."
 date: "2026-04-16"
-lastmod: "2026-08-11"
+lastmod: "2026-09-26"
 draft: false
 weight: 65
 slug: "free-time-tracking-software"
@@ -158,7 +158,19 @@ Payment reminders and pay-from-invoice links are included, so a solo freelancer 
 
 ## When free time tracking is enough and when to pay
 
-Free time tracking covers all core use cases for solo freelancers and small teams: logging hours, generating time reports, tracking time by project and client, and creating basic invoices. The paid tiers become relevant when you need billing rates and profitability reports across a team (Clockify Paid, Toggl Starter), advanced budgeting and forecasting (Harvest's team features), or enterprise features like SSO and compliance exports.
+Free time tracking covers all core use cases for solo freelancers and small teams: logging hours, generating time reports, tracking time by project and client, and creating basic invoices. The paid tiers become relevant when you need billing rates and profitability reports across a team (Clockify Standard, Toggl Starter), advanced budgeting and forecasting (Harvest's team features), or enterprise features like SSO and compliance exports.
+
+Every paid plan here is priced per user, so the jump is smallest for a solo tracker and largest for a team that has been sharing a free workspace. Per-user rates, as each tracker's US pricing page showed them in September 2026:
+
+| Tracker | Lowest paid tier | Price | New on that tier |
+|---------|-----------------|-------|--------------|
+| Clockify | Standard | $5.49 per seat a month billed yearly | Billable rates and invoicing from tracked time; the $3.99 Basic plan adds admin controls only |
+| Toggl Track | Starter | $9 per user a month billed yearly, $12 monthly | Billable rates, revenue and team reports, project time estimates |
+| RescueTime | Solo Focus | $7 a month billed yearly, $9 monthly | Focus Sessions with distraction blocking, goals and alerts; Solo+ at $12 adds timesheets |
+| TimeCamp | Starter | $3.99 per user a month billed yearly, $5.49 monthly | Unlimited tasks, invoicing, attendance and time off, Excel exports |
+| Harvest | Teams | $9 per seat a month billed yearly, $11 monthly | Unlimited seats and projects, team reports |
+
+Clockify counts every active or invited person on the team page as a paid seat, owner included, so a five-person free workspace becomes five seats at once.
 
 For a freelancer or small team, Clockify Free or Toggl Track Free can cover timers and basic reports. For the time-to-invoice step, Invoice Ninja in the [free invoicing software guide](/business/free-invoicing-software/) builds invoices from tracked time.
 

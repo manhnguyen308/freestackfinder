@@ -1,7 +1,7 @@
 ---
 title: "Free Microsoft Office alternatives in 2026: no subscription needed"
 date: "2026-04-07"
-lastmod: "2026-09-22"
+lastmod: "2026-09-26"
 draft: false
 description: "We opened one test .docx in Google Docs, OnlyOffice, and LibreOffice. Fonts, bullets, and review marks differed, so test your own files before cancelling."
 slug: "microsoft-office-alternatives"
@@ -229,6 +229,20 @@ You should keep Microsoft 365 if you:
 - Need 1TB of OneDrive storage (included with Microsoft 365)
 - Rely on Outlook's calendar and email management at an enterprise level
 - Require Word's advanced citation and bibliography tools for academic work
+
+Microsoft sells the desktop apps two ways, and each alternative has its own paid step. Microsoft's US store and the alternatives' sites showed these prices in September 2026:
+
+| Suite | Paid plan | Price | Apps and storage |
+|-------|-----------|-------|--------------|
+| Microsoft 365 | Personal | $9.99 a month or $99.99 a year | Desktop Word, Excel, PowerPoint, and Outlook, 1 TB of OneDrive, Copilot in the apps |
+| Microsoft 365 | Family | $12.99 a month or $129.99 a year | The same apps for up to six people, with 1 TB each |
+| Microsoft Office | Office Home 2024 | $179.99 once | Desktop Word, Excel, and PowerPoint on one PC or Mac, without extra OneDrive storage or Copilot |
+| Google Docs, Sheets, Slides | Workspace Business Starter | $7 per user a month | Custom-domain Gmail, 30 GB of pooled storage per user, admin controls; Gemini in Docs starts on Business Standard at $14 |
+| LibreOffice | None | Free | No premium tier exists |
+| OnlyOffice | DocSpace Business | $30 per admin a month at list price | Hosted collaboration rooms and 250 GB per admin; the desktop editors stay free |
+| WPS Office | WPS Pro+ | $69.99 a year | Full PDF editing, 20 GB of cloud storage, no advertising |
+
+Microsoft 365 Basic, at $19.99 a year, adds 100 GB of OneDrive storage and ad-free Outlook but no desktop apps, so it does not solve an Excel or Word dependency.
 
 ## Google Docs for collaboration, LibreOffice for local work
 

@@ -2,7 +2,7 @@
 title: "Free cloud storage in 2026: space, privacy, and sync"
 description: "Google's 15GB is shared with Gmail and Photos, and iCloud's 5GB also holds device backups. MEGA lists 20GB, but downloads draw on a separate transfer allowance."
 date: "2026-03-16"
-lastmod: "2026-09-20"
+lastmod: "2026-09-26"
 draft: false
 weight: 75
 slug: "free-cloud-storage-comparison"
@@ -20,7 +20,7 @@ Every free plan here comes with a condition the headline number hides. MEGA's 20
 
 ## Decide whether you need sync, collaboration, or privacy
 
-For capacity, MEGA lists 20GB. Google Drive combines a shared account allowance of up to 15GB with Docs, Sheets, Slides, and live collaboration. Proton Drive lists up to 5GB with end-to-end encryption. The official plan sources appear below each profile.
+For capacity, MEGA lists 20GB. Google Drive combines a shared account allowance of up to 15GB with Docs, Sheets, Slides, and live collaboration. Proton Drive starts new accounts at 2GB and lists up to 5GB, with end-to-end encryption. The official plan sources appear below each profile.
 
 Dropbox Basic lists only 2GB. It remains useful when an existing shared folder or client workflow matters more than capacity.
 
@@ -44,11 +44,11 @@ rows:
     best_for: Controlled file sharing with link permissions
     limit: 250MB upload limit per file
   - tool: OneDrive
-    free_storage: 5GB
+    free_storage: 5GB, shared with Outlook attachments
     best_for: Windows users and Office web apps
     limit: Small allowance; convenience over capacity
   - tool: Proton Drive
-    free_storage: 5GB
+    free_storage: 2GB, up to 5GB
     best_for: Privacy-first personal storage
     limit: Fewer collaboration integrations than Google Drive
   - tool: iCloud
@@ -103,14 +103,14 @@ The upload cap rules out many videos and large design files. Box instead fits pr
 
 ### 4. OneDrive: 5GB beside Office web apps
 
-OneDrive's [free plan lists 5GB](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), plus web access to Word, Excel, PowerPoint, and OneNote through Microsoft 365 for the web.
+OneDrive's [free plan lists 5GB](https://www.microsoft.com/en-us/microsoft-365/onedrive/compare-onedrive-plans), plus web access to Word, Excel, PowerPoint, and OneNote through Microsoft 365 for the web. Microsoft's [storage FAQ](https://support.microsoft.com/en-us/onedrive/microsoft-storage-faqs) says the same 5GB also holds Outlook.com attachments.
 
 Its File Explorer integration makes it convenient for active Windows documents, but 5GB is too small for a substantial photo or media library.
 
 
 ### 5. Proton Drive: up to 5GB with end-to-end encryption
 
-Proton Drive's [free plan lists up to 5GB](https://proton.me/drive/pricing), end-to-end encrypted storage, sharing, and online document editing. It protects filenames and folder names as well as file contents.
+Proton Drive's [free plan lists up to 5GB](https://proton.me/drive/pricing), end-to-end encrypted storage, sharing, and online document editing. New accounts start at 2GB, and Proton's [storage guide](https://proton.me/support/more-storage-proton-drive) adds the other 3GB once the owner uploads a file, creates a share link, and sets up a recovery method within 30 days. It protects filenames and folder names as well as file contents.
 
 Its collaboration ecosystem is narrower than Google's, so it fits personal records and sensitive documents better than a busy team workspace.
 
@@ -142,7 +142,19 @@ Paid storage becomes sensible when one of these is true:
 - you need team features, better sharing controls, or stronger version history
 - you want one storage home for backups rather than a patchwork of free tiers
 
-At that point, compare the current subscription price with the administrative cost and risk of splitting files across several accounts.
+At that point, compare the current subscription price with the administrative cost and risk of splitting files across several accounts. The first paid tier is cheap on most of these services, and two of them start below $2 a month. The list prices each provider showed in September 2026:
+
+| Service | First paid tier | Price | Storage and extras |
+|---------|-----------------|-------|--------------------|
+| MEGA | Essential | €3.33 a month billed yearly | 200GB with 2.4TB of transfer, plus MEGA VPN and MEGA Pass |
+| Google Drive | Google AI Plus | $4.99 a month | 400GB across Gmail, Drive, and Photos, plus Gemini features |
+| Box | Personal Pro | From $11.50 a month | 100GB, 5GB uploads, 10 file versions |
+| OneDrive | Microsoft 365 Basic | $1.99 a month or $19.99 a year | 100GB and ad-free Outlook; Personal, at $9.99 a month, adds 1TB and the desktop apps |
+| Proton Drive | Drive Plus | $3.99 a month billed yearly, $4.99 monthly | 200GB and 10 years of file version recovery |
+| iCloud | iCloud+ | $0.99 a month for 50GB, $2.99 for 200GB, $9.99 for 2TB | Storage for backups, photos, and iCloud Drive |
+| Dropbox | Plus | $9.99 a month billed yearly | 2TB for one person, 30 days to restore deleted files |
+
+Google also sells storage-only Google One plans below AI Plus, and its plans page lists them in local currency. MEGA charges in euros wherever you live.
 
 
 ## Choose capacity, collaboration, or encryption

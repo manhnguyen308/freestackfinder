@@ -2,7 +2,7 @@
 title: "Free resume builders in 2026 with PDF downloads"
 description: "Zety lets you build a resume free, then charges to download it. Canva and Google Docs export a clean PDF at no cost, and so do Indeed and Resume.com."
 date: "2026-04-23"
-lastmod: "2026-07-22"
+lastmod: "2026-09-26"
 draft: false
 weight: 58
 slug: "free-resume-builders"
@@ -168,9 +168,9 @@ The pre-written suggestions are not a finished resume, but they are a useful sta
 
 ## A note on tools we did not include
 
-**Zety** allows free resume building but requires payment to download: the free tier ends at the download step. We did not include it as a primary recommendation because the core output requires a subscription.
+**Zety** allows free resume building, but its free Basic package downloads only a plain TXT file. PDF and Word downloads need the Pro package, which [starts as a 14-day trial](https://zety.com/pricing) for $1.70 and then renews at $23.95 every four weeks until cancelled. We did not include it as a primary recommendation because the usable output requires a subscription.
 
-**Novoresume** has a free plan with one basic template and limited sections. It may work for a minimal resume, but the free tier is narrow enough that most users will hit its constraints quickly.
+**Novoresume**'s free Basic account allows one version of a one-page resume, with predefined layouts, three fonts, and no cover letter. It may work for a minimal resume, but the free tier is narrow enough that most users will hit its constraints quickly.
 
 **Kickresume** offers a free plan with a limited template set, while premium templates and generated content are paid. Check it only if Canva's layouts do not fit the target industry.
 
@@ -197,6 +197,18 @@ A free tool covers a conventional one- or two-page resume. Consider a paid optio
 - You need a resume and cover letter package with consistent branding across multiple documents
 - You are applying to roles where portfolio presentation matters and want an integrated personal website alongside your resume
 - You want AI-assisted resume tailoring that matches your resume to a specific job description automatically
+
+Resume subscriptions are sold by the week, month, quarter, or year, and the renewal terms differ more than the features. Prices below are the US figures on each pricing page in September 2026, except Canva, which shows each country its own price:
+
+| Builder | Paid plan | Price | You get |
+|---------|-----------|-------|--------------|
+| Canva | Pro | Set by country on Canva's [pricing page](https://www.canva.com/pricing/) | Pro templates and elements, 141 million stock assets instead of 4.7 million, brand kits |
+| Zety | Pro Package | $1.70 for a 14-day trial, then $23.95 every four weeks; $71.40 a year on the annual package | PDF and Word downloads, cover letter builder, resume check |
+| Novoresume | Premium | $21.99 a month, $39.99 a quarter, or $149.99 a year, paid once with no automatic renewal | Resumes longer than one page, several versions, cover letters, no Novoresume branding |
+| Kickresume | Premium | $19 a month, $27 a quarter, or $54 a year | 40 resume and cover letter templates, AI writer, ATS resume checker, personal website templates |
+| Google Docs, Indeed, Resume.com | None | Free | The free versions export a finished resume |
+
+Check the renewal line before paying for a trial. Zety renews automatically after 14 days, while Novoresume's plans end when the paid period does.
 
 For most job seekers, Canva or Google Docs covers the requirement at no cost. A resume depends on relevant experience, clear wording, and accurate specifics more than template design.
 

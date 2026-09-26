@@ -2,7 +2,7 @@
 title: "Free web analytics tools in 2026 for small sites"
 description: "GA4 has no pageview cap but brings cookie consent work. Search Console covers Google Search only, and Umami or Matomo keep analytics data on your own server."
 date: "2026-04-26"
-lastmod: "2026-08-03"
+lastmod: "2026-09-26"
 draft: false
 weight: 40
 slug: "free-web-analytics"
@@ -111,11 +111,11 @@ It suits sites that need to understand layout and UX problems without paying for
 
 ### Umami (self-hosted)
 
-Umami is open source and cookieless by default, collects no personally identifiable information, and stores all data on your own server. The self-hosted version is free to run; there is also a paid Umami Cloud option for teams that do not want to manage infrastructure.
+Umami is open source and cookieless by default, collects no personally identifiable information, and stores all data on your own server. The self-hosted version is free to run, and [Umami Cloud](https://umami.is/pricing) hosts it for teams that do not want to manage infrastructure, with a free Hobby tier for one website and 100,000 events a month.
 
 Umami's self-hosted free value is simple privacy-friendly traffic reporting: unlimited websites, unlimited pageviews, event tracking, referral and source data, real-time visitor view, multi-user access, custom domains, and no external data sharing.
 
-The cost is infrastructure. You need a server or hosting environment, and ongoing maintenance such as upgrades, backups, and uptime is your responsibility. Reporting depth is lighter than GA4, with no built-in funnel analysis or session recording.
+The cost is infrastructure. You need a server or hosting environment, and ongoing maintenance such as upgrades, backups, and uptime is your responsibility. Funnel, retention, and goal reports are included, but reporting depth is lighter than GA4, and Umami Cloud lists session replays and heatmaps only on its Business plan.
 
 Its audience is developers and technically confident site owners who prioritize privacy compliance and do not want to use Google's infrastructure. Cookieless tracking may reduce consent-banner complexity depending on your legal context, and the interface is easier to read than GA4 for basic traffic patterns.
 
@@ -161,6 +161,18 @@ When to consider a paid option:
 - You need formal SLA, dedicated support, or compliance certifications your legal team requires
 
 Product analytics versus website analytics: Tools like Mixpanel, Amplitude, and PostHog target SaaS and app teams tracking feature usage within a logged-in product. They are a different category from the website analytics tools above. PostHog has a generous free tier for product analytics if that is your context.
+
+Three of the five tools have no paid tier at all, and the other two charge mostly for hosting. Hosted prices as published in September 2026:
+
+| Tool | Paid option | Price | Difference from free |
+|------|-------------|-------|--------------|
+| Google Analytics 4 | Google Analytics 360 | Quote from Google's sales team | Higher processing limits and service-level agreements for large properties |
+| Google Search Console | None | Free | Google offers no paid version |
+| Microsoft Clarity | None | Free | Heatmaps and recordings stay free |
+| Umami | Umami Cloud Pro | $20 a month | Hosting, 1 million events a month, up to 20 websites and 10 team members, two-year retention |
+| Matomo | Matomo Cloud | From €22 a month before tax, for 50,000 hits | Hosting in Europe, email support, 24 months of raw data |
+
+Umami Cloud's Business plan, at $200 a month, is where hosted session replays and heatmaps start. Matomo's funnels, heatmaps, and custom reports stay separate purchases for self-hosted installs.
 
 
 ## Pair search data with one traffic tool

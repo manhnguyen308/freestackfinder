@@ -2,7 +2,7 @@
 title: "Free screen recording software in 2026: limits and use cases"
 description: "Loom Free stops recordings at five minutes and keeps 25 videos. OBS Studio records locally with no cap or watermark, and Clipchamp allows 30 minutes a clip."
 date: "2026-04-11"
-lastmod: "2026-08-16"
+lastmod: "2026-09-26"
 draft: false
 weight: 62
 slug: "free-screen-recording-software"
@@ -178,7 +178,15 @@ Scenes, transitions, and separate audio sources are optional for a single-screen
 
 Paid screen recording tools such as Loom Business, Camtasia, and ScreenFlow add built-in editing, chapter markers, interactive elements, and team management. They make sense for client-ready course content or product demos when moving recordings into a separate editor takes too much time.
 
-OBS Studio covers local recording without a service-imposed length or storage quota. A paid tool earns its cost when hosted delivery, transcript editing, viewer analytics, or team administration removes a recurring manual step.
+OBS Studio covers local recording without a service-imposed length or storage quota. A paid tool earns its cost when hosted delivery, transcript editing, viewer analytics, or team administration removes a recurring manual step. US list prices for each recorder in September 2026:
+
+| Recorder | Paid option | Price | Lifts the limit on |
+|----------|-------------|-------|--------------|
+| OBS Studio, ShareX | None | Free | Open source with no paid tier |
+| Loom | Business | $18 per user a month, up to 17% less billed yearly | Unlimited videos and recording time, basic editing, no Loom branding, downloads |
+| Screencastify | Starter | $7 per user a month billed yearly, $19 monthly | Unlimited videos up to 60 minutes, basic editing, questions and polls |
+| Clipchamp | Microsoft 365 Personal or Family | $9.99 a month for Personal | 4K exports, premium stock assets, and the brand kit |
+| ScreenFlow (Mac) | One-time license | $199 | A recorder and editor in one Mac app |
 
 
 ## Match the recorder to the output

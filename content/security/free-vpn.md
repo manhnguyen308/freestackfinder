@@ -2,7 +2,7 @@
 title: "Free VPNs in 2026: what each plan limits"
 description: "Proton VPN Free has no data cap but chooses the server for you. Windscribe lets you pick the country instead, within 10 GB a month."
 date: "2026-04-04"
-lastmod: "2026-08-24"
+lastmod: "2026-09-26"
 draft: false
 weight: 36
 slug: "free-vpn"
@@ -109,6 +109,17 @@ Do not install a VPN solely because it ranks highly in an app store. Avoid provi
 ## When to pay for a VPN
 
 A paid VPN makes sense for guaranteed streaming support, P2P servers, specific countries, or several simultaneous connections. Proton VPN Free's server-selection and connection limits are the most likely reasons to upgrade.
+
+VPN pricing leans on long introductory terms, so compare the renewal price as well as the monthly figure in the ad. The US offers as each provider displayed them in September 2026:
+
+| VPN | Paid plan | Introductory price | Renewal | Paid access |
+|-----|-----------|--------------------|---------|--------------|
+| Proton VPN | VPN Plus | $83.76 for the first two years, or $3.49 a month | $83.88 a year; $9.99 month to month | 10 devices, more than 20,000 servers in over 140 countries, streaming support, Secure Core and P2P servers |
+| Windscribe | Pro | $69 a year, or $9 month to month | Same | Unlimited data in 69 countries; Build A Plan sells single locations at $1 a month each, with a $3 minimum |
+| TunnelBear | Unlimited | From $3.33 a month on a multi-year plan | Not stated on the pricing page | Unlimited data, country and city selection, split tunneling |
+| NordVPN | Basic | $94.23 for the first 27 months, or $3.49 a month | $139.08 a year | 10 devices; Complete adds a password manager, 1 TB of cloud storage, and anti-malware |
+
+Windscribe's flat pricing is the only one here without an introductory discount to expire, while Proton's renewal stays close to its two-year rate.
 
 Before upgrading, identify which free-tier limit you hit. A data cap may be solved by ProtonVPN Free rather than another data-capped service, while server location and speed are more likely to improve on a paid plan. When the doubt is about trust, pick the provider with the clearest audit history and business model over the most generous free allowance.
 

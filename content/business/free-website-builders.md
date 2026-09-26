@@ -2,7 +2,7 @@
 title: "Free website builders in 2026: where each plan stops"
 description: "Google Sites is the only builder here that connects your own domain with no builder fee. Wix, WordPress.com, Carrd, and Canva charge for a custom domain."
 date: "2026-04-27"
-lastmod: "2026-08-04"
+lastmod: "2026-09-26"
 draft: false
 weight: 45
 slug: "free-website-builders"
@@ -158,6 +158,18 @@ The free plans above are appropriate while you are testing an idea or have very 
 - Traffic or media files are approaching the host's storage and bandwidth allowances.
 
 - Analytics need to inform business decisions. Wix requires an upgraded site for Google Analytics, and Canva reserves Website Insights for Pro.
+
+Apart from Google Sites, which charges nothing beyond the domain, Carrd's $19 yearly plan is the cheapest way to put a custom domain on one of these builders. Domain registration is extra after any free first year, and the builder prices below were current in September 2026:
+
+| Builder | Cheapest plan with a custom domain | Price | What else it adds |
+|---------|------------------------------------|-------|-------------------|
+| Google Sites | No builder plan | Free; you pay only for the domain | Nothing to upgrade |
+| Carrd | Pro Standard | $19 a year for 10 sites | Forms, embeds, analytics, no Carrd branding; the $9 Pro Lite plan removes branding but keeps a Carrd address |
+| WordPress.com | Personal | $4 a month billed yearly, $9 monthly | No WordPress.com ads, a free domain for the first year, 6 GB of storage; plugins start on Business at $25 billed yearly |
+| Wix | Light | Priced by country on the [plans page](https://www.wix.com/plans), billed yearly | No Wix ads, a free domain for the first year, 2 GB of storage; payments start on Core |
+| Canva Websites | Canva Pro | Priced by country on Canva's pricing page | Custom domain connection and Website Insights, plus the rest of Canva Pro |
+
+For a blog, WordPress.com Personal costs $48 a year billed yearly. A shop on Wix needs Core or higher, because Light does not accept payments.
 
 A site that takes enquiries also needs somewhere to keep contacts and send invoices; the [free CRM software](/business/free-crm-software/) and [free invoicing software](/business/free-invoicing-software/) guides cover both.
 

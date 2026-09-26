@@ -2,7 +2,7 @@
 title: "Free accounting software for freelancers and small businesses in 2026"
 description: "Wave's Starter plan keeps cloud books and invoices free. Manager and GnuCash keep the ledger on your own computer, and Akaunting can run on your own server."
 date: "2026-04-24"
-lastmod: "2026-08-14"
+lastmod: "2026-09-26"
 draft: false
 weight: 74
 slug: "free-accounting-software"
@@ -46,8 +46,8 @@ rows:
     limit: Revenue and annual document caps vary by market
   - tool: Akaunting
     best_for: Technical users wanting data control
-    free: Open-source, self-hosted for free
-    limit: Self-hosting needs a PHP/MySQL server
+    free: Open-source, self-hosted, one company and user
+    limit: Balance sheet and ledger need a paid app
   - tool: Manager
     best_for: Offline multi-business bookkeeping
     free: Unlimited transactions, desktop edition
@@ -63,7 +63,7 @@ rows:
 
 Paid accounting suites bundle workflows that a sole operator may not use, such as payroll, multiple bank feeds, inventory, and role-based access. Someone who mainly records income and expenses, sends occasional invoices, and prepares year-end reports may not need that bundle.
 
-Free tools now cover more than sending invoices. Wave, Zoho Books, and Akaunting handle double-entry accounting, while GnuCash and Manager are established desktop applications.
+Free tools now cover more than sending invoices. Wave and Zoho Books handle double-entry accounting in the cloud, Akaunting adds it through a paid app, and GnuCash and Manager are established desktop applications.
 
 Free plans usually cap something: bank connections, users, revenue, report depth, or support channels. A tool that fits a sole operator does not automatically fit an agency running payroll. The tools below are ranked by how usable the free plan is for actual small business bookkeeping.
 
@@ -127,7 +127,7 @@ Zoho CRM, the source of those customer records, is profiled in the [free CRM sof
 
 Akaunting runs either on your own server or in Akaunting's cloud environment. [Akaunting describes its on-premise Standard edition](https://akaunting.com/) as free and open source, with an app marketplace for optional extensions.
 
-Unlike a hosted accounting suite, Akaunting is better when data ownership and self-hosting matter more than plug-and-play convenience. The free core covers double-entry accounting with invoicing, bills, payments, and reconciliation; multi-company, multi-currency, and multi-user support on self-hosted installs; customer and vendor management with statements; profit and loss, balance sheet, and tax reports; an open-source codebase; and a self-hosting option with no ongoing license cost.
+Unlike a hosted accounting suite, Akaunting is better when data ownership and self-hosting matter more than plug-and-play convenience. The free Standard On-Premise edition covers one company, one user plus an accountant, and up to 1,000 invoices, with invoicing, bills, payments, reconciliation, multiple currencies, customer and vendor records, and profit and loss and tax reports. The chart of accounts, balance sheet, general ledger, and trial balance come from the paid [Double-Entry app](https://akaunting.com/apps/double-entry), and more companies or users need a paid [on-premise plan](https://akaunting.com/plans-on-premise).
 
 The cost is operational effort. Self-hosting requires a PHP/MySQL server and someone to handle updates and backups. Many integrations live in Akaunting's paid app marketplace, hosted terms have changed over time, and free installations rely on community support.
 
@@ -140,7 +140,7 @@ Akaunting fits technically comfortable small business owners, developers, and ag
 
 {{< verdict "Best offline option" >}}
 
-Manager's free edition runs on the desktop, on Windows, macOS, and Linux, while paid editions cover server and cloud use; confirm the current split on [Manager's official site](https://www.manager.io/) before adopting it.
+Manager's free Desktop Edition runs on Windows, macOS, and Linux. The same software also comes as a Server Edition for your own server and as a hosted [Cloud Edition](https://www.manager.cloud/), which is the paid option; confirm the current split on [Manager's official site](https://www.manager.io/) before adopting it.
 
 Compared with cloud accounting products, Manager makes more sense when offline control is the requirement. The free desktop edition handles full double-entry accounting for unlimited businesses and transactions, invoices, quotes, bills, purchase orders, credit notes, bank reconciliation, cash-basis or accrual-basis reporting, profit and loss, balance sheet, general ledger, trial balance reports, inventory, fixed assets, payroll modules, and the same product experience on Windows, macOS, and Linux.
 
@@ -180,7 +180,19 @@ Paid accounting software earns its fee when the business needs features free too
 - Advanced reporting and forecasting. Custom dashboards, cash flow projections, and department-level reporting sit on paid tiers almost universally.
 - High transaction volumes with daily bank feeds. Live bank-feed reconciliation at scale is typically a paid feature across every cloud accounting product, including Wave.
 
-If none of those apply, a free tool covers the job.
+If none of those apply, a free tool covers the job. When one does, the first upgrade on Wave, Zoho Books, or Akaunting still costs less than QuickBooks Online's cheapest paid plan. These are US list prices from each vendor's pricing page in September 2026:
+
+| Tool | First paid step | What it adds | Further up |
+|------|-----------------|--------------|------------|
+| Wave | Pro, $19 a month or $190 a year | Automatic bank imports, unlimited receipt capture, extra users, no fixed card fee on the first ten payments each month | Payroll from $40 a month; bookkeeping service from $149 a month |
+| Zoho Books | Standard, $20 a month or $15 billed yearly | Bank feeds, three users, sales tax tracking, 1099 e-filing, custom reports | Professional, $50 a month or $40 billed yearly, for five users |
+| Akaunting | Double-Entry app, $6 a month billed yearly | Chart of accounts, balance sheet, general ledger, trial balance | Premium On-Premise, $72 a year, for ten companies and ten users |
+| Manager | Cloud Edition, $59 a month | Browser access, simultaneous users with permissions, automatic backups | No per-user or per-business fees |
+| GnuCash | None | Every feature is in the free download | None |
+| QuickBooks Online | Simple Start, $38 a month | Unlimited invoices and receipt capture, access for two accountants | Essentials $85, Plus $140 with inventory and projects, Advanced $340 |
+| Xero | Early, $25 a month, rising to $27 on October 1, 2026 | 20 invoices and 5 bills a month, bank reconciliation, 1099 management | Growing, $55 a month and $59 from October 1, without those caps |
+
+QuickBooks has also added a [free plan](https://quickbooks.intuit.com/online/free/). It allows one user, one bank account, and two invoices and two receipt uploads a month, with no accountant access, so it covers a business that bills a client or two rather than replacing Wave's unlimited invoices.
 
 
 ## Choose the handoff format before the ledger

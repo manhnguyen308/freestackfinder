@@ -2,7 +2,7 @@
 title: "Free password managers in 2026: sync, sharing, and recovery"
 description: "Bitwarden Free syncs unlimited devices, while NordPass Free allows one active session at a time. Dashlane dropped its free plan in September 2025."
 date: "2026-03-27"
-lastmod: "2026-09-16"
+lastmod: "2026-09-26"
 draft: false
 weight: 80
 slug: "free-password-managers"
@@ -106,6 +106,19 @@ LastPass is not ranked in this guide. Its Free plan has been limited to one devi
 ## When a paid password manager makes sense
 
 Paid password manager plans make sense for families that need shared collections alongside private vaults. Bitwarden currently lists Families at [$47.88 per year for up to six users](https://bitwarden.com/pricing/). Compare the renewal price and account-recovery model before moving a household.
+
+The individual plans cost between about $17 and $65 a year, and the introductory offers make the first year look cheaper than the renewal. Individual and family prices on the US pricing pages, September 2026:
+
+| Manager | Individual plan | Price | Family plan | What the individual plan adds |
+|---------|-----------------|-------|-------------|-------------------------------|
+| Bitwarden | Premium | $19.80 a year | Families, $47.88 a year for six | Integrated TOTP, file attachments, emergency access, security reports |
+| KeePassXC | None | Free | None | Every feature is in the open-source app |
+| Proton Pass | Pass Plus | $35.88 a year, or $4.99 monthly | Pass Family, $59.88 a year for six | Built-in 2FA authenticator, unlimited aliases, vault and link sharing, dark web monitoring |
+| NordPass | Premium | $37.53 for the first 27 months on the two-year offer | Family, $2.49 a month on the same offer | Access on several devices at once, password health, breach scanner, file attachments |
+| 1Password | Individual | $3.99 a month billed yearly, or $2.99 in the first year | Families, $5.99 a month with up to five invited members | No free tier; a 14-day trial |
+| Dashlane | Premium | $5.42 a month billed yearly | Friends & Family, $8.13 a month for ten | No free tier since 2025; includes a VPN |
+
+Bitwarden Premium is the cheapest paid individual plan here at list price, while the NordPass two-year offer is cheaper still until it renews.
 
 Businesses also benefit from paid team password managers: shared vault access with role-based permissions, user onboarding and offboarding controls, and audit logs are all features that matter at team scale and are not available on free tiers. Free and low-cost team options are compared in the [free password managers for teams guide](/security/free-password-managers-teams/).
 

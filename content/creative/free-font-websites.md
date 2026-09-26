@@ -2,7 +2,7 @@
 title: "Free font websites in 2026: downloads without watermarks"
 description: "Google Fonts and Fontsource are fully open source. Font Squirrel filters for commercial use, while DaFont mixes in personal-use fonts that need a license check."
 date: "2026-04-18"
-lastmod: "2026-08-29"
+lastmod: "2026-09-26"
 draft: false
 weight: 60
 slug: "free-font-websites"
@@ -162,6 +162,17 @@ The visible labels help with the first pass, but the font's own license remains 
 Free fonts cover many commercial projects when their licenses permit the planned use. A paid license becomes relevant when a brand needs a particular foundry family, broader embedding rights, custom lettering, or clearer legal support.
 
 For web projects, Google Fonts or Fontsource can cover body text and headings without a font purchase. For print and brand identity work, choose on fit and license terms rather than assuming paid type is necessary.
+
+None of the five sources has a subscription of its own, so paying means either a license from the designer or a subscription library. The two subscription routes cost this much in the US in September 2026:
+
+| Route | Paid option | Price | Rights or catalog |
+|-------|-------------|-------|--------------|
+| Google Fonts, Font Squirrel, Fontsource | None | Free | Open-license families with no paid tier |
+| DaFont, 1001 Fonts | A license from the font's designer | Set by each designer | Commercial rights for fonts marked personal use only |
+| Adobe Fonts | Adobe Express Premium, or a Creative Cloud app plan | $9.99 a month for Express Premium | The full Adobe Fonts collection of more than 30,000 fonts, against about 4,000 on Express Free |
+| Envato Elements | Core | From $16.50 a month | Unlimited font downloads alongside stock photos, video, and templates |
+
+A subscription library's fonts are licensed through the subscription, so check what the license allows for projects created before a cancellation.
 
 Photos for a layout come from the [free stock photo sites](/creative/free-stock-photos/), and custom lettering or a vector logo from a tool in the [free Illustrator alternatives guide](/creative/illustrator-alternatives/).
 

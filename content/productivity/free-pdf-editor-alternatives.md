@@ -2,7 +2,7 @@
 title: "Free PDF editors in 2026: edit and sign without paying"
 description: "Acrobat Pro is a subscription, but PDFgear edits PDF text free with no watermark or page cap. PDF24 and Sejda handle quick jobs in the browser."
 date: "2026-04-22"
-lastmod: "2026-09-17"
+lastmod: "2026-09-26"
 draft: false
 weight: 62
 slug: "free-pdf-editor-alternatives"
@@ -209,6 +209,19 @@ Consider a paid tool when:
 - You need advanced redaction, certified signatures, or compliance-grade audit trails
 - Your organization requires integration with document management systems or enterprise DMS platforms
 - You work with heavily designed or print-ready PDFs where precise layout control matters
+
+Three of the five tools here have no paid tier, so the real comparison is Sejda, Xodo, and Acrobat. In September 2026 the US prices were:
+
+| Tool | Paid option | Price | Removes or adds |
+|------|-------------|-------|--------------|
+| PDFgear | None | Free | PDFgear describes its desktop and mobile apps as completely free |
+| PDF24 Tools | None | Free | The browser tools and desktop app are both free |
+| Sejda | Web Week Pass, Web Monthly, or Desktop+Web Annual | $5 for seven days, $7.50 a month, or $63 a year | No hourly task limit, files up to 500 MB, the desktop app on the annual plan |
+| LibreOffice Draw | None | Free | Part of the free LibreOffice suite |
+| Xodo | Xodo Web | $7.99 a month billed yearly | Unlimited use of 40+ online tools; the PDF Studio desktop editor is $9.99 a month billed yearly or a perpetual license |
+| Adobe Acrobat | Acrobat Standard | $14.99 a month on an annual plan | Full text and image editing, conversion, and signing; Acrobat Pro, at $19.99, adds redaction and e-signature workflows |
+
+Acrobat's annual plans are billed monthly, and cancelling after the first 14 days carries a fee of up to half the remaining commitment. Sejda's week pass is the cheapest way to cover a one-off batch of edits.
 
 For most freelancers, students, small businesses, and home users, PDFgear or PDF24 Tools cover the full range of common tasks at no cost.
 

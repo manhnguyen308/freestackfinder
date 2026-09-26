@@ -2,7 +2,7 @@
 title: "Free Slack alternatives in 2026: team chat without a 90-day history limit"
 description: "Slack Free hides messages after 90 days and deletes data after a year. Discord has no such window; Teams and Google Chat suit teams already on those accounts."
 date: "2026-03-23"
-lastmod: "2026-07-27"
+lastmod: "2026-09-26"
 draft: false
 weight: 95
 slug: "slack-alternatives"
@@ -123,6 +123,20 @@ A new communication tool creates migration work: channels need owners, notificat
 Slack Pro and Business+ make sense when the workspace depends on integrations or custom workflows that would need to be rebuilt elsewhere. Inventory those connections and their owners before choosing a replacement.
 
 Enterprise compliance requirements are the other strong argument for Slack paid. Data retention policies, eDiscovery, audit logs, and SSO integrations are available on Slack's Business+ and Enterprise Grid plans at a level that free tools cannot always match with the same reliability and support guarantees.
+
+Slack's own tiers are the benchmark for the alternatives' paid steps, two of which are quote-only. The US prices, taken from each service's site in September 2026:
+
+| Service | Paid plan | Price | Paid capabilities |
+|---------|-----------|-------|--------------|
+| Slack | Pro | $7.25 per active user a month billed yearly, $8.75 monthly | Unlimited message history and apps, Slack Connect channels with other organizations |
+| Slack | Business+ | $15 per active user a month billed yearly, $18 monthly | SAML single sign-on, user provisioning, and stronger data controls |
+| Discord | Nitro | $9.99 a month per person; Nitro Basic $2.99 | Personal perks such as larger uploads and custom emoji, not workspace administration |
+| Microsoft Teams | Teams Essentials | $4 per user a month, paid yearly | Meetings up to 30 hours with 300 people, recordings and transcripts, 10 GB of cloud storage per user |
+| Google Chat | Workspace Business Starter | $7 per user a month | Organization-managed spaces, custom-domain accounts, admin controls |
+| Mattermost | Professional | Quote from sales, sold as annual seats | Access controls, automation, and vendor support |
+| Rocket.Chat | Commercial plans | Quote from sales | Support, compliance controls, and high availability |
+
+A ten-person team keeping its full Slack history pays $72.50 a month on Pro billed yearly, against $40 for Teams Essentials, which also covers long meetings.
 
 For organizations where Slack is deeply embedded in customer support workflows, using Slack Connect to communicate with external clients and vendors, the network effect of staying on Slack makes sense. Asking external contacts to switch to Discord or Mattermost adds work that may cost more in relationship management than the subscription saves.
 

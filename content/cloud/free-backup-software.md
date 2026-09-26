@@ -2,7 +2,7 @@
 title: "Free backup software for local and cloud copies in 2026"
 description: "Google Drive mirrors deletions along with files, so it is not a full backup. Duplicati adds scheduled encrypted copies, and iCloud includes only 5GB."
 date: "2026-04-12"
-lastmod: "2026-09-14"
+lastmod: "2026-09-26"
 draft: false
 weight: 58
 slug: "free-backup-software"
@@ -97,6 +97,21 @@ It makes sense when repositories, command-line operation, and destination manage
 | Backblaze | Paid unlimited cloud backup | Large personal datasets | Not free, one computer per subscription |
 | iCloud Backup | Built-in Apple backup | iPhone and iPad users | Free 5GB runs out quickly |
 | Duplicacy | Advanced self-managed backup | NAS and power users | Command-line oriented free path |
+
+
+## What paying adds to each layer
+
+Only Backblaze is a paid product outright; the others charge for storage, monitoring, or a graphical interface. Each company's list price in September 2026:
+
+| Tool | Paid option | Price | Extra protection or space |
+|------|-------------|-------|--------------|
+| Google Drive | Google AI Plus | $4.99 a month | 400 GB across Drive, Gmail, and Photos instead of 15 GB |
+| Duplicati | Duplicati Console Pro | $2 per machine a month billed yearly, $2.50 monthly | Missed-backup alerts, remote management, three years of monitoring history, 100 GB of storage per machine |
+| Backblaze | Personal Backup | $99 a year per computer | Unlimited user-created data and 30 days of version history, extendable to one year at no extra cost |
+| iCloud Backup | iCloud+ | From $0.99 a month for 50 GB | Room for device backups beside photos and files |
+| Duplicacy | Personal GUI license | $20 for the first year on one computer, then $5 a year | The graphical interface; the command-line edition stays free for personal use |
+
+Backblaze's flat price is the simplest once a dataset passes a few hundred gigabytes, because the storage-based options grow with every tier.
 
 
 ## A three-layer starting point

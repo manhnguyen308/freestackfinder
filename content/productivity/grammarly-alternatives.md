@@ -2,7 +2,7 @@
 title: "Free Grammarly alternatives in 2026: grammar and writing tools"
 description: "Grammarly Free still checks grammar and shows tone. LanguageTool adds 30+ languages, and ProWritingAid runs style reports on 500 words at a time."
 date: "2026-03-20"
-lastmod: "2026-09-15"
+lastmod: "2026-09-26"
 draft: false
 weight: 55
 slug: "grammarly-alternatives"
@@ -154,6 +154,18 @@ Grammarly Pro makes sense when full-sentence rewrites, tone adjustment, fluency 
 The paid rewrite tools may help someone who frequently reworks phrasing in English. Compare that feature with the manual editing time it replaces rather than assuming every draft needs it.
 
 The plagiarism checker bundled with Pro is relevant to students, researchers, and editors who are permitted to upload the document to the service. Check institutional rules and Grammarly's data controls before sending unpublished or sensitive material.
+
+The alternatives have their own paid tiers, and two of them can be bought once instead of every month. The prices below come from each tool's own site, checked in September 2026:
+
+| Tool | Paid plan | Price | Paid checks and tools |
+|------|-----------|-------|--------------|
+| Grammarly | Pro | $12 a month as listed, after a 7-day trial | Full-sentence rewrites, tone adjustment, fluency suggestions, plagiarism and AI-text detection, 2,000 generation prompts instead of 100 |
+| LanguageTool | Premium | Priced by region and often discounted | Up to 150,000 characters per text field, unlimited paraphrasing, a style guide |
+| ProWritingAid | Premium | $10 a month billed yearly, $30 monthly, or $399 once | Unlimited report runs without the 500-word limit |
+| Hemingway Editor | Hemingway Editor 3 desktop | $19.99 once, for Mac or Windows | Offline editing and Word export, without the newer web features |
+| Google Docs | Google AI Pro, or Workspace Business Standard | $19.99 a month, or $14 per user a month | Gemini writing help inside Docs |
+
+For a writer who mainly wants structural reports, ProWritingAid's $399 one-time license equals about 33 months of Grammarly Pro at its listed $12 a month.
 
 
 ## LanguageTool first, then specialist checks

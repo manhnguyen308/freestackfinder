@@ -2,7 +2,7 @@
 title: "Free team email in 2026: custom domains and shared access"
 description: "Zoho Mail's free plan gives up to five users a custom domain in selected regions. Without it, a free team inbox means spike.team addresses or Gmail delegation."
 date: "2026-05-01"
-lastmod: "2026-08-22"
+lastmod: "2026-09-26"
 draft: false
 weight: 62
 slug: "free-team-email"
@@ -132,7 +132,19 @@ Free team email can work for up to five people with basic needs. A paid plan bec
 - Onboarding and offboarding accounts without losing data
 - More than 5 users
 
-At that stage, Zoho Workplace (paid) or Google Workspace is a simpler option than trying to extend free tools beyond their design limits.
+At that stage, Zoho Workplace (paid) or Google Workspace is a simpler option than trying to extend free tools beyond their design limits. Per-user prices for custom-domain business mail, from each pricing page in September 2026:
+
+| Provider | Business plan | Price per user | Includes |
+|----------|---------------|----------------|--------------|
+| Zoho | Mail Lite | $1 a month billed yearly | Custom-domain mail with IMAP and POP access, and no five-user cap |
+| Zoho | Workplace Standard | $3 a month billed yearly, $4 monthly | 30 GB of mail per user, 100 GB of team file storage, and Zoho's office apps |
+| Spike | Team | $4 a month billed yearly | A free custom email domain and Spike AI |
+| Proton | Mail Essentials | $6.99 a month billed yearly | 15 GB per user, three custom domains, and calendar appointment scheduling |
+| Tuta | Revolutionary with multi-user support | €3 a month | 20 GB and 15 aliases per member, with custom domain addresses |
+| Google | Workspace Business Starter | $7 a month | Gmail on your domain, 30 GB of pooled storage per user, and the admin console |
+| Microsoft | Microsoft 365 Business Basic | $7 a month, paid yearly | Outlook on your domain, web and mobile Office apps, and Teams |
+
+A five-person team on Zoho Mail Lite pays $5 a month, the same team on Google or Microsoft pays $35, and the difference buys the office suite and admin tools around the mailbox.
 
 Matching signatures for the whole team come from the [free email signature makers](/cloud/free-email-signature/).
 

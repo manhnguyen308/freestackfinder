@@ -2,7 +2,7 @@
 title: "Free FreeCAD alternatives in 2026: 3D CAD for different workflows"
 description: "Onshape's free plan makes every document public, and Fusion 360 Personal limits you to ten active ones. The open-source CAD tools have neither restriction."
 date: "2026-05-08"
-lastmod: "2026-08-20"
+lastmod: "2026-09-26"
 draft: false
 weight: 36
 slug: "freecad-alternatives"
@@ -251,6 +251,20 @@ FreeCAD and Onshape share concepts such as sketches, constraints, features, part
 A practical migration order: open an existing FreeCAD project, export each part as STEP, import the STEP into Onshape, and then rebuild the feature tree by referencing the FreeCAD model as a visual guide. Do not try to import the FreeCAD file directly: Onshape does not read FCStd, and even if it did, the feature history would not transfer cleanly. Treat the migration as a rebuild informed by the original geometry, not a conversion.
 
 For users moving from Fusion 360 to FreeCAD, often because of license uncertainty, the same principle applies: STEP preserves geometry, but the feature tree needs a manual rebuild. Estimate the work from a representative project before moving the rest of the library. Once rebuilt in FreeCAD, the design no longer depends on the Fusion 360 project format.
+
+
+## Commercial work is where the free CAD plans end
+
+Onshape Free and Fusion Personal both exclude commercial use, so the first paid plan is also the first license that lets a design earn money. Onshape and Autodesk list these US subscription prices, checked in September 2026:
+
+| Tool | Paid plan | Price | Commercial license covers |
+|------|-----------|-------|--------------|
+| Onshape | Standard | $1,500 per user a year | Private documents, commercial use, direct support; Professional, at $2,500, adds release management, PDM, simulation, rendering, and CAM |
+| Autodesk Fusion | Fusion | $680 a year, or $57 a month billed annually | Commercial use without the ten-active-document limit, PCB design, drawing automation, team collaboration |
+| Tinkercad | None | Free | Autodesk keeps it free in the browser |
+| FreeCAD, SolveSpace, OpenSCAD, LibreCAD | None | Free | Open-source licenses that allow commercial work |
+
+The price gap is wide: a year of Onshape Standard costs more than two years of Fusion, while the open-source tools stay free for paid client work.
 
 
 ## When FreeCAD remains the better choice

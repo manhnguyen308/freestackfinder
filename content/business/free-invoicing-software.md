@@ -2,7 +2,7 @@
 title: "Free invoicing software in 2026: six options for freelancers"
 description: "Wave sends unlimited free invoices into a bookkeeping ledger. Invoice Ninja's hosted plan stops at five clients, and Stripe charges 0.4% per paid invoice."
 date: "2026-04-13"
-lastmod: "2026-09-10"
+lastmod: "2026-09-26"
 draft: false
 weight: 74
 slug: "free-invoicing-software"
@@ -93,7 +93,7 @@ Zoho Invoice is separate from Zoho Books. It only handles invoicing, and it keep
 
 Zoho's [current global plan page](https://www.zoho.com/invoice/pricing/) lists up to two users, three projects, and 500 invoices per year. It also includes templates, automated reminders, a client portal, time tracking, expense records, and integrations with other Zoho products.
 
-The user, project, and annual invoice caps are the practical ceilings. Full accounting lives in Zoho Books rather than this standalone invoicing product.
+The user, project, and annual invoice caps are the practical ceilings, and free invoices carry "Powered by Zoho Invoice" branding. The same FAQ says data in an account left inactive for more than 180 days is deleted after a notice, so export records before a long break. Full accounting lives in Zoho Books rather than this standalone invoicing product.
 
 The client portal gives clients more than a basic invoice email. They can view invoice history, download documents, and pay online, which matters when they have accounts payable processes that require documentation. The adjustable reminders also reduce the awkward follow-up conversation around late payments.
 
@@ -152,7 +152,18 @@ A free invoicing plan can cover a solo freelancer who has simple taxes, no payro
 
 The free-plan cap that matters is rarely "number of invoices" by itself. A freelancer can send plenty of invoices and still be fine on free software if the client list is stable, taxes are simple, and payment processing fees are acceptable. A smaller business can outgrow free invoicing sooner if it needs multi-user approval, cleaner accountant access, detailed tax handling, recurring subscription billing, or exports that match a specific bookkeeping workflow.
 
-Paid invoicing becomes relevant when the business needs more users, projects, automation, accountant access, inventory, or payroll. Compare those requirements against the current plan pages before moving client and tax records.
+Paid invoicing becomes relevant when the business needs more users, projects, automation, accountant access, inventory, or payroll. The step up is a subscription on four of these tools and a higher per-invoice rate on Stripe, while PayPal has no paid tier:
+
+| Tool | Step up | Cost | What changes |
+|------|---------|------|--------------|
+| Wave | Pro | $19 a month or $190 a year | Automatic bank imports, payment reminders, receipt capture, no fixed card fee on the first ten payments each month |
+| Zoho Invoice | Zoho Books Standard | $20 a month or $15 billed yearly | Zoho Invoice has no paid plan; Books adds a ledger, bank feeds, and three users |
+| Invoice Ninja | Pro | $14 a month or $140 a year | Unlimited clients, no Invoice Ninja branding, reminder emails, profit and loss reports |
+| Square Invoices | Square Plus | $49 a month per location | Payment schedules, custom templates, online card rate of 2.9% + 30¢ instead of 3.3% + 30¢, ACH fees capped at $10 |
+| PayPal Invoicing | None | Fees on each paid invoice | No subscription tier; the rate depends on payment method and country |
+| Stripe Invoicing | Invoicing Plus | 0.5% per paid invoice instead of 0.4% | Quotes; domestic card processing stays at 2.9% + 30¢ on both tiers |
+
+Those are US prices from each company's pricing page in September 2026. Compare the requirements against the current plan pages before moving client and tax records.
 
 
 ## Keep billing and bookkeeping connected

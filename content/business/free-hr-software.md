@@ -2,7 +2,7 @@
 title: "Free HR software in 2026: tools for small teams"
 description: "Zoho People's free HRIS stops at five employees. Past that point, OrangeHRM removes the cap for any team willing to run its own server."
 date: "2026-04-28"
-lastmod: "2026-09-24"
+lastmod: "2026-09-26"
 draft: false
 weight: 39
 slug: "free-hr-software"
@@ -32,7 +32,7 @@ Most HR software leads with a demo and a sales call, and free plans often stop a
 ## Employee records or shift scheduling
 
 - Zoho People covers leave, records, and self-service for teams that fit its five-user free limit.
-- OrangeHRM Community Edition suits teams that can self-host an open-source HRIS.
+- OrangeHRM Starter, the open-source edition, suits teams that can self-host an HRIS.
 - Homebase focuses on scheduling and time tracking for hourly or shift-based teams.
 - Bitrix24 adds HR-adjacent features inside a broader workspace.
 - Google Sheets is a manual fallback for a very small team that only needs structured records.
@@ -53,27 +53,27 @@ Shift schedules and task lists overlap with this guide, and the [free time track
 
 ### 1. Zoho People
 
-Zoho People's free plan is a working HRIS rather than a demo, as long as the team stays at five employees:
-- Up to 5 employees
-- Employee self-service (profile, documents, leave requests)
-- Leave and attendance management
-- Basic reports
-- Onboarding checklists
+Zoho People's [free edition](https://www.zoho.com/people/zohopeople-pricing.html) is a working employee database rather than a demo, as long as the team stays at five users:
+- Up to 5 users
+- Employee records and profiles
+- Document management
+- Leave requests and time-off management
 
 The ceiling is clear:
-- Payroll (not included in any Zoho People tier by default: requires Zoho Payroll, which is a separate product)
-- Performance management
-- Advanced workflows and automations
-- More than 5 employees
+- Onboarding, offboarding, and HR reports start on the paid Essential HR plan
+- Attendance, timesheets, and rosters start on Professional
+- Performance management starts on Premium
+- Payroll is not part of any Zoho People plan; it requires Zoho Payroll, a separate product
+- More than 5 users
 
-It suits a founder's first few hires, especially when employee records and leave requests need to move out of email or spreadsheets, but not a team whose core requirement is payroll or performance reviews. The 5-employee cap is a hard limit, so teams close to that threshold should plan the paid path before moving everything in.
+It suits a founder's first few hires, especially when employee records and leave requests need to move out of email or spreadsheets, but not a team whose core requirement is attendance, payroll, or performance reviews. The 5-employee cap is a hard limit, so teams close to that threshold should plan the paid path before moving everything in.
 
 [Explore Zoho People](https://www.zoho.com/people/)
 
 
-### 2. OrangeHRM Community Edition
+### 2. OrangeHRM Starter
 
-OrangeHRM removes the employee cap entirely, on the condition that you host it yourself. The open-source Community Edition gives self-hosted teams a full HRIS base:
+OrangeHRM removes the employee cap entirely, on the condition that you host it yourself. Starter, the open-source edition formerly called Community Edition, gives self-hosted teams a full HRIS base:
 - Unlimited employees (self-hosted)
 - Employee information management
 - Leave and time-off tracking
@@ -85,7 +85,7 @@ OrangeHRM removes the employee cap entirely, on the condition that you host it y
 The trade-off is ownership of the stack:
 - Cloud hosting (you provide the server)
 - Support (community forums only; paid support is a separate offering)
-- Some advanced modules available only in the commercial editions
+- Onboarding, request desk, and other advanced modules are part of OrangeHRM Advanced, which is quote-priced after a 30-day trial
 
 For a business that can manage a PHP/MySQL stack, it is the most complete free HRIS here, with records, leave, time, recruitment, and performance modules and no per-employee pricing. The cost is hosting overhead and the absence of official support on the free tier.
 
@@ -94,24 +94,22 @@ For a business that can manage a PHP/MySQL stack, it is the most complete free H
 
 ### 3. Homebase
 
-Homebase answers a different question from the HRIS tools: who is working when. Its free plan is scheduling-first:
-- 1 location, unlimited employees
-- Employee scheduling
-- Time clock and time tracking
-- Team messaging
-- Timesheet management
-- Basic hiring tools (job posting to limited boards)
+Homebase answers a different question from the HRIS tools: who is working when. Its free Basic plan is scheduling-first:
+- 1 location with up to 10 employees
+- Basic employee scheduling
+- Basic time clock and time tracking
+- Point-of-sale integration
 
 It is not a complete HRIS:
-- Multiple locations
-- Payroll (requires a paid plan or integration)
-- Performance management
-- Advanced HR documents and compliance tools
-- PTO tracking with approval workflows (limited on free tier)
+- More than 10 employees or a second location
+- Team messaging and advanced scheduling, which start on the paid Essentials plan
+- PTO and time-off controls, which start on Plus
+- Onboarding, labor cost management, and HR compliance tools, which sit on All-in-One
+- Payroll, an add-on on every plan
 
-Restaurants, retail, and service businesses with hourly or shift-based staff get the most from it. The free plan covers scheduling and time tracking for one location with no employee cap, which is broader than most free HR tools, but it is not a substitute for an HRIS if employee records, documents, or leave workflows are the real problem.
+Restaurants, retail, and service businesses with hourly or shift-based staff get the most from it. The free plan covers scheduling and time tracking for one location and up to 10 employees, which fits a small shop or cafe, but it is not a substitute for an HRIS if employee records, documents, or leave workflows are the real problem.
 
-[Explore Homebase](https://joinhomebase.com/)
+[Explore Homebase](https://joinhomebase.com/pricing)
 
 
 ### 4. Bitrix24
@@ -158,9 +156,9 @@ For spreadsheet tool options beyond Google Sheets, see [free spreadsheet alterna
 
 | Tool | Free employee limit | Leave tracking | Self-service | Time tracking | Onboarding | Notes |
 |---|---|---|---|---|---|---|
-| Zoho People | 5 | Yes | Yes | Basic | Checklists | Best cloud HRIS on free |
-| OrangeHRM CE | Unlimited (self-hosted) | Yes | Yes | Yes | Yes | Requires own server |
-| Homebase | Unlimited (1 location) | Limited | No | Yes | No | Scheduling-first |
+| Zoho People | 5 | Yes | Yes | Paid | Paid | Best cloud HRIS on free |
+| OrangeHRM Starter | Unlimited (self-hosted) | Yes | Yes | Yes | Paid | Requires own server |
+| Homebase | 10 (1 location) | Paid | No | Yes | Paid | Scheduling-first |
 | Bitrix24 | Pricing pages disagree | Basic | Partial | Yes | Basic | HR as part of workspace |
 | Google Sheets | N/A | Manual | No | Manual | Manual | DIY only |
 
@@ -179,6 +177,18 @@ Consider a paid plan when:
 - You need formal performance review cycles with scoring and feedback workflows
 - Your team has outgrown the free-tier user or location caps
 - You need audit trails for employment documents or disciplinary records
+
+Paid HR software is priced per employee on Zoho People and per location on Homebase, so the cheaper option depends on headcount. Zoho, OrangeHRM, Homebase, Bitrix24, and Google listed these US rates in September 2026:
+
+| Tool | Cheapest paid plan | Price | Unlocks |
+|------|-----------------|-------|------------------------|
+| Zoho People | Essential HR | $1.25 per user a month billed yearly | Onboarding and offboarding, HR reports; Professional at $2 adds attendance, timesheets, and rosters |
+| OrangeHRM | Advanced | Quote after a 30-day trial | Cloud or on-premise hosting options, official support, onboarding and request desk modules |
+| Homebase | Essentials | $30 per location a month | More than 10 employees, advanced scheduling and time tracking, team messaging; PTO controls start on Plus at $70 |
+| Bitrix24 | Basic | $49 a month billed yearly, or $69 monthly, for five users | 24 GB of storage and sales tools; HR management tools and employee hours tracking wait for Professional at $199 a month billed yearly |
+| Google Sheets | Google Workspace Business Starter | $7 per user a month | Custom-domain email, 30 GB of pooled storage per user, admin and security controls |
+
+A 20-person team would pay $25 a month for Zoho People Essential HR billed yearly, against $30 for one Homebase Essentials location. Homebase's payroll add-on costs $49 a month plus $6 per employee paid.
 
 A note on payroll: None of the free plans above include payroll processing. Payroll, especially across jurisdictions, carries tax and compliance obligations that free-tier software does not address. If payroll is a requirement, evaluate dedicated payroll tools separately rather than relying on HR software free plans to include it.
 

@@ -2,7 +2,7 @@
 title: "Free note-taking apps in 2026: match the app to the way you capture notes"
 description: "Apple Notes and Google Keep cost nothing on devices you already own. Standard Notes is the pick when every note must be encrypted, even on the free plan."
 date: "2026-04-14"
-lastmod: "2026-09-12"
+lastmod: "2026-09-26"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"
@@ -174,6 +174,21 @@ Obsidian, Logseq, and self-hosted workspaces are compared against Notion in the 
 | Standard Notes | ✅ E2E | All incl. Linux | ❌ Paid editor | Private plain-text notes |
 | Simplenote | ⚠️ Standard | All incl. Linux | ✅ Yes | Minimalists, markdown writers |
 | Notion free | ⚠️ Standard | All | ✅ Yes | Structured wikis, databases |
+
+
+## What each notes app charges for
+
+Two of these apps have no paid tier at all, and Apple and Google charge for storage rather than for note features. Apple's and Google's storage prices, and the two note apps' plans, as of September 2026 in the US:
+
+| App | Paid option | Price | Pays for |
+|-----|-------------|-------|--------------|
+| Google Keep | None for Keep | Free | Notes count against the Google account's 15 GB; Google AI Plus, at $4.99 a month, raises that to 400 GB |
+| Apple Notes | iCloud+ | From $0.99 a month for 50 GB | Room for synced notes, scans, and attachments beyond the free 5 GB |
+| Standard Notes | Productivity | $90 a year | Super notes with Markdown, rich text, and checklists, spreadsheets, a year of note history; Professional, at $120, adds 100 GB of encrypted file storage |
+| Simplenote | None | Free | No paid tier exists |
+| Notion | Plus | $10 a member a month billed yearly, $12 monthly | Unlimited blocks in shared workspaces, unlimited file uploads, 30-day page history; ongoing Notion AI waits for Business at $20 |
+
+Standard Notes charges for its editors themselves, which is why its free tier is plain text. For Keep and Apple Notes, the storage that runs out is shared with photos and backups, so the upgrade pays for more than notes.
 
 
 ## From notes to a draft

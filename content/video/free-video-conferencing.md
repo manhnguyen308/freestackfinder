@@ -2,7 +2,7 @@
 title: "Free video conferencing in 2026: limits and guest access"
 description: "Most free meeting plans cut group calls off within an hour. Jitsi Meet publishes no limit, and Discord keeps voice channels open for teams that never schedule."
 date: "2026-05-05"
-lastmod: "2026-09-03"
+lastmod: "2026-09-26"
 draft: false
 weight: 32
 slug: "free-video-conferencing"
@@ -210,6 +210,19 @@ Each free plan imposes a different boundary. Upgrading makes sense when:
 - You need admin controls and compliance. Enterprise IT requirements around data retention, meeting transcription, GDPR compliance, and SSO integration are rarely included on any free tier. For regulated industries or large organizations, paid Google Workspace or Teams 365 plans are the practical requirement.
 
 Do not upgrade because a paid plan lists more features. Upgrade when a recurring meeting is being cut short, cannot be recorded, exceeds the participant cap, or needs admin controls the free tier does not provide.
+
+The cheapest way past a meeting cut-off is not always the obvious one. US prices per host from each pricing page in September 2026:
+
+| Tool | Paid plan | Price | Meeting length and size |
+|------|-----------|-------|-------------------------|
+| Google Meet | Workspace Business Starter | $7 per user a month | Group calls past 60 minutes, 100 participants; recording starts on Business Standard at $14 |
+| Jitsi Meet | None on meet.jit.si | Free | Self-hosting costs only the server |
+| Microsoft Teams | Teams Essentials | $4 per user a month, paid yearly | Up to 30 hours with 300 participants, recordings and transcripts |
+| Whereby | Pro | $10.99 a month | No time limit, 100 attendees, three rooms, unlimited recording |
+| Zoho Meeting | Standard | From $1 per host a month billed yearly, rising with the participant tier | Meetings up to 24 hours, 5 GB of cloud recording per host |
+| Discord | Nitro | $9.99 a month per person | Higher-quality streaming; call length and size stay the same |
+
+Zoho Meeting's entry tier is the cheapest way to lift the 60-minute limit for a small group, while Teams Essentials covers the largest meetings for the price.
 
 
 ## Pick by call length and audience

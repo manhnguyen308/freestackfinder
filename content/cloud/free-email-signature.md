@@ -2,7 +2,7 @@
 title: "Free email signature makers for Gmail, Outlook, and Apple Mail"
 description: "HubSpot's signature generator needs no account and adds no branding. MySignature saves one signature with a badge, and WiseStamp is now a 14-day trial."
 date: "2026-04-30"
-lastmod: "2026-09-09"
+lastmod: "2026-09-26"
 draft: false
 weight: 65
 slug: "free-email-signature"
@@ -169,7 +169,18 @@ Consider a paid plan if:
 - Removing third-party branding from the signature is a business requirement
 - You need legal disclaimers or compliance footers pushed to all outgoing email
 
-For an individual, HubSpot, MySignature, or a basic HTML generator can cover the job. Businesses managing signatures centrally will need to compare paid services.
+For an individual, HubSpot, MySignature, or a basic HTML generator can cover the job. Businesses managing signatures centrally will need to compare paid services. What the paid plans cost in September 2026, per the vendors' pricing pages:
+
+| Tool | Paid plan | Price | Paid features |
+|------|-----------|-------|--------------|
+| HubSpot generator | None | Free | The generator has no paid version |
+| MySignature | Core | $6 per user a month billed yearly | Paid signatures with email tracking and user management; Connect, at $7, adds a second signature per user and digital business cards |
+| WiseStamp | Pro+ | $9 a month billed yearly | One-click Gmail and Outlook sync and a template studio for one person, with up to 10 team members at $2 each |
+| WiseStamp | Basic | $19 a month plus $1 per employee, billed yearly | Central management for a company |
+| Newoldstamp | Team plan | $1.80 per signature a month billed yearly, from five signatures | Central deployment, analytics, and banner campaigns |
+| Signature Maker | None | Free | No paid tier |
+
+For a five-person team, Newoldstamp's minimum comes to $109 a year, while WiseStamp's company plan starts at $288.
 
 
 ## Test the signature where it will be read

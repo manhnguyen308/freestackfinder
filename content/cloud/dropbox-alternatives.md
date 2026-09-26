@@ -2,7 +2,7 @@
 title: "Dropbox alternatives with more free storage in 2026"
 description: "Dropbox Basic stops at 2GB. Our new free accounts showed 20GB on MEGA and 10GB on Box, where a 357.5MB upload was refused over the 250MB cap."
 date: "2026-04-08"
-lastmod: "2026-09-24"
+lastmod: "2026-09-26"
 draft: false
 weight: 35
 slug: "dropbox-alternatives"
@@ -174,6 +174,19 @@ Web interfaces can look similar while selective sync, conflict handling, and ope
 ## When Dropbox's paid plan makes sense
 
 Dropbox's paid tiers make sense for teams that already depend on its sync client, Paper, or online-only file access. That continuity can be worth paying for when a migration would disrupt shared folders. On the free tier, the 2GB cap remains the deciding weakness.
+
+[Dropbox Plus](https://www.dropbox.com/plans) costs $9.99 a month billed yearly for 2TB. The nearest tier from each alternative, from the pricing pages in September 2026:
+
+| Service | Nearest tier to Dropbox Plus | Price | Storage |
+|---------|------------------------------|-------|---------|
+| Dropbox | Plus | $9.99 a month billed yearly | 2TB, 30 days to restore deleted files |
+| MEGA | Pro I | €8.33 a month billed yearly | 3TB with 36TB of transfer |
+| Google Drive | Google AI Pro | $19.99 a month | 5TB, plus Gemini in Gmail and Docs |
+| OneDrive | Microsoft 365 Personal | $9.99 a month or $99.99 a year | 1TB, plus the desktop Office apps |
+| Proton Drive | Proton Duo | $14.99 a month billed yearly | 2TB for up to two people, with Proton VPN, Mail, and Pass |
+| Box | Personal Pro | From $11.50 a month | 100GB with 5GB uploads |
+
+MEGA's Pro I gives the most space for the money, while Microsoft 365 Personal matches Dropbox's price with less storage but adds Word and Excel. Dropbox Standard, at $15 per user a month, is the step for teams.
 
 
 ## When paid cloud storage is worth it

@@ -2,7 +2,7 @@
 title: "Free stock photo sites in 2026: licenses, attribution, and image choice"
 description: "None of these four photo libraries asks for attribution, but a free license still does not clear a visible logo, artwork, or recognizable person."
 date: "2026-04-15"
-lastmod: "2026-08-28"
+lastmod: "2026-09-26"
 draft: false
 weight: 63
 slug: "free-stock-photos"
@@ -160,6 +160,17 @@ Free stock sites cover many routine digital projects. Paid licensing becomes rel
 - Specialist subjects: machinery, regulated environments, or demographics that the free catalogs do not cover well
 
 For blog posts, social media, website design, and presentations, search the free sites first and review the chosen item's license before publishing.
+
+Unsplash is the only one of the four with its own paid tier, so the other paid routes are separate libraries. Current US pricing, checked in September 2026:
+
+| Library | Paid option | Price | Catalog and license |
+|---------|-------------|-------|--------------|
+| Unsplash | Unsplash+ | $4 a month billed yearly at a launch discount, against a $12 list price | Members-only images, cropping and background removal, enhanced legal protections, no ads |
+| Pexels, Pixabay, Burst | None | Free | All three libraries are free to download from |
+| Adobe Stock | 10 credits a month | $29.99 a month on an annual plan billed monthly | Ten standard assets a month with rollover for up to 12 months, and indemnification up to $10,000 |
+| Envato Elements | Core | From $16.50 a month | Unlimited downloads of photos, video, fonts, and design templates |
+
+Adobe Stock's annual plans carry a fee of half the remaining commitment if cancelled after 14 days, so a one-off project may fit a credit pack better than a subscription.
 
 
 ## Start with the license, then choose the library

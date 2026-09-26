@@ -2,7 +2,7 @@
 title: "Free Mac video editors in 2026: options by workflow"
 description: "iMovie is free on the Mac App Store but lacks multicamera editing. DaVinci Resolve runs natively on Apple Silicon, and Kdenlive ships a separate Silicon build."
 date: "2026-05-06"
-lastmod: "2026-08-31"
+lastmod: "2026-09-26"
 draft: false
 weight: 68
 slug: "free-video-editing-mac"
@@ -148,6 +148,8 @@ The common mistake is downloading DaVinci Resolve because it sounds more profess
 - Verify the exact codec, bit depth, frame rate, and container before a deadline, especially when evaluating Resolve Free against Studio.
 
 - Final Cut Pro, Adobe Premiere Pro, and Camtasia may offer evaluation periods, but none is an ongoing free editor.
+
+- Apple now sells Final Cut Pro two ways: a one-time purchase for $299.99, or an Apple Creator Studio subscription at $12.99 a month or $129 a year that bundles it with Apple's other creative apps. DaVinci Resolve Studio is a $295 one-time license, and CapCut Pro is priced by region inside the app. iMovie, Kdenlive, and Shotcut have no paid tier.
 
 
 ## Switching to Mac from a Windows video editing workflow

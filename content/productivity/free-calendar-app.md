@@ -2,7 +2,7 @@
 title: "Free calendar apps in 2026: personal and team scheduling"
 description: "Google Calendar adds events from Gmail and Apple Calendar is already on your iPhone, so the account you use most usually decides. Proton encrypts every event."
 date: "2026-04-22"
-lastmod: "2026-07-30"
+lastmod: "2026-09-26"
 draft: false
 weight: 74
 slug: "free-calendar-app"
@@ -167,6 +167,19 @@ Zoho documents calendar creation, sharing, invitations, external-calendar sync, 
 The free options cover personal scheduling and basic sharing. Paid upgrades become relevant for advanced booking pages, payment collection, company administration, or more granular access controls.
 
 Fantastical's paid plan targets Apple users who rely on natural-language event entry and deeper task integration. Calendly's paid tier makes sense once one booking type or a personal scheduling page is no longer enough. Individual calendars and simple scheduling rarely need either upgrade.
+
+Two of the five calendars have nothing to buy, and the rest upgrade through the account they belong to. The US prices each service listed in September 2026:
+
+| Calendar | Paid route | Price | What changes |
+|----------|------------|-------|--------------|
+| Google Calendar | Google Workspace Business Starter | $7 per user a month | Calendars on a custom domain with admin controls; Google says paid subscriptions also unlock premium booking pages with reminders and paid appointments |
+| Notion Calendar | None needed | Free | Stays free; Notion Plus, $10 a member billed yearly, changes the workspace rather than the calendar |
+| Apple Calendar | None | Free | Nothing to buy beyond iCloud storage for other data |
+| Proton Calendar | Mail Plus | $3.99 a month billed yearly, $4.99 monthly | More than three personal calendars, 15 GB of storage, a custom email domain |
+| Zoho Calendar | Zoho Workplace Standard | $3 per user a month billed yearly | Calendar inside a paid Zoho mail and office suite |
+| Fantastical | Individual | $4.75 a month billed yearly | Premium Fantastical features and Flexibits scheduling links |
+| Calendly | Standard | $10 per seat a month billed yearly | Booking beyond the free plan's single event type and calendar connection |
+
 
 If the calendar is for a team, also check who can edit shared events and who can only view them. A free calendar can look complete until a contractor, family member, or client needs partial access. Permissions are where simple personal calendars and real work calendars start to diverge.
 

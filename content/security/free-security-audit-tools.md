@@ -2,7 +2,7 @@
 title: "Free security audit tools in 2026 by audit target"
 description: "SSL Labs and SecurityHeaders.com check a public site from a browser. Nmap, Lynis, and OWASP ZAP go deeper, but only on systems you are allowed to test."
 date: "2026-05-04"
-lastmod: "2026-08-30"
+lastmod: "2026-09-26"
 draft: false
 weight: 45
 slug: "free-security-audit-tools"
@@ -145,6 +145,17 @@ Both tools are free and require no account. They only work on publicly accessibl
 Security audit tools surface findings, but they do not make security decisions. A scan result showing a CVE with a CVSS score of 7.5 could be a genuine critical issue or could be entirely mitigated by your network configuration.
 
 For teams handling sensitive data, healthcare records, financial data, personal information at scale, tool-based self-auditing is a starting point, not a substitute for a professional penetration test or a formal compliance review. The tools above are well-suited to developers and small teams who want to close obvious gaps and build security hygiene into their workflow. They are not a replacement for a dedicated security engineer on systems where a breach would have serious consequences.
+
+Most of these tools have no paid edition at all, and the commercial counterparts are priced for people who test systems for a living. Commercial prices as listed in September 2026:
+
+| Free tool | Paid counterpart | Price | Extra capability |
+|-----------|------------------|-------|--------------|
+| OWASP ZAP | Burp Suite Professional | $499 per user a year | Burp Intruder, authenticated API scanning, and the BApp extension store |
+| Lynis | Lynis Enterprise | $3 per system a month as a hosted service | Reporting, implementation plans, hardening advice, compliance and policy checks, an API |
+| Nmap, Nikto, SSL Labs, SecurityHeaders.com | None needed | Free | The free versions have no feature cap for the checks described here |
+| Greenbone Community Edition | OPENVAS BASIC or an OPENVAS SCAN appliance | Priced by the environment being scanned | The OPENVAS Enterprise Feed of more than 100,000 vulnerability tests |
+
+For a small site, a professional penetration test adds something a scanner license cannot: a person who interprets the findings against how the system is actually used.
 
 
 ## A practical starting point

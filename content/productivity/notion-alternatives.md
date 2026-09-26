@@ -2,7 +2,7 @@
 title: "Free Notion alternatives in 2026: offline notes and wiki options"
 description: "Free Notion workspaces with two or more members stop at 1,000 blocks. Obsidian and Logseq keep notes as local files; Anytype keeps Notion's block editor."
 date: "2026-03-26"
-lastmod: "2026-09-19"
+lastmod: "2026-09-26"
 draft: false
 weight: 70
 slug: "notion-alternatives"
@@ -165,7 +165,21 @@ Notion's paid plans make the most sense when one workspace carries project track
 
 Large teams also face a real switching cost. Linked databases, template buttons, and automations do not migrate as neatly as plain pages. Moving dozens of people is a project, not a quick account export.
 
-Paid AI features can also reduce tab switching for documentation-heavy teams by summarising notes, filling database properties, and drafting inside the workspace. That convenience matters less if those tasks are occasional or your team already uses a separate writing tool.
+Paid AI features can also reduce tab switching for documentation-heavy teams by summarising notes, filling database properties, and drafting inside the workspace. On Notion, those ongoing AI features now come with the Business plan rather than a separate add-on, and that convenience matters less if the tasks are occasional or your team already uses a separate writing tool.
+
+Most of the alternatives charge for sync or hosted storage instead of editing features. What each paid option cost in September 2026:
+
+| Tool | Paid option | Price | Sync, storage, or features |
+|------|-------------|-------|--------------|
+| Notion | Plus | $10 a member a month billed yearly, $12 monthly | Unlimited blocks for teams, unlimited file uploads, 30-day page history |
+| Notion | Business | $20 a member a month billed yearly, $24 monthly | Notion Agent, AI Meeting Notes, SAML SSO, private teamspaces |
+| Obsidian | Sync, Publish | Sync $4 a month billed yearly; Publish $8 a site | Encrypted sync with version history and shared vaults; a public site for chosen notes |
+| Logseq | None | Free | No paid feature tier |
+| Anytype | Plus | $4 a month | 1 GB of remote storage instead of 100 MB, unlimited shared channels; Pro, at $8, has 10 GB |
+| Superhuman Docs | Pro | $12 per Doc Maker a month billed yearly, $15 monthly | Unlimited doc size, Docs AI writing and editing, 30-day version history |
+| Joplin | Joplin Cloud Basic | €2.40 a month billed yearly, €2.99 monthly | 2 GB of hosted sync and note publishing; Pro, at €4.79 billed yearly, has 30 GB |
+
+Superhuman Docs bills only the people who create docs, so a team where most members edit rather than build can cost less there than on Notion, which bills every member.
 
 
 ## Local files for individuals, shared databases for teams

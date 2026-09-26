@@ -2,7 +2,7 @@
 title: "Free Adobe Illustrator alternatives in 2026: vector design without a subscription"
 description: "Inkscape covers logos, icons, and SVG work with no paid tier, but it cannot open native .ai files. SVG-edit handles quick browser edits without an account."
 date: "2026-04-03"
-lastmod: "2026-09-23"
+lastmod: "2026-09-26"
 draft: false
 weight: 40
 slug: "illustrator-alternatives"
@@ -149,6 +149,19 @@ Inkscape and LibreOffice Draw solve different jobs. Inkscape provides deeper pat
 Illustrator remains the right choice for professional studios where files are shared between team members who all use Adobe products, where clients or printers require .ai compatibility, or where the extended feature set, perspective grid, variable fonts, advanced gradient mesh, Live Paint, is in regular use. For individual freelancers and studios that depend on these Illustrator features, the switching cost may outweigh the subscription cost.
 
 Inkscape covers the core path, node, typography, and export work needed for logos, small-business brand assets, and learning vector design. Keep Illustrator when native `.ai` exchange, Adobe integrations, or its specific print workflow is part of the job.
+
+The subscription itself has two main price points, and only one alternative here has a paid tier of its own. As priced in September 2026, the options compare like this:
+
+| Option | Paid plan | Price | Included |
+|--------|-----------|-------|--------------|
+| Adobe Illustrator | Illustrator | $22.99 a month, annual plan billed monthly | Illustrator on desktop, iPad, and web, Adobe Express Premium, 100 GB of storage |
+| Adobe Illustrator | Creative Cloud Pro | $69.99 a month, annual plan billed monthly | Illustrator with more than 20 other Adobe apps |
+| Inkscape | None | Free | No paid edition |
+| LibreOffice Draw | None | Free | No paid edition |
+| SVG-edit | None | Free | Open-source browser editor |
+| Canva | Pro | Set by country on Canva's pricing page | Premium templates and elements, brand kits, background removal |
+
+Affinity, which Canva now gives away free to individuals on Mac and Windows, is worth a test when `.ai` files arrive regularly: it imports AI and PSD files with layers and keeps vector, photo, and layout tools in one app. Its AI features need a Canva premium plan.
 
 
 ## Inkscape for depth, browser tools for smaller jobs

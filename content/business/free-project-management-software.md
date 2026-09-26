@@ -2,7 +2,7 @@
 title: "Free project management software in 2026: which plan fits your team"
 description: "Trello's free plan holds ten collaborators across ten boards. Asana Personal adds list and calendar views but allows only two users, so team size decides."
 date: "2026-04-05"
-lastmod: "2026-08-18"
+lastmod: "2026-09-26"
 draft: false
 weight: 72
 slug: "free-project-management-software"
@@ -127,7 +127,7 @@ Asana Personal offers more ways to view work than Trello Free, but its two-user 
 Notion Free keeps project tasks in the same workspace as notes, wikis, and databases, so one tool can stand in for both a project tracker and a team knowledge base.
 
 Free workspace features:
-- Unlimited pages and blocks
+- Unlimited pages and blocks for a single member; a workspace shared with other members gets only a limited block trial
 - Up to 10 guests
 - Basic page analytics
 - 7-day page history
@@ -139,7 +139,7 @@ Limits that show up with a team:
 - 7-day version history limit: paid plans extend to 30 or 90 days
 - Guest limit of 10: teams need paid for larger external collaboration
 - No automation on free
-- AI features require add-on
+- Notion AI is a trial; ongoing AI features come with the Business plan
 
 Notion fits people who want project tasks and documentation in one workspace. Product development, content planning, and research can benefit when the project record and working notes stay together.
 
@@ -196,6 +196,21 @@ Where the free plan stops:
 Its keyboard-first interface and Git integration suit engineering work. Non-technical teams may find the structure more than they need, because it is designed for code-related work rather than general project management.
 
 [Try Linear Free →](https://linear.app)
+
+
+## What the first paid seat costs
+
+All five charge per user, so the monthly bill scales with the team rather than the project count. The rates below are the per-user US prices on each vendor's plan page in late September 2026:
+
+| Tool | Plan | Per user a month | Gains over free |
+|------|-----------------|------------------|------------------------|
+| Trello | Standard | $5 billed yearly, $6 monthly | Unlimited boards, 250MB file uploads, 1,000 command runs a month, single-board guests |
+| Asana | Starter | $10.99 billed yearly, $13.49 monthly | No two-user cap, timeline and Gantt views, dashboards, unlimited automations, custom fields, free guests |
+| Notion | Plus | $10 billed yearly, $12 monthly | Unlimited blocks for teams, unlimited file uploads, 30-day page history, custom forms and sites |
+| ClickUp | Unlimited | $7 billed yearly, $10 monthly | Unlimited storage, integrations, Gantt charts, and custom fields, plus native time tracking |
+| Linear | Basic | $10 billed yearly | Five teams, unlimited issues and file uploads, admin roles |
+
+The cheapest step does not always buy the missing view. Trello's timeline, table, and dashboard views wait for Premium at $10 a user billed yearly, and Notion's ongoing AI features wait for Business at $20. For five people billed yearly, the first paid plan runs from $25 a month on Trello Standard to about $55 on Asana Starter.
 
 
 ## How to choose by workflow

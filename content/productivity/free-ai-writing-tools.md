@@ -2,7 +2,7 @@
 title: "Free writing tools in 2026: drafting and editing without paying"
 description: "Rytr's free plan stops at 10,000 generated characters a month. ChatGPT and Claude meter usage by tool, model, and demand, and every draft still needs editing."
 date: "2026-04-20"
-lastmod: "2026-08-05"
+lastmod: "2026-09-26"
 draft: false
 weight: 74
 slug: "free-ai-writing-tools"
@@ -147,7 +147,17 @@ Gemini fits drafting work that starts in Google services or needs files from Dri
 
 A paid plan makes sense once you are generating content at a pace where the free caps regularly interrupt your workflow. If you are a full-time content creator, agency writer, or marketer producing multiple pieces of content every day, hitting a daily cap and switching tools when one runs out may cost more in time than the subscription price.
 
-Paid ChatGPT and Claude plans both offer much higher usage limits, more model choice, and paid-plan workflow features. For professional writers who use AI daily, those upgrades can be worth the cost. For occasional users, a few drafts per week, the free tiers above handle the workload without a subscription.
+Three of the five main paid plans cost about $20 a month, Microsoft 365 Personal costs half that, and Rytr less again. What each adds for writing, from the US pricing pages in September 2026:
+
+| Tool | Main paid plan | Price | What it adds for writing |
+|------|----------------|-------|--------------------------|
+| ChatGPT | Plus | $20 a month | GPT-6 Astra, higher file, image, and research limits; the cheaper Go plan is priced by country |
+| Claude | Pro | $20 a month, or $17 a month billed yearly | Higher usage, projects beyond the free five, Research, Docs and Slides, the Opus models |
+| Microsoft Copilot | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Copilot inside Word, Excel, PowerPoint, and Outlook, with higher usage than the free service |
+| Rytr | Unlimited | $7.50 a month billed yearly | Unlimited generation, one custom tone of voice, 50 plagiarism checks a month |
+| Google Gemini | Google AI Pro | $19.99 a month | A 1 million token context window and Gemini in Docs; Google AI Plus, at $4.99, raises the context to 128,000 tokens |
+
+For professional writers who use these tools daily, one of those upgrades can be worth the cost. For occasional users, a few drafts per week, the free tiers above handle the workload without a subscription.
 
 The other case for paid is integration. Eligible Microsoft 365 and Copilot plans add AI features inside Word, Excel, PowerPoint, Outlook, and OneNote. If your work lives in Microsoft 365 and a separate browser tab slows it down, verify which current plan includes the specific app features you need.
 

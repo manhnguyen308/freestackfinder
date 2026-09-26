@@ -2,7 +2,7 @@
 title: "Free Figma alternatives in 2026: UI design without a subscription"
 description: "Figma Starter caps shared work at three files. Penpot's hosted free plan allows eight team members, and its open-source edition runs on your own infrastructure."
 date: "2026-04-17"
-lastmod: "2026-08-07"
+lastmod: "2026-09-26"
 draft: false
 weight: 55
 slug: "figma-alternatives"
@@ -172,6 +172,18 @@ Figma has a large plugin and Community file ecosystem. Designers building a port
 ## When free design tools are enough and when to pay
 
 Free design tools can cover UI layout, components, basic prototyping, and asset export. Paid tiers become relevant for larger teams, longer history, advanced developer handoff, centralized administration, SSO, or audit logs.
+
+Figma splits its paid seats by role, which makes it cheaper for developers and reviewers than for designers. The seat prices were current on each company's US pricing page in September 2026:
+
+| Tool | Paid plan | Price | Seats, files, and history |
+|------|-----------------|-------|--------------|
+| Penpot | Unlimited | $7 per editor a month, capped at $175 a month | Unlimited team size instead of 8 members, 25 GB of storage, 30 days of version history |
+| Lunacy | Pro | $11.99 per user a month billed yearly | Unlimited cloud documents, editable vector icons and illustrations, AI image tools |
+| Plasmic | Starter | $39 a month billed yearly | No Plasmic badge on hosted sites, a custom favicon |
+| Quant UX | None | Free | Open source with a free cloud or self-hosted option |
+| Figma | Professional | $16 per full seat a month; $12 per Dev seat and $3 per Collab seat | Unlimited files and projects, team libraries, advanced Dev Mode, 3,000 AI credits a month on a full seat |
+
+Penpot's cap means a team of 25 editors or more pays the same $175 a month, while Figma's full seats keep adding up. Plasmic's larger teams start on Pro at $103 a month billed yearly.
 
 For individual work, test Penpot and Figma Starter with a representative design and export. Photos and template graphics for a mockup come from the [free stock photo sites](/creative/free-stock-photos/) and the [free Canva alternatives](/creative/canva-alternatives/).
 

@@ -2,7 +2,7 @@
 title: "Free AI email tools for drafting and replies in 2026"
 description: "Gmail's Smart Compose needs no extension or credits. Every tool beyond it asks for more inbox access, from pasted text in ChatGPT to full OAuth for Compose AI."
 date: "2026-04-29"
-lastmod: "2026-08-15"
+lastmod: "2026-09-26"
 draft: false
 weight: 60
 slug: "free-ai-email-tools"
@@ -53,7 +53,7 @@ Gmail's built-in features are free because they are part of Gmail itself:
 The limit is that Gmail helps with small pieces, not full email workflows:
 - Smart Compose writes completions, not full drafts: you still need to initiate and structure the email yourself
 - Smart Reply only works for short responses; longer threads require composing from scratch
-- No thread summarization on Gmail Free (that feature is part of Google Workspace with Gemini, which requires a paid plan)
+- No thread summarization on Gmail Free; Gemini in Gmail comes with a paid Google AI or Google Workspace plan
 - No AI subject line generation or tone adjustment
 
 It covers quicker replies, sentence completions, and light phrasing help, not thread summaries or a sensitive client reply written from scratch. Because it requires nothing beyond your Gmail account, there is no extension to approve, no new app to trust with inbox access, and no credit balance to monitor. That makes it the safest default for basic email assistance.
@@ -63,15 +63,15 @@ It covers quicker replies, sentence completions, and light phrasing help, not th
 
 Compose AI works inside the compose box rather than beside it. The Chrome and Edge extension adds writing features to Gmail, Outlook, and most web-based text inputs, and you can ask it to write a full email from a prompt, rephrase a selection, adjust the tone, or continue from where you left off.
 
-Compose AI's free path is useful when you want drafting inside the compose box:
-- Autocomplete and sentence completions, subject to the current free/starter terms
-- AI drafting from a short prompt, limited by current credits or pay-as-you-go rules
-- Rephrase and tone adjustment for selected text
+Compose AI's free Basic plan is useful when you want drafting inside the compose box:
+- 50 advanced autocompletes a month
+- 1,500 words of generated text a month from a short prompt
+- 25 rephrase, shorten, or expand actions a month
+- 10 one-click email replies a month
 - Works inside Gmail, Outlook, LinkedIn, and other web text fields
-- A free starting path, with paid usage when you exceed the included allowance
 
-The main thing to watch is the current credit model:
-- The product's free and paid packaging has changed over time, so verify the current credit model before depending on it for daily email volume
+The main thing to watch is the monthly allowance:
+- Those allowances, listed on the [pricing page](https://www.compose.ai/pricing), cover light use rather than a full day of email
 - No email thread summarization
 - No calendar or CRM integration
 - The extension adds a visible toolbar overlay that takes up space in the compose window
@@ -195,7 +195,18 @@ The free options cover different levels of use. An upgrade may become relevant w
 - Direct CRM or calendar automation becomes a requirement.
 - The organization requires contractual data-processing or governance controls that a consumer free tier does not provide.
 
-For teams that have outgrown individual free tools, the paid tiers of Compose AI, Spike, or a full email client with Copilot integration are the natural next step.
+For teams that have outgrown individual free tools, the paid tiers of Compose AI, Spike, or a full email client with Copilot integration are the natural next step. What each paid step costs, from the US pricing pages in September 2026:
+
+| Tool | Paid step | Price | Adds for email |
+|------|-----------|-------|--------------|
+| Gmail | Google AI Plus, or Workspace Business Starter | $4.99 a month, or $7 per user a month | Gemini in Gmail for drafting and thread summaries; AI Plus also includes 400 GB of storage |
+| Compose AI | Premium | $9.99 a month billed yearly | 25,000 generated words a month, unlimited rephrasing and autocomplete, 50 one-click replies |
+| ChatGPT | Plus | $20 a month | Higher limits and newer models, still without inbox access |
+| Boomerang | Personal | $4.98 a month billed yearly | Unlimited scheduling credits; Pro, at $14.98, adds Respondable's advanced scores |
+| Spike | Pro | $6 per user a month billed yearly, $8 monthly | Up to three email addresses, unlimited search history, 5 GB of storage |
+| Outlook | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Copilot inside Outlook and the other Office apps |
+
+The Gmail and Outlook upgrades keep drafting inside the provider you already trust with the mail, which avoids granting a third-party extension inbox access.
 
 
 ## Start outside the inbox, then add access deliberately

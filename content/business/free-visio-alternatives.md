@@ -2,7 +2,7 @@
 title: "Free Microsoft Visio alternatives in 2026"
 description: "draw.io has no document cap or watermark and imports Visio .vsdx files. Lucidchart and Miro stop at three editable files, and Whimsical watermarks exports."
 date: "2026-04-25"
-lastmod: "2026-09-11"
+lastmod: "2026-09-26"
 draft: false
 weight: 52
 slug: "free-visio-alternatives"
@@ -104,15 +104,16 @@ There is no paid tier, document cap, watermark, or expiring trial. The interface
 
 Lucidchart puts collaboration first, with presence indicators, comments, and simultaneous editing that are easier to find than in draw.io. The free tier is capped, though.
 
-The free tier gives you:
-- Up to 3 editable documents
+The [free tier](https://www.lucidchart.com/pages/pricing) gives you:
+- Up to 3 editable documents, with up to 75 shapes in each
 - Basic flowchart, org chart, and process shapes
 - Real-time collaboration with up to 5 collaborators
 - Google Drive and Microsoft 365 integration
 - Basic export (PNG, PDF)
 
 The limits arrive quickly if diagrams become part of daily work:
-- More than 3 documents
+- More than 3 documents or 75 shapes in one document
+- Visio import and export, which start on the paid Individual plan
 - Advanced shape libraries (AWS, network, ERD, BPMN) without upgrading
 - Version history and advanced collaboration features
 
@@ -196,6 +197,19 @@ Free diagramming tools tend to hit their limits in one of three situations:
 - you need version history, admin controls, and audit logs for compliance or governance
 
 draw.io has no document cap and no paid shape libraries. Lucidchart and Miro limit active documents or boards, while Whimsical limits the new objects and blocks created each month.
+
+Those caps lift at similar prices, and Visio's own web plan costs less than any of the paid upgrades. Figures are US list prices, read from the vendors' sites during September 2026:
+
+| Tool | Upgrade | Price | Lifts or adds |
+|------|-----------------|-------|------------------------|
+| draw.io | None for the web app | Free | Every shape library and export is already free |
+| Lucidchart | Individual | $9 a month billed yearly | Unlimited documents and shapes, Visio import and export, premium shape libraries, 1 GB of storage |
+| Miro | Starter | $8 per member a month billed yearly | Unlimited and private boards, visitor access controls |
+| Whimsical | Pro | $10 per editor a month billed yearly | Unlimited board objects and doc blocks, exports without a watermark, 90-day version history |
+| Microsoft Visio | Visio Plan 1 | $5 per user a month, paid yearly | Visio in the browser and Teams, native `.vsdx` files |
+| Microsoft Visio | Visio Plan 2 | $15 per user a month, paid yearly | Adds the Visio desktop app |
+
+A team that exchanges `.vsdx` files every week may find Visio Plan 1 cheaper than a Lucidchart seat, while a team that only needs more boards or objects can stay with the tool it already uses.
 
 
 ## Let the exchange format decide

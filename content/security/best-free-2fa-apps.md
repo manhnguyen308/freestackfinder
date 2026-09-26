@@ -2,7 +2,7 @@
 title: "Free two-factor authentication apps in 2026"
 description: "Aegis keeps codes in an encrypted Android vault and Ente Auth syncs them to desktop. Authy has no token export, so leaving it means re-enrolling every account."
 date: "2026-04-10"
-lastmod: "2026-09-06"
+lastmod: "2026-09-26"
 draft: false
 weight: 76
 slug: "best-free-2fa-apps"
@@ -110,6 +110,17 @@ Existing mobile users can continue if they accept those trade-offs. New users ca
 | Bitwarden TOTP | All (Premium) | ✅ Yes | ✅ Vault encrypted | Bitwarden Premium users ($19.80/yr) |
 | Authy | iOS + Android | ❌ No | ✅ Authy cloud | Existing mobile users |
 | Google Authenticator | iOS + Android | ❌ No | Optional Google Account sync | Familiar, basic option |
+
+Five of the six apps cost nothing, so paying for a second factor usually means one of two things: codes inside a paid password manager, or a hardware key. Vendor prices as of September 2026:
+
+| Option | What you pay for | Price | Second-factor benefit |
+|--------|------------------|-------|--------------|
+| Aegis, Ente Auth, 2FAS, Authy, Google Authenticator | Nothing | Free | The authenticator itself has no paid tier |
+| Bitwarden | Premium | $19.80 a year | TOTP codes in the vault, with autofill |
+| Proton Pass | Pass Plus | $35.88 a year | A built-in 2FA authenticator beside passwords and aliases |
+| Yubico | Security Key or YubiKey 5 | From $29 for a Security Key; $58 for a YubiKey 5 NFC | A physical FIDO2 key that phishing pages cannot relay the way they can a typed code |
+
+Codes stored in a password manager share its vault, so a hardware key or a separate app keeps the second factor separate for email and banking.
 
 ## Save backup codes before moving anything
 

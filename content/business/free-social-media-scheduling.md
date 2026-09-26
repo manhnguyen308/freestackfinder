@@ -2,7 +2,7 @@
 title: "Free social media scheduling tools in 2026"
 description: "Hootsuite no longer leads with a free plan. Buffer queues ten posts on each of three channels; Metricool allows 20 a month but excludes LinkedIn and X."
 date: "2026-04-24"
-lastmod: "2026-08-17"
+lastmod: "2026-09-26"
 draft: false
 weight: 55
 slug: "free-social-media-scheduling"
@@ -162,7 +162,7 @@ When Facebook and Instagram are the business, it is often all you need. Local se
 
 ## A note on Hootsuite and other limited-free tools
 
-**Hootsuite** now leads with paid plans and trials rather than an ongoing scheduler comparable with the free plans above.
+**Hootsuite** now leads with paid plans and trials rather than an ongoing scheduler comparable with the free plans above. Its [plans page](https://www.hootsuite.com/plans) starts paid plans at $99 a month.
 
 **Zoho Social** has a free plan tied to Zoho's other business tools, with limits on brands and scheduled posts. Choose it only when the Zoho connection is useful; Buffer and Metricool are clearer standalone starting points.
 
@@ -189,6 +189,18 @@ For most small businesses and solo creators, a free social media scheduling tool
 - Team approvals and role-based access sit on paid tiers.
 - Client-ready analytics exports require an upgrade.
 - High-volume schedules exceed the free queue or monthly post allowances.
+
+Each tool charges for a different unit, which changes which one is cheapest as the account list grows. Each vendor's US pricing, checked in September 2026:
+
+| Tool | Starting plan | Price | Charged by | Extra capacity |
+|------|-----------------|-------|------------|--------------|
+| Buffer | Essentials | $5 a month per channel, billed yearly | Channel | Unlimited scheduled posts per channel, first-comment scheduling |
+| Metricool | Starter | From $20 a month billed yearly | Brand, up to five | Unlimited publishing, PDF and PPT reports, analytics with unlimited history, the paid X add-on |
+| Later | Starter | $18.75 a month billed yearly | Social set of eight profiles | One profile on each network, one user, 5 AI credits a month |
+| Meta Business Suite | None | Free | Not applicable | Ad spend is the only cost |
+| Hootsuite | Standard | From $99 a month | Plan | A full scheduler with no free tier to start from |
+
+Buffer bills every connected channel once you upgrade, including the three that were free, so a five-channel account costs $25 a month billed yearly. Metricool's team access and post approvals start on Advanced, from $53 a month billed yearly.
 
 For small teams managing their own social presence, Buffer or Metricool on the free plan covers the common workflow: plan, schedule, publish, and review basic performance. Scale to paid only when the free plan's limits become a real bottleneck, not in anticipation of one.
 

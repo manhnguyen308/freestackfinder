@@ -2,7 +2,7 @@
 title: "Free spreadsheet alternatives in 2026: Excel without a subscription"
 description: "Workbooks built on VBA or Power Query should stay in Excel. Budgets and trackers move more easily, to Google Sheets online or LibreOffice Calc offline."
 date: "2026-04-23"
-lastmod: "2026-09-13"
+lastmod: "2026-09-26"
 draft: false
 weight: 74
 slug: "free-spreadsheet-alternatives"
@@ -141,10 +141,10 @@ ONLYOFFICE emphasizes Microsoft format compatibility, but complex workbooks can 
 Airtable looks like a spreadsheet but behaves like a small relational database, which suits structured data, content calendars, project tracking, and lightweight CRM work.
 
 Airtable's free tier is for structured data, not heavy formulas:
-- Up to 5 bases (workspaces) with up to 1,000 records per base
+- Unlimited bases with up to 1,000 records each, and up to 5 editors
 - Grid view, calendar view, gallery view, and Kanban view
-- Attachments, linked records, and custom field types
-- Basic automations (limited runs per month on free)
+- Attachments up to 1 GB per base, linked records, and custom field types
+- 100 automation runs a month
 - Available on web, iOS, and Android
 
 The record cap is the ceiling:
@@ -177,6 +177,20 @@ Rather than replacing Excel, it replaces the sprawling spreadsheets teams build 
 Excel remains the right tool when the work requires it: complex financial models with Power Query and Power Pivot, large datasets that would slow down a browser-based tool, VBA macros built into existing business processes, or strict compliance environments where data cannot leave a corporate-controlled system.
 
 Google Sheets or LibreOffice Calc can handle budgets, client lists, project plans, and modest datasets without an Excel subscription. Existing files with macros or uncommon functions require a closer test, and organizations may still need Excel for client handoffs or managed data connections.
+
+Staying on Excel has two price points, and each alternative has its own paid step. The September 2026 US list prices:
+
+| Option | Paid plan | Price | Covers |
+|--------|-----------|-------|--------------|
+| Microsoft Excel | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Desktop Excel with Power Query and VBA, 1 TB of OneDrive storage, Copilot in Excel |
+| Microsoft Excel | Office Home 2024 | $179.99 once | Desktop Excel, Word, and PowerPoint on one PC or Mac, without cloud storage |
+| Google Sheets | Workspace Business Starter | $7 per user a month | Custom-domain email, 30 GB of pooled storage per user, admin controls; Gemini beyond Gmail starts on Business Standard at $14 |
+| LibreOffice Calc | None | Free | The whole suite is free and open source |
+| Zoho Sheet | Zoho Workplace Standard | $3 per user a month billed yearly, $4 monthly | Sheet alongside custom-domain mail and 100 GB of team file storage |
+| ONLYOFFICE | DocSpace Business | $30 per admin a month at list price | Unlimited rooms, 250 GB of storage per admin, SSO, professional support; users and guests stay free |
+| Airtable | Team | $20 per seat a month billed yearly | 50,000 records per base, 25,000 automation runs, Gantt and timeline views |
+
+For one person who only needs desktop Excel, the one-time Office Home 2024 license costs less than two years of Microsoft 365 Personal, but it includes no OneDrive storage beyond the free allowance and no Copilot.
 
 If you are unsure, run a copy of your most important workbook through the free alternative first. Check formulas, print layouts, charts, filters, and export back to `.xlsx`. A free spreadsheet is only a real replacement if the file still works after that round trip.
 

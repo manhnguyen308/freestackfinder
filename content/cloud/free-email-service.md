@@ -2,7 +2,7 @@
 title: "Free email services in 2026: privacy, storage, and access"
 description: "Proton Mail and Tuta encrypt stored mail but give free accounts 1GB. Gmail offers up to 15GB, shared with Drive and Photos, and no free custom domain."
 date: "2026-04-06"
-lastmod: "2026-09-18"
+lastmod: "2026-09-26"
 draft: false
 weight: 68
 slug: "free-email-service"
@@ -110,6 +110,19 @@ Its free tier suits people who value those encrypted extras over storage and add
 | Outlook.com | 15GB | ❌ Paid only | ❌ No | Microsoft app users |
 | Zoho Mail | 5GB per user, up to 5 users | ✅ Selected regions | ❌ No | Small business custom domain |
 | Tuta | 1GB | ❌ Paid only | ✅ Yes | Privacy + encrypted subjects |
+
+A custom domain is the upgrade most people reach first, and its price ranges from $1 a user on Zoho to $7 on Google. Plan prices from the providers' own pages, September 2026:
+
+| Service | Paid plan | Price | Storage, addresses, and domains |
+|---------|-----------|-------|--------------|
+| Gmail | Google Workspace Business Starter | $7 per user a month | Your own domain, 30 GB of pooled storage per user, admin controls |
+| Gmail | Google AI Plus | $4.99 a month | 400 GB across Gmail, Drive, and Photos and Gemini in Gmail, on the same address |
+| Proton Mail | Mail Plus | $3.99 a month billed yearly, $4.99 monthly | 15 GB, 10 addresses, one custom domain, unlimited folders and labels |
+| Outlook.com | Microsoft 365 Basic | $1.99 a month or $19.99 a year | Ad-free Outlook and 100 GB of cloud storage; custom domains need a business plan |
+| Zoho Mail | Mail Lite | $1 per user a month billed yearly | 5 GB per user, IMAP and POP access, and more than five users |
+| Tuta | Revolutionary | €3 a month | 20 GB, 15 aliases, and custom domain addresses |
+
+Zoho's cheapest paid plan is also the fix for the free plan's missing IMAP access, which matters to anyone who wants mail in a desktop client.
 
 
 ## The privacy trade-off in plain terms

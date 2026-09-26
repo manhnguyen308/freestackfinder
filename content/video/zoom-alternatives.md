@@ -2,7 +2,7 @@
 title: "Free Zoom alternatives in 2026 for longer group calls"
 description: "Zoom Basic stops meetings at 40 minutes, even one-to-one. Google Meet gives groups an hour in the browser and one-to-one calls a full day."
 date: "2026-03-21"
-lastmod: "2026-09-02"
+lastmod: "2026-09-26"
 draft: false
 weight: 58
 slug: "zoom-alternatives"
@@ -143,6 +143,19 @@ A freelancer, consultant, coach, or small business owner can put that one link i
 ## When Zoom's paid plan is worth it
 
 Zoom's paid plans make sense for organizations that need to manage large meetings: webinars with hundreds of attendees, cloud recording with automatic transcription, advanced admin controls, and IT compliance features. The Zoom Webinar product has no real free equivalent, and the paid tier is the right tool for businesses that run large virtual events regularly.
+
+[Zoom Pro](https://zoom.us/pricing) costs $14.16 per user a month billed yearly, or $16.99 monthly, for 30-hour meetings with 100 participants and 10 GB of cloud storage per user. The alternatives' nearest paid steps, from US prices in September 2026:
+
+| Service | Plan against Zoom Pro | Price | What changes from the free plan |
+|---------|-----------------------|-------|---------------------------------|
+| Google Meet | Workspace Business Starter | $7 per user a month | The 60-minute group limit lifts, with Gmail and Drive on your domain |
+| Jitsi Meet | None needed | Free | Nothing to buy for meet.jit.si |
+| Microsoft Teams | Teams Essentials | $4 per user a month, paid yearly | 30-hour meetings for 300 people, with recordings and transcripts |
+| Discord | Nitro | $9.99 a month | Streaming quality rises; the 25-person video cap stays |
+| Whereby | Pro | $10.99 a month | Meetings without the 30-minute cap, for up to 100 attendees |
+| Zoom | Business | $18.33 per user a month billed yearly | 300 participants, unlimited scheduler booking pages, SSO |
+
+Teams Essentials matches Zoom Pro's 30-hour limit at under a third of the price, so Zoom's case rests on its webinar product and on clients who already expect a Zoom link.
 
 Teams that have standardised on Zoom and rely on its integrations with Salesforce, Slack, or enterprise software also have a genuine reason to keep paying. Moving an entire team to a new platform can cost more than the subscription saves.
 

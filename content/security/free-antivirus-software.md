@@ -2,7 +2,7 @@
 title: "Free antivirus software in 2026: built-in and third-party options"
 description: "Windows Defender already runs real-time protection on Windows 10 and 11. Malwarebytes Free scans on demand only, and Avast carries a 2024 FTC privacy order."
 date: "2026-04-09"
-lastmod: "2026-09-04"
+lastmod: "2026-09-26"
 draft: false
 weight: 38
 slug: "free-antivirus-software"
@@ -30,7 +30,7 @@ AV-TEST scores antivirus products across protection, performance, and usability,
 
 Paid suites increasingly sell bundles: VPN access, password management, identity monitoring, family controls, and support. Pay for one when you need that bundle or central management. If malware scanning is the only requirement, compare the current lab results and feature list before assuming the subscription improves protection.
 
-## Four free protection options by platform
+## Five free protection options by platform
 
 ### 1. Microsoft Defender Antivirus: built into Windows
 
@@ -102,7 +102,17 @@ On a current Windows 11 machine with updates enabled, a separate paid antivirus 
 
 A [free password manager](/security/free-password-managers/) addresses password reuse, which antivirus cannot fix. If you run a website or server, [free security audit tools](/security/free-security-audit-tools/) can check exposed ports and security headers outside an endpoint antivirus product's scope.
 
-Compare the exact platform coverage and renewal price of any suite before replacing free tools that already meet your needs.
+Compare the exact platform coverage and renewal price of any suite before replacing free tools that already meet your needs. The first-year discounts are large, so the renewal column matters more than the headline price. US prices from each store page in September 2026:
+
+| Product | Paid plan | First year | Renewal | Beyond the free scanner |
+|---------|-----------|------------|---------|--------------|
+| Microsoft Defender Antivirus | None needed | Included with Windows | Included with Windows | Nothing to buy for basic protection |
+| Malwarebytes | Standard | From $59.99 a year for three devices | Not shown separately | Real-time protection on computers and phones, scam and ad blocking |
+| Avast | Premium Security | $49.08 for one PC and one mobile device | $77.99 a year | Advanced firewall and the paid suite features |
+| AVG | Internet Security | $46.68 for one PC | $77.99 a year | Advanced firewall and email protection |
+| Bitdefender | Antivirus Plus | $39.99 for three devices | $69.99 a year | Protection beyond Windows, on macOS, iOS, and Android |
+
+Bitdefender's free edition stays Windows-only, so Antivirus Plus is its first plan for a household with Macs or phones.
 
 <div class="affiliate-cta">
 <div class="affiliate-cta-content">

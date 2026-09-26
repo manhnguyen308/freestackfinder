@@ -2,7 +2,7 @@
 title: "Open-source video editors in 2026: five practical options"
 description: "Every editor here is open source, so none adds a watermark or sells a paid tier. Kdenlive is the most complete; Shotcut rescues stubborn old formats."
 date: "2026-05-07"
-lastmod: "2026-07-24"
+lastmod: "2026-09-26"
 draft: false
 weight: 65
 slug: "free-open-source-video-editors"
@@ -127,6 +127,8 @@ Short-form social content points to CapCut. It is not open-source, but it combin
 Mac users who want a native editor can start with iMovie, a free App Store download for supported Macs that handles casual editing. DaVinci Resolve has an Apple Silicon build, and Kdenlive runs on Mac with a cross-platform interface. The [free video editing software for Mac guide](/video/free-video-editing-mac/) covers the platform-specific tradeoffs.
 
 Auto-captions and motion tracking are thin in the open-source editing space, so CapCut and DaVinci Resolve are the practical options for them.
+
+None of the five open-source editors sells a paid edition, so paying means moving to a different product. The nearest paid steps, from US prices in September 2026, are DaVinci Resolve Studio at $295 once, Final Cut Pro on Mac at $299.99 once, and Adobe's Premiere plan at $22.99 a month on an annual plan. Kdenlive, Shotcut, OpenShot, Blender, and Olive accept donations instead.
 
 
 ## Open-source editor assumptions to test

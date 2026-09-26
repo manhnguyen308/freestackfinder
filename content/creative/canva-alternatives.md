@@ -2,7 +2,7 @@
 title: "Free Canva alternatives in 2026: social posts and presentations"
 description: "Adobe Express is the closest free match for Canva's templates. Picsart suits work that starts on a phone, and Microsoft Designer drafts layouts with AI."
 date: "2026-03-19"
-lastmod: "2026-07-31"
+lastmod: "2026-09-26"
 draft: false
 weight: 85
 slug: "canva-alternatives"
@@ -139,6 +139,19 @@ Canva Pro still earns its keep for three kinds of users:
 - businesses publishing across many sizes and channels every week
 
 If that is your workflow, the paid upgrade saves real time. If you are a solo creator making occasional graphics, the alternatives above are usually enough.
+
+The alternatives' own upgrades are mostly cheaper than a design suite, and most of them now sell AI credits as much as templates. Rates were taken from the vendors' sites in September 2026:
+
+| Tool | Paid plan | Price | Paid extras |
+|------|-----------|-------|--------------|
+| Canva | Pro, then Business | Set by country on Canva's [pricing page](https://www.canva.com/pricing/), with daily and weekly Pro options in some markets | Pro: 141 million stock assets instead of 4.7 million, 3.6 million templates, bulk design; Business adds brand and team controls |
+| Adobe Express | Premium | $9.99 a month, billed monthly | All premium templates and assets, 250 generative credits a month; Firefly Pro, at $19.99, adds 4,000 credits for video and audio |
+| Photopea | Premium | Listed inside the Photopea editor | Removes the in-page ads |
+| Microsoft Designer | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Higher image-creation usage than the free account, plus the desktop Office apps |
+| Pixlr | Plus, then Premium | $1.99 a month billed yearly for Plus; $7.99 billed yearly for Premium | Plus removes ads and adds 80 AI credits a month; Premium adds all image, video, and audio models and 1,000 credits |
+| Picsart | Pro | $10.50 a month billed yearly, $15 monthly | All photo and video editing features, advanced background and object removal, monthly AI credits |
+
+Pixlr Plus is the cheapest way to remove ads from a browser editor here, while Adobe Express Premium is the closest like-for-like step against Canva Pro.
 
 
 ## Templates, layers, or mobile editing

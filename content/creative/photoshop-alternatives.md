@@ -1,7 +1,7 @@
 ---
 title: "Free Photoshop alternatives in 2026: browser and desktop PSD editors"
 date: "2026-04-30"
-lastmod: "2026-07-25"
+lastmod: "2026-09-26"
 draft: false
 description: "Photopea opens PSD files in a browser with no install, which covers most occasional edits. GIMP takes over when you need plugins and offline files."
 slug: "photoshop-alternatives"
@@ -186,6 +186,20 @@ Photoshop still makes sense if your work depends on one or more of these:
 - high-end print or production workflows where Adobe is still the house standard
 
 If that is not your situation, the free tools above are usually enough.
+
+Adobe's cheapest route to desktop Photoshop is not the Photoshop plan itself. Adobe's US prices, and the alternatives', as listed in September 2026:
+
+| Option | Paid plan | Price | In the plan |
+|--------|-----------|-------|--------------|
+| Adobe Photoshop | Photography plan | $19.99 a month, annual plan billed monthly | Photoshop on desktop, web, and mobile, plus Lightroom and 1 TB of cloud storage |
+| Adobe Photoshop | Photoshop | $22.99 a month, annual plan billed monthly | Photoshop on desktop, web, and mobile, Adobe Express Premium, 100 GB of storage |
+| Adobe Photoshop | Creative Cloud Pro | $69.99 a month, annual plan billed monthly | Photoshop with more than 20 other Adobe apps |
+| Photopea | Premium account | Priced inside the editor | An ad-free editor |
+| GIMP | None | Free | No paid edition |
+| Krita | None from krita.org | Free | Paid app-store versions exist to fund development |
+| Pixlr | Premium | $7.99 a month billed yearly; the ad-free Plus tier is $1.99 | Plus removes ads; Premium adds all image, video, and audio models and 1,000 AI credits a month |
+
+Adobe's annual plans charge a fee if cancelled after the first 14 days, so a short project may fit the month-to-month price better. Affinity, now owned by Canva, is another route out: its combined vector, photo, and layout app is free for individuals on Mac and Windows and imports PSD files with layers, while its AI tools need a Canva premium plan.
 
 
 ## Photopea in a browser, GIMP on the desktop
