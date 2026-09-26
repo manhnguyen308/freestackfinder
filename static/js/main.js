@@ -56,9 +56,11 @@
   var tocLinks = document.querySelectorAll('.toc-widget a[href^="#"]');
   tocLinks.forEach(function (link) {
     link.addEventListener('click', function (e) {
-      e.preventDefault();
-      var target = document.querySelector(this.getAttribute('href'));
+      // Look up by id: numbered tool headings get ids like "1-best-offline-suite",
+      // which are not valid CSS selectors and made querySelector throw.
+      var target = document.getElementById(decodeURIComponent(this.getAttribute('href').slice(1)));
       if (target) {
+        e.preventDefault();
         var offset = 80; // header height
         var top = target.getBoundingClientRect().top + window.scrollY - offset;
         window.scrollTo({ top: top, behavior: 'smooth' });
