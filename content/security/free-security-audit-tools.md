@@ -2,7 +2,7 @@
 title: "Free security audit tools in 2026 by audit target"
 description: "SSL Labs and SecurityHeaders.com check a public site from a browser. Nmap, Lynis, and OWASP ZAP go deeper, but only on systems you are allowed to test."
 date: "2026-05-04"
-lastmod: "2026-09-26"
+lastmod: "2026-09-04"
 draft: false
 weight: 45
 slug: "free-security-audit-tools"

@@ -2,7 +2,7 @@
 title: "Free video conferencing in 2026: limits and guest access"
 description: "Most free meeting plans cut group calls off within an hour. Jitsi Meet publishes no limit, and Discord keeps voice channels open for teams that never schedule."
 date: "2026-05-05"
-lastmod: "2026-09-26"
+lastmod: "2026-09-16"
 draft: false
 weight: 32
 slug: "free-video-conferencing"

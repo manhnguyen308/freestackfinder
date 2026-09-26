@@ -2,7 +2,7 @@
 title: "Free Mac video editors in 2026: options by workflow"
 description: "iMovie is free on the Mac App Store but lacks multicamera editing. DaVinci Resolve runs natively on Apple Silicon, and Kdenlive ships a separate Silicon build."
 date: "2026-05-06"
-lastmod: "2026-09-26"
+lastmod: "2026-09-02"
 draft: false
 weight: 68
 slug: "free-video-editing-mac"

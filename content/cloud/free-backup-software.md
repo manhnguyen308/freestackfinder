@@ -2,7 +2,7 @@
 title: "Free backup software for local and cloud copies in 2026"
 description: "Google Drive mirrors deletions along with files, so it is not a full backup. Duplicati adds scheduled encrypted copies, and iCloud includes only 5GB."
 date: "2026-04-12"
-lastmod: "2026-09-26"
+lastmod: "2026-09-20"
 draft: false
 weight: 58
 slug: "free-backup-software"

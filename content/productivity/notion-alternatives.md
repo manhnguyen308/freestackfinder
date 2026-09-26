@@ -2,7 +2,7 @@
 title: "Free Notion alternatives in 2026: offline notes and wiki options"
 description: "Free Notion workspaces with two or more members stop at 1,000 blocks. Obsidian and Logseq keep notes as local files; Anytype keeps Notion's block editor."
 date: "2026-03-26"
-lastmod: "2026-09-26"
+lastmod: "2026-09-23"
 draft: false
 weight: 70
 slug: "notion-alternatives"

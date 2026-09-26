@@ -79,6 +79,7 @@ All three QA checks must pass (0 failures) before committing.
 - Never mention Claude, AI, assistant, prompts, or automation in site content, comments, metadata, or tracker entries
 - Never let descriptions (card excerpts), article openings, tool-section openers, or closings share one formula across pages. No "Choose/Find/Compare/See/Pick..." description openers, no criteria-list tails, no "Choose **X** for..." opening verdicts. See "Sitewide sameness" in `website-content-humanizer.md`
 - Never mention Claude, AI, assistant, prompts, or automation in commit messages
+- Never give many updated articles the same `lastmod`; follow the bulk update lastmod rule in `docs/SKILL.md` section 6
 
 ### Git
 - Never ask for permission in chat before normal git commit, push, or deploy steps

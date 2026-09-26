@@ -2,7 +2,7 @@
 title: "Free password managers for teams in 2026"
 description: "Bitwarden's free organization stops at two people. Beyond that, a free team vault means self-hosting Passbolt or Vaultwarden, or sharing one KeePassXC file."
 date: "2026-05-02"
-lastmod: "2026-09-26"
+lastmod: "2026-09-17"
 draft: false
 weight: 74
 slug: "free-password-managers-teams"

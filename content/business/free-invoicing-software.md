@@ -2,7 +2,7 @@
 title: "Free invoicing software in 2026: six options for freelancers"
 description: "Wave sends unlimited free invoices into a bookkeeping ledger. Invoice Ninja's hosted plan stops at five clients, and Stripe charges 0.4% per paid invoice."
 date: "2026-04-13"
-lastmod: "2026-09-26"
+lastmod: "2026-09-18"
 draft: false
 weight: 74
 slug: "free-invoicing-software"

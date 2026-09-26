@@ -2,7 +2,7 @@
 title: "Free two-factor authentication apps in 2026"
 description: "Aegis keeps codes in an encrypted Android vault and Ente Auth syncs them to desktop. Authy has no token export, so leaving it means re-enrolling every account."
 date: "2026-04-10"
-lastmod: "2026-09-26"
+lastmod: "2026-09-17"
 draft: false
 weight: 76
 slug: "best-free-2fa-apps"

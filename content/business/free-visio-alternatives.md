@@ -2,7 +2,7 @@
 title: "Free Microsoft Visio alternatives in 2026"
 description: "draw.io has no document cap or watermark and imports Visio .vsdx files. Lucidchart and Miro stop at three editable files, and Whimsical watermarks exports."
 date: "2026-04-25"
-lastmod: "2026-09-26"
+lastmod: "2026-09-19"
 draft: false
 weight: 52
 slug: "free-visio-alternatives"

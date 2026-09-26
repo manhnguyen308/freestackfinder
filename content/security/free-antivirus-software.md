@@ -2,7 +2,7 @@
 title: "Free antivirus software in 2026: built-in and third-party options"
 description: "Windows Defender already runs real-time protection on Windows 10 and 11. Malwarebytes Free scans on demand only, and Avast carries a 2024 FTC privacy order."
 date: "2026-04-09"
-lastmod: "2026-09-26"
+lastmod: "2026-09-16"
 draft: false
 weight: 38
 slug: "free-antivirus-software"

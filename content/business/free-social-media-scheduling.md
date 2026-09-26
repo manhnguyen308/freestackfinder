@@ -2,7 +2,7 @@
 title: "Free social media scheduling tools in 2026"
 description: "Hootsuite no longer leads with a free plan. Buffer queues ten posts on each of three channels; Metricool allows 20 a month but excludes LinkedIn and X."
 date: "2026-04-24"
-lastmod: "2026-09-26"
+lastmod: "2026-09-12"
 draft: false
 weight: 55
 slug: "free-social-media-scheduling"

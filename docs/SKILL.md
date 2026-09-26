@@ -144,6 +144,12 @@ Never use: `featured:` · `faqs:` · bare unquoted date values · inline keyword
 - Do not inflate dates to keep them unique.
 - Do not change existing article dates unless correcting a real error.
 
+### Bulk update lastmod rule
+- When one run updates many articles, do not give them all the same `lastmod`. Spread the dates so the site does not show one bulk edit day.
+- The newest date is the run date and goes to one article only. Give other days one to three articles each, with irregular counts, and mix silos on the same day.
+- Each new `lastmod` must be on or after that article's previous `lastmod` and its `date`, never in the future, and never earlier than any month the article's text cites (for example "September 2026" prices).
+- Never change `date`. Record the assignment in the progress log.
+
 ### Article structure
 1. Opening answer: the fact that drives the recommendation, then the picks
 2. Why people look for an alternative, or what the free plans limit

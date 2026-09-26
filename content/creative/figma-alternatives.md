@@ -2,7 +2,7 @@
 title: "Free Figma alternatives in 2026: UI design without a subscription"
 description: "Figma Starter caps shared work at three files. Penpot's hosted free plan allows eight team members, and its open-source edition runs on your own infrastructure."
 date: "2026-04-17"
-lastmod: "2026-09-26"
+lastmod: "2026-09-07"
 draft: false
 weight: 55
 slug: "figma-alternatives"

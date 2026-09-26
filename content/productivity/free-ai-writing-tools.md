@@ -2,7 +2,7 @@
 title: "Free writing tools in 2026: drafting and editing without paying"
 description: "Rytr's free plan stops at 10,000 generated characters a month. ChatGPT and Claude meter usage by tool, model, and demand, and every draft still needs editing."
 date: "2026-04-20"
-lastmod: "2026-09-26"
+lastmod: "2026-09-05"
 draft: false
 weight: 74
 slug: "free-ai-writing-tools"

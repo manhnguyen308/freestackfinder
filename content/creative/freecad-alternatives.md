@@ -2,7 +2,7 @@
 title: "Free FreeCAD alternatives in 2026: 3D CAD for different workflows"
 description: "Onshape's free plan makes every document public, and Fusion 360 Personal limits you to ten active ones. The open-source CAD tools have neither restriction."
 date: "2026-05-08"
-lastmod: "2026-09-26"
+lastmod: "2026-09-06"
 draft: false
 weight: 36
 slug: "freecad-alternatives"

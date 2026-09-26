@@ -2,7 +2,7 @@
 title: "Open-source video editors in 2026: five practical options"
 description: "Every editor here is open source, so none adds a watermark or sells a paid tier. Kdenlive is the most complete; Shotcut rescues stubborn old formats."
 date: "2026-05-07"
-lastmod: "2026-09-26"
+lastmod: "2026-09-03"
 draft: false
 weight: 65
 slug: "free-open-source-video-editors"

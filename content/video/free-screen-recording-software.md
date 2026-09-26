@@ -2,7 +2,7 @@
 title: "Free screen recording software in 2026: limits and use cases"
 description: "Loom Free stops recordings at five minutes and keeps 25 videos. OBS Studio records locally with no cap or watermark, and Clipchamp allows 30 minutes a clip."
 date: "2026-04-11"
-lastmod: "2026-09-26"
+lastmod: "2026-09-03"
 draft: false
 weight: 62
 slug: "free-screen-recording-software"

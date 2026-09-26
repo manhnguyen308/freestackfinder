@@ -2,7 +2,7 @@
 title: "Free VPNs in 2026: what each plan limits"
 description: "Proton VPN Free has no data cap but chooses the server for you. Windscribe lets you pick the country instead, within 10 GB a month."
 date: "2026-04-04"
-lastmod: "2026-09-26"
+lastmod: "2026-09-03"
 draft: false
 weight: 36
 slug: "free-vpn"

@@ -2,7 +2,7 @@
 title: "Canva Free vs Pro in 2026: when the upgrade makes sense"
 description: "Canva Free finishes most single projects. Pro starts paying when background removal, Magic Resize, or brand kits become weekly steps, not one-off tasks."
 date: "2026-05-09"
-lastmod: "2026-09-26"
+lastmod: "2026-09-08"
 draft: false
 weight: 34
 slug: "canva-free-vs-paid"

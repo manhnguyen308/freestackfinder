@@ -2,7 +2,7 @@
 title: "Free team email in 2026: custom domains and shared access"
 description: "Zoho Mail's free plan gives up to five users a custom domain in selected regions. Without it, a free team inbox means spike.team addresses or Gmail delegation."
 date: "2026-05-01"
-lastmod: "2026-09-26"
+lastmod: "2026-09-09"
 draft: false
 weight: 62
 slug: "free-team-email"

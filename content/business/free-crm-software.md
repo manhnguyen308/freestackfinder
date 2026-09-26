@@ -2,7 +2,7 @@
 title: "Free CRM software in 2026: four plans for small teams"
 description: "HubSpot's free CRM stops at two users and 1,000 contacts. Zoho and Freshsales allow three, and Bitrix24's own pricing pages disagree on its seat limit."
 date: "2026-04-02"
-lastmod: "2026-09-26"
+lastmod: "2026-09-14"
 draft: false
 weight: 37
 slug: "free-crm-software"

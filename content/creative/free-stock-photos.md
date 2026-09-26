@@ -2,7 +2,7 @@
 title: "Free stock photo sites in 2026: licenses, attribution, and image choice"
 description: "None of these four photo libraries asks for attribution, but a free license still does not clear a visible logo, artwork, or recognizable person."
 date: "2026-04-15"
-lastmod: "2026-09-26"
+lastmod: "2026-09-07"
 draft: false
 weight: 63
 slug: "free-stock-photos"

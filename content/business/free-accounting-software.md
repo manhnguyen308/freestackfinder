@@ -2,7 +2,7 @@
 title: "Free accounting software for freelancers and small businesses in 2026"
 description: "Wave's Starter plan keeps cloud books and invoices free. Manager and GnuCash keep the ledger on your own computer, and Akaunting can run on your own server."
 date: "2026-04-24"
-lastmod: "2026-09-26"
+lastmod: "2026-09-15"
 draft: false
 weight: 74
 slug: "free-accounting-software"

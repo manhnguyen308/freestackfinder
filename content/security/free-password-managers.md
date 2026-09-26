@@ -2,7 +2,7 @@
 title: "Free password managers in 2026: sync, sharing, and recovery"
 description: "Bitwarden Free syncs unlimited devices, while NordPass Free allows one active session at a time. Dashlane dropped its free plan in September 2025."
 date: "2026-03-27"
-lastmod: "2026-09-26"
+lastmod: "2026-09-22"
 draft: false
 weight: 80
 slug: "free-password-managers"

@@ -2,7 +2,7 @@
 title: "Free Adobe Premiere Pro alternatives in 2026"
 description: "Resolve replaces Premiere's editing and color work for solo editors. Nothing free replaces After Effects Dynamic Link, so editors who rely on it should stay."
 date: "2026-03-25"
-lastmod: "2026-09-26"
+lastmod: "2026-09-01"
 draft: false
 weight: 52
 slug: "premiere-pro-alternatives"

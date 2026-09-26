@@ -2,7 +2,7 @@
 title: "Free PDF editors in 2026: edit and sign without paying"
 description: "Acrobat Pro is a subscription, but PDFgear edits PDF text free with no watermark or page cap. PDF24 and Sejda handle quick jobs in the browser."
 date: "2026-04-22"
-lastmod: "2026-09-26"
+lastmod: "2026-09-22"
 draft: false
 weight: 62
 slug: "free-pdf-editor-alternatives"

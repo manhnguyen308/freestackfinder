@@ -2,7 +2,7 @@
 title: "Free note-taking apps in 2026: match the app to the way you capture notes"
 description: "Apple Notes and Google Keep cost nothing on devices you already own. Standard Notes is the pick when every note must be encrypted, even on the free plan."
 date: "2026-04-14"
-lastmod: "2026-09-26"
+lastmod: "2026-09-19"
 draft: false
 weight: 65
 slug: "free-note-taking-apps"
