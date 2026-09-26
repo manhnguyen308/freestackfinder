@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87g
+**Current day:** 87h
 
 ## Current state
 
@@ -23,6 +23,13 @@
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 
 ---
+
+### Day 87h - Search box in the homepage hero
+
+- Date: 2026-09-26. Scoped to `layouts/index.html`, `static/css/style.css` (section 5), `FEATURE-STRATEGY.md`, and this log. No article, URL, or affiliate change.
+- Change: the hero now has a search field between the intro paragraph and the "Browse all guides" button. It is a plain GET form to `/search/` with the field named `q`, so pressing Enter or the Search button opens `/search/?q=<keyword>`. `search.js` already read `q` on load, so the search page fills its box with the same keyword and shows results; no script was added to the homepage. The label is screen-reader only, and the placeholder is "Try PDF editor or VPN", two terms that each return a guide.
+- Style: `.hero-search` is 560px wide, 52px tall, with a teal submit button inside the right edge. All colors are tokens (`--bg`, `--border-dark`, `--primary`, `--primary-bg` focus ring, `--primary-fill`), so dark mode needs no section 35 override. Below 640px the button and right padding shrink so the placeholder is not cut off.
+- Validation: in the local preview, typing "free vpn" and pressing Enter opened `/search/?q=free+vpn` with the box filled and 1 result; clicking the button with `notes & <b>` produced an encoded URL and the raw text in the search box. Checked at desktop width in dark mode and at 375px in light mode with no horizontal scroll. `run_quality_checks.py --with-counts` passed 3/3 with 50 articles (run with `PYTHONIOENCODING=utf-8`, since the Windows console crashes on the check mark character otherwise). Hugo 0.159.2 `--minify` built with no errors. `git diff --check` passed.
 
 ### Day 87g - Side gutter on category hub pages
 
