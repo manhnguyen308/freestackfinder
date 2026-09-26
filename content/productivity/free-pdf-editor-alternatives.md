@@ -221,7 +221,7 @@ Three of the five tools here have no paid tier, so the real comparison is Sejda,
 | Xodo | Xodo Web | $7.99 a month billed yearly | Unlimited use of 40+ online tools; the PDF Studio desktop editor is $9.99 a month billed yearly or a perpetual license |
 | Adobe Acrobat | Acrobat Standard | $14.99 a month on an annual plan | Full text and image editing, conversion, and signing; Acrobat Pro, at $19.99, adds redaction and e-signature workflows |
 
-Acrobat's annual plans are billed monthly, and cancelling after the first 14 days carries a fee of up to half the remaining commitment. Sejda's week pass is the cheapest way to cover a one-off batch of edits.
+Acrobat's annual plans are billed monthly, and cancelling after the first 14 days carries a fee of up to half the remaining commitment. The Acrobat prices are US figures before tax; Adobe adds tax, or shows a local price, according to the buyer's country. Sejda's week pass is the cheapest way to cover a one-off batch of edits.
 
 For most freelancers, students, small businesses, and home users, PDFgear or PDF24 Tools cover the full range of common tasks at no cost.
 

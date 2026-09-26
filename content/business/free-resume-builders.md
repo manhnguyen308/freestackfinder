@@ -198,17 +198,17 @@ A free tool covers a conventional one- or two-page resume. Consider a paid optio
 - You are applying to roles where portfolio presentation matters and want an integrated personal website alongside your resume
 - You want AI-assisted resume tailoring that matches your resume to a specific job description automatically
 
-Resume subscriptions are sold by the week, month, quarter, or year, and the renewal terms differ more than the features. Prices below are the US figures on each pricing page in September 2026, except Canva, which shows each country its own price:
+Resume subscriptions are sold by the week, month, quarter, or year, and the renewal terms differ more than the features. Prices below are the US figures on each pricing page in September 2026:
 
 | Builder | Paid plan | Price | You get |
 |---------|-----------|-------|--------------|
-| Canva | Pro | Set by country on Canva's [pricing page](https://www.canva.com/pricing/) | Pro templates and elements, 141 million stock assets instead of 4.7 million, brand kits |
+| Canva | Pro | $18 a month or $144 a year on Canva's [US pricing page](https://www.canva.com/pricing/?countryCode=us) | Pro templates and elements, 141 million stock assets instead of 4.7 million, brand kits |
 | Zety | Pro Package | $1.70 for a 14-day trial, then $23.95 every four weeks; $71.40 a year on the annual package | PDF and Word downloads, cover letter builder, resume check |
 | Novoresume | Premium | $21.99 a month, $39.99 a quarter, or $149.99 a year, paid once with no automatic renewal | Resumes longer than one page, several versions, cover letters, no Novoresume branding |
 | Kickresume | Premium | $19 a month, $27 a quarter, or $54 a year | 40 resume and cover letter templates, AI writer, ATS resume checker, personal website templates |
 | Google Docs, Indeed, Resume.com | None | Free | The free versions export a finished resume |
 
-Check the renewal line before paying for a trial. Zety renews automatically after 14 days, while Novoresume's plans end when the paid period does.
+Canva's figure is the US price before tax; outside the US, its pricing page shows a local price and adds local tax. Check the renewal line before paying for a trial. Zety renews automatically after 14 days, while Novoresume's plans end when the paid period does.
 
 For most job seekers, Canva or Google Docs covers the requirement at no cost. A resume depends on relevant experience, clear wording, and accurate specifics more than template design.
 

@@ -170,7 +170,7 @@ Unsplash is the only one of the four with its own paid tier, so the other paid r
 | Adobe Stock | 10 credits a month | $29.99 a month on an annual plan billed monthly | Ten standard assets a month with rollover for up to 12 months, and indemnification up to $10,000 |
 | Envato Elements | Core | From $16.50 a month | Unlimited downloads of photos, video, fonts, and design templates |
 
-Adobe Stock's annual plans carry a fee of half the remaining commitment if cancelled after 14 days, so a one-off project may fit a credit pack better than a subscription.
+Adobe Stock's rate is a US dollar price, and the tax added depends on the buyer's country. Its annual plans carry a fee of half the remaining commitment if cancelled after 14 days, so a one-off project may fit a credit pack better than a subscription.
 
 
 ## Start with the license, then choose the library

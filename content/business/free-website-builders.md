@@ -166,10 +166,10 @@ Apart from Google Sites, which charges nothing beyond the domain, Carrd's $19 ye
 | Google Sites | No builder plan | Free; you pay only for the domain | Nothing to upgrade |
 | Carrd | Pro Standard | $19 a year for 10 sites | Forms, embeds, analytics, no Carrd branding; the $9 Pro Lite plan removes branding but keeps a Carrd address |
 | WordPress.com | Personal | $4 a month billed yearly, $9 monthly | No WordPress.com ads, a free domain for the first year, 6 GB of storage; plugins start on Business at $25 billed yearly |
-| Wix | Light | Priced by country on the [plans page](https://www.wix.com/plans), billed yearly | No Wix ads, a free domain for the first year, 2 GB of storage; payments start on Core |
-| Canva Websites | Canva Pro | Priced by country on Canva's pricing page | Custom domain connection and Website Insights, plus the rest of Canva Pro |
+| Wix | Light | $17 a month, paid yearly in advance, on the [plans page](https://www.wix.com/plans) | No Wix ads, a free domain for the first year, 2 GB of storage; payments start on Core |
+| Canva Websites | Canva Pro | $18 a month or $144 a year | Custom domain connection and Website Insights, plus the rest of Canva Pro |
 
-For a blog, WordPress.com Personal costs $48 a year billed yearly. A shop on Wix needs Core or higher, because Light does not accept payments.
+For a blog, WordPress.com Personal costs $48 a year billed yearly. A shop on Wix needs Core or higher, at $29 a month billed yearly, because Light does not accept payments. Wix and Canva quote these US prices before tax; both set different prices by country, and tax is added according to the billing address.
 
 A site that takes enquiries also needs somewhere to keep contacts and send invoices; the [free CRM software](/business/free-crm-software/) and [free invoicing software](/business/free-invoicing-software/) guides cover both.
 

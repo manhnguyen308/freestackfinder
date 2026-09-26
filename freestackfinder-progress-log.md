@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-26
-**Current day:** 87c
+**Current day:** 87d
 
 ## Current state
 
@@ -15,12 +15,24 @@
 - Feature images: all 50 are 1200x630 WebP from generators in `scripts/images/` on the card-legible layout (Day 84a and 84c)
 - Product icons: all 50 feature images use real product icons instead of initials circles (Days 85c to 85n). Drawn glyphs from `image_helpers.glyph` appear only on cards that are not a single product or have no icon of their own. The 183 icon files in `scripts/images/logos/` each have a source row in `logos/SOURCES.md`; any new generator card should add its icon and source row the same way
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); all 50 articles had their paid plans and free limits rechecked 2026-09-26 (Day 87c); next rotation is Business, then Creative, Security + Cloud, and Video
-- Paid-plan tables: every article now has a table of each tool's paid step, price, and what it adds (Days 87b and 87c). Prices are US figures read in September 2026, except where a vendor prices by country (Canva, Wix, LanguageTool, CapCut) or in euros (MEGA, Matomo, Joplin, Tuta). Recheck these with the freshness rotation, because they go stale fastest
+- Paid-plan tables: every article now has a table of each tool's paid step, price, and what it adds (Days 87b and 87c). Prices are US figures read in September 2026. Canva, Wix, LanguageTool, CapCut, Adobe, and Box rows carry a note that local prices and tax differ by country (Day 87d); MEGA, Matomo, Joplin, and Tuta are priced in euros. Recheck these with the freshness rotation, because they go stale fastest
 - First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 
 ---
+
+### Day 87d - US prices and location notes for region-priced tools
+
+- Date: 2026-09-26. Scoped to 16 articles and this log. `lastmod` stays 2026-09-26 from Day 87c.
+- Canva: Pro is $18 a month or $144 a year and Business $25 a month or $250 a year per person, from Canva's pricing page with `?countryCode=us`, which states prices exclude tax. Updated in the resume builder, website builder, Canva alternatives, Canva Free vs Paid, and Illustrator alternatives tables and prose, with a note that Canva prices each country differently and adds local tax, and that some markets get daily and weekly Pro passes.
+- Wix: Light is $17 a month on a yearly plan paid in advance (Core $29), from the plans page, which says prices and currency vary by location and exclude tax set by the billing address; US review sites list the same figures.
+- LanguageTool: Premium is $69.90 a year or $24.90 a month at list price, from the USD prices in the plan data its pricing page loads ($119.80 for two years); the page usually shows a discount on these. Note added in the Grammarly alternatives guide.
+- CapCut: Pro is $19.99 a month or $179.99 a year, from CapCut's own Standard vs Pro article dated 2026-09-23, which says prices vary by region, platform, taxes, and promotions. Updated in the video editing software, Premiere alternatives, and Mac editing guides.
+- Photopea: Premium is $5 for 30 days or $12 for 90 days, bought as prepaid time, from a user-supplied screenshot of Photopea's account panel. Basic and Premium share PSD import and export and the editing tools; the ad-free point comes from Wikipedia's Photopea article. Updated in the Canva and Photoshop alternatives tables.
+- Adobe and Box: prices unchanged, with a note on each page that they are US figures before tax and that the amount depends on the buyer's country (Canva alternatives, Canva Free vs Paid, Illustrator, Photoshop, font websites, stock photos, PDF editors, video editing software, Premiere alternatives, open-source video editors, Dropbox alternatives, cloud storage comparison).
+- Working tree note: another session was adding star ratings to the same articles at the same time. This commit was staged from the committed versions of the 16 files plus these edits only, so the rating shortcode, its CSS, and the about-page rubric stay uncommitted for that session to finish.
+- Validation: the staged tree, exported on its own, passed `run_quality_checks.py --with-counts` 3/3 and built with Hugo 0.160.1 without errors. No dash or curly-quote characters were added, and no first-hand testing language was added.
 
 ### Day 87c - Paid plan comparisons across the other 49 articles
 

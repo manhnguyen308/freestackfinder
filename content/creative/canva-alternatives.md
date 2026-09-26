@@ -144,14 +144,14 @@ The alternatives' own upgrades are mostly cheaper than a design suite, and most 
 
 | Tool | Paid plan | Price | Paid extras |
 |------|-----------|-------|--------------|
-| Canva | Pro, then Business | Set by country on Canva's [pricing page](https://www.canva.com/pricing/), with daily and weekly Pro options in some markets | Pro: 141 million stock assets instead of 4.7 million, 3.6 million templates, bulk design; Business adds brand and team controls |
+| Canva | Pro, then Business | Pro $18 a month or $144 a year; Business $25 a month or $250 a year per person, on the [US pricing page](https://www.canva.com/pricing/?countryCode=us) | Pro: 141 million stock assets instead of 4.7 million, 3.6 million templates, bulk design; Business adds brand and team controls |
 | Adobe Express | Premium | $9.99 a month, billed monthly | All premium templates and assets, 250 generative credits a month; Firefly Pro, at $19.99, adds 4,000 credits for video and audio |
-| Photopea | Premium | Listed inside the Photopea editor | Removes the in-page ads |
+| Photopea | Premium | $5 for 30 days, or $12 for 90 days | No ads, with the same PSD and editing tools as the free editor |
 | Microsoft Designer | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Higher image-creation usage than the free account, plus the desktop Office apps |
 | Pixlr | Plus, then Premium | $1.99 a month billed yearly for Plus; $7.99 billed yearly for Premium | Plus removes ads and adds 80 AI credits a month; Premium adds all image, video, and audio models and 1,000 credits |
 | Picsart | Pro | $10.50 a month billed yearly, $15 monthly | All photo and video editing features, advanced background and object removal, monthly AI credits |
 
-Pixlr Plus is the cheapest way to remove ads from a browser editor here, while Adobe Express Premium is the closest like-for-like step against Canva Pro.
+Pixlr Plus is the cheapest way to remove ads from a browser editor here, while Adobe Express Premium is the closest like-for-like step against Canva Pro. The Canva and Adobe figures are US prices before tax. Both companies price differently by country and add local tax at checkout, and Canva also offers daily and weekly Pro passes in some markets.
 
 
 ## Templates, layers, or mobile editing

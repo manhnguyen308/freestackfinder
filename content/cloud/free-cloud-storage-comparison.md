@@ -154,7 +154,7 @@ At that point, compare the current subscription price with the administrative co
 | iCloud | iCloud+ | $0.99 a month for 50GB, $2.99 for 200GB, $9.99 for 2TB | Storage for backups, photos, and iCloud Drive |
 | Dropbox | Plus | $9.99 a month billed yearly | 2TB for one person, 30 days to restore deleted files |
 
-Google also sells storage-only Google One plans below AI Plus, and its plans page lists them in local currency. MEGA charges in euros wherever you live.
+Google also sells storage-only Google One plans below AI Plus, and its plans page lists them in local currency. MEGA charges in euros wherever you live, and Box lists US dollar prices with tax added for the billing country.
 
 
 ## Choose capacity, collaboration, or encryption

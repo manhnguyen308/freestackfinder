@@ -184,10 +184,10 @@ The subscription adds up over time in a way the one-time licenses do not. Three 
 | Adobe Creative Cloud Pro | Annual plan billed monthly | $69.99 a month after any introductory discount | About $2,520 |
 | DaVinci Resolve Studio | One-time license | $295 | $295 |
 | Final Cut Pro on Mac | One-time purchase, or Apple Creator Studio | $299.99, or $129 a year | $299.99, or $387 |
-| CapCut Pro | Subscription priced by region in the app | Varies by country | Varies by country |
+| CapCut Pro | Yearly or monthly subscription | $179.99 a year, or $19.99 a month | About $540 on the yearly plan |
 | Kdenlive, OpenShot, Shotcut | Open source | Free | $0 |
 
-The free version of Resolve is the usual first test; Studio becomes worth its one-time price when a codec, frame rate, or Neural Engine tool from the table above is part of regular work.
+These are US prices before tax. Adobe and CapCut both charge different amounts by country, and CapCut's price also changes between its mobile, desktop, and web apps. The free version of Resolve is the usual first test; Studio becomes worth its one-time price when a codec, frame rate, or Neural Engine tool from the table above is part of regular work.
 
 
 ## Resolve for depth, Kdenlive for open-source workflows

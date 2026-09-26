@@ -159,7 +159,9 @@ The subscription itself has two main price points, and only one alternative here
 | Inkscape | None | Free | No paid edition |
 | LibreOffice Draw | None | Free | No paid edition |
 | SVG-edit | None | Free | Open-source browser editor |
-| Canva | Pro | Set by country on Canva's pricing page | Premium templates and elements, brand kits, background removal |
+| Canva | Pro | $18 a month or $144 a year | Premium templates and elements, brand kits, background removal |
+
+The Adobe and Canva prices are for US buyers before tax. Both companies charge different amounts by country and add tax at checkout based on where the buyer lives.
 
 Affinity, which Canva now gives away free to individuals on Mac and Windows, is worth a test when `.ai` files arrive regularly: it imports AI and PSD files with layers and keeps vector, photo, and layout tools in one app. Its AI features need a Canva premium plan.
 

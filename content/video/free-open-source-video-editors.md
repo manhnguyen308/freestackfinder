@@ -128,7 +128,7 @@ Mac users who want a native editor can start with iMovie, a free App Store downl
 
 Auto-captions and motion tracking are thin in the open-source editing space, so CapCut and DaVinci Resolve are the practical options for them.
 
-None of the five open-source editors sells a paid edition, so paying means moving to a different product. The nearest paid steps, from US prices in September 2026, are DaVinci Resolve Studio at $295 once, Final Cut Pro on Mac at $299.99 once, and Adobe's Premiere plan at $22.99 a month on an annual plan. Kdenlive, Shotcut, OpenShot, Blender, and Olive accept donations instead.
+None of the five open-source editors sells a paid edition, so paying means moving to a different product. The nearest paid steps, from US prices in September 2026, are DaVinci Resolve Studio at $295 once, Final Cut Pro on Mac at $299.99 once, and Adobe's Premiere plan at $22.99 a month on an annual plan, a US price before local tax. Kdenlive, Shotcut, OpenShot, Blender, and Olive accept donations instead.
 
 
 ## Open-source editor assumptions to test

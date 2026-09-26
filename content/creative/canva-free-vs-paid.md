@@ -215,7 +215,7 @@ Before committing to Canva Pro, identify the bottleneck. The free tools below co
 - [Free Figma alternatives](/creative/figma-alternatives/) focus on collaboration for UI and product design.
 - [Free font websites](/creative/free-font-websites/) and [free stock photo sites](/creative/free-stock-photos/) can supply assets without a Canva Pro subscription.
 
-Canva sets Pro and Business prices by country, and its [pricing page](https://www.canva.com/pricing/) shows the local figure, along with daily and weekly Pro options in some markets. Pro lists 141 million stock assets and 3.6 million templates against Free's 4.7 million and 1.6 million, and an AI Pass add-on for Pro or Business raises the AI allowance further. K-12 schools and eligible nonprofits can get most premium features free. Hold the local Pro price against the alternatives' US prices in September 2026:
+In the US, [Canva Pro](https://www.canva.com/pricing/?countryCode=us) costs $18 a month or $144 a year, and Business costs $25 a month or $250 a year per person, before tax. Canva prices each country differently and adds local tax, and some markets also get daily and weekly Pro options. Pro lists 141 million stock assets and 3.6 million templates against Free's 4.7 million and 1.6 million, and an AI Pass add-on for Pro or Business raises the AI allowance further. K-12 schools and eligible nonprofits can get most premium features free. Hold Pro's $144 a year against the alternatives' US prices in September 2026:
 
 | Alternative | Paid plan | US price | Comparable Pro features |
 |-------------|-----------|----------|--------------|
@@ -223,6 +223,8 @@ Canva sets Pro and Business prices by country, and its [pricing page](https://ww
 | Pixlr | Premium | $7.99 a month billed yearly | All image, video, and audio models, 1,000 AI credits a month, no ads |
 | Picsart | Pro | $10.50 a month billed yearly | All photo and video editing features, background and object removal |
 | Microsoft Designer | Microsoft 365 Personal | $9.99 a month | More image-creation usage than the free account, plus the Office desktop apps |
+
+Adobe Express Premium's $9.99 is also a US price before tax. Adobe's store in other countries shows a local price, with tax added for that country.
 
 Before paying, complete one representative project with Canva Free and any external asset source you would realistically maintain. Note which blocked steps recur; those are the features that should justify an upgrade.
 

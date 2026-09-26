@@ -160,12 +160,12 @@ The alternatives have their own paid tiers, and two of them can be bought once i
 | Tool | Paid plan | Price | Paid checks and tools |
 |------|-----------|-------|--------------|
 | Grammarly | Pro | $12 a month as listed, after a 7-day trial | Full-sentence rewrites, tone adjustment, fluency suggestions, plagiarism and AI-text detection, 2,000 generation prompts instead of 100 |
-| LanguageTool | Premium | Priced by region and often discounted | Up to 150,000 characters per text field, unlimited paraphrasing, a style guide |
+| LanguageTool | Premium | $69.90 a year or $24.90 a month at list price, often discounted | Up to 150,000 characters per text field, unlimited paraphrasing, a style guide |
 | ProWritingAid | Premium | $10 a month billed yearly, $30 monthly, or $399 once | Unlimited report runs without the 500-word limit |
 | Hemingway Editor | Hemingway Editor 3 desktop | $19.99 once, for Mac or Windows | Offline editing and Word export, without the newer web features |
 | Google Docs | Google AI Pro, or Workspace Business Standard | $19.99 a month, or $14 per user a month | Gemini writing help inside Docs |
 
-For a writer who mainly wants structural reports, ProWritingAid's $399 one-time license equals about 33 months of Grammarly Pro at its listed $12 a month.
+LanguageTool's figures are its US dollar list prices. Its prices and taxes differ by country, so the checkout total can change with location. For a writer who mainly wants structural reports, ProWritingAid's $399 one-time license equals about 33 months of Grammarly Pro at its listed $12 a month.
 
 
 ## LanguageTool first, then specialist checks

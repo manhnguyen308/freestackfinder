@@ -185,17 +185,17 @@ Paid editing software still makes sense when:
 - you edit for clients and time savings matter more than license cost
 - you need stronger collaboration tools
 
-For some users, the better paid path is **DaVinci Resolve Studio**, which keeps the same basic workflow and adds the higher-end features Blackmagic reserves for paid users. The paid routes split between one-time licenses and subscriptions. Blackmagic, Adobe, and Apple each publish a US price, while CapCut sets its own by region. As of September 2026:
+For some users, the better paid path is **DaVinci Resolve Studio**, which keeps the same basic workflow and adds the higher-end features Blackmagic reserves for paid users. The paid routes split between one-time licenses and subscriptions. Blackmagic, Adobe, Apple, and CapCut published these US prices in September 2026:
 
 | Editor | Paid option | Price | Adds |
 |--------|-------------|-------|--------------|
 | DaVinci Resolve | Studio | $295 once | Up to 120fps at 32K, multiple GPUs, DaVinci Neural Engine tools, more Resolve FX, advanced HDR grading |
-| CapCut | Pro | Priced by region in the app | Premium templates, effects, and filters, plus 100 GB of cloud storage |
+| CapCut | Pro | $19.99 a month or $179.99 a year | Premium templates, effects, and filters, plus 100 GB of cloud storage |
 | OpenShot, Kdenlive, Shotcut | None | Free | Open-source projects funded by donations |
 | Adobe Premiere | Premiere plan | $22.99 a month, annual plan billed monthly | Premiere on desktop and mobile, Adobe Express Premium, 100 GB of storage |
 | Final Cut Pro | One-time license, or Apple Creator Studio | $299.99 once, or $12.99 a month | A Mac-only editor; the subscription bundles it with Apple's other creative apps |
 
-Resolve Studio costs about the same as 13 months of Premiere and does not expire, which makes it the cheaper route for a solo editor who plans to keep editing for years.
+CapCut says its prices vary by country, platform, and promotion, and Adobe adds tax according to the buyer's country, so the amounts outside the US will differ. Resolve Studio costs about the same as 13 months of Premiere and does not expire, which makes it the cheaper route for a solo editor who plans to keep editing for years.
 
 
 ## Match the editor to the project

@@ -149,7 +149,7 @@ The common mistake is downloading DaVinci Resolve because it sounds more profess
 
 - Final Cut Pro, Adobe Premiere Pro, and Camtasia may offer evaluation periods, but none is an ongoing free editor.
 
-- Apple now sells Final Cut Pro two ways: a one-time purchase for $299.99, or an Apple Creator Studio subscription at $12.99 a month or $129 a year that bundles it with Apple's other creative apps. DaVinci Resolve Studio is a $295 one-time license, and CapCut Pro is priced by region inside the app. iMovie, Kdenlive, and Shotcut have no paid tier.
+- Apple now sells Final Cut Pro two ways: a one-time purchase for $299.99, or an Apple Creator Studio subscription at $12.99 a month or $129 a year that bundles it with Apple's other creative apps. DaVinci Resolve Studio is a $295 one-time license, and CapCut Pro lists $19.99 a month or $179.99 a year in the US, with prices that vary by country and platform. iMovie, Kdenlive, and Shotcut have no paid tier.
 
 
 ## Switching to Mac from a Windows video editing workflow

@@ -194,12 +194,12 @@ Adobe's cheapest route to desktop Photoshop is not the Photoshop plan itself. Ad
 | Adobe Photoshop | Photography plan | $19.99 a month, annual plan billed monthly | Photoshop on desktop, web, and mobile, plus Lightroom and 1 TB of cloud storage |
 | Adobe Photoshop | Photoshop | $22.99 a month, annual plan billed monthly | Photoshop on desktop, web, and mobile, Adobe Express Premium, 100 GB of storage |
 | Adobe Photoshop | Creative Cloud Pro | $69.99 a month, annual plan billed monthly | Photoshop with more than 20 other Adobe apps |
-| Photopea | Premium account | Priced inside the editor | An ad-free editor |
+| Photopea | Premium | $5 for 30 days, or $12 for 90 days | The same PSD import, export, and editing tools as Basic, without ads |
 | GIMP | None | Free | No paid edition |
 | Krita | None from krita.org | Free | Paid app-store versions exist to fund development |
 | Pixlr | Premium | $7.99 a month billed yearly; the ad-free Plus tier is $1.99 | Plus removes ads; Premium adds all image, video, and audio models and 1,000 AI credits a month |
 
-Adobe's annual plans charge a fee if cancelled after the first 14 days, so a short project may fit the month-to-month price better. Affinity, now owned by Canva, is another route out: its combined vector, photo, and layout app is free for individuals on Mac and Windows and imports PSD files with layers, while its AI tools need a Canva premium plan.
+Adobe's figures are US prices before tax; in other countries its store shows local prices with tax included. Photopea sells Premium in prepaid 30-day and 90-day blocks, and the 90-day block works out to $4 a month. Adobe's annual plans charge a fee if cancelled after the first 14 days, so a short project may fit the month-to-month price better. Affinity, now owned by Canva, is another route out: its combined vector, photo, and layout app is free for individuals on Mac and Windows and imports PSD files with layers, while its AI tools need a Canva premium plan.
 
 
 ## Photopea in a browser, GIMP on the desktop

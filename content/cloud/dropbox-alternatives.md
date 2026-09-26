@@ -186,7 +186,7 @@ Dropbox's paid tiers make sense for teams that already depend on its sync client
 | Proton Drive | Proton Duo | $14.99 a month billed yearly | 2TB for up to two people, with Proton VPN, Mail, and Pass |
 | Box | Personal Pro | From $11.50 a month | 100GB with 5GB uploads |
 
-MEGA's Pro I gives the most space for the money, while Microsoft 365 Personal matches Dropbox's price with less storage but adds Word and Excel. Dropbox Standard, at $15 per user a month, is the step for teams.
+MEGA's Pro I gives the most space for the money, while Microsoft 365 Personal matches Dropbox's price with less storage but adds Word and Excel. Dropbox Standard, at $15 per user a month, is the step for teams. Box shows its prices in US dollars, and tax is added according to the buyer's country.
 
 
 ## When paid cloud storage is worth it

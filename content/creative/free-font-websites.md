@@ -172,7 +172,7 @@ None of the five sources has a subscription of its own, so paying means either a
 | Adobe Fonts | Adobe Express Premium, or a Creative Cloud app plan | $9.99 a month for Express Premium | The full Adobe Fonts collection of more than 30,000 fonts, against about 4,000 on Express Free |
 | Envato Elements | Core | From $16.50 a month | Unlimited font downloads alongside stock photos, video, and templates |
 
-A subscription library's fonts are licensed through the subscription, so check what the license allows for projects created before a cancellation.
+Adobe's figure is a US price before tax, and its store adds local prices and tax in other countries. A subscription library's fonts are licensed through the subscription, so check what the license allows for projects created before a cancellation.
 
 Photos for a layout come from the [free stock photo sites](/creative/free-stock-photos/), and custom lettering or a vector logo from a tool in the [free Illustrator alternatives guide](/creative/illustrator-alternatives/).
 
