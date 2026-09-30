@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-30
-**Current day:** 91b
+**Current day:** 91c
 
 ## Current state
 
@@ -21,6 +21,18 @@
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
+- Research and drafting: new articles and fact refreshes follow `docs/CONTENT-RESEARCH-WRITING.md` (Day 91c). Per-article research notes go in `docs/research/<slug>.md`, created only when an article is written or refreshed; none exists yet
+
+---
+
+### Day 91c - Research and drafting workflow for articles
+
+- Date: 2026-09-30. Scoped to project docs and this log: new `docs/CONTENT-RESEARCH-WRITING.md`, plus pointers in `CLAUDE.md`, `docs/SKILL.md`, and `docs/FRESHNESS-CHECKS.md`. No article, template, URL, or front matter change.
+- Source: a general research-writing method supplied by the user (brief, outline, research with citations, stronger openings, section feedback, voice matching, final review). Its process was adapted to the site; the article structure, archetype, humanizer standard, ratings, freshness checks, and screenshot rules stay as they were and take precedence.
+- What the new doc adds: a brief answered from the repo before drafting; a source order (vendor pricing page, vendor help docs, supplied screenshots, then third parties for background only); a claims table per article in `docs/research/<slug>.md` with source, date read, and a Confirmed, Narrowed, Dropped, or Needs evidence status; an outline that fills the six slots of `docs/SKILL.md` section 6 without changing them; two or three candidate openings tested against the silo; a Detect-mode review after each section; and a full draft review before the humanizer gate.
+- Left out on purpose: anecdote and rhetorical-question hooks, unsourced statistics and quotes, numbered reference lists, versioned draft files, and emojis. Section 9 of the new doc lists them.
+- Also fixed: the front matter example in `docs/SKILL.md` section 6 still showed `Best Free [Tool] in 2026 — [Hook]`, with a dash and title case. It now matches the live titles: `Free [tool] in 2026: [the limit or audience that sets this page apart]`.
+- Wiring: `CLAUDE.md` "When to read what" has a row for research and drafting; `docs/SKILL.md` daily publishing and GSC-led refresh point to the doc; `docs/FRESHNESS-CHECKS.md` asks the rotation to recheck and redate the notes rows.
 
 ---
 

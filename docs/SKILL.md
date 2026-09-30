@@ -48,6 +48,8 @@ Project-specific reinforcements:
 10. Confirm article appears in `public/<silo>/<slug>/index.html` after `hugo --minify`
 11. Update tracker + commit + push
 
+Steps 4 and 5 follow the research and drafting loop in `docs/CONTENT-RESEARCH-WRITING.md`: brief, research notes in `docs/research/<slug>.md`, outline, opening, and a review after each section.
+
 Day-labeling: new SGT calendar day (12:00 AM Asia/Singapore) = new day number. Multiple runs same SGT day = letter suffixes (Day 37a, 37b, 37c…).
 
 ### Same-day feature work
@@ -67,7 +69,7 @@ Day-labeling: new SGT calendar day (12:00 AM Asia/Singapore) = new day number. M
 ### GSC-led refresh
 1. Read `docs/GSC-NOTES.md` for the current opportunity table
 2. Identify pages in positions 8–20 with CTR below expectation
-3. Update title, description, intro, or comparison table for relevance
+3. Update title, description, intro, or comparison table for relevance (research any changed claim and draft the new opening as in `docs/CONTENT-RESEARCH-WRITING.md`)
 4. Update `lastmod` on changed articles (do not change `date`)
 5. Run validation + commit
 
@@ -116,7 +118,7 @@ grep -RIn "exact-term" content/business --include="*.md" | head -20
 ### Hugo front matter
 ```yaml
 ---
-title: "Best Free [Tool] in 2026 — [Hook]"
+title: "Free [tool] in 2026: [the limit or audience that sets this page apart]"
 description: "150–160 chars. Lead with a fact specific to this page. No Choose/Find/Compare/See/Pick opener, no criteria-list tail."
 date: "2026-MM-DD"
 lastmod: "2026-MM-DD"

@@ -33,6 +33,7 @@ For token-saving with filters and compresses command outputs before they reach y
 | Any task execution | `docs/SKILL.md` |
 | Any public-facing writing or editing | `website-content-humanizer.md` |
 | Article publishing | `CONTENT-STRATEGY.md` |
+| Researching, outlining, or drafting an article, or refreshing its facts | `docs/CONTENT-RESEARCH-WRITING.md` |
 | Feature work | `FEATURE-STRATEGY.md` |
 | Image generation | `docs/IMAGE-GUIDELINES.md` |
 | Affiliate / monetization | `docs/AFFILIATE-GUIDELINES.md` |

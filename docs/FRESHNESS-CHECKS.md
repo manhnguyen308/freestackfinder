@@ -17,6 +17,7 @@ Use this checklist when refreshing existing articles. It catches facts that can 
 - Verify volatile facts against official pricing pages, official help docs, product release notes, or current product documentation.
 - If official sources are unclear or inaccessible, remove the exact number and use reader-safe wording that tells users what to verify.
 - Update `lastmod` to the current local date only for articles changed.
+- When an article has a research notes file in `docs/research/`, recheck each row there and update its "Read on" date. When a refresh creates the first notes file for an article, follow `docs/CONTENT-RESEARCH-WRITING.md`.
 
 ## Claim Checklist
 
