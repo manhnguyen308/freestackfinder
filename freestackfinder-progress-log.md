@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-30
-**Current day:** 91e
+**Current day:** 91f
 
 ## Current state
 
@@ -22,6 +22,15 @@
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 - Research and drafting: new articles and fact refreshes follow `docs/CONTENT-RESEARCH-WRITING.md` (Day 91c). Per-article research notes go in `docs/research/<slug>.md`, created only when an article is written or refreshed; none exists yet
+
+---
+
+### Day 91f - Author avatar initials
+
+- Date: 2026-09-30. Scoped to `layouts/_default/single.html` and this log. No content, front matter, or CSS change.
+- Problem: the author box under every article showed "SFF" in the initials circle, which does not match the FreeStackFinder name beside it or the header logo.
+- Fix: the fallback avatar (used while `params.authorProfile.photo` is blank) now reads "FSF".
+- Validation: checked in the local preview on `microsoft-office-alternatives`; the circle shows FSF. `run_quality_checks.py --with-counts` passed 3/3. Hugo 0.159.2 `--minify` built with no errors, and the built `dropbox-alternatives` page carries FSF.
 
 ---
 
