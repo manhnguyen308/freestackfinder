@@ -1,8 +1,8 @@
 # FreeStackFinder — Project State
 
 **Site:** freestackfinder.com
-**Last updated:** 2026-09-26
-**Current day:** 87j
+**Last updated:** 2026-09-30
+**Current day:** 91a
 
 ## Current state
 
@@ -17,10 +17,27 @@
 - Weekly freshness rotation: Productivity checked 2026-09-23 (Day 84d); all 50 articles had their paid plans and free limits rechecked 2026-09-26 (Day 87c); next rotation is Business, then Creative, Security + Cloud, and Video
 - Paid-plan tables: every article now has a table of each tool's paid step, price, and what it adds (Days 87b and 87c). Prices are US figures read in September 2026. Canva, Wix, LanguageTool, CapCut, Adobe, and Box rows carry a note that local prices and tax differ by country (Day 87d); MEGA, Matomo, Joplin, and Tuta are priced in euros. Recheck these with the freshness rotation, because they go stale fastest
 - Star ratings: every rated tool section carries a free plan score of 1 to 5 stars (Day 87e), 238 in all. The rubric is public on `/about/#star-ratings`; each score and its reason is in `docs/RATINGS.md`, which the freshness rotation and new articles must keep in step
-- First-hand evidence: testing language is limited to two articles, `microsoft-office-alternatives` (Day 82a) and `dropbox-alternatives` (Day 85a)
+- First-hand evidence: testing language is limited to three articles, `microsoft-office-alternatives` (Day 82a), `dropbox-alternatives` (Day 85a), and `canva-alternatives` (Day 91a, five tools only; Picsart was not checked)
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
+
+---
+
+### Day 91a - Canva alternatives first-hand screenshot integration
+
+- Date: 2026-09-30. Third Path A article (807 GSC impressions), scoped to `content/creative/canva-alternatives.md`. Read `CLAUDE.md`, `docs/SKILL.md`, `docs/AGENT-WORKFLOW.md`, and the humanizer standard first. The `screenshot`, `verdict`, and `comparison-table` shortcodes and the folder convention were reused unchanged.
+- Evidence: viewed all 18 supplied files in `static/img/screenshots/canva-alternatives/` before writing any caption. `pixlr-ai-locked.png` was not supplied. The article had been rewritten since the brief's manifest was drafted, so placements follow the current text.
+- Screenshots inserted (15), each after the claim it supports: `canva-background-removal-paywall.png`, `canva-free-plan-limits.png`, `adobe-express-export-formats.png`, `adobe-express-stock-assets.png`, `adobe-express-storage.png`, `adobe-express-scheduling.png`, `adobe-express-paid-gate.png`, `photopea-file-type-support.png`, `photopea-export-formats.png`, `photopea-ads.webp`, `photopea-plan.png`, `ms-designer-ai-generation.png`, `ms-designer-tools.webp`, `ms-designer-ai-credits.png`, and `pixlr-ads-upgrade-prompt.png`.
+- Image handling: the three ads in the Photopea capture were for a crypto trading app, so the ad column is blurred and the caption says so. `photopea-ads` (473 KB) and `ms-designer-tools` (1.2 MB) were converted to WebP (50 KB and 125 KB). Skipped by agreement: `canva-upgrade-to-access-feature.png` (repeats the Canva trial panel), `pixlr-plan.png` (repeats the Pixlr prompt), and `photopea-psd-layers.png` (shows folders added to a flat PNG, not an imported layered PSD). Those three and the two replaced originals were moved to the git-ignored `.validation/screenshot-originals/canva-alternatives/` so they cannot be published.
+- Figures corrected by the fact-check: Canva's trial panel shows 5 Brand Kits on Pro, so the paid table no longer implies brand tools start at Business ("Business raises that to 100 Brand Kits"). Photopea's account panel lists Premium extras the table left out: 5 GB of PeaDrive instead of 0.5 GB, 3,000 AI credits a month, and twice the history steps. The panel showed euros; the table keeps the US price. Adobe Express "limited storage" is now "5GB of cloud storage", matching the 5.0 GB meter.
+- Hedges converted: Adobe Express storage is stated as 5GB; Microsoft Designer now states that the free account showed 15 AI credits left for the month in September 2026. Microsoft's own support page does not state the free allowance, so the article does not call 15 the allowance.
+- Not confirmed, left as is: GIF does not appear in the visible part of Adobe Express's format list; the article's GIF line is the general criteria list, not an Adobe claim. No screenshot shows an Adobe Express limit on social accounts, and the article makes no such claim. PSD import in Photopea rests on its own file-type list, without testing language. Pixlr's prompt shows $1.99, $7.99, and $19.99 a month without a billing period, which fits the table's yearly-billed prices; the Ultra tier is not in the table.
+- Methodology note: added "The free accounts behind these screenshots" before the tool reviews. It describes only what the screenshots show (export menus, storage and credit counters, upgrade prompts, the test post opened in Photopea, one image generated in Designer), says the captures do not measure export quality or speed, and says Picsart was not part of the check. It does not claim the test design was recreated in each tool, because only the Photopea captures show it.
+- Testing scope: first-hand wording covers Canva, Adobe Express, Photopea, Microsoft Designer, and Pixlr only. The Picsart section is unchanged, with no testing language or screenshot. No speed, timing, or benchmark figure was added. Star ratings in `docs/RATINGS.md` are unchanged.
+- Preservation: only `lastmod` changed in front matter (2026-09-13 to 2026-09-30, the only article updated in this run). Title, description, slug, date, weight, image, existing headings, links, and the Canva no-CTA status are unchanged.
+- Open items: `CLAUDE.md` "Article screenshots" still names only the Office article as having first-hand evidence. Pixlr's Ultra tier could be added to the paid table once its billing period is confirmed.
+- Validation: `run_quality_checks.py --with-counts` passed 3/3 with 50 articles and the same 5 possible orphans as before. `publish_checklist.py creative canva-alternatives` passed 8/8. `hugo --minify` built 476 pages with no errors or warnings. The built page has 15 `<figure class="article-screenshot">` elements, each with alt text, lazy loading, original width and height (including the two WebP files), a caption, and a source that resolves in `public/`. At a 375px viewport all 15 images load within 335px, the page has no horizontal overflow, and the console is clean.
 
 ---
 

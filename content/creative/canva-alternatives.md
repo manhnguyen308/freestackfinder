@@ -2,7 +2,7 @@
 title: "Free Canva alternatives in 2026: social posts and presentations"
 description: "Adobe Express is the closest free match for Canva's templates. Picsart suits work that starts on a phone, and Microsoft Designer drafts layouts with AI."
 date: "2026-03-19"
-lastmod: "2026-09-13"
+lastmod: "2026-09-30"
 draft: false
 weight: 85
 slug: "canva-alternatives"
@@ -25,6 +25,10 @@ Not every free design tool is a real Canva replacement. A few are stronger for s
 For solo creators, **Adobe Express** is the closest match to Canva's template-led workflow. If the work depends on layers and masks, **Photopea** is the better fit. **Microsoft Designer** provides AI-assisted starting points inside a Microsoft account. **Pixlr** focuses on quick browser edits, while **Picsart** is built around mobile creation.
 
 Canva Pro is still worth paying for if you repeatedly rely on background removal, shared brand assets, premium content, and smoother team workflows. Canva's plan boundaries around AI credits, background removal, storage, and brand tools can change, so verify the current plan page before moving a team or campaign into Canva.
+
+In September 2026, the Pro trial panel shown to our free Canva account listed background removal and design resizing as Pro features, along with 5 Brand Kits and 100GB of cloud storage.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/canva-background-removal-paywall.png" alt="Canva Pro trial panel comparing Pro and Business, with remove backgrounds and resize designs checked for Pro" caption="The Pro and Business comparison in Canva's trial panel, shown to our free account." >}}
 
 {{< comparison-table >}}
 columns:
@@ -72,6 +76,11 @@ A few things matter more than a tool's template count when you compare it agains
 - Ads and repeated upgrade prompts get in the way even when the core editor remains free.
 
 
+## The free accounts behind these screenshots
+
+Screenshots on this page come from the free versions of Canva, Adobe Express, Photopea, Microsoft Designer, and Pixlr, captured in September 2026. We recorded the export menus, storage and credit counters, and upgrade prompts shown below, opened our test social post in Photopea, and generated one image in Microsoft Designer. The screenshots show what each free plan displayed at the time; they do not measure export quality or speed, and Picsart was not part of this check.
+
+
 ## Five Canva alternatives for different workflows
 
 ### 1. Adobe Express: best overall free Canva alternative
@@ -80,9 +89,29 @@ A few things matter more than a tool's template count when you compare it agains
 
 {{< rating 4 >}}
 
-Adobe's browser and mobile design app handles social posts, flyers, presentations, short video, and light photo editing. The free tier includes templates, basic photo, video, and document tools, common export formats, a selection of Adobe Stock assets, and limited storage. Check the [current Adobe Express plan page](https://www.adobe.com/express/pricing.html) if storage, scheduling, or generative credits determine the decision.
+Adobe's browser and mobile design app handles social posts, flyers, presentations, short video, and light photo editing. The free tier includes templates, basic photo, video, and document tools, common export formats, a selection of Adobe Stock assets, and 5GB of cloud storage. Check the [current Adobe Express plan page](https://www.adobe.com/express/pricing.html) if storage, scheduling, or generative credits determine the decision.
+
+The Download panel on our free account listed PNG, JPG, PDF Standard, PDF Print, and PSD, and none of those formats carried a premium badge.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/adobe-express-export-formats.png" alt="Adobe Express Download panel with a file format list showing PNG, JPG, PDF Standard, PDF Print, and PSD" caption="The file format list in Adobe Express's Download panel, opened on our free account." >}}
+
+Stock search mixes free and paid results. A search for "Farm" returned 4,249 Adobe Stock results, and a crown badge marks the ones that need a paid plan.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/adobe-express-stock-assets.png" alt="Adobe Express asset search for Farm showing 4,249 Adobe Stock results, some with crown badges" caption="Adobe Stock results for 'Farm' in the free editor, with crown badges on premium assets." >}}
+
+Our account's storage meter confirmed that 5GB allowance in September 2026.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/adobe-express-storage.png" alt="Adobe Express cloud storage meter showing 518 KB of 5.0 GB used" caption="Our free Adobe Express account showed 518 KB of 5.0 GB of cloud storage used." >}}
+
+The free account can also open Adobe's content calendar, where a draft post sat on September 30.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/adobe-express-scheduling.png" alt="Adobe Express personal content calendar for September 2026 with a draft post on September 30" caption="The free account's content calendar shows a draft post on September 30, with options to schedule recent work and manage connections." >}}
 
 The gaps compared to Canva Pro are intentional. The deeper brand-management tools, bulk resize, stronger publishing controls, the full premium asset library, and unlimited access to Adobe's more advanced AI and editing features all sit on paid plans. Adobe Express does not offer as many paid tools as Canva, but the free version fits solo creators, students, and small businesses making social graphics, flyers, simple promos, and presentation visuals.
+
+Brand tools are one of those paid pieces. Our free account could name a brand, but its Brands page said "You'll need to upgrade to use Brands."
+
+{{< screenshot src="/img/screenshots/canva-alternatives/adobe-express-paid-gate.png" alt="Adobe Express Brands page with the message You'll need to upgrade to use Brands" caption="Adobe Express's Brands page on our free account, with the upgrade notice." >}}
 
 [Try Adobe Express free →](https://www.adobe.com/express/pricing.html)
 
@@ -94,6 +123,22 @@ The gaps compared to Canva Pro are intentional. The deeper brand-management tool
 {{< rating 3.5 >}}
 
 Photopea goes much deeper into image editing than Canva-style template tools, with layers, masks, and PSD support in the browser. The free experience includes PSD import and export, strong text and transform tools, and fast browser access with no install, at the cost of in-page ads and a steeper learning curve if you have never used a layered editor before.
+
+Photopea's start screen lists PSD, AI, XD, Figma, Sketch, PDF, and RAW files among the formats it opens.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/photopea-file-type-support.png" alt="Photopea start screen icons for PSD, AI, XD, FIG, Sketch, PDF, RAW, and other file types" caption="Supported file types on Photopea's start screen." >}}
+
+For output, the File menu has Save as PSD, and Export as covers PNG, JPG, WEBP, PDF, SVG, GIF, MP4, and a further list of formats.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/photopea-export-formats.png" alt="Photopea File menu with Save as PSD and an Export as submenu listing PNG, JPG, WEBP, PDF, SVG, GIF, MP4, DDS, and more" caption="Photopea's File menu with the Export as submenu and its More list open." >}}
+
+The ads sit in a column beside the canvas. With our test design open, three ads filled that column.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/photopea-ads.webp" alt="Photopea editor with a test social post on the canvas and a column of three ads on the right, blurred" caption="Photopea shows ads in a column beside the canvas while our test design is open. We blurred the ads in this screenshot." >}}
+
+Paying removes those ads without a subscription. Photopea's account panel lists the same features on both plans, with Premium adding 5 GB of PeaDrive storage instead of 0.5 GB, 3,000 AI credits a month, and twice as many history steps.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/photopea-plan.png" alt="Photopea account types panel comparing Free with PeaDrive 0.5 GB and Premium with PeaDrive 5 GB, no ads, and 3,000 AI credits a month" caption="Photopea's Free and Premium plans both list all features. Premium adds PeaDrive storage, removes ads, and includes AI credits, paid as one-time purchases." >}}
 
 It is the better pick when Canva's template workflow does not give enough control over thumbnails, layered graphics, or files that started in Photoshop. It does not replace Canva's stock assets, brand controls, or team-oriented template workflow.
 
@@ -110,7 +155,19 @@ If that sounds like your workflow, our full [free Photoshop alternatives guide](
 
 Microsoft Designer is free with a Microsoft account, and its free experience leans on AI-assisted image and design generation (within current usage limits), with background blur and removal, crop, text, and resize tools, and social-media-friendly layouts.
 
+We generated a 1024 x 1024 image from the prompt "Colorful night light city" and opened it in the editor.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/ms-designer-ai-generation.png" alt="Microsoft Designer Create an image page with the prompt Colorful night light city and one generated city image" caption="The generated image under My images in Microsoft Designer." >}}
+
+Its editor puts background removal, blur, and color changes in the same panel as erase, cutout, and upscale tools.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/ms-designer-tools.webp" alt="Microsoft Designer image editing panel with Background Remove, Blur, and Color, object tools, and enhancements beside the generated image" caption="Designer's image editing panel with the generated image open." >}}
+
 It helps most when generating a starting layout is more useful than building one from scratch. Manual layout control is lighter than in Canva or Adobe Express, and Microsoft can change AI credits or feature availability with its plan structure. It fits Microsoft account holders who want a draft they can refine, not a full vector or page-layout editor.
+
+Those credits run monthly. In September 2026, our free Microsoft account showed 15 AI credits left for the month.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/ms-designer-ai-credits.png" alt="Microsoft Designer credit counter with the tooltip You have 15 AI credits left this month" caption="The AI credit counter and its tooltip in Microsoft Designer." >}}
 
 [Try Microsoft Designer free →](https://www.microsoft.com/en-us/microsoft-365/microsoft-designer)
 
@@ -124,6 +181,10 @@ It helps most when generating a starting layout is more useful than building one
 Pixlr sits between the two camps, with light design tools and stronger photo editing than most template-first apps, all in the browser. The free version gives you browser-based editing, fast photo cleanup tools, simple layouts, templates, text effects, and enough depth for thumbnails, banners, and quick promo graphics.
 
 The free version shows ads and upgrade prompts, which paid tiers reduce while adding more AI tools, but Pixlr still does not bring its tools together as well as Adobe Express. It suits a job that moves between layout and image cleanup in one browser tab.
+
+AI tools draw on a monthly credit balance. Our free account used up its AI credits during the check, and Pixlr then showed the upgrade screen below.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/pixlr-ads-upgrade-prompt.png" alt="Pixlr You're out of AI Credits screen offering Plus, Premium, and Ultra plans" caption="Pixlr's out-of-credits screen offers Plus at $1.99, Premium at $7.99, and Ultra at $19.99 per month." >}}
 
 [Try Pixlr free →](https://pixlr.com/)
 
@@ -150,13 +211,17 @@ Canva Pro still earns its keep for three kinds of users:
 
 If that is your workflow, the paid upgrade saves real time. If you are a solo creator making occasional graphics, the alternatives above are usually enough.
 
+On our free Canva account, the Brand Kit page offered a 30-day Pro trial where Brand Templates would go.
+
+{{< screenshot src="/img/screenshots/canva-alternatives/canva-free-plan-limits.png" alt="Canva Brand Kit page with an empty Brand Templates section and a Try it free for 30 days button" caption="The Brand Templates section of the Brand Kit on our free Canva account." >}}
+
 The alternatives' own upgrades are mostly cheaper than a design suite, and most of them now sell AI credits as much as templates. Rates were taken from the vendors' sites in September 2026:
 
 | Tool | Paid plan | Price | Paid extras |
 |------|-----------|-------|--------------|
-| Canva | Pro, then Business | Pro $18 a month or $144 a year; Business $25 a month or $250 a year per person, on the [US pricing page](https://www.canva.com/pricing/?countryCode=us) | Pro: 141 million stock assets instead of 4.7 million, 3.6 million templates, bulk design; Business adds brand and team controls |
+| Canva | Pro, then Business | Pro $18 a month or $144 a year; Business $25 a month or $250 a year per person, on the [US pricing page](https://www.canva.com/pricing/?countryCode=us) | Pro: 141 million stock assets instead of 4.7 million, 3.6 million templates, bulk design, 5 Brand Kits; Business raises that to 100 Brand Kits and adds team controls |
 | Adobe Express | Premium | $9.99 a month, billed monthly | All premium templates and assets, 250 generative credits a month; Firefly Pro, at $19.99, adds 4,000 credits for video and audio |
-| Photopea | Premium | $5 for 30 days, or $12 for 90 days | No ads, with the same PSD and editing tools as the free editor |
+| Photopea | Premium | $5 for 30 days, or $12 for 90 days | No ads, 5 GB of PeaDrive storage instead of 0.5 GB, 3,000 AI credits a month, and twice the history steps; the PSD and editing tools match the free editor |
 | Microsoft Designer | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Higher image-creation usage than the free account, plus the desktop Office apps |
 | Pixlr | Plus, then Premium | $1.99 a month billed yearly for Plus; $7.99 billed yearly for Premium | Plus removes ads and adds 80 AI credits a month; Premium adds all image, video, and audio models and 1,000 credits |
 | Picsart | Pro | $10.50 a month billed yearly, $15 monthly | All photo and video editing features, advanced background and object removal, monthly AI credits |
