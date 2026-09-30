@@ -150,6 +150,8 @@ Never use: `featured:` · `faqs:` · bare unquoted date values · inline keyword
 - When one run updates many articles, do not give them all the same `lastmod`. Spread the dates so the site does not show one bulk edit day.
 - The newest date is the run date and goes to one article only. Give other days one to three articles each, with irregular counts, and mix silos on the same day.
 - Each new `lastmod` must be on or after that article's previous `lastmod` and its `date`, never in the future, and never earlier than any month the article's text cites (for example "September 2026" prices).
+- Give the newest eight days one article each, and never put two articles from the same silo on one day. The homepage Latest list and the hub pages print these dates side by side.
+- A re-spread with no content change may move a spread date earlier. Measure "previous lastmod" from before the bulk run, as Day 87i did, and keep every other limit above.
 - Never change `date`. Record the assignment in the progress log.
 
 ### Article structure

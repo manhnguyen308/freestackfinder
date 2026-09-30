@@ -36,6 +36,17 @@
 
 ---
 
+### Day 91c - One article per day at the top of the lastmod spread
+
+- Date: 2026-09-30. Scoped to seven article front matter `lastmod` values, `docs/SKILL.md` section 6, and this log. No `date`, copy, URL, or link change.
+- Problem: after Day 91b sorted lists by `lastmod`, the homepage Latest list showed pairs side by side (Sep 25 twice, Sep 24 twice). The Day 87i spread put one to three articles on each day from Sep 1 to 26.
+- Limit: every article carries September 2026 prices, so all 50 dates must fall in September. 50 articles in 30 days means some must share a day. The 49 articles outside Canva alternatives were last changed on 2026-09-26 (Days 87b to 87e), so none was moved past Sep 26.
+- Moves: `figma-alternatives` 25 to 18, `free-hr-software` 24 to 18, `notion-alternatives` 23 to 14, `free-email-service` 22 to 13, `free-spreadsheet-alternatives` 22 to 16, `free-screen-recording-software` 20 to 13, `best-free-2fa-apps` 19 to 15 (all September 2026). Each is earlier than its Day 87i date but not before September, its `date`, or its pre-Day 87b `lastmod`. None of the seven cites a specific September day.
+- Result: Sep 19 to 26 and Sep 30 hold one article each, so the homepage Latest list (Sep 30, 26, 25, 24, 23, 22) and the six Featured cards all show different dates. Sep 1 to 18 hold one to three articles each, in mixed silos. No silo has two articles on one day, so hub pages and "More from" cards have no repeats. The rule in `docs/SKILL.md` section 6 now says to keep the newest eight days at one article each, and allows an earlier date when re-spreading without a content change.
+- Validation: a script confirmed 0 violations (range, `date`, same silo on one day, more than three per day). `run_quality_checks.py --with-counts` passed 3/3. Hugo 0.159.2 `--minify` built with no errors; in the output every hub lists unique dates in descending order, and the Latest and Featured sections have no repeated date. `git diff --check` passed.
+
+---
+
 ### Day 91b - Sort article lists by lastmod
 
 - Date: 2026-09-30. Scoped to `layouts/index.html`, `layouts/_default/list.html`, `layouts/partials/head.html`, `layouts/_default/single.html`, `docs/SKILL.md`, and this log. No article, URL, or front matter change.
