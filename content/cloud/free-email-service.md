@@ -2,7 +2,7 @@
 title: "Free email services in 2026: privacy, storage, and access"
 description: "Proton Mail and Tuta encrypt stored mail but give free accounts 1GB. Gmail offers up to 15GB, shared with Drive and Photos, and no free custom domain."
 date: "2026-04-06"
-lastmod: "2026-09-13"
+lastmod: "2026-09-03"
 draft: false
 weight: 68
 slug: "free-email-service"

@@ -146,13 +146,24 @@ Never use: `featured:` · `faqs:` · bare unquoted date values · inline keyword
 - Do not inflate dates to keep them unique.
 - Do not change existing article dates unless correcting a real error.
 
-### Bulk update lastmod rule
-- When one run updates many articles, do not give them all the same `lastmod`. Spread the dates so the site does not show one bulk edit day.
-- The newest date is the run date and goes to one article only. Give other days one to three articles each, with irregular counts, and mix silos on the same day.
-- Each new `lastmod` must be on or after that article's previous `lastmod` and its `date`, never in the future, and never earlier than any month the article's text cites (for example "September 2026" prices).
-- Give the newest eight days one article each, and never put two articles from the same silo on one day. The homepage Latest list and the hub pages print these dates side by side.
-- A re-spread with no content change may move a spread date earlier. Measure "previous lastmod" from before the bulk run, as Day 87i did, and keep every other limit above.
-- Never change `date`. Record the assignment in the progress log.
+### Weekly lastmod rule
+- Within each silo, `lastmod` dates sit at least seven days apart, and each silo uses its own weekday, so no two articles on the site share a `lastmod`. Hugo sorts the homepage Latest list, the hubs, and the "More from" cards by `lastmod`, so readers see this spacing.
+
+| Silo | Weekday |
+|------|---------|
+| Video | Monday |
+| Security | Tuesday |
+| Creative | Wednesday |
+| Cloud | Thursday |
+| Productivity | Friday |
+| Business | Saturday |
+
+- When an article changes, set its `lastmod` to the latest silo weekday on or before the edit date. Never set a date after the real edit or in the future.
+- When one run changes several articles in a silo, the last one changed takes that weekday and the others take the weekdays before it, one per week.
+- If the new date is already taken in the silo, move the older article back one week, and keep moving older articles back until every pair in the silo is seven days apart.
+- A new article keeps its real publish day for `date` and `lastmod` (article date rule above). Move older articles in its silo back as above until each is at least seven days older than the one before, and put the new article on its silo weekday at its first update.
+- Moving `lastmod` earlier is allowed, even before a month the text cites (for example "September 2026" prices). Never move it before `date`, and never change `date`.
+- Record every reassignment in the progress log.
 
 ### Article structure
 1. Opening answer: the fact that drives the recommendation, then the picks

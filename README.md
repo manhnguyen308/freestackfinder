@@ -215,7 +215,7 @@ Run this checklist once per month:
 - [ ] Check Google Search Console for crawl errors
 - [ ] Look at Search Console Performance for new keyword opportunities
 - [ ] Review top 5 articles — are any facts, prices, or features outdated?
-- [ ] Update `lastmod` date on any articles you've changed
+- [ ] Update `lastmod` date on any articles you've changed, using the weekly lastmod rule in `docs/SKILL.md` section 6
 - [ ] Verify affiliate links in your top 10 articles still work and go to the right place
 - [ ] Check analytics for any surprising traffic patterns
 - [ ] Plan content for the next month (2 articles/week target)

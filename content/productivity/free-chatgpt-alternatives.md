@@ -2,7 +2,7 @@
 title: "Free ChatGPT alternatives in 2026: research, drafting, and coding options"
 description: "An alternative has to beat a ChatGPT free plan that already searches the web and reads uploads. Claude does it on long documents, Perplexity on cited sources."
 date: "2026-04-21"
-lastmod: "2026-09-26"
+lastmod: "2026-09-25"
 draft: false
 weight: 74
 slug: "free-chatgpt-alternatives"

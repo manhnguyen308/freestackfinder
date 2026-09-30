@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-30
-**Current day:** 91d
+**Current day:** 91e
 
 ## Current state
 
@@ -22,6 +22,17 @@
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 - Research and drafting: new articles and fact refreshes follow `docs/CONTENT-RESEARCH-WRITING.md` (Day 91c). Per-article research notes go in `docs/research/<slug>.md`, created only when an article is written or refreshed; none exists yet
+
+---
+
+### Day 91e - Weekly lastmod spacing within each silo
+
+- Date: 2026-09-30. Scoped to `lastmod` in 46 article files, `docs/SKILL.md` section 6, `docs/CONTENT-RESEARCH-WRITING.md`, `docs/FRESHNESS-CHECKS.md`, `CLAUDE.md`, `README.md`, and this log. No `date`, copy, URL, or link change.
+- Request: every article's `lastmod` one week apart. Across the whole site that needs 49 weeks, which would fall before every publish date (March to May 2026), so the spacing is per silo. Each silo takes its own weekday, so no two articles on the site share a date: Video Monday, Security Tuesday, Creative Wednesday, Cloud Thursday, Productivity Friday, Business Saturday.
+- Assignment: each silo keeps its Day 91d order, newest first, one week apart. Newest dates: Creative Sep 30 (`canva-alternatives`, its real edit day), Business Sep 26, Productivity Sep 25, Cloud Sep 24, Security Sep 22, Video Sep 21. Oldest: Business reaches Jul 4 (`free-crm-software`). 46 files changed; `canva-alternatives`, `illustrator-alternatives`, `dropbox-alternatives`, and `free-password-managers-teams` already held their slot. No date falls after the article's real last edit (Sep 26, or Sep 30 for Canva alternatives) or before its `date`.
+- Tradeoff, chosen by the site owner: 26 articles now show an Updated date in July or August, while 48 articles state prices checked in September 2026. The old rule that a cited month sets the earliest `lastmod` is dropped.
+- Rule: section 6 "Bulk update lastmod rule" is now "Weekly lastmod rule", with the weekday table and how to place an edited or new article. The research, freshness, CLAUDE.md, and README lines that pointed to the old rule now point to this one.
+- Validation: a script confirmed all 50 dates sit on the silo weekday, exactly 7 days apart within each silo, none shared sitewide, none before `date` or in the future. `run_quality_checks.py --with-counts` passed 3/3, and `--with-stale` found no stale articles. Hugo 0.159.2 `--minify` built with no errors. The homepage Latest list shows Sep 30, 26, 25, 24, 23, 22, and every hub lists unique dates newest first. `git diff --check` passed.
 
 ---
 

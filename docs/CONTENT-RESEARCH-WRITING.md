@@ -70,7 +70,7 @@ Do not cite other "best free" roundups, search-result snippets or summary boxes,
 - Give every tool at least one limit or weakness as well as what the free plan includes. A tool with only strengths in the notes is not researched yet.
 - If a source cannot be reached or is unclear, drop the exact figure and use the evergreen wording in `docs/FRESHNESS-CHECKS.md`. Never guess a number to fill the gap.
 - Mark each claim Confirmed, Narrowed, Dropped, or Needs evidence. Only Confirmed and Narrowed claims go into the article.
-- A month cited in the text, such as "September 2026 prices", sets the earliest allowed `lastmod` (bulk update rule, `docs/SKILL.md` section 6).
+- `lastmod` follows the weekly lastmod rule in `docs/SKILL.md` section 6: at least seven days apart within a silo, on the silo's weekday. A month cited in the text, such as "September 2026 prices", does not set a floor for it.
 
 ### Research notes file
 
