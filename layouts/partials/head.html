@@ -40,7 +40,7 @@
      Same arguments as the .Paginate call in _default/list.html: the first call builds the pager for both. */}}
 {{ $canonical := .Permalink }}
 {{ if eq .Kind "section" }}
-  {{ $pager := .Paginate .Pages.ByDate.Reverse }}
+  {{ $pager := .Paginate .Pages.ByLastmod.Reverse }}
   {{ if gt $pager.PageNumber 1 }}{{ $canonical = $pager.URL | absURL }}{{ end }}
 {{ end }}
 <link rel="canonical" href="{{ $canonical }}" />

@@ -165,7 +165,7 @@
   {{ range $excludeSlugs }}{{ if eq . $s }}{{ $skip = true }}{{ end }}{{ end }}
   {{ if not $skip }}{{ $more = $more | append . }}{{ end }}
 {{ end }}
-{{ $more = first 3 (sort $more "Date" "desc") }}
+{{ $more = first 3 (sort $more "Lastmod" "desc") }}
 {{ if $more }}
 <section class="related-section">
   <div class="container">

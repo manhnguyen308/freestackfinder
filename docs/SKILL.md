@@ -172,8 +172,9 @@ Put a free plan rating, `{{< rating 4 >}}` on its own line, under every tool hea
 
 ### Sorting rules
 - Homepage "Featured comparisons": sort by `weight` descending
-- Homepage "Latest comparisons": sort by `date` descending
-- Category pages: sort by `date` descending
+- Homepage "Latest comparisons": sort by `lastmod` descending
+- Category pages and "More from" cards: sort by `lastmod` descending
+- Every list that prints "Updated {lastmod}" must sort by `lastmod`, or an older date renders above a newer one
 
 ## 7. Affiliate safety rules
 

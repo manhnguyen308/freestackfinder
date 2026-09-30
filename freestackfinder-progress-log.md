@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-09-30
-**Current day:** 91a
+**Current day:** 91b
 
 ## Current state
 
@@ -21,6 +21,15 @@
 - Copy sameness: card descriptions, article openings, tool-section openers, and closings no longer share one formula across pages (Day 85h). The rule lives in "Sitewide sameness" in `website-content-humanizer.md`. Since Day 85j, `validate_front_matter.py` warns when a description repeats the formula; current content has 0 such warnings
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
+
+---
+
+### Day 91b - Sort article lists by lastmod
+
+- Date: 2026-09-30. Scoped to `layouts/index.html`, `layouts/_default/list.html`, `layouts/partials/head.html`, `layouts/_default/single.html`, `docs/SKILL.md`, and this log. No article, URL, or front matter change.
+- Problem: the homepage "Latest comparisons" list, the category hubs, and the "More from" cards on articles sorted by `date` but printed "Updated {lastmod}". On the live homepage "Updated Sep 7" (`canva-free-vs-paid`) sat above "Updated Sep 16" (`freecad-alternatives`), and on `/creative/` the guide updated Sep 30 (`canva-alternatives`) was last.
+- Change: all three now sort by `lastmod` descending (`.ByLastmod.Reverse`, and `sort ... "Lastmod" "desc"` for the "More from" cards). The hub `.Paginate` call in `head.html` changed with the one in `list.html`, because the first call builds the pager for both. Pages with no `lastmod` fall back to `date`, so a new article still sorts by its publish date. `docs/SKILL.md` section 6 "Sorting rules" now says `lastmod` and that any list printing "Updated" dates must sort by it.
+- Validation: Hugo 0.159.2 `--minify` built 476 pages with no errors. The homepage Latest list now runs Sep 30, 26, 25, 25, 24, 24. Every hub, including both pages of `/business/`, is in descending order, and `/business/page/2/` keeps its own canonical URL. `run_quality_checks.py --with-counts` passed 3/3 (run with `PYTHONIOENCODING=utf-8`, because the Windows console crashes the scripts on the box-drawing characters otherwise). `git diff --check` passed.
 
 ---
 

@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <div class="page-layout container">
-  {{ $pagesByDate := .Pages.ByDate.Reverse }}
-  {{ $paginator := .Paginate $pagesByDate }}
+  {{ $pagesByLastmod := .Pages.ByLastmod.Reverse }}
+  {{ $paginator := .Paginate $pagesByLastmod }}
 
   <!-- Category Header -->
   <header class="category-header">
@@ -30,7 +30,7 @@
     {{ end }}
   </header>
 
-  <!-- Articles Grid: sorted by date descending -->
+  <!-- Articles Grid: sorted by lastmod descending, matching the date each card shows -->
   {{ if $paginator.Pages }}
   <div class="articles-grid category-articles">
     {{ range $paginator.Pages }}
