@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-10-26
-**Current day:** 93d
+**Current day:** 93e
 
 ## Current state
 
@@ -23,6 +23,18 @@
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 - Research and drafting: new articles and fact refreshes follow `docs/CONTENT-RESEARCH-WRITING.md` (Day 91c). Per-article research notes go in `docs/research/<slug>.md`, created only for articles investigated or refreshed; 39 files now record the October 26 audit, including explicit verification gaps
 - Technical quality: shared header, keyboard navigation, footer links, filter state and contrast repairs are validated locally; CSS/scripts use content-versioned URLs. Extended Hugo 0.160.1 builds pass. Apex HSTS is configured for 300 seconds; www routing still requires domain-account access.
+
+---
+
+### Day 93e - Prepare remaining tooling repair
+
+- Date: 2026-10-26. Follow-up to the shared technical repairs. Inspected the governing project rules, latest progress state, build references, comparison shortcode/CSS and original audit evidence.
+- Changed: this log only in the repository. Website templates, styles, scripts, articles, dates, images, affiliate destinations and ads settings are unchanged. No feature or article shipped.
+- Tooling: prepared an external PowerShell repair for the one old Hugo entry in Machine PATH. It verifies the pinned Extended 0.160.1 executable by hash and version, defaults to a read-only plan, preserves raw expansion values and ordering, requires an existing administrator session for its explicit apply mode, saves a verified backup before writing and rechecks the result. The current session is not an administrator; no Machine, User or Process PATH value was changed.
+- Review: inspected the complete repair script and usage note, returned and rechecked the environment-refresh instructions, and verified the final read-only plan plus nine replacement-logic fixtures. Verdict: pass for the prepared artifact; unable to verify the administrator-only write. Applying the repair requires saving work and signing out/back in or restarting Windows before checking newly inherited PATH.
+- Comparison tables: the shortcode retains column/row scope markup while mobile CSS hides the header row and presents generated labels. Reviewed source and live mobile state, but no real screen-reader navigation barrier was established. Native testing was unavailable, so the table and voice-input candidates remain unverified and unchanged.
+- Validation: UTF-8 repository quality checks passed 3/3 for 50 articles, with zero front matter errors/warnings, zero broken internal links and all 50 feature images found. Five possible-orphan notices remain informational. PowerShell syntax/default dry-run and all nine read-only fixture cases passed. No production build is required because no public-facing files changed.
+- Follow-up: administrator execution and fresh-session Hugo resolution remain pending. Domain owner is applying the prepared www rule; no completion or live routing pass is claimed. Existing unrelated local changes are preserved.
 
 ---
 
