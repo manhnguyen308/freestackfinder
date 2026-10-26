@@ -7,12 +7,16 @@
 - **Build command:** `hugo --minify`
 - **Output directory:** `public`
 
-Verify local installation:
+Use the versioned official Hugo v0.160.1 release archive and verify its SHA-256 against the checksum published with that release. On 64-bit Windows, use `hugo_extended_0.160.1_windows-amd64.zip`; place the extracted binary in a versioned tools folder. After adding that folder to PATH, open a new terminal and verify the version. An older machine-level PATH entry can still take precedence over the user-level entry; avoid broad PATH edits and call the versioned binary explicitly until an administrator removes or reorders that specific old entry. Package-manager installs are not version-pinned.
 
-```bash
+```powershell
 hugo version
 # Expected: hugo v0.160.1+extended ...
+# Or verify the pinned binary directly (current workspace path):
+& 'C:\Website projects\Library\hugo_extended_0.160.1_windows-amd64\hugo.exe' version
 ```
+
+`docker-compose.yml` also pins `hugomods/hugo:base-0.160.1`, which provides Extended Hugo without additional Go, Node, or Git tools. With Docker Compose installed, run `docker compose run --rm hugo version` to check it, `docker compose run --rm --service-ports hugo server -D --bind 0.0.0.0` for preview, or `docker compose run --rm hugo --minify` for a production build.
 
 ## QA scripts
 
@@ -61,3 +65,12 @@ Before marking a deployment complete:
 8. `comparison-table` and `verdict` shortcodes render without error
 9. Schema/JSON-LD partial produces no build warnings
 10. Any newly published article appears in `public/<silo>/<slug>/index.html`
+
+## Static asset cache versioning
+
+The shared Hugo asset URL partial appends a 12-character SHA-256 query value to the stylesheet, main script, and search script URLs. Their files keep stable paths; the URL changes when file contents change so browsers request the updated asset. After changing these files, inspect generated HTML to confirm the versioned URLs are present.
+
+## Deployment response checks
+
+- `static/_headers` configures `Strict-Transport-Security: max-age=300` for `https://freestackfinder.com/*`. Confirm the deployed apex response includes the header before considering any HSTS duration increase.
+- Verify both apex and `www` HTTP and HTTPS after deployment. The www hostname needs correct DNS, certificate, and an edge redirect to the apex configured in the Cloudflare account; repository files alone do not establish that configuration. Do not report www routing as fixed until live responses confirm it.

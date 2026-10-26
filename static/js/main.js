@@ -8,6 +8,63 @@
   var nav = document.getElementById('main-nav');
 
   if (toggle && nav) {
+    var headerInner = nav.parentElement;
+    var headerActions = document.querySelector('.header-actions');
+    var mobileMenu = window.matchMedia('(max-width: 960px)');
+    var themeToggle = document.getElementById('theme-toggle');
+    var lastFocusedNavLink = null;
+
+    nav.addEventListener('focusin', function (event) {
+      lastFocusedNavLink = event.target;
+    });
+    document.addEventListener('focusin', function (event) {
+      if (!nav.contains(event.target) && event.target !== document.body) {
+        lastFocusedNavLink = null;
+      }
+    });
+    document.addEventListener('pointerdown', function (event) {
+      if (!nav.contains(event.target)) lastFocusedNavLink = null;
+    });
+
+    // Keep DOM focus order aligned with the mobile menu: its disclosure button
+    // comes before the links. Restore desktop source order at the breakpoint.
+    var placeNavigation = function (isMobile) {
+      if (!headerInner || !headerActions) return;
+      var focusedBeforeMove = document.activeElement;
+      var navFocusToPreserve = nav.contains(focusedBeforeMove)
+        ? focusedBeforeMove
+        : (isMobile && focusedBeforeMove === document.body ? lastFocusedNavLink : null);
+
+      if (isMobile && nav.previousElementSibling !== headerActions) {
+        headerActions.insertAdjacentElement('afterend', nav);
+      } else if (!isMobile && nav.nextElementSibling !== headerActions) {
+        headerInner.insertBefore(nav, headerActions);
+      }
+      if (!isMobile) {
+        nav.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      }
+
+      if (isMobile && navFocusToPreserve && !nav.classList.contains('open')) {
+        toggle.focus();
+      } else if (!isMobile && focusedBeforeMove === toggle && themeToggle) {
+        themeToggle.focus();
+      } else if (navFocusToPreserve && document.activeElement !== navFocusToPreserve && navFocusToPreserve.isConnected) {
+        navFocusToPreserve.focus();
+      }
+      lastFocusedNavLink = nav.contains(document.activeElement) ? document.activeElement : null;
+    };
+
+    placeNavigation(mobileMenu.matches);
+    var updateNavigationPlacement = function (event) {
+      placeNavigation(event.matches);
+    };
+    if (mobileMenu.addEventListener) {
+      mobileMenu.addEventListener('change', updateNavigationPlacement);
+    } else if (mobileMenu.addListener) {
+      mobileMenu.addListener(updateNavigationPlacement);
+    }
+
     toggle.addEventListener('click', function () {
       var isOpen = nav.classList.toggle('open');
       toggle.setAttribute('aria-expanded', String(isOpen));

@@ -18,13 +18,13 @@
     </div>
 
     <div class="search-filters" role="group" aria-label="Filter by category">
-      <button class="filter-btn active" data-filter="">All</button>
-      <button class="filter-btn" data-filter="Creative">Creative</button>
-      <button class="filter-btn" data-filter="Productivity">Productivity</button>
-      <button class="filter-btn" data-filter="Video">Video</button>
-      <button class="filter-btn" data-filter="Business">Business</button>
-      <button class="filter-btn" data-filter="Security">Security</button>
-      <button class="filter-btn" data-filter="Cloud">Cloud</button>
+      <button type="button" class="filter-btn active" data-filter="" aria-pressed="true">All</button>
+      <button type="button" class="filter-btn" data-filter="Creative" aria-pressed="false">Creative</button>
+      <button type="button" class="filter-btn" data-filter="Productivity" aria-pressed="false">Productivity</button>
+      <button type="button" class="filter-btn" data-filter="Video" aria-pressed="false">Video</button>
+      <button type="button" class="filter-btn" data-filter="Business" aria-pressed="false">Business</button>
+      <button type="button" class="filter-btn" data-filter="Security" aria-pressed="false">Security</button>
+      <button type="button" class="filter-btn" data-filter="Cloud" aria-pressed="false">Cloud</button>
     </div>
 
     <div id="search-results" aria-live="polite" aria-atomic="true"></div>
@@ -34,5 +34,5 @@
 {{ end }}
 
 {{ define "scripts" }}
-<script src="/js/search.js" defer></script>
+<script src="{{ partialCached "asset-url.html" "js/search.js" "js/search.js" }}" defer></script>
 {{ end }}

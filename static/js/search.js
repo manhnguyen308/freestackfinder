@@ -12,6 +12,10 @@
   var allPages = [];
   var activeFilter = '';
 
+  filterBtns.forEach(function (btn) {
+    btn.setAttribute('aria-pressed', String((btn.getAttribute('data-filter') || '') === activeFilter));
+  });
+
   var MONTHS = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
 
   function norm(s) {
@@ -106,8 +110,11 @@
 
   filterBtns.forEach(function (btn) {
     btn.addEventListener('click', function () {
-      filterBtns.forEach(function (b) { b.classList.remove('active'); });
-      btn.classList.add('active');
+      filterBtns.forEach(function (b) {
+        var selected = b === btn;
+        b.classList.toggle('active', selected);
+        b.setAttribute('aria-pressed', String(selected));
+      });
       activeFilter = btn.getAttribute('data-filter') || '';
       runSearch();
     });

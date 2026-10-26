@@ -20,7 +20,7 @@ CSS custom properties defined in `static/css/style.css`. Never rename — every 
 | `--accent-dark` | `#D97706` | Amber hover |
 | `--text` | `#1E293B` | Body text |
 | `--text-muted` | `#64748B` | Muted / meta text |
-| `--text-light` | `#94A3B8` | Placeholder / light text |
+| `--text-light` | `#596579` | Secondary metadata and placeholder text |
 | `--bg` | `#FFFFFF` | Page background |
 | `--bg-2` | `#F8FAFC` | Alternate section background |
 | `--bg-3` | `#F1F5F9` | Nav hover, table headers |
@@ -48,14 +48,14 @@ CSS custom properties defined in `static/css/style.css`. Never rename — every 
 | `--primary-light` | `#14B8A6` |
 | `--primary-bg` | `#0F2D30` |
 | `--primary-fill` / `--primary-fill-hover` | `#0F766E` / `#115E59` |
-| `--text` / `--text-muted` / `--text-light` | `#E2E8F0` / `#94A3B8` / `#7F8EA3` |
+| `--text` / `--text-muted` / `--text-light` | `#E2E8F0` / `#94A3B8` / `#8493A8` |
 | `--bg` / `--bg-2` / `--bg-3` | `#0F172A` / `#152033` / `#1E293B` |
 | `--border` / `--border-dark` | `#26334A` / `#3A4A63` |
 | `--success` / `--success-bg` | `#4ADE80` / `#0F2A1C` |
 | `--warning` / `--warning-bg` | `#FBBF24` / `#2A2110` |
 | `--danger` / `--danger-bg` | `#F87171` / `#2D1618` |
 
-Contrast on `--bg`: body text 14.5:1, muted text 7:1, teal links 9.6:1. `--accent` amber is unchanged, and the amber button keeps dark slate text in both themes. New components must use tokens rather than hex values; any color that cannot be a token needs a `:root[data-theme="dark"]` override in section 35.
+Contrast on `--bg`: body text 14.5:1, muted text 7:1, teal links 9.6:1. Dark `--text-light` has at least 4.68:1 contrast on `--bg-3`. `--accent` amber is unchanged, and the amber button keeps dark slate text in both themes. New components must use tokens rather than hex values; any color that cannot be a token needs a `:root[data-theme="dark"]` override in section 35.
 
 ---
 
@@ -114,9 +114,11 @@ Icon container: 44×44px circle (`border-radius: 50%`), background = matching ti
 
 ## Header and footer rules
 
-**Header:** Sticky, 64px height. Logo: `FreeStackFinder` wordmark, "Finder" in `var(--primary)` teal, 22px weight 800. Nav: one item per silo slug. Search: inline SVG icon button. Theme toggle: 36px icon button after search (`#theme-toggle`, `aria-pressed` for dark), showing a moon in light mode and a sun in dark mode; hidden when JavaScript is off. Mobile: hamburger toggle.
+**Header:** Sticky, 64px height. Logo: `FreeStackFinder` wordmark, "Finder" in `var(--primary)` teal, 22px weight 800. Nav: one item per silo slug. Search: inline SVG icon button. Theme toggle: 36px icon button after search (`#theme-toggle`, `aria-pressed` for dark), showing a moon in light mode and a sun in dark mode; hidden when JavaScript is off. At widths of 960px and below, JavaScript places the navigation after the header controls so the menu button precedes its links in keyboard order, then restores desktop order above that breakpoint. The header tightens spacing and wordmark size at 360px and below.
 
-**Footer:** 3-column dark-slate (`#0F172A`) grid. Columns: brand + tagline / categories / site links. Trust pill links row. Affiliate disclosure note with `/disclaimer/` link. All footer links must resolve to real Hugo routes — no `href="#"` placeholders.
+**Footer:** 3-column dark-slate (`#0F172A`) grid. Columns: brand + tagline / categories / site links. Trust pill links row. Affiliate disclosure note with `/disclaimer/` link. Navigation and footer lists retain native `ul`/`li` and anchor semantics; use `role="list"` where the CSS list reset would otherwise remove list semantics. All footer links must resolve to real Hugo routes — no `href="#"` placeholders.
+
+**Search filters:** Category controls are native buttons in a labeled group. Keep each button's `aria-pressed` state synchronized with the selected filter, including the initial "All" selection.
 
 **Trust/legal routes** (do not change these URLs):
 - `/about/`

@@ -1,0 +1,8 @@
+{{- $assetPath := . -}}
+{{- $allowedPaths := slice "css/style.css" "js/main.js" "js/search.js" -}}
+{{- if not (in $allowedPaths $assetPath) -}}
+  {{- errorf "asset-url partial received an unsupported static path: %q" $assetPath -}}
+{{- end -}}
+{{- $contents := os.ReadFile (printf "static/%s" $assetPath) -}}
+{{- $digest := crypto.SHA256 $contents -}}
+{{- return (printf "/%s?v=%s" $assetPath (substr $digest 0 12)) -}}

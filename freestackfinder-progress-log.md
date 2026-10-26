@@ -2,7 +2,7 @@
 
 **Site:** freestackfinder.com
 **Last updated:** 2026-10-26
-**Current day:** 93b
+**Current day:** 93d
 
 ## Current state
 
@@ -22,6 +22,21 @@
 - Writing-pattern audit (Day 86a): `docs/WRITING-PATTERN-AUDIT-2026-09-25.md` lists 5 strong and 13 groups of medium findings with file, line, quote, and fix. All of them were fixed in Day 86b; weak tells were left unless they sat beside a stronger one. Internal-link sentences no longer use the "For ..., see our" or "If you ..., see our" formula anywhere, so new articles should link from a claim sentence instead
 - Themes: the site has light and dark modes with a header toggle (Day 87f). Colors must come from the tokens in `style.css`; a new component with its own hex colors needs a dark override in section 35. See "Dark theme" in `docs/DESIGN-SYSTEM.md`
 - Research and drafting: new articles and fact refreshes follow `docs/CONTENT-RESEARCH-WRITING.md` (Day 91c). Per-article research notes go in `docs/research/<slug>.md`, created only for articles investigated or refreshed; 39 files now record the October 26 audit, including explicit verification gaps
+- Technical quality: shared header, keyboard navigation, footer links, filter state and contrast repairs are validated locally; CSS/scripts use content-versioned URLs. Extended Hugo 0.160.1 builds pass. Apex HSTS is configured for 300 seconds; www routing still requires domain-account access.
+
+---
+
+### Day 93d - Repair shared accessibility and build settings
+
+- Date: 2026-10-26. Scoped to shared templates, styles, scripts, build setup, technical documentation and this log. All 50 article files, publication dates, titles, descriptions, ratings, feature images, screenshots and affiliate destinations are unchanged.
+- Files: README.md, docker-compose.yml, docs/BUILD-VALIDATION.md, docs/DESIGN-SYSTEM.md, FEATURE-STRATEGY.md, layouts/_default/baseof.html, layouts/_default/search.html, layouts/page/search.html, layouts/partials/footer.html, layouts/partials/head.html, layouts/partials/asset-url.html, static/css/style.css, static/js/main.js, static/js/search.js, static/_headers and this log. Inspected the governing project instructions, original audit evidence and relevant surrounding source before review.
+- Changed: small-screen header spacing and the navigation breakpoint, menu DOM order and resize focus retention, short-screen menu scrolling, light and dark secondary-text contrast, native footer list links and selected search-filter states. CSS and script URLs now carry cached content hashes so returning browsers request matching files instead of reusing the previous four-hour asset cache.
+- Build settings: Compose now pins the verified Extended image base-0.160.1. The official Windows Extended 0.160.1 archive was checksum-verified and its executable built the site successfully. The user PATH entry is updated; Windows denied changes to the old machine PATH entry, so verification uses the explicit supported binary. Docker execution remains unverified because no Docker runtime is installed.
+- Security: the generated _headers file configures an apex-only HSTS max-age of 300 seconds, without includeSubDomains or preload. Live application must be checked after release. The www hostname still needs its account-level routing correction; a host-specific redirect with path and query preservation is prepared, and no broad redirect rule or DNS change was guessed.
+- Review: inspected the actual template, CSS, script, configuration and documentation changes, checked input/output trust boundaries and asset costs, and returned and rechecked keyboard-order, tablet-width, resize-focus and short-height corrections. Verdict: pass for the reviewed repository fixes; unable to verify domain-account changes, Docker execution, assistive-technology candidates or full cross-browser conformance.
+- Validation: UTF-8 quality checks passed 3/3 for 50 articles with zero front matter errors/warnings, zero broken internal links and all feature images found. Five existing possible-orphan notices remain informational. Supported Hugo builds produced 476 pages, 18 paginator pages and 210 aliases without build warnings/errors. Generated HTML checks found no broken local targets/fragments, duplicate IDs, malformed JSON-LD or missing image dimensions/alt attributes. A staged-source build is part of the final release gate.
+- Rendered checks: 108 layout observations across 18 pages, both themes and widths 320, 961 and 1440 showed no document overflow or completed broken images. Additional 360/375/390/768/769/900/960/1024/1920 and short-height probes checked header fit, menu Tab/Shift+Tab/Escape, repeated resize focus, last-link scrolling, header search, filter states, empty results and theme persistence. Versioned asset requests returned matching content hashes. Homepage and Office automated contrast checks passed; their accessibility scores were 100 and 99, without claiming full conformance.
+- Guardrails and follow-up: AdSense stays disabled, existing SEO/canonical/robots/sitemap behavior and author identity are preserved, and no new article or framework was introduced. Maintain the existing 14-day AdSense freeze after deployment. Confirm live asset versions and HSTS after push, then finish www routing with domain administration access. Leave the two unverified table/voice-input candidates unchanged until appropriate testing demonstrates a barrier.
 
 ---
 

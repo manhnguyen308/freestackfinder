@@ -13,24 +13,25 @@
 
 ## Prerequisites
 
-Install Hugo (Extended version required for SCSS if you add it later):
-```bash
-# macOS (Homebrew)
-brew install hugo
+Use Hugo Extended 0.160.1 for local builds. Package-manager commands can install a different version, so install the versioned official release archive and verify its SHA-256 against the checksum file published with that release. For 64-bit Windows, download `hugo_extended_0.160.1_windows-amd64.zip` from the [official Hugo v0.160.1 release](https://github.com/gohugoio/hugo/releases/tag/v0.160.1), extract `hugo.exe` to a versioned tools folder, and either add that folder to PATH or invoke the executable directly. In PowerShell, run `Get-FileHash 'C:\Downloads\hugo_extended_0.160.1_windows-amd64.zip' -Algorithm SHA256` and compare the result with the release checksum before extracting it.
 
-# Windows (Chocolatey)
-choco install hugo-extended
+Open a new terminal after changing PATH, then verify:
 
-# Linux
-sudo apt install hugo
-# Or download from https://github.com/gohugoio/hugo/releases
-```
-
-Verify installation:
-```bash
+```powershell
 hugo version
-# Should show: hugo v0.160.1+ ...
+# Expected: hugo v0.160.1+extended ...
 ```
+
+If an older machine-level Hugo entry appears before the new user-level PATH entry, an unqualified `hugo` command can still select the old version. Do not remove or rewrite all PATH entries; use the full path below until an administrator can remove or reorder the specific old machine entry. Then open a new terminal and confirm the selected version with `hugo version`.
+
+```powershell
+& 'C:\Website projects\Library\hugo_extended_0.160.1_windows-amd64\hugo.exe' version
+# Expected: hugo v0.160.1+extended ...
+```
+
+Use the same verified executable for the preview and build commands below if PATH still selects an older version.
+
+The repository also pins the matching container in `docker-compose.yml`. With Docker Compose available, use `docker compose run --rm hugo version`, or `docker compose run --rm --service-ports hugo server -D --bind 0.0.0.0` for local preview. These commands use the configured `hugomods/hugo:base-0.160.1` image.
 
 ---
 

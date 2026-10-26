@@ -1,6 +1,6 @@
 services:
   hugo:
-    image: hugomods/hugo:exts-0.128.0
+    image: hugomods/hugo:base-0.160.1
     volumes:
       - .:/src
     ports:

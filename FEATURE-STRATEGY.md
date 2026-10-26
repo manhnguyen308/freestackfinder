@@ -46,6 +46,7 @@ All items listed here are implemented. Do not re-propose as pending work.
 
 | Feature | Day | Category | Notes |
 |---------|-----|----------|-------|
+| Shared accessibility and header repairs | Day 93d | UX / Reliability | Header fit and menu focus, contrast, footer links, filter state, content-versioned CSS/scripts, staged apex HSTS and supported Hugo pin |
 | JSON-LD structured data | Early | SEO | Present on all article pages via `layouts/partials/schema.html` |
 | Feature image system | Day 30+ | UX | Python + Pillow, 1200×630 WebP, `scripts/images/` folder |
 | Homepage featured/latest sorting | Days 17, 46e | UX | Weight-sorted featured, date-sorted latest, curated collections |

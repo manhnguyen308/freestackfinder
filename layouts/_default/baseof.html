@@ -21,7 +21,7 @@
     </svg>
   </button>
 
-  <script src="/js/main.js" defer></script>
+  <script src="{{ partialCached "asset-url.html" "js/main.js" "js/main.js" }}" defer></script>
   {{ block "scripts" . }}{{ end }}
 
 </body>

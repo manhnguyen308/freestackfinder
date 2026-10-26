@@ -92,7 +92,7 @@
     document.documentElement.setAttribute('data-theme', theme);
   })();
 </script>
-<link rel="stylesheet" href="/css/style.css" />
+<link rel="stylesheet" href="{{ partialCached "asset-url.html" "css/style.css" "css/style.css" }}" />
 {{ if $adsEnabled }}
 <link rel="preconnect" href="https://pagead2.googlesyndication.com" crossorigin />
 <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
