@@ -247,8 +247,10 @@ Microsoft sells the desktop apps two ways, and each alternative has its own paid
 | Microsoft Office | Office Home 2024 | $179.99 once | Desktop Word, Excel, and PowerPoint on one PC or Mac, without extra OneDrive storage or Copilot |
 | Google Docs, Sheets, Slides | Workspace Business Starter | $7 per user a month | Custom-domain Gmail, 30 GB of pooled storage per user, admin controls; Gemini in Docs starts on Business Standard at $14 |
 | LibreOffice | None | Free | No premium tier exists |
-| OnlyOffice | DocSpace Business | $30 per admin a month at list price | Hosted collaboration rooms and 250 GB per admin; the desktop editors stay free |
+| OnlyOffice | DocSpace Business | $20 per admin a month at list price | Hosted collaboration rooms and 250 GB per admin; the desktop editors stay free |
 | WPS Office | WPS Pro+ | $69.99 a year | Full PDF editing, 20 GB of cloud storage, no advertising |
+
+The OnlyOffice row reflects its [current Business rate](https://www.onlyoffice.com/pricing), checked on October 26, 2026.
 
 Microsoft 365 Basic, at $19.99 a year, adds 100 GB of OneDrive storage and ad-free Outlook but no desktop apps, so it does not solve an Excel or Word dependency.
 

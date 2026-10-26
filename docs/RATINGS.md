@@ -29,13 +29,15 @@ Half stars sit between two levels.
 
 Scores and reasons as of 2026-09-26.
 
+Selected reasons were rechecked on 2026-10-26 against current free limits. Resume.com's score rose to 4.5 after confirming that its templates and downloads need no premium subscription. Other scores are unchanged; their corrected limits still fit the same rubric bands.
+
 ### Productivity
 
 **free-ai-writing-tools**
 | Tool | Stars | Reason |
 |---|---|---|
 | ChatGPT | 4.5 | Everyday text chats uncapped under abuse safeguards; files, images, voice, and analysis have separate limits |
-| Claude | 3.5 | Rolling usage allowance that sustained drafting reaches; projects and model choice are paid |
+| Claude | 3.5 | Rolling usage allowance that sustained drafting reaches; five free projects and document tools, with more usage and model choice paid |
 | Microsoft Copilot | 4 | Free on web and in Edge under credits and peak-time rules; desktop Office integration is paid |
 | Rytr | 2.5 | 10,000 characters a month, which a long document uses up; custom use cases paid |
 | Google Gemini | 4 | Current models at standard limits; 32k context without a Google AI plan |
@@ -55,8 +57,8 @@ Scores and reasons as of 2026-09-26.
 | Claude | 3.5 | Rolling five-hour allowance that heavy document work reaches; five projects |
 | Microsoft Copilot | 4 | Free service under credits and peak-time rules; Office app integration is paid |
 | Google Gemini | 4 | 32k context; limits refresh every five hours up to a weekly cap |
-| Perplexity AI | 4 | Basic search without a quota; five Pro Searches and three uploads a day |
-| Grok | 3.5 | Search at a lower allowance, watermarked images, no published cap, training opt-out only on business plans |
+| Perplexity AI | 4 | Basic search without a quota; current plan comparison lists three Pro Searches a day and limited uploads |
+| Grok | 3.5 | Limited free search and a shared weekly usage allowance; signed-in consumers can opt out of training |
 
 **free-pdf-editor-alternatives**
 | Tool | Stars | Reason |
@@ -172,7 +174,7 @@ Scores and reasons as of 2026-09-26.
 | Canva | 4.5 | PDF export without watermark; some templates are Pro |
 | Google Docs | 4.5 | PDF and Word export with no cap; few templates, no guidance |
 | Indeed Resume Builder | 4 | Free PDF download; basic design tied to Indeed |
-| Resume.com | 3.5 | Free PDF from basic templates; premium templates and upgrade prompts |
+| Resume.com | 4.5 | Free templates, PDF downloads and cover letters without a premium subscription; basic template-led design |
 
 **free-social-media-scheduling**
 | Tool | Stars | Reason |
@@ -195,7 +197,7 @@ Scores and reasons as of 2026-09-26.
 | Tool | Stars | Reason |
 |---|---|---|
 | Clockify | 4 | Five users with unlimited projects; billing rates paid, one-month report range |
-| Toggl Track | 4 | Up to five people with unlimited entries; billing and profitability paid |
+| Toggl Track | 4 | Up to three people with unlimited entries; billing and profitability paid |
 | RescueTime Lite | 3 | Two weeks of history; blocking and goals paid |
 | TimeCamp | 3.5 | Unlimited users but top-level projects only |
 | Harvest | 2.5 | One seat and two active projects |
@@ -266,9 +268,9 @@ Scores and reasons as of 2026-09-26.
 **illustrator-alternatives**
 | Tool | Stars | Reason |
 |---|---|---|
-| Inkscape | 5 | Full SVG editor with no paid tier; .ai files need a PDF or SVG step |
+| Inkscape | 5 | Full SVG editor with no paid tier; PDF-compatible AI import, without native AI export |
 | LibreOffice Draw | 3 | Free, but path and illustration tools are shallow |
-| SVG-edit | 2.5 | Free and offline, but basic shapes only and no layers |
+| SVG-edit | 2.5 | Free SVG editing with basic layers; a simpler toolset than a full desktop illustration editor |
 | Canva free tier | 2 | No SVG export or path editing on free |
 
 **photoshop-alternatives**
@@ -292,7 +294,7 @@ Scores and reasons as of 2026-09-26.
 **canva-free-vs-paid**
 | Tool | Stars | Reason |
 |---|---|---|
-| Canva Free | 4 | Finishes most single projects; background removal at volume, Magic Resize, brand kits, and Content Planner are paid |
+| Canva Free | 4 | Finishes most single projects and includes one three-color Brand Kit; fuller brand tools, Magic Resize and Content Planner are paid |
 
 ### Security
 

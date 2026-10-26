@@ -76,8 +76,9 @@ Included on the free plan:
 - Uploaded documents for editing and summarising
 - Strong instruction-following for tone, style, and length constraints
 - Web access on the free plan
+- [Claude Design, Slides, and Docs](https://claude.com/pricing)
 
-Sustained use hits a throttle, and more model choice, higher usage, projects, and priority access sit on paid plans. The allowance varies with conversation length, attachments, demand, and model choice. Anthropic explains those variables in its [usage guidance](https://support.claude.com/en/articles/9797557-usage-limit-best-practices). Keep a [dedicated grammar tool](/productivity/grammarly-alternatives/) for the final language pass.
+Sustained use hits a throttle. Free accounts can create up to five projects; paid plans remove that cap and add more model choice, higher usage, and priority access. The allowance varies with conversation length, attachments, demand, and model choice. Anthropic explains those variables in its [usage guidance](https://support.claude.com/en/articles/9797557-usage-limit-best-practices). Keep a [dedicated grammar tool](/productivity/grammarly-alternatives/) for the final language pass.
 
 [Use Claude free →](https://claude.ai)
 
@@ -133,7 +134,7 @@ That structure helps with cold emails, AIDA copy, and product descriptions, but 
 
 {{< rating 4 >}}
 
-Gemini's free access runs through its web and mobile apps, where free accounts can use Google's current Flash and Pro models at standard limits. Canvas, file analysis, connected apps, and image generation are available where the account and region support them. A 32,000-token context window applies to accounts without a Google AI plan.
+Gemini's free access runs through its web and mobile apps. Google's [US subscription page](https://gemini.google/us/subscriptions/) lists Flash-Lite for Free, with more models on paid plans. Canvas, file analysis, connected apps, and image generation are available where the account and region support them. A 32,000-token context window applies to accounts without a Google AI plan.
 
 Google's paid plans raise usage and context limits and add access to selected media and scheduling features. Availability can change with capacity, testing, account type, and region, so use Google's [current Gemini limits page](https://support.google.com/gemini/answer/16275805?hl=en) instead of relying on a fixed daily number.
 
@@ -162,10 +163,12 @@ Three of the five main paid plans cost about $20 a month, Microsoft 365 Personal
 | Tool | Main paid plan | Price | What it adds for writing |
 |------|----------------|-------|--------------------------|
 | ChatGPT | Plus | $20 a month | GPT-6 Astra, higher file, image, and research limits; the cheaper Go plan is priced by country |
-| Claude | Pro | $20 a month, or $17 a month billed yearly | Higher usage, projects beyond the free five, Research, Docs and Slides, the Opus models |
+| Claude | Pro | $20 a month, or $17 a month billed yearly | Higher usage, projects beyond the free five, Claude Code, Research, and more models |
 | Microsoft Copilot | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Copilot inside Word, Excel, PowerPoint, and Outlook, with higher usage than the free service |
-| Rytr | Unlimited | $7.50 a month billed yearly | Unlimited generation, one custom tone of voice, 50 plagiarism checks a month |
+| Rytr | Lite | $9 a month; yearly billing saves 20% | Unlimited generated characters |
 | Google Gemini | Google AI Pro | $19.99 a month | A 1 million token context window and Gemini in Docs; Google AI Plus, at $4.99, raises the context to 128,000 tokens |
+
+Rytr's row reflects its [current Lite plan](https://rytr.me/pricing), checked on October 26, 2026. Claude's free document tools remain available without Pro; the paid step raises limits and adds the features listed above.
 
 For professional writers who use these tools daily, one of those upgrades can be worth the cost. For occasional users, a few drafts per week, the free tiers above handle the workload without a subscription.
 

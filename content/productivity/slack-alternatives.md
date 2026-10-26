@@ -132,7 +132,7 @@ A new communication tool creates migration work: channels need owners, notificat
 
 Slack Pro and Business+ make sense when the workspace depends on integrations or custom workflows that would need to be rebuilt elsewhere. Inventory those connections and their owners before choosing a replacement.
 
-Enterprise compliance requirements are the other strong argument for Slack paid. Data retention policies, eDiscovery, audit logs, and SSO integrations are available on Slack's Business+ and Enterprise Grid plans at a level that free tools cannot always match with the same reliability and support guarantees.
+Enterprise compliance requirements are the other strong argument for Slack paid. Data retention policies, eDiscovery, audit logs, and SSO integrations are available on Slack's Business+ and Enterprise+ plans at a level that free tools cannot always match with the same reliability and support guarantees.
 
 Slack's own tiers are the benchmark for the alternatives' paid steps, two of which are quote-only. The US prices, taken from each service's site in September 2026:
 

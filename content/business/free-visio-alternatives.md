@@ -108,15 +108,15 @@ There is no paid tier, document cap, watermark, or expiring trial. The interface
 
 Lucidchart puts collaboration first, with presence indicators, comments, and simultaneous editing that are easier to find than in draw.io. The free tier is capped, though.
 
-The [free tier](https://www.lucidchart.com/pages/pricing) gives you:
-- Up to 3 editable documents, with up to 75 shapes in each
+The [free tier](https://lucid.co/lucidchart/trial) gives you:
+- Up to 3 editable documents, with up to 60 shapes in each
 - Basic flowchart, org chart, and process shapes
 - Real-time collaboration with up to 5 collaborators
 - Google Drive and Microsoft 365 integration
 - Basic export (PNG, PDF)
 
 The limits arrive quickly if diagrams become part of daily work:
-- More than 3 documents or 75 shapes in one document
+- More than 3 documents or 60 shapes in one document
 - Visio import and export, which start on the paid Individual plan
 - Advanced shape libraries (AWS, network, ERD, BPMN) without upgrading
 - Version history and advanced collaboration features

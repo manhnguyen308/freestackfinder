@@ -1,6 +1,6 @@
 ---
 title: "Free Adobe Illustrator alternatives in 2026: vector design without a subscription"
-description: "Inkscape covers logos, icons, and SVG work with no paid tier, but it cannot open native .ai files. SVG-edit handles quick browser edits without an account."
+description: "Inkscape edits SVG and imports PDF-compatible Illustrator files, but cannot save native .ai output. SVG-edit handles quick browser edits without an account."
 date: "2026-04-03"
 lastmod: "2026-09-23"
 draft: false
@@ -48,7 +48,7 @@ What you get without paying:
 
 The main catch:
 - Its menus and shortcuts differ from Illustrator, creating a learning curve for switchers
-- No native .ai file format support: Illustrator files must be exported as PDF or SVG first
+- PDF-compatible .ai files can be imported, but native .ai export is unavailable
 - Artboard handling takes more steps than it does in Illustrator
 - Performance on very complex files with thousands of objects can be slower
 - No cloud sync or collaboration features built in
@@ -92,12 +92,12 @@ Inside the free version:
 - Basic SVG shape tools (rectangle, ellipse, line, polyline, path)
 - Text tool with font selection
 - Import and edit existing SVG files
+- Create, rename, reorder, and delete layers
 - Export as SVG or PNG
 - Can run offline as a web app with no server dependency
 
 What it is missing:
 - Limited feature set compared with Inkscape
-- No layer management
 - Basic typography and path tools
 - Interface is minimal and exposes only the core SVG controls
 
@@ -138,14 +138,16 @@ That suits business owners, marketers, and non-designers who need finished graph
 | Inkscape | ✅ Full | ✅ Yes | ✅ Yes | SVG, PDF, EPS, PNG | Professional vector work |
 | LibreOffice Draw | ⚠️ Basic | ⚠️ Limited | ✅ Yes | ODG, PDF, SVG | Diagrams and page layouts |
 | SVG-edit | ⚠️ Basic | ❌ No | ✅ Yes | SVG, PNG | Quick SVG edits |
-| Canva Free | ⚠️ Shapes only | ❌ No | ❌ No | PNG, JPEG, PDF | Non-designer templates |
+| Canva Free | ⚠️ Shapes only | ❌ No | ⚠️ Canva Offline listed | PNG, JPEG, PDF | Non-designer templates |
+
+Canva's [current Free plan](https://www.canva.com/pricing/?countryCode=us) lists Canva Offline. Check its device support and feature limits before relying on it without a connection.
 
 
 ## Making the switch from Illustrator to Inkscape
 
 The main switching cost is interface familiarity. Inkscape uses different keyboard shortcuts and organizes tools differently from Illustrator, so plan time to rebuild shortcuts and templates before moving deadline-sensitive work.
 
-Key differences to know upfront: Inkscape uses XML-based SVG as its native format, which is different from Illustrator's proprietary .ai format. Files you want to open from Illustrator should be exported as PDF from Illustrator first: Inkscape opens PDF and extracts the vector content. Inkscape's equivalent of Illustrator's Pen tool is the Bezier tool (B key). The node editor (N key) functions similarly to Illustrator's direct selection tool.
+Key differences to know upfront: Inkscape uses XML-based SVG as its native format, which is different from Illustrator's proprietary .ai format. Its [import guide](https://inkscape-manuals.readthedocs.io/en/latest/import-other-formats.html) lists Illustrator 9 and newer files. PDF-compatible .ai files can open directly; exporting PDF or SVG from Illustrator is a fallback when an import fails. Inkscape does not save native .ai files. Its equivalent of Illustrator's Pen tool is the Bezier tool (B key). The node editor (N key) functions similarly to Illustrator's direct selection tool.
 
 Working with clients who use Adobe files: The format question matters most when you are delivering files to clients or print vendors who expect .ai or .eps files. Inkscape exports SVG and PDF natively, and many modern printers accept print-ready PDFs without issue. The problem arises when a client wants an editable .ai file to hand off to a different designer who uses Illustrator: SVG files can be opened in Illustrator but may not preserve every Inkscape-specific feature cleanly. For freelancers whose clients regularly request editable .ai deliverables, this is the clearest remaining reason to keep an Illustrator subscription. For freelancers who deliver final logos as SVG, PDF, and PNG (the most common format set for brand packages), Inkscape's output is complete.
 

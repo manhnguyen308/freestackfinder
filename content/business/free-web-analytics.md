@@ -78,7 +78,7 @@ For most small sites, the practical stack is two or three tools rather than one.
 
 GA4 is Google's current analytics platform, and the free version has no pageview cap, no seat limit on reporting, and no hard data retention wall for standard reports. The standard data retention window for event data is set to two months by default but can be changed to fourteen months in the admin settings: do this immediately after setup if you want longer historical comparison.
 
-GA4's free value is breadth: unlimited traffic, acquisition, engagement, and conversion tracking; up to 500 distinct event types per property; Looker Studio integration; Search Console integration; and basic audience and funnel reports. It is the broadest free dashboard for understanding where visitors come from and what they do after they arrive.
+GA4's free value is breadth: unlimited traffic, acquisition, engagement, and conversion tracking; Looker Studio integration; Search Console integration; and basic audience and funnel reports. Google's [event collection limits](https://support.google.com/analytics/answer/9267744?hl=en) set no cap on distinctly named events for web data streams; the 500-event-name limit applies per app user in app streams. It is the broadest free dashboard for understanding where visitors come from and what they do after they arrive.
 
 The limits are complexity and compliance. Raw event-level export requires BigQuery, which is free within quota limits but adds setup work. Some advanced predictive audiences and modelled conversion features depend on higher data volumes, and there is no SLA or guaranteed support on the free tier. If you are in the EU or targeting EU visitors, cookie consent and consent mode need to be handled correctly.
 

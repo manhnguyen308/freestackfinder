@@ -186,9 +186,9 @@ Pro is right for production speed. The caveat: do not let Canva be the only tool
 
 ### The team of three running a small agency or non-profit
 
-Compare Pro or Teams when shared brand assets and approvals become routine.
+Compare Pro or Business when shared brand assets and approvals become routine.
 
-Shared brand assets and team folders become relevant when three people need the same current logo, colors, templates, and approval path. Check the current seat and collaboration terms before choosing between Pro and Teams.
+Shared brand assets and team folders become relevant when three people need the same current logo, colors, templates, and approval path. Check the current seat and collaboration terms before choosing between Pro and Business.
 
 ### The job seeker building one resume
 

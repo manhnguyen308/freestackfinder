@@ -147,12 +147,14 @@ At that stage, Zoho Workplace (paid) or Google Workspace is a simpler option tha
 | Provider | Business plan | Price per user | Includes |
 |----------|---------------|----------------|--------------|
 | Zoho | Mail Lite | $1 a month billed yearly | Custom-domain mail with IMAP and POP access, and no five-user cap |
-| Zoho | Workplace Standard | $3 a month billed yearly, $4 monthly | 30 GB of mail per user, 100 GB of team file storage, and Zoho's office apps |
+| Zoho | Workplace Standard | $3 a month billed yearly, $4 monthly | 30 GB of mail per user, Zoho's office apps, and 100 GB of team file storage for 3 to 10 users; smaller teams get 10 GB per user |
 | Spike | Team | $4 a month billed yearly | A free custom email domain and Spike AI |
 | Proton | Mail Essentials | $6.99 a month billed yearly | 15 GB per user, three custom domains, and calendar appointment scheduling |
 | Tuta | Revolutionary with multi-user support | €3 a month | 20 GB and 15 aliases per member, with custom domain addresses |
 | Google | Workspace Business Starter | $7 a month | Gmail on your domain, 30 GB of pooled storage per user, and the admin console |
 | Microsoft | Microsoft 365 Business Basic | $7 a month, paid yearly | Outlook on your domain, web and mobile Office apps, and Teams |
+
+The [Zoho Workplace file-storage allowance](https://www.zoho.com/workplace/pricing.html) was checked on October 26, 2026; the team size affects the included storage.
 
 A five-person team on Zoho Mail Lite pays $5 a month, the same team on Google or Microsoft pays $35, and the difference buys the office suite and admin tools around the mailbox.
 

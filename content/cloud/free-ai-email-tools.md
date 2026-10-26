@@ -93,14 +93,14 @@ ChatGPT drafts and revises messages from instructions supplied in a separate cha
 - Web and mobile access, with model and tool availability that can change
 - Works for any email type: professional, sales, customer service, personal
 
-The copy-paste workflow is the trade-off:
-- No direct Gmail or Outlook integration: you copy and paste in both directions
-- No access to your email history, contacts, or threads
+The copy-paste workflow keeps inbox connections optional:
+- You copy email context into the chat and paste the finished draft back
+- With no inbox connected, email history and threads must be supplied manually
 - Some models, reasoning modes, uploads, and other tools have separate limits
 
 That separation suits longer drafts where you want to control exactly what context leaves the inbox. Do not paste confidential, regulated, or employer-restricted information into a consumer AI account.
 
-The lack of inbox integration adds a manual checkpoint: you decide what to paste and can remove identifying details first. OpenAI's [Free Tier FAQ](https://help.openai.com/en/articles/9275245) says available models and limits can change, so the in-product notice is the reliable source for a specific account.
+Leaving the inbox unconnected adds a manual checkpoint: you decide what to paste and can remove identifying details first. ChatGPT also supports [authorized email connections](https://help.openai.com/en/articles/11487775-connected-apps-in-chatgpt), with availability depending on the plan, region, account, and workspace. OpenAI's [Free Tier FAQ](https://help.openai.com/en/articles/9275245) says available models and limits can change, so the in-product notice is the reliable source for a specific account.
 
 
 ### 4. Boomerang for Gmail: best free AI email quality scorer
@@ -170,7 +170,7 @@ rows:
   - tool: ChatGPT free
     drafting: "Yes: full drafts"
     summarization: Yes (paste thread)
-    integration: None (copy/paste)
+    integration: Manual copy/paste here; connections vary by account
     free_limit: Limits vary by model and tool
   - tool: Boomerang
     drafting: No (scoring only)
@@ -211,7 +211,7 @@ For teams that have outgrown individual free tools, the paid tiers of Compose AI
 |------|-----------|-------|--------------|
 | Gmail | Google AI Plus, or Workspace Business Starter | $4.99 a month, or $7 per user a month | Gemini in Gmail for drafting and thread summaries; AI Plus also includes 400 GB of storage |
 | Compose AI | Premium | $9.99 a month billed yearly | 25,000 generated words a month, unlimited rephrasing and autocomplete, 50 one-click replies |
-| ChatGPT | Plus | $20 a month | Higher limits and newer models, still without inbox access |
+| ChatGPT | Plus | $20 a month | Higher limits and authorized email connections where available |
 | Boomerang | Personal | $4.98 a month billed yearly | Unlimited scheduling credits; Pro, at $14.98, adds Respondable's advanced scores |
 | Spike | Pro | $6 per user a month billed yearly, $8 monthly | Up to three email addresses, unlimited search history, 5 GB of storage |
 | Outlook | Microsoft 365 Personal | $9.99 a month or $99.99 a year | Copilot inside Outlook and the other Office apps |
@@ -221,6 +221,6 @@ The Gmail and Outlook upgrades keep drafting inside the provider you already tru
 
 ## Start outside the inbox, then add access deliberately
 
-Add access one step at a time, and only when the step before it runs out. Built-in **Gmail Smart Compose** reads nothing new. **ChatGPT** sees only what you paste, and an extension such as **Compose AI** or **Boomerang** asks for permission to read and manage the inbox. On a work account, that last step needs the account owner's approval before it needs a free trial.
+Add access one step at a time, and only when the step before it runs out. Built-in **Gmail Smart Compose** reads nothing new. A manual **ChatGPT** chat lets you choose which email text to share. Connecting ChatGPT or an extension such as **Compose AI** or **Boomerang** asks for inbox permissions. On a work account, that step needs the account owner's approval before it needs a free trial.
 
 Pair these tools with a provider from the [free email service guide](/cloud/free-email-service/) and a reusable [HTML email signature](/cloud/free-email-signature/). For writing beyond email, the [free AI writing tools guide](/productivity/free-ai-writing-tools/) compares drafting and revision tools.

@@ -27,7 +27,7 @@ The decision is less about replacing the QuickBooks brand and more about replaci
 
 QuickBooks handles payroll, inventory, tax preparation, and multi-user access that free tools often omit. A freelance designer, consultant, or developer may only need to track income and expenses, send invoices, and prepare records for an accountant. In that smaller workflow, much of the subscription is paying for capacity the business does not use.
 
-QuickBooks does have a free plan now, but it is sized for a very small business. [QuickBooks Free](https://quickbooks.intuit.com/online/free/) allows one user, one connected bank account, and two invoices and two receipt uploads a month, with no accountant access, mobile app, or third-party integrations. Anyone billing more than two clients a month is back to a paid plan.
+QuickBooks does have a free plan now, but it is sized for a very small business. [QuickBooks Free](https://quickbooks.intuit.com/online/free/) allows one user, one connected bank account, and two invoices and two receipt uploads a month, with no accountant access, mobile app, or third-party integrations. Qualifying accounts that enable [QuickBooks Payments](https://quickbooks.intuit.com/pricing/) can send unlimited invoices, though payment processing carries fees. Without that exception, sending more than two invoices a month requires a paid plan.
 
 Wave keeps its core accounting workflow outside a recurring fee and charges for payment processing, payroll, and Pro features instead. That model makes it a usable free product for a solo business, though its bank-feed and support boundaries still need checking before a switch.
 
@@ -116,7 +116,7 @@ If you have outgrown Wave and want a more guided freelancer-accounting workflow,
 | Invoice Ninja | ✅ Yes (5 clients) | ✅ Unlimited | ❌ No | Hourly billing, project work |
 | GnuCash | ✅ Yes | ✅ Yes | ⚠️ Manual import | Offline, privacy-first users |
 | FreshBooks | ❌ Trial only | ✅ Yes | ✅ Yes | Evaluation before paying |
-| QuickBooks | ⚠️ QuickBooks Free, one user | ⚠️ 2 a month free | ✅ One account free | Employees, inventory, payroll |
+| QuickBooks | ⚠️ QuickBooks Free, one user | ⚠️ 2/month; unlimited with eligible Payments enabled | ✅ One account free | Employees, inventory, payroll |
 
 
 ## When QuickBooks still earns its fee

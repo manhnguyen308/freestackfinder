@@ -1,6 +1,6 @@
 ---
 title: "Free time tracking software in 2026 for billable work"
-description: "TimeCamp is the only free tracker here with no user cap. Clockify and Toggl stop at five users, and Harvest's free invoicing covers one seat and two projects."
+description: "TimeCamp has no free user cap; Clockify allows five people and Toggl three. Harvest combines time tracking and invoicing for one seat and two active projects."
 date: "2026-04-16"
 lastmod: "2026-09-26"
 draft: false
@@ -24,14 +24,14 @@ author: "FreeStackFinder Team"
 
 ## Team size now decides the free tier
 
-**Clockify** and **Toggl Track** both allow five free users, with Clockify leaning toward shared projects and Toggl toward a quick personal timer. **TimeCamp** removes the user cap for teams with a flat project list, and **RescueTime Lite** records desktop activity in the background instead of relying on manual starts and stops. Paid plans become relevant for approvals, payroll links, client reports, and administrative controls.
+**Clockify** allows five free users and **Toggl Track** allows three, with Clockify leaning toward shared projects and Toggl toward a quick personal timer. **TimeCamp** removes the user cap for teams with a flat project list, and **RescueTime Lite** records desktop activity in the background instead of relying on manual starts and stops. Paid plans become relevant for approvals, payroll links, client reports, and administrative controls.
 
 Freelancers should choose based on whether they need clean personal timers or invoices from tracked work. Agencies should look harder at project, client, and reporting limits. Teams need to know whether every person can track time for free, because per-seat pricing is where paid time tracking gets expensive quickly.
 
 
 ## Timers are usually free; administration is not
 
-Time-tracking plans often leave timers free and charge for approvals, billing rates, invoicing, or administration. [Harvest's free plan](https://www.getharvest.com/pricing) is limited to one seat and two projects, while [Toggl Track's free plan](https://toggl.com/track/pricing/) supports up to five users. A team should compare those caps before choosing a tool that later charges per seat.
+Time-tracking plans often leave timers free and charge for approvals, billing rates, invoicing, or administration. [Harvest's free plan](https://www.getharvest.com/pricing) is limited to one seat and two projects, while [Toggl's current free plan](https://toggl.com/pricing) supports up to three users. A team should compare those caps before choosing a tool that later charges per seat.
 
 Those charges matter less when a freelancer invoices elsewhere or a small team needs only time logs. All five options below are ongoing free plans rather than trials.
 
@@ -71,7 +71,7 @@ It fits freelancers and teams of up to five that need shared time logs across pr
 
 {{< rating 4 >}}
 
-Toggl Track centers its workflow on a one-click timer across web, desktop, mobile, and browser extensions. Its free plan covers individuals and teams of up to five people.
+Toggl Track centers its workflow on a one-click timer across web, desktop, mobile, and browser extensions. Its current free plan covers individuals and teams of up to three people; existing accounts should check their own plan allowance.
 
 The free plan covers:
 - Unlimited time entries
@@ -160,7 +160,7 @@ Payment reminders and pay-from-invoice links are included, so a solo freelancer 
 | Tool | Users | Projects | Auto-tracking | Invoicing | Best for |
 |------|-------|----------|--------------|-----------|----------|
 | Clockify | ⚠️ 5 max | ✅ Unlimited | ✅ Yes | ❌ No | Small teams, multi-project freelancers |
-| Toggl Track | ⚠️ 5 max | ✅ Unlimited | ⚠️ Suggestions only | ❌ No | Solo freelancers, clean interface |
+| Toggl Track | ⚠️ 3 max | ✅ Unlimited | ⚠️ Suggestions only | ❌ No | Solo freelancers, clean interface |
 | RescueTime Lite | ✅ 1 (desktop) | Auto-detected | ✅ Yes | ❌ No | Two-week productivity review |
 | TimeCamp | ✅ Unlimited | ✅ Top-level only | ✅ Yes | ❌ No | Larger teams with simple project lists |
 | Harvest | ⚠️ 1 seat | ⚠️ 2 active | ❌ No | ✅ Full | Solo freelancer who invoices from tracked time |
@@ -178,7 +178,9 @@ Every paid plan here is priced per user, so the jump is smallest for a solo trac
 | Toggl Track | Starter | $9 per user a month billed yearly, $12 monthly | Billable rates, revenue and team reports, project time estimates |
 | RescueTime | Solo Focus | $7 a month billed yearly, $9 monthly | Focus Sessions with distraction blocking, goals and alerts; Solo+ at $12 adds timesheets |
 | TimeCamp | Starter | $3.99 per user a month billed yearly, $5.49 monthly | Unlimited tasks, invoicing, attendance and time off, Excel exports |
-| Harvest | Teams | $9 per seat a month billed yearly, $11 monthly | Unlimited seats and projects, team reports |
+| Harvest | Teams | From $9 per seat a month billed yearly, $11 monthly | Unlimited seats, team reports; additional projects and other usage cost extra |
+
+Harvest's [current pricing](https://www.getharvest.com/pricing), checked on October 26, 2026, charges for additional projects, clients, tasks, and invoices beyond the base plan.
 
 Clockify counts every active or invited person on the team page as a paid seat, owner included, so a five-person free workspace becomes five seats at once.
 
@@ -189,6 +191,6 @@ For teams running multiple concurrent projects, Clockify can sit alongside [free
 
 ## Separate time capture from billing
 
-Keeping the timer and the invoice in separate free tools scales further than an all-in-one free plan. **Harvest** combines both, but only for one seat and two active projects, while **Clockify** or **Toggl Track** plus a free invoicing app holds up to five people. At the sixth person, those two start charging per seat, and **TimeCamp**'s uncapped but flat project list becomes the free alternative.
+Keeping the timer and the invoice in separate free tools scales further than an all-in-one free plan. **Harvest** combines both, but only for one seat and two active projects. A separate invoicing app lets **Clockify** cover up to five people or **Toggl Track** up to three. Beyond those caps, **TimeCamp**'s uncapped but flat project list remains a free option.
 
 Shift scheduling and leave sit in HR tools instead; Homebase, in the [free HR software guide](/business/free-hr-software/), combines scheduling and time tracking on one free plan.

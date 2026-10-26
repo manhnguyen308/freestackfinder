@@ -200,9 +200,11 @@ If none of those apply, a free tool covers the job. When one does, the first upg
 | Manager | Cloud Edition, $59 a month | Browser access, simultaneous users with permissions, automatic backups | No per-user or per-business fees |
 | GnuCash | None | Every feature is in the free download | None |
 | QuickBooks Online | Simple Start, $38 a month | Unlimited invoices and receipt capture, access for two accountants | Essentials $85, Plus $140 with inventory and projects, Advanced $340 |
-| Xero | Early, $25 a month, rising to $27 on October 1, 2026 | 20 invoices and 5 bills a month, bank reconciliation, 1099 management | Growing, $55 a month and $59 from October 1, without those caps |
+| Xero | Early, $27 a month | 20 invoices and 5 bills a month, bank reconciliation, 1099 management | Growing, $59 a month, without those caps |
 
-QuickBooks has also added a [free plan](https://quickbooks.intuit.com/online/free/). It allows one user, one bank account, and two invoices and two receipt uploads a month, with no accountant access, so it covers a business that bills a client or two rather than replacing Wave's unlimited invoices.
+Xero's row reflects its [US list prices](https://www.xero.com/us/pricing-plans/) checked on October 26, 2026, after the October 1 increase.
+
+QuickBooks has also added a [free plan](https://quickbooks.intuit.com/online/free/). It allows one user, one bank account, and two invoices and two receipt uploads a month, with no accountant access. Qualifying accounts that enable [QuickBooks Payments](https://quickbooks.intuit.com/pricing/) can send unlimited invoices, though payment processing carries fees. The two-invoice cap otherwise makes it suitable for very low-volume billing.
 
 
 ## Choose the handoff format before the ledger

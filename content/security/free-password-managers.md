@@ -95,9 +95,9 @@ The ten included aliases can keep a primary email address out of routine sign-up
 
 {{< rating 2.5 >}}
 
-NordPass gives free users unlimited password storage, end-to-end encryption, a password health checker, browser extensions, and mobile apps.
+NordPass gives free users unlimited password storage, end-to-end encryption, browser extensions, and mobile apps.
 
-The account synchronizes data across installed devices, but only one device can have an active session on the free plan. NordPass confirms that limit in its [Free and Premium comparison](https://support.nordpass.com/hc/en-us/articles/360006700458-Premium-vs-Free-version-of-NordPass). Password sharing and emergency access require paid plans.
+The account synchronizes data across installed devices, but only one device can have an active session on the free plan. NordPass confirms that limit in its [Free and Premium comparison](https://support.nordpass.com/hc/en-us/articles/360006700458-Premium-vs-Free-version-of-NordPass). Password Health, password sharing, and emergency access require Premium.
 
 NordPass fits users who mainly access passwords from one device and want guided setup. The one-active-device constraint becomes a daily problem when both a phone and laptop need access.
 

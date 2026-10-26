@@ -132,7 +132,7 @@ ONLYOFFICE is worth considering when Excel compatibility is the decision point. 
 - Available on web, Windows, macOS, and Linux desktop apps
 
 The practical limit is setup and scale:
-- Cloud free tier has storage and user limits
+- Cloud Startup has 2GB of storage, three admins, and 12 rooms; users and guests are unlimited
 - Self-hosting requires server setup and maintenance
 - Smaller community than LibreOffice or Google Sheets
 - Fewer templates and add-ons than Google Sheets
@@ -196,9 +196,11 @@ Staying on Excel has two price points, and each alternative has its own paid ste
 | Microsoft Excel | Office Home 2024 | $179.99 once | Desktop Excel, Word, and PowerPoint on one PC or Mac, without cloud storage |
 | Google Sheets | Workspace Business Starter | $7 per user a month | Custom-domain email, 30 GB of pooled storage per user, admin controls; Gemini beyond Gmail starts on Business Standard at $14 |
 | LibreOffice Calc | None | Free | The whole suite is free and open source |
-| Zoho Sheet | Zoho Workplace Standard | $3 per user a month billed yearly, $4 monthly | Sheet alongside custom-domain mail and 100 GB of team file storage |
-| ONLYOFFICE | DocSpace Business | $30 per admin a month at list price | Unlimited rooms, 250 GB of storage per admin, SSO, professional support; users and guests stay free |
+| Zoho Sheet | Zoho Workplace Standard | $3 per user a month billed yearly, $4 monthly | Sheet alongside custom-domain mail; 100 GB of team file storage for 3 to 10 users, or 10 GB per user for smaller teams |
+| ONLYOFFICE | DocSpace Business | $20 per admin a month at list price | Unlimited rooms, 250 GB of storage per admin, SSO, professional support; users and guests stay free |
 | Airtable | Team | $20 per seat a month billed yearly | 50,000 records per base, 25,000 automation runs, Gantt and timeline views |
+
+The [ONLYOFFICE rate](https://www.onlyoffice.com/pricing) and [Zoho storage allowance](https://www.zoho.com/workplace/pricing.html) above were checked on October 26, 2026.
 
 For one person who only needs desktop Excel, the one-time Office Home 2024 license costs less than two years of Microsoft 365 Personal, but it includes no OneDrive storage beyond the free allowance and no Copilot.
 

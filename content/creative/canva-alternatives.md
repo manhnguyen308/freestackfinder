@@ -107,7 +107,7 @@ The free account can also open Adobe's content calendar, where a draft post sat 
 
 {{< screenshot src="/img/screenshots/canva-alternatives/adobe-express-scheduling.png" alt="Adobe Express personal content calendar for September 2026 with a draft post on September 30" caption="The free account's content calendar shows a draft post on September 30, with options to schedule recent work and manage connections." >}}
 
-The gaps compared to Canva Pro are intentional. The deeper brand-management tools, bulk resize, stronger publishing controls, the full premium asset library, and unlimited access to Adobe's more advanced AI and editing features all sit on paid plans. Adobe Express does not offer as many paid tools as Canva, but the free version fits solo creators, students, and small businesses making social graphics, flyers, simple promos, and presentation visuals.
+The gaps compared to Canva Pro are intentional. The deeper brand-management tools, bulk resize, stronger publishing controls, the full premium asset library, higher AI allowances, and advanced editing features sit on paid plans. Adobe Express does not offer as many paid tools as Canva, but the free version fits solo creators, students, and small businesses making social graphics, flyers, simple promos, and presentation visuals.
 
 Brand tools are one of those paid pieces. Our free account could name a brand, but its Brands page said "You'll need to upgrade to use Brands."
 

@@ -71,7 +71,7 @@ None of the four is a general replacement for every account. The constraint to c
 
 {{< rating 3 >}}
 
-Buffer publishes from a queue: you set posting times, and posts fill them in order. Its [Free plan](https://buffer.com/pricing) supports three channels, ten queued posts per channel, one user, and basic analytics.
+Buffer publishes from a queue: you set posting times, and posts fill them in order. Its [Free plan](https://buffer.com/pricing) supports three channels, ten queued posts per channel, one user, basic analytics, and a Community inbox for responding to comments.
 
 The no-cost plan gives you:
 - Connect up to 3 social channels (mix of Facebook, Instagram, X, LinkedIn, Pinterest, TikTok, YouTube, Mastodon)
@@ -85,7 +85,6 @@ The limits are mostly about volume and teamwork:
 - Each channel's queue stops at 10 scheduled posts; a slot opens after a post publishes
 - No team collaboration or user roles (paid feature)
 - Advanced analytics and reporting require a paid plan
-- Engagement inbox (responding to comments) is a paid feature
 - Campaign tracking and more detailed analytics require an upgrade
 
 The free plan suits one person managing a handful of channels who mainly needs posts to publish on schedule; client approvals, user roles, and presentation-ready reports are not included. If your main problem is remembering to publish every day, that simplicity matters more than advanced analytics.
@@ -125,7 +124,7 @@ The free plan is less suitable when LinkedIn, X, or frequent publishing is centr
 
 {{< rating 2.5 >}}
 
-Later plans posts on a visual drag-and-drop calendar rather than a queue. It started with Instagram and now covers TikTok, Pinterest, Facebook, X, and LinkedIn, but its real strength is still visual planning for image and video-heavy accounts.
+Later plans posts on a visual drag-and-drop calendar rather than a queue. Its current supported platforms are Instagram, Facebook, Threads, Pinterest, TikTok, LinkedIn, YouTube, and Snapchat, but its real strength is still visual planning for image and video-heavy accounts.
 
 The [current Free plan](https://help.later.com/hc/en-us/articles/360059362253-Choose-a-Later-Social-Plan) includes limited scheduling, a calendar that shows two weeks into the past and future, a customizable Link in Bio page, and introductory analytics. Later tells users to check the Subscription screen for their exact allowance.
 

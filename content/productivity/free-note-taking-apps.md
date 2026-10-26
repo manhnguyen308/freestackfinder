@@ -45,7 +45,7 @@ The easiest way to choose is by the first action you take most often. Capturing 
 Keep's color-coded cards are built for notes that are short and temporary, with reminders, labels, and direct Google Docs export. The free app gives you:
 - Unlimited notes
 - Notes, lists, voice memos, and image notes
-- Reminders and location-based alerts
+- Timed reminders saved to Google Tasks
 - Labels and color coding for organization
 - Collaborative notes: share and co-edit with others
 - Syncs instantly across Android, iOS, and web
@@ -61,7 +61,7 @@ The trade-off is structure. Keep is not built for a research archive or a long-t
 
 Keep pays off when notes start on a phone and end up in Gmail, Docs, Calendar, or Drive. Students, meeting-heavy workers, and people who capture reminders on the move get the most value from it.
 
-The Android widget supports one-tap voice or text capture without digging through menus. Location reminders can also attach a note to a place.
+The Android widget supports one-tap voice or text capture without digging through menus. [Keep reminders now save to Google Tasks](https://support.google.com/tasks/answer/16540694?hl=en-GB), and location-based reminders are no longer available. Mobile reminder notifications require the Tasks or Calendar app.
 
 [Try Google Keep →](https://keep.google.com)
 

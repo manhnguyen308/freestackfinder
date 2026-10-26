@@ -177,11 +177,11 @@ Several team plans are sold in packs or with seat minimums, so the cheapest per-
 | Passbolt | Pro Edition, self-hosted | $4.90 per user a month billed yearly, 10-user minimum | Tags, LDAP provisioning, and other Pro features on your server |
 | Passbolt | Cloud | $5.40 per user a month billed monthly, 10-user minimum | Hosting in Belgium and Germany with a yearly database backup |
 | KeePassXC | None | Free | Sharing depends on a synced vault file, not a paid plan |
-| 1Password | Teams Starter Pack | $24.95 a month billed yearly for up to 10 members | Role-based permissions, security alerts, onboarding help |
+| 1Password | Teams Starter Pack | $2.49 per user a month billed yearly, 10-user minimum, up to 20 users | Role-based permissions, security alerts, onboarding help |
 | NordPass | Teams | $1.79 per user a month on a two-year plan, sold as a 10-user pack | Password sharing, MFA, Google Workspace SSO |
 | Dashlane | Omnix Password Management | $8 per user a month billed yearly | Password policies, SSO and SCIM integration |
 
-For a five-person team, Bitwarden Teams costs $20 a month billed yearly. Passbolt and NordPass Teams bill for ten seats whether or not all are used, and 1Password's starter pack is a flat $24.95.
+For a five-person team, Bitwarden Teams costs $20 a month billed yearly. Passbolt and NordPass Teams bill for ten seats whether or not all are used. The [1Password rate](https://1password.com/pricing/business), checked on October 26, 2026, also has a ten-user minimum, so its minimum bill is $24.90 a month billed yearly. Additional users cost $2.49 each per month, up to twenty users total.
 
 For teams that already use, or are considering, a VPN for secure remote access, NordPass Business is worth evaluating alongside NordVPN. It offers admin controls, shared vaults, and user provisioning from the same Nord Security account.
 
